@@ -1,0 +1,14 @@
+metaprops https://github.com/allenwb/ESideas/blob/HEAD/ES7MetaProps.m
+defensible-classes https://web.archive.org/web/20160804042547/http://wiki.ecmascript.org/doku.php?id=strawman:defensible_classe
+bind-syntax https://github.com/tc39/proposal-bind-operato
+func-expr-decorators https://goo.gl/8MmCM
+method-param-decorators https://goo.gl/r1XT9
+nested-imports https://github.com/benjamn/reify/blob/HEAD/PROPOSAL.m
+ortho https://github.com/erights/Orthogonal-Classe
+is-callable-is-constructor https://github.com/caitp/TC39-Proposals/blob/HEAD/tc39-reflect-isconstructor-iscallable.m
+relationships https://web.archive.org/web/20160804042554/http://wiki.ecmascript.org/doku.php?id=strawman:relationship
+clone https://github.com/dslomov/ecmascript-structured-clon
+object-shorthand-improvements https://github.com/rbuckton/proposal-shorthand-improvement
+as-patterns https://github.com/zkat/proposal-as-pattern
+string-trim-characters https://github.com/Kingwl/proposal-string-trim-character
+catch-guard https://github.com/wmsbill/proposal-catch-guard
