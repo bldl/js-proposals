@@ -13,8 +13,7 @@ def extractTitleAndLink(line):
     title = line[startTitle:endTitle]
     
     startLink = line.find("https://")
-    endLink = line.find("\n")
-    link = line[startLink:endLink]
+    link = line[startLink:]
     
     return (title, link)
 

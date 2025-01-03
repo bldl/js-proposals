@@ -1,6 +1,6 @@
 #source /home/kwal/Documents/code/tc39_proposals_project/.venv/bin/activate
 
-with open("Stage_1/linksStage1","r") as file:
+with open("Stage_3/linksStage3","r") as file:
     text = file.read()
 
 proposals = []
@@ -13,7 +13,8 @@ def extractTitleAndLink(line):
     title = line[startTitle:endTitle]
     
     startLink = line.find("https://")
-    link = line[startLink:]
+    endLink = line.find("\n")
+    link = line[startLink:endLink]
     
     return (title, link)
 
@@ -26,15 +27,15 @@ for line in text.split("\n"):
     else:
         proposal_notes.append(extractTitleAndLink(line))
         
-with open("Stage_1/proposals_S1.md", "w") as proposals_S1:
+with open("Stage_3/proposals_S3.md", "w") as proposals_S3:
     for title, link in proposals:
-        proposals_S1.write(f"{title} {link}\n")
+        proposals_S3.write(f"{title} {link}\n")
 
-with open("Stage_1/proposals_combined_S1.md", "w") as proposal_combined_S1:
+with open("Stage_3/proposals_combined_S3.md", "w") as proposal_combined_S3:
     for title, link in proposal_combined:
-        proposal_combined_S1.write(f"{title} {link}\n")
+        proposal_combined_S3.write(f"{title} {link}\n")
 
-with open("Stage_1/proposal_notes_S1.md", "w") as proposal_notes_S1:
+with open("Stage_3/proposal_notes_S3.md", "w") as proposal_notes_S3:
     for title, link in proposal_notes:
-        proposal_notes_S1.write(f"{title} {link}\n")
+        proposal_notes_S3.write(f"{title} {link}\n")
 

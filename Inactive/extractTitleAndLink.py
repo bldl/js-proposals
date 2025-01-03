@@ -1,6 +1,6 @@
 #source /home/kwal/Documents/code/tc39_proposals_project/.venv/bin/activate
 
-with open("Stage_1/linksStage1","r") as file:
+with open("Inactive/linksInactive","r") as file:
     text = file.read()
 
 proposals = []
@@ -26,15 +26,15 @@ for line in text.split("\n"):
     else:
         proposal_notes.append(extractTitleAndLink(line))
         
-with open("Stage_1/proposals_S1.md", "w") as proposals_S1:
+with open("Inactive/proposals_IA.md", "w") as proposals_IA:
     for title, link in proposals:
-        proposals_S1.write(f"{title} {link}\n")
+        proposals_IA.write(f"{title} {link}\n")
 
-with open("Stage_1/proposals_combined_S1.md", "w") as proposal_combined_S1:
+with open("Inactive/proposals_combined_IA.md", "w") as proposal_combined_IA:
     for title, link in proposal_combined:
-        proposal_combined_S1.write(f"{title} {link}\n")
+        proposal_combined_IA.write(f"{title} {link}\n")
 
-with open("Stage_1/proposal_notes_S1.md", "w") as proposal_notes_S1:
+with open("Inactive/proposal_notes_IA.md", "w") as proposal_notes_IA:
     for title, link in proposal_notes:
-        proposal_notes_S1.write(f"{title} {link}\n")
+        proposal_notes_IA.write(f"{title} {link}\n")
 
