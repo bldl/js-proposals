@@ -7,4 +7,19 @@ response = requests.get(url)
 data = response.json()
 file_content = base64.b64decode(data["content"]).decode("utf-8")
 
-print(file_content)
+print("first", first)
+print("last", last)
+
+proposalDetails = file_content[first:last]
+
+text = proposalDetails.splitlines()
+
+for n in text:
+    words = n.strip().split("|")
+    print(words[1], "\n")
+    title = words[1].split("][")
+    print(title)
+
+    
+
+
