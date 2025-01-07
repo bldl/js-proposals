@@ -13,5 +13,5 @@ with open("Finished/outputMD/apiResponse.md", "r") as file:
     fileContent = file.read()
 
 # Use the extractTitle function
-print(extractDetails(fileContent))
-#extractDetails(fileContent)
+#print(extractDetails(fileContent))
+extractDetails(fileContent)

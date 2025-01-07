@@ -38,15 +38,16 @@ def extractDetails(fileContent):
     #Extract proposal link
     proposalLink = extractProposalLink(fileContent)
 
-
     #first line contains table title and line. remove this  
     
-    return proposals[1:]
+    return proposals[2:]
 
 def extractTitle(words):
 
-        compoundTitle = words[1]
-        return compoundTitle
+    #TODO find a way to separate title and linkname 
+
+    compoundTitle = words[1]
+    return compoundTitle
 
 def filterTitles(stringTitle):
     global titles
@@ -77,8 +78,9 @@ def extractDate(words):
 def extractProposalLink(words):
     first = words.rindex("|")
 
-    links = words[first:].splitlines()
+    #TODO sort out the links so the links can be matched with the title
 
+    links = words[first:].splitlines()
     #print(links)
     
 
