@@ -5,7 +5,6 @@ with open("Finished/linksFinished","r") as file:
 
 proposals = []
 proposal_notes = []
-proposal_combined = []
 
 def extractTitleAndLink(line):
     startTitle = line.find("[") + 1
@@ -18,7 +17,6 @@ def extractTitleAndLink(line):
     return (title, link)
 
 for line in text.split("\n"):
-    proposal_combined.append(extractTitleAndLink(line))
 
     if "notes" not in line:
         proposals.append(extractTitleAndLink(line))
@@ -29,10 +27,6 @@ for line in text.split("\n"):
 with open("Finished/outputMD/proposals_F.md", "w") as proposals_F:
     for title, link in proposals:
         proposals_F.write(f"{title} {link}\n")
-
-with open("Finished/outputMD/proposals_combined_F.md", "w") as proposal_combined_F:
-    for title, link in proposal_combined:
-        proposal_combined_F.write(f"{title} {link}\n")
 
 with open("Finished/outputMD/proposal_notes_F.md", "w") as proposal_notes_F:
     for title, link in proposal_notes:

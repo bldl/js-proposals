@@ -1,4 +1,13 @@
-def extractTitle(fileContent):
+proposals = []
+titles = []
+authors = []
+champions = []
+dates = []
+proposalLinks = []
+notesLinks = []
+
+def extractDetails(fileContent):
+
     first = fileContent.index("|")
     last = fileContent.rindex("|")
 
@@ -6,22 +15,70 @@ def extractTitle(fileContent):
 
     text = proposalDetails.splitlines()
 
-    proposalTitles = []
-
     for n in text:    
         words = n.strip().split("|")
-        compoundTitle = words[1]
-        splitTitle = compoundTitle.split("][")
-        title = splitTitle[0]
 
-        stringTitle = title[2:]
+        #Extract title
+        stringTitle = extractTitle(words)
+        filterTitles(stringTitle)
 
-        if stringTitle[0] == "`":
-            stringTitle = stringTitle[1:len(stringTitle)-1]
-            proposalTitles.append(stringTitle)
-        else: 
-            proposalTitles.append(stringTitle)
+        #Extract author
+        stringAuthor = extractAuthor(words)
+
+        #Extract champion(s)
+        stringChampion = extractChampion(words)
+
+        #Extract date
+        stringDate = extractDate(words)
+
+    for i in range(len(titles)):
+        proposals.append((titles[i], authors[i], champions[i], dates[i]))
+
+
+    #Extract proposal link
+    proposalLink = extractProposalLink(fileContent)
+
 
     #first line contains table title and line. remove this  
+    
+    return proposals[1:]
 
-    return proposalTitles[2:]
+def extractTitle(words):
+
+        compoundTitle = words[1]
+        return compoundTitle
+
+def filterTitles(stringTitle):
+    global titles
+    if stringTitle[0] == "`":
+            stringTitle = stringTitle[1:len(stringTitle)-1]
+            titles.append(stringTitle)
+    else: 
+            titles.append(stringTitle)
+
+def extractAuthor(words):
+    global authors
+    author = words[2]
+    names = author.replace("<br />", ", ")
+    authors.append(names)
+
+def extractChampion(words):
+    global champions 
+    champion = words[3]
+    names = champion.replace("<br />", ", ")
+    champions.append(names)
+
+def extractDate(words):
+    global dates 
+    date = words[4]
+    extractedDate = ((date.split("][")[0])[2:])
+    dates.append(extractedDate)
+
+def extractProposalLink(words):
+    first = words.rindex("|")
+
+    links = words[first:].splitlines()
+
+    #print(links)
+    
+
