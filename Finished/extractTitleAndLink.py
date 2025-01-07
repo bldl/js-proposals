@@ -26,15 +26,15 @@ for line in text.split("\n"):
     else:
         proposal_notes.append(extractTitleAndLink(line))
         
-with open("Finished/proposals_F.md", "w") as proposals_F:
+with open("Finished/outputMD/proposals_F.md", "w") as proposals_F:
     for title, link in proposals:
         proposals_F.write(f"{title} {link}\n")
 
-with open("Finished/proposals_combined_F.md", "w") as proposal_combined_F:
+with open("Finished/outputMD/proposals_combined_F.md", "w") as proposal_combined_F:
     for title, link in proposal_combined:
         proposal_combined_F.write(f"{title} {link}\n")
 
-with open("Finished/proposal_notes_F.md", "w") as proposal_notes_F:
+with open("Finished/outputMD/proposal_notes_F.md", "w") as proposal_notes_F:
     for title, link in proposal_notes:
         proposal_notes_F.write(f"{title} {link}\n")
 
