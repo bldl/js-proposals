@@ -6,6 +6,9 @@ dates = []
 proposalLinks = {}
 notesLinks = {}
 
+'''
+This function extracts the details of the proposals from the file content
+'''
 def extractDetails(fileContent):
 
     global proposals
@@ -44,6 +47,9 @@ def extractDetails(fileContent):
     
     return proposals
 
+'''
+This function extracts the title of the proposals from the file content
+'''
 def extractTitle(words):
 
     #TODO find a way to separate title and linkname 
@@ -56,11 +62,19 @@ def extractTitle(words):
 
     #TODO do dictionary lookup of urls and match up according to titles
 
+'''
+This function extracts the author of the proposals from the file content 
+'''
+
 def extractAuthor(words):
     global authors
     author = words[2]
     names = author.replace("<br />", ", ")
     authors.append(names)
+
+'''
+This function extracts the champion of the proposals from the file content
+'''
 
 def extractChampion(words):
     global champions 
@@ -68,11 +82,19 @@ def extractChampion(words):
     names = champion.replace("<br />", ", ")
     champions.append(names)
 
+''' 
+This function extracts the date of the proposals from the file content
+'''
+
 def extractDate(words):
     global dates 
     date = words[4]
     extractedDate = ((date.split("][")[0])[2:])
     dates.append(extractedDate)
+
+''' 
+This function extracts the proposal link from the file content
+'''
 
 def extractProposalLink(words):
     global notesLinks
@@ -81,6 +103,8 @@ def extractProposalLink(words):
     first = words.rindex("|")
     links = words[first:].splitlines()
     
+    
+    #Sort links into notes and proposals
     for link in links:
 
         try: 
@@ -92,9 +116,9 @@ def extractProposalLink(words):
         except Exception:
             print("error with this link:", link) 
             
-        
-#return tuples of linkName and url
-#and add a dictionary key: value pair to the designated dictonary
+'''
+This function adds a link to the dictionary
+'''
 def addLinkToDict(words, dictToUpdate):
     
     link = words.split()
