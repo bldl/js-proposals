@@ -49,12 +49,10 @@ def extractTitle(words):
     #TODO find a way to separate title and linkname 
 
     compoundTitle = words[1]
+
+    titles.append(compoundTitle)
     
-    if compoundTitle[0] == "`":
-            compoundTitle = compoundTitle[1:len(compoundTitle)-1]
-            titles.append(compoundTitle)
-    else: 
-            titles.append(compoundTitle)
+    #TODO append to titles
 
 def extractAuthor(words):
     global authors
