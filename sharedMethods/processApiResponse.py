@@ -54,6 +54,8 @@ def extractTitle(words):
     
     #TODO append to titles
 
+    #TODO do dictionary lookup of urls and match up according to titles
+
 def extractAuthor(words):
     global authors
     author = words[2]
