@@ -3,10 +3,12 @@ titles = []
 authors = []
 champions = []
 dates = []
-proposalLinks = []
-notesLinks = []
+proposalLinks = {}
+notesLinks = {}
 
 def extractDetails(fileContent):
+
+    global proposals
 
     first = fileContent.index("|")
     last = fileContent.rindex("|")
@@ -36,7 +38,12 @@ def extractDetails(fileContent):
 
 
     #Extract proposal link
-    proposalLink = extractProposalLink(fileContent)
+    extractProposalLink(fileContent)
+
+    print(proposalLinks)
+    print("-----------------------------------------------")
+    print(notesLinks)
+
 
     #first line contains table title and line. remove this  
     
@@ -47,9 +54,11 @@ def extractTitle(words):
     #TODO find a way to separate title and linkname 
 
     compoundTitle = words[1]
+    #print(compoundTitle)
     return compoundTitle
 
 def filterTitles(stringTitle):
+
     global titles
     if stringTitle[0] == "`":
             stringTitle = stringTitle[1:len(stringTitle)-1]
@@ -76,11 +85,36 @@ def extractDate(words):
     dates.append(extractedDate)
 
 def extractProposalLink(words):
+    global notesLinks
+    global proposalLinks
+
     first = words.rindex("|")
-
-    #TODO sort out the links so the links can be matched with the title
-
     links = words[first:].splitlines()
-    #print(links)
     
+    for link in links:
+
+        try: 
+            if "notes" in link:
+                addLinkToDict(link, notesLinks)
+
+            else:            
+                addLinkToDict(link, proposalLinks)
+        except Exception:
+            print("error with this link:", link) 
+            
+        
+#return tuples of linkName and url
+#and add a dictionary key: value pair to the designated dictonary
+def addLinkToDict(words, dictToUpdate):
+    
+    link = words.split()
+    linkName = link[0].rstrip(":")
+    url = link[1]
+
+    dictToUpdate.update({linkName: url})
+
+    
+
+
+
 
