@@ -38,11 +38,11 @@ def extractDetails(fileContent):
     #TODO add links to proposals via dictionary.get(title)
 
     for i in range(len(titles)):
-        proposals.append((titles[i], authors[i], champions[i], dates[i]))
+        proposals.append({"title": titles[i], "author(s)": authors[i], "champion(s)": champions[i], "date": dates[i]})
 
     #first line contains table title and line. remove this  
     
-    return proposals[2:]
+    return proposals
 
 def extractTitle(words):
 
