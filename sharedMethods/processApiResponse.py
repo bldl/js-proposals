@@ -20,30 +20,25 @@ def extractDetails(fileContent):
     for n in text:    
         words = n.strip().split("|")
 
-        #Extract title
-        stringTitle = extractTitle(words)
-        filterTitles(stringTitle)
+        #Extract title and append to list 
+        extractTitle(words)
 
-        #Extract author
-        stringAuthor = extractAuthor(words)
+        #Extract author and append to list
+        extractAuthor(words)
 
-        #Extract champion(s)
-        stringChampion = extractChampion(words)
+        #Extract champion(s) and append to list 
+        extractChampion(words)
 
-        #Extract date
-        stringDate = extractDate(words)
+        #Extract date and append to list 
+        extractDate(words)
+
+    #Extract proposal link and append to list 
+    extractProposalLink(fileContent)
+
+    #TODO add links to proposals via dictionary.get(title)
 
     for i in range(len(titles)):
         proposals.append((titles[i], authors[i], champions[i], dates[i]))
-
-
-    #Extract proposal link
-    extractProposalLink(fileContent)
-
-    print(proposalLinks)
-    print("-----------------------------------------------")
-    print(notesLinks)
-
 
     #first line contains table title and line. remove this  
     
@@ -54,17 +49,12 @@ def extractTitle(words):
     #TODO find a way to separate title and linkname 
 
     compoundTitle = words[1]
-    #print(compoundTitle)
-    return compoundTitle
-
-def filterTitles(stringTitle):
-
-    global titles
-    if stringTitle[0] == "`":
-            stringTitle = stringTitle[1:len(stringTitle)-1]
-            titles.append(stringTitle)
+    
+    if compoundTitle[0] == "`":
+            compoundTitle = compoundTitle[1:len(compoundTitle)-1]
+            titles.append(compoundTitle)
     else: 
-            titles.append(stringTitle)
+            titles.append(compoundTitle)
 
 def extractAuthor(words):
     global authors
