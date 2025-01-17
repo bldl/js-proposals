@@ -114,6 +114,8 @@ def extractProposalLink(words):
 
             else:            
                 addLinkToDict(link, proposalLinks)
+
+        #log error message 
         except Exception:
             print("error with this link:", link) 
             
