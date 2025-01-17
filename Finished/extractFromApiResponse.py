@@ -14,10 +14,10 @@ with open("Finished/outputMD/apiResponse.md", "r") as file:
 
 # Use the extractTitle function
 
-extractDetails(fileContent)
+extractResults = extractDetails(fileContent)
 
-results = extractDetails(fileContent)
-
-for each in results:
-    print(each)
+with open("Finished/outputMD/apiResults.md", "w") as results:
+    for each in extractResults:
+        if "error with this link:" not in each:
+            results.write(str(each) + "\n")
 

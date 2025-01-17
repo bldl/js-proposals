@@ -9,7 +9,6 @@ notesLinks = {}
 '''
 This function extracts the details of the proposals from the file content
 
-TODO: remove extra space from fields
 '''
 def extractDetails(fileContent):
 
@@ -30,7 +29,6 @@ def extractDetails(fileContent):
 
         #Extract author and append to list
         extractAuthor(words)
-        print(authors)
 
         #Extract champion(s) and append to list 
         extractChampion(words)
