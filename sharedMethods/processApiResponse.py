@@ -8,6 +8,8 @@ notesLinks = {}
 
 '''
 This function extracts the details of the proposals from the file content
+
+TODO: remove extra space from fields
 '''
 def extractDetails(fileContent):
 
@@ -28,6 +30,7 @@ def extractDetails(fileContent):
 
         #Extract author and append to list
         extractAuthor(words)
+        print(authors)
 
         #Extract champion(s) and append to list 
         extractChampion(words)
@@ -54,7 +57,7 @@ def extractTitle(words):
 
     #TODO find a way to separate title and linkname 
 
-    compoundTitle = words[1]
+    compoundTitle = words[1].strip()
 
     titles.append(compoundTitle)
     
@@ -68,7 +71,7 @@ This function extracts the author of the proposals from the file content
 
 def extractAuthor(words):
     global authors
-    author = words[2]
+    author = words[2].strip()
     names = author.replace("<br />", ", ")
     authors.append(names)
 
@@ -78,7 +81,7 @@ This function extracts the champion of the proposals from the file content
 
 def extractChampion(words):
     global champions 
-    champion = words[3]
+    champion = words[3].strip()
     names = champion.replace("<br />", ", ")
     champions.append(names)
 
@@ -88,8 +91,8 @@ This function extracts the date of the proposals from the file content
 
 def extractDate(words):
     global dates 
-    date = words[4]
-    extractedDate = ((date.split("][")[0])[2:])
+    date = words[4].strip()
+    extractedDate = ((date.split("][")[0])[1:])
     dates.append(extractedDate)
 
 ''' 

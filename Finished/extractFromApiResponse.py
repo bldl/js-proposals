@@ -13,5 +13,11 @@ with open("Finished/outputMD/apiResponse.md", "r") as file:
     fileContent = file.read()
 
 # Use the extractTitle function
-print(extractDetails(fileContent))
-#extractDetails(fileContent)
+
+extractDetails(fileContent)
+
+results = extractDetails(fileContent)
+
+for each in results:
+    print(each)
+
