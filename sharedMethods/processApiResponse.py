@@ -3,6 +3,9 @@ titles = []
 authors = []
 champions = []
 dates = []
+
+#TODO collect commit date
+commitDate = []
 proposalLinks = {}
 notesLinks = {}
 
