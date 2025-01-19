@@ -2,6 +2,7 @@ import re
 
 proposals = []
 titles = []
+linkTitles = []
 authors = []
 champions = []
 dates = []
@@ -24,7 +25,9 @@ def extractDetails(fileContent):
 
     proposalDetails = fileContent[first:last]
 
-    text = proposalDetails.splitlines()
+    textRaw = proposalDetails.splitlines()
+
+    text = textRaw[2:]
 
     for n in text:    
         words = n.strip().split("|")
@@ -47,7 +50,7 @@ def extractDetails(fileContent):
     #TODO add links to proposals via dictionary.get(title)
 
     for i in range(len(titles)):
-        proposals.append({"title": titles[i], "author(s)": authors[i], "champion(s)": champions[i], "date": dates[i]})
+        proposals.append({"title": titles[i], "author(s)": authors[i], "champion(s)": champions[i], "date": dates[i], "link titles": linkTitles[i]})
 
     #first line contains table title and line. remove this  
     
@@ -58,30 +61,29 @@ This function extracts the title of the proposals from the file content
 '''
 def extractTitle(words):
 
-    
+    global titles
+    global linkTitles
+
+    extractedTitles = []
 
     #TODO find a way to separate title and linkname 
 
     compoundTitle = words[1].strip().split("[")
 
-    upperCasePattern = re.compile(r'[A-Z]')   
-    lowerCasePattern = re.compile(r'[a-z]') 
-
-    stringTitle = ""
-    linkTitle = ""
-
     for each in compoundTitle:
-        if upperCasePattern.search(each):
-            stringTitle = each[:-1]
-            
-        elif lowerCasePattern.search(each):
-            linkTitle = each[:-1]
+        if each != '':
+            extractedTitles.append(each[:-1])
 
-    titles.append((stringTitle, linkTitle))
+    titles.append(extractedTitles[0])
+    linkTitles.append(extractedTitles[1:])
+
     
-     
+    
+   
 
-    #titles.append(compoundTitle)
+
+
+    #titles.append((compoundTitle[1], compoundTitle[2]))
     
     #TODO append to titles
 
