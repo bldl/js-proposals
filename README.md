@@ -1,5 +1,7 @@
 # tc39_proposals_project
 
+20 credit z-inf project
+
 Student: Kai Waløen (UiB)
 
 Supervisor: Mikhail Barash (UiB)
