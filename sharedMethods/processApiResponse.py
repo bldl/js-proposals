@@ -9,6 +9,9 @@ dates = []
 
 #TODO collect commit date
 commitDate = []
+links = []
+noteLinks = []
+
 proposalLinks = {}
 notesLinks = {}
 
@@ -47,6 +50,8 @@ def extractDetails(fileContent):
     #Extract proposal link and append to list 
     extractProposalLink(fileContent)
 
+    matchLinkWithProposal(linkTitles, proposalLinks)
+
     #TODO add links to proposals via dictionary.get(title)
 
     for i in range(len(titles)):
@@ -77,18 +82,18 @@ def extractTitle(words):
     titles.append(extractedTitles[0])
     linkTitles.append(extractedTitles[1:])
 
+#TODO fix this
+
+def matchLinkWithProposal(linkTitles, proposalLinks):
+
+    #print(proposalLinks)
+
+    for titles in linkTitles:
+        for each in titles:
+            link = proposalLinks.get(each)
+            #print(link)
     
     
-   
-
-
-
-    #titles.append((compoundTitle[1], compoundTitle[2]))
-    
-    #TODO append to titles
-
-    #TODO do dictionary lookup of urls and match up according to titles
-
 '''
 This function extracts the author of the proposals from the file content 
 '''
