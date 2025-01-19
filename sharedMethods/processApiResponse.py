@@ -1,3 +1,5 @@
+import re
+
 proposals = []
 titles = []
 authors = []
@@ -56,11 +58,30 @@ This function extracts the title of the proposals from the file content
 '''
 def extractTitle(words):
 
+    
+
     #TODO find a way to separate title and linkname 
 
-    compoundTitle = words[1].strip()
+    compoundTitle = words[1].strip().split("[")
 
-    titles.append(compoundTitle)
+    upperCasePattern = re.compile(r'[A-Z]')   
+    lowerCasePattern = re.compile(r'[a-z]') 
+
+    stringTitle = ""
+    linkTitle = ""
+
+    for each in compoundTitle:
+        if upperCasePattern.search(each):
+            stringTitle = each[:-1]
+            
+        elif lowerCasePattern.search(each):
+            linkTitle = each[:-1]
+
+    titles.append((stringTitle, linkTitle))
+    
+     
+
+    #titles.append(compoundTitle)
     
     #TODO append to titles
 
