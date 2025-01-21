@@ -55,7 +55,7 @@ def extractDetails(fileContent):
     #TODO add links to proposals via dictionary.get(title)
 
     for i in range(len(titles)):
-        proposals.append({"title": titles[i], "author(s)": authors[i], "champion(s)": champions[i], "date": dates[i], "link titles": linkTitles[i]})
+        proposals.append({"title": titles[i], "author(s)": authors[i], "champion(s)": champions[i], "date": dates[i], "link titles": linkTitles[i], "gitHub link": links[i]})
 
     #first line contains table title and line. remove this  
     
@@ -97,11 +97,12 @@ def extractTitle(words):
 #TODO fix this
 
 def matchLinkWithProposal(linkTitles, proposalLinks):
-    print()
 
-#    for titles in linkTitles:
-#        for each in titles:
-#            print(each)
+    for each in linkTitles:
+        addBrackets = "[" + each + "]"
+        link = proposalLinks.get(addBrackets)
+        links.append(link)
+
     
     
 '''
