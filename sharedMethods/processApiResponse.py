@@ -68,30 +68,40 @@ def extractTitle(words):
 
     global titles
     global linkTitles
-
+ 
     extractedTitles = []
-
-    #TODO find a way to separate title and linkname 
 
     compoundTitle = words[1].strip().split("[")
 
     for each in compoundTitle:
-        if each != '':
-            extractedTitles.append(each[:-1])
+        # Preserve content with backticks, including brackets inside backticks
+        if "`" in each:
+            cleaned = each.strip()
+        else:
+            # Remove surrounding brackets and backticks outside backticks
+            cleaned = re.sub(r"[`\[,\]]", "", each).strip()
+            # Remove parentheses if not inside backticks
+            cleaned = re.sub(r"[()]", "", cleaned).strip()
 
-    titles.append(extractedTitles[0])
-    linkTitles.append(extractedTitles[1:])
+        # Remove any trailing `]` explicitly
+        cleaned = re.sub(r"]$", "", cleaned).strip()
+
+        cleaned = re.sub(r"`", "", cleaned).strip()
+
+        extractedTitles.append(cleaned)
+    
+    titles.append(extractedTitles[1])
+    linkTitles.append(extractedTitles[2])
+        
 
 #TODO fix this
 
 def matchLinkWithProposal(linkTitles, proposalLinks):
+    print()
 
-    #print(proposalLinks)
-
-    for titles in linkTitles:
-        for each in titles:
-            link = proposalLinks.get(each)
-            #print(link)
+#    for titles in linkTitles:
+#        for each in titles:
+#            print(each)
     
     
 '''
