@@ -3,6 +3,8 @@ import re
 proposals = []
 titles = []
 linkTitles = []
+noteTitles = []
+noteLinkTitles = []
 authors = []
 champions = []
 dates = []
@@ -10,7 +12,7 @@ dates = []
 #TODO collect commit date
 commitDate = []
 links = []
-noteLinks = []
+proposalNoteLinks = []
 
 proposalLinks = {}
 notesLinks = {}
@@ -36,7 +38,7 @@ def extractDetails(fileContent):
         words = n.strip().split("|")
 
         #Extract title and append to list 
-        extractTitle(words)
+        extractTitle(words, titles, linkTitles)
 
         #Extract author and append to list
         extractAuthor(words)
@@ -52,10 +54,12 @@ def extractDetails(fileContent):
 
     matchLinkWithProposal(linkTitles, proposalLinks)
 
-    #TODO add links to proposals via dictionary.get(title)
+    matchNoteLinkWithProposal(linkTitles, notesLinks)
+
+    #TODO add notelinks to proposals via dictionary.get(title)
 
     for i in range(len(titles)):
-        proposals.append({"title": titles[i], "author(s)": authors[i], "champion(s)": champions[i], "date": dates[i], "link titles": linkTitles[i], "gitHub link": links[i]})
+        proposals.append({"title": titles[i], "author(s)": authors[i], "champion(s)": champions[i], "date": dates[i], "link titles": linkTitles[i], "gitHub link": links[i], "gitHub note link": proposalNoteLinks[i]})
 
     #first line contains table title and line. remove this  
     
@@ -64,10 +68,7 @@ def extractDetails(fileContent):
 '''
 This function extracts the title of the proposals from the file content
 '''
-def extractTitle(words):
-
-    global titles
-    global linkTitles
+def extractTitle(words, saveTitlesIn, saveLinksIn):
  
     extractedTitles = []
 
@@ -90,11 +91,8 @@ def extractTitle(words):
 
         extractedTitles.append(cleaned)
     
-    titles.append(extractedTitles[1])
-    linkTitles.append(extractedTitles[2])
-        
-
-#TODO fix this
+    saveTitlesIn.append(extractedTitles[1])
+    saveLinksIn.append(extractedTitles[2])
 
 def matchLinkWithProposal(linkTitles, proposalLinks):
 
@@ -102,6 +100,12 @@ def matchLinkWithProposal(linkTitles, proposalLinks):
         addBrackets = "[" + each + "]"
         link = proposalLinks.get(addBrackets)
         links.append(link)
+
+def matchNoteLinkWithProposal(linkTitles, notesLinks):
+    for each in linkTitles:
+        formatEach = "[" + each + "-notes" + "]"
+        noteLink = notesLinks.get(formatEach)
+        proposalNoteLinks.append(noteLink)
 
     
     
