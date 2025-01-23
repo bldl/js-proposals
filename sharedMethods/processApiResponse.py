@@ -3,8 +3,8 @@ import re
 proposals = []
 titles = []
 linkTitles = []
-noteTitles = []
-noteLinkTitles = []
+
+#TODO make list of authors
 authors = []
 champions = []
 dates = []
@@ -55,8 +55,6 @@ def extractDetails(fileContent):
     matchLinkWithProposal(linkTitles, proposalLinks)
 
     matchNoteLinkWithProposal(linkTitles, notesLinks)
-
-    #TODO add notelinks to proposals via dictionary.get(title)
 
     for i in range(len(titles)):
         proposals.append({"title": titles[i], "author(s)": authors[i], "champion(s)": champions[i], "date": dates[i], "link titles": linkTitles[i], "gitHub link": links[i], "gitHub note link": proposalNoteLinks[i]})
