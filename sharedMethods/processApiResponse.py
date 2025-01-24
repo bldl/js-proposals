@@ -4,7 +4,7 @@ proposals = []
 titles = []
 linkTitles = []
 
-#TODO make list of authors
+#TODO make list of authors - is this necessary tho?
 authors = []
 champions = []
 dates = []
@@ -60,7 +60,7 @@ def extractDetails(fileContent):
         proposals.append({"title": titles[i], "author(s)": authors[i], "champion(s)": champions[i], "date": dates[i], "link titles": linkTitles[i], "gitHub link": links[i], "gitHub note link": proposalNoteLinks[i]})
 
     #first line contains table title and line. remove this  
-    
+
     return proposals
 
 '''
@@ -88,9 +88,13 @@ def extractTitle(words, saveTitlesIn, saveLinksIn):
         cleaned = re.sub(r"`", "", cleaned).strip()
 
         extractedTitles.append(cleaned)
-    
-    saveTitlesIn.append(extractedTitles[1])
-    saveLinksIn.append(extractedTitles[2])
+
+    try:
+        saveTitlesIn.append(extractedTitles[1])
+        saveLinksIn.append(extractedTitles[2])
+    except Exception:
+        print("error with title", extractedTitles) 
+
 
 def matchLinkWithProposal(linkTitles, proposalLinks):
 
