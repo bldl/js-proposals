@@ -138,8 +138,19 @@ This function extracts the date of the proposals from the file content
 def extractDate(words):
     global dates 
     date = words[4].strip()
+
     extractedDate = ((date.split("][")[0])[1:])
-    dates.append(extractedDate)
+
+    if "&nbsp;" in extractedDate:
+        splitDate = extractedDate.split("&nbsp;")
+        month = re.search(r"(\b[A-Z][a-z]*\b)", splitDate[0]).group()
+        date = re.search(r"(\d[0-9]+)", splitDate[1]).group()
+        finalDate = month + " " + date
+
+        dates.append(finalDate)
+
+    else:
+        dates.append(extractedDate)
 
 ''' 
 This function extracts the proposal link from the file content
