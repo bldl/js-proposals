@@ -13,7 +13,6 @@ dates = []
 commitDate = []
 links = []
 proposalNoteLinks = []
-
 proposalLinks = {}
 notesLinks = {}
 
