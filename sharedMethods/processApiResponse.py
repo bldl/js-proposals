@@ -60,7 +60,7 @@ def extractDetails(text, fileContent):
     matchNoteLinkWithProposal(linkTitles, notesLinks)
 
     for i in range(len(titles)):
-        proposals.append({"title": titles[i], "author(s)": authors[i], "champion(s)": champions[i], "date": dates[i], "link titles": linkTitles[i], "gitHub link": links[i], "gitHub note link": proposalNoteLinks[i]})
+        proposals.append({"title": "[["+titles[i]+"]]", "author(s)": authors[i], "champion(s)": champions[i], "date": dates[i], "link titles": linkTitles[i], "gitHub link": links[i], "gitHub note link": proposalNoteLinks[i]})
 
     #first line contains table title and line. remove this  
 
