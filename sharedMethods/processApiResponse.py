@@ -144,6 +144,9 @@ def extractDate(words):
     try:
         date = words[4].strip()
 
+        if "&nbsp;" in words[5].strip():
+            date = words[5].strip()
+
         extractedDate = ((date.split("][")[0])[1:])
 
         if "&nbsp;" in extractedDate:
