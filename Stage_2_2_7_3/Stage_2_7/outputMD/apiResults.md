@@ -1,0 +1,5 @@
+{'title': 'ShadowRealm', 'author(s)': 'Caridy Patiño, Jean-Francois Paradis', 'champion(s)': 'Dave Herman, Mark Miller, Caridy Patiño, Leo Balter, Rick Waldron, Chengzhong Wu', 'date': 'sub>[ShadowRealm', 'link titles': 'shadowrealm', 'gitHub link': None, 'gitHub note link': None}
+{'title': 'Math.sumPrecise', 'author(s)': 'Kevin Gibbons', 'champion(s)': 'Kevin Gibbons', 'date': 'sub>[Math.sumPrecise', 'link titles': 'math-sum', 'gitHub link': None, 'gitHub note link': None}
+{'title': 'Deferring Module Evaluation', 'author(s)': 'Yulia Startsev, Guy Bedford', 'champion(s)': 'Yulia Startsev, Guy Bedford, Nicolò Ribaudo', 'date': 'sub>[Testing plan', 'link titles': 'lazy-import', 'gitHub link': None, 'gitHub note link': None}
+{'title': 'Joint Iteration', 'author(s)': 'Michael Ficarra', 'champion(s)': 'Michael Ficarra', 'date': 'sub>[Testing plan', 'link titles': 'joint', 'gitHub link': None, 'gitHub note link': None}
+{'title': 'Iterator Sequencing', 'author(s)': 'Michael Ficarra', 'champion(s)': 'Michael Ficarra', 'date': 'question:', 'link titles': 'sequencing', 'gitHub link': None, 'gitHub note link': None}

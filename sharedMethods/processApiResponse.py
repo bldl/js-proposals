@@ -20,7 +20,7 @@ notesLinks = {}
 This function extracts the details of the proposals from the file content
 
 '''
-def extractDetails(fileContent):
+def prepText(fileContent):
 
     global proposals
 
@@ -32,6 +32,10 @@ def extractDetails(fileContent):
     textRaw = proposalDetails.splitlines()
 
     text = textRaw[2:]
+
+    return text
+
+def extractDetails(text, fileContent):
 
     for n in text:    
         words = n.strip().split("|")

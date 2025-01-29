@@ -1,16 +1,14 @@
-# Import extractTitle from processApiResponse
 from sharedMethods.processApiResponse import prepText, extractDetails
 
 # Open and read the file content
-with open("Stage_1/outputMD/apiResponse.md", "r") as file:
+with open("Stage_2_2_7_3/Stage_2_7/outputMD/delegatedApiResponse.md", "r") as file:
     fileContent = file.read()
 
-rawText = prepText(fileContent)
+text = prepText(fileContent)
 
-extractResults = extractDetails(rawText, fileContent)
+extractResults = extractDetails(text, fileContent)
 
-with open("Stage_1/outputMD/apiResults.md", "w") as results:
+with open("Stage_2_2_7_3/Stage_2_7/outputMD/apiResults.md", "w") as results:
     for each in extractResults:
         if "error with this link:" not in each:
             results.write(str(each) + "\n")
-

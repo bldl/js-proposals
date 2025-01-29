@@ -25,17 +25,17 @@ def delegateDetails(fileContent):
     stage2 = fileContent[stage2Title:nextTitle]
     stage2Extract.append(stage2)
 
-    with open("Stage_2_2_7_3/Stage_3/outputMD/apiResults.md", "w") as results:
+    with open("Stage_2_2_7_3/Stage_3/outputMD/delegatedApiResponse.md", "w") as results:
         for each in stage3Extract:
             if "error with this link:" not in each:
                 results.write(str(each) + "\n")
 
-    with open("Stage_2_2_7_3/Stage_2.7/outputMD/apiResults.md", "w") as results:
+    with open("Stage_2_2_7_3/Stage_2.7/outputMD/delegatedApiResponse.md", "w") as results:
         for each in stage2_7Extract:
             if "error with this link:" not in each:
                 results.write(str(each) + "\n")
 
-    with open("Stage_2_2_7_3/Stage_2/outputMD/apiResults.md", "w") as results:
+    with open("Stage_2_2_7_3/Stage_2/outputMD/delegatedApiResponse.md", "w") as results:
         for each in stage2Extract:
             if "error with this link:" not in each:
                 results.write(str(each) + "\n")
