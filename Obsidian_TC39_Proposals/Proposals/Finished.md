@@ -1,3 +1,5 @@
+#Finished 
+
 {'Title': '[[Promise.try]]', 'Author(s)': 'Jordan Harband', 'Champion(s)': 'Jordan Harband', 'Date': 'October 2024', 'Link Titles': 'try', 'GitHub Link': 'https://github.com/tc39/proposal-promise-try', 'GitHub Note Link': 'https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#promisetry-for-stage-4'}
 {'Title': '[[Sync Iterator helpers]]', 'Author(s)': 'Gus Caplan', 'Champion(s)': 'Michael Ficarra, Jonathan Keslin, Kevin Gibbons', 'Date': 'October 2024', 'Link Titles': 'iterator-helpers', 'GitHub Link': 'https://github.com/tc39/proposal-iterator-helpers', 'GitHub Note Link': 'https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-helpers-for-stage-4'}
 {'Title': '[[JSON Modules]]', 'Author(s)': 'Myles Borins, Sven Sauleau, Dan Clark, Daniel Ehrenberg', 'Champion(s)': 'Myles Borins, Sven Sauleau, Dan Clark, Daniel Ehrenberg', 'Date': 'October 2024', 'Link Titles': 'json-modules', 'GitHub Link': 'https://github.com/tc39/proposal-json-modules', 'GitHub Note Link': 'https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#import-attributes-and-json-modules-for-stage-4'}
