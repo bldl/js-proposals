@@ -18,7 +18,7 @@
       "query": "Stage2",
       "color": {
         "a": 1,
-        "rgb": 7801997
+        "rgb": 9051551
       }
     },
     {
@@ -29,7 +29,7 @@
       }
     },
     {
-      "query": "Stage2_7",
+      "query": "Stage_2_7",
       "color": {
         "a": 1,
         "rgb": 5397472
@@ -88,6 +88,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.1082687794659045,
+  "scale": 0.1345769099053435,
   "close": false
 }

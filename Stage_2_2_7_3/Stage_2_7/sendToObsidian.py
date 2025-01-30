@@ -26,7 +26,7 @@ for entry in data_list:
 
             with open(f"Obsidian_TC39_Proposals/Proposals/Stage 2.7 Proposals/{title}.md", "w") as proposals:
                 proposals.write(
-                    f"#Stage2\n"
+                    f"#Stage_2_7\n"
                     f"Authors: {authors}\n"
                     f"Champions: {champions}\n"
                     f"Date: {date}\n"

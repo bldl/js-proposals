@@ -1,4 +1,4 @@
-#Stage2
+#Stage_2_7
 Authors: Yulia Startsev, Guy Bedford
 Champions: Yulia Startsev, Guy Bedford, Nicolò Ribaudo
 Date: June 2024
