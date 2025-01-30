@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "749958da903fba99",
+    "type": "split",
+    "children": [
+      {
+        "id": "5cfba43692820752",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "845857ef1780de83",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "bd45f4c5bebb9bfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Proposals/Stage_2_7.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stage_2_7"
+            }
+          },
+          {
+            "id": "a005c56eb36baa99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Proposals/Stage_3.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stage_3"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "511c3e974a858140",
+    "type": "split",
+    "children": [
+      {
+        "id": "8415b7294e057a67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "309748987b51e6c5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "be670cc0b1347778",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Stage1",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5be668f3bf9f0af8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4be0bd39da1f29fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "17b03d432fe9b078",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df19a817504a98d1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Proposals/Finished Proposals/Finished Proposals.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Finished Proposals"
+            }
+          },
+          {
+            "id": "9e091819d5fe7658",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Proposals/Finished Proposals/Finished Proposals.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Finished Proposals"
+            }
+          },
+          {
+            "id": "6cc61818a6f9f3da",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "33bdf3e1fd68cb60",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "845857ef1780de83",
+  "lastOpenFiles": [
+    "Proposals/Stage_3.md",
+    "Proposals/Stage 3 Proposals/Error.isError.md",
+    "Proposals/Stage 3 Proposals/Atomics.pause.md",
+    "Proposals/Stage 3 Proposals/RegExp.escape.md",
+    "Proposals/Stage 3 Proposals/Redeclarable global eval-introduced vars.md",
+    "Proposals/Stage 3 Proposals/Dynamic Code Brand Checks.md",
+    "Proposals/Stage 3 Proposals/Uint8Array tofrom Base64.md",
+    "Proposals/Stage 3 Proposals/Time Zone Canonicalization.md",
+    "Proposals/Stage 3 Proposals/Source Phase Imports.md",
+    "Proposals/Stage 3 Proposals/Decorator Metadata.md",
+    "Proposals/Stage 3 Proposals/Float16 on TypedArrays, DataView, Math.f16round.md",
+    "Proposals/Stage 3 Proposals/Explicit Resource Management.md",
+    "Proposals/Stage 3 Proposals/Array.fromAsync.md",
+    "Proposals/Stage 3 Proposals/JSON.parse source text access.md",
+    "Proposals/Stage 3 Proposals/Decorators.md",
+    "Proposals/Stage 3 Proposals/Temporal.md",
+    "Proposals/Stage 3 Proposals/Legacy RegExp features in JavaScript.md",
+    "Proposals/Stage_2_7.md",
+    "Proposals/Stage 2.7 Proposals/Iterator Sequencing.md",
+    "Proposals/Stage 2.7 Proposals/Joint Iteration.md",
+    "Proposals/Stage 2.7 Proposals/Deferring Module Evaluation.md",
+    "Proposals/Stage 2.7 Proposals/Math.sumPrecise.md",
+    "Proposals/Stage 2.7 Proposals/ShadowRealm.md",
+    "Proposals/Stage_1.md",
+    "Proposals/Stage 1 Proposals/Extensions.md",
+    "Proposals/Stage 1 Proposals/Array.prototype.unique().md",
+    "RegExp Buffer Boundaries (/A, /z, ",
+    "RegExp Buffer Boundaries (/A, ",
+    "RegExp Buffer Boundaries (",
+    "Untitled",
+    "Change Types",
+    "Proposals",
+    "Change Types",
+    "Changes/API Changes",
+    "Changes/Semantic Changes",
+    "Changes/Syntactic Changes"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "Stage3",
+      "color": {
+        "a": 1,
+        "rgb": 14770272
+      }
+    },
+    {
+      "query": "Stage2",
+      "color": {
+        "a": 1,
+        "rgb": 7801997
+      }
+    },
+    {
+      "query": "Stage1",
+      "color": {
+        "a": 1,
+        "rgb": 2398519
+      }
+    },
+    {
+      "query": "Stage2_7",
+      "color": {
+        "a": 1,
+        "rgb": 5397472
+      }
+    },
+    {
+      "query": "Inactive",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "Finished",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "Stage0",
+      "color": {
+        "a": 1,
+        "rgb": 9119547
+      }
+    },
+    {
+      "query": "Semantic",
+      "color": {
+        "a": 1,
+        "rgb": 6152079
+      }
+    },
+    {
+      "query": "Syntactic",
+      "color": {
+        "a": 1,
+        "rgb": 12681955
+      }
+    },
+    {
+      "query": "API",
+      "color": {
+        "a": 1,
+        "rgb": 13230162
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -1.5,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.539613882688534,
+  "close": false
+}
