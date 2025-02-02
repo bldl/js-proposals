@@ -98,3 +98,5 @@ Stage2.7:
 
 Stage3:
 `python -m Stage_2_2_7_3.Stage_3.extractFromApiResponseStage3` then run sendToObsidian.py in /Stage_2_2_7_3/Stage_3
+
+Open obsidian file in Obsidian and see the graph!
