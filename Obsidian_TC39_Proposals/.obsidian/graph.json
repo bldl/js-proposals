@@ -43,7 +43,7 @@
       }
     },
     {
-      "query": "Finished",
+      "query": "Stage4",
       "color": {
         "a": 1,
         "rgb": 5419488
@@ -95,6 +95,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.31004523431978437,
-  "close": false
+  "scale": 0.3272682655166537,
+  "close": true
 }
