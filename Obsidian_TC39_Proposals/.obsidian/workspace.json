@@ -4,34 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5cfba43692820752",
+        "id": "801e7fdac51e5f21",
         "type": "tabs",
         "children": [
           {
-            "id": "56387bcd3e3f6b6b",
+            "id": "72796bbd3be52699",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
-              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
-            }
-          },
-          {
-            "id": "088fc715a4b8aa84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Proposals/Inactive Proposals/\"use module\".md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "\"use module\""
             }
           }
         ]
@@ -53,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -65,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Stage2_7",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 448.5
+    "width": 217.5
   },
   "right": {
     "id": "4be0bd39da1f29fc",
@@ -177,43 +161,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "56387bcd3e3f6b6b",
+  "active": "72796bbd3be52699",
   "lastOpenFiles": [
-    "Proposals/Inactive Proposals/\"use module\".md",
-    "\"use module\".md",
-    "Proposals/Inactive.md",
-    "Proposals/Stage 0 Proposals.md",
-    "Proposals/Stage 1 Proposals/Object pickomit.md",
-    "Proposals/Stage_3.md",
-    "Object pick/omit.md",
-    "Proposals/Stage 1 Proposals/DataView getset Uint8Clamped methods.md",
-    "Proposals/Stage_1.md",
-    "Proposals/Stage 1 Proposals/RegExp R Escape.md",
-    "Object pick",
-    "Proposals/Stage 2 Proposals/RegExp Buffer Boundaries (A, z, Z).md",
-    "RegExp Buffer Boundaries (/A, /z, /Z).md",
     "Proposals/Stage_2.md",
-    "Proposals/Finished Proposals/Object.values Object.entries.md",
-    "Proposals/Inactive Proposals/Math.signbit IEEE-754 sign bit.md",
-    "Object.values Object.entries.md",
-    "Proposals/Finished.md",
-    "Proposals/Finished Proposals/Array.prototype.includes.md",
-    "Proposals/Finished Proposals/Array.prototype.{flat,flatMap}.md",
-    "Proposals/Finished Proposals/Array Grouping.md",
-    "Proposals/Finished Proposals/WeakRefs.md",
-    "Proposals/Finished Proposals/dotat().md",
-    "Proposals/Stage 2 Proposals/\"Discard\" (void) Bindings.md",
-    "Proposals/Stage 1 Proposals/Module sync assert.md",
-    "Module sync assert.md",
-    "\"Discard\" (void) Bindings.md",
+    "Proposals/Stage_1.md",
+    "Proposals/Stage 1 Proposals/legacy-reflection.md",
+    "Proposals/Stage 2.7 Proposals/joint.md",
+    "Proposals/Stage_2_7.md",
+    "Proposals/Stage_3.md",
+    "Proposals/Stage 3 Proposals/is-error.md",
+    "Proposals/Stage 3 Proposals/atomics-pause.md",
+    "Proposals/Stage 3 Proposals/escape.md",
+    "Proposals/Stage 3 Proposals/redeclarable-global-eval-vars.md",
+    "Proposals/Stage 3 Proposals/dynamic-code-brand-checks.md",
+    "Proposals/Stage 3 Proposals/uint8array-base64.md",
+    "Proposals/Stage 3 Proposals/time-zone-canon.md",
+    "Proposals/Stage 3 Proposals/source-phase-imports.md",
+    "Proposals/Stage 3 Proposals/decorator-metadata.md",
+    "Proposals/Stage 3 Proposals/float16s.md",
+    "Proposals/Stage 3 Proposals/resource-management.md",
+    "Proposals/Stage 3 Proposals/from-async.md",
+    "Proposals/Stage 3 Proposals/json-parse-source.md",
+    "Proposals/Stage 3 Proposals/decorators.md",
+    "Proposals/Stage 3 Proposals/temporal.md",
+    "Proposals/Stage 3 Proposals/regexp-legacy.md",
+    "Proposals/Stage 2.7 Proposals/sequencing.md",
+    "Proposals/Stage 2.7 Proposals/lazy-import.md",
+    "Proposals/Stage 2.7 Proposals/math-sum.md",
+    "Proposals/Stage 2.7 Proposals/shadowrealm.md",
+    "Proposals/Inactive Proposals",
+    "Proposals/Stage 0 Proposals",
+    "Object pick",
     "Object.values",
     "RegExp Buffer Boundaries (/A, /z, ",
     "RegExp Buffer Boundaries (/A, ",
     "RegExp Buffer Boundaries (",
     "Untitled",
     "Change Types",
-    "Proposals",
-    "Change Types",
-    "Changes/API Changes"
+    "Proposals"
   ]
 }

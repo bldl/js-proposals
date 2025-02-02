@@ -18,13 +18,13 @@ for entry in data_list:
             "GitHub Note Link": github_note_link
         }:
 
-            title = title.strip("[[]]")
+            link_title = link_titles.strip("[[]]")
 
             invalid_chars = '\\/*?:"<>|'
             for char in invalid_chars:
-                title = title.replace(char, "")
+                link_titles = link_title.replace(char, "")
 
-            with open(f"Obsidian_TC39_Proposals/Proposals/Stage 1 Proposals/{title}.md", "w") as proposals:
+            with open(f"Obsidian_TC39_Proposals/Proposals/Stage 1 Proposals/{link_titles}.md", "w") as proposals:
                 proposals.write(
                     f"#Stage1\n"
                     f"Authors: {authors}\n"

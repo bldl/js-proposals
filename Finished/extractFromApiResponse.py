@@ -16,6 +16,7 @@ with open("Finished/outputMD/apiResults.md", "w") as results:
             results.write(str(each) + "\n")
 
 with open("Obsidian_TC39_Proposals/Proposals/Finished.md", "w") as results:
+    results.write("#Finished\n")
     for each in extractResults:
         if "error with this link:" not in each:
             results.write(str(each) + "\n")

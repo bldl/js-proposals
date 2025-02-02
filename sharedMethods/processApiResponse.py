@@ -3,8 +3,6 @@ import re
 proposals = []
 titles = []
 linkTitles = []
-
-#TODO make list of authors - is this necessary tho?
 authors = []
 champions = []
 dates = []
@@ -60,7 +58,7 @@ def extractDetails(text, fileContent):
     matchNoteLinkWithProposal(linkTitles, notesLinks)
 
     for i in range(len(titles)):
-        proposals.append({"Title": "[["+titles[i]+"]]", "Author(s)": authors[i], "Champion(s)": champions[i], "Date": dates[i], "Link Titles": linkTitles[i], "GitHub Link": links[i], "GitHub Note Link": proposalNoteLinks[i]})
+        proposals.append({"Title": titles[i], "Author(s)": authors[i], "Champion(s)": champions[i], "Date": dates[i], "Link Titles": "[["+linkTitles[i]+"]]", "GitHub Link": links[i], "GitHub Note Link": proposalNoteLinks[i]})
 
     #first line contains table title and line. remove this  
 

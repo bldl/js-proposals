@@ -1,4 +1,7 @@
 import ast
+import requests
+import base64
+from dotenv import load_dotenv
 
 with open("Finished/outputMD/apiResults.md", "r") as file:
     fileContent = file.readlines()
@@ -18,19 +21,29 @@ for entry in data_list:
             "GitHub Note Link": github_note_link
         }:
 
-            title = title.strip("[[]]")
+            link_title = link_titles.strip("[[]]")
 
             invalid_chars = '\\/*?:"<>|'
             for char in invalid_chars:
-                title = title.replace(char, "")
+                link_titles = link_title.replace(char, "")
 
-            with open(f"Obsidian_TC39_Proposals/Proposals/Finished Proposals/{title}.md", "w") as proposals:
+            #----------api call for readme------------------------
+            #githubReadme = f"https://api.github.com/repos/tc39/{github_link}/contents/README.md"
+            #response = requests.get(githubReadme, auth=(load_dotenv(USERNAME), load_dotenv(API_KEY)))
+            #data = response.json()
+            #file_content = base64.b64decode(data["content"]).decode("utf-8")
+#
+            #print(file_content)
+
+            #-----------------------------------------------------
+
+            with open(f"Obsidian_TC39_Proposals/Proposals/Finished Proposals/{link_titles}.md", "w") as proposals:
                 proposals.write(
                     f"#Finished\n"
+                    f"Title: {title}\n"
                     f"Authors: {authors}\n"
                     f"Champions: {champions}\n"
                     f"Date: {date}\n"
-                    f"Link Titles: {link_titles}\n"
                     f"GitHub Link: {github_link}\n"
                     f"GitHub Note Link: {github_note_link}\n"
                 )

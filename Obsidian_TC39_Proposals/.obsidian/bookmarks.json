@@ -1,0 +1,431 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1738332081620,
+      "items": [
+        {
+          "type": "graph",
+          "ctime": 1738331409748,
+          "title": "Stage Visualization",
+          "options": {
+            "collapse-filter": false,
+            "search": "",
+            "showTags": false,
+            "showAttachments": false,
+            "hideUnresolved": false,
+            "showOrphans": true,
+            "collapse-color-groups": false,
+            "colorGroups": [
+              {
+                "query": "Stage3",
+                "color": {
+                  "a": 1,
+                  "rgb": 14770272
+                }
+              },
+              {
+                "query": "Stage2",
+                "color": {
+                  "a": 1,
+                  "rgb": 9051551
+                }
+              },
+              {
+                "query": "Stage1",
+                "color": {
+                  "a": 1,
+                  "rgb": 2398519
+                }
+              },
+              {
+                "query": "Stage_2_7",
+                "color": {
+                  "a": 1,
+                  "rgb": 5397472
+                }
+              },
+              {
+                "query": "Inactive",
+                "color": {
+                  "a": 1,
+                  "rgb": 5431473
+                }
+              },
+              {
+                "query": "Finished",
+                "color": {
+                  "a": 1,
+                  "rgb": 5419488
+                }
+              },
+              {
+                "query": "Stage0",
+                "color": {
+                  "a": 1,
+                  "rgb": 9119547
+                }
+              },
+              {
+                "query": "Semantic",
+                "color": {
+                  "a": 1,
+                  "rgb": 6152079
+                }
+              },
+              {
+                "query": "Syntactic",
+                "color": {
+                  "a": 1,
+                  "rgb": 12681955
+                }
+              },
+              {
+                "query": "API",
+                "color": {
+                  "a": 1,
+                  "rgb": 13230162
+                }
+              },
+              {
+                "query": "Processed",
+                "color": {
+                  "a": 1,
+                  "rgb": 16579836
+                }
+              }
+            ],
+            "collapse-display": false,
+            "showArrow": false,
+            "textFadeMultiplier": -1.1,
+            "nodeSizeMultiplier": 1,
+            "lineSizeMultiplier": 1,
+            "collapse-forces": false,
+            "centerStrength": 0.518713248970312,
+            "repelStrength": 10,
+            "linkStrength": 1,
+            "linkDistance": 250,
+            "scale": 0.23186026322504122,
+            "close": true
+          }
+        }
+      ],
+      "title": "Stages"
+    },
+    {
+      "type": "graph",
+      "ctime": 1738332628269,
+      "title": "Finished",
+      "options": {
+        "collapse-filter": false,
+        "search": "Finished",
+        "showTags": false,
+        "showAttachments": false,
+        "hideUnresolved": false,
+        "showOrphans": true,
+        "collapse-color-groups": false,
+        "colorGroups": [
+          {
+            "query": "Stage3",
+            "color": {
+              "a": 1,
+              "rgb": 14770272
+            }
+          },
+          {
+            "query": "Stage2",
+            "color": {
+              "a": 1,
+              "rgb": 9051551
+            }
+          },
+          {
+            "query": "Stage1",
+            "color": {
+              "a": 1,
+              "rgb": 2398519
+            }
+          },
+          {
+            "query": "Stage_2_7",
+            "color": {
+              "a": 1,
+              "rgb": 5397472
+            }
+          },
+          {
+            "query": "Inactive",
+            "color": {
+              "a": 1,
+              "rgb": 5431473
+            }
+          },
+          {
+            "query": "Finished",
+            "color": {
+              "a": 1,
+              "rgb": 5419488
+            }
+          },
+          {
+            "query": "Stage0",
+            "color": {
+              "a": 1,
+              "rgb": 9119547
+            }
+          },
+          {
+            "query": "Semantic",
+            "color": {
+              "a": 1,
+              "rgb": 6152079
+            }
+          },
+          {
+            "query": "Syntactic",
+            "color": {
+              "a": 1,
+              "rgb": 12681955
+            }
+          },
+          {
+            "query": "API",
+            "color": {
+              "a": 1,
+              "rgb": 13230162
+            }
+          },
+          {
+            "query": "Processed",
+            "color": {
+              "a": 1,
+              "rgb": 16579836
+            }
+          }
+        ],
+        "collapse-display": true,
+        "showArrow": false,
+        "textFadeMultiplier": -1.1,
+        "nodeSizeMultiplier": 1,
+        "lineSizeMultiplier": 1,
+        "collapse-forces": true,
+        "centerStrength": 0.518713248970312,
+        "repelStrength": 10,
+        "linkStrength": 1,
+        "linkDistance": 250,
+        "scale": 0.1593462729513,
+        "close": false
+      }
+    },
+    {
+      "type": "graph",
+      "ctime": 1738333364900,
+      "title": "Semantic",
+      "options": {
+        "collapse-filter": false,
+        "search": "#Semantic",
+        "showTags": true,
+        "showAttachments": false,
+        "hideUnresolved": false,
+        "showOrphans": true,
+        "collapse-color-groups": false,
+        "colorGroups": [
+          {
+            "query": "Stage3",
+            "color": {
+              "a": 1,
+              "rgb": 14770272
+            }
+          },
+          {
+            "query": "Stage2",
+            "color": {
+              "a": 1,
+              "rgb": 9051551
+            }
+          },
+          {
+            "query": "Stage1",
+            "color": {
+              "a": 1,
+              "rgb": 2398519
+            }
+          },
+          {
+            "query": "Stage_2_7",
+            "color": {
+              "a": 1,
+              "rgb": 5397472
+            }
+          },
+          {
+            "query": "Inactive",
+            "color": {
+              "a": 1,
+              "rgb": 5431473
+            }
+          },
+          {
+            "query": "Finished",
+            "color": {
+              "a": 1,
+              "rgb": 5419488
+            }
+          },
+          {
+            "query": "Stage0",
+            "color": {
+              "a": 1,
+              "rgb": 9119547
+            }
+          },
+          {
+            "query": "Semantic",
+            "color": {
+              "a": 1,
+              "rgb": 6152079
+            }
+          },
+          {
+            "query": "Syntactic",
+            "color": {
+              "a": 1,
+              "rgb": 12681955
+            }
+          },
+          {
+            "query": "API",
+            "color": {
+              "a": 1,
+              "rgb": 13230162
+            }
+          },
+          {
+            "query": "Processed",
+            "color": {
+              "a": 1,
+              "rgb": 16579836
+            }
+          }
+        ],
+        "collapse-display": true,
+        "showArrow": false,
+        "textFadeMultiplier": -1.1,
+        "nodeSizeMultiplier": 1,
+        "lineSizeMultiplier": 1,
+        "collapse-forces": true,
+        "centerStrength": 0.518713248970312,
+        "repelStrength": 10,
+        "linkStrength": 1,
+        "linkDistance": 250,
+        "scale": 0.5619429670089547,
+        "close": false
+      }
+    },
+    {
+      "type": "graph",
+      "ctime": 1738333376126,
+      "title": "Syntactic",
+      "options": {
+        "collapse-filter": false,
+        "search": "#Syntactic",
+        "showTags": true,
+        "showAttachments": false,
+        "hideUnresolved": false,
+        "showOrphans": true,
+        "collapse-color-groups": false,
+        "colorGroups": [
+          {
+            "query": "Stage3",
+            "color": {
+              "a": 1,
+              "rgb": 14770272
+            }
+          },
+          {
+            "query": "Stage2",
+            "color": {
+              "a": 1,
+              "rgb": 9051551
+            }
+          },
+          {
+            "query": "Stage1",
+            "color": {
+              "a": 1,
+              "rgb": 2398519
+            }
+          },
+          {
+            "query": "Stage_2_7",
+            "color": {
+              "a": 1,
+              "rgb": 5397472
+            }
+          },
+          {
+            "query": "Inactive",
+            "color": {
+              "a": 1,
+              "rgb": 5431473
+            }
+          },
+          {
+            "query": "Finished",
+            "color": {
+              "a": 1,
+              "rgb": 5419488
+            }
+          },
+          {
+            "query": "Stage0",
+            "color": {
+              "a": 1,
+              "rgb": 9119547
+            }
+          },
+          {
+            "query": "Semantic",
+            "color": {
+              "a": 1,
+              "rgb": 6152079
+            }
+          },
+          {
+            "query": "Syntactic",
+            "color": {
+              "a": 1,
+              "rgb": 12681955
+            }
+          },
+          {
+            "query": "API",
+            "color": {
+              "a": 1,
+              "rgb": 13230162
+            }
+          },
+          {
+            "query": "Processed",
+            "color": {
+              "a": 1,
+              "rgb": 16579836
+            }
+          }
+        ],
+        "collapse-display": true,
+        "showArrow": false,
+        "textFadeMultiplier": -1.1,
+        "nodeSizeMultiplier": 1,
+        "lineSizeMultiplier": 1,
+        "collapse-forces": true,
+        "centerStrength": 0.518713248970312,
+        "repelStrength": 10,
+        "linkStrength": 1,
+        "linkDistance": 250,
+        "scale": 0.5619429670089547,
+        "close": false
+      }
+    }
+  ]
+}
