@@ -1,4 +1,4 @@
-#Stage_2_7
+#Stage_2_7Tag
 Title: Joint Iteration
 Authors: Michael Ficarra
 Champions: Michael Ficarra

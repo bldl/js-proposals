@@ -1,4 +1,4 @@
-#Inactive
+#InactiveTag
 {'Title': 'Callable class constructors', 'Author(s)': 'Yehuda Katz, Allen Wirfs-Brock', 'Champion(s)': 'Withdrawn: can be solved with decorators', 'Date': None, 'Link Titles': '[[callable-constructors]]', 'GitHub Link': 'https://github.com/tc39/ecma262/blob/93183b81cb03116b75019615d148b5f788e70edf/workingdocs/callconstructor.md', 'GitHub Note Link': None}
 {'Title': '{Set,Map}.prototype.toJSON', 'Author(s)': 'David Bruant, Jordan Harband', 'Champion(s)': 'Rejected: better solved by a custom replacer function.', 'Date': None, 'Link Titles': '[[collection-json]]', 'GitHub Link': 'https://github.com/DavidBruant/Map-Set.prototype.toJSON', 'GitHub Note Link': None}
 {'Title': 'Typed Objects', 'Author(s)': 'Till Schneidereit (previously [Dmitry Lomov, Niko Matsakis][typed-objects])', 'Champion(s)': 'Postponed: waiting for WebAssembly requirements to become clearer', 'Date': None, 'Link Titles': '[[typed-objects-new]]', 'GitHub Link': 'https://github.com/tschneidereit/proposal-typed-objects', 'GitHub Note Link': None}

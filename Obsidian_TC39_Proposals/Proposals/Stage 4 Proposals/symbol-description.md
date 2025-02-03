@@ -1,4 +1,4 @@
-#Stage4
+#Stage4Tag
 Title: Symbol.prototype.description
 Authors: Michael Ficarra
 Champions: Michael Ficarra

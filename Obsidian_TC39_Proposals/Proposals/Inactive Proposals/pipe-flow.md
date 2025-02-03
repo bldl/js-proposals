@@ -1,4 +1,4 @@
-#Inactive
+#InactiveTag
 Title: Function.pipe and flow
 Authors: Dave Herman
 Champions: Inactive; champion does not wish to pursue

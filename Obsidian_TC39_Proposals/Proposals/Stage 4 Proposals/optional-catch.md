@@ -1,4 +1,4 @@
-#Stage4
+#Stage4Tag
 Title: Optional catch binding
 Authors: Michael Ficarra
 Champions: Michael Ficarra

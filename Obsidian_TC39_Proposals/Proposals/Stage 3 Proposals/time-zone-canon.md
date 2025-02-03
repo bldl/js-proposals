@@ -1,4 +1,4 @@
-#Stage3
+#Stage3Tag
 Title: Time Zone Canonicalization
 Authors: Justin Grant
 Champions: Justin Grant, Richard Gibson

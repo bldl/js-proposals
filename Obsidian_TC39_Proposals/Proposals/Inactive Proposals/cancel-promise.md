@@ -1,4 +1,4 @@
-#Inactive
+#InactiveTag
 Title: Cancelable Promises
 Authors: Domenic Denicola
 Champions: Withdrawn

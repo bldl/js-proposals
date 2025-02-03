@@ -1,4 +1,4 @@
-#Inactive
+#InactiveTag
 Title: Distinguishing literal strings
 Authors: Mike West, Adam Klein
 Champions: Withdrawn: [Trusted Types](https://github.com/w3c/webappsec-trusted-types) no longer a dependent

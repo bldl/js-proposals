@@ -1,4 +1,4 @@
-#Stage3
+#Stage3Tag
 Title: Decorators
 Authors: Daniel Ehrenberg, Kristen Hewell Garrett
 Champions: Kristen Hewell Garrett

@@ -1,4 +1,4 @@
-#Stage4
+#Stage4Tag
 Title: Atomics.waitAsync
 Authors: Lars Hansen
 Champions: Shu-yu Guo, Lars Hansen

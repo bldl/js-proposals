@@ -1,4 +1,4 @@
-#Inactive
+#InactiveTag
 Title: %constructor%.construct
 Authors: James M Snell
 Champions: Withdrawn

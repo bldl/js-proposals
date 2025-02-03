@@ -1,4 +1,4 @@
-#Inactive
+#InactiveTag
 Title: Symbol.thenable
 Authors: J.S. Choi
 Champions: Withdrawn: [rejected for stage 1][pipe-flow-notes]

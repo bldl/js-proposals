@@ -1,4 +1,4 @@
-#Stage2
+#Stage2Tag
 Title: Symbol Predicates
 Authors: Robin Ricard, Jordan Harband
 Champions: Ashley Claymore, Jordan Harband

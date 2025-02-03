@@ -1,4 +1,4 @@
-#Stage2
+#Stage2Tag
 Title: String.dedent
 Authors: Misha Kaletsky, Hemanth HM, Justin Ridgewell
 Champions: Hemanth HM, Justin Ridgewell

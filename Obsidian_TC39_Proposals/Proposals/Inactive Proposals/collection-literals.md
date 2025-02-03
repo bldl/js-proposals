@@ -1,4 +1,4 @@
-#Inactive
+#InactiveTag
 Title: Tagged Collection Literals
 Authors: Kat Marchán
 Champions: Withdrawn: pursuing `when new` syntax and other alternatives

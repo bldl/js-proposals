@@ -1,4 +1,4 @@
-#Stage4
+#Stage4Tag
 Title: Promise.prototype.finally
 Authors: Jordan Harband
 Champions: Jordan Harband

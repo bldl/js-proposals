@@ -1,4 +1,4 @@
-#Stage2
+#Stage2Tag
 Title: JSON.parseImmutable
 Authors: Robin Ricard, Richard Button, Nicolò Ribaudo, Ashley Claymore
 Champions: Robin Ricard, Richard Button, Nicolò Ribaudo, Ashley Claymore

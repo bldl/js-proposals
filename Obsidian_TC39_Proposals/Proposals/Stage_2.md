@@ -1,4 +1,4 @@
-#Stage2
+#Stage2Tag
 {'Title': 'function.sent metaproperty', 'Author(s)': 'Allen Wirfs-Brock', 'Champion(s)': 'HE Shi-Jun', 'Date': 'July 2019', 'Link Titles': '[[function-sent]]', 'GitHub Link': 'https://github.com/tc39/proposal-function.sent', 'GitHub Note Link': 'https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#making-functionsent-inactive'}
 {'Title': 'throw expressions', 'Author(s)': 'Ron Buckton', 'Champion(s)': 'Ron Buckton', 'Date': 'February 2024', 'Link Titles': '[[throw-expressions]]', 'GitHub Link': 'https://github.com/tc39/proposal-throw-expressions', 'GitHub Note Link': 'https://github.com/tc39/notes/blob/main/meetings/2024-02/feb-8.md#throw-expressions-update-or-stage-27'}
 {'Title': 'Function implementation hiding', 'Author(s)': 'Domenic Denicola, Michael Ficarra', 'Champion(s)': 'Michael Ficarra', 'Date': 'June 2020', 'Link Titles': '[[censorship]]', 'GitHub Link': 'https://github.com/tc39/proposal-function-implementation-hiding', 'GitHub Note Link': 'https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-2.md#function-implementation-hiding-for-stage-3'}

@@ -1,4 +1,4 @@
-#Stage3
+#Stage3Tag
 Title: Legacy RegExp features in JavaScript
 Authors: Claude Pache
 Champions: Mark Miller, Claude Pache

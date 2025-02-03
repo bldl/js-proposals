@@ -1,4 +1,4 @@
-#Stage4
+#Stage4Tag
 Title: Function.prototype.toString revision
 Authors: Michael Ficarra
 Champions: Michael Ficarra

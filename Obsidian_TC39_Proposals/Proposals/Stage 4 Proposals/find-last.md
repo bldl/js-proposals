@@ -1,4 +1,4 @@
-#Stage4
+#Stage4Tag
 Title: Array find from last
 Authors: Wenlu Wang
 Champions: Wenlu Wang, Daniel Rosenwasser

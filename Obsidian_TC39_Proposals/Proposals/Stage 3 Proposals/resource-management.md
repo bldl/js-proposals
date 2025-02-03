@@ -1,4 +1,4 @@
-#Stage3
+#Stage3Tag
 Title: Explicit Resource Management
 Authors: Ron Buckton
 Champions: Ron Buckton

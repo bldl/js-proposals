@@ -1,4 +1,4 @@
-#Stage0
+#Stage0Tag
 {'Title': 'Additional metaproperties', 'Author(s)': 'Allen Wirfs-Brock', 'Champion(s)': 'Allen Wirfs-Brock', 'Date': '', 'Link Titles': '[[metaprops]]', 'GitHub Link': 'https://github.com/allenwb/ESideas/blob/HEAD/ES7MetaProps.md', 'GitHub Note Link': None}
 {'Title': 'Defensible Classes', 'Author(s)': 'Mark Miller, Doug Crockford', 'Champion(s)': 'Mark Miller, Doug Crockford', 'Date': '', 'Link Titles': '[[defensible-classes]]', 'GitHub Link': 'https://web.archive.org/web/20160804042547/http://wiki.ecmascript.org/doku.php?id=strawman:defensible_classes', 'GitHub Note Link': None}
 {'Title': 'Function bind syntax', 'Author(s)': 'Kevin Smith', 'Champion(s)': 'Brian Terlson, Matthew Podwysocki', 'Date': 'March 2015', 'Link Titles': '[[bind-syntax]]', 'GitHub Link': 'https://github.com/tc39/proposal-bind-operator', 'GitHub Note Link': None}

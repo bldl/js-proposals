@@ -1,4 +1,4 @@
-#Inactive
+#InactiveTag
 Title: Math Extensions
 Authors: Benjamin Coe
 Champions: Withdrawn; moved to `crypto.randomUUID()` in February 2023

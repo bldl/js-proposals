@@ -1,4 +1,4 @@
-#Stage4
+#Stage4Tag
 Title: Array.prototype.{flat,flatMap}
 Authors: Brian Terlson, Michael Ficarra, Mathias Bynens
 Champions: Brian Terlson, Michael Ficarra

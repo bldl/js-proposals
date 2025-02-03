@@ -1,4 +1,4 @@
-#Stage0
+#Stage0Tag
 Title: Object Shorthand Improvements
 Authors: Ron Buckton
 Champions: Ron Buckton

@@ -1,4 +1,4 @@
-#Stage2
+#Stage2Tag
 Title: "Discard" (void) Bindings
 Authors: Ron Buckton
 Champions: Ron Buckton

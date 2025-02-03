@@ -1,4 +1,4 @@
-#Stage2
+#Stage2Tag
 Title: Structs: Fixed Layout Objects and Some Synchronization Primitives
 Authors: Shu-yu Guo
 Champions: Shu-yu Guo

@@ -1,4 +1,4 @@
-#Stage4
+#Stage4Tag
 Title: Trailing commas in function parameter lists and calls
 Authors: Jeff Morrison
 Champions: Jeff Morrison

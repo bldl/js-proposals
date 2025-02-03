@@ -1,4 +1,4 @@
-#Inactive
+#InactiveTag
 Title: Dynamic Module Reform
 Authors: Caridy Patiño
 Champions: Withdrawn: we decided to preserve the current semantics

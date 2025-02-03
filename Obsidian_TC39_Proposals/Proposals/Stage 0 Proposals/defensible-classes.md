@@ -1,4 +1,4 @@
-#Stage0
+#Stage0Tag
 Title: Defensible Classes
 Authors: Mark Miller, Doug Crockford
 Champions: Mark Miller, Doug Crockford

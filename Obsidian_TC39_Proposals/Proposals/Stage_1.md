@@ -1,4 +1,4 @@
-#Stage1
+#Stage1Tag
 {'Title': 'export v from "mod"; statements', 'Author(s)': 'Lee Byron', 'Champion(s)': 'Ben Newman, John-David Dalton', 'Date': 'July 2017', 'Link Titles': '[[export-from]]', 'GitHub Link': 'https://github.com/tc39/proposal-export-default-from', 'GitHub Note Link': 'https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-27.md#export-default-from'}
 {'Title': 'Observable', 'Author(s)': 'Jafar Husain', 'Champion(s)': 'Jafar Husain, Mark Miller', 'Date': 'May 2017', 'Link Titles': '[[observable]]', 'GitHub Link': 'https://github.com/tc39/proposal-observable', 'GitHub Note Link': 'https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-25.md#17iiia-observable-proposal-to-stage-2'}
 {'Title': 'SES Secure EcmaScript', 'Author(s)': 'Mark Miller, Chip Morningstar, Caridy Patiño', 'Champion(s)': 'Mark Miller, Chip Morningstar, Caridy Patiño', 'Date': 'February 2020', 'Link Titles': '[[secure-ecmascript]]', 'GitHub Link': 'https://github.com/tc39/proposal-ses', 'GitHub Note Link': 'https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-6.md#ses-compartments'}

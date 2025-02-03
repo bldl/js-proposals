@@ -1,4 +1,4 @@
-#Stage4
+#Stage4Tag
 Title: Symbols as WeakMap keys
 Authors: Daniel Ehrenberg, Richard Button, Robin Ricard, Leo Balter, Rick Waldron, Caridy Patiño
 Champions: Daniel Ehrenberg, Richard Button, Robin Ricard, Leo Balter, Rick Waldron, Caridy Patiño

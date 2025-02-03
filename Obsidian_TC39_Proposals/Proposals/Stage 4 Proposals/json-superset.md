@@ -1,4 +1,4 @@
-#Stage4
+#Stage4Tag
 Title: JSON superset
 Authors: Richard Gibson
 Champions: Mark Miller, Mathias Bynens

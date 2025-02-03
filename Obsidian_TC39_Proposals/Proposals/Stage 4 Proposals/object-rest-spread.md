@@ -1,4 +1,4 @@
-#Stage4
+#Stage4Tag
 Title: Rest/Spread Properties
 Authors: Sebastian Markbåge
 Champions: Sebastian Markbåge

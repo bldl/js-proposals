@@ -1,4 +1,4 @@
-#Stage4
+#Stage4Tag
 Title: Array Grouping
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell, Jordan Harband

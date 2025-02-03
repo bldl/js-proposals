@@ -8,49 +8,49 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "Stage3",
+      "query": "Stage3Tag",
       "color": {
         "a": 1,
         "rgb": 14770328
       }
     },
     {
-      "query": "Stage2",
+      "query": "Stage2Tag",
       "color": {
         "a": 1,
         "rgb": 9051551
       }
     },
     {
-      "query": "Stage1",
+      "query": "Stage1Tag",
       "color": {
         "a": 1,
         "rgb": 2398519
       }
     },
     {
-      "query": "Stage_2_7",
+      "query": "Stage_2_7Tag",
       "color": {
         "a": 1,
         "rgb": 5397472
       }
     },
     {
-      "query": "Inactive",
+      "query": "InactiveTag",
       "color": {
         "a": 1,
         "rgb": 5431473
       }
     },
     {
-      "query": "Stage4",
+      "query": "Stage4Tag",
       "color": {
         "a": 1,
         "rgb": 5419488
       }
     },
     {
-      "query": "Stage0",
+      "query": "Stage0Tag",
       "color": {
         "a": 1,
         "rgb": 9119547
@@ -95,6 +95,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.1893131121762395,
+  "scale": 0.26451845887027003,
   "close": false
 }

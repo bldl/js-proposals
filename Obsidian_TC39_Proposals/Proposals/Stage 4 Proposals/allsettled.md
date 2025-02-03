@@ -1,4 +1,4 @@
-#Stage4
+#Stage4Tag
 Title: Promise.allSettled
 Authors: Jason Williams, Robert Pamely, Mathias Bynens
 Champions: Mathias Bynens

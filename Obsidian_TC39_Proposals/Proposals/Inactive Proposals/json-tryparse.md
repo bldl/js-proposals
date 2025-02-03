@@ -1,4 +1,4 @@
-#Inactive
+#InactiveTag
 Title: JSON.tryParse
 Authors: Daniel Ehrenberg
 Champions: Withdrawn

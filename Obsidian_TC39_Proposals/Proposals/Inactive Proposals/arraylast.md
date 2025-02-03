@@ -1,4 +1,4 @@
-#Inactive
+#InactiveTag
 Title: Getting last element of Array
 Authors: JF Bastien
 Champions: Withdrawn: no interested champions in February 2024

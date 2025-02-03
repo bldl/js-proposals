@@ -1,4 +1,4 @@
-#Stage2
+#Stage2Tag
 Title: Function implementation hiding
 Authors: Domenic Denicola, Michael Ficarra
 Champions: Michael Ficarra

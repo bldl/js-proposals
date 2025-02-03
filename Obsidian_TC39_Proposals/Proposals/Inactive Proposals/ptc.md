@@ -1,4 +1,4 @@
-#Inactive
+#InactiveTag
 Title: Updates to Tail Calls to include an explicit syntactic opt-in
 Authors: Brian Terlson, Eric Faust
 Champions: Inactive

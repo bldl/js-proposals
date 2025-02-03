@@ -1,4 +1,4 @@
-#Stage3
+#Stage3Tag
 Title: Redeclarable global eval-introduced vars
 Authors: Shu-yu Guo
 Champions: Shu-yu Guo

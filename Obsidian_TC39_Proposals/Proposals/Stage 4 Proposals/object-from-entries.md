@@ -1,4 +1,4 @@
-#Stage4
+#Stage4Tag
 Title: Object.fromEntries
 Authors: Darien Maillet Valentine
 Champions: Jordan Harband, Kevin Gibbons

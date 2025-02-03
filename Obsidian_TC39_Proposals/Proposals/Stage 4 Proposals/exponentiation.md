@@ -1,4 +1,4 @@
-#Stage4
+#Stage4Tag
 Title: Exponentiation operator
 Authors: Rick Waldron
 Champions: Rick Waldron

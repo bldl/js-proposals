@@ -1,4 +1,4 @@
-#Stage0
+#Stage0Tag
 Title: Function bind syntax
 Authors: Kevin Smith
 Champions: Brian Terlson, Matthew Podwysocki

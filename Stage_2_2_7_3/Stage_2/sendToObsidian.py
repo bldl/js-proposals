@@ -47,7 +47,7 @@ for entry in data_list:
                 print("Error with link:", link_titles)
                 with open(f"Obsidian_TC39_Proposals/Proposals/Stage 2 Proposals/{link_titles}.md", "w") as proposals:
                     proposals.write(
-                        f"#Stage2\n"
+                        f"#Stage2Tag\n"
                         f"Title: {title}\n"
                         f"Authors: {authors}\n"
                         f"Champions: {champions}\n"
@@ -61,7 +61,7 @@ for entry in data_list:
             #-----------------------------------------------------
             with open(f"Obsidian_TC39_Proposals/Proposals/Stage 2 Proposals/{link_titles}.md", "w") as proposals:
                 proposals.write(
-                    f"#Stage2\n"
+                    f"#Stage2Tag\n"
                     f"Title: {title}\n"
                     f"Authors: {authors}\n"
                     f"Champions: {champions}\n"

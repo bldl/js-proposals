@@ -1,4 +1,4 @@
-#Stage_2_7
+#Stage_2_7Tag
 Title: Deferring Module Evaluation
 Authors: Yulia Startsev, Guy Bedford
 Champions: Yulia Startsev, Guy Bedford, Nicolò Ribaudo

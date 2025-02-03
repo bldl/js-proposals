@@ -1,4 +1,4 @@
-#Inactive
+#InactiveTag
 Title: "use module"
 Authors: J. S. Choi
 Champions: Presented and rejected before Stage 1 on 2021-10; split up into multiple subsequent proposals

@@ -76,7 +76,7 @@ To retrieve updated repositories from Github API:
 Run apiCall.py in each stage.
 
 Finished:
-`python -m Finished.extractFromApiResponse` then run sendToObsidian.py in /Finished
+`python -m Stage_4.extractFromApiResponse` then run sendToObsidian.py in /Stage_4
 
 Inactive:
 `python -m Inactive.extractFromApiResponse` then run sendToObsidian.py in /Inactive

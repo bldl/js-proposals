@@ -1,4 +1,4 @@
-#Inactive
+#InactiveTag
 Title: Builtins.typeOf() and Builtins.is()
 Authors: James M Snell
 Champions: Withdrawn: can be solved in other ways

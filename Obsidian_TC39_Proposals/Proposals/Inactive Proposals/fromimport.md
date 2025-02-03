@@ -1,4 +1,4 @@
-#Inactive
+#InactiveTag
 Title: from ... import
 Authors: Hemanth HM, Jordan Harband
 Champions: Withdrawn: replaced with [Array Equality][array-equality]

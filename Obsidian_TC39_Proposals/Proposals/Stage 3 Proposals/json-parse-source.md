@@ -1,4 +1,4 @@
-#Stage3
+#Stage3Tag
 Title: JSON.parse source text access
 Authors: Richard Gibson
 Champions: Richard Gibson

@@ -1,4 +1,4 @@
-#Stage3
+#Stage3Tag
 Title: Array.fromAsync
 Authors: J.S. Choi
 Champions: J.S. Choi

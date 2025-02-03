@@ -1,4 +1,4 @@
-#Stage_2_7
+#Stage_2_7Tag
 Title: Math.sumPrecise
 Authors: Kevin Gibbons
 Champions: Kevin Gibbons

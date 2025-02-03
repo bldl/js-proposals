@@ -1,4 +1,4 @@
-#Stage4
+#Stage4Tag
 Title: Object.getOwnPropertyDescriptors
 Authors: Jordan Harband, Andrea Giammarchi
 Champions: Jordan Harband, Andrea Giammarchi

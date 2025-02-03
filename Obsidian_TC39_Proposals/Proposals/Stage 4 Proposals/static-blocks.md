@@ -1,4 +1,4 @@
-#Stage4
+#Stage4Tag
 Title: Class Static Block
 Authors: Ron Buckton
 Champions: Ron Buckton

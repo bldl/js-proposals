@@ -1,4 +1,4 @@
-#Stage4
+#Stage4Tag
 Title: Well-Formed Unicode Strings
 Authors: Guy Bedford, Bradley Farias
 Champions: Guy Bedford, Bradley Farias, Michael Ficarra

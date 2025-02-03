@@ -1,4 +1,4 @@
-#Inactive
+#InactiveTag
 Title: Extensible numeric literals
 Authors: Daniel Ehrenberg
 Champions: Withdrawn

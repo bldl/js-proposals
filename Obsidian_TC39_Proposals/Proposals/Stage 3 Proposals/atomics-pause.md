@@ -1,4 +1,4 @@
-#Stage3
+#Stage3Tag
 Title: Atomics.pause
 Authors: Shu-yu Guo
 Champions: Shu-yu Guo
