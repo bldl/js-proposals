@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Preserve Host Virtualizability
 Authors: Daniel Ehrenberg, Andrew Paprocki
 Champions: Philip Chimento, Andrew Paprocki, Jesse Alama

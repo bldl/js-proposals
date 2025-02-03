@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Binary AST
 Authors: 
 Champions: Brendan Eich

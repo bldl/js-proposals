@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Ergonomic brand checks for Private Fields
 Authors: Jordan Harband
 Champions: Jordan Harband

@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Call-this operator
 Authors: Darien Maillet Valentine
 Champions: Jamie Kyle, Hemanth HM

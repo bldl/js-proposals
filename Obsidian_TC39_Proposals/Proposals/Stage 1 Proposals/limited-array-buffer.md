@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Limited ArrayBuffer
 Authors: HE Shi-Jun
 Champions: HE Shi-Jun

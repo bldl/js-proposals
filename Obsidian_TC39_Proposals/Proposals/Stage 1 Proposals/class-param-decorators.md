@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Class Method Parameter Decorators
 Authors: Alexander J. Vincent
 Champions: Ashley Claymore, Jordan Harband, Chris de Almeida

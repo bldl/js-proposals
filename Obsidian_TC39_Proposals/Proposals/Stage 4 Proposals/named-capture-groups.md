@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Duplicate named capture groups
 Authors: Kevin Gibbons
 Champions: Kevin Gibbons

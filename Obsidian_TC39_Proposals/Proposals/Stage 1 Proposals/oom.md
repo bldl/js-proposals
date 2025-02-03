@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: OOM Fails Fast
 Authors: Mark Miller, Chip Morningstar, Michael Fig
 Champions: Mark Miller, Chip Morningstar, Michael Fig

@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Unordered Async Iterator Helpers
 Authors: Michael Ficarra, Luca Casonato, Kevin Gibbons
 Champions: Michael Ficarra, Luca Casonato

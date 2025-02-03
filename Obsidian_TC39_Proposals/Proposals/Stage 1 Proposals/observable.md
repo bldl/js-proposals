@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Observable
 Authors: Jafar Husain
 Champions: Jafar Husain, Mark Miller

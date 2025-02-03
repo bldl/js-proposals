@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Restrict subclassing support in built-in methods
 Authors: Rick Button
 Champions: Rick Button

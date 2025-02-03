@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Prototype pollution mitigation
 Authors: Alex Vincent
 Champions: Mark S. Miller, Jack Works

@@ -1,4 +1,4 @@
-#Stage_2
+#Stage2
 Title: isTemplateObject
 Authors: Mike Samuel, Krzysztof Kotowicz
 Champions: Daniel Ehrenberg, Jordan Harband

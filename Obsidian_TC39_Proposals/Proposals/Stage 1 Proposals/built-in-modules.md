@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Built In Modules aka JS Standard Library
 Authors: Bradley Farias
 Champions: Bradley Farias

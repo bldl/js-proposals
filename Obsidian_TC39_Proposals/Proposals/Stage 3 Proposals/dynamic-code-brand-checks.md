@@ -1,4 +1,4 @@
-#Stage_3
+#Stage3
 Title: Dynamic Code Brand Checks
 Authors: Nicolo Ribaudo
 Champions: Krzysztof Kotowicz, Mike Samuel, Nicolo Ribaudo

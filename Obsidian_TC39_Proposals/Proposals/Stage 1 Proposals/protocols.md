@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: First-class protocols
 Authors: Shu-yu Guo
 Champions: Shu-yu Guo

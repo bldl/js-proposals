@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Resizable and growable ArrayBuffers
 Authors: Shu-yu Guo
 Champions: Shu-yu Guo

@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Declarations in Conditionals
 Authors: Leo Balter, Jordan Harband
 Champions: Leo Balter, Jordan Harband

@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: IDL for ECMAScript
 Authors: Richard Gibson
 Champions: Richard Gibson

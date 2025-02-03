@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: DataView get/set Uint8Clamped methods
 Authors: Nicolò Ribaudo
 Champions: Nicolò Ribaudo

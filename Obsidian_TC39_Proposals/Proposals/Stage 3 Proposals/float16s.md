@@ -1,4 +1,4 @@
-#Stage_3
+#Stage3
 Title: Float16 on TypedArrays, DataView, Math.f16round
 Authors: Leo Balter
 Champions: Leo Balter, Kevin Gibbons

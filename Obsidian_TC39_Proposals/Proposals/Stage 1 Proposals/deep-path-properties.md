@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Deep Path Properties in Record Literals
 Authors: Bradley Farias
 Champions: Bradley Farias, Mark S. Miller, Caridy Patiño, J.F. Paradis, Patrick Soquet, Kris Kowal

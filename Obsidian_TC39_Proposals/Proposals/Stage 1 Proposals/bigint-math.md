@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: BigInt Math
 Authors: Jack Works
 Champions: Jack Works

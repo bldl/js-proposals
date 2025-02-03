@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Stable Formatting
 Authors: Jordan Harband
 Champions: Jordan Harband

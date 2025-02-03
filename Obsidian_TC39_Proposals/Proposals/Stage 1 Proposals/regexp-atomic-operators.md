@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: RegExp Atomic Operators
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell

@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Accessible Object.prototype.hasOwnProperty
 Authors: Jamie Kyle
 Champions: Tierney Cyren, Jamie Kyle

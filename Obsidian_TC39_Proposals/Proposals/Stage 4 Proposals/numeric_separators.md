@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Numeric separators
 Authors: Sam Goto, Rick Waldron
 Champions: Sam Goto, Rick Waldron , Leo Balter

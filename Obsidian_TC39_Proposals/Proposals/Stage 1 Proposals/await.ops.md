@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: await operations
 Authors: Hemanth HM, Jordan Harband
 Champions: Hemanth HM, Jordan Harband

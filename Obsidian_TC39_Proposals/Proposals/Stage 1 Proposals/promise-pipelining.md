@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Wavy Dot: Syntactic Support for Promise Pipelining
 Authors: Mark Miller, Chip Morningstar, Michael Fig
 Champions: Mark Miller, Chip Morningstar, Michael Fig

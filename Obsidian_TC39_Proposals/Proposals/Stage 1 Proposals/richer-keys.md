@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Richer Keys
 Authors: Michał Wadas
 Champions: Sathya Gunasekaran

@@ -1,4 +1,4 @@
-#Stage_2
+#Stage2
 Title: Extractors
 Authors: Ron Buckton
 Champions: Ron Buckton

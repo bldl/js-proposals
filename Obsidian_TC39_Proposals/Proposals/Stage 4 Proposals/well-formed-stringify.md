@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Well-formed JSON.stringify
 Authors: Richard Gibson
 Champions: Mathias Bynens

@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Mass Proxy Revocation
 Authors: Hemanth HM, Aleen
 Champions: Hemanth HM

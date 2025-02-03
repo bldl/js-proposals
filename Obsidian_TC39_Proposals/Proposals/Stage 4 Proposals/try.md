@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Promise.try
 Authors: Jordan Harband
 Champions: Jordan Harband

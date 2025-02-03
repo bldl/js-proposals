@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Class Brand Checks
 Authors: Kevin Gibbons
 Champions: Kevin Gibbons

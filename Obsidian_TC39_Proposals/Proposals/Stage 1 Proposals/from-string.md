@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: {BigInt,Number}.fromString
 Authors: Sam Goto
 Champions: Sam Goto

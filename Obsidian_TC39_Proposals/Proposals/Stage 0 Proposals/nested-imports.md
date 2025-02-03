@@ -1,4 +1,4 @@
-#Stage_0
+#Stage0
 Title: Nested import declarations
 Authors: Ben Newman
 Champions: Ben Newman

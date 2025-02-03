@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Math.seededRandoms()
 Authors: Mathias Bynens
 Champions: Mathias Bynens

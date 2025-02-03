@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: WeakRefs
 Authors: Dean Tribble, Sathya Gunasekaran
 Champions: Dean Tribble, Mark Miller, Till Schneidereit, Sathya Gunasekaran, Daniel Ehrenberg

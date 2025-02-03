@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Extensions
 Authors: Peter Hoddie
 Champions: Peter Hoddie

@@ -1,4 +1,4 @@
-#Stage_2
+#Stage2
 Title: Immutable ArrayBuffers
 Authors: Mark Miller, Peter Hoddie, Richard Gibson, Jack Works
 Champions: Mark Miller, Peter Hoddie, Richard Gibson, Jack Works

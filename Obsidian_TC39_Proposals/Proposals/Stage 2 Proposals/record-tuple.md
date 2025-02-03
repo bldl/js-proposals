@@ -1,4 +1,4 @@
-#Stage_2
+#Stage2
 Title: Record & Tuple
 Authors: Robin Ricard, Richard Button
 Champions: Robin Ricard, Richard Button

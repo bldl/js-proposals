@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Lifting template literal restriction
 Authors: Tim Disney
 Champions: Tim Disney

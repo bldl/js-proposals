@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Slice notation
 Authors: Bradley Farias
 Champions: Bradley Farias

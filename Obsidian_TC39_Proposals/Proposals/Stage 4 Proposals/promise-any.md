@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Promise.any
 Authors: Mathias Bynens, Kevin Gibbons, Sergey Rubanov
 Champions: Mathias Bynens

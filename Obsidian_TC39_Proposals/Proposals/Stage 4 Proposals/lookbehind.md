@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: RegExp Lookbehind Assertions
 Authors: Gorkem Yakin, Nozomu Katō, Daniel Ehrenberg
 Champions: Daniel Ehrenberg, Mathias Bynens

@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: RegExp v flag with set notation + properties of strings
 Authors: Markus Scherer, Mathias Bynens
 Champions: Mathias Bynens

@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: RegExp Extended Mode and Comments
 Authors: J.S. Choi
 Champions: J.S. Choi

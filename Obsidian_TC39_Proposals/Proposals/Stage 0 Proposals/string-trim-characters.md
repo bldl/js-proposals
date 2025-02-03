@@ -1,4 +1,4 @@
-#Stage_0
+#Stage0
 Title: String trim characters
 Authors: Wenlu Wang
 Champions: Wenlu Wang

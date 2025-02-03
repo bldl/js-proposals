@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Pattern Matching
 Authors: Ron Buckton
 Champions: Ron Buckton

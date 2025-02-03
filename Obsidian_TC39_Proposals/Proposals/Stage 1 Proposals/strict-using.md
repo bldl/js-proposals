@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Strict Enforcement of 'using'
 Authors: Ron Buckton
 Champions: Ron Buckton

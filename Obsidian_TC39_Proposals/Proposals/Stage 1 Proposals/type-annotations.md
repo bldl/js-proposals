@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Type Annotations
 Authors: J. S. Choi
 Champions: J. S. Choi

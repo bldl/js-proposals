@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: String padding
 Authors: Jordan Harband
 Champions: Jordan Harband, Rick Waldron

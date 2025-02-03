@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Array.zip and Array.zipKeyed
 Authors: Michael Ficarra
 Champions: Michael Ficarra

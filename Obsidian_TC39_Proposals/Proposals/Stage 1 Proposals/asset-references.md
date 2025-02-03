@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Asset References
 Authors: Daniel Ehrenberg
 Champions: Daniel Ehrenberg

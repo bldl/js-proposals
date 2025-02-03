@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Await Dictionary
 Authors: Santiago Díaz, Jun Kokatsu
 Champions: Shu-yu Guo

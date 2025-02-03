@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Asynchronous Iteration
 Authors: Domenic Denicola
 Champions: Domenic Denicola

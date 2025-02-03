@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: String.prototype.matchAll
 Authors: Jordan Harband
 Champions: Jordan Harband

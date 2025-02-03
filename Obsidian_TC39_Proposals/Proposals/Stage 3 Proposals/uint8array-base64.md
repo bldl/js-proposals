@@ -1,4 +1,4 @@
-#Stage_3
+#Stage3
 Title: Uint8Array to/from Base64
 Authors: Kevin Gibbons
 Champions: Kevin Gibbons

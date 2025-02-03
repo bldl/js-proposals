@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Array.prototype.unique()
 Authors: Jack Works
 Champions: Jack Works, Jordan Harband

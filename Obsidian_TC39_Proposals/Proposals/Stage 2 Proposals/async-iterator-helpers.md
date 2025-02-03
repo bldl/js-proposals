@@ -1,4 +1,4 @@
-#Stage_2
+#Stage2
 Title: Async Iterator helpers
 Authors: Gus Caplan
 Champions: Michael Ficarra, Jonathan Keslin, Kevin Gibbons

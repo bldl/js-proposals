@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Nullish coalescing Operator
 Authors: Gabriel Isenberg
 Champions: Gabriel Isenberg, Justin Ridgewell, Daniel Rosenwasser

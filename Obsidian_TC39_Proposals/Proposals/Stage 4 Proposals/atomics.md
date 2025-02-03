@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Shared memory and atomics
 Authors: Lars T Hansen
 Champions: Lars T Hansen

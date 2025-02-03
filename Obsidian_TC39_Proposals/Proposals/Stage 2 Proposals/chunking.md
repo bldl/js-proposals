@@ -1,4 +1,4 @@
-#Stage_2
+#Stage2
 Title: iterator chunking
 Authors: Michael Ficarra
 Champions: Michael Ficarra

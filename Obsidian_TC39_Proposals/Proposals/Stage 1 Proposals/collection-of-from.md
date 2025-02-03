@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: of and from on collection constructors
 Authors: Leo Balter
 Champions: Leo Balter

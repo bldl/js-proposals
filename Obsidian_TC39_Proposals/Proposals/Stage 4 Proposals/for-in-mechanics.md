@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: for-in mechanics
 Authors: Kevin Gibbons
 Champions: Kevin Gibbons

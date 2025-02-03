@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: export v from "mod"; statements
 Authors: Lee Byron
 Champions: Ben Newman, John-David Dalton

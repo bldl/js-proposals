@@ -1,4 +1,4 @@
-#Stage_3
+#Stage3
 Title: Source Phase Imports
 Authors: Luca Casonato
 Champions: Guy Bedford, Luca Casonato

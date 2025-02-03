@@ -1,4 +1,4 @@
-#Stage_0
+#Stage0
 Title: Relationships
 Authors: Mark Miller, Waldemar Horwat
 Champions: Mark Miller, Waldemar Horwat

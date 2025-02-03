@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: class Access Expressions
 Authors: Mike Samuel
 Champions: Mike Samuel

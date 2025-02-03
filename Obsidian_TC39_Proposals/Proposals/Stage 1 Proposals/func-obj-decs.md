@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Function and Object Literal Decorators
 Authors: HE Shi-Jun
 Champions: HE Shi-Jun

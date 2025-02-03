@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Error stacks
 Authors: Jordan Harband, Mark Miller
 Champions: Jordan Harband, Mark Miller

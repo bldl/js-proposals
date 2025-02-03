@@ -1,4 +1,4 @@
-#Stage_2
+#Stage2
 Title: Iterator.range
 Authors: Jack Works
 Champions: Jack Works

@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Logical Assignment Operators
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell ,  Hemanth HM

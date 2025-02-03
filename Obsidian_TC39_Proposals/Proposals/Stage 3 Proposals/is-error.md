@@ -1,4 +1,4 @@
-#Stage_3
+#Stage3
 Title: Error.isError
 Authors: Jordan Harband
 Champions: Jordan Harband

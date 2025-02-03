@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Freezing prototypes
 Authors: Sebastian Markbage
 Champions: Sebastian Markbage

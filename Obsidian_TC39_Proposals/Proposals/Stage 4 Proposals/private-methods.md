@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Private instance methods and accessors
 Authors: Daniel Ehrenberg
 Champions: Daniel Ehrenberg, Kevin Gibbons

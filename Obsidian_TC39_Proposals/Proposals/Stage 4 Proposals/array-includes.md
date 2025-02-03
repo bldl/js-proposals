@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Array.prototype.includes
 Authors: Domenic Denicola
 Champions: Domenic Denicola, Rick Waldron

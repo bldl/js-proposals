@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Change Array by Copy
 Authors: Ashley Claymore, Robin Ricard
 Champions: Ashley Claymore, Robin Ricard

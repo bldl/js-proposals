@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Array filtering
 Authors: Mark Miller
 Champions: Mark Miller

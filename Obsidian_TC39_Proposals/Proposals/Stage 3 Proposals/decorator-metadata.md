@@ -1,4 +1,4 @@
-#Stage_3
+#Stage3
 Title: Decorator Metadata
 Authors: Kristen Hewell Garrett
 Champions: Kristen Hewell Garrett

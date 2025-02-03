@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Async initialization
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell

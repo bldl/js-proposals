@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: do expressions
 Authors: Dave Herman
 Champions: Kevin Gibbons

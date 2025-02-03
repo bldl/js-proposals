@@ -1,4 +1,4 @@
-#Stage_3
+#Stage3
 Title: RegExp.escape
 Authors: Domenic Denicola, Benjamin Gruenbaum, Jordan Harband
 Champions: Jordan Harband, Kevin Gibbons

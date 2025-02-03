@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Object.freeze + Object.seal syntax
 Authors: Ingvar Stepanyan
 Champions: Mathias Bynens

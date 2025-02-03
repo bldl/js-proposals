@@ -1,4 +1,4 @@
-#Stage_2
+#Stage2
 Title: Destructure Private Fields
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell

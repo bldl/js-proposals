@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: import.meta
 Authors: Domenic Denicola
 Champions: Gus Caplan

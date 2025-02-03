@@ -1,4 +1,4 @@
-#Stage_2
+#Stage2
 Title: RegExp Buffer Boundaries (\A, \z, \Z)
 Authors: Ron Buckton
 Champions: Ron Buckton

@@ -1,4 +1,4 @@
-#Stage_2
+#Stage2
 Title: Module Declarations
 Authors: Daniel Ehrenberg, Nicolò Ribaudo
 Champions: Daniel Ehrenberg, Mark Miller, Nicolò Ribaudo

@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Faster Promise adoption
 Authors: Gil Tayar, Daniel Rosenwasser, Romulo Cintra, Rob Palmer
 Champions: Daniel Rosenwasser, Romulo Cintra, Rob Palmer

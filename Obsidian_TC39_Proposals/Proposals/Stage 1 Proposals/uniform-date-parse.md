@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: uniform parsing of quasi-standard Date.parse input
 Authors: Michael Saboff, Mattijs Hoitink
 Champions: Michael Saboff, Mattijs Hoitink, Mark Miller

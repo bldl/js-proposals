@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Private declarations
 Authors: Daniel Ehrenberg
 Champions: Daniel Ehrenberg

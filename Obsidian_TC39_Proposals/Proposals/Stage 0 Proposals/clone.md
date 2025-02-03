@@ -1,4 +1,4 @@
-#Stage_0
+#Stage0
 Title: Structured Clone
 Authors: Dmitry Lomov
 Champions: Dmitry Lomov

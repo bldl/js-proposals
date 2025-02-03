@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Support for Distributed Promise Pipelining
 Authors: Mark Miller, Peter Hoddie
 Champions: Mark Miller, Peter Hoddie

@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Reverse iteration
 Authors: Shu-yu Guo, Pedram Emrouznejad
 Champions: Shu-yu Guo, Pedram Emrouznejad

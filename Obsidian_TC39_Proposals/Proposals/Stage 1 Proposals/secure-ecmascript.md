@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: SES Secure EcmaScript
 Authors: Mark Miller, Chip Morningstar, Caridy Patiño
 Champions: Mark Miller, Chip Morningstar, Caridy Patiño

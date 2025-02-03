@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Collection methods
 Authors: Justin Fagnani
 Champions: Justin Fagnani

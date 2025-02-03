@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Modulus and Additional Integer Math
 Authors: Gus Caplan
 Champions: Gus Caplan

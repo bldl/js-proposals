@@ -1,4 +1,4 @@
-#Stage_2
+#Stage2
 Title: function.sent metaproperty
 Authors: Allen Wirfs-Brock
 Champions: HE Shi-Jun

@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: String.prototype.replaceAll
 Authors: Peter Marshall, Jakob Gruber, Mathias Bynens
 Champions: Mathias Bynens

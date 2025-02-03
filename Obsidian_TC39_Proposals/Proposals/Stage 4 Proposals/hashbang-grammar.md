@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Hashbang Grammar
 Authors: Bradley Farias
 Champions: Bradley Farias

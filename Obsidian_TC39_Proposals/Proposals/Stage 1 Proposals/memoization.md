@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Function Memoization
 Authors: J.S. Choi
 Champions: J.S. Choi, Hemanth HM

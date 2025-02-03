@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: .at()
 Authors: Shu-yu Guo, Tab Atkins
 Champions: Shu-yu Guo, Tab Atkins

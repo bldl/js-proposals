@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Async functions
 Authors: Brian Terlson
 Champions: Brian Terlson

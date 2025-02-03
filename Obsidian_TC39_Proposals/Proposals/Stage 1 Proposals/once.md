@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Function once
 Authors: Luca Casonato
 Champions: Luca Casonato

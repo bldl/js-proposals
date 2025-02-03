@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: String.prototype.{trimStart,trimEnd}
 Authors: Sebastian Markbåge
 Champions: Sebastian Markbåge, Mathias Bynens

@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: New Set methods
 Authors: Michał Wadas, Sathya Gunasekaran, Kevin Gibbons
 Champions: Kevin Gibbons

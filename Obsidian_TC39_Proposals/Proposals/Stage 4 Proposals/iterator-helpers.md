@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Sync Iterator helpers
 Authors: Gus Caplan
 Champions: Michael Ficarra, Jonathan Keslin, Kevin Gibbons

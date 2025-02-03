@@ -1,4 +1,4 @@
-#Stage_2
+#Stage2
 Title: Map.prototype.emplace
 Authors: Bradley Farias
 Champions: Erica Pramer

@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Array Equality
 Authors: Yulia Startsev, Shu-yu Guo
 Champions: Yulia Startsev, Shu-yu Guo

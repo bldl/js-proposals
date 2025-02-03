@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Object.values/Object.entries
 Authors: Jordan Harband
 Champions: Jordan Harband

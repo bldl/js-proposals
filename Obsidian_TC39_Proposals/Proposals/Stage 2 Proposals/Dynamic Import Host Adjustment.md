@@ -1,4 +1,4 @@
-#Stage_2
+#Stage2
 Title: Dynamic Import Host Adjustment
 Authors: Mike Samuel, Krzysztof Kotowicz
 Champions: Krzysztof Kotowicz

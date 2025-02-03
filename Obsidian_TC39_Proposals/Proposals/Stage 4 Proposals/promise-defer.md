@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: Promise.withResolvers
 Authors: Peter Klecha
 Champions: Peter Klecha

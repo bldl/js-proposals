@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Get Intrinsic
 Authors: J.S. Choi
 Champions: J.S. Choi

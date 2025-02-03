@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: RegExp named capture groups
 Authors: Gorkem Yakin, Daniel Ehrenberg
 Champions: Daniel Ehrenberg, Brian Terlson, Mathias Bynens

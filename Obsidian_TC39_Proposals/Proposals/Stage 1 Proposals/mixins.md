@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Maximally minimal mixins
 Authors: Tab Atkins
 Champions: Tab Atkins

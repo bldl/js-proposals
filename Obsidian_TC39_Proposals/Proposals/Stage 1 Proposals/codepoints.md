@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: String.prototype.codePoints
 Authors: Ron Buckton
 Champions: Ron Buckton, Brian Terlson

@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Reversible string split
 Authors: Ron Buckton
 Champions: Ron Buckton

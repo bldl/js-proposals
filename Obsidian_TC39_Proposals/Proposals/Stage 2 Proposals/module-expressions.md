@@ -1,4 +1,4 @@
-#Stage_2
+#Stage2
 Title: Module Expressions
 Authors: Surma, Daniel Ehrenberg, Nicolò Ribaudo
 Champions: Surma, Nicolò Ribaudo

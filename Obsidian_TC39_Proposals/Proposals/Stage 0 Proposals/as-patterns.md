@@ -1,4 +1,4 @@
-#Stage_0
+#Stage0
 Title: as destructuring patterns
 Authors: Kat Marchán
 Champions: Kat Marchán

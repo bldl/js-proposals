@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Decimal
 Authors: Bradley Farias
 Champions: Bradley Farias

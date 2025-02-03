@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: BigInt
 Authors: Daniel Ehrenberg
 Champions: Daniel Ehrenberg

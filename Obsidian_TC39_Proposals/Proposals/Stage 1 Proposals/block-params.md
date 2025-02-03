@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Block Params
 Authors: Keith Cirkel
 Champions: Keith Cirkel

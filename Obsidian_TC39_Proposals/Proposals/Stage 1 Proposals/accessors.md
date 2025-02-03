@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Grouped Accessors and Auto-Accessors
 Authors: HE Shi-Jun
 Champions: HE Shi-Jun

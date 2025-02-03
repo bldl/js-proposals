@@ -1,4 +1,4 @@
-#Stage_4
+#Stage4
 Title: ArrayBuffer transfer
 Authors: Shu-yu Guo, Jordan Harband, Yagiz Nizipli
 Champions: Shu-yu Guo, Jordan Harband, Yagiz Nizipli

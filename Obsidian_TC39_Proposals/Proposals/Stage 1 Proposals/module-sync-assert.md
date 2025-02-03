@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Module sync assert
 Authors: Ben Allen
 Champions: Ben Allen

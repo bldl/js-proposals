@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Sync Imports
 Authors: Mark Miller, Chip Morningstar, Richard Gibson, Mathieu Hofman
 Champions: Mark Miller, Chip Morningstar, Richard Gibson, Mathieu Hofman

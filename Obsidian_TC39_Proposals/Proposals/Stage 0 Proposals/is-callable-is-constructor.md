@@ -1,4 +1,4 @@
-#Stage_0
+#Stage0
 Title: Reflect.{isCallable,isConstructor}
 Authors: Caitlin Potter
 Champions: Caitlin Potter

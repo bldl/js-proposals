@@ -1,4 +1,4 @@
-#Stage_2
+#Stage2
 Title: collection normalization
 Authors: Bradley Farias
 Champions: Bradley Farias

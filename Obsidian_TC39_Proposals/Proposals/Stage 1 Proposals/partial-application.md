@@ -1,4 +1,4 @@
-#Stage_1
+#Stage1
 Title: Partial application
 Authors: Michael Ficarra
 Champions: Michael Ficarra
