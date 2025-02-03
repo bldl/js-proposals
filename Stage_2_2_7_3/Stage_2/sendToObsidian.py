@@ -1,4 +1,8 @@
 import ast
+import requests
+import base64
+import os
+from dotenv import load_dotenv
 
 with open("Stage_2_2_7_3/Stage_2/outputMD/apiResults.md", "r") as file:
     fileContent = file.readlines()
@@ -24,14 +28,45 @@ for entry in data_list:
             for char in invalid_chars:
                 link_titles = link_title.replace(char, "")
 
+            try:
+                apiProposalName = github_link.split("/")[-1]
+                if "#" in apiProposalName:
+                    apiProposalName = apiProposalName.split("#")[0]
+            except:
+                print("Error with link:", link_title)
+
+            #----------api call for readme------------------------
+            
+            try:
+                load_dotenv()
+                githubReadme = f"https://api.github.com/repos/tc39/{apiProposalName}/contents/README.md"
+                response = requests.get(githubReadme, auth=(os.getenv("USERNAME"), os.getenv("API_KEY")))
+                data = response.json()
+                file_content = base64.b64decode(data["content"]).decode("utf-8")
+            except:
+                print("Error with link:", link_titles)
+                with open(f"Obsidian_TC39_Proposals/Proposals/Stage 2 Proposals/{link_titles}.md", "w") as proposals:
+                    proposals.write(
+                        f"#Stage_2\n"
+                        f"Title: {title}\n"
+                        f"Authors: {authors}\n"
+                        f"Champions: {champions}\n"
+                        f"Date: {date}\n"
+                        f"GitHub Link: {github_link}\n"
+                        f"GitHub Note Link: {github_note_link}\n\n"
+                        f"# Proposal Description:\n"
+                )
+                continue
+
+            #-----------------------------------------------------
             with open(f"Obsidian_TC39_Proposals/Proposals/Stage 2 Proposals/{link_titles}.md", "w") as proposals:
                 proposals.write(
-                    f"#Stage2\n"
+                    f"#Stage_2\n"
+                    f"Title: {title}\n"
                     f"Authors: {authors}\n"
                     f"Champions: {champions}\n"
                     f"Date: {date}\n"
-                    f"Link Titles: {link_titles}\n"
                     f"GitHub Link: {github_link}\n"
-                    f"GitHub Note Link: {github_note_link}\n"
+                    f"GitHub Note Link: {github_note_link}\n\n"
+                    f"# Proposal Description:\n{file_content}"
                 )
-                

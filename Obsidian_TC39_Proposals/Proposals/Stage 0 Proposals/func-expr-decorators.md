@@ -1,7 +1,9 @@
-#Stage0
+#Stage_0
+Title: Function expression decorators
 Authors: Igor Minar
 Champions: Igor Minar
 Date: 
-Link Titles: func-expr-decorators
 GitHub Link: https://goo.gl/8MmCMG
 GitHub Note Link: None
+
+# Proposal Description:

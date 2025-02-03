@@ -4,20 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "801e7fdac51e5f21",
+        "id": "359f783346100711",
         "type": "tabs",
         "children": [
           {
-            "id": "72796bbd3be52699",
+            "id": "d13edfc7fe3fc804",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
+              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "82f00fb742d6a143",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Proposals/Inactive Proposals/more-math.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "more-math"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,43 +188,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "72796bbd3be52699",
+  "active": "82f00fb742d6a143",
   "lastOpenFiles": [
-    "Proposals/Stage_4.md",
-    "Proposals/Stage_3.md",
-    "Proposals/Stage 4 Proposals/allsettled.md",
-    "Proposals/Stage 4 Proposals/set-methods.md",
-    "Proposals/Stage 4 Proposals/try.md",
-    "Proposals/Stage 4 Proposals/array-includes.md",
-    "Proposals/Stage 4 Proposals/exponentiation.md",
-    "Proposals/Stage 4 Proposals/object-values-entries.md",
-    "Proposals/Stage 4 Proposals/string-padding.md",
-    "Proposals/Stage 4 Proposals/object-gopds.md",
-    "Proposals/Stage 4 Proposals/function-commas.md",
-    "Proposals/Stage 4 Proposals/async-await.md",
-    "Proposals/Stage 4 Proposals/atomics.md",
-    "Proposals/Stage 4 Proposals/template-literal-lift.md",
-    "Proposals/Stage 4 Proposals/dot-all.md",
-    "Proposals/Stage 4 Proposals/named-groups.md",
-    "Proposals/Stage 4 Proposals/object-rest-spread.md",
-    "Proposals/Stage 4 Proposals/lookbehind.md",
-    "Proposals/Stage 4 Proposals/unicode-escapes.md",
-    "Proposals/Stage 4 Proposals/finally.md",
-    "Proposals/Stage 4 Proposals/async-iteration.md",
-    "Proposals/Stage 4 Proposals/optional-catch.md",
-    "Proposals/Stage 4 Proposals/json-superset.md",
-    "Proposals/Stage 4 Proposals/symbol-description.md",
-    "Proposals/Stage 4 Proposals/function-to-string.md",
-    "Proposals/Stage 4 Proposals/object-from-entries.md",
+    "Proposals/Inactive Proposals/ptc.md",
+    "Proposals/Inactive Proposals/object-iteration.md",
+    "Proposals/Inactive Proposals/generator-arrow-functions.md",
+    "Proposals/Inactive Proposals/unicode-sequence-properties.md",
+    "Proposals/Inactive Proposals/arraylast.md",
+    "Proposals/Inactive Proposals/signbit.md",
+    "Proposals/Inactive Proposals/is-types.md",
+    "Proposals/Inactive Proposals/more-math.md",
+    "Proposals/Inactive Proposals/function-helpers.md",
+    "Proposals/Inactive Proposals/uuid.md",
+    "Proposals/Inactive Proposals/refcollection.md",
+    "Proposals/Inactive Proposals/json-tryparse.md",
+    "Proposals/Inactive Proposals/extensible-literals.md",
+    "Proposals/Inactive Proposals/overloading.md",
+    "Proposals/Inactive Proposals/cleanup-some.md",
+    "Proposals/Inactive Proposals/symbol-thenable.md",
+    "Proposals/Inactive Proposals/pipe-flow.md",
+    "Proposals/Inactive Proposals/modules-pragma.md",
+    "Proposals/Inactive Proposals/module-unambig.md",
+    "Proposals/Inactive Proposals/deprecated.md",
+    "Proposals/Inactive Proposals/buffer-transfer.md",
+    "Proposals/Inactive Proposals/string-at.md",
+    "Proposals/Inactive Proposals/unused-params.md",
+    "Proposals/Inactive Proposals/distinguishing-literal-strings.md",
+    "Proposals/Inactive Proposals/typedarray-stride-parameter.md",
+    "Proposals/Inactive Proposals/fromimport.md",
+    "github.com/tc39/proposal-optional-chaining/issues",
+    "github.com/tc39/proposal-optional-chaining",
+    "github.com/tc39",
+    "github.com",
     "Proposals/Stage 4 Proposals",
     "Proposals/Inactive Proposals",
     "Proposals/Stage 0 Proposals",
     "Object pick",
     "Object.values",
-    "RegExp Buffer Boundaries (/A, /z, ",
-    "RegExp Buffer Boundaries (/A, ",
-    "RegExp Buffer Boundaries (",
-    "Change Types",
-    "Proposals"
+    "RegExp Buffer Boundaries (/A, /z, "
   ]
 }
