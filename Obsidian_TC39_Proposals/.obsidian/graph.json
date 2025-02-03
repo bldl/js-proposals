@@ -57,31 +57,24 @@
       }
     },
     {
-      "query": "Semantic",
+      "query": "Semantic_Change",
       "color": {
         "a": 1,
-        "rgb": 6152079
+        "rgb": 12541739
       }
     },
     {
-      "query": "Syntactic",
+      "query": "Syntactic_Change",
       "color": {
         "a": 1,
         "rgb": 12681955
       }
     },
     {
-      "query": "API",
+      "query": "API_Change",
       "color": {
         "a": 1,
         "rgb": 13230162
-      }
-    },
-    {
-      "query": "Processed",
-      "color": {
-        "a": 1,
-        "rgb": 16579836
       }
     }
   ],
@@ -95,6 +88,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.15405210548747994,
+  "scale": 0.5026516863797434,
   "close": false
 }

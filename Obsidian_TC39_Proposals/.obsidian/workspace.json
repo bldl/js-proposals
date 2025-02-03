@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "359f783346100711",
+        "id": "4b590f34d281f70c",
         "type": "tabs",
         "children": [
           {
-            "id": "d13edfc7fe3fc804",
+            "id": "ee2c0074723dcf37",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -17,6 +17,30 @@
               "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
+            }
+          },
+          {
+            "id": "c4a44c18a1f9345a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Proposals/Stage 4 Proposals/for-in-mechanics.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "for-in-mechanics"
             }
           }
         ]
@@ -51,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Stage_2_7",
+                "query": "tag:#API_C",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,43 +187,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d13edfc7fe3fc804",
+  "active": "ee2c0074723dcf37",
   "lastOpenFiles": [
-    "experimental.md",
-    "Proposals/Stage 1 Proposals/import-sync.md",
-    "Proposals/Stage 1 Proposals/stabilize.md",
-    "Proposals/Stage 1 Proposals/array.zip.md",
-    "Proposals/Stage 1 Proposals/unordered-async.md",
-    "Proposals/Stage 1 Proposals/concurrency-control.md",
-    "Proposals/Stage 1 Proposals/signals.md",
-    "Proposals/Stage 1 Proposals/strict-using.md",
-    "Proposals/Stage 1 Proposals/func-obj-decs.md",
-    "Proposals/Stage 1 Proposals/template-literals.md",
-    "Proposals/Stage 1 Proposals/iterator-unique.md",
-    "Proposals/Stage 1 Proposals/module-sync-assert.md",
-    "Proposals/Stage 1 Proposals/locale-extensions.md",
-    "Proposals/Stage 1 Proposals/negated-in.md",
-    "Proposals/Stage 1 Proposals/stable-format.md",
-    "Proposals/Stage 1 Proposals/dataview-uint8c.md",
-    "Proposals/Stage 1 Proposals/optional-assign.md",
-    "Proposals/Stage 1 Proposals/class-param-decorators.md",
-    "Proposals/Stage 1 Proposals/await-dictionary.md",
-    "Proposals/Stage 1 Proposals/proto-pollution.md",
-    "Proposals/Stage 1 Proposals/mass-proxy-revocation.md",
-    "Proposals/Stage 1 Proposals/pick-omit.md",
-    "Proposals/Stage 1 Proposals/memoization.md",
-    "Proposals/Stage 1 Proposals/policy-maps.md",
-    "Proposals/Stage 1 Proposals/regexp-atomic-operators.md",
-    "Proposals/Stage 1 Proposals/faster-promise-adoption.md",
-    "github.com/tc39/proposal-optional-chaining/issues",
-    "github.com/tc39/proposal-optional-chaining",
-    "github.com/tc39",
-    "github.com",
-    "Proposals/Stage 4 Proposals",
-    "Proposals/Inactive Proposals",
-    "Proposals/Stage 0 Proposals",
-    "Object pick",
-    "Object.values",
-    "RegExp Buffer Boundaries (/A, /z, "
+    "Proposals/Stage 4 Proposals/for-in-mechanics.md",
+    "Proposals/Stage 4 Proposals/flat.md",
+    "Proposals/Stage 4 Proposals/find-last.md",
+    "Proposals/Stage 4 Proposals/finally.md",
+    "Proposals/Stage 4 Proposals/exponentiation.md",
+    "Proposals/Stage 4 Proposals/error-cause.md",
+    "Proposals/Stage 4 Proposals/dynamic-import.md",
+    "Proposals/Stage 4 Proposals/dot-all.md",
+    "Proposals/Stage 4 Proposals/change-array-by-copy.md",
+    "Proposals/Stage 4 Proposals/chaining.md",
+    "Proposals/Stage 4 Proposals/bigint.md",
+    "Proposals/Stage 4 Proposals/await.md",
+    "Proposals/Stage 4 Proposals/atomics.md",
+    "Proposals/Stage 4 Proposals/at.md",
+    "Proposal Types/API Changes.md",
+    "Proposals/Stage 4 Proposals/async-iteration.md",
+    "Proposals/Stage 4 Proposals/async-await.md",
+    "Proposals/Stage 4 Proposals/arraybuffer-transfer.md",
+    "Proposals/Stage 4 Proposals/array-includes.md",
+    "Proposals/Stage 4 Proposals/array-grouping.md",
+    "Proposals/Stage 4 Proposals/allsettled.md",
+    "Proposal Types/Syntactic Changes.md",
+    "Proposal Types/Semantic Changes.md",
+    "Untitled",
+    "Proposal Types",
+    "Proposals/Stage 2 Proposals/immutable-abs.md",
+    "Proposals/Stage 4 Proposals/iterator-helpers.md",
+    "Proposals/Stage 4 Proposals/regexp-v-flag.md",
+    "Proposals 1/Stage 4 Proposals",
+    "Proposals 1/Stage 3 Proposals",
+    "Proposals 1/Stage 2.7 Proposals",
+    "Proposals 1/Stage 2 Proposals",
+    "Proposals 1/Stage 1 Proposals",
+    "Proposals 1/Stage 0 Proposals",
+    "Proposals 1/Inactive Proposals",
+    "Proposals 1"
   ]
 }

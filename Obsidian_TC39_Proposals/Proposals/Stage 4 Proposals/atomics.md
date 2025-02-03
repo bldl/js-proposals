@@ -1,4 +1,5 @@
 #Stage4Tag
+[[API Changes]]
 Title: Shared memory and atomics
 Authors: Lars T Hansen
 Champions: Lars T Hansen

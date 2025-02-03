@@ -100,25 +100,25 @@ for await (const d of filter(([n]) => n == 3, process.stdin))
 
 ### Transformation
 
-  * [`map`](/API.md#map)
-  * [`reduce`](/API.md#reduce)
-  * [`flatten`](/API.md#flatten)
+  * [`map`](ProposalChangeAPI.md#map)
+  * [`reduce`](ProposalChangeAPI.md#reduce)
+  * [`flatten`](API.md#flatten)
 
 ### Filtering
 
-  * [`filter`](/API.md#filter)
-  * [`until`](/API.md#until)
+  * [`filter`](ProposalChangeAPI.md#filter)
+  * [`until`](ProposalChangeAPI.md#until)
 
 ### Running
 
-  * [`run`](/API.md#run)
+  * [`run`](ProposalChangeAPI.md#run)
 
 ### Creating
 
-  * [`on`](/API.md#on)
-  * [`once`](/API.md#once)
-  * [`from`](/API.md#from)
-  * [`compose`](/API.md#compose)
+  * [`on`](ProposalChangeAPI.md#on)
+  * [`once`](ProposalChangeAPI.md#once)
+  * [`from`](ProposalChangeAPI.md#from)
+  * [`compose`](ProposalChangeAPI.md#compose)
 
 <br>
 
