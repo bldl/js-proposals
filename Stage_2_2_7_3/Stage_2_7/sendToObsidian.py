@@ -6,6 +6,8 @@ from dotenv import load_dotenv
 
 from sharedMethods.askGPT import classifyProposal
 
+path = "Obsidian_TC39_Proposals/Proposals/Stage 2.7 Proposals"
+
 with open("Stage_2_2_7_3/Stage_2_7/outputMD/apiResults.md", "r") as file:
     fileContent = file.readlines()
 
@@ -29,6 +31,13 @@ for entry in data_list:
             invalid_chars = '\\/*?:"<>|'
             for char in invalid_chars:
                 link_titles = link_title.replace(char, "")
+
+            file_path = os.path.join(path, f"{link_titles}.md")
+
+            # Check if the file already exists
+            if os.path.exists(file_path):
+                print(f"File '{file_path}' already exists. Skipping...")
+                continue 
 
             try:
                 apiProposalName = github_link.split("/")[-1]

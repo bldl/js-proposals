@@ -1,5 +1,5 @@
 #Stage2Tag
-Classification: #Syntactic_Change #API_Change
+Classification: #API_Change #Syntactic_Change
 Human Validated: No
 Title: ESM Phase Imports
 Authors: Luca Casonato, Guy Bedford

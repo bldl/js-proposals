@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "296189cb21b8d6bc",
+            "id": "3e0d0fb27edd08f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 4 Proposals/static-blocks.md",
+                "file": "Proposals/Stage 0 Proposals/catch-guard.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "static-blocks"
+              "title": "catch-guard"
             }
           }
         ],
@@ -64,7 +64,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -188,34 +188,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "296189cb21b8d6bc",
+  "active": "3e0d0fb27edd08f9",
   "lastOpenFiles": [
+    "Proposals/Stage 4 Proposals/arraybuffer-transfer.md",
+    "Proposals/Stage 0 Proposals/catch-guard.md",
+    "Proposals/Stage 4 Proposals/array-includes.md",
+    "Proposals/Stage 4 Proposals/allsettled.md",
+    "Proposals/Stage 4 Proposals/array-grouping.md",
+    "Proposals/Stage 1 Proposals/array-filtering.md",
+    "Proposals/Stage 4 Proposals/async-await.md",
+    "Proposals/Stage 2.7 Proposals/joint.md",
+    "Proposals/Stage 2.7 Proposals/lazy-import.md",
+    "Proposals/Stage 2.7 Proposals/sequencing.md",
+    "Proposals/Stage 2.7 Proposals/math-sum.md",
+    "Proposals/Stage 2.7 Proposals/shadowrealm.md",
+    "Proposals/Stage 4 Proposals/exponentiation.md",
+    "Proposals/Stage 4 Proposals/static-blocks.md",
     "Proposals/Stage 4 Proposals/symbols-weakmap.md",
     "Proposals/Stage 4 Proposals/private-methods.md",
     "Proposals/Stage 4 Proposals/finally.md",
     "Proposals/Stage 4 Proposals/bigint.md",
     "Proposals/Stage 4 Proposals/chaining.md",
     "Proposals/Stage 4 Proposals/async-iteration.md",
-    "Proposals/Stage 4 Proposals/allsettled.md",
     "Proposals/Stage 3 Proposals/decorator-metadata.md",
-    "Proposals/Stage 2.7 Proposals/joint.md",
     "Proposals/Stage 2 Proposals/async-context.md",
     "Proposals/Inactive Proposals/cleanup-some.md",
     "Proposals/Stage 0 Proposals/func-expr-decorators.md",
     "Proposals/Stage 1 Proposals/array.zip.md",
     "Proposals/Stage 2 Proposals/censorship.md",
-    "Proposals/Stage 2.7 Proposals/sequencing.md",
-    "Proposals/Stage 3 Proposals/escape.md",
-    "Proposals/Stage 3 Proposals/atomics-pause.md",
-    "Proposals/Stage 1 Proposals/template-literals.md",
-    "Proposals/Stage 1 Proposals/proto-pollution.md",
-    "Proposals/Stage 1 Proposals/import-sync.md",
-    "Proposals/Stage 1 Proposals/idl.md",
-    "Proposals/Inactive Proposals/collection-literals.md",
-    "Proposals/Stage 1 Proposals/collection-of-from.md",
-    "Proposals/Stage 4 Proposals/named-groups.md",
-    "Proposal Types/API Changes.md",
-    "Proposals/Stage 0 Proposals/method-param-decorators.md",
     "Untitled",
     "Proposal Types",
     "Proposals 1/Stage 4 Proposals",

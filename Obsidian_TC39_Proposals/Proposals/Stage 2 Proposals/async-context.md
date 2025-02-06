@@ -1,5 +1,5 @@
 #Stage2Tag
-Classification: #API_Change #Semantic_Change
+Classification: #API_Change
 Human Validated: No
 Title: Async Context
 Authors: Chengzhong Wu
