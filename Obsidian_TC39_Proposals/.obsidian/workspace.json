@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d12e39bec7e67201",
+        "id": "764624e3b7cbe34f",
         "type": "tabs",
         "children": [
           {
-            "id": "11b1822ca95aff7e",
+            "id": "b2ce45b758c28471",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "dc8bbe282b53ca92",
+            "id": "296189cb21b8d6bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 1 Proposals/array-equality.md",
+                "file": "Proposals/Stage 4 Proposals/static-blocks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,21 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "array-equality"
-            }
-          },
-          {
-            "id": "b46ff245c4283ae1",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "static-blocks"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#API_C",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.5
+    "width": 293.5
   },
   "right": {
     "id": "4be0bd39da1f29fc",
@@ -198,34 +188,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b46ff245c4283ae1",
+  "active": "296189cb21b8d6bc",
   "lastOpenFiles": [
+    "Proposals/Stage 4 Proposals/symbols-weakmap.md",
+    "Proposals/Stage 4 Proposals/private-methods.md",
+    "Proposals/Stage 4 Proposals/finally.md",
+    "Proposals/Stage 4 Proposals/bigint.md",
+    "Proposals/Stage 4 Proposals/chaining.md",
+    "Proposals/Stage 4 Proposals/async-iteration.md",
+    "Proposals/Stage 4 Proposals/allsettled.md",
+    "Proposals/Stage 3 Proposals/decorator-metadata.md",
+    "Proposals/Stage 2.7 Proposals/joint.md",
+    "Proposals/Stage 2 Proposals/async-context.md",
+    "Proposals/Inactive Proposals/cleanup-some.md",
+    "Proposals/Stage 0 Proposals/func-expr-decorators.md",
+    "Proposals/Stage 1 Proposals/array.zip.md",
+    "Proposals/Stage 2 Proposals/censorship.md",
+    "Proposals/Stage 2.7 Proposals/sequencing.md",
+    "Proposals/Stage 3 Proposals/escape.md",
+    "Proposals/Stage 3 Proposals/atomics-pause.md",
+    "Proposals/Stage 1 Proposals/template-literals.md",
+    "Proposals/Stage 1 Proposals/proto-pollution.md",
+    "Proposals/Stage 1 Proposals/import-sync.md",
+    "Proposals/Stage 1 Proposals/idl.md",
+    "Proposals/Inactive Proposals/collection-literals.md",
+    "Proposals/Stage 1 Proposals/collection-of-from.md",
+    "Proposals/Stage 4 Proposals/named-groups.md",
     "Proposal Types/API Changes.md",
     "Proposals/Stage 0 Proposals/method-param-decorators.md",
-    "Proposals/Inactive Proposals/signbit.md",
-    "Proposals/Stage 0 Proposals/func-expr-decorators.md",
-    "Proposals/Stage 0 Proposals/bind-syntax.md",
-    "Proposals/Inactive Proposals/cleanup-some.md",
-    "Proposals/Inactive Proposals/blocks.md",
-    "Proposals/Stage 1 Proposals/array-equality.md",
-    "Proposals/Stage 4 Proposals/private-fields-in-in.md",
-    "Proposals/Stage 4 Proposals/promise-any.md",
-    "Proposals/Stage 4 Proposals/regexp-modifiers.md",
-    "Proposals/Stage 4 Proposals/set-methods.md",
-    "Proposals/Stage 4 Proposals/try.md",
-    "Proposals/Stage 4 Proposals/allsettled.md",
-    "Proposals/Stage 1 Proposals/array-filtering.md",
-    "Proposals/Stage 1 Proposals/accessors.md",
-    "Proposals/Stage 0 Proposals/as-patterns.md",
-    "Proposal Types/Syntactic Changes.md",
-    "Proposals/Stage 4 Proposals/arraybuffer-transfer.md",
-    "Proposals/Stage 2 Proposals/immutable-abs.md",
-    "Proposal Types/Semantic Changes.md",
-    "Proposals/Stage 0 Proposals/ortho.md",
-    "Proposals/Stage 4 Proposals/for-in-mechanics.md",
-    "Proposals/Stage 4 Proposals/array-includes.md",
-    "Proposals/Stage 4 Proposals/array-grouping.md",
-    "Proposals/Stage 4 Proposals/at.md",
     "Untitled",
     "Proposal Types",
     "Proposals 1/Stage 4 Proposals",

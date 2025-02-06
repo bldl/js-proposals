@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #API_Change
+Human Validated: No
 Title: Math.seededRandoms()
 Authors: Mathias Bynens
 Champions: Mathias Bynens

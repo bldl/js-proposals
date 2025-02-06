@@ -1,5 +1,6 @@
 #Stage2Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: function.sent metaproperty
 Authors: Allen Wirfs-Brock
 Champions: HE Shi-Jun

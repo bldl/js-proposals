@@ -1,5 +1,6 @@
 #Stage4Tag
 Classification: #Semantic_Change
+Human Validated: No
 Title: Function.prototype.toString revision
 Authors: Michael Ficarra
 Champions: Michael Ficarra

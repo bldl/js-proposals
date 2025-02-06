@@ -1,5 +1,6 @@
 #Stage4Tag
 Classification: #API_Change
+Human Validated: No
 Title: Symbol.prototype.description
 Authors: Michael Ficarra
 Champions: Michael Ficarra

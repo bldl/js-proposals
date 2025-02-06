@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #API_Change
+Human Validated: No
 Title: Emitter
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell

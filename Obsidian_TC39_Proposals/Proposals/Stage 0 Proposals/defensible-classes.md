@@ -1,5 +1,6 @@
 #Stage0Tag
 Classification:
+Human Validated: No
 Title: Defensible Classes
 Authors: Mark Miller, Doug Crockford
 Champions: Mark Miller, Doug Crockford

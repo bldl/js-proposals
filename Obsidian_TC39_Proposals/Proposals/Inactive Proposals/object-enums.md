@@ -1,5 +1,6 @@
 #InactiveTag
 Classification:
+Human Validated: No
 Title: Object enumerables
 Authors: Leo Balter, John-David Dalton
 Champions: Rejected

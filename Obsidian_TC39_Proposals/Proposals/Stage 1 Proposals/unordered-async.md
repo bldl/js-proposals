@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #API_Change
+Human Validated: No
 Title: Unordered Async Iterator Helpers
 Authors: Michael Ficarra, Luca Casonato, Kevin Gibbons
 Champions: Michael Ficarra, Luca Casonato

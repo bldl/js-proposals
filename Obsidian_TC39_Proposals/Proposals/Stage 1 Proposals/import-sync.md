@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #API_Change #Syntactic_Change
+Human Validated: No
 Title: Sync Imports
 Authors: Mark Miller, Chip Morningstar, Richard Gibson, Mathieu Hofman
 Champions: Mark Miller, Chip Morningstar, Richard Gibson, Mathieu Hofman

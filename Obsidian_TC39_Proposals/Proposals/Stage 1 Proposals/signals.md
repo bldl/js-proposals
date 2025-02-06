@@ -1,5 +1,6 @@
 #Stage1Tag
-Classification: #API_Change #Syntactic_Change
+Classification: #API_Change #Semantic_Change #Syntactic_Change
+Human Validated: No
 Title: Signals
 Authors: Ron Buckton
 Champions: Ron Buckton

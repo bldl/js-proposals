@@ -1,5 +1,6 @@
 #Stage0Tag
 Classification:
+Human Validated: No
 Title: String trim characters
 Authors: Wenlu Wang
 Champions: Wenlu Wang

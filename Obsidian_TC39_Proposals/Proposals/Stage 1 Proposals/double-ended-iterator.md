@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: Double-Ended Iterator and Destructuring
 Authors: [TechQuery](https://github.com/TechQuery)
 Champions: Jack Works

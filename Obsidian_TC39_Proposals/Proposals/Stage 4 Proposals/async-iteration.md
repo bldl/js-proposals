@@ -1,5 +1,6 @@
 #Stage4Tag
 Classification: #API_Change #Syntactic_Change
+Human Validated: No
 Title: Asynchronous Iteration
 Authors: Domenic Denicola
 Champions: Domenic Denicola

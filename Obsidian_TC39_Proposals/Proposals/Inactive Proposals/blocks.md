@@ -1,5 +1,6 @@
 #InactiveTag
 Classification:
+Human Validated: No
 Title: Blöcks
 Authors: Domenic Denicola, Miško Hevery
 Champions: Withdrawn; champion is no longer participating in TC39

@@ -1,5 +1,6 @@
 #InactiveTag
 Classification: #API_Change
+Human Validated: No
 Title: Date.parse fallback semantics
 Authors: Morgan Phillips
 Champions: Inactive; likely replaced by [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]

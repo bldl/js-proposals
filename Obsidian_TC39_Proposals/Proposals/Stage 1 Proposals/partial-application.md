@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: Partial application
 Authors: Michael Ficarra
 Champions: Michael Ficarra

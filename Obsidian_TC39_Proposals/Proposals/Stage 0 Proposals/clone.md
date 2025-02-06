@@ -1,5 +1,6 @@
 #Stage0Tag
 Classification:
+Human Validated: No
 Title: Structured Clone
 Authors: Dmitry Lomov
 Champions: Dmitry Lomov

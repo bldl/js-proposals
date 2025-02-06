@@ -1,5 +1,6 @@
 #Stage2Tag
 Classification: #API_Change
+Human Validated: No
 Title: Async Iterator helpers
 Authors: Gus Caplan
 Champions: Michael Ficarra, Jonathan Keslin, Kevin Gibbons

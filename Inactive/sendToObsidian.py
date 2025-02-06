@@ -58,6 +58,7 @@ for entry in data_list:
                     proposals.write(
                         f"#InactiveTag\n"
                         f"Classification:\n"
+                        f"Human Validated: No\n"
                         f"Title: {title}\n"
                         f"Authors: {authors}\n"
                         f"Champions: {champions}\n"
@@ -73,6 +74,7 @@ for entry in data_list:
                 proposals.write(
                     f"#InactiveTag\n"
                     f"Classification: {classification}\n"
+                    f"Human Validated: No\n"
                     f"Title: {title}\n"
                     f"Authors: {authors}\n"
                     f"Champions: {champions}\n"

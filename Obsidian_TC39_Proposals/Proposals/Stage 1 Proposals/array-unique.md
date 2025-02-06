@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification:
+Human Validated: No
 Title: Array.prototype.unique()
 Authors: Jack Works
 Champions: Jack Works, Jordan Harband

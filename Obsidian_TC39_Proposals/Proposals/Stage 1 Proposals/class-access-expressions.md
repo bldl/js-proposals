@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: class Access Expressions
 Authors: Mike Samuel
 Champions: Mike Samuel

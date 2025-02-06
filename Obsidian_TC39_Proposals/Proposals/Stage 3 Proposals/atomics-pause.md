@@ -1,5 +1,6 @@
 #Stage3Tag
 Classification: #API_Change
+Human Validated: No
 Title: Atomics.pause
 Authors: Shu-yu Guo
 Champions: Shu-yu Guo

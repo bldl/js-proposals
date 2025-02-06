@@ -1,5 +1,6 @@
 #Stage3Tag
 Classification: #API_Change
+Human Validated: No
 Title: RegExp.escape
 Authors: Domenic Denicola, Benjamin Gruenbaum, Jordan Harband
 Champions: Jordan Harband, Kevin Gibbons

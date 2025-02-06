@@ -1,5 +1,6 @@
 #Stage2Tag
 Classification: #API_Change
+Human Validated: No
 Title: Iterator.range
 Authors: Jack Works
 Champions: Jack Works

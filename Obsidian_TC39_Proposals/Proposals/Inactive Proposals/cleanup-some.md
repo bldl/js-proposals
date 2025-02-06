@@ -1,5 +1,6 @@
 #InactiveTag
 Classification: #API_Change
+Human Validated: No
 Title: WeakRefs cleanupSome
 Authors: Gus Caplan, Jordan Harband, Myles Borins
 Champions: Withdrawn; changing thenability on Module Namespace objects is not web compatible, and allowing non-Promise use of "then" is not worth slowing down all Promise operations

@@ -1,5 +1,6 @@
 #Stage2Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: Function implementation hiding
 Authors: Domenic Denicola, Michael Ficarra
 Champions: Michael Ficarra

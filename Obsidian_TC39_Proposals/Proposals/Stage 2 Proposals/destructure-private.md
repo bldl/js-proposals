@@ -1,5 +1,6 @@
 #Stage2Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: Destructure Private Fields
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell

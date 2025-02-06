@@ -1,5 +1,6 @@
 #Stage0Tag
 Classification:
+Human Validated: No
 Title: Orthogonal Classes
 Authors: Mark Miller, Allen Wirfs-Brock
 Champions: Mark Miller, Allen Wirfs-Brock

@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: async do expressions
 Authors: Ron Buckton
 Champions: Ron Buckton

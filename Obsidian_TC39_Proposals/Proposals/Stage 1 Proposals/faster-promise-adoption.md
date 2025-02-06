@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #Semantic_Change
+Human Validated: No
 Title: Faster Promise adoption
 Authors: Gil Tayar, Daniel Rosenwasser, Romulo Cintra, Rob Palmer
 Champions: Daniel Rosenwasser, Romulo Cintra, Rob Palmer

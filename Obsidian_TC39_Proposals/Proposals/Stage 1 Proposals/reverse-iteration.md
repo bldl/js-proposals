@@ -1,5 +1,6 @@
 #Stage1Tag
-Classification: #Syntactic_Change
+Classification: #API_Change
+Human Validated: No
 Title: Reverse iteration
 Authors: Shu-yu Guo, Pedram Emrouznejad
 Champions: Shu-yu Guo, Pedram Emrouznejad

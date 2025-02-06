@@ -1,5 +1,6 @@
 #Stage1Tag
-Classification: #API_Change #Syntactic_Change
+Classification: #Syntactic_Change #API_Change
+Human Validated: No
 Title: Strict Enforcement of 'using'
 Authors: Ron Buckton
 Champions: Ron Buckton

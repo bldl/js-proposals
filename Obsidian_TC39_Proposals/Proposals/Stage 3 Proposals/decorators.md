@@ -1,5 +1,6 @@
 #Stage3Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: Decorators
 Authors: Daniel Ehrenberg, Kristen Hewell Garrett
 Champions: Kristen Hewell Garrett

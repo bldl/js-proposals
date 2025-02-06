@@ -1,5 +1,6 @@
 #InactiveTag
 Classification: #API_Change
+Human Validated: No
 Title: Math.signbit: IEEE-754 sign bit
 Authors: Sergey Rubanov, Brendan Eich
 Champions: Withdrawn: no interested champions in February 2024

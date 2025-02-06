@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification:
+Human Validated: No
 Title: Locale Extensions
 Authors: Pablo Gorostiaga Belio
 Champions: Pablo Gorostiaga Belio

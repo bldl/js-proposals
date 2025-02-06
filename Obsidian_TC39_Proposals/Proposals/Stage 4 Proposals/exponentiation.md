@@ -1,5 +1,6 @@
 #Stage4Tag
 Classification:
+Human Validated: No
 Title: Exponentiation operator
 Authors: Rick Waldron
 Champions: Rick Waldron

@@ -1,5 +1,6 @@
 #InactiveTag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: Extensible numeric literals
 Authors: Daniel Ehrenberg
 Champions: Withdrawn

@@ -1,5 +1,6 @@
 #Stage4Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: Private instance methods and accessors
 Authors: Daniel Ehrenberg
 Champions: Daniel Ehrenberg, Kevin Gibbons

@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: First-class protocols
 Authors: Shu-yu Guo
 Champions: Shu-yu Guo

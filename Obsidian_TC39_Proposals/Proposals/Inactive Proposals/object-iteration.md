@@ -1,5 +1,6 @@
 #InactiveTag
 Classification: #API_Change
+Human Validated: No
 Title: Improving iteration on Objects
 Authors: Gus Caplan
 Champions: [Rejected][unused-params-notes]: the need to solve the problem does not outweigh the hazards

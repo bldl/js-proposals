@@ -1,5 +1,6 @@
 #InactiveTag
 Classification:
+Human Validated: No
 Title: Zones
 Authors: Domenic Denicola
 Champions: Withdrawn; champion is no longer participating in TC39

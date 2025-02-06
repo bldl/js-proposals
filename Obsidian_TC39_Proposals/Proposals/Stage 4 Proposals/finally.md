@@ -1,5 +1,6 @@
 #Stage4Tag
 Classification: #API_Change #Syntactic_Change
+Human Validated: No
 Title: Promise.prototype.finally
 Authors: Jordan Harband
 Champions: Jordan Harband

@@ -1,5 +1,6 @@
 #Stage4Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: Numeric separators
 Authors: Sam Goto, Rick Waldron
 Champions: Sam Goto, Rick Waldron , Leo Balter

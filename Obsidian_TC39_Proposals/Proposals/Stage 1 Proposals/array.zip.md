@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #API_Change
+Human Validated: No
 Title: Array.zip and Array.zipKeyed
 Authors: Michael Ficarra
 Champions: Michael Ficarra

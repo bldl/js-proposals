@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: Function and Object Literal Decorators
 Authors: HE Shi-Jun
 Champions: HE Shi-Jun

@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #API_Change
+Human Validated: No
 Title: DataView get/set Uint8Clamped methods
 Authors: Nicolò Ribaudo
 Champions: Nicolò Ribaudo

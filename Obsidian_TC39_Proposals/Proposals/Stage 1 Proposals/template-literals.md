@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification:
+Human Validated: No
 Title: Improved Escapes for Template Literals
 Authors: Michael Ficarra
 Champions: Michael Ficarra

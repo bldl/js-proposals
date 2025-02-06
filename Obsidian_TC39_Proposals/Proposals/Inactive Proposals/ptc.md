@@ -1,5 +1,6 @@
 #InactiveTag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: Updates to Tail Calls to include an explicit syntactic opt-in
 Authors: Brian Terlson, Eric Faust
 Champions: Inactive

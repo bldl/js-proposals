@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #API_Change #Syntactic_Change
+Human Validated: No
 Title: of and from on collection constructors
 Authors: Leo Balter
 Champions: Leo Balter

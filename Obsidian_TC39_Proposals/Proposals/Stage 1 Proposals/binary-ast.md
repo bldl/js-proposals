@@ -1,5 +1,6 @@
 #Stage1Tag
-Classification: #API_Change #Semantic_Change
+Classification: #Semantic_Change #Syntactic_Change
+Human Validated: No
 Title: Binary AST
 Authors: 
 Champions: Brendan Eich

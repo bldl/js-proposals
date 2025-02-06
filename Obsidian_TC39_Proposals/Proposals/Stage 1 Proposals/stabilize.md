@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #Semantic_Change
+Human Validated: No
 Title: Stabilize
 Authors: Jordan Harband
 Champions: Jordan Harband

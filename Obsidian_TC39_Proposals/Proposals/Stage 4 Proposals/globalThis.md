@@ -1,5 +1,6 @@
 #Stage4Tag
 Classification: #API_Change
+Human Validated: No
 Title: globalThis
 Authors: Jordan Harband
 Champions: Jordan Harband

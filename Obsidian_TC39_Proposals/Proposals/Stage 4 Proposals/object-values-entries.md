@@ -1,5 +1,6 @@
 #Stage4Tag
 Classification: #API_Change
+Human Validated: No
 Title: Object.values/Object.entries
 Authors: Jordan Harband
 Champions: Jordan Harband

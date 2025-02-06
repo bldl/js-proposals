@@ -1,5 +1,6 @@
 #Stage2Tag
 Classification: #API_Change
+Human Validated: No
 Title: collection normalization
 Authors: Bradley Farias
 Champions: Bradley Farias

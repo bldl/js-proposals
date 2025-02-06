@@ -1,5 +1,6 @@
 #InactiveTag
 Classification: #API_Change #Syntactic_Change
+Human Validated: No
 Title: Symbol.thenable
 Authors: J.S. Choi
 Champions: Withdrawn: [rejected for stage 1][pipe-flow-notes]

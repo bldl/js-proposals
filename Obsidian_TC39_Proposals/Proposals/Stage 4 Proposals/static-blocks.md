@@ -1,5 +1,6 @@
 #Stage4Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: Class Static Block
 Authors: Ron Buckton
 Champions: Ron Buckton

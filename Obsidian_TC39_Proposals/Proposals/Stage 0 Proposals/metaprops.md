@@ -1,5 +1,6 @@
 #Stage0Tag
 Classification:
+Human Validated: No
 Title: Additional metaproperties
 Authors: Allen Wirfs-Brock
 Champions: Allen Wirfs-Brock

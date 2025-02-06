@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: RegExp Atomic Operators
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell

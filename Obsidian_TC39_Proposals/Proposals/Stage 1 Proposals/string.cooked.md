@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #API_Change
+Human Validated: No
 Title: String.cooked
 Authors: Jordan Harband
 Champions: Jordan Harband

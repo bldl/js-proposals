@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #API_Change
+Human Validated: No
 Title: {BigInt,Number}.fromString
 Authors: Sam Goto
 Champions: Sam Goto

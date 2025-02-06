@@ -1,5 +1,6 @@
 #Stage4Tag
 Classification: #API_Change
+Human Validated: No
 Title: Object.getOwnPropertyDescriptors
 Authors: Jordan Harband, Andrea Giammarchi
 Champions: Jordan Harband, Andrea Giammarchi

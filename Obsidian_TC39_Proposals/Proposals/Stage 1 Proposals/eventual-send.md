@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #API_Change
+Human Validated: No
 Title: Support for Distributed Promise Pipelining
 Authors: Mark Miller, Peter Hoddie
 Champions: Mark Miller, Peter Hoddie

@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #Semantic_Change
+Human Validated: No
 Title: Restrict subclassing support in built-in methods
 Authors: Rick Button
 Champions: Rick Button

@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: Deep Path Properties in Record Literals
 Authors: Bradley Farias
 Champions: Bradley Farias, Mark S. Miller, Caridy Patiño, J.F. Paradis, Patrick Soquet, Kris Kowal

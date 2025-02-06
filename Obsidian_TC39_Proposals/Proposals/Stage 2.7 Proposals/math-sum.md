@@ -1,5 +1,6 @@
 #Stage_2_7Tag
 Classification: #API_Change
+Human Validated: No
 Title: Math.sumPrecise
 Authors: Kevin Gibbons
 Champions: Kevin Gibbons

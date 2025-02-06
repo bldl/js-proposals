@@ -1,5 +1,6 @@
 #Stage2Tag
 Classification: #Syntactic_Change #API_Change
+Human Validated: No
 Title: Record & Tuple
 Authors: Robin Ricard, Richard Button
 Champions: Robin Ricard, Richard Button

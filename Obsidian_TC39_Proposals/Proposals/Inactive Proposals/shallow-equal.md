@@ -1,5 +1,6 @@
 #InactiveTag
 Classification:
+Human Validated: No
 Title: Object.shallowEqual
 Authors: Sebastian Markbage
 Champions: Withdrawn

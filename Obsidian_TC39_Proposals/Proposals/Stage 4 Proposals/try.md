@@ -1,5 +1,6 @@
 #Stage4Tag
 Classification: #API_Change
+Human Validated: No
 Title: Promise.try
 Authors: Jordan Harband
 Champions: Jordan Harband

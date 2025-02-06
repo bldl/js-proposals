@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: Slice notation
 Authors: Bradley Farias
 Champions: Bradley Farias

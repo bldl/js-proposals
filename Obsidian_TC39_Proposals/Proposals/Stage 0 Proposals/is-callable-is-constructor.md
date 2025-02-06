@@ -1,5 +1,6 @@
 #Stage0Tag
 Classification:
+Human Validated: No
 Title: Reflect.{isCallable,isConstructor}
 Authors: Caitlin Potter
 Champions: Caitlin Potter

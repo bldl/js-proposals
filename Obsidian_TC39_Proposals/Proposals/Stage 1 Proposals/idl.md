@@ -1,5 +1,6 @@
 #Stage1Tag
-Classification: #API_Change #Syntactic_Change
+Classification: #API_Change
+Human Validated: No
 Title: IDL for ECMAScript
 Authors: Richard Gibson
 Champions: Richard Gibson

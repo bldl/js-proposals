@@ -1,5 +1,6 @@
 #Stage0Tag
 Classification:
+Human Validated: No
 Title: as destructuring patterns
 Authors: Kat Marchán
 Champions: Kat Marchán

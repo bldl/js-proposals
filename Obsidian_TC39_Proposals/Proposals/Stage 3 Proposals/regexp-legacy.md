@@ -1,5 +1,6 @@
 #Stage3Tag
 Classification: #API_Change #Semantic_Change
+Human Validated: No
 Title: Legacy RegExp features in JavaScript
 Authors: Claude Pache
 Champions: Mark Miller, Claude Pache

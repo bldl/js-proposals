@@ -1,5 +1,6 @@
 #Stage3Tag
 Classification: #API_Change
+Human Validated: No
 Title: Array.fromAsync
 Authors: J.S. Choi
 Champions: J.S. Choi

@@ -1,5 +1,6 @@
 #Stage4Tag
 Classification: #API_Change
+Human Validated: No
 Title: Promise.withResolvers
 Authors: Peter Klecha
 Champions: Peter Klecha

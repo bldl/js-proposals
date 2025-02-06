@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #API_Change
+Human Validated: No
 Title: Decimal
 Authors: Bradley Farias
 Champions: Bradley Farias

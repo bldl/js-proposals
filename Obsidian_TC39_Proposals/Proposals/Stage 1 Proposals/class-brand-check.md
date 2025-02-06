@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: Class Brand Checks
 Authors: Kevin Gibbons
 Champions: Kevin Gibbons

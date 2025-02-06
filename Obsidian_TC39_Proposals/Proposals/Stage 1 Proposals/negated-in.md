@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: Negated in and instanceof operators
 Authors: Eemeli Aro
 Champions: Eemeli Aro

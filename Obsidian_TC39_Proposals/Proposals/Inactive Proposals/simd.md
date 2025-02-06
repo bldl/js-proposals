@@ -1,5 +1,6 @@
 #InactiveTag
 Classification:
+Human Validated: No
 Title: SIMD.JS - SIMD APIs
 Authors: Peter Jensen, Yehuda Katz
 Champions: [Stage 1][simd-notes]: Start with SIMD in WASM; implementations not pursuing SIMD.js for now.

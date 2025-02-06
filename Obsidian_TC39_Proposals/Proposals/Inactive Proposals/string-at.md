@@ -1,5 +1,6 @@
 #InactiveTag
 Classification:
+Human Validated: No
 Title: String.prototype.at
 Authors: Jonathan Keslin
 Champions: Withdrawn: concern about need for such an API

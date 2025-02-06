@@ -1,5 +1,6 @@
 #Stage0Tag
 Classification:
+Human Validated: No
 Title: Object Shorthand Improvements
 Authors: Ron Buckton
 Champions: Ron Buckton

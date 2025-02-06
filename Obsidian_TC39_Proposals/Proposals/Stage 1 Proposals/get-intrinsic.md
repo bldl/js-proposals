@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #API_Change
+Human Validated: No
 Title: Get Intrinsic
 Authors: J.S. Choi
 Champions: J.S. Choi

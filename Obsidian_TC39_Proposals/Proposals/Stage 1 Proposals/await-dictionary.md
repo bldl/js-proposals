@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #API_Change #Syntactic_Change
+Human Validated: No
 Title: Await Dictionary
 Authors: Santiago Díaz, Jun Kokatsu
 Champions: Shu-yu Guo

@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: Wavy Dot: Syntactic Support for Promise Pipelining
 Authors: Mark Miller, Chip Morningstar, Michael Fig
 Champions: Mark Miller, Chip Morningstar, Michael Fig

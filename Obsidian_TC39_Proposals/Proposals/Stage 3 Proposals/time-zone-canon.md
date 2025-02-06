@@ -1,5 +1,6 @@
 #Stage3Tag
 Classification: #Semantic_Change
+Human Validated: No
 Title: Time Zone Canonicalization
 Authors: Justin Grant
 Champions: Justin Grant, Richard Gibson

@@ -1,5 +1,6 @@
 #Stage2Tag
-Classification: #Syntactic_Change
+Classification: #Syntactic_Change #API_Change
+Human Validated: No
 Title: ESM Phase Imports
 Authors: Luca Casonato, Guy Bedford
 Champions: Luca Casonato, Guy Bedford

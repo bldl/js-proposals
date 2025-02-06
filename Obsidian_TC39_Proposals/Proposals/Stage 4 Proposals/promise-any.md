@@ -1,5 +1,6 @@
 #Stage4Tag
 Classification: #API_Change #Syntactic_Change
+Human Validated: No
 Title: Promise.any
 Authors: Mathias Bynens, Kevin Gibbons, Sergey Rubanov
 Champions: Mathias Bynens

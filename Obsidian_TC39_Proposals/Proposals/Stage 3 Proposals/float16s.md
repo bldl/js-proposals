@@ -1,5 +1,6 @@
 #Stage3Tag
 Classification: #API_Change
+Human Validated: No
 Title: Float16 on TypedArrays, DataView, Math.f16round
 Authors: Leo Balter
 Champions: Leo Balter, Kevin Gibbons

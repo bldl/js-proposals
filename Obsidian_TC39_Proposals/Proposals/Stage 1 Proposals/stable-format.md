@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #API_Change #Syntactic_Change
+Human Validated: No
 Title: Stable Formatting
 Authors: Jordan Harband
 Champions: Jordan Harband

@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #API_Change
+Human Validated: No
 Title: Limited ArrayBuffer
 Authors: HE Shi-Jun
 Champions: HE Shi-Jun

@@ -1,5 +1,6 @@
 #Stage2Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: throw expressions
 Authors: Ron Buckton
 Champions: Ron Buckton

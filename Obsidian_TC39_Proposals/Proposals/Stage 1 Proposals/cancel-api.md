@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #API_Change
+Human Validated: No
 Title: Cancellation API
 Authors: Ron Buckton
 Champions: Ron Buckton

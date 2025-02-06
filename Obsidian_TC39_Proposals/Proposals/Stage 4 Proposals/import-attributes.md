@@ -1,5 +1,6 @@
 #Stage4Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: Import Attributes
 Authors: Myles Borins, Sven Sauleau, Dan Clark, Daniel Ehrenberg
 Champions: Sven Sauleau, Dan Clark, Daniel Ehrenberg, Nicolò Ribaudo

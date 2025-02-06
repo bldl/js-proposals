@@ -1,5 +1,6 @@
 #Stage1Tag
-Classification: #API_Change #Semantic_Change
+Classification: #Semantic_Change
+Human Validated: No
 Title: Prototype pollution mitigation
 Authors: Alex Vincent
 Champions: Mark S. Miller, Jack Works

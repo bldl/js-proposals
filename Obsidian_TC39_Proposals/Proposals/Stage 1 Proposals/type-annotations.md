@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: Type Annotations
 Authors: J. S. Choi
 Champions: J. S. Choi

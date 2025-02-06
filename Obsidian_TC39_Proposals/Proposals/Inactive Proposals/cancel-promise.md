@@ -1,5 +1,6 @@
 #InactiveTag
 Classification: #API_Change
+Human Validated: No
 Title: Cancelable Promises
 Authors: Domenic Denicola
 Champions: Withdrawn

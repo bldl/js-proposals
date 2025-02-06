@@ -1,5 +1,6 @@
 #InactiveTag
 Classification:
+Human Validated: No
 Title: Callable class constructors
 Authors: Yehuda Katz, Allen Wirfs-Brock
 Champions: Withdrawn: can be solved with decorators

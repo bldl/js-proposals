@@ -1,5 +1,6 @@
 #Stage1Tag
 Classification: #Syntactic_Change
+Human Validated: No
 Title: Optional chaining in assignment LHS
 Authors: Ron Buckton
 Champions: Ron Buckton
