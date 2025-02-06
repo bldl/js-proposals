@@ -58,7 +58,7 @@ Part 2: Analyse rate of change
 The data collected in Part 1 will be used to create a graph to present the rate of change of the JavaScript language per TC39 meeting. The proposals will be arranged per date and presented on an interactive graph. This will be done using a tool such as React Charts. The rate of change will be calculated using derivatives similar to that used in physics (https://en.wikipedia.org/wiki/Fourth,_fifth,_and_sixth_derivatives_of_position). The graph will change and present the data according to what the user clicks on. This will be presented on the same website as the map will be presented.
 
 
-# How to use:
+# How to use tbis program:
 
 Extract proposal summaries:
 
@@ -82,21 +82,25 @@ Inactive:
 `python -m Inactive.extractFromApiResponse` then `python -m Inactive.sendToObsidian`
 
 Stage0:
-`python -m Stage_0.extractFromApiResponse` then run sendToObsidian.py in /Stage_0
+`python -m Stage_0.extractFromApiResponse` then `python -m Stage_0.sendToObsidian`
 
 Stage1:
-`python -m Stage_1.extractFromApiResponse` then run sendToObsidian.py in /Stage_1
+`python -m Stage_1.extractFromApiResponse` then `python -m Stage_1.sendToObsidian`
 
 For Stage 2, 2.7, and 3:
-Run extractAndDelegateFromApiResponse.py
+Run `extractAndDelegateFromApiResponse.py`. The documentation for these three stages are on thes ame page. 
+This script parses the input from the API response and delegates the output into the three stages for further processing.
 
 Stage2:
-`python -m Stage_2_2_7_3.Stage_2.extractFromApiResponseStage2` then run sendToObsidian.py in /Stage_2_2_7_3/Stage_2
+`python -m Stage_2_2_7_3.Stage_2.extractFromApiResponseStage2` then `python -m Stage_2_2_7_3.Stage_2.sendToObsidian`
 
 Stage2.7:
-`python -m Stage_2_2_7_3.Stage_2_7.extractFromApiResponseStage2_7` then run sendToObsidian.py in /Stage_2_2_7_3/Stage_2_7
+`python -m Stage_2_2_7_3.Stage_2_7.extractFromApiResponseStage2_7` then `python -m Stage_2_2_7_3.Stage_2_7.sendToObsidian`
 
 Stage3:
-`python -m Stage_2_2_7_3.Stage_3.extractFromApiResponseStage3` then run sendToObsidian.py in /Stage_2_2_7_3/Stage_3
+`python -m Stage_2_2_7_3.Stage_3.extractFromApiResponseStage3` then `python -m Stage_2_2_7_3.Stage_3.sendToObsidian`
+
+The `.sendToObsidian` script sends an API request to OpenAI to classify the proposal. Make sure that you have a .env file with your Github authentication token and OpenAI API key.
+This program requires two kinds of API keys, your Github authentication token and a OpenAI API key. The GitHub API key is used to allow you to make many API requests to Github without being timedout. The OpenAI API key is required for the proposals to be classified in the sendToObsidian.py programs.
 
 Open obsidian file in Obsidian and see the graph!
