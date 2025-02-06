@@ -1,5 +1,5 @@
 #Stage4Tag
-[[API Changes]]
+Classification: [[API Changes]] [[Syntactic Changes]]
 Title: Asynchronous Iteration
 Authors: Domenic Denicola
 Champions: Domenic Denicola

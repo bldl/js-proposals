@@ -1,5 +1,5 @@
 #Stage4Tag
-[[API Changes]]
+Classification: [[API Changes]]
 Title: Array find from last
 Authors: Wenlu Wang
 Champions: Wenlu Wang, Daniel Rosenwasser

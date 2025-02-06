@@ -1,4 +1,5 @@
 #Stage4Tag
+Classification: [[API Changes]]
 Title: Resizable and growable ArrayBuffers
 Authors: Shu-yu Guo
 Champions: Shu-yu Guo

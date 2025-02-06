@@ -1,5 +1,5 @@
 #Stage4Tag
-[[API Changes]]
+Classification: [[API Changes]]
 Title: Array.prototype.includes
 Authors: Domenic Denicola
 Champions: Domenic Denicola, Rick Waldron

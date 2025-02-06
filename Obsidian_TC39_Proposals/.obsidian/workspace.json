@@ -42,8 +42,19 @@
               "icon": "lucide-file",
               "title": "for-in-mechanics"
             }
+          },
+          {
+            "id": "162ab842c7756e49",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -187,36 +198,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee2c0074723dcf37",
+  "active": "162ab842c7756e49",
   "lastOpenFiles": [
+    "Proposals/Inactive Proposals/function-helpers.md",
+    "Proposals/Inactive Proposals/extensible-literals.md",
+    "Proposals/Inactive Proposals/distinguishing-literal-strings.md",
+    "Proposals/Inactive Proposals/construct.md",
+    "Proposals/Inactive Proposals/date-parse.md",
+    "Proposals/Inactive Proposals/cleanup-some.md",
+    "Proposals/Inactive Proposals/arraylast.md",
     "Proposals/Stage 4 Proposals/for-in-mechanics.md",
-    "Proposals/Stage 4 Proposals/flat.md",
-    "Proposals/Stage 4 Proposals/find-last.md",
-    "Proposals/Stage 4 Proposals/finally.md",
-    "Proposals/Stage 4 Proposals/exponentiation.md",
-    "Proposals/Stage 4 Proposals/error-cause.md",
-    "Proposals/Stage 4 Proposals/dynamic-import.md",
-    "Proposals/Stage 4 Proposals/dot-all.md",
     "Proposals/Stage 4 Proposals/change-array-by-copy.md",
     "Proposals/Stage 4 Proposals/chaining.md",
     "Proposals/Stage 4 Proposals/bigint.md",
-    "Proposals/Stage 4 Proposals/await.md",
+    "Proposals/Stage 4 Proposals/async-iteration.md",
     "Proposals/Stage 4 Proposals/atomics.md",
     "Proposals/Stage 4 Proposals/at.md",
-    "Proposal Types/API Changes.md",
-    "Proposals/Stage 4 Proposals/async-iteration.md",
     "Proposals/Stage 4 Proposals/async-await.md",
     "Proposals/Stage 4 Proposals/arraybuffer-transfer.md",
     "Proposals/Stage 4 Proposals/array-includes.md",
     "Proposals/Stage 4 Proposals/array-grouping.md",
     "Proposals/Stage 4 Proposals/allsettled.md",
-    "Proposal Types/Syntactic Changes.md",
-    "Proposal Types/Semantic Changes.md",
+    "Proposal Types/API Changes.md",
+    "Proposals/Stage 4 Proposals/await.md",
+    "Proposals/Stage 4 Proposals/promise-any.md",
+    "Proposals/Stage 4 Proposals/flat.md",
+    "Proposals/Stage 4 Proposals/find-last.md",
+    "Proposals/Stage 4 Proposals/finally.md",
+    "Proposals/Stage 4 Proposals/exponentiation.md",
     "Untitled",
     "Proposal Types",
-    "Proposals/Stage 2 Proposals/immutable-abs.md",
-    "Proposals/Stage 4 Proposals/iterator-helpers.md",
-    "Proposals/Stage 4 Proposals/regexp-v-flag.md",
     "Proposals 1/Stage 4 Proposals",
     "Proposals 1/Stage 3 Proposals",
     "Proposals 1/Stage 2.7 Proposals",

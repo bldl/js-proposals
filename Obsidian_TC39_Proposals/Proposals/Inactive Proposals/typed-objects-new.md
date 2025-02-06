@@ -1,4 +1,5 @@
 #InactiveTag
+Classification:
 Title: Typed Objects
 Authors: Till Schneidereit (previously [Dmitry Lomov, Niko Matsakis][typed-objects])
 Champions: Postponed: waiting for WebAssembly requirements to become clearer

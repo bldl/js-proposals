@@ -1,4 +1,5 @@
 #Stage4Tag
+Classification: [[Syntactic Changes]]
 Title: JSON Modules
 Authors: Myles Borins, Sven Sauleau, Dan Clark, Daniel Ehrenberg
 Champions: Myles Borins, Sven Sauleau, Dan Clark, Daniel Ehrenberg

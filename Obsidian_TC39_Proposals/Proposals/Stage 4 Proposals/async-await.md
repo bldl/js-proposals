@@ -1,5 +1,5 @@
 #Stage4Tag
-[[API Changes]]
+Classification: [[Syntactic Changes]]
 Title: Async functions
 Authors: Brian Terlson
 Champions: Brian Terlson

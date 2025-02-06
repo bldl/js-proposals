@@ -1,4 +1,5 @@
 #Stage4Tag
+Classification: [[Syntactic Changes]]
 Title: Class Static Block
 Authors: Ron Buckton
 Champions: Ron Buckton

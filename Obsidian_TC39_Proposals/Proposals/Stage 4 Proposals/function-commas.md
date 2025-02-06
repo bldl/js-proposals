@@ -1,4 +1,5 @@
 #Stage4Tag
+Classification: [[Syntactic Changes]]
 Title: Trailing commas in function parameter lists and calls
 Authors: Jeff Morrison
 Champions: Jeff Morrison

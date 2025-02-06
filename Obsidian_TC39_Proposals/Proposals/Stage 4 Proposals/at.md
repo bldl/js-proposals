@@ -1,5 +1,5 @@
 #Stage4Tag
-[[API Changes]]
+Classification: [[API Changes]]
 Title: .at()
 Authors: Shu-yu Guo, Tab Atkins
 Champions: Shu-yu Guo, Tab Atkins

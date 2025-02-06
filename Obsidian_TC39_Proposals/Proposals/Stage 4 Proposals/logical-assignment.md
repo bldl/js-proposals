@@ -1,4 +1,5 @@
 #Stage4Tag
+Classification: [[Syntactic Changes]]
 Title: Logical Assignment Operators
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell ,  Hemanth HM

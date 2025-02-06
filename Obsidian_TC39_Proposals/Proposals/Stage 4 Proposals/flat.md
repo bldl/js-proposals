@@ -1,4 +1,5 @@
 #Stage4Tag
+Classification: [[API Changes]]
 Title: Array.prototype.{flat,flatMap}
 Authors: Brian Terlson, Michael Ficarra, Mathias Bynens
 Champions: Brian Terlson, Michael Ficarra

@@ -1,4 +1,5 @@
 #Stage4Tag
+Classification: [[API Changes]]
 Title: Function.prototype.toString revision
 Authors: Michael Ficarra
 Champions: Michael Ficarra

@@ -1,4 +1,5 @@
 #Stage4Tag
+Classification: [[Syntactic Changes]]
 Title: RegExp Lookbehind Assertions
 Authors: Gorkem Yakin, Nozomu Katō, Daniel Ehrenberg
 Champions: Daniel Ehrenberg, Mathias Bynens

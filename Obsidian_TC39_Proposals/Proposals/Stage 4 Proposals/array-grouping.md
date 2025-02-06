@@ -1,5 +1,5 @@
 #Stage4Tag
-[[API Changes]]
+Classification: [[API Changes]]
 Title: Array Grouping
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell, Jordan Harband

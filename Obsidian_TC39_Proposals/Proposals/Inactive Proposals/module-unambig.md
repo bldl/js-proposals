@@ -1,4 +1,5 @@
 #InactiveTag
+Classification: [[Syntactic Changes]]
 Title: Proposed Grammar change to ES Modules
 Authors: Bradley Farias
 Champions: Rejected: No consensus on this specific solution.

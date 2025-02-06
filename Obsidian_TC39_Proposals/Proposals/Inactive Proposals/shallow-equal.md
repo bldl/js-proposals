@@ -1,4 +1,5 @@
 #InactiveTag
+Classification:
 Title: Object.shallowEqual
 Authors: Sebastian Markbage
 Champions: Withdrawn

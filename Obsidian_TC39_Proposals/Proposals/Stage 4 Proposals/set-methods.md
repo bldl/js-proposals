@@ -1,4 +1,5 @@
 #Stage4Tag
+Classification: [[API Changes]]
 Title: New Set methods
 Authors: Michał Wadas, Sathya Gunasekaran, Kevin Gibbons
 Champions: Kevin Gibbons

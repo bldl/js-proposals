@@ -1,4 +1,5 @@
 #Stage4Tag
+Classification: [[Syntactic Changes]]
 Title: import.meta
 Authors: Domenic Denicola
 Champions: Gus Caplan

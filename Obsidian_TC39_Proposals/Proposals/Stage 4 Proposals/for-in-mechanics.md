@@ -1,4 +1,5 @@
 #Stage4Tag
+Classification: [[Semantic Changes]]
 Title: for-in mechanics
 Authors: Kevin Gibbons
 Champions: Kevin Gibbons

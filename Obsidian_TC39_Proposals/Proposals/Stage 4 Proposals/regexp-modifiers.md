@@ -1,4 +1,5 @@
 #Stage4Tag
+Classification: [[Syntactic Changes]]
 Title: RegExp Modifiers
 Authors: Ron Buckton
 Champions: Ron Buckton

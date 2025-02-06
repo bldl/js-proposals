@@ -1,4 +1,5 @@
 #InactiveTag
+Classification: [[API Changes]]
 Title: Function helpers
 Authors: James M Snell
 Champions: Never presented

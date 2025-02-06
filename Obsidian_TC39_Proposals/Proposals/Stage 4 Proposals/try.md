@@ -1,4 +1,5 @@
 #Stage4Tag
+Classification: [[API Changes]]
 Title: Promise.try
 Authors: Jordan Harband
 Champions: Jordan Harband

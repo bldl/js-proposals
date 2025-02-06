@@ -1,4 +1,5 @@
 #Stage4Tag
+Classification: [[API Changes]]
 Title: Object.getOwnPropertyDescriptors
 Authors: Jordan Harband, Andrea Giammarchi
 Champions: Jordan Harband, Andrea Giammarchi

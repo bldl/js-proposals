@@ -1,4 +1,5 @@
 #Stage4Tag
+Classification: [[Syntactic Changes]]
 Title: Numeric separators
 Authors: Sam Goto, Rick Waldron
 Champions: Sam Goto, Rick Waldron , Leo Balter

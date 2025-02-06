@@ -1,4 +1,5 @@
 #InactiveTag
+Classification:
 Title: Unused Function Parameters
 Authors: Shu-yu Guo
 Champions: [Withdrawn][typedarray-stride-parameter-notes]: concern about performance implications, and the proposal is not expressive enough

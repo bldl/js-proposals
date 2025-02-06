@@ -1,5 +1,5 @@
 #Stage4Tag
-[[Syntactic Changes]]
+Classification: [[Syntactic Changes]]
 Title: import()
 Authors: Domenic Denicola
 Champions: Domenic Denicola
@@ -77,6 +77,7 @@ Note the differences here compared to the usual `import` declaration:
 ## Alternative solutions explored
 
 There are a number of other ways of potentially accomplishing the above use cases. Here we explain why we believe `import()` is the best possibility.
+
 ### Using host-specific mechanisms
 
 It's possible to dynamically load modules in certain host environments, such as web browsers, by abusing host-specific mechanisms for doing so. Using HTML's `<script type="module">`, the following code would give similar functionality to `import()`:

@@ -1,4 +1,5 @@
 #InactiveTag
+Classification:
 Title: String.prototype.at
 Authors: Jonathan Keslin
 Champions: Withdrawn: concern about need for such an API

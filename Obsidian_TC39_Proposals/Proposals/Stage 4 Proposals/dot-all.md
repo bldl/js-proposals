@@ -1,5 +1,5 @@
 #Stage4Tag
-
+Classification: [[Syntactic Changes]]
 Title: s (dotAll) flag for regular expressions
 Authors: Mathias Bynens
 Champions: Brian Terlson, Mathias Bynens

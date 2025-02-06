@@ -1,4 +1,5 @@
 #Stage4Tag
+Classification: [[Syntactic Changes]]
 Title: Optional catch binding
 Authors: Michael Ficarra
 Champions: Michael Ficarra

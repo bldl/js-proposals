@@ -1,5 +1,5 @@
 #Stage4Tag
-[[API Changes]]
+Classification: [[API Changes]]
 Title: Promise.prototype.finally
 Authors: Jordan Harband
 Champions: Jordan Harband

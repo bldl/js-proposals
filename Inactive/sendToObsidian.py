@@ -4,6 +4,8 @@ import base64
 import os
 from dotenv import load_dotenv
 
+from sharedMethods.askGPT import classifyProposal
+
 with open("Inactive/outputMD/apiResults.md", "r") as file:
     fileContent = file.readlines()
 
@@ -43,11 +45,19 @@ for entry in data_list:
                 response = requests.get(githubReadme, auth=(os.getenv("USERNAME"), os.getenv("API_KEY")))
                 data = response.json()
                 file_content = base64.b64decode(data["content"]).decode("utf-8")
+                
+                try: 
+                    print("sending", link_titles, "to GPT for processing")
+                    classification = classifyProposal(link_titles, file_content)
+                except:
+                    print("error with asking open ai:", title)
+
             except:
                 print("Error with link:", link_titles)
                 with open(f"Obsidian_TC39_Proposals/Proposals/Inactive Proposals/{link_titles}.md", "w") as proposals:
                     proposals.write(
                         f"#InactiveTag\n"
+                        f"Classification:\n"
                         f"Title: {title}\n"
                         f"Authors: {authors}\n"
                         f"Champions: {champions}\n"
@@ -62,6 +72,7 @@ for entry in data_list:
             with open(f"Obsidian_TC39_Proposals/Proposals/Inactive Proposals/{link_titles}.md", "w") as proposals:
                 proposals.write(
                     f"#InactiveTag\n"
+                    f"Classification: {classification}\n"
                     f"Title: {title}\n"
                     f"Authors: {authors}\n"
                     f"Champions: {champions}\n"

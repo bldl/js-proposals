@@ -1,4 +1,5 @@
 #Stage4Tag
+Classification: [[API Changes]]
 Title: String.prototype.{trimStart,trimEnd}
 Authors: Sebastian Markbåge
 Champions: Sebastian Markbåge, Mathias Bynens

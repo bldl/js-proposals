@@ -1,5 +1,5 @@
 #Stage4Tag
-[[API Changes]]
+Classification: [[API Changes]]
 Title: Change Array by Copy
 Authors: Ashley Claymore, Robin Ricard
 Champions: Ashley Claymore, Robin Ricard
