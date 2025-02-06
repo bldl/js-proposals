@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: [[API Changes]]
+Classification: #API_Change #Syntactic_Change
 Title: TypedArray stride parameter
 Authors: Bradley Farias
 Champions: Never presented; preliminary feedback about syntax cost not being worth the weight

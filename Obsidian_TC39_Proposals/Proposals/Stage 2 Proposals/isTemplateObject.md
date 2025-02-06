@@ -1,5 +1,5 @@
 #Stage2Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: isTemplateObject
 Authors: Mike Samuel, Krzysztof Kotowicz
 Champions: Daniel Ehrenberg, Jordan Harband

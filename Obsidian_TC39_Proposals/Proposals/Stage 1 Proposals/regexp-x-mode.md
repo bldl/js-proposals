@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: RegExp Extended Mode and Comments
 Authors: J.S. Choi
 Champions: J.S. Choi

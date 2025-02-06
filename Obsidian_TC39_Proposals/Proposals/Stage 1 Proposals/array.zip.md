@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Array.zip and Array.zipKeyed
 Authors: Michael Ficarra
 Champions: Michael Ficarra

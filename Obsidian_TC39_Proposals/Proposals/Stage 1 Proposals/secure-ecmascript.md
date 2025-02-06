@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[API Changes]]
+Classification: #API_Change #Syntactic_Change
 Title: SES Secure EcmaScript
 Authors: Mark Miller, Chip Morningstar, Caridy Patiño
 Champions: Mark Miller, Chip Morningstar, Caridy Patiño

@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[API Changes]]
+Classification: #API_Change #Syntactic_Change
 Title: Built In Modules aka JS Standard Library
 Authors: Bradley Farias
 Champions: Bradley Farias

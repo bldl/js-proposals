@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Hashbang Grammar
 Authors: Bradley Farias
 Champions: Bradley Farias

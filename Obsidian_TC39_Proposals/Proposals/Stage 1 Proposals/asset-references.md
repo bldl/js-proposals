@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Asset References
 Authors: Daniel Ehrenberg
 Champions: Daniel Ehrenberg

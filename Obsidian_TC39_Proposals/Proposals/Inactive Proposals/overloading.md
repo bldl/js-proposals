@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Operator overloading
 Authors: Yulia Startsev, Daniel Ehrenberg
 Champions: Withdrawn; subsumed by WebAssembly JS Promise Integration, which avoids the long task issue

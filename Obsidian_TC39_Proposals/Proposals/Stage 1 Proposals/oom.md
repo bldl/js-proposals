@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[Semantic Changes]]
+Classification: #Semantic_Change
 Title: OOM Fails Fast
 Authors: Mark Miller, Chip Morningstar, Michael Fig
 Champions: Mark Miller, Chip Morningstar, Michael Fig

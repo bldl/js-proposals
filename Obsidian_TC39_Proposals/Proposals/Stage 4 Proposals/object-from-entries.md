@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Object.fromEntries
 Authors: Darien Maillet Valentine
 Champions: Jordan Harband, Kevin Gibbons

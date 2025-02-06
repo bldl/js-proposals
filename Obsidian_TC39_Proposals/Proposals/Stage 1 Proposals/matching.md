@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Pattern Matching
 Authors: Ron Buckton
 Champions: Ron Buckton

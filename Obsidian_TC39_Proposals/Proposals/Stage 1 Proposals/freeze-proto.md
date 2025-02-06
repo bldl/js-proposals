@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Freezing prototypes
 Authors: Sebastian Markbage
 Champions: Sebastian Markbage

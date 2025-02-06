@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Cryptographically Secure Random Number Generation
 Authors: Mark Miller, Claude Pache, Jack Works
 Champions: Mark Miller, Claude Pache, Jack Works

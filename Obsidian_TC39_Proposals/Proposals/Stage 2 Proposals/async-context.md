@@ -1,5 +1,5 @@
 #Stage2Tag
-Classification: [[API Changes]]
+Classification: #API_Change #Semantic_Change
 Title: Async Context
 Authors: Chengzhong Wu
 Champions: Andreu Botella, Chengzhong Wu, Justin Ridgewell

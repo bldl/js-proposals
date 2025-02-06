@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[Syntactic Changes]] [[API Changes]]
+Classification: #Syntactic_Change #API_Change
 Title: await operations
 Authors: Hemanth HM, Jordan Harband
 Champions: Hemanth HM, Jordan Harband

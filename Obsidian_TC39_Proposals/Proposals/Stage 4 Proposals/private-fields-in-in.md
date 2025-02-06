@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Ergonomic brand checks for Private Fields
 Authors: Jordan Harband
 Champions: Jordan Harband

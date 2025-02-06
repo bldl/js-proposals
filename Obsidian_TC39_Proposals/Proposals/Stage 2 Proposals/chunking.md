@@ -1,5 +1,5 @@
 #Stage2Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: iterator chunking
 Authors: Michael Ficarra
 Champions: Michael Ficarra

@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Nullish coalescing Operator
 Authors: Gabriel Isenberg
 Champions: Gabriel Isenberg, Justin Ridgewell, Daniel Rosenwasser

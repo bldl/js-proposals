@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Lifting template literal restriction
 Authors: Tim Disney
 Champions: Tim Disney

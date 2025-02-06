@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Sync Iterator helpers
 Authors: Gus Caplan
 Champions: Michael Ficarra, Jonathan Keslin, Kevin Gibbons

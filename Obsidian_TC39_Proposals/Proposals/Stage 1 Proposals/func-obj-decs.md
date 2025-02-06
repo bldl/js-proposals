@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Function and Object Literal Decorators
 Authors: HE Shi-Jun
 Champions: HE Shi-Jun

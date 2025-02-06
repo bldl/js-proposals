@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Generator arrow functions
 Authors: Rick Waldron
 Champions: Withdrawn: no interested champions in February 2024

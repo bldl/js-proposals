@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: import()
 Authors: Domenic Denicola
 Champions: Domenic Denicola

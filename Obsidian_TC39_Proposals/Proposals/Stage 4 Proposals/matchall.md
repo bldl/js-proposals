@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: String.prototype.matchAll
 Authors: Jordan Harband
 Champions: Jordan Harband

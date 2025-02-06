@@ -1,5 +1,5 @@
 #Stage2Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: throw expressions
 Authors: Ron Buckton
 Champions: Ron Buckton

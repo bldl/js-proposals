@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[Semantic Changes]]
+Classification: #Semantic_Change
 Title: uniform parsing of quasi-standard Date.parse input
 Authors: Michael Saboff, Mattijs Hoitink
 Champions: Michael Saboff, Mattijs Hoitink, Mark Miller

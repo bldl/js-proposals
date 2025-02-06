@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[API Changes]] [[Syntactic Changes]]
+Classification: #API_Change #Syntactic_Change
 Title: Function Memoization
 Authors: J.S. Choi
 Champions: J.S. Choi, Hemanth HM

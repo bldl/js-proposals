@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[API Changes]]
+Classification: #Semantic_Change
 Title: Stabilize
 Authors: Jordan Harband
 Champions: Jordan Harband

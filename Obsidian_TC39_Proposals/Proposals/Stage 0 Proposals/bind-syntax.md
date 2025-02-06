@@ -1,5 +1,5 @@
 #Stage0Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Function bind syntax
 Authors: Kevin Smith
 Champions: Brian Terlson, Matthew Podwysocki

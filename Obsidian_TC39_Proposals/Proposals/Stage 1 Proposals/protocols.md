@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: First-class protocols
 Authors: Shu-yu Guo
 Champions: Shu-yu Guo

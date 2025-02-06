@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Array filtering
 Authors: Mark Miller
 Champions: Mark Miller

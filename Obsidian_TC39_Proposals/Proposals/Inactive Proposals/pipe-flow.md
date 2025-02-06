@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Function.pipe and flow
 Authors: Dave Herman
 Champions: Inactive; champion does not wish to pursue

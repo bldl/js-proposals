@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: ArrayBuffer.prototype.transfer
 Authors: Mathias Bynens, Rick Waldron
 Champions: Obsoleted by renamed `String.prototype.item` proposal

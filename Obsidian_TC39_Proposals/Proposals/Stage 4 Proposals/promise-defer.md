@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Promise.withResolvers
 Authors: Peter Klecha
 Champions: Peter Klecha

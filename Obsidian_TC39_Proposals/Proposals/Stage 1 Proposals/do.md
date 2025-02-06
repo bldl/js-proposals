@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: do expressions
 Authors: Dave Herman
 Champions: Kevin Gibbons

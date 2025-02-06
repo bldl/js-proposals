@@ -15,12 +15,12 @@ def classifyProposal(title, proposalDescription):
     
     ### CRITICAL: RESPONSE FORMAT ###
     After classifying the proposal, return **ONLY** one of the following strings:
-    - [[API Changes]]
-    - [[Semantic Changes]]
-    - [[Syntactic Changes]]
+    - #API_Change
+    - #Semantic_Change
+    - #Syntactic_Change
     
-    If multiple classifications apply, return a **comma-separated string** like:
-    - [[API Changes]] [[Syntactic Changes]]
+    If multiple classifications apply, return a **space-separated string** like:
+    - #API_Change #Syntactic_Change
     
     DO NOT return any explanations, markdown, or extra text. Just the classification string.
     """

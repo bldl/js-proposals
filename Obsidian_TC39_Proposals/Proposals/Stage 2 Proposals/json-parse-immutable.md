@@ -1,5 +1,5 @@
 #Stage2Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: JSON.parseImmutable
 Authors: Robin Ricard, Richard Button, Nicolò Ribaudo, Ashley Claymore
 Champions: Robin Ricard, Richard Button, Nicolò Ribaudo, Ashley Claymore

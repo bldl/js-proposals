@@ -1,5 +1,5 @@
 #Stage3Tag
-Classification: [[API Changes]] [[Semantic Changes]]
+Classification: #API_Change #Semantic_Change
 Title: Dynamic Code Brand Checks
 Authors: Nicolo Ribaudo
 Champions: Krzysztof Kotowicz, Mike Samuel, Nicolo Ribaudo

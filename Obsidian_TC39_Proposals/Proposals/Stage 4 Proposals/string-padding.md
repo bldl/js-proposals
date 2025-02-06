@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: String padding
 Authors: Jordan Harband
 Champions: Jordan Harband, Rick Waldron

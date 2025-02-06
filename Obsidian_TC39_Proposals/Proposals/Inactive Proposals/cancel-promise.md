@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Cancelable Promises
 Authors: Domenic Denicola
 Champions: Withdrawn

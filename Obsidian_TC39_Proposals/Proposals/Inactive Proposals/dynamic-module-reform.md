@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: [[Semantic Changes]]
+Classification: #Semantic_Change
 Title: Dynamic Module Reform
 Authors: Caridy Patiño
 Champions: Withdrawn: we decided to preserve the current semantics

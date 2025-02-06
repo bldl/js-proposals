@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Symbol.prototype.description
 Authors: Michael Ficarra
 Champions: Michael Ficarra

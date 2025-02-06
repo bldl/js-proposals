@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: RegExp Match Indices
 Authors: Ron Buckton
 Champions: Ron Buckton

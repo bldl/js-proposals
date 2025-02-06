@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Richer Keys
 Authors: Michał Wadas
 Champions: Sathya Gunasekaran

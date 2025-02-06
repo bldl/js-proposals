@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Collection methods
 Authors: Justin Fagnani
 Champions: Justin Fagnani

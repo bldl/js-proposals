@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[Semantic Changes]]
+Classification: #Semantic_Change
 Title: Preserve Host Virtualizability
 Authors: Daniel Ehrenberg, Andrew Paprocki
 Champions: Philip Chimento, Andrew Paprocki, Jesse Alama

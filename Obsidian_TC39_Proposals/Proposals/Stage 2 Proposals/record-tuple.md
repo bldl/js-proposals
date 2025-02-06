@@ -1,5 +1,5 @@
 #Stage2Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change #API_Change
 Title: Record & Tuple
 Authors: Robin Ricard, Richard Button
 Champions: Robin Ricard, Richard Button

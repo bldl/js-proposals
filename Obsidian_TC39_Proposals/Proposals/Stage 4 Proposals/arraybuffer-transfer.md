@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: ArrayBuffer transfer
 Authors: Shu-yu Guo, Jordan Harband, Yagiz Nizipli
 Champions: Shu-yu Guo, Jordan Harband, Yagiz Nizipli

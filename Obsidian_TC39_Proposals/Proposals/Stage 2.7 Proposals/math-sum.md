@@ -1,5 +1,5 @@
 #Stage_2_7Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Math.sumPrecise
 Authors: Kevin Gibbons
 Champions: Kevin Gibbons

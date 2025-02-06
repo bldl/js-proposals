@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4b590f34d281f70c",
+        "id": "d12e39bec7e67201",
         "type": "tabs",
         "children": [
           {
-            "id": "ee2c0074723dcf37",
+            "id": "11b1822ca95aff7e",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "c4a44c18a1f9345a",
+            "id": "dc8bbe282b53ca92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 4 Proposals/for-in-mechanics.md",
+                "file": "Proposals/Stage 1 Proposals/array-equality.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,82 +40,21 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "for-in-mechanics"
+              "title": "array-equality"
             }
           },
           {
-            "id": "162ab842c7756e49",
+            "id": "b46ff245c4283ae1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Proposals/Stage 0 Proposals/ortho.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "ortho"
-            }
-          },
-          {
-            "id": "dedceac7c2775513",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Proposal Types/Semantic Changes.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Semantic Changes"
-            }
-          },
-          {
-            "id": "ad557ed7c2198834",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Proposal Types/Syntactic Changes.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Syntactic Changes"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -259,34 +198,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee2c0074723dcf37",
+  "active": "b46ff245c4283ae1",
   "lastOpenFiles": [
+    "Proposal Types/API Changes.md",
+    "Proposals/Stage 0 Proposals/method-param-decorators.md",
+    "Proposals/Inactive Proposals/signbit.md",
+    "Proposals/Stage 0 Proposals/func-expr-decorators.md",
+    "Proposals/Stage 0 Proposals/bind-syntax.md",
+    "Proposals/Inactive Proposals/cleanup-some.md",
+    "Proposals/Inactive Proposals/blocks.md",
+    "Proposals/Stage 1 Proposals/array-equality.md",
+    "Proposals/Stage 4 Proposals/private-fields-in-in.md",
+    "Proposals/Stage 4 Proposals/promise-any.md",
+    "Proposals/Stage 4 Proposals/regexp-modifiers.md",
+    "Proposals/Stage 4 Proposals/set-methods.md",
+    "Proposals/Stage 4 Proposals/try.md",
+    "Proposals/Stage 4 Proposals/allsettled.md",
+    "Proposals/Stage 1 Proposals/array-filtering.md",
+    "Proposals/Stage 1 Proposals/accessors.md",
+    "Proposals/Stage 0 Proposals/as-patterns.md",
     "Proposal Types/Syntactic Changes.md",
+    "Proposals/Stage 4 Proposals/arraybuffer-transfer.md",
+    "Proposals/Stage 2 Proposals/immutable-abs.md",
     "Proposal Types/Semantic Changes.md",
     "Proposals/Stage 0 Proposals/ortho.md",
-    "Proposals/Stage 0 Proposals/bind-syntax.md",
-    "Proposals/Inactive Proposals/function-helpers.md",
-    "Proposals/Inactive Proposals/extensible-literals.md",
-    "Proposals/Inactive Proposals/distinguishing-literal-strings.md",
-    "Proposals/Inactive Proposals/construct.md",
-    "Proposals/Inactive Proposals/date-parse.md",
-    "Proposals/Inactive Proposals/cleanup-some.md",
-    "Proposals/Inactive Proposals/arraylast.md",
     "Proposals/Stage 4 Proposals/for-in-mechanics.md",
-    "Proposals/Stage 4 Proposals/change-array-by-copy.md",
-    "Proposals/Stage 4 Proposals/chaining.md",
-    "Proposals/Stage 4 Proposals/bigint.md",
-    "Proposals/Stage 4 Proposals/async-iteration.md",
-    "Proposals/Stage 4 Proposals/atomics.md",
-    "Proposals/Stage 4 Proposals/at.md",
-    "Proposals/Stage 4 Proposals/async-await.md",
-    "Proposals/Stage 4 Proposals/arraybuffer-transfer.md",
     "Proposals/Stage 4 Proposals/array-includes.md",
     "Proposals/Stage 4 Proposals/array-grouping.md",
-    "Proposals/Stage 4 Proposals/allsettled.md",
-    "Proposal Types/API Changes.md",
-    "Proposals/Stage 4 Proposals/await.md",
-    "Proposals/Stage 4 Proposals/promise-any.md",
+    "Proposals/Stage 4 Proposals/at.md",
     "Untitled",
     "Proposal Types",
     "Proposals 1/Stage 4 Proposals",

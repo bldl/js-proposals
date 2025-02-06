@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: String.prototype.replaceAll
 Authors: Peter Marshall, Jakob Gruber, Mathias Bynens
 Champions: Mathias Bynens

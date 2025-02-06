@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Type Annotations
 Authors: J. S. Choi
 Champions: J. S. Choi

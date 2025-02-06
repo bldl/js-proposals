@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Import Attributes
 Authors: Myles Borins, Sven Sauleau, Dan Clark, Daniel Ehrenberg
 Champions: Sven Sauleau, Dan Clark, Daniel Ehrenberg, Nicolò Ribaudo

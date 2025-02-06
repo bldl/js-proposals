@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: [[API Changes]]
+Classification: #API_Change #Syntactic_Change
 Title: Getting last element of Array
 Authors: JF Bastien
 Champions: Withdrawn: no interested champions in February 2024

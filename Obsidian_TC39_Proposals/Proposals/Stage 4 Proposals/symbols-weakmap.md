@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Symbols as WeakMap keys
 Authors: Daniel Ehrenberg, Richard Button, Robin Ricard, Leo Balter, Rick Waldron, Caridy Patiño
 Champions: Daniel Ehrenberg, Richard Button, Robin Ricard, Leo Balter, Rick Waldron, Caridy Patiño

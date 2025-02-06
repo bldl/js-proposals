@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[API Changes]]
+Classification: #API_Change #Syntactic_Change
 Title: Error Cause
 Authors: Chengzhong Wu
 Champions: Chengzhong Wu,  Hemanth HM

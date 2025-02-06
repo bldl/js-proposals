@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: String.prototype.codePoints
 Authors: Ron Buckton
 Champions: Ron Buckton, Brian Terlson

@@ -1,5 +1,5 @@
 #Stage2Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Dynamic Import Host Adjustment
 Authors: Mike Samuel, Krzysztof Kotowicz
 Champions: Krzysztof Kotowicz

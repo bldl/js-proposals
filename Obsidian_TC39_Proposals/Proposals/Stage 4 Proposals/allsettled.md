@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Promise.allSettled
 Authors: Jason Williams, Robert Pamely, Mathias Bynens
 Champions: Mathias Bynens

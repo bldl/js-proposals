@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Private declarations
 Authors: Daniel Ehrenberg
 Champions: Daniel Ehrenberg

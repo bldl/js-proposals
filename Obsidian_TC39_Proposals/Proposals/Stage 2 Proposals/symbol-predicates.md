@@ -1,5 +1,5 @@
 #Stage2Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Symbol Predicates
 Authors: Robin Ricard, Jordan Harband
 Champions: Ashley Claymore, Jordan Harband

@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: [[API Changes]] [[Syntactic Changes]]
+Classification: #API_Change #Syntactic_Change
 Title: Sequence properties in Unicode property escapes
 Authors: Keith Cirkel
 Champions: Withdrawn; the [Array#at](https://github.com/tc39/proposal-relative-indexing-method) proposal supersedes this work.

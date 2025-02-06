@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Well-Formed Unicode Strings
 Authors: Guy Bedford, Bradley Farias
 Champions: Guy Bedford, Bradley Farias, Michael Ficarra

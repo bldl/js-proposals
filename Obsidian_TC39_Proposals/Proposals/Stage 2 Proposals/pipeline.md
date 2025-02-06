@@ -1,5 +1,5 @@
 #Stage2Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Pipeline Operator
 Authors: J. S. Choi, James DiGioia, Ron Buckton, Tab Atkins
 Champions: J. S. Choi, Ron Buckton, Tab Atkins

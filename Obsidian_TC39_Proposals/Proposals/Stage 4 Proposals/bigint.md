@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[Syntactic Changes]]
+Classification: #API_Change #Syntactic_Change
 Title: BigInt
 Authors: Daniel Ehrenberg
 Champions: Daniel Ehrenberg

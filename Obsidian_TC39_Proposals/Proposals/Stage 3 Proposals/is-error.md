@@ -1,5 +1,5 @@
 #Stage3Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Error.isError
 Authors: Jordan Harband
 Champions: Jordan Harband

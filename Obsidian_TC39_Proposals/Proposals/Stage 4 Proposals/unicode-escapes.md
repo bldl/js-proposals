@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: RegExp Unicode Property Escapes
 Authors: Mathias Bynens
 Champions: Brian Terlson, Daniel Ehrenberg, Mathias Bynens

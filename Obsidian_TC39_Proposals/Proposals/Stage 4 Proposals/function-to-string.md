@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[API Changes]]
+Classification: #Semantic_Change
 Title: Function.prototype.toString revision
 Authors: Michael Ficarra
 Champions: Michael Ficarra

@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[API Changes]]
+Classification: #API_Change #Syntactic_Change
 Title: Mass Proxy Revocation
 Authors: Hemanth HM, Aleen
 Champions: Hemanth HM

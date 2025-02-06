@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: RegExp Atomic Operators
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell

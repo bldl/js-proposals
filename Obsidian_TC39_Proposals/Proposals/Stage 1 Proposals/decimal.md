@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Decimal
 Authors: Bradley Farias
 Champions: Bradley Farias

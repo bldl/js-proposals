@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Array Equality
 Authors: Yulia Startsev, Shu-yu Guo
 Champions: Yulia Startsev, Shu-yu Guo

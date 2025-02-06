@@ -1,5 +1,5 @@
 #Stage2Tag
-Classification: [[API Changes]] [[Syntactic Changes]]
+Classification: #API_Change #Syntactic_Change
 Title: String.dedent
 Authors: Misha Kaletsky, Hemanth HM, Justin Ridgewell
 Champions: Hemanth HM, Justin Ridgewell

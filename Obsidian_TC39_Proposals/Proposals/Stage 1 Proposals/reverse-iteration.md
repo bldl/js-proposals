@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Reverse iteration
 Authors: Shu-yu Guo, Pedram Emrouznejad
 Champions: Shu-yu Guo, Pedram Emrouznejad

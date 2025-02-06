@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Duplicate named capture groups
 Authors: Kevin Gibbons
 Champions: Kevin Gibbons

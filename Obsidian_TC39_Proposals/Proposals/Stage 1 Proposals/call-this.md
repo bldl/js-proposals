@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Call-this operator
 Authors: Darien Maillet Valentine
 Champions: Jamie Kyle, Hemanth HM

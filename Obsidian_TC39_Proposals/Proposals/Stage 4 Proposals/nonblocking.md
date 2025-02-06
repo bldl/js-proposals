@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Atomics.waitAsync
 Authors: Lars Hansen
 Champions: Shu-yu Guo, Lars Hansen

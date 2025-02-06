@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Accessible Object.prototype.hasOwnProperty
 Authors: Jamie Kyle
 Champions: Tierney Cyren, Jamie Kyle

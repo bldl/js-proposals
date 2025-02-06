@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Extensible numeric literals
 Authors: Daniel Ehrenberg
 Champions: Withdrawn

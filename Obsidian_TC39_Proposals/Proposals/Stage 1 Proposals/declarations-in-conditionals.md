@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Declarations in Conditionals
 Authors: Leo Balter, Jordan Harband
 Champions: Leo Balter, Jordan Harband

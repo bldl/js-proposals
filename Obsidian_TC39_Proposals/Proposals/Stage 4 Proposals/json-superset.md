@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: JSON superset
 Authors: Richard Gibson
 Champions: Mark Miller, Mathias Bynens

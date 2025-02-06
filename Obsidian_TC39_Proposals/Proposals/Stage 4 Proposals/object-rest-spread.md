@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Rest/Spread Properties
 Authors: Sebastian Markbåge
 Champions: Sebastian Markbåge

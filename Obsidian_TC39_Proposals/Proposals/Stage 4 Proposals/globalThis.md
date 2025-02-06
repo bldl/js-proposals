@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[API Changes]] [[Syntactic Changes]]
+Classification: #API_Change
 Title: globalThis
 Authors: Jordan Harband
 Champions: Jordan Harband

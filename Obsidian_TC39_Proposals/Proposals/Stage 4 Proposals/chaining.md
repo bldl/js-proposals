@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change
 Title: Optional Chaining
 Authors: Gabriel Isenberg, Claude Pache, Dustin Savery
 Champions: Gabriel Isenberg, Dustin Savery, Justin Ridgewell, Daniel Rosenwasser

@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: DataView get/set Uint8Clamped methods
 Authors: Nicolò Ribaudo
 Champions: Nicolò Ribaudo

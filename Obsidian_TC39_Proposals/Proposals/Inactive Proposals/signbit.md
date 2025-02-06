@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: [[API Changes]]
+Classification: #API_Change
 Title: Math.signbit: IEEE-754 sign bit
 Authors: Sergey Rubanov, Brendan Eich
 Champions: Withdrawn: no interested champions in February 2024

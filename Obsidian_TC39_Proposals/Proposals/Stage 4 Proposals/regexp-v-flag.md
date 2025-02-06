@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: [[Syntactic Changes]]
+Classification: #Syntactic_Change #Semantic_Change
 Title: RegExp v flag with set notation + properties of strings
 Authors: Markus Scherer, Mathias Bynens
 Champions: Mathias Bynens
