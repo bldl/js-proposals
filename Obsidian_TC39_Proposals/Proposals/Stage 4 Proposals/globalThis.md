@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #API_Change #Semantic_Change
+Classification: #API_Change
 Human Validated: No
 Title: globalThis
 Authors: Jordan Harband

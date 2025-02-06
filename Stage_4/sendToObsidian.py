@@ -37,7 +37,7 @@ for entry in data_list:
 
             # Check if the file already exists
             if os.path.exists(file_path):
-                print(f"File '{file_path}' already exists. Skipping...")
+                print(f"File '{link_titles}' already exists. Skipping...")
                 continue 
 
             try:

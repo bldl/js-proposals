@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #Syntactic_Change
+Classification: #API_Change #Syntactic_Change
 Human Validated: No
 Title: Private instance methods and accessors
 Authors: Daniel Ehrenberg
