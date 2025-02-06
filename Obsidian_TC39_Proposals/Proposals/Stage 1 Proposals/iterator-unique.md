@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[API Changes]]
 Title: Iterator unique
 Authors: Jack Works
 Champions: Jack Works

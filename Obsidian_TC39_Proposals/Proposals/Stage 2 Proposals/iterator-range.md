@@ -1,4 +1,5 @@
 #Stage2Tag
+Classification: [[API Changes]]
 Title: Iterator.range
 Authors: Jack Works
 Champions: Jack Works

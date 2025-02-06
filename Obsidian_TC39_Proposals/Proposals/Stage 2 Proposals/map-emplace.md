@@ -1,4 +1,5 @@
 #Stage2Tag
+Classification: [[API Changes]]
 Title: Map.prototype.emplace
 Authors: Bradley Farias
 Champions: Erica Pramer
@@ -83,7 +84,7 @@ for (let [key, ...values] of data) {
   if (grouped.has(key)) {
     grouped.get(key).push(...values);
   } else {
-    grouped.set(key, ...values);
+    grouped.set(key, values);
   }
 }
 

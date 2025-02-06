@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[API Changes]]
 Title: Cancellation API
 Authors: Ron Buckton
 Champions: Ron Buckton

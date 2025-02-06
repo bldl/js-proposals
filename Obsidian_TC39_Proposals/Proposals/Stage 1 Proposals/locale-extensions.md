@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification:
 Title: Locale Extensions
 Authors: Pablo Gorostiaga Belio
 Champions: Pablo Gorostiaga Belio

@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[Syntactic Changes]]
 Title: Maximally minimal mixins
 Authors: Tab Atkins
 Champions: Tab Atkins

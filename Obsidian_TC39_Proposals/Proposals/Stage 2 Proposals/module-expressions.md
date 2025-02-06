@@ -1,4 +1,5 @@
 #Stage2Tag
+Classification: [[Syntactic Changes]]
 Title: Module Expressions
 Authors: Surma, Daniel Ehrenberg, Nicolò Ribaudo
 Champions: Surma, Nicolò Ribaudo

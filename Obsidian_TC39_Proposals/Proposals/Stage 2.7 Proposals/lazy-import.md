@@ -1,4 +1,5 @@
 #Stage_2_7Tag
+Classification: [[Syntactic Changes]]
 Title: Deferring Module Evaluation
 Authors: Yulia Startsev, Guy Bedford
 Champions: Yulia Startsev, Guy Bedford, Nicolò Ribaudo

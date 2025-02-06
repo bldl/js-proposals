@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[Syntactic Changes]]
 Title: Slice notation
 Authors: Bradley Farias
 Champions: Bradley Farias

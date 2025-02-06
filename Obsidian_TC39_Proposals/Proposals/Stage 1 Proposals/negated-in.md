@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[Syntactic Changes]]
 Title: Negated in and instanceof operators
 Authors: Eemeli Aro
 Champions: Eemeli Aro

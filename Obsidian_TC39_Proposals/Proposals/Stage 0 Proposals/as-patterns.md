@@ -1,4 +1,5 @@
 #Stage0Tag
+Classification:
 Title: as destructuring patterns
 Authors: Kat Marchán
 Champions: Kat Marchán

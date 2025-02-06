@@ -1,4 +1,5 @@
 #Stage0Tag
+Classification:
 Title: Additional metaproperties
 Authors: Allen Wirfs-Brock
 Champions: Allen Wirfs-Brock

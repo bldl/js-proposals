@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[Syntactic Changes]]
 Title: Extensions
 Authors: Peter Hoddie
 Champions: Peter Hoddie

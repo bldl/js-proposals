@@ -1,4 +1,5 @@
 #Stage3Tag
+Classification: [[API Changes]]
 Title: Array.fromAsync
 Authors: J.S. Choi
 Champions: J.S. Choi

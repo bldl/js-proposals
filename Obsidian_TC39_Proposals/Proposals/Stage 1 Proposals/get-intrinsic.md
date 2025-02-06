@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[API Changes]]
 Title: Get Intrinsic
 Authors: J.S. Choi
 Champions: J.S. Choi

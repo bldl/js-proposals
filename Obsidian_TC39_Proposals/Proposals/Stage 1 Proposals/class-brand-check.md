@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[Syntactic Changes]]
 Title: Class Brand Checks
 Authors: Kevin Gibbons
 Champions: Kevin Gibbons

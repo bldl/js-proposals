@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification:
 Title: new.initialize
 Authors: Kevin Gibbons
 Champions: Kevin Gibbons

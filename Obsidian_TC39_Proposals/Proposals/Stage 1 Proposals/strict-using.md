@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[Syntactic Changes]]
 Title: Strict Enforcement of 'using'
 Authors: Ron Buckton
 Champions: Ron Buckton

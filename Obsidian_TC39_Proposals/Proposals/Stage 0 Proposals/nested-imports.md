@@ -1,4 +1,5 @@
 #Stage0Tag
+Classification:
 Title: Nested import declarations
 Authors: Ben Newman
 Champions: Ben Newman

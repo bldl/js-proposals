@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[Syntactic Changes]]
 Title: class Access Expressions
 Authors: Mike Samuel
 Champions: Mike Samuel

@@ -1,4 +1,5 @@
 #Stage2Tag
+Classification: [[Syntactic Changes]]
 Title: "Discard" (void) Bindings
 Authors: Ron Buckton
 Champions: Ron Buckton

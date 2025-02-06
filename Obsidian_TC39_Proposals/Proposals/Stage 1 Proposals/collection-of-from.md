@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[API Changes]]
 Title: of and from on collection constructors
 Authors: Leo Balter
 Champions: Leo Balter

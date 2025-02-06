@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification:
 Title: Dynamic Modules
 Authors: Jordan Harband, Mark Cohen, Tab Atkins, Daniel Rosenwasser, Jack Works, Ross Kirsling
 Champions: Jordan Harband, Mark Cohen, Tab Atkins, Daniel Rosenwasser, Jack Works, Ross Kirsling

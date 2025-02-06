@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[API Changes]]
 Title: Function once
 Authors: Luca Casonato
 Champions: Luca Casonato

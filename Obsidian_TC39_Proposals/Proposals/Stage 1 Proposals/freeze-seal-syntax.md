@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[Syntactic Changes]]
 Title: Object.freeze + Object.seal syntax
 Authors: Ingvar Stepanyan
 Champions: Mathias Bynens

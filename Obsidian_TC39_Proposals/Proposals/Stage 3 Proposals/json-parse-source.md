@@ -1,4 +1,5 @@
 #Stage3Tag
+Classification: [[API Changes]]
 Title: JSON.parse source text access
 Authors: Richard Gibson
 Champions: Richard Gibson

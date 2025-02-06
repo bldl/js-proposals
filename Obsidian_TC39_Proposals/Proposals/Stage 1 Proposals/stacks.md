@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[API Changes]]
 Title: Error stacks
 Authors: Jordan Harband, Mark Miller
 Champions: Jordan Harband, Mark Miller

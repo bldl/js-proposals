@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[Syntactic Changes]]
 Title: Grouped Accessors and Auto-Accessors
 Authors: HE Shi-Jun
 Champions: HE Shi-Jun

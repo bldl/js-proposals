@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[API Changes]]
 Title: Emitter
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell
@@ -100,25 +101,25 @@ for await (const d of filter(([n]) => n == 3, process.stdin))
 
 ### Transformation
 
-  * [`map`](ProposalChangeAPI.md#map)
-  * [`reduce`](ProposalChangeAPI.md#reduce)
-  * [`flatten`](API.md#flatten)
+  * [`map`](/API.md#map)
+  * [`reduce`](/API.md#reduce)
+  * [`flatten`](/API.md#flatten)
 
 ### Filtering
 
-  * [`filter`](ProposalChangeAPI.md#filter)
-  * [`until`](ProposalChangeAPI.md#until)
+  * [`filter`](/API.md#filter)
+  * [`until`](/API.md#until)
 
 ### Running
 
-  * [`run`](ProposalChangeAPI.md#run)
+  * [`run`](/API.md#run)
 
 ### Creating
 
-  * [`on`](ProposalChangeAPI.md#on)
-  * [`once`](ProposalChangeAPI.md#once)
-  * [`from`](ProposalChangeAPI.md#from)
-  * [`compose`](ProposalChangeAPI.md#compose)
+  * [`on`](/API.md#on)
+  * [`once`](/API.md#once)
+  * [`from`](/API.md#from)
+  * [`compose`](/API.md#compose)
 
 <br>
 

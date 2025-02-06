@@ -1,4 +1,5 @@
 #Stage3Tag
+Classification: [[Syntactic Changes]]
 Title: Explicit Resource Management
 Authors: Ron Buckton
 Champions: Ron Buckton

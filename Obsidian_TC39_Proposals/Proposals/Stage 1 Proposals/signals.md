@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[API Changes]]
 Title: Signals
 Authors: Ron Buckton
 Champions: Ron Buckton

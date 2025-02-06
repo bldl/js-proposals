@@ -1,4 +1,5 @@
 #Stage2Tag
+Classification: [[Syntactic Changes]]
 Title: Destructure Private Fields
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell

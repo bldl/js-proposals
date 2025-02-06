@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[API Changes]]
 Title: Limited ArrayBuffer
 Authors: HE Shi-Jun
 Champions: HE Shi-Jun

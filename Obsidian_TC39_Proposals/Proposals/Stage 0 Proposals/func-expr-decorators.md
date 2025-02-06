@@ -1,4 +1,5 @@
 #Stage0Tag
+Classification:
 Title: Function expression decorators
 Authors: Igor Minar
 Champions: Igor Minar

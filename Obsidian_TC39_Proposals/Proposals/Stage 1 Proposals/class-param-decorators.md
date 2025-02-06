@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[Syntactic Changes]]
 Title: Class Method Parameter Decorators
 Authors: Alexander J. Vincent
 Champions: Ashley Claymore, Jordan Harband, Chris de Almeida

@@ -1,4 +1,5 @@
 #Stage3Tag
+Classification: [[API Changes]]
 Title: Legacy RegExp features in JavaScript
 Authors: Claude Pache
 Champions: Mark Miller, Claude Pache

@@ -1,4 +1,5 @@
 #Stage2Tag
+Classification: [[Syntactic Changes]]
 Title: Function implementation hiding
 Authors: Domenic Denicola, Michael Ficarra
 Champions: Michael Ficarra

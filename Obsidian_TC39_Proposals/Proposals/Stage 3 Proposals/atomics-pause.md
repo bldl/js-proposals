@@ -1,4 +1,5 @@
 #Stage3Tag
+Classification: [[API Changes]]
 Title: Atomics.pause
 Authors: Shu-yu Guo
 Champions: Shu-yu Guo

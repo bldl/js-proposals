@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[API Changes]]
 Title: Stabilize
 Authors: Jordan Harband
 Champions: Jordan Harband

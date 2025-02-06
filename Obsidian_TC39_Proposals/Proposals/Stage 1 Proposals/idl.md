@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[API Changes]]
 Title: IDL for ECMAScript
 Authors: Richard Gibson
 Champions: Richard Gibson

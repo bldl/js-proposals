@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[Syntactic Changes]]
 Title: Partial application
 Authors: Michael Ficarra
 Champions: Michael Ficarra

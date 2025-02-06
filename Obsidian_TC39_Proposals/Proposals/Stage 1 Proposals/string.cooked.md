@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[API Changes]]
 Title: String.cooked
 Authors: Jordan Harband
 Champions: Jordan Harband

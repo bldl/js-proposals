@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[API Changes]]
 Title: Modulus and Additional Integer Math
 Authors: Gus Caplan
 Champions: Gus Caplan

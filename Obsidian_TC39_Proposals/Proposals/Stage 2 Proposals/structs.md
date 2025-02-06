@@ -1,4 +1,5 @@
 #Stage2Tag
+Classification: [[Syntactic Changes]]
 Title: Structs: Fixed Layout Objects and Some Synchronization Primitives
 Authors: Shu-yu Guo
 Champions: Shu-yu Guo

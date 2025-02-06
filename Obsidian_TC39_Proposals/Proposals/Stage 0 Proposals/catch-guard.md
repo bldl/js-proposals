@@ -1,4 +1,5 @@
 #Stage0Tag
+Classification:
 Title: Catch Guard
 Authors: Willian Martins
 Champions: Willian Martins

@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[Syntactic Changes]]
 Title: Module sync assert
 Authors: Ben Allen
 Champions: Ben Allen

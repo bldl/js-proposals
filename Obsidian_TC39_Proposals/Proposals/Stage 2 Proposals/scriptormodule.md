@@ -1,4 +1,5 @@
 #Stage2Tag
+Classification: [[Semantic Changes]]
 Title: Propagate active ScriptOrModule with JobCallback Record
 Authors: Chengzhong Wu
 Champions: Chengzhong Wu

@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[API Changes]]
 Title: Module Keys
 Authors: Sathya Gunasekaran
 Champions: Sathya Gunasekaran

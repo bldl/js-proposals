@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[API Changes]]
 Title: Math.seededRandoms()
 Authors: Mathias Bynens
 Champions: Mathias Bynens

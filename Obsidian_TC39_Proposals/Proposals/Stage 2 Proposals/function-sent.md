@@ -1,4 +1,5 @@
 #Stage2Tag
+Classification: [[Syntactic Changes]]
 Title: function.sent metaproperty
 Authors: Allen Wirfs-Brock
 Champions: HE Shi-Jun

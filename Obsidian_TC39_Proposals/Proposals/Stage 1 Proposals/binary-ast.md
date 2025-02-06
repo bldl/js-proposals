@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[API Changes]], [[Semantic Changes]]
 Title: Binary AST
 Authors: 
 Champions: Brendan Eich

@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification:
 Title: Legacy reflection features for functions in JavaScript
 Authors: Mark Miller, J.F. Paradis, Caridy Patiño, Dan Finley, Alan Schmitt
 Champions: Mark Miller, J.F. Paradis, Caridy Patiño, Dan Finley, Alan Schmitt

@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification: [[API Changes]]
 Title: {BigInt,Number}.fromString
 Authors: Sam Goto
 Champions: Sam Goto

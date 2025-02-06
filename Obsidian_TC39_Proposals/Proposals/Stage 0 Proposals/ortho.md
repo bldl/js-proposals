@@ -1,4 +1,5 @@
 #Stage0Tag
+Classification:
 Title: Orthogonal Classes
 Authors: Mark Miller, Allen Wirfs-Brock
 Champions: Mark Miller, Allen Wirfs-Brock

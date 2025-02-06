@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification:
 Title: Improved Escapes for Template Literals
 Authors: Michael Ficarra
 Champions: Michael Ficarra

@@ -1,4 +1,5 @@
 #Stage1Tag
+Classification:
 Title: Async initialization
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell
