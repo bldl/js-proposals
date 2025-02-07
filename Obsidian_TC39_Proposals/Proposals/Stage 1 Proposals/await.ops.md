@@ -2,9 +2,9 @@
 Classification: #Syntactic_Change #API_Change
 Human Validated: No
 Title: await operations
-Authors: Hemanth HM, Jordan Harband
-Champions: Hemanth HM, Jordan Harband
-Date: June 2020
+Authors: Jack Works
+Champions: Jack Works, Jordan Harband
+Date: July 2020
 GitHub Link: https://github.com/tc39/proposal-await.ops
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#await-operations-for-stage-1
 

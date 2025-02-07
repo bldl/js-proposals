@@ -2,9 +2,9 @@
 Classification: #API_Change
 Human Validated: No
 Title: Richer Keys
-Authors: Michał Wadas
-Champions: Sathya Gunasekaran
-Date: January 2018
+Authors: Bradley Farias
+Champions: Bradley Farias
+Date: January 2019
 GitHub Link: https://github.com/tc39/proposal-richer-keys
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-30.md#richer-keys-for-stage-2
 

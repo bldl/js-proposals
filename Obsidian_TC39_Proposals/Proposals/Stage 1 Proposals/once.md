@@ -2,9 +2,9 @@
 Classification: #API_Change
 Human Validated: No
 Title: Function once
-Authors: Luca Casonato
-Champions: Luca Casonato
-Date: January 2022
+Authors: J. S. Choi
+Champions: J. S. Choi
+Date: March 2022
 GitHub Link: https://github.com/tc39/proposal-function-once
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#functionprototypeonce-for-stage-1
 

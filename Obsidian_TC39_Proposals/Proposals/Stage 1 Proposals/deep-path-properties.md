@@ -2,9 +2,9 @@
 Classification: #Syntactic_Change
 Human Validated: No
 Title: Deep Path Properties in Record Literals
-Authors: Bradley Farias
-Champions: Bradley Farias, Mark S. Miller, Caridy Patiño, J.F. Paradis, Patrick Soquet, Kris Kowal
-Date: March 2020
+Authors: Rick Button
+Champions: Rick Button
+Date: June 2020
 GitHub Link: https://github.com/tc39/proposal-deep-path-properties-for-record
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-3.md#deep-path-properties
 

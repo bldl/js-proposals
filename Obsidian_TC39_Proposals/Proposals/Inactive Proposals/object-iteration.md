@@ -2,8 +2,8 @@
 Classification: #API_Change
 Human Validated: No
 Title: Improving iteration on Objects
-Authors: Gus Caplan
-Champions: [Rejected][unused-params-notes]: the need to solve the problem does not outweigh the hazards
+Champions: Jonathan Keslin
+Reason for Withdrawal: Withdrawn: concern about need for such an API
 Date: None
 GitHub Link: https://github.com/tc39/proposal-object-iteration
 GitHub Note Link: None

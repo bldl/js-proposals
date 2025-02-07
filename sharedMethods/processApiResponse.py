@@ -35,7 +35,8 @@ def prepText(fileContent):
 
 def extractDetails(text, fileContent):
 
-    for n in text:    
+    for n in text:   
+         
         words = n.strip().split("|")
 
         #Extract title and append to list 
@@ -94,6 +95,8 @@ def extractTitle(words, saveTitlesIn, saveLinksIn):
         saveTitlesIn.append(extractedTitles[1])
         saveLinksIn.append(extractedTitles[2])
     except Exception:
+        saveTitlesIn.append("-------------error---------------")
+        saveLinksIn.append("-------------error---------------")
         print("error with title", extractedTitles) 
 
 

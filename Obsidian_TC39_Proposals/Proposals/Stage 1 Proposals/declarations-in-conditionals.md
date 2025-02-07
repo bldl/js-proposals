@@ -2,9 +2,9 @@
 Classification: #Syntactic_Change
 Human Validated: No
 Title: Declarations in Conditionals
-Authors: Leo Balter, Jordan Harband
-Champions: Leo Balter, Jordan Harband
-Date: July 2019
+Authors: Devin Rousso
+Champions: Devin Rousso
+Date: October 2019
 GitHub Link: https://github.com/tc39/proposal-Declarations-in-Conditionals
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#declarations-in-conditionals
 

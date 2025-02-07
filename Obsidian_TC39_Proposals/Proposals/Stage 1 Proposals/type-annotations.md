@@ -2,8 +2,8 @@
 Classification: #Syntactic_Change
 Human Validated: No
 Title: Type Annotations
-Authors: J. S. Choi
-Champions: J. S. Choi
+Authors: Gil Tayar, Daniel Rosenwasser, Romulo Cintra, Rob Palmer
+Champions: Daniel Rosenwasser, Romulo Cintra, Rob Palmer
 Date: March 2022
 GitHub Link: https://github.com/tc39/proposal-type-annotations
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#types-as-comments-for-stage-1

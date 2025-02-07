@@ -2,8 +2,8 @@
 Classification:
 Human Validated: No
 Title: Object enumerables
-Authors: Leo Balter, John-David Dalton
-Champions: Rejected
+Champions: Leo Balter, John-David Dalton
+Reason for Withdrawal: Rejected
 Date: None
 GitHub Link: https://github.com/leobalter/object-enumerables
 GitHub Note Link: None

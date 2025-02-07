@@ -1,10 +1,10 @@
 #Stage1Tag
-Classification: #Semantic_Change #Syntactic_Change
+Classification: #Syntactic_Change
 Human Validated: No
 Title: Binary AST
-Authors: 
-Champions: Brendan Eich
-Date: July 2017
+Authors: Shu-yu Guo
+Champions: Shu-yu Guo
+Date: May 2018
 GitHub Link: https://github.com/tc39/proposal-binary-ast
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-24.md#binary-ast
 

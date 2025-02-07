@@ -2,9 +2,9 @@
 Classification: #API_Change #Syntactic_Change
 Human Validated: No
 Title: Stable Formatting
-Authors: Jordan Harband
-Champions: Jordan Harband
-Date: July 2023
+Authors: Eemeli Aro
+Champions: Eemeli Aro
+Date: September 2023
 GitHub Link: https://github.com/tc39/proposal-stable-formatting
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-27.md#stable-formatting-for-stage-1
 

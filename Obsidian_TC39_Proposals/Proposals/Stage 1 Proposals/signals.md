@@ -1,9 +1,9 @@
 #Stage1Tag
-Classification: #API_Change #Semantic_Change #Syntactic_Change
+Classification: #API_Change #Syntactic_Change
 Human Validated: No
 Title: Signals
-Authors: Ron Buckton
-Champions: Ron Buckton
+Authors: Rob Eisenberg, Daniel Ehrenberg
+Champions: Daniel Ehrenberg, Yehuda Katz, Jatin Ramanathan, Shay Lewis, Kristen Hewell Garrett, Dominic Gannaway, Preston Sego, Milo M, Rob Eisenberg
 Date: April 2024
 GitHub Link: https://github.com/tc39/proposal-signals
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#signals-for-stage-1

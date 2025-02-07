@@ -2,8 +2,8 @@
 Classification: #Syntactic_Change
 Human Validated: No
 Title: RegExp Atomic Operators
-Authors: Justin Ridgewell
-Champions: Justin Ridgewell
+Authors: Ron Buckton
+Champions: Ron Buckton
 Date: June 2022
 GitHub Link: https://github.com/tc39/proposal-regexp-atomic-operators
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-08.md#regex-atomic-operators

@@ -2,9 +2,9 @@
 Classification: #API_Change
 Human Validated: No
 Title: Array.zip and Array.zipKeyed
-Authors: Michael Ficarra
-Champions: Michael Ficarra
-Date: July 2024
+Authors: Jordan Harband
+Champions: Jordan Harband
+Date: October 2024
 GitHub Link: https://github.com/tc39/proposal-array-zip
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#arrayzip-for-stage-1-or-2-or-27
 

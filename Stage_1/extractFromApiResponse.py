@@ -13,9 +13,13 @@ with open("Stage_1/outputMD/apiResults.md", "w") as results:
     for each in extractResults:
         if "error with this link:" not in each:
             results.write(str(each) + "\n")
+        else:
+            continue
 
 with open("Obsidian_TC39_Proposals/Proposals/Stage_1.md", "w") as results:
     results.write("#Stage1Tag\n")
     for each in extractResults:
         if "error with this link:" not in each:
             results.write(str(each) + "\n")
+        else:
+            continue

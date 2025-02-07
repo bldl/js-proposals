@@ -2,8 +2,8 @@
 Classification: #Syntactic_Change
 Human Validated: No
 Title: Negated in and instanceof operators
-Authors: Eemeli Aro
-Champions: Eemeli Aro
+Authors: Pablo Gorostiaga Belio
+Champions: Pablo Gorostiaga Belio
 Date: September 2023
 GitHub Link: https://github.com/tc39/proposal-negated-in-instanceof
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-28.md#negated-in-and-instanceof-operators-for-stage-1

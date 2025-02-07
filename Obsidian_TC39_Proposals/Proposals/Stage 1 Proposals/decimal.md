@@ -2,9 +2,9 @@
 Classification: #API_Change
 Human Validated: No
 Title: Decimal
-Authors: Bradley Farias
-Champions: Bradley Farias
-Date: February 2020
+Authors: Daniel Ehrenberg, Andrew Paprocki
+Champions: Philip Chimento, Andrew Paprocki, Jesse Alama
+Date: December 2021
 GitHub Link: https://github.com/tc39/proposal-decimal
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#decimals
 

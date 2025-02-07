@@ -2,8 +2,8 @@
 Classification: #Syntactic_Change
 Human Validated: No
 Title: Updates to Tail Calls to include an explicit syntactic opt-in
-Authors: Brian Terlson, Eric Faust
-Champions: Inactive
+Champions: Brian Terlson, Eric Faust
+Reason for Withdrawal: Inactive
 Date: None
 GitHub Link: https://github.com/tc39/proposal-ptc-syntax
 GitHub Note Link: None

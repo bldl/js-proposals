@@ -2,9 +2,9 @@
 Classification: #Semantic_Change
 Human Validated: No
 Title: Preserve Host Virtualizability
-Authors: Daniel Ehrenberg, Andrew Paprocki
-Champions: Philip Chimento, Andrew Paprocki, Jesse Alama
-Date: December 2021
+Authors: Mark Miller, J.F. Paradis, Caridy Patiño, Dan Finley, Alan Schmitt
+Champions: Mark Miller, J.F. Paradis, Caridy Patiño, Dan Finley, Alan Schmitt
+Date: February 2020
 GitHub Link: https://github.com/Agoric/proposal-preserve-virtualizability
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-4.md#preserve-host-virtualizability
 

@@ -1,9 +1,9 @@
 #InactiveTag
-Classification: #API_Change
+Classification: #API_Change #Syntactic_Change
 Human Validated: No
 Title: TypedArray stride parameter
-Authors: Bradley Farias
-Champions: Never presented; preliminary feedback about syntax cost not being worth the weight
+Champions: Shu-yu Guo
+Reason for Withdrawal: [Withdrawn][typedarray-stride-parameter-notes]: concern about performance implications, and the proposal is not expressive enough
 Date: None
 GitHub Link: https://github.com/tc39/proposal-typedarray-stride
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-21.md#withdrawing-typedarray-stride

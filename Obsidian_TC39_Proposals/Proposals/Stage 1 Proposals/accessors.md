@@ -2,8 +2,8 @@
 Classification: #Syntactic_Change
 Human Validated: No
 Title: Grouped Accessors and Auto-Accessors
-Authors: HE Shi-Jun
-Champions: HE Shi-Jun
+Authors: Ron Buckton
+Champions: Ron Buckton
 Date: November 2020
 GitHub Link: https://github.com/tc39/proposal-grouped-and-auto-accessors
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-19.md#continuation-grouped-accessors-and-auto-accessors

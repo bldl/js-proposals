@@ -2,8 +2,8 @@
 Classification: #API_Change
 Human Validated: No
 Title: ArrayBuffer.prototype.transfer
-Authors: Mathias Bynens, Rick Waldron
-Champions: Obsoleted by renamed `String.prototype.item` proposal
+Champions: Domenic Denicola, Shu-yu Guo
+Reason for Withdrawal: Withdrawn: superseded by [Resizable Buffers][resizable-buffers]
 Date: None
 GitHub Link: https://github.com/domenic/proposal-arraybuffer-transfer
 GitHub Note Link: None

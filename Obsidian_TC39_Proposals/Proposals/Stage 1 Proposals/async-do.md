@@ -2,9 +2,9 @@
 Classification: #Syntactic_Change
 Human Validated: No
 Title: async do expressions
-Authors: Ron Buckton
-Champions: Ron Buckton
-Date: November 2020
+Authors: Kevin Gibbons
+Champions: Kevin Gibbons
+Date: January 2021
 GitHub Link: https://github.com/tc39/proposal-async-do-expressions
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#async-do-expressions
 

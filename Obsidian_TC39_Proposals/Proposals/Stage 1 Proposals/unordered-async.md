@@ -2,8 +2,8 @@
 Classification: #API_Change
 Human Validated: No
 Title: Unordered Async Iterator Helpers
-Authors: Michael Ficarra, Luca Casonato, Kevin Gibbons
-Champions: Michael Ficarra, Luca Casonato
+Authors: Michael Ficarra
+Champions: Michael Ficarra
 Date: July 2024
 GitHub Link: https://github.com/tc39/proposal-unordered-async-iterator-helpers
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-30.md#unordered-async-iterator-helpers-for-stage-1

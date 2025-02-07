@@ -2,9 +2,9 @@
 Classification: #Semantic_Change
 Human Validated: No
 Title: uniform parsing of quasi-standard Date.parse input
-Authors: Michael Saboff, Mattijs Hoitink
-Champions: Michael Saboff, Mattijs Hoitink, Mark Miller
-Date: September 2020
+Authors: Richard Gibson
+Champions: Richard Gibson
+Date: September 2018
 GitHub Link: https://github.com/tc39/proposal-uniform-interchange-date-parsing
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-09/sept-26.md#uniform-parsing-of-quasi-standard-dateparse-input
 

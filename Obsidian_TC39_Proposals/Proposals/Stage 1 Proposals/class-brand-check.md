@@ -2,8 +2,8 @@
 Classification: #Syntactic_Change
 Human Validated: No
 Title: Class Brand Checks
-Authors: Kevin Gibbons
-Champions: Kevin Gibbons
+Authors: HE Shi-Jun
+Champions: HE Shi-Jun
 Date: January 2021
 GitHub Link: https://github.com/tc39/proposal-class-brand-check
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#class-brand-checks

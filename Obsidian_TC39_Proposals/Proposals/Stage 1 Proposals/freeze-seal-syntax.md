@@ -2,9 +2,9 @@
 Classification: #Syntactic_Change
 Human Validated: No
 Title: Object.freeze + Object.seal syntax
-Authors: Ingvar Stepanyan
-Champions: Mathias Bynens
-Date: May 2018
+Authors: Keith Cirkel
+Champions: Keith Cirkel
+Date: November 2017
 GitHub Link: https://github.com/keithamus/proposal-object-freeze-seal-syntax
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-30.md#10ivd-objectfreeze--objectseal-syntax-proposal-for-stage-0
 

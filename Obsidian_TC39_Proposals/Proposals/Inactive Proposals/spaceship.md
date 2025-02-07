@@ -2,8 +2,8 @@
 Classification:
 Human Validated: No
 Title: Generic Comparison
-Authors: Robin Ricard
-Champions: Withdrawn; replaced with [Symbols as WeakMap keys][symbols-weakmap]; also there were OCAP/membrane concerns around providing a globally available pre-instantiated RefCollection
+Champions: Hemanth HM, Jordan Harband
+Reason for Withdrawal: Withdrawn: replaced with [Array Equality][array-equality]
 Date: None
 GitHub Link: https://github.com/hemanth/proposal-generic-comparison
 GitHub Note Link: None

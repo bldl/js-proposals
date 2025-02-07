@@ -2,8 +2,8 @@
 Classification: #API_Change
 Human Validated: No
 Title: Function.pipe and flow
-Authors: Dave Herman
-Champions: Inactive; champion does not wish to pursue
+Champions: J.S. Choi
+Reason for Withdrawal: Withdrawn: [rejected for stage 1][pipe-flow-notes]
 Date: None
 GitHub Link: https://github.com/tc39/proposal-function-pipe-flow
 GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-21.md#functionpipe--flow-for-stage-1

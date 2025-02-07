@@ -2,8 +2,8 @@
 Classification: #API_Change
 Human Validated: No
 Title: Cancelable Promises
-Authors: Domenic Denicola
-Champions: Withdrawn
+Champions: Domenic Denicola
+Reason for Withdrawal: Withdrawn
 Date: None
 GitHub Link: https://github.com/tc39/proposal-cancelable-promises
 GitHub Note Link: None

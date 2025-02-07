@@ -2,8 +2,8 @@
 Classification: #Semantic_Change
 Human Validated: No
 Title: OOM Fails Fast
-Authors: Mark Miller, Chip Morningstar, Michael Fig
-Champions: Mark Miller, Chip Morningstar, Michael Fig
+Authors: Mark Miller
+Champions: Mark Miller
 Date: December 2019
 GitHub Link: https://github.com/tc39/proposal-oom-fails-fast
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#update-on-oom-must-fail-fast

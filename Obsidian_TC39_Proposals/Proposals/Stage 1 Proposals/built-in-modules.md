@@ -2,9 +2,9 @@
 Classification: #API_Change #Syntactic_Change
 Human Validated: No
 Title: Built In Modules aka JS Standard Library
-Authors: Bradley Farias
-Champions: Bradley Farias
-Date: July 2018
+Authors: Michael Saboff, Mattijs Hoitink
+Champions: Michael Saboff, Mattijs Hoitink, Mark Miller
+Date: September 2020
 GitHub Link: https://github.com/tc39/proposal-built-in-modules
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#builtin-modules-for-stage-2
 

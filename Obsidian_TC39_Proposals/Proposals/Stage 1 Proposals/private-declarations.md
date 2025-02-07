@@ -2,9 +2,9 @@
 Classification: #Syntactic_Change
 Human Validated: No
 Title: Private declarations
-Authors: Daniel Ehrenberg
-Champions: Daniel Ehrenberg
-Date: January 2019
+Authors: Justin Ridgewell
+Champions: Justin Ridgewell
+Date: March 2019
 GitHub Link: https://github.com/tc39/proposal-private-declarations
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-28.md#private-declarations-for-stage-1
 

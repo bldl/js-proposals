@@ -2,8 +2,8 @@
 Classification:
 Human Validated: No
 Title: Object.shallowEqual
-Authors: Sebastian Markbage
-Champions: Withdrawn
+Champions: Sebastian Markbage
+Reason for Withdrawal: Withdrawn
 Date: None
 GitHub Link: https://github.com/sebmarkbage/ecmascript-shallow-equal
 GitHub Note Link: None

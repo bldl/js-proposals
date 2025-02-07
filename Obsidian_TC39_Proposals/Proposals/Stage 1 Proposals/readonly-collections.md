@@ -2,8 +2,8 @@
 Classification: #API_Change
 Human Validated: No
 Title: Readonly Collections
-Authors: Devin Rousso
-Champions: Devin Rousso
+Authors: Mark Miller, Peter Hoddie
+Champions: Mark Miller, Peter Hoddie
 Date: October 2019
 GitHub Link: https://github.com/tc39/proposal-readonly-collections
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#readonly-collections-for-stage-1

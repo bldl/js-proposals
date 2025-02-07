@@ -2,8 +2,8 @@
 Classification: #API_Change
 Human Validated: No
 Title: Math.signbit: IEEE-754 sign bit
-Authors: Sergey Rubanov, Brendan Eich
-Champions: Withdrawn: no interested champions in February 2024
+Champions: JF Bastien
+Reason for Withdrawal: Withdrawn: no interested champions in February 2024
 Date: None
 GitHub Link: https://github.com/tc39/proposal-Math.signbit
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-23.md#16ib-mathsignbit-proposal

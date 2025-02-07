@@ -2,9 +2,9 @@
 Classification: #API_Change
 Human Validated: No
 Title: {BigInt,Number}.fromString
-Authors: Sam Goto
-Champions: Sam Goto
-Date: November 2017
+Authors: Mathias Bynens
+Champions: Mathias Bynens
+Date: January 2018
 GitHub Link: https://github.com/tc39/proposal-number-fromstring
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iic-bigintnumberfromstring-for-stage-1
 

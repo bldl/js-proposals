@@ -2,9 +2,9 @@
 Classification: #Semantic_Change
 Human Validated: No
 Title: Prototype pollution mitigation
-Authors: Alex Vincent
-Champions: Mark S. Miller, Jack Works
-Date: November 2022
+Authors: Santiago Díaz, Jun Kokatsu
+Champions: Shu-yu Guo
+Date: January 2023
 GitHub Link: https://github.com/tc39/proposal-symbol-proto
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#prototype-pollution-mitigation--symbolproto
 

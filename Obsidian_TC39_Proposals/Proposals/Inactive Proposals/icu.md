@@ -2,8 +2,8 @@
 Classification:
 Human Validated: No
 Title: Normative ICU Reference
-Authors: Allen Wirfs-Brock
-Champions: Withdrawn per [PR comment](https://github.com/tc39/ecma262/issues/1595#issuecomment-509348434)
+Champions: Domenic Denicola
+Reason for Withdrawal: Withdrawn; champion is no longer participating in TC39
 Date: None
 GitHub Link: None
 GitHub Note Link: None

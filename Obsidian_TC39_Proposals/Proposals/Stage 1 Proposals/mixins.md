@@ -2,8 +2,8 @@
 Classification: #Syntactic_Change
 Human Validated: No
 Title: Maximally minimal mixins
-Authors: Tab Atkins
-Champions: Tab Atkins
+Authors: Justin Fagnani
+Champions: Justin Fagnani
 Date: January 2018
 GitHub Link: https://github.com/justinfagnani/proposal-mixins
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiie-maximally-minimal-mixins-proposal

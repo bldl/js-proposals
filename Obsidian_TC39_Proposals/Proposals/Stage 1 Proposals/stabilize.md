@@ -2,9 +2,9 @@
 Classification: #Semantic_Change
 Human Validated: No
 Title: Stabilize
-Authors: Jordan Harband
-Champions: Jordan Harband
-Date: October 2024
+Authors: Mark Miller, Chip Morningstar, Richard Gibson, Mathieu Hofman
+Champions: Mark Miller, Chip Morningstar, Richard Gibson, Mathieu Hofman
+Date: December 2024
 GitHub Link: https://github.com/Agoric/proposal-stabilize
 GitHub Note Link: None
 

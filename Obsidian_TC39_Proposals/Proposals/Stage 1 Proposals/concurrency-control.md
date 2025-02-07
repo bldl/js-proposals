@@ -1,10 +1,10 @@
 #Stage1Tag
-Classification: #API_Change
+Classification: #API_Change #Syntactic_Change
 Human Validated: No
 Title: Concurrency Control
-Authors: Rob Eisenberg, Daniel Ehrenberg
-Champions: Daniel Ehrenberg, Yehuda Katz, Jatin Ramanathan, Shay Lewis, Kristen Hewell Garrett, Dominic Gannaway, Preston Sego, Milo M, Rob Eisenberg
-Date: April 2024
+Authors: Michael Ficarra, Luca Casonato, Kevin Gibbons
+Champions: Michael Ficarra, Luca Casonato
+Date: July 2024
 GitHub Link: https://github.com/tc39/proposal-concurrency-control
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#concurrency-control-presenter-mf-and-lca
 

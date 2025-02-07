@@ -2,8 +2,8 @@
 Classification: #Syntactic_Change
 Human Validated: No
 Title: Class Method Parameter Decorators
-Authors: Alexander J. Vincent
-Champions: Ashley Claymore, Jordan Harband, Chris de Almeida
+Authors: Ron Buckton
+Champions: Ron Buckton
 Date: March 2023
 GitHub Link: https://github.com/tc39/proposal-class-method-parameter-decorators
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#class-constructor-and-method-parameter-decorators

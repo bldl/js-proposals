@@ -2,8 +2,8 @@
 Classification: #Syntactic_Change
 Human Validated: No
 Title: Operator overloading
-Authors: Yulia Startsev, Daniel Ehrenberg
-Champions: Withdrawn; subsumed by WebAssembly JS Promise Integration, which avoids the long task issue
+Champions: Daniel Ehrenberg
+Reason for Withdrawal: Withdrawn
 Date: None
 GitHub Link: https://github.com/tc39/proposal-operator-overloading
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#operator-overloading-for-stage-1

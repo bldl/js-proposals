@@ -2,8 +2,8 @@
 Classification: #Syntactic_Change
 Human Validated: No
 Title: Sequence properties in Unicode property escapes
-Authors: Keith Cirkel
-Champions: Withdrawn; the [Array#at](https://github.com/tc39/proposal-relative-indexing-method) proposal supersedes this work.
+Champions: Mathias Bynens
+Reason for Withdrawal: Withdrawn; subsumed by [RegExp v flag with set notation + properties of strings][regexp-v-flag] proposal
 Date: None
 GitHub Link: https://github.com/tc39/proposal-regexp-unicode-sequence-properties
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#update-on-sequence-property-escapes-in-unicode-regular-expressions

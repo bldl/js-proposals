@@ -2,9 +2,9 @@
 Classification: #Semantic_Change
 Human Validated: No
 Title: Faster Promise adoption
-Authors: Gil Tayar, Daniel Rosenwasser, Romulo Cintra, Rob Palmer
-Champions: Daniel Rosenwasser, Romulo Cintra, Rob Palmer
-Date: March 2022
+Authors: Justin Ridgewell
+Champions: Justin Ridgewell
+Date: June 2022
 GitHub Link: https://github.com/tc39/proposal-faster-promise-adoption
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#remove-job-from-promise-resolve-functions
 

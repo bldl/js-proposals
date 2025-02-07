@@ -2,9 +2,9 @@
 Classification: #API_Change
 Human Validated: No
 Title: Policy Maps and Sets
-Authors: Ron Buckton
-Champions: Ron Buckton
-Date: June 2022
+Authors: J.S. Choi
+Champions: J.S. Choi, Hemanth HM
+Date: July 2022
 GitHub Link: https://github.com/tc39/proposal-policy-map-set
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#policy-maps-and-sets-for-stage-1
 

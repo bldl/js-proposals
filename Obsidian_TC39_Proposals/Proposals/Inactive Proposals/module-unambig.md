@@ -2,8 +2,8 @@
 Classification: #Syntactic_Change
 Human Validated: No
 Title: Proposed Grammar change to ES Modules
-Authors: Bradley Farias
-Champions: Rejected: No consensus on this specific solution.
+Champions: Bradley Farias
+Reason for Withdrawal: Rejected: No consensus on this specific solution.
 Date: None
 GitHub Link: https://github.com/tc39/proposal-UnambiguousJavaScriptGrammar
 GitHub Note Link: None

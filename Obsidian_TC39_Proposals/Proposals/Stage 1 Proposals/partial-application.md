@@ -2,8 +2,8 @@
 Classification: #Syntactic_Change
 Human Validated: No
 Title: Partial application
-Authors: Michael Ficarra
-Champions: Michael Ficarra
+Authors: Ron Buckton
+Champions: Ron Buckton
 Date: July 2018
 GitHub Link: https://github.com/tc39/proposal-partial-application
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#partial-application

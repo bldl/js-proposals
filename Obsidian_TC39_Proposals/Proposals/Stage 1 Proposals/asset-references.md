@@ -2,9 +2,9 @@
 Classification: #Syntactic_Change
 Human Validated: No
 Title: Asset References
-Authors: Daniel Ehrenberg
-Champions: Daniel Ehrenberg
-Date: September 2018
+Authors: Sebastian Markbage
+Champions: Sebastian Markbage
+Date: November 2018
 GitHub Link: https://github.com/tc39/proposal-asset-references
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-28.md#asset-references-for-stage-1
 

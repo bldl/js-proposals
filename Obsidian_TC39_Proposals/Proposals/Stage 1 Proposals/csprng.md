@@ -2,8 +2,8 @@
 Classification: #API_Change
 Human Validated: No
 Title: Cryptographically Secure Random Number Generation
-Authors: Mark Miller, Claude Pache, Jack Works
-Champions: Mark Miller, Claude Pache, Jack Works
+Authors: Ron Buckton
+Champions: Ron Buckton
 Date: February 2020
 GitHub Link: https://github.com/tc39/proposal-csprng
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#arraybufferfillrandom-for-stage-1

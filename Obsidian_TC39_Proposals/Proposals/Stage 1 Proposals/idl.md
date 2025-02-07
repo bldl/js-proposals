@@ -2,8 +2,8 @@
 Classification: #API_Change
 Human Validated: No
 Title: IDL for ECMAScript
-Authors: Richard Gibson
-Champions: Richard Gibson
+Authors: Daniel Ehrenberg
+Champions: Daniel Ehrenberg
 Date: September 2018
 GitHub Link: https://github.com/tc39/proposal-idl
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-09/sept-27.md#idl-for-javascript

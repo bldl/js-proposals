@@ -2,9 +2,9 @@
 Classification: #Syntactic_Change
 Human Validated: No
 Title: Slice notation
-Authors: Bradley Farias
-Champions: Bradley Farias
-Date: January 2019
+Authors: Sathya Gunasekaran
+Champions: Sathya Gunasekaran
+Date: July 2020
 GitHub Link: https://github.com/tc39/proposal-slice-notation
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#slice-notation-for-stage-2
 

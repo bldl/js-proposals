@@ -2,8 +2,8 @@
 Classification:
 Human Validated: No
 Title: from ... import
-Authors: Hemanth HM, Jordan Harband
-Champions: Withdrawn: replaced with [Array Equality][array-equality]
+Champions: Bradley Farias
+Reason for Withdrawal: Never presented; preliminary feedback about syntax cost not being worth the weight
 Date: None
 GitHub Link: https://github.com/bmeck/proposal-from-import
 GitHub Note Link: None

@@ -2,9 +2,9 @@
 Classification: #API_Change #Semantic_Change
 Human Validated: No
 Title: Compartments
-Authors: Ron Buckton
-Champions: Ron Buckton
-Date: February 2020
+Authors: Bradley Farias
+Champions: Bradley Farias, Mark S. Miller, Caridy Patiño, J.F. Paradis, Patrick Soquet, Kris Kowal
+Date: March 2020
 GitHub Link: https://github.com/tc39/proposal-compartments
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-03/april-1.md#compartments-for-stage-1
 

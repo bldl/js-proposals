@@ -1,10 +1,10 @@
 #Stage1Tag
-Classification: #API_Change
+Classification: #API_Change #Semantic_Change
 Human Validated: No
 Title: Freezing prototypes
-Authors: Sebastian Markbage
-Champions: Sebastian Markbage
-Date: November 2018
+Authors: Kevin Gibbons
+Champions: Kevin Gibbons
+Date: January 2019
 GitHub Link: https://github.com/tc39/proposal-freeze-prototype
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-31.md#freezing-prototypes-for-stage-1
 

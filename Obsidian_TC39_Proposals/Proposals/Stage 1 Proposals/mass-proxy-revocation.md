@@ -2,9 +2,9 @@
 Classification: #API_Change #Syntactic_Change
 Human Validated: No
 Title: Mass Proxy Revocation
-Authors: Hemanth HM, Aleen
-Champions: Hemanth HM
-Date: July 2022
+Authors: Alex Vincent
+Champions: Mark S. Miller, Jack Works
+Date: November 2022
 GitHub Link: https://github.com/tc39/proposal-mass-proxy-revocation
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#mass-proxy-revocation-for-stage-1
 

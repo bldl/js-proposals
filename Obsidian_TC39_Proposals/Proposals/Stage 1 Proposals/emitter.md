@@ -2,9 +2,9 @@
 Classification: #API_Change
 Human Validated: No
 Title: Emitter
-Authors: Justin Ridgewell
-Champions: Justin Ridgewell
-Date: March 2019
+Authors: Shu-yu Guo, Pedram Emrouznejad
+Champions: Shu-yu Guo, Pedram Emrouznejad
+Date: June 2019
 GitHub Link: https://github.com/tc39/proposal-emitter
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-06/june-5.md#emitter-for-stage-1
 

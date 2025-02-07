@@ -4,7 +4,7 @@ Human Validated: No
 Title: Wavy Dot: Syntactic Support for Promise Pipelining
 Authors: Mark Miller, Chip Morningstar, Michael Fig
 Champions: Mark Miller, Chip Morningstar, Michael Fig
-Date: October 2019
+Date: December 2019
 GitHub Link: https://github.com/tc39/proposal-wavy-dot
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#update-on-promise-pipelining
 

@@ -2,8 +2,8 @@
 Classification:
 Human Validated: No
 Title: String.prototype.at
-Authors: Jonathan Keslin
-Champions: Withdrawn: concern about need for such an API
+Champions: Mathias Bynens, Rick Waldron
+Reason for Withdrawal: Obsoleted by renamed `String.prototype.item` proposal
 Date: None
 GitHub Link: https://github.com/mathiasbynens/String.prototype.at
 GitHub Note Link: None

@@ -2,9 +2,9 @@
 Classification: #API_Change #Syntactic_Change
 Human Validated: No
 Title: Module Keys
-Authors: Sathya Gunasekaran
-Champions: Sathya Gunasekaran
-Date: July 2020
+Authors: Mike Samuel
+Champions: Mike Samuel
+Date: May 2018
 GitHub Link: https://github.com/tc39/proposal-module-keys
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-23.md#module-keys-strawman-for-stage-1
 

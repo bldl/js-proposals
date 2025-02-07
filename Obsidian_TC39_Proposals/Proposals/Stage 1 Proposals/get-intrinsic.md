@@ -2,8 +2,8 @@
 Classification: #API_Change
 Human Validated: No
 Title: Get Intrinsic
-Authors: J.S. Choi
-Champions: J.S. Choi
+Authors: Jordan Harband
+Champions: Jordan Harband
 Date: August 2021
 GitHub Link: https://github.com/tc39/proposal-get-intrinsic
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#get-intrinsic-for-stage-1

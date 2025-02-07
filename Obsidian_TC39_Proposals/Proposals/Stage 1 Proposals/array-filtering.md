@@ -2,9 +2,9 @@
 Classification: #API_Change
 Human Validated: No
 Title: Array filtering
-Authors: Mark Miller
-Champions: Mark Miller
-Date: December 2019
+Authors: Justin Ridgewell
+Champions: Justin Ridgewell
+Date: February 2020
 GitHub Link: https://github.com/tc39/proposal-array-filtering
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#status-update-on-array-filtering
 

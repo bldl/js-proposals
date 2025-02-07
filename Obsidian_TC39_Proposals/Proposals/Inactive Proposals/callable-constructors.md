@@ -2,8 +2,8 @@
 Classification:
 Human Validated: No
 Title: Callable class constructors
-Authors: Yehuda Katz, Allen Wirfs-Brock
-Champions: Withdrawn: can be solved with decorators
+Champions: Yehuda Katz, Allen Wirfs-Brock
+Reason for Withdrawal: Withdrawn: can be solved with decorators
 Date: None
 GitHub Link: https://github.com/tc39/ecma262/blob/93183b81cb03116b75019615d148b5f788e70edf/workingdocs/callconstructor.md
 GitHub Note Link: None

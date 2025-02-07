@@ -2,8 +2,8 @@
 Classification:
 Human Validated: No
 Title: RefCollection
-Authors: Justin Ridgewell
-Champions: Never presented; engines are not interested in the feature, mainly because it doesn't solve backtracking for most users
+Champions: Robin Ricard
+Reason for Withdrawal: Withdrawn; replaced with [Symbols as WeakMap keys][symbols-weakmap]; also there were OCAP/membrane concerns around providing a globally available pre-instantiated RefCollection
 Date: None
 GitHub Link: https://github.com/rricard/proposal-refcollection/
 GitHub Note Link: None

@@ -2,8 +2,8 @@
 Classification: #API_Change
 Human Validated: No
 Title: Function helpers
-Authors: James M Snell
-Champions: Never presented
+Champions: J. S. Choi
+Reason for Withdrawal: Presented and rejected before Stage 1 on 2021-10; split up into multiple subsequent proposals
 Date: None
 GitHub Link: https://github.com/tc39/proposal-function-helpers
 GitHub Note Link: None

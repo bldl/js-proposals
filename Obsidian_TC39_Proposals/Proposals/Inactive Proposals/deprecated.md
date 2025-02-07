@@ -2,8 +2,8 @@
 Classification:
 Human Validated: No
 Title: deprecated
-Authors: Domenic Denicola, Shu-yu Guo
-Champions: Withdrawn: superseded by [Resizable Buffers][resizable-buffers]
+Champions: James M Snell
+Reason for Withdrawal: Never presented
 Date: None
 GitHub Link: https://github.com/jasnell/proposal-deprecated
 GitHub Note Link: None

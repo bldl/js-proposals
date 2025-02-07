@@ -2,8 +2,8 @@
 Classification: #API_Change
 Human Validated: No
 Title: Getting last element of Array
-Authors: JF Bastien
-Champions: Withdrawn: no interested champions in February 2024
+Champions: Keith Cirkel
+Reason for Withdrawal: Withdrawn; the [Array#at](https://github.com/tc39/proposal-relative-indexing-method) proposal supersedes this work.
 Date: None
 GitHub Link: https://github.com/tc39/proposal-array-last
 GitHub Note Link: None
