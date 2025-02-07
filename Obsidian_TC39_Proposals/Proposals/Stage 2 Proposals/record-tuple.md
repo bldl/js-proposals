@@ -1,5 +1,5 @@
 #Stage2Tag
-Classification: #Syntactic_Change #API_Change #Semantic_Change
+Classification: #Syntactic_Change #API_Change
 Human Validated: No
 Title: Record & Tuple
 Authors: Robin Ricard, Richard Button

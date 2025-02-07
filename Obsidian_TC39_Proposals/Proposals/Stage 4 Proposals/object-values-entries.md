@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #API_Change #Syntactic_Change
+Classification: #API_Change
 Human Validated: No
 Title: Object.values/Object.entries
 Authors: Jordan Harband

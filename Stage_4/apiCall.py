@@ -1,7 +1,7 @@
 import requests
 import base64
 
-url = f"https://api.github.com/repos/tc39/proposals/contents/stage-4-proposals.md"
+url = f"https://api.github.com/repos/tc39/proposals/contents/finished-proposals.md"
 
 response = requests.get(url)
 data = response.json()

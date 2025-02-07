@@ -1,10 +1,10 @@
-#Stage2Tag
-Classification: #Syntactic_Change #API_Change
+#Stage_2_7Tag
+Classification: #Syntactic_Change
 Human Validated: No
 Title: ESM Phase Imports
 Authors: Luca Casonato, Guy Bedford
 Champions: Luca Casonato, Guy Bedford
-Date: June 2024
+Date: December 2024
 GitHub Link: https://github.com/tc39/proposal-esm-phase-imports
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#esm-phase-imports
 
