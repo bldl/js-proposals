@@ -5,6 +5,7 @@ Title: Private declarations
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell
 Date: March 2019
+Last Commit: 2020-01-21
 GitHub Link: https://github.com/tc39/proposal-private-declarations
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-28.md#private-declarations-for-stage-1
 

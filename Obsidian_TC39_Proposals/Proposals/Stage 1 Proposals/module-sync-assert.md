@@ -5,6 +5,7 @@ Title: Module sync assert
 Authors: Jack Works
 Champions: Jack Works
 Date: November 2023
+Last Commit: 2024-03-28
 GitHub Link: https://github.com/tc39/proposal-module-sync-assert
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-29.md#module-sync-assert-for-stage-1
 

@@ -5,6 +5,7 @@ Title: Reversible string split
 Authors: Luca Casonato
 Champions: Luca Casonato
 Date: January 2022
+Last Commit: 2022-01-26
 GitHub Link: https://github.com/tc39/proposal-reversible-string-split
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-01/jan-25.md#reversible-string-split
 

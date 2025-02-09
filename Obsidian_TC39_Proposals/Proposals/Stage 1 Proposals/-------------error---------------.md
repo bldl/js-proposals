@@ -1,13 +1,13 @@
 #Stage1Tag
 Classification: #Syntactic_Change
 Human Validated: No
-Title: do expressions
-Authors: Dave Herman
-Champions: Kevin Gibbons
-Date: June 2020
+Title: -------------error---------------
+Authors: 
+Champions: Brendan Eich
+Date: July 2017
 Last Commit: 2021-03-03
-GitHub Link: https://github.com/tc39/proposal-do-expressions
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-1.md#do-expressions-for-stage-2
+GitHub Link: None
+GitHub Note Link: None
 
 # Proposal Description:
 # ECMAScript proposal: `do` expressions

@@ -5,6 +5,7 @@ Title: String.prototype.codePoints
 Authors: Ingvar Stepanyan
 Champions: Mathias Bynens
 Date: May 2018
+Last Commit: 2019-10-21
 GitHub Link: https://github.com/tc39/proposal-string-prototype-codepoints
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-22.md#stringprototypecodepoints-for-stage-2
 

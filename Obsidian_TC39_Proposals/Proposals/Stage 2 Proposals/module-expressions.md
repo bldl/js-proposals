@@ -5,6 +5,7 @@ Title: Module Expressions
 Authors: Surma, Daniel Ehrenberg, Nicolò Ribaudo
 Champions: Surma, Nicolò Ribaudo
 Date: November 2022
+Last Commit: 2022-12-19
 GitHub Link: https://github.com/tc39/proposal-module-expressions
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-expressions
 

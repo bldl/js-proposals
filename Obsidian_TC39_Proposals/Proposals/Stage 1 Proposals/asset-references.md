@@ -5,6 +5,7 @@ Title: Asset References
 Authors: Sebastian Markbage
 Champions: Sebastian Markbage
 Date: November 2018
+Last Commit: 2020-09-28
 GitHub Link: https://github.com/tc39/proposal-asset-references
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-28.md#asset-references-for-stage-1
 

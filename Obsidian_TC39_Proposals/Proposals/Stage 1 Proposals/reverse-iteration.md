@@ -5,6 +5,7 @@ Title: Reverse iteration
 Authors: Leo Balter, Jordan Harband
 Champions: Leo Balter, Jordan Harband
 Date: July 2019
+Last Commit: 2019-07-23
 GitHub Link: https://github.com/tc39/proposal-reverseIterator
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#symbolreverse
 

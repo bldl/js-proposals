@@ -5,6 +5,7 @@ Title: async do expressions
 Authors: Kevin Gibbons
 Champions: Kevin Gibbons
 Date: January 2021
+Last Commit: 2021-02-02
 GitHub Link: https://github.com/tc39/proposal-async-do-expressions
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#async-do-expressions
 

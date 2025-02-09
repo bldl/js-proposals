@@ -5,6 +5,7 @@ Title: Decimal
 Authors: Daniel Ehrenberg, Andrew Paprocki
 Champions: Philip Chimento, Andrew Paprocki, Jesse Alama
 Date: December 2021
+Last Commit: 2024-12-11
 GitHub Link: https://github.com/tc39/proposal-decimal
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#decimals
 

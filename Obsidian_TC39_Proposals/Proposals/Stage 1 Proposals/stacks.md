@@ -5,6 +5,7 @@ Title: Error stacks
 Authors: Jordan Harband, Mark Miller
 Champions: Jordan Harband, Mark Miller
 Date: January 2017
+Last Commit: 2024-02-08
 GitHub Link: https://github.com/tc39/proposal-error-stacks
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-01/jan-25.md#15iiia-error-stacks-seeking-stage-1
 

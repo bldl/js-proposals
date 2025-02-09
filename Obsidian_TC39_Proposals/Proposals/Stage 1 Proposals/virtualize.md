@@ -5,6 +5,7 @@ Title: Preserve Host Virtualizability
 Authors: Mark Miller, J.F. Paradis, Caridy Patiño, Dan Finley, Alan Schmitt
 Champions: Mark Miller, J.F. Paradis, Caridy Patiño, Dan Finley, Alan Schmitt
 Date: February 2020
+Last Commit: 2020-02-02
 GitHub Link: https://github.com/Agoric/proposal-preserve-virtualizability
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-4.md#preserve-host-virtualizability
 

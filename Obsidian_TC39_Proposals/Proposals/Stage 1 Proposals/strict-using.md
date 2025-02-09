@@ -5,6 +5,7 @@ Title: Strict Enforcement of 'using'
 Authors: Ron Buckton
 Champions: Ron Buckton
 Date: April 2024
+Last Commit: 2024-04-12
 GitHub Link: https://github.com/tc39/proposal-using-enforcement
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#strict-enforcement-of-using
 

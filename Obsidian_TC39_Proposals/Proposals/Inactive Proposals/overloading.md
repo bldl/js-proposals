@@ -5,6 +5,7 @@ Title: Operator overloading
 Champions: Daniel Ehrenberg
 Reason for Withdrawal: Withdrawn
 Date: None
+Last Commit: 2023-12-18
 GitHub Link: https://github.com/tc39/proposal-operator-overloading
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#operator-overloading-for-stage-1
 

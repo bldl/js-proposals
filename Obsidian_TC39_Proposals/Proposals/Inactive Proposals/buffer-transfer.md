@@ -5,6 +5,7 @@ Title: ArrayBuffer.prototype.transfer
 Champions: Domenic Denicola, Shu-yu Guo
 Reason for Withdrawal: Withdrawn: superseded by [Resizable Buffers][resizable-buffers]
 Date: None
+Last Commit: 2024-07-12
 GitHub Link: https://github.com/domenic/proposal-arraybuffer-transfer
 GitHub Note Link: None
 

@@ -5,6 +5,7 @@ Title: WeakRefs cleanupSome
 Champions: Yulia Startsev, Daniel Ehrenberg
 Reason for Withdrawal: Withdrawn; subsumed by WebAssembly JS Promise Integration, which avoids the long task issue
 Date: None
+Last Commit: 2022-01-04
 GitHub Link: https://github.com/tc39/proposal-cleanup-some
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
 

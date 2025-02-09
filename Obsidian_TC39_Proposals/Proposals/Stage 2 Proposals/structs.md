@@ -5,6 +5,7 @@ Title: Structs: Fixed Layout Objects and Some Synchronization Primitives
 Authors: Shu-yu Guo
 Champions: Shu-yu Guo
 Date: October 2024
+Last Commit: 2024-12-17
 GitHub Link: https://github.com/tc39/proposal-structs
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#structs-and-shared-structs-for-stage-2
 

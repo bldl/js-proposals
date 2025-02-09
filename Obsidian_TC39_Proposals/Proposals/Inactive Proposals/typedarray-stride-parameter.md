@@ -5,6 +5,7 @@ Title: TypedArray stride parameter
 Champions: Shu-yu Guo
 Reason for Withdrawal: [Withdrawn][typedarray-stride-parameter-notes]: concern about performance implications, and the proposal is not expressive enough
 Date: None
+Last Commit: 2020-03-17
 GitHub Link: https://github.com/tc39/proposal-typedarray-stride
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-21.md#withdrawing-typedarray-stride
 

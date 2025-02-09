@@ -5,6 +5,7 @@ Title: Function helpers
 Champions: J. S. Choi
 Reason for Withdrawal: Presented and rejected before Stage 1 on 2021-10; split up into multiple subsequent proposals
 Date: None
+Last Commit: 2021-11-11
 GitHub Link: https://github.com/tc39/proposal-function-helpers
 GitHub Note Link: None
 

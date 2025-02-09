@@ -5,6 +5,7 @@ Title: Class Brand Checks
 Authors: HE Shi-Jun
 Champions: HE Shi-Jun
 Date: January 2021
+Last Commit: 2022-01-25
 GitHub Link: https://github.com/tc39/proposal-class-brand-check
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#class-brand-checks
 

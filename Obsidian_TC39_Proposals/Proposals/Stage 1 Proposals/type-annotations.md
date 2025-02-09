@@ -5,6 +5,7 @@ Title: Type Annotations
 Authors: Gil Tayar, Daniel Rosenwasser, Romulo Cintra, Rob Palmer
 Champions: Daniel Rosenwasser, Romulo Cintra, Rob Palmer
 Date: March 2022
+Last Commit: 2024-11-13
 GitHub Link: https://github.com/tc39/proposal-type-annotations
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#types-as-comments-for-stage-1
 

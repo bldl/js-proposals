@@ -5,6 +5,7 @@ Title: Grouped Accessors and Auto-Accessors
 Authors: Ron Buckton
 Champions: Ron Buckton
 Date: November 2020
+Last Commit: 2022-05-25
 GitHub Link: https://github.com/tc39/proposal-grouped-and-auto-accessors
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-19.md#continuation-grouped-accessors-and-auto-accessors
 

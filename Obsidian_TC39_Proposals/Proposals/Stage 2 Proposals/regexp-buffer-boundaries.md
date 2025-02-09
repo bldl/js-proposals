@@ -5,6 +5,7 @@ Title: RegExp Buffer Boundaries (\A, \z, \Z)
 Authors: Ron Buckton
 Champions: Ron Buckton
 Date: December 2021
+Last Commit: 2022-05-28
 GitHub Link: https://github.com/tc39/proposal-regexp-buffer-boundaries
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-buffer-boundaries-for-stage-2
 

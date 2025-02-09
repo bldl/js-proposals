@@ -5,6 +5,7 @@ Title: RegExp Atomic Operators
 Authors: Ron Buckton
 Champions: Ron Buckton
 Date: June 2022
+Last Commit: 2022-06-08
 GitHub Link: https://github.com/tc39/proposal-regexp-atomic-operators
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-08.md#regex-atomic-operators
 

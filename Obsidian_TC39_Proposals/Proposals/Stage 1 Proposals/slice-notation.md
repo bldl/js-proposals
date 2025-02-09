@@ -5,6 +5,7 @@ Title: Slice notation
 Authors: Sathya Gunasekaran
 Champions: Sathya Gunasekaran
 Date: July 2020
+Last Commit: 2022-07-07
 GitHub Link: https://github.com/tc39/proposal-slice-notation
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#slice-notation-for-stage-2
 

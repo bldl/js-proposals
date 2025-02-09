@@ -5,6 +5,7 @@ Title: Promise.withResolvers
 Authors: Peter Klecha
 Champions: Peter Klecha
 Date: sub> - [2023-11
+Last Commit: 2023-12-12
 GitHub Link: https://github.com/tc39/proposal-promise-with-resolvers
 GitHub Note Link: None
 

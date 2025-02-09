@@ -5,6 +5,7 @@ Title: export v from "mod"; statements
 Authors: Lee Byron
 Champions: Ben Newman, John-David Dalton
 Date: July 2017
+Last Commit: 2021-10-15
 GitHub Link: https://github.com/tc39/proposal-export-default-from
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-27.md#export-default-from
 

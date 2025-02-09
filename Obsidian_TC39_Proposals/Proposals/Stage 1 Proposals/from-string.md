@@ -5,6 +5,7 @@ Title: {BigInt,Number}.fromString
 Authors: Mathias Bynens
 Champions: Mathias Bynens
 Date: January 2018
+Last Commit: 2018-03-21
 GitHub Link: https://github.com/tc39/proposal-number-fromstring
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iic-bigintnumberfromstring-for-stage-1
 

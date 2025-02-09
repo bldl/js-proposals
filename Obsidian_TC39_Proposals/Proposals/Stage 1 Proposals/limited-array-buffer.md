@@ -5,6 +5,7 @@ Title: Limited ArrayBuffer
 Authors: Jack Works
 Champions: Jack Works
 Date: April 2021
+Last Commit: 2022-02-07
 GitHub Link: https://github.com/tc39/proposal-limited-arraybuffer
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#read-only-arraybuffer-and-fixed-view-of-arraybuffer-for-stage-1
 

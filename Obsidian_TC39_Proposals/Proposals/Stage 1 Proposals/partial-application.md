@@ -5,6 +5,7 @@ Title: Partial application
 Authors: Ron Buckton
 Champions: Ron Buckton
 Date: July 2018
+Last Commit: 2021-10-19
 GitHub Link: https://github.com/tc39/proposal-partial-application
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#partial-application
 

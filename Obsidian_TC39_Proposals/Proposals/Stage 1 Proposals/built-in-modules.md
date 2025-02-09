@@ -5,6 +5,7 @@ Title: Built In Modules aka JS Standard Library
 Authors: Michael Saboff, Mattijs Hoitink
 Champions: Michael Saboff, Mattijs Hoitink, Mark Miller
 Date: September 2020
+Last Commit: 2020-09-24
 GitHub Link: https://github.com/tc39/proposal-built-in-modules
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#builtin-modules-for-stage-2
 

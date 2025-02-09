@@ -5,6 +5,7 @@ Title: Extensions
 Authors: HE Shi-Jun
 Champions: HE Shi-Jun
 Date: November 2020
+Last Commit: 2023-01-18
 GitHub Link: https://github.com/tc39/proposal-extensions
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-19.md#extensions-for-stage-1
 

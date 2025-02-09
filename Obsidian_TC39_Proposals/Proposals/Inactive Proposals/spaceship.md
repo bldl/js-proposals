@@ -5,6 +5,7 @@ Title: Generic Comparison
 Champions: Hemanth HM, Jordan Harband
 Reason for Withdrawal: Withdrawn: replaced with [Array Equality][array-equality]
 Date: None
+Last Commit: None
 GitHub Link: https://github.com/hemanth/proposal-generic-comparison
 GitHub Note Link: None
 

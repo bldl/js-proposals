@@ -5,6 +5,7 @@ Title: Prototype pollution mitigation
 Authors: Santiago Díaz, Jun Kokatsu
 Champions: Shu-yu Guo
 Date: January 2023
+Last Commit: 2023-08-29
 GitHub Link: https://github.com/tc39/proposal-symbol-proto
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#prototype-pollution-mitigation--symbolproto
 

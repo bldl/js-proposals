@@ -5,6 +5,7 @@ Title: RegExp \R Escape
 Authors: Ron Buckton
 Champions: Ron Buckton
 Date: December 2021
+Last Commit: 2021-12-04
 GitHub Link: https://github.com/tc39/proposal-regexp-r-escape
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#regexp-r-escape-for-stage-2
 

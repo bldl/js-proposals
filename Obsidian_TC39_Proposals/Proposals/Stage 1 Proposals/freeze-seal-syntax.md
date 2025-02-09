@@ -5,6 +5,7 @@ Title: Object.freeze + Object.seal syntax
 Authors: Keith Cirkel
 Champions: Keith Cirkel
 Date: November 2017
+Last Commit: 2018-04-17
 GitHub Link: https://github.com/keithamus/proposal-object-freeze-seal-syntax
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-30.md#10ivd-objectfreeze--objectseal-syntax-proposal-for-stage-0
 

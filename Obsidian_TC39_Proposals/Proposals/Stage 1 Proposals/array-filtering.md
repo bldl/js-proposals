@@ -5,6 +5,7 @@ Title: Array filtering
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell
 Date: February 2020
+Last Commit: 2021-07-20
 GitHub Link: https://github.com/tc39/proposal-array-filtering
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#status-update-on-array-filtering
 

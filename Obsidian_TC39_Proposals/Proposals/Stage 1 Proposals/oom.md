@@ -5,6 +5,7 @@ Title: OOM Fails Fast
 Authors: Mark Miller
 Champions: Mark Miller
 Date: December 2019
+Last Commit: 2022-10-13
 GitHub Link: https://github.com/tc39/proposal-oom-fails-fast
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#update-on-oom-must-fail-fast
 

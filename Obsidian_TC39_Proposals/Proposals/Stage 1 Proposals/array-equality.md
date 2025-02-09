@@ -5,6 +5,7 @@ Title: Array Equality
 Authors: Hemanth HM, Jordan Harband
 Champions: Hemanth HM, Jordan Harband
 Date: June 2020
+Last Commit: 2020-06-17
 GitHub Link: https://github.com/tc39/proposal-array-equality
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-4.md#generic-comparison
 

@@ -1,10 +1,11 @@
 #Stage1Tag
-Classification: #API_Change
+Classification: #Syntactic_Change
 Human Validated: No
 Title: IDL for ECMAScript
 Authors: Daniel Ehrenberg
 Champions: Daniel Ehrenberg
 Date: September 2018
+Last Commit: 2018-10-12
 GitHub Link: https://github.com/tc39/proposal-idl
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-09/sept-27.md#idl-for-javascript
 

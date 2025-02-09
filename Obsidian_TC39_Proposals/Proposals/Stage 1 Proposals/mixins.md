@@ -5,6 +5,7 @@ Title: Maximally minimal mixins
 Authors: Justin Fagnani
 Champions: Justin Fagnani
 Date: January 2018
+Last Commit: 2019-12-06
 GitHub Link: https://github.com/justinfagnani/proposal-mixins
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiie-maximally-minimal-mixins-proposal
 

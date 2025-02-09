@@ -1,10 +1,11 @@
 #InactiveTag
-Classification: #Syntactic_Change
+Classification: #Semantic_Change #Syntactic_Change
 Human Validated: No
 Title: Proposed Grammar change to ES Modules
 Champions: Bradley Farias
 Reason for Withdrawal: Rejected: No consensus on this specific solution.
 Date: None
+Last Commit: 2017-04-06
 GitHub Link: https://github.com/tc39/proposal-UnambiguousJavaScriptGrammar
 GitHub Note Link: None
 

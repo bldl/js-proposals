@@ -5,6 +5,7 @@ Title: UUID
 Champions: Benjamin Coe
 Reason for Withdrawal: Withdrawn; moved to `crypto.randomUUID()` in February 2023
 Date: None
+Last Commit: 2021-04-02
 GitHub Link: https://github.com/tc39/proposal-uuid
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#uuid-for-stage-1
 

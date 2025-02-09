@@ -5,6 +5,7 @@ Title: collection normalization
 Authors: Bradley Farias
 Champions: Bradley Farias
 Date: January 2019
+Last Commit: 2021-03-09
 GitHub Link: https://github.com/tc39/proposal-collection-normalization
 GitHub Note Link: None
 

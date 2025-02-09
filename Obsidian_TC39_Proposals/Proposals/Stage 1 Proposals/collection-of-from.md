@@ -1,10 +1,11 @@
 #Stage1Tag
-Classification: #API_Change
+Classification: #API_Change #Syntactic_Change
 Human Validated: No
 Title: of and from on collection constructors
 Authors: Leo Balter
 Champions: Leo Balter
 Date: September 2016
+Last Commit: 2019-10-22
 GitHub Link: https://github.com/tc39/proposal-setmap-offrom
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-09/sept-29.md#11iic-set-map-weakset-and-weakmap-of-and-from-methods
 

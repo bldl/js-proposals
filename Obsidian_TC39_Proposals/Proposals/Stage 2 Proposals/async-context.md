@@ -1,10 +1,11 @@
 #Stage2Tag
-Classification: #API_Change #Semantic_Change
+Classification: #API_Change #Syntactic_Change
 Human Validated: No
 Title: Async Context
 Authors: Chengzhong Wu
 Champions: Andreu Botella, Chengzhong Wu, Justin Ridgewell
 Date: April 2024
+Last Commit: 2025-02-04
 GitHub Link: https://github.com/tc39/proposal-async-context
 GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#asynccontext-stage-2-updates
 

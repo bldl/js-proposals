@@ -5,6 +5,7 @@ Title: Deep Path Properties in Record Literals
 Authors: Rick Button
 Champions: Rick Button
 Date: June 2020
+Last Commit: 2020-06-03
 GitHub Link: https://github.com/tc39/proposal-deep-path-properties-for-record
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-3.md#deep-path-properties
 

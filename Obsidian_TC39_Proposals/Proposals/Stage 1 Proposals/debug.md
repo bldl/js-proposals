@@ -5,6 +5,7 @@ Title: Standardized Debug
 Authors: Gus Caplan
 Champions: Gus Caplan
 Date: November 2020
+Last Commit: 2020-11-17
 GitHub Link: https://github.com/tc39/proposal-standardized-debug
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#standardized-debug-for-stage-2
 

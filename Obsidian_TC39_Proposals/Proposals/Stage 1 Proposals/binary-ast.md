@@ -1,10 +1,11 @@
 #Stage1Tag
-Classification: #Syntactic_Change
+Classification: #API_Change #Semantic_Change
 Human Validated: No
 Title: Binary AST
 Authors: Shu-yu Guo
 Champions: Shu-yu Guo
 Date: May 2018
+Last Commit: 2019-01-16
 GitHub Link: https://github.com/tc39/proposal-binary-ast
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-24.md#binary-ast
 

@@ -5,6 +5,7 @@ Title: Class Method Parameter Decorators
 Authors: Ron Buckton
 Champions: Ron Buckton
 Date: March 2023
+Last Commit: 2025-01-28
 GitHub Link: https://github.com/tc39/proposal-class-method-parameter-decorators
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#class-constructor-and-method-parameter-decorators
 

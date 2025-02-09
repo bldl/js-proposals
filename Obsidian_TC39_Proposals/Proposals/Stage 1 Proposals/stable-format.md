@@ -5,6 +5,7 @@ Title: Stable Formatting
 Authors: Eemeli Aro
 Champions: Eemeli Aro
 Date: September 2023
+Last Commit: 2023-09-28
 GitHub Link: https://github.com/tc39/proposal-stable-formatting
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-27.md#stable-formatting-for-stage-1
 

@@ -5,6 +5,7 @@ Title: JSON.parseImmutable
 Authors: Robin Ricard, Richard Button, Nicolò Ribaudo, Ashley Claymore
 Champions: Robin Ricard, Richard Button, Nicolò Ribaudo, Ashley Claymore
 Date: July 2022
+Last Commit: 2022-07-28
 GitHub Link: https://github.com/tc39/proposal-json-parseimmutable
 GitHub Note Link: None
 

@@ -5,6 +5,7 @@ Title: Policy Maps and Sets
 Authors: J.S. Choi
 Champions: J.S. Choi, Hemanth HM
 Date: July 2022
+Last Commit: 2022-08-20
 GitHub Link: https://github.com/tc39/proposal-policy-map-set
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#policy-maps-and-sets-for-stage-1
 

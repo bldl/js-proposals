@@ -5,6 +5,7 @@ Title: Concurrency Control
 Authors: Michael Ficarra, Luca Casonato, Kevin Gibbons
 Champions: Michael Ficarra, Luca Casonato
 Date: July 2024
+Last Commit: 2024-10-25
 GitHub Link: https://github.com/tc39/proposal-concurrency-control
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#concurrency-control-presenter-mf-and-lca
 

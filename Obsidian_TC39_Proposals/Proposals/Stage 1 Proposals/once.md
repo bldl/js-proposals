@@ -5,6 +5,7 @@ Title: Function once
 Authors: J. S. Choi
 Champions: J. S. Choi
 Date: March 2022
+Last Commit: 2022-07-10
 GitHub Link: https://github.com/tc39/proposal-function-once
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#functionprototypeonce-for-stage-1
 

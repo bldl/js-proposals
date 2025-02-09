@@ -5,6 +5,7 @@ Title: Pipeline Operator
 Authors: J. S. Choi, James DiGioia, Ron Buckton, Tab Atkins
 Champions: J. S. Choi, Ron Buckton, Tab Atkins
 Date: August 2021
+Last Commit: 2023-11-30
 GitHub Link: https://github.com/tc39/proposal-pipeline-operator
 GitHub Note Link: None
 

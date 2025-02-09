@@ -1,10 +1,11 @@
 #Stage1Tag
-Classification: #API_Change #Semantic_Change
+Classification: #API_Change #Syntactic_Change
 Human Validated: No
 Title: Compartments
 Authors: Bradley Farias
 Champions: Bradley Farias, Mark S. Miller, Caridy Patiño, J.F. Paradis, Patrick Soquet, Kris Kowal
 Date: March 2020
+Last Commit: 2022-12-19
 GitHub Link: https://github.com/tc39/proposal-compartments
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-03/april-1.md#compartments-for-stage-1
 

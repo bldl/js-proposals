@@ -1,10 +1,11 @@
 #Stage1Tag
-Classification: #API_Change
+Classification: #API_Change #Syntactic_Change
 Human Validated: No
 Title: Support for Distributed Promise Pipelining
 Authors: Mark Miller, Chip Morningstar, Michael Fig
 Champions: Mark Miller, Chip Morningstar, Michael Fig
 Date: October 2019
+Last Commit: 2022-04-09
 GitHub Link: https://github.com/tc39/proposal-eventual-send
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#eventual-send-support-for-distributed-promise-pipelining
 

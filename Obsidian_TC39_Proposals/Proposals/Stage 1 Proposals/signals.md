@@ -5,6 +5,7 @@ Title: Signals
 Authors: Rob Eisenberg, Daniel Ehrenberg
 Champions: Daniel Ehrenberg, Yehuda Katz, Jatin Ramanathan, Shay Lewis, Kristen Hewell Garrett, Dominic Gannaway, Preston Sego, Milo M, Rob Eisenberg
 Date: April 2024
+Last Commit: 2025-01-01
 GitHub Link: https://github.com/tc39/proposal-signals
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#signals-for-stage-1
 

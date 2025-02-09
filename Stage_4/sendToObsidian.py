@@ -3,6 +3,7 @@ import requests
 import base64
 import os
 from dotenv import load_dotenv
+import datetime
 
 from sharedMethods.askGPT import classifyProposal
 
@@ -47,6 +48,26 @@ for entry in data_list:
             except:
                 print("Error with link:", link_title)
 
+            # default branch called main
+            try: 
+                commitDate = f"https://api.github.com/repos/tc39/{apiProposalName}/branches/main"
+
+                commitDateResponse = requests.get(commitDate, auth=(os.getenv("USERNAME"), os.getenv("API_KEY")))
+                commitDate = commitDateResponse.json()
+                commitDateIso = commitDate["commit"]["commit"]["author"]["date"]
+                commitDate = commitDateIso.split("T")
+                returnDate = commitDate[0]
+
+            # default branch called master
+            except:
+                commitDate = f"https://api.github.com/repos/tc39/{apiProposalName}/branches/master"
+
+                commitDateResponse = requests.get(commitDate, auth=(os.getenv("USERNAME"), os.getenv("API_KEY")))
+                commitDate = commitDateResponse.json()
+                commitDateIso = commitDate["commit"]["commit"]["author"]["date"]
+                commitDate = commitDateIso.split("T")
+                returnDate = commitDate[0]
+                
             #----------api call for readme------------------------
             try:
                 load_dotenv()
@@ -71,6 +92,7 @@ for entry in data_list:
                         f"Authors: {authors}\n"
                         f"Champions: {champions}\n"
                         f"Date: {date}\n"
+                        f"Last Commit: {returnDate}\n"
                         f"GitHub Link: {github_link}\n"
                         f"GitHub Note Link: {github_note_link}\n\n"
                         f"# Proposal Description:\n"
@@ -86,6 +108,7 @@ for entry in data_list:
                     f"Authors: {authors}\n"
                     f"Champions: {champions}\n"
                     f"Date: {date}\n"
+                    f"Last Commit: {returnDate}\n"
                     f"GitHub Link: {github_link}\n"
                     f"GitHub Note Link: {github_note_link}\n\n"
                     f"# Proposal Description:\n{file_content}"

@@ -5,6 +5,7 @@ Title: Get Intrinsic
 Authors: Jordan Harband
 Champions: Jordan Harband
 Date: August 2021
+Last Commit: 2023-09-21
 GitHub Link: https://github.com/tc39/proposal-get-intrinsic
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#get-intrinsic-for-stage-1
 

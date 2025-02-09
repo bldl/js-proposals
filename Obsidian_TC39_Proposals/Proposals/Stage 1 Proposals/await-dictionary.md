@@ -1,10 +1,11 @@
 #Stage1Tag
-Classification: #API_Change #Syntactic_Change
+Classification: #API_Change
 Human Validated: No
 Title: Await Dictionary
 Authors: Alexander J. Vincent
 Champions: Ashley Claymore, Jordan Harband, Chris de Almeida
 Date: March 2023
+Last Commit: 2023-03-25
 GitHub Link: https://github.com/tc39/proposal-await-dictionary
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#await-dictionary-for-stage-1
 

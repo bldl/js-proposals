@@ -5,6 +5,7 @@ Title: Cancelable Promises
 Champions: Domenic Denicola
 Reason for Withdrawal: Withdrawn
 Date: None
+Last Commit: 2016-12-15
 GitHub Link: https://github.com/tc39/proposal-cancelable-promises
 GitHub Note Link: None
 

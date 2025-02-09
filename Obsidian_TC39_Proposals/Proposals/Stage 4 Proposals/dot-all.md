@@ -5,6 +5,7 @@ Title: s (dotAll) flag for regular expressions
 Authors: Mathias Bynens
 Champions: Brian Terlson, Mathias Bynens
 Date: November 2017
+Last Commit: 2018-01-19
 GitHub Link: https://github.com/tc39/proposal-regexp-dotall-flag
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-28.md#9ie-regexp-dotall-status-update
 

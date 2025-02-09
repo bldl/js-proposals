@@ -5,6 +5,7 @@ Title: Math.seededRandoms()
 Authors: Tab Atkins
 Champions: Tab Atkins
 Date: January 2018
+Last Commit: 2024-05-15
 GitHub Link: https://github.com/tc39/proposal-seeded-random
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iif-mathseededrandoms-for-stage-1
 

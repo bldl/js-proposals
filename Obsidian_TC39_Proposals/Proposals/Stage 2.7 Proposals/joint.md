@@ -5,6 +5,7 @@ Title: Joint Iteration
 Authors: Michael Ficarra
 Champions: Michael Ficarra
 Date: June 2024
+Last Commit: 2024-10-28
 GitHub Link: https://github.com/tc39/proposal-joint-iteration
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-12.md#joint-iteration-for-stage-27
 

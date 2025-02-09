@@ -5,6 +5,7 @@ Title: Sequence properties in Unicode property escapes
 Champions: Mathias Bynens
 Reason for Withdrawal: Withdrawn; subsumed by [RegExp v flag with set notation + properties of strings][regexp-v-flag] proposal
 Date: None
+Last Commit: 2022-05-20
 GitHub Link: https://github.com/tc39/proposal-regexp-unicode-sequence-properties
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#update-on-sequence-property-escapes-in-unicode-regular-expressions
 

@@ -5,6 +5,7 @@ Title: uniform parsing of quasi-standard Date.parse input
 Authors: Richard Gibson
 Champions: Richard Gibson
 Date: September 2018
+Last Commit: 2023-09-13
 GitHub Link: https://github.com/tc39/proposal-uniform-interchange-date-parsing
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-09/sept-26.md#uniform-parsing-of-quasi-standard-dateparse-input
 

@@ -5,6 +5,7 @@ Title: Destructure Private Fields
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell
 Date: December 2021
+Last Commit: 2024-07-15
 GitHub Link: https://github.com/tc39/proposal-destructuring-private
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#destructuring-private-fields
 

@@ -5,6 +5,7 @@ Title: Negated in and instanceof operators
 Authors: Pablo Gorostiaga Belio
 Champions: Pablo Gorostiaga Belio
 Date: September 2023
+Last Commit: 2023-11-10
 GitHub Link: https://github.com/tc39/proposal-negated-in-instanceof
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-28.md#negated-in-and-instanceof-operators-for-stage-1
 

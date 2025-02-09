@@ -5,6 +5,7 @@ Title: Pattern Matching
 Authors: Jordan Harband, Mark Cohen, Tab Atkins, Daniel Rosenwasser, Jack Works, Ross Kirsling
 Champions: Jordan Harband, Mark Cohen, Tab Atkins, Daniel Rosenwasser, Jack Works, Ross Kirsling
 Date: March 2022
+Last Commit: 2024-09-27
 GitHub Link: https://github.com/tc39/proposal-pattern-matching
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#pattern-matching-for-stage-2
 

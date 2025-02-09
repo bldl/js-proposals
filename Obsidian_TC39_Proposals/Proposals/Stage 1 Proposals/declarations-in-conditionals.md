@@ -5,6 +5,7 @@ Title: Declarations in Conditionals
 Authors: Devin Rousso
 Champions: Devin Rousso
 Date: October 2019
+Last Commit: 2022-01-24
 GitHub Link: https://github.com/tc39/proposal-Declarations-in-Conditionals
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#declarations-in-conditionals
 

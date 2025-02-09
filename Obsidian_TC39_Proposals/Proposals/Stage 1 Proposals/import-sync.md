@@ -5,6 +5,7 @@ Title: Sync Imports
 Authors: Guy Bedford
 Champions: Guy Bedford
 Date: None
+Last Commit: 2024-12-05
 GitHub Link: https://github.com/guybedford/proposal-import-sync
 GitHub Note Link: None
 

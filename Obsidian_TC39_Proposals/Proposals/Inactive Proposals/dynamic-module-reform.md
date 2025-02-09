@@ -5,6 +5,7 @@ Title: Dynamic Module Reform
 Champions: Caridy Patiño
 Reason for Withdrawal: Withdrawn: we decided to preserve the current semantics
 Date: None
+Last Commit: 2017-04-06
 GitHub Link: https://github.com/tc39/proposal-dynamic-modules
 GitHub Note Link: None
 

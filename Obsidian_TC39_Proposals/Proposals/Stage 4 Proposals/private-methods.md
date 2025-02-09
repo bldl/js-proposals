@@ -5,6 +5,7 @@ Title: Private instance methods and accessors
 Authors: Daniel Ehrenberg
 Champions: Daniel Ehrenberg, Kevin Gibbons
 Date: April 2021
+Last Commit: 2021-02-15
 GitHub Link: https://github.com/tc39/proposal-private-methods
 GitHub Note Link: None
 

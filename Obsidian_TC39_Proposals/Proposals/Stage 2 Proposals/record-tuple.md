@@ -1,10 +1,11 @@
 #Stage2Tag
-Classification: #Syntactic_Change #API_Change
+Classification: #Syntactic_Change
 Human Validated: No
 Title: Record & Tuple
 Authors: Robin Ricard, Richard Button
 Champions: Robin Ricard, Richard Button
 Date: April 2024
+Last Commit: 2023-12-13
 GitHub Link: https://github.com/tc39/proposal-record-tuple
 GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#asynccontext-stage-2-updates
 

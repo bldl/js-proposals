@@ -5,6 +5,7 @@ Title: class Access Expressions
 Authors: Ron Buckton
 Champions: Ron Buckton
 Date: September 2020
+Last Commit: 2020-09-09
 GitHub Link: https://github.com/tc39/proposal-class-access-expressions
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-22.md#class-access-expressions-for-stage-2
 

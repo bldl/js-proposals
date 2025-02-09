@@ -5,6 +5,7 @@ Title: Mass Proxy Revocation
 Authors: Alex Vincent
 Champions: Mark S. Miller, Jack Works
 Date: November 2022
+Last Commit: 2022-12-01
 GitHub Link: https://github.com/tc39/proposal-mass-proxy-revocation
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#mass-proxy-revocation-for-stage-1
 

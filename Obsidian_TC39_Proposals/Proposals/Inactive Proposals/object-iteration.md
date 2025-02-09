@@ -5,6 +5,7 @@ Title: Improving iteration on Objects
 Champions: Jonathan Keslin
 Reason for Withdrawal: Withdrawn: concern about need for such an API
 Date: None
+Last Commit: 2020-10-30
 GitHub Link: https://github.com/tc39/proposal-object-iteration
 GitHub Note Link: None
 

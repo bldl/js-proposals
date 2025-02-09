@@ -5,6 +5,7 @@ Title: "use module"
 Champions: Dave Herman
 Reason for Withdrawal: Inactive; champion does not wish to pursue
 Date: None
+Last Commit: 2022-01-24
 GitHub Link: https://github.com/tc39/proposal-modules-pragma
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-26.md#9ivb-modulescript-pragma-for-stage-2
 

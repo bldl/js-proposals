@@ -5,6 +5,7 @@ Title: Function.pipe and flow
 Champions: J.S. Choi
 Reason for Withdrawal: Withdrawn: [rejected for stage 1][pipe-flow-notes]
 Date: None
+Last Commit: 2022-08-20
 GitHub Link: https://github.com/tc39/proposal-function-pipe-flow
 GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-21.md#functionpipe--flow-for-stage-1
 

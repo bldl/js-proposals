@@ -5,6 +5,7 @@ Title: "Discard" (void) Bindings
 Authors: Ron Buckton
 Champions: Ron Buckton
 Date: June 2024
+Last Commit: 2024-06-12
 GitHub Link: https://github.com/tc39/proposal-discard-binding
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#discard-bindings-update-or-stage-2
 

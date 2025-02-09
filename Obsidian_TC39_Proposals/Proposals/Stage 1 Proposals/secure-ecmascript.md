@@ -1,10 +1,11 @@
 #Stage1Tag
-Classification: #API_Change #Syntactic_Change
+Classification: #API_Change #Semantic_Change #Syntactic_Change
 Human Validated: No
 Title: SES Secure EcmaScript
 Authors: Mark Miller, Chip Morningstar, Caridy Patiño
 Champions: Mark Miller, Chip Morningstar, Caridy Patiño
 Date: February 2020
+Last Commit: 2021-02-18
 GitHub Link: https://github.com/tc39/proposal-ses
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-6.md#ses-compartments
 

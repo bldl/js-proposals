@@ -5,6 +5,7 @@ Title: First-class protocols
 Authors: Michael Ficarra
 Champions: Michael Ficarra
 Date: July 2018
+Last Commit: 2022-11-28
 GitHub Link: https://github.com/tc39/proposal-first-class-protocols
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#updates-on-first-class-protocols
 

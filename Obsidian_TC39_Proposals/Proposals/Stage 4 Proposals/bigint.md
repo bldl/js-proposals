@@ -1,10 +1,11 @@
 #Stage4Tag
-Classification: #Syntactic_Change #API_Change
+Classification: #API_Change #Syntactic_Change
 Human Validated: No
 Title: BigInt
 Authors: Daniel Ehrenberg
 Champions: Daniel Ehrenberg
 Date: June 2019
+Last Commit: 2019-09-30
 GitHub Link: https://github.com/tc39/proposal-bigint
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-06/june-4.md#bigint-to-stage-4
 

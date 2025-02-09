@@ -5,6 +5,7 @@ Title: Updates to Tail Calls to include an explicit syntactic opt-in
 Champions: Brian Terlson, Eric Faust
 Reason for Withdrawal: Inactive
 Date: None
+Last Commit: 2016-05-07
 GitHub Link: https://github.com/tc39/proposal-ptc-syntax
 GitHub Note Link: None
 
