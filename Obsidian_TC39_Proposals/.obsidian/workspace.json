@@ -4,47 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f13037a933c37071",
+        "id": "2eef213fcfb5edb5",
         "type": "tabs",
         "children": [
           {
-            "id": "7697e3953df42d01",
+            "id": "3ecaa5f17347eee9",
             "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Proposals/Inactive Proposals/-------------error---------------.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "-------------error---------------"
-            }
-          }
-        ]
-      },
-      {
-        "id": "28379ce98a760c9f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b77aaf4567773dcd",
-            "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
-              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
@@ -193,8 +161,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7697e3953df42d01",
+  "active": "309748987b51e6c5",
   "lastOpenFiles": [
+    "Types of Changes/Semantic Change.md",
+    "Proposals/Inactive Proposals/callable-constructors.md",
+    "Proposals/Stage 1 Proposals/limited-array-buffer.md",
+    "Types of Changes/Syntactic Change.md",
+    "Types of Changes/API Change.md",
+    "Proposals/Inactive Proposals/blocks.md",
+    "Proposals/Stage 4 Proposals/allsettled.md",
+    "Proposals/Stage 1 Proposals/legacy-reflection.md",
+    "Proposals/Stage 2 Proposals/immutable-abs.md",
+    "Proposals/Inactive Proposals/-------------error---------------.md",
     "Proposals/Stage 0 Proposals/as-patterns.md",
     "Proposals/Inactive Proposals/zones.md",
     "Proposals/Inactive Proposals/uuid.md",
@@ -211,16 +189,6 @@
     "Proposals/Inactive Proposals/refcollection.md",
     "Proposals/Inactive Proposals/re-atomic-groups.md",
     "Proposals/Inactive Proposals/ptc.md",
-    "Proposals/Inactive Proposals/pipe-flow.md",
-    "Proposals/Inactive Proposals/overloading.md",
-    "Proposals/Inactive Proposals/object-iteration.md",
-    "Proposals/Inactive Proposals/object-enums.md",
-    "Proposals/Inactive Proposals/more-math.md",
-    "Proposals/Inactive Proposals/modules-pragma.md",
-    "Proposals/Inactive Proposals/module-unambig.md",
-    "Proposals/Inactive Proposals/json-tryparse.md",
-    "Proposals/Inactive Proposals/is-types.md",
-    "Proposals/Inactive Proposals/icu.md",
     "Types of Changes",
     "Untitled.canvas",
     "Proposal Types",
