@@ -1,6 +1,6 @@
 #InactiveTag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Extensible numeric literals
 Champions: Daniel Ehrenberg
 Reason for Withdrawal: Withdrawn

@@ -1,6 +1,6 @@
 #InactiveTag
-Classification: [[Syntactic Change]]
-Human Validated: No
+Classification: [[Semantic Change]]
+Human Validated: KW
 Title: "use module"
 Champions: Dave Herman
 Reason for Withdrawal: Inactive; champion does not wish to pursue

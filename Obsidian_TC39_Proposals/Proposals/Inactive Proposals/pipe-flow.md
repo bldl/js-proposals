@@ -1,6 +1,6 @@
 #InactiveTag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Function.pipe and flow
 Champions: J.S. Choi
 Reason for Withdrawal: Withdrawn: [rejected for stage 1][pipe-flow-notes]

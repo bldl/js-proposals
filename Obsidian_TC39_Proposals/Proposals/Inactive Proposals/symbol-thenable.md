@@ -1,6 +1,6 @@
 #InactiveTag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Symbol.thenable
 Champions: Gus Caplan, Jordan Harband, Myles Borins
 Reason for Withdrawal: Withdrawn; changing thenability on Module Namespace objects is not web compatible, and allowing non-Promise use of "then" is not worth slowing down all Promise operations

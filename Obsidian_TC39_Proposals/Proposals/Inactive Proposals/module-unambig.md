@@ -1,6 +1,6 @@
 #InactiveTag
-Classification: [[Syntactic Change]]
-Human Validated: No
+Classification: [[Semantic Change]]
+Human Validated: KW
 Title: Proposed Grammar change to ES Modules
 Champions: Bradley Farias
 Reason for Withdrawal: Rejected: No consensus on this specific solution.

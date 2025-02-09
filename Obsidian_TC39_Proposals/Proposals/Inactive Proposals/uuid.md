@@ -1,6 +1,6 @@
 #InactiveTag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: UUID
 Champions: Benjamin Coe
 Reason for Withdrawal: Withdrawn; moved to `crypto.randomUUID()` in February 2023

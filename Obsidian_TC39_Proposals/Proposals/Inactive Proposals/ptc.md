@@ -1,6 +1,6 @@
 #InactiveTag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Updates to Tail Calls to include an explicit syntactic opt-in
 Champions: Brian Terlson, Eric Faust
 Reason for Withdrawal: Inactive

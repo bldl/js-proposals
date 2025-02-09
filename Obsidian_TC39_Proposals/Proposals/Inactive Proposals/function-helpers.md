@@ -1,6 +1,6 @@
 #InactiveTag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Function helpers
 Champions: J. S. Choi
 Reason for Withdrawal: Presented and rejected before Stage 1 on 2021-10; split up into multiple subsequent proposals

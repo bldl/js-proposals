@@ -1,6 +1,6 @@
 #InactiveTag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Improving iteration on Objects
 Champions: Jonathan Keslin
 Reason for Withdrawal: Withdrawn: concern about need for such an API

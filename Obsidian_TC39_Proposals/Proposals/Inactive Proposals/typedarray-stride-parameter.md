@@ -1,6 +1,6 @@
 #InactiveTag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: TypedArray stride parameter
 Champions: Shu-yu Guo
 Reason for Withdrawal: [Withdrawn][typedarray-stride-parameter-notes]: concern about performance implications, and the proposal is not expressive enough

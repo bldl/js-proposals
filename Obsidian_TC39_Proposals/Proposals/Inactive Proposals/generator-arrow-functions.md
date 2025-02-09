@@ -1,6 +1,6 @@
 #InactiveTag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Generator arrow functions
 Champions: Sergey Rubanov, Brendan Eich
 Reason for Withdrawal: Withdrawn: no interested champions in February 2024

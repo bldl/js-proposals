@@ -1,6 +1,6 @@
 #InactiveTag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: WeakRefs cleanupSome
 Champions: Yulia Startsev, Daniel Ehrenberg
 Reason for Withdrawal: Withdrawn; subsumed by WebAssembly JS Promise Integration, which avoids the long task issue

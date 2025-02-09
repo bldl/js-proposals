@@ -1,6 +1,6 @@
 #InactiveTag
-Classification: [[API Change]] [[Syntactic Change]]
-Human Validated: No
+Classification: [[Syntactic Change]] 
+Human Validated: KW
 Title: Sequence properties in Unicode property escapes
 Champions: Mathias Bynens
 Reason for Withdrawal: Withdrawn; subsumed by [RegExp v flag with set notation + properties of strings][regexp-v-flag] proposal

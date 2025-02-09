@@ -1,6 +1,6 @@
 #InactiveTag
 Classification: [[Semantic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Dynamic Module Reform
 Champions: Caridy Patiño
 Reason for Withdrawal: Withdrawn: we decided to preserve the current semantics

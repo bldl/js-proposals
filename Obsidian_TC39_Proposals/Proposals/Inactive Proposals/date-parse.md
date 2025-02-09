@@ -1,6 +1,6 @@
 #InactiveTag
-Classification: [[API Change]]
-Human Validated: No
+Classification: Unknown
+Human Validated: KW
 Title: Date.parse fallback semantics
 Champions: Morgan Phillips
 Reason for Withdrawal: Inactive; likely replaced by [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]

@@ -1,6 +1,6 @@
 #InactiveTag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Math.signbit: IEEE-754 sign bit
 Champions: JF Bastien
 Reason for Withdrawal: Withdrawn: no interested champions in February 2024
