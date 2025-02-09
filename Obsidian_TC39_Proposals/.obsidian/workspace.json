@@ -18,19 +18,8 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "82d7377810d31abb",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,9 +163,8 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "82d7377810d31abb",
+  "active": "309748987b51e6c5",
   "lastOpenFiles": [
-    "Proposals/Stage_4.md",
     "Proposals/Stage 4 Proposals/array-includes.md",
     "Proposals/Stage 4 Proposals/exponentiation.md",
     "Proposals/Stage 4 Proposals/object-values-entries.md",
@@ -202,6 +190,7 @@
     "Proposals/Stage 4 Proposals/trims.md",
     "Proposals/Stage 4 Proposals/flat.md",
     "Proposals/Stage 4 Proposals/matchall.md",
+    "Proposals/Stage 4 Proposals/dynamic-import.md",
     "Untitled",
     "Proposal Types",
     "Proposals 1/Stage 4 Proposals",
