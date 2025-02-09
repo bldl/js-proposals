@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Inactive Proposals/zones.md",
+                "file": "Proposals/Inactive Proposals/-------------error---------------.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "zones"
+              "title": "-------------error---------------"
             }
           }
         ]
@@ -195,10 +195,11 @@
   },
   "active": "7697e3953df42d01",
   "lastOpenFiles": [
-    "Proposals/Inactive Proposals/uuid.md",
+    "Proposals/Stage 0 Proposals/as-patterns.md",
     "Proposals/Inactive Proposals/zones.md",
-    "Proposals/Inactive Proposals/unicode-sequence-properties.md",
+    "Proposals/Inactive Proposals/uuid.md",
     "Proposals/Inactive Proposals/unused-params.md",
+    "Proposals/Inactive Proposals/unicode-sequence-properties.md",
     "Proposals/Inactive Proposals/typedarray-stride-parameter.md",
     "Proposals/Inactive Proposals/typed-objects-new.md",
     "Proposals/Inactive Proposals/symbol-thenable.md",
@@ -211,16 +212,15 @@
     "Proposals/Inactive Proposals/re-atomic-groups.md",
     "Proposals/Inactive Proposals/ptc.md",
     "Proposals/Inactive Proposals/pipe-flow.md",
-    "Proposals/Inactive Proposals/object-iteration.md",
     "Proposals/Inactive Proposals/overloading.md",
-    "Types of Changes/API Change.md",
+    "Proposals/Inactive Proposals/object-iteration.md",
     "Proposals/Inactive Proposals/object-enums.md",
     "Proposals/Inactive Proposals/more-math.md",
-    "Proposals/Inactive Proposals/module-unambig.md",
     "Proposals/Inactive Proposals/modules-pragma.md",
+    "Proposals/Inactive Proposals/module-unambig.md",
     "Proposals/Inactive Proposals/json-tryparse.md",
-    "Proposals/Inactive Proposals/extensible-literals.md",
-    "Proposals/Inactive Proposals/fromimport.md",
+    "Proposals/Inactive Proposals/is-types.md",
+    "Proposals/Inactive Proposals/icu.md",
     "Types of Changes",
     "Untitled.canvas",
     "Proposal Types",

@@ -1,6 +1,6 @@
 #InactiveTag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Tagged Collection Literals
 Champions: Kat Marchán
 Reason for Withdrawal: Withdrawn: pursuing `when new` syntax and other alternatives
