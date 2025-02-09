@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: RegExp Extended Mode and Comments
 Authors: Ron Buckton

@@ -1,5 +1,5 @@
 #Stage3Tag
-Classification: #API_Change #Semantic_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: JSON.parse source text access
 Authors: Richard Gibson

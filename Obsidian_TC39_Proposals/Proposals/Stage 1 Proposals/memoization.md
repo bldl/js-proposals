@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: #API_Change #Syntactic_Change
+Classification: [[API Change]] [[Syntactic Change]]
 Human Validated: No
 Title: Function Memoization
 Authors: J.S. Choi

@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: #Semantic_Change
+Classification: [[Semantic Change]]
 Human Validated: No
 Title: Restrict subclassing support in built-in methods
 Authors: Yulia Startsev, Shu-yu Guo

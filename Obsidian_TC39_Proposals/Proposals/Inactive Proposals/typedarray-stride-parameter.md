@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: #API_Change #Syntactic_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: TypedArray stride parameter
 Champions: Shu-yu Guo

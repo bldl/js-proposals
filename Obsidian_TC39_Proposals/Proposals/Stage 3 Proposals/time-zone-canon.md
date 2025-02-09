@@ -1,5 +1,5 @@
 #Stage3Tag
-Classification: #Semantic_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: Time Zone Canonicalization
 Authors: Justin Grant

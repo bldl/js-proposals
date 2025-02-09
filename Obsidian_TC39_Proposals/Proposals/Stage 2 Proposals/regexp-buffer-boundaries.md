@@ -1,5 +1,5 @@
 #Stage2Tag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: RegExp Buffer Boundaries (\A, \z, \Z)
 Authors: Ron Buckton

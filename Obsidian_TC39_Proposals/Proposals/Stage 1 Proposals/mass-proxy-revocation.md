@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: #API_Change #Syntactic_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: Mass Proxy Revocation
 Authors: Alex Vincent

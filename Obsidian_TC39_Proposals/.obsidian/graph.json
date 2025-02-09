@@ -32,21 +32,21 @@
       "query": "Stage_2_7Tag",
       "color": {
         "a": 1,
-        "rgb": 5397472
+        "rgb": 10618721
       }
     },
     {
       "query": "InactiveTag",
       "color": {
         "a": 1,
-        "rgb": 5431473
+        "rgb": 11093975
       }
     },
     {
       "query": "Stage4Tag",
       "color": {
         "a": 1,
-        "rgb": 5419488
+        "rgb": 16265264
       }
     },
     {
@@ -80,14 +80,14 @@
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -1.7,
+  "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1.28679833679834,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0,
-  "repelStrength": 20,
-  "linkStrength": 0.832640332640333,
+  "centerStrength": 0.483627858627859,
+  "repelStrength": 16.7411642411642,
+  "linkStrength": 0.629158004158004,
   "linkDistance": 404,
-  "scale": 0.057549225228403604,
+  "scale": 0.10395352821112336,
   "close": true
 }

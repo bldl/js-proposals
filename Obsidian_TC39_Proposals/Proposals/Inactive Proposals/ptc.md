@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: Updates to Tail Calls to include an explicit syntactic opt-in
 Champions: Brian Terlson, Eric Faust

@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: Operator overloading
 Champions: Daniel Ehrenberg

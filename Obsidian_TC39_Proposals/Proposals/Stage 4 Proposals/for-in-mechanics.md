@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #Semantic_Change
+Classification: [[Semantic Change]]
 Human Validated: No
 Title: for-in mechanics
 Authors: Kevin Gibbons

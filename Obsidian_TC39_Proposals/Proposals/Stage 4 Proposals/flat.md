@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #API_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: Array.prototype.{flat,flatMap}
 Authors: Brian Terlson, Michael Ficarra, Mathias Bynens

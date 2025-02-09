@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #Syntactic_Change #Semantic_Change
+Classification: [[API Change]] [[Syntactic Change]]
 Human Validated: No
 Title: RegExp v flag with set notation + properties of strings
 Authors: Markus Scherer, Mathias Bynens

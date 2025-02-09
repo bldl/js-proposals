@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: #API_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: Cancellation API
 Authors: Ron Buckton

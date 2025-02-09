@@ -1,6 +1,6 @@
 #InactiveTag
-Classification: #API_Change
-Human Validated: KW
+Classification: [[API Change]]
+Human Validated: No
 Title: ArrayBuffer.prototype.transfer
 Champions: Domenic Denicola, Shu-yu Guo
 Reason for Withdrawal: Withdrawn: superseded by [Resizable Buffers][resizable-buffers]

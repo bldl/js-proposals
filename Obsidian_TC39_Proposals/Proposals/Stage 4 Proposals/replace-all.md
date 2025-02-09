@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #API_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: String.prototype.replaceAll
 Authors: Peter Marshall, Jakob Gruber, Mathias Bynens

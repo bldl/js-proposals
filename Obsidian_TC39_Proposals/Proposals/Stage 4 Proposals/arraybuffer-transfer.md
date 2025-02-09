@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #API_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: ArrayBuffer transfer
 Authors: Shu-yu Guo, Jordan Harband, Yagiz Nizipli

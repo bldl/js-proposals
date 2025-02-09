@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: Import Attributes
 Authors: Myles Borins, Sven Sauleau, Dan Clark, Daniel Ehrenberg

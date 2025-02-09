@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #API_Change #Semantic_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: String.prototype.{trimStart,trimEnd}
 Authors: Sebastian Markbåge

@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: Module sync assert
 Authors: Jack Works

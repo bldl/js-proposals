@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #API_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: Accessible Object.prototype.hasOwnProperty
 Authors: Jamie Kyle

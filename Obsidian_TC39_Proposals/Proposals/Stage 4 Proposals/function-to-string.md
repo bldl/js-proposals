@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #API_Change
+Classification: [[Semantic Change]]
 Human Validated: No
 Title: Function.prototype.toString revision
 Authors: Michael Ficarra

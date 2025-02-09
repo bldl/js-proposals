@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: #API_Change #Syntactic_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: Support for Distributed Promise Pipelining
 Authors: Mark Miller, Chip Morningstar, Michael Fig

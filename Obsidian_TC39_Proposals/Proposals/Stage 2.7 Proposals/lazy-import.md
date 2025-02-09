@@ -1,5 +1,5 @@
 #Stage_2_7Tag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: Deferring Module Evaluation
 Authors: Yulia Startsev, Guy Bedford

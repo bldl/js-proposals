@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: Class Method Parameter Decorators
 Authors: Ron Buckton

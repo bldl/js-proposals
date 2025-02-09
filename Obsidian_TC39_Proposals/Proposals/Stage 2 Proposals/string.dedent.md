@@ -1,5 +1,5 @@
 #Stage2Tag
-Classification: #API_Change #Syntactic_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: String.dedent
 Authors: Misha Kaletsky, Hemanth HM, Justin Ridgewell

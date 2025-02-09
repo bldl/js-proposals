@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: #Semantic_Change
+Classification: [[Semantic Change]]
 Human Validated: No
 Title: Faster Promise adoption
 Authors: Justin Ridgewell

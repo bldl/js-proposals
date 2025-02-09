@@ -4,47 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "764624e3b7cbe34f",
+        "id": "f13037a933c37071",
         "type": "tabs",
         "children": [
           {
-            "id": "3e0d0fb27edd08f9",
+            "id": "b77aaf4567773dcd",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
-              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
-          },
-          {
-            "id": "e27bffa44a296cc5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Proposals/Inactive Proposals/collection-json.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "collection-json"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,36 +161,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e27bffa44a296cc5",
+  "active": "b77aaf4567773dcd",
   "lastOpenFiles": [
-    "Proposals/Inactive Proposals/collection-literals.md",
-    "Proposals/Inactive Proposals/collection-json.md",
-    "Proposals/Inactive Proposals/cleanup-some.md",
-    "Proposals/Inactive Proposals/cancel-promise.md",
-    "Proposals/Inactive Proposals/callable-constructors.md",
-    "Proposals/Inactive Proposals/buffer-transfer.md",
-    "Proposals/Inactive Proposals/blocks.md",
-    "Proposals/Stage 0 Proposals/bind-syntax.md",
-    "Untitled.canvas",
-    "Proposals/Stage 4 Proposals/find-last.md",
     "Proposals/Inactive Proposals/arraylast.md",
     "Proposals/Inactive Proposals/-------------error---------------.md",
-    "Proposals/Stage 1 Proposals/-------------error---------------.md",
-    "Proposals/Stage 4 Proposals/finally.md",
-    "Proposals/Stage 4 Proposals/error-cause.md",
-    "Proposals/Stage 4 Proposals/at.md",
-    "Proposals/Stage 2 Proposals/scriptormodule.md",
-    "Proposals/Stage 3 Proposals/is-error.md",
-    "Proposals/Stage 3 Proposals/atomics-pause.md",
-    "Proposals/Stage 3 Proposals/escape.md",
-    "Proposals/Stage 3 Proposals/redeclarable-global-eval-vars.md",
-    "Proposals/Stage 3 Proposals/dynamic-code-brand-checks.md",
+    "Proposals/Stage 4 Proposals/string-padding.md",
+    "Proposals/Stage 4 Proposals/resizable.md",
+    "Proposals/Stage 1 Proposals/proposal-compartments.md",
+    "Types of Changes/API Change.md",
+    "Proposals/Stage 4 Proposals/symbol-description.md",
+    "Types of Changes/Syntactic Change.md",
+    "Proposals/Stage 4 Proposals/set-methods.md",
+    "Proposals/Stage 4 Proposals/replace-all.md",
+    "Proposals/Stage 4 Proposals/trims.md",
+    "Proposals/Stage 4 Proposals/static-blocks.md",
+    "Proposals/Stage 4 Proposals/symbols-weakmap.md",
+    "Proposals/Stage 2.7 Proposals/sequencing.md",
+    "Proposals/Stage 1 Proposals/dataview-uint8c.md",
+    "Proposals/Inactive Proposals/blocks.md",
+    "Proposals/Stage 4 Proposals/array-grouping.md",
     "Proposals/Stage 3 Proposals/uint8array-base64.md",
+    "Proposals/Stage 4 Proposals/arraybuffer-transfer.md",
+    "Proposals/Stage 3 Proposals/regexp-legacy.md",
+    "Proposals/Stage 3 Proposals/redeclarable-global-eval-vars.md",
+    "Proposals/Stage 1 Proposals/private-declarations.md",
     "Proposals/Stage 3 Proposals/time-zone-canon.md",
-    "Proposals/Stage 3 Proposals/source-phase-imports.md",
-    "Proposals/Stage 3 Proposals/decorator-metadata.md",
-    "Proposals/Stage 3 Proposals/float16s.md",
-    "Untitled",
+    "Proposals/Stage 4 Proposals/at.md",
+    "Proposals/Stage 1 Proposals/signals.md",
+    "Proposals/Stage 1 Proposals/reversible-string-split.md",
+    "Types of Changes",
+    "Untitled.canvas",
     "Proposal Types",
     "Proposals 1/Stage 4 Proposals",
     "Proposals 1/Stage 3 Proposals",

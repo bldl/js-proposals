@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #API_Change #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: BigInt
 Authors: Daniel Ehrenberg

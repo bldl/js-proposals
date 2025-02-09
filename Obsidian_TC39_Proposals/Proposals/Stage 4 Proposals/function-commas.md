@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: Trailing commas in function parameter lists and calls
 Authors: Jeff Morrison

@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: Extensible numeric literals
 Champions: Daniel Ehrenberg

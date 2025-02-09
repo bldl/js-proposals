@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: #Syntactic_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: IDL for ECMAScript
 Authors: Daniel Ehrenberg

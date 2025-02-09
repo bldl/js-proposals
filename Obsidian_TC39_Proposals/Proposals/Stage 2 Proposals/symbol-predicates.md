@@ -1,5 +1,5 @@
 #Stage2Tag
-Classification: #API_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: Symbol Predicates
 Authors: Robin Ricard, Jordan Harband

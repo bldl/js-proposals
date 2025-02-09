@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #API_Change #Syntactic_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: Promise.prototype.finally
 Authors: Jordan Harband

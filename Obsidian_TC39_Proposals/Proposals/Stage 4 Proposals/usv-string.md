@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #API_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: Well-Formed Unicode Strings
 Authors: Guy Bedford, Bradley Farias

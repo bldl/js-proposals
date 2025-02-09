@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: "use module"
 Champions: Dave Herman

@@ -1,5 +1,5 @@
 #Stage3Tag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: Decorators
 Authors: Daniel Ehrenberg, Kristen Hewell Garrett

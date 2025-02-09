@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: #API_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: Math.seededRandoms()
 Authors: Tab Atkins

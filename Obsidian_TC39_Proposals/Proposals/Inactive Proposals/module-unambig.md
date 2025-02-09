@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: #Semantic_Change #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: Proposed Grammar change to ES Modules
 Champions: Bradley Farias

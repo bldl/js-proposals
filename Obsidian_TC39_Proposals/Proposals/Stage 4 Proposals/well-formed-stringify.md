@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #Semantic_Change
+Classification: [[Semantic Change]]
 Human Validated: No
 Title: Well-formed JSON.stringify
 Authors: Richard Gibson

@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: #API_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: Symbol.thenable
 Champions: Gus Caplan, Jordan Harband, Myles Borins

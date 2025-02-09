@@ -1,5 +1,5 @@
 #Stage2Tag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: Destructure Private Fields
 Authors: Justin Ridgewell

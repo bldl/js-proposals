@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: RegExp Unicode Property Escapes
 Authors: Mathias Bynens

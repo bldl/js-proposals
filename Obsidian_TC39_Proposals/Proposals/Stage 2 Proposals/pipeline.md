@@ -1,5 +1,5 @@
 #Stage2Tag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: Pipeline Operator
 Authors: J. S. Choi, James DiGioia, Ron Buckton, Tab Atkins

@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: #Syntactic_Change
+Classification: [[API Change]] [[Syntactic Change]]
 Human Validated: No
 Title: Sequence properties in Unicode property escapes
 Champions: Mathias Bynens

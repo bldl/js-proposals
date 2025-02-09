@@ -83,6 +83,7 @@ for entry in data_list:
                 try: 
                     print("sending", link_titles, "to GPT for processing")
                     classification = classifyProposal(link_titles, file_content)
+                    print("gpt response", classification)
                 except:
                     print("error with asking open ai:", title)
 

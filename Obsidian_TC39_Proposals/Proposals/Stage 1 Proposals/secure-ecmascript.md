@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: #API_Change #Semantic_Change #Syntactic_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: SES Secure EcmaScript
 Authors: Mark Miller, Chip Morningstar, Caridy Patiño

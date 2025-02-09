@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: #Semantic_Change
+Classification: [[Semantic Change]]
 Human Validated: No
 Title: Dynamic Module Reform
 Champions: Caridy Patiño

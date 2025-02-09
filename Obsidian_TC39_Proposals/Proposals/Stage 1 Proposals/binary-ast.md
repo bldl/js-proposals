@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: #API_Change #Semantic_Change
+Classification: [[API Change]] [[Semantic Change]]
 Human Validated: No
 Title: Binary AST
 Authors: Shu-yu Guo

@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: Top-level await
 Authors: Myles Borins, Yulia Startsev, Daniel Ehrenberg, Guy Bedford, Ms2ger

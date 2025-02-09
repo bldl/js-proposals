@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: #API_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: DataView get/set Uint8Clamped methods
 Authors: Jordan Harband

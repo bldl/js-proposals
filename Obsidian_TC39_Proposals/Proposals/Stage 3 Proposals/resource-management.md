@@ -1,5 +1,5 @@
 #Stage3Tag
-Classification: #Syntactic_Change #API_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: Explicit Resource Management
 Authors: Ron Buckton

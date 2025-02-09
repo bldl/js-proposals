@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #API_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: New Set methods
 Authors: Michał Wadas, Sathya Gunasekaran, Kevin Gibbons

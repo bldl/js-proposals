@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: Generator arrow functions
 Champions: Sergey Rubanov, Brendan Eich

@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: #Syntactic_Change #API_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: await operations
 Authors: Jack Works

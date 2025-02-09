@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: Optional Chaining
 Authors: Gabriel Isenberg, Claude Pache, Dustin Savery

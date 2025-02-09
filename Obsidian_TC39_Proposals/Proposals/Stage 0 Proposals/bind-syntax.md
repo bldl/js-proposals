@@ -1,5 +1,5 @@
 #Stage0Tag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: Function bind syntax
 Authors: Kevin Smith

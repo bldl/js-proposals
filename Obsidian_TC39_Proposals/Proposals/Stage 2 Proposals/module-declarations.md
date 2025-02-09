@@ -1,5 +1,5 @@
 #Stage2Tag
-Classification: #Syntactic_Change
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: Module Declarations
 Authors: Daniel Ehrenberg, Nicolò Ribaudo

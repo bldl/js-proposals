@@ -1,5 +1,5 @@
 #Stage4Tag
-Classification: #API_Change #Syntactic_Change
+Classification: [[API Change]] [[Syntactic Change]]
 Human Validated: No
 Title: Asynchronous Iteration
 Authors: Domenic Denicola

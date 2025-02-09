@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: #Syntactic_Change #API_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: Strict Enforcement of 'using'
 Authors: Ron Buckton

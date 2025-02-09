@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: #Semantic_Change
+Classification: [[Semantic Change]]
 Human Validated: No
 Title: uniform parsing of quasi-standard Date.parse input
 Authors: Richard Gibson

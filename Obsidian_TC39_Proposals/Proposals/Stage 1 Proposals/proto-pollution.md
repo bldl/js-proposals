@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: #Semantic_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: Prototype pollution mitigation
 Authors: Santiago Díaz, Jun Kokatsu

@@ -1,5 +1,5 @@
 #Stage1Tag
-Classification: #Semantic_Change
+Classification: [[Semantic Change]]
 Human Validated: No
 Title: Stabilize
 Authors: Mark Miller, Chip Morningstar, Richard Gibson, Mathieu Hofman

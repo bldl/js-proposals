@@ -1,5 +1,5 @@
 #InactiveTag
-Classification: #API_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: Date.parse fallback semantics
 Champions: Morgan Phillips

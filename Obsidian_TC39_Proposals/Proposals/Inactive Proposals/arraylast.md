@@ -1,6 +1,6 @@
 #InactiveTag
-Classification: #API_Change
-Human Validated: KW
+Classification: [[API Change]]
+Human Validated: No
 Title: Getting last element of Array
 Champions: Keith Cirkel
 Reason for Withdrawal: Withdrawn; the [Array#at](https://github.com/tc39/proposal-relative-indexing-method) proposal supersedes this work.

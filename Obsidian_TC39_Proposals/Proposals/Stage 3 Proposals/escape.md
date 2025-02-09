@@ -1,5 +1,5 @@
 #Stage3Tag
-Classification: #API_Change
+Classification: [[API Change]]
 Human Validated: No
 Title: RegExp.escape
 Authors: Domenic Denicola, Benjamin Gruenbaum, Jordan Harband
