@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2eef213fcfb5edb5",
+        "id": "cecf2ca1d26ec199",
         "type": "tabs",
         "children": [
           {
-            "id": "3ecaa5f17347eee9",
+            "id": "e78ccbe22afbdb2e",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -49,28 +49,19 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Stage0Tag",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
               "title": "Search"
             }
-          },
-          {
-            "id": "5be668f3bf9f0af8",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -124,7 +115,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -136,19 +129,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Proposals/Finished.md"
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Finished"
+              "title": "Outline"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,7 +155,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "309748987b51e6c5",
+  "active": "be670cc0b1347778",
   "lastOpenFiles": [
     "Types of Changes/Semantic Change.md",
     "Proposals/Inactive Proposals/callable-constructors.md",

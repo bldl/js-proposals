@@ -65,5 +65,13 @@
       ],
       "key": "ArrowLeft"
     }
+  ],
+  "bookmarks:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "="
+    }
   ]
 }
