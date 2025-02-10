@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: of and from on collection constructors
 Authors: Leo Balter
 Champions: Leo Balter

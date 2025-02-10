@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Collection methods
 Authors: Michał Wadas
 Champions: Sathya Gunasekaran

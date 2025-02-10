@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: async do expressions
 Authors: Kevin Gibbons
 Champions: Kevin Gibbons

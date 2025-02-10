@@ -1,6 +1,6 @@
 #Stage1Tag
-Classification: [[API Change]] [[Semantic Change]]
-Human Validated: No
+Classification: [[Semantic Change]]
+Human Validated: KW
 Title: Binary AST
 Authors: Shu-yu Guo
 Champions: Shu-yu Guo

@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Class Brand Checks
 Authors: HE Shi-Jun
 Champions: HE Shi-Jun

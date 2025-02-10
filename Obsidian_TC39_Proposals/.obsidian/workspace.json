@@ -42,8 +42,33 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "1a3035b839401927",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Proposals/Stage 1 Proposals/concurrency-control.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "concurrency-control"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -75,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"Human Validated: KW\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -154,12 +179,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Proposals/Stage 1 Proposals/concurrency-control.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of concurrency-control"
             }
           }
         ],
@@ -181,34 +207,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d3a6ef386928d13c",
+  "active": "1a3035b839401927",
   "lastOpenFiles": [
-    "Proposals/Stage 0 Proposals/string-trim-characters.md",
-    "Proposals/Stage 0 Proposals/relationships.md",
-    "Proposals/Stage 0 Proposals/object-shorthand-improvements.md",
-    "Proposals/Stage 0 Proposals/ortho.md",
-    "Proposals/Stage 0 Proposals/nested-imports.md",
-    "Proposals/Stage 0 Proposals/method-param-decorators.md",
-    "Proposals/Stage 0 Proposals/as-patterns.md",
-    "Proposals/Stage 0 Proposals/metaprops.md",
-    "Proposals/Stage 0 Proposals/is-callable-is-constructor.md",
-    "Proposals/Stage 0 Proposals/bind-syntax.md",
-    "Proposals/Stage 0 Proposals/catch-guard.md",
-    "Proposals/Stage 0 Proposals/clone.md",
-    "Proposals/Stage 0 Proposals/defensible-classes.md",
-    "Proposals/Stage 0 Proposals/func-expr-decorators.md",
-    "Proposals/Inactive Proposals/icu.md",
-    "Proposals/Inactive Proposals/arraylast.md",
-    "Proposals/Inactive Proposals/-------------error---------------.md",
-    "Proposals/Inactive Proposals/date-parse.md",
-    "Types of Changes/Unknown.md",
-    "Proposals/Inactive Proposals/construct.md",
-    "Proposals/Inactive Proposals/collection-literals.md",
-    "Proposals/Inactive Proposals/collection-json.md",
-    "Proposals/Inactive Proposals/cleanup-some.md",
+    "Proposals/Stage 1 Proposals/collection-of-from.md",
+    "Proposals/Stage 1 Proposals/collection-methods.md",
+    "Proposals/Stage 1 Proposals/codepoints.md",
+    "Proposals/Stage 1 Proposals/class-param-decorators.md",
+    "Proposals/Stage 1 Proposals/class-brand-check.md",
+    "Proposals/Stage 1 Proposals/class-access-expressions.md",
+    "Proposals/Stage 1 Proposals/cancel-api.md",
     "Proposals/Inactive Proposals/cancel-promise.md",
-    "Proposals/Inactive Proposals/callable-constructors.md",
-    "Proposals/Inactive Proposals/buffer-transfer.md",
+    "Proposals/Stage 1 Proposals/call-this.md",
+    "Proposals/Stage 1 Proposals/built-in-modules.md",
+    "Proposals/Stage 1 Proposals/block-params.md",
+    "Proposals/Stage 1 Proposals/binary-ast.md",
+    "Proposals/Stage 1 Proposals/bigint-math.md",
+    "Proposals/Stage 1 Proposals/await.ops.md",
+    "Proposals/Stage 1 Proposals/await-dictionary.md",
+    "Proposals/Stage 1 Proposals/async-init.md",
+    "Proposals/Stage 1 Proposals/new.initialize.md",
+    "Proposals/Stage 1 Proposals/async-do.md",
+    "Proposals/Stage 1 Proposals/asset-references.md",
+    "Proposals/Stage 1 Proposals/array.zip.md",
+    "Proposals/Stage 1 Proposals/array-unique.md",
+    "Proposals/Stage 1 Proposals/array-filtering.md",
+    "Proposals/Stage 1 Proposals/array-equality.md",
+    "Proposals/Stage 1 Proposals/accessors.md",
+    "Proposals/Stage 0 Proposals/string-trim-characters.md",
+    "Proposals/Stage 1 Proposals/-------------error---------------.md",
     "Types of Changes",
     "Untitled.canvas",
     "Proposal Types",

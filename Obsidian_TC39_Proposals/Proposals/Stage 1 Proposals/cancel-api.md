@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Cancellation API
 Authors: Ron Buckton
 Champions: Ron Buckton, Brian Terlson

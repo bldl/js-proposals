@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Built In Modules aka JS Standard Library
 Authors: Michael Saboff, Mattijs Hoitink
 Champions: Michael Saboff, Mattijs Hoitink, Mark Miller

@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Call-this operator
 Authors: J.S. Choi
 Champions: J.S. Choi

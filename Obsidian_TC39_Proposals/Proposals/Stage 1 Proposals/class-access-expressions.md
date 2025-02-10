@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: class Access Expressions
 Authors: Ron Buckton
 Champions: Ron Buckton

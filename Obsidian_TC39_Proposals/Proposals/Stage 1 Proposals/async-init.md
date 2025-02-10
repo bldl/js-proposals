@@ -1,6 +1,6 @@
 #Stage1Tag
-Classification:
-Human Validated: No
+Classification: [[Syntactic Change]]
+Human Validated: KW
 Title: Async initialization
 Authors: Bradley Farias
 Champions: Bradley Farias

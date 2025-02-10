@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Array Equality
 Authors: Hemanth HM, Jordan Harband
 Champions: Hemanth HM, Jordan Harband

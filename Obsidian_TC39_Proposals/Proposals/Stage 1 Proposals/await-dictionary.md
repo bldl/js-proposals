@@ -1,6 +1,6 @@
 #Stage1Tag
-Classification: [[API Change]]
-Human Validated: No
+Classification: [[Semantic Change]] [[Syntactic Change]] 
+Human Validated: KW
 Title: Await Dictionary
 Authors: Alexander J. Vincent
 Champions: Ashley Claymore, Jordan Harband, Chris de Almeida

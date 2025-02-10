@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Asset References
 Authors: Sebastian Markbage
 Champions: Sebastian Markbage

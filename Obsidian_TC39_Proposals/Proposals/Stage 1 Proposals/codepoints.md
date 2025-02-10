@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: String.prototype.codePoints
 Authors: Ingvar Stepanyan
 Champions: Mathias Bynens

@@ -1,6 +1,6 @@
 #Stage1Tag
-Classification: [[Syntactic Change]]
-Human Validated: No
+Classification: [[Syntactic Change]] [[Semantic Change]]
+Human Validated: KW
 Title: Grouped Accessors and Auto-Accessors
 Authors: Ron Buckton
 Champions: Ron Buckton
