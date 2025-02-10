@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Pattern Matching
 Authors: Jordan Harband, Mark Cohen, Tab Atkins, Daniel Rosenwasser, Jack Works, Ross Kirsling
 Champions: Jordan Harband, Mark Cohen, Tab Atkins, Daniel Rosenwasser, Jack Works, Ross Kirsling

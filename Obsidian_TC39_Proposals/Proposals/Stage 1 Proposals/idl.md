@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: IDL for ECMAScript
 Authors: Daniel Ehrenberg
 Champions: Daniel Ehrenberg

@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Mass Proxy Revocation
 Authors: Alex Vincent
 Champions: Mark S. Miller, Jack Works

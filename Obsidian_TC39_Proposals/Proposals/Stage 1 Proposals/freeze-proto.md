@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Freezing prototypes
 Authors: Kevin Gibbons
 Champions: Kevin Gibbons

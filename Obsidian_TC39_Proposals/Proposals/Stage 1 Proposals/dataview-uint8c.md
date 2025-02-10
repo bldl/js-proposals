@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: DataView get/set Uint8Clamped methods
 Authors: Jordan Harband
 Champions: Jordan Harband

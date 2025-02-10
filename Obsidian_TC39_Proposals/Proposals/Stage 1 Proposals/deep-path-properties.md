@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Deep Path Properties in Record Literals
 Authors: Rick Button
 Champions: Rick Button

@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Maximally minimal mixins
 Authors: Justin Fagnani
 Champions: Justin Fagnani

@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Declarations in Conditionals
 Authors: Devin Rousso
 Champions: Devin Rousso

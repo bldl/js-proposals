@@ -1,10 +1,10 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Sync Imports
 Authors: Guy Bedford
 Champions: Guy Bedford
-Date: None
+Date: December 2024
 Last Commit: 2024-12-05
 GitHub Link: https://github.com/guybedford/proposal-import-sync
 GitHub Note Link: None

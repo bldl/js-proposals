@@ -1,6 +1,6 @@
 #Stage1Tag
-Classification: [[API Change]]
-Human Validated: No
+Classification: [[Semantic Change]]
+Human Validated: KW
 Title: Limited ArrayBuffer
 Authors: Jack Works
 Champions: Jack Works

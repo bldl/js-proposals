@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Function and Object Literal Decorators
 Authors: Ron Buckton
 Champions: Ron Buckton

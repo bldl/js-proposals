@@ -1,6 +1,6 @@
 #Stage1Tag
-Classification: [[Syntactic Change]]
-Human Validated: No
+Classification: [[API Change]]
+Human Validated: KW
 Title: Double-Ended Iterator and Destructuring
 Authors: HE Shi-Jun
 Champions: HE Shi-Jun

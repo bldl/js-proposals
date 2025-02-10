@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Get Intrinsic
 Authors: Jordan Harband
 Champions: Jordan Harband

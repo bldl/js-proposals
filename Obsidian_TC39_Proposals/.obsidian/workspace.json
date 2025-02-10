@@ -32,7 +32,7 @@
             }
           },
           {
-            "id": "ee7e3ac7af6a5544",
+            "id": "df73ecf033cdb7dc",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -44,12 +44,12 @@
             }
           },
           {
-            "id": "1a3035b839401927",
+            "id": "ae20d707aadae390",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 1 Proposals/concurrency-control.md",
+                "file": "Proposals/Stage 1 Proposals/module-keys.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +64,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "concurrency-control"
+              "title": "module-keys"
             }
           }
         ],
@@ -100,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Human Validated: KW\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 257.5
   },
   "right": {
     "id": "4be0bd39da1f29fc",
@@ -207,34 +207,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a3035b839401927",
+  "active": "ae20d707aadae390",
   "lastOpenFiles": [
-    "Proposals/Stage 1 Proposals/collection-of-from.md",
-    "Proposals/Stage 1 Proposals/collection-methods.md",
-    "Proposals/Stage 1 Proposals/codepoints.md",
-    "Proposals/Stage 1 Proposals/class-param-decorators.md",
-    "Proposals/Stage 1 Proposals/class-brand-check.md",
-    "Proposals/Stage 1 Proposals/class-access-expressions.md",
-    "Proposals/Stage 1 Proposals/cancel-api.md",
-    "Proposals/Inactive Proposals/cancel-promise.md",
-    "Proposals/Stage 1 Proposals/call-this.md",
-    "Proposals/Stage 1 Proposals/built-in-modules.md",
-    "Proposals/Stage 1 Proposals/block-params.md",
-    "Proposals/Stage 1 Proposals/binary-ast.md",
-    "Proposals/Stage 1 Proposals/bigint-math.md",
-    "Proposals/Stage 1 Proposals/await.ops.md",
-    "Proposals/Stage 1 Proposals/await-dictionary.md",
-    "Proposals/Stage 1 Proposals/async-init.md",
-    "Proposals/Stage 1 Proposals/new.initialize.md",
-    "Proposals/Stage 1 Proposals/async-do.md",
-    "Proposals/Stage 1 Proposals/asset-references.md",
-    "Proposals/Stage 1 Proposals/array.zip.md",
-    "Proposals/Stage 1 Proposals/array-unique.md",
-    "Proposals/Stage 1 Proposals/array-filtering.md",
-    "Proposals/Stage 1 Proposals/array-equality.md",
-    "Proposals/Stage 1 Proposals/accessors.md",
-    "Proposals/Stage 0 Proposals/string-trim-characters.md",
-    "Proposals/Stage 1 Proposals/-------------error---------------.md",
+    "Proposals/Stage 1 Proposals/mixins.md",
+    "Proposals/Stage 1 Proposals/memoization.md",
+    "Proposals/Stage 1 Proposals/matching.md",
+    "Proposals/Stage 1 Proposals/mass-proxy-revocation.md",
+    "Proposals/Stage 1 Proposals/locale-extensions.md",
+    "Proposals/Stage 1 Proposals/limited-array-buffer.md",
+    "Proposals/Stage 1 Proposals/legacy-reflection.md",
+    "Proposals/Stage 1 Proposals/iterator-unique.md",
+    "Proposals/Stage 1 Proposals/import-sync.md",
+    "Proposals/Stage 1 Proposals/idl.md",
+    "Proposals/Stage 1 Proposals/get-intrinsic.md",
+    "Proposals/Stage 1 Proposals/func-obj-decs.md",
+    "Proposals/Stage 1 Proposals/from-string.md",
+    "Proposals/Stage 1 Proposals/freeze-seal-syntax.md",
+    "Proposals/Stage 1 Proposals/freeze-proto.md",
+    "Proposals/Stage 1 Proposals/faster-promise-adoption.md",
+    "Proposals/Stage 1 Proposals/extensions.md",
+    "Proposals/Stage 1 Proposals/export-from.md",
+    "Proposals/Stage 1 Proposals/eventual-send.md",
+    "Proposals/Stage 1 Proposals/emitter.md",
+    "Proposals/Stage 1 Proposals/dynamic-modules.md",
+    "Proposals/Stage 1 Proposals/double-ended-iterator.md",
+    "Proposals/Stage 1 Proposals/do.md",
+    "Proposals/Stage 1 Proposals/deep-path-properties.md",
+    "Proposals/Stage 1 Proposals/declarations-in-conditionals.md",
+    "Proposals/Stage 1 Proposals/decimal.md",
     "Types of Changes",
     "Untitled.canvas",
     "Proposal Types",

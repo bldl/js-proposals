@@ -1,6 +1,6 @@
 #Stage1Tag
-Classification: [[API Change]] [[Syntactic Change]]
-Human Validated: No
+Classification: [[API Change]]
+Human Validated: KW
 Title: Function Memoization
 Authors: J.S. Choi
 Champions: J.S. Choi, Hemanth HM

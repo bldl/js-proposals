@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Concurrency Control
 Authors: Michael Ficarra, Luca Casonato, Kevin Gibbons
 Champions: Michael Ficarra, Luca Casonato

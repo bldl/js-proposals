@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Emitter
 Authors: Shu-yu Guo, Pedram Emrouznejad
 Champions: Shu-yu Guo, Pedram Emrouznejad

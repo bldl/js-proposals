@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Decimal
 Authors: Daniel Ehrenberg, Andrew Paprocki
 Champions: Philip Chimento, Andrew Paprocki, Jesse Alama

@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: do expressions
 Authors: Dave Herman
 Champions: Kevin Gibbons

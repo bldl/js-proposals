@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Cryptographically Secure Random Number Generation
 Authors: Ron Buckton
 Champions: Ron Buckton

@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Object.freeze + Object.seal syntax
 Authors: Keith Cirkel
 Champions: Keith Cirkel

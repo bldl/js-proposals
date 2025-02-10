@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Semantic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Faster Promise adoption
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell
