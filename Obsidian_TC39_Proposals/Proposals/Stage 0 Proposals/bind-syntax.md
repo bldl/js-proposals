@@ -1,13 +1,13 @@
 #Stage0Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Function bind syntax
 Authors: Kevin Smith
 Champions: Brian Terlson, Matthew Podwysocki
 Date: March 2015
 Last Commit: 2018-01-19
 GitHub Link: https://github.com/tc39/proposal-bind-operator
-GitHub Note Link: None
+GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2015-03/mar-25.md#6vi-function-bind-and-private-fields-redux-kevin-smith
 
 # Proposal Description:
 ## ECMAScript This-Binding Syntax ##

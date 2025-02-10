@@ -140,11 +140,6 @@
         },
         {
           "type": "search",
-          "ctime": 1739143896940,
-          "query": "\"#Stage1Tag\""
-        },
-        {
-          "type": "search",
           "ctime": 1739144342248,
           "query": "tag:#Stage1Tag OR tag:#Stage4Tag OR tag:#InactiveTag OR tag:#Stage2Tag OR tag:#Stage3Tag OR tag:#Stage0Tag OR tag:#Stage_2_7Tag",
           "title": "Total number of proposals"

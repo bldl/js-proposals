@@ -8,13 +8,39 @@
         "type": "tabs",
         "children": [
           {
+            "id": "d3a6ef386928d13c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
             "id": "e78ccbe22afbdb2e",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "ee7e3ac7af6a5544",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -49,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Stage0Tag",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -60,8 +86,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -138,11 +163,12 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,34 +181,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be670cc0b1347778",
+  "active": "d3a6ef386928d13c",
   "lastOpenFiles": [
-    "Types of Changes/Semantic Change.md",
-    "Proposals/Inactive Proposals/callable-constructors.md",
-    "Proposals/Stage 1 Proposals/limited-array-buffer.md",
-    "Types of Changes/Syntactic Change.md",
-    "Types of Changes/API Change.md",
-    "Proposals/Inactive Proposals/blocks.md",
-    "Proposals/Stage 4 Proposals/allsettled.md",
-    "Proposals/Stage 1 Proposals/legacy-reflection.md",
-    "Proposals/Stage 2 Proposals/immutable-abs.md",
-    "Proposals/Inactive Proposals/-------------error---------------.md",
+    "Proposals/Stage 0 Proposals/string-trim-characters.md",
+    "Proposals/Stage 0 Proposals/relationships.md",
+    "Proposals/Stage 0 Proposals/object-shorthand-improvements.md",
+    "Proposals/Stage 0 Proposals/ortho.md",
+    "Proposals/Stage 0 Proposals/nested-imports.md",
+    "Proposals/Stage 0 Proposals/method-param-decorators.md",
     "Proposals/Stage 0 Proposals/as-patterns.md",
-    "Proposals/Inactive Proposals/zones.md",
-    "Proposals/Inactive Proposals/uuid.md",
-    "Proposals/Inactive Proposals/unused-params.md",
-    "Proposals/Inactive Proposals/unicode-sequence-properties.md",
-    "Proposals/Inactive Proposals/typedarray-stride-parameter.md",
-    "Proposals/Inactive Proposals/typed-objects-new.md",
-    "Proposals/Inactive Proposals/symbol-thenable.md",
-    "Proposals/Inactive Proposals/string-at.md",
-    "Proposals/Inactive Proposals/spaceship.md",
-    "Proposals/Inactive Proposals/simd.md",
-    "Proposals/Inactive Proposals/signbit.md",
-    "Proposals/Inactive Proposals/shallow-equal.md",
-    "Proposals/Inactive Proposals/refcollection.md",
-    "Proposals/Inactive Proposals/re-atomic-groups.md",
-    "Proposals/Inactive Proposals/ptc.md",
+    "Proposals/Stage 0 Proposals/metaprops.md",
+    "Proposals/Stage 0 Proposals/is-callable-is-constructor.md",
+    "Proposals/Stage 0 Proposals/bind-syntax.md",
+    "Proposals/Stage 0 Proposals/catch-guard.md",
+    "Proposals/Stage 0 Proposals/clone.md",
+    "Proposals/Stage 0 Proposals/defensible-classes.md",
+    "Proposals/Stage 0 Proposals/func-expr-decorators.md",
+    "Proposals/Inactive Proposals/icu.md",
+    "Proposals/Inactive Proposals/arraylast.md",
+    "Proposals/Inactive Proposals/-------------error---------------.md",
+    "Proposals/Inactive Proposals/date-parse.md",
+    "Types of Changes/Unknown.md",
+    "Proposals/Inactive Proposals/construct.md",
+    "Proposals/Inactive Proposals/collection-literals.md",
+    "Proposals/Inactive Proposals/collection-json.md",
+    "Proposals/Inactive Proposals/cleanup-some.md",
+    "Proposals/Inactive Proposals/cancel-promise.md",
+    "Proposals/Inactive Proposals/callable-constructors.md",
+    "Proposals/Inactive Proposals/buffer-transfer.md",
     "Types of Changes",
     "Untitled.canvas",
     "Proposal Types",
