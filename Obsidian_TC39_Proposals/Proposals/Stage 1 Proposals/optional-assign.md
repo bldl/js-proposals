@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Optional chaining in assignment LHS
 Authors: Nicolò Ribaudo
 Champions: Nicolò Ribaudo

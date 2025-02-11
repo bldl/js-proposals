@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Math.seededRandoms()
 Authors: Tab Atkins
 Champions: Tab Atkins

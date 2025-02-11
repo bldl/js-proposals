@@ -6,11 +6,11 @@
       "items": [
         {
           "type": "graph",
-          "ctime": 1739142748913,
+          "ctime": 1739227040371,
           "title": "Graph View: All Stages",
           "options": {
             "collapse-filter": false,
-            "search": "\"Stage1Tag\" OR \"Stage2Tag\" OR \"Stage3Tag\" OR \"Stage4Tag\" OR  \"Stage_2_7Tag\" OR \"InactiveTag\"\"",
+            "search": "\"Stage0Tag\" OR \"Stage1Tag\" OR \"Stage2Tag\" OR \"Stage3Tag\" OR \"Stage4Tag\" OR  \"Stage_2_7Tag\" OR \"InactiveTag\"\"",
             "showTags": true,
             "showAttachments": false,
             "hideUnresolved": true,
@@ -98,7 +98,7 @@
             "repelStrength": 15.3222453222453,
             "linkStrength": 0.678794178794179,
             "linkDistance": 345,
-            "scale": 0.09915057879720819,
+            "scale": 0.22083885685521046,
             "close": false
           }
         },

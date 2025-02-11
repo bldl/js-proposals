@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Semantic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Preserve Host Virtualizability
 Authors: Mark Miller, J.F. Paradis, Caridy Patiño, Dan Finley, Alan Schmitt
 Champions: Mark Miller, J.F. Paradis, Caridy Patiño, Dan Finley, Alan Schmitt

@@ -1,6 +1,6 @@
 #Stage1Tag
-Classification: [[Syntactic Change]]
-Human Validated: No
+Classification: [[Unknown]]
+Human Validated: KW
 Title: Reverse iteration
 Authors: Leo Balter, Jordan Harband
 Champions: Leo Balter, Jordan Harband

@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Object pick/omit
 Authors: Hemanth HM, Aleen
 Champions: Hemanth HM

@@ -1,6 +1,6 @@
 #Stage1Tag
-Classification: [[Syntactic Change]]
-Human Validated: No
+Classification: [[Syntactic Change]] [[Semantic Change]]
+Human Validated: KW
 Title: First-class protocols
 Authors: Michael Ficarra
 Champions: Michael Ficarra

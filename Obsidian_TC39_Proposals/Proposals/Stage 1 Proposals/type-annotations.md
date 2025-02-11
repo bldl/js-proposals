@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Type Annotations
 Authors: Gil Tayar, Daniel Rosenwasser, Romulo Cintra, Rob Palmer
 Champions: Daniel Rosenwasser, Romulo Cintra, Rob Palmer

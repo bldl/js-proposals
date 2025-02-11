@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Private declarations
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell

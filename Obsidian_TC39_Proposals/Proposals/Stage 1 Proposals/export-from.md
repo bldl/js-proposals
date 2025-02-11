@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: export v from "mod"; statements
 Authors: Lee Byron
 Champions: Ben Newman, John-David Dalton

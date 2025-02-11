@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Prototype pollution mitigation
 Authors: Santiago Díaz, Jun Kokatsu
 Champions: Shu-yu Guo

@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Semantic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Restrict subclassing support in built-in methods
 Authors: Yulia Startsev, Shu-yu Guo
 Champions: Yulia Startsev, Shu-yu Guo

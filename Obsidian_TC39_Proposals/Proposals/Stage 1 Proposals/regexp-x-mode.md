@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: RegExp Extended Mode and Comments
 Authors: Ron Buckton
 Champions: Ron Buckton

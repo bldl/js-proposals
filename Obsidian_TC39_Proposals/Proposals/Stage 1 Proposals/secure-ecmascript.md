@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: SES Secure EcmaScript
 Authors: Mark Miller, Chip Morningstar, Caridy Patiño
 Champions: Mark Miller, Chip Morningstar, Caridy Patiño

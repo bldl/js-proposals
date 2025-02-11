@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Readonly Collections
 Authors: Mark Miller, Peter Hoddie
 Champions: Mark Miller, Peter Hoddie

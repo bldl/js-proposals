@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Semantic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Stabilize
 Authors: Mark Miller, Chip Morningstar, Richard Gibson, Mathieu Hofman
 Champions: Mark Miller, Chip Morningstar, Richard Gibson, Mathieu Hofman

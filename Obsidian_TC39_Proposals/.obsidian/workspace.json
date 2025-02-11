@@ -20,36 +20,12 @@
             }
           },
           {
-            "id": "e78ccbe22afbdb2e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "df73ecf033cdb7dc",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "ae20d707aadae390",
+            "id": "6e1c42e54d5b408c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 1 Proposals/module-keys.md",
+                "file": "Proposals/Stage 1 Proposals/virtualize.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,11 +40,21 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "module-keys"
+              "title": "virtualize"
+            }
+          },
+          {
+            "id": "bfe353804174aa03",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"#Stage3Tag\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -207,34 +193,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ae20d707aadae390",
+  "active": "6e1c42e54d5b408c",
   "lastOpenFiles": [
-    "Proposals/Stage 1 Proposals/mixins.md",
-    "Proposals/Stage 1 Proposals/memoization.md",
-    "Proposals/Stage 1 Proposals/matching.md",
-    "Proposals/Stage 1 Proposals/mass-proxy-revocation.md",
-    "Proposals/Stage 1 Proposals/locale-extensions.md",
-    "Proposals/Stage 1 Proposals/limited-array-buffer.md",
-    "Proposals/Stage 1 Proposals/legacy-reflection.md",
-    "Proposals/Stage 1 Proposals/iterator-unique.md",
-    "Proposals/Stage 1 Proposals/import-sync.md",
-    "Proposals/Stage 1 Proposals/idl.md",
-    "Proposals/Stage 1 Proposals/get-intrinsic.md",
-    "Proposals/Stage 1 Proposals/func-obj-decs.md",
-    "Proposals/Stage 1 Proposals/from-string.md",
-    "Proposals/Stage 1 Proposals/freeze-seal-syntax.md",
-    "Proposals/Stage 1 Proposals/freeze-proto.md",
-    "Proposals/Stage 1 Proposals/faster-promise-adoption.md",
-    "Proposals/Stage 1 Proposals/extensions.md",
-    "Proposals/Stage 1 Proposals/export-from.md",
-    "Proposals/Stage 1 Proposals/eventual-send.md",
-    "Proposals/Stage 1 Proposals/emitter.md",
-    "Proposals/Stage 1 Proposals/dynamic-modules.md",
-    "Proposals/Stage 1 Proposals/double-ended-iterator.md",
-    "Proposals/Stage 1 Proposals/do.md",
-    "Proposals/Stage 1 Proposals/deep-path-properties.md",
-    "Proposals/Stage 1 Proposals/declarations-in-conditionals.md",
-    "Proposals/Stage 1 Proposals/decimal.md",
+    "Proposals/Stage 1 Proposals/unordered-async.md",
+    "Proposals/Stage 1 Proposals/uniform-date-parse.md",
+    "Proposals/Stage 1 Proposals/type-annotations.md",
+    "Proposals/Stage 1 Proposals/template-literals.md",
+    "Proposals/Stage 1 Proposals/string.cooked.md",
+    "Proposals/Stage 1 Proposals/strict-using.md",
+    "Proposals/Stage 1 Proposals/stacks.md",
+    "compositeKey.md",
+    "Proposals/Stage 1 Proposals/stable-format.md",
+    "Proposals/Stage 1 Proposals/stabilize.md",
+    "Proposals/Stage 1 Proposals/species-extinct.md",
+    "Proposals/Stage 1 Proposals/slice-notation.md",
+    "Proposals/Stage 1 Proposals/signals.md",
+    "Proposals/Stage 1 Proposals/seeded-randoms.md",
+    "Proposals/Stage 1 Proposals/secure-ecmascript.md",
+    "Proposals/Stage 1 Proposals/richer-keys.md",
+    "Proposals/Stage 1 Proposals/collection-methods.md",
+    "Proposals/Stage 1 Proposals/collection-of-from.md",
+    "Proposals/Stage 1 Proposals/reversible-string-split.md",
+    "Proposals/Stage 1 Proposals/reverse-iteration.md",
+    "Proposals/Stage 1 Proposals/regexp-x-mode.md",
+    "Proposals/Stage 1 Proposals/module-keys.md",
+    "Proposals/Stage 1 Proposals/regexp-r-escape.md",
+    "Proposals/Stage 1 Proposals/regexp-atomic-operators.md",
+    "Proposals/Stage 1 Proposals/readonly-collections.md",
+    "Proposals/Stage 1 Proposals/protocols.md",
     "Types of Changes",
     "Untitled.canvas",
     "Proposal Types",

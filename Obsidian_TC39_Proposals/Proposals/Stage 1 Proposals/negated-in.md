@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Negated in and instanceof operators
 Authors: Pablo Gorostiaga Belio
 Champions: Pablo Gorostiaga Belio

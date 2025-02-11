@@ -1,93 +1,100 @@
 {
   "collapse-filter": false,
-  "search": "\"Stage1Tag\" OR \"Stage2Tag\" OR \"Stage3Tag\" OR \"Stage4Tag\" OR  \"Stage_2_7Tag\" OR \"InactiveTag\"\"",
-  "showTags": true,
+  "search": "",
+  "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "Stage3Tag",
+      "query": "Stage3",
       "color": {
         "a": 1,
-        "rgb": 14770328
+        "rgb": 14770272
       }
     },
     {
-      "query": "Stage2Tag",
+      "query": "Stage2",
       "color": {
         "a": 1,
         "rgb": 9051551
       }
     },
     {
-      "query": "Stage1Tag",
+      "query": "Stage1",
       "color": {
         "a": 1,
         "rgb": 2398519
       }
     },
     {
-      "query": "Stage_2_7Tag",
+      "query": "Stage_2_7",
       "color": {
         "a": 1,
-        "rgb": 10618721
+        "rgb": 5397472
       }
     },
     {
-      "query": "InactiveTag",
+      "query": "Inactive",
       "color": {
         "a": 1,
-        "rgb": 11093975
+        "rgb": 5431473
       }
     },
     {
-      "query": "Stage4Tag",
+      "query": "Finished",
       "color": {
         "a": 1,
-        "rgb": 16265264
+        "rgb": 5419488
       }
     },
     {
-      "query": "Stage0Tag",
+      "query": "Stage0",
       "color": {
         "a": 1,
         "rgb": 9119547
       }
     },
     {
-      "query": "Semantic_Change",
+      "query": "Semantic",
       "color": {
         "a": 1,
-        "rgb": 12541739
+        "rgb": 6152079
       }
     },
     {
-      "query": "Syntactic_Change",
+      "query": "Syntactic",
       "color": {
         "a": 1,
         "rgb": 12681955
       }
     },
     {
-      "query": "API_Change",
+      "query": "API",
       "color": {
         "a": 1,
         "rgb": 13230162
       }
+    },
+    {
+      "query": "Processed",
+      "color": {
+        "a": 1,
+        "rgb": 16579836
+      }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1.28679833679834,
+  "textFadeMultiplier": -1.1,
+  "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": false,
-  "centerStrength": 0.633056133056133,
-  "repelStrength": 15.3222453222453,
-  "linkStrength": 0.678794178794179,
-  "linkDistance": 345,
-  "scale": 0.16128900570522817,
-  "close": true
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.3185403680344741,
+  "close": false
 }

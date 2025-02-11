@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Module Keys
 Authors: Mike Samuel
 Champions: Mike Samuel

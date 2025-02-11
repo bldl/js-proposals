@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Policy Maps and Sets
 Authors: J.S. Choi
 Champions: J.S. Choi, Hemanth HM

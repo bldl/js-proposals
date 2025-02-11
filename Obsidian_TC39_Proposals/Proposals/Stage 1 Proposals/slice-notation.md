@@ -1,6 +1,6 @@
 #Stage1Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Slice notation
 Authors: Sathya Gunasekaran
 Champions: Sathya Gunasekaran
