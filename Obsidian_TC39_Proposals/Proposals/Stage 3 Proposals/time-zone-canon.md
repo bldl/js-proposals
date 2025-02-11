@@ -1,6 +1,6 @@
 #Stage3Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Time Zone Canonicalization
 Authors: Justin Grant
 Champions: Justin Grant, Richard Gibson

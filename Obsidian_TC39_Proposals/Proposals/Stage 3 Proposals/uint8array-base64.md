@@ -1,6 +1,6 @@
 #Stage3Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Uint8Array to/from Base64
 Authors: Kevin Gibbons
 Champions: Kevin Gibbons

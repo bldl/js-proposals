@@ -1,6 +1,6 @@
 #Stage3Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Dynamic Code Brand Checks
 Authors: Nicolo Ribaudo
 Champions: Krzysztof Kotowicz, Mike Samuel, Nicolo Ribaudo

@@ -1,6 +1,6 @@
 #Stage3Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: JSON.parse source text access
 Authors: Richard Gibson
 Champions: Richard Gibson

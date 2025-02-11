@@ -1,6 +1,6 @@
 #Stage3Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Legacy RegExp features in JavaScript
 Authors: Claude Pache
 Champions: Mark Miller, Claude Pache

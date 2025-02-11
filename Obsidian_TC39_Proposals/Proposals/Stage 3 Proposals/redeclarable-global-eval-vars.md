@@ -1,6 +1,6 @@
 #Stage3Tag
 Classification: [[Semantic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Redeclarable global eval-introduced vars
 Authors: Shu-yu Guo
 Champions: Shu-yu Guo

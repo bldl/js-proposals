@@ -1,6 +1,6 @@
 #Stage3Tag
-Classification: [[API Change]]
-Human Validated: No
+Classification: [[Semantic Change]]
+Human Validated: KW
 Title: Decorator Metadata
 Authors: Kristen Hewell Garrett
 Champions: Kristen Hewell Garrett

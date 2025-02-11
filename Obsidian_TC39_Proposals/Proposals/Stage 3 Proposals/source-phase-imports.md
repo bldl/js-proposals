@@ -1,6 +1,6 @@
 #Stage3Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Source Phase Imports
 Authors: Luca Casonato
 Champions: Guy Bedford, Luca Casonato

@@ -1,6 +1,6 @@
 #Stage3Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Error.isError
 Authors: Jordan Harband
 Champions: Jordan Harband
