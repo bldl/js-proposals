@@ -1,6 +1,6 @@
 #Stage2Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: "Discard" (void) Bindings
 Authors: Ron Buckton
 Champions: Ron Buckton

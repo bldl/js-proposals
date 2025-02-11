@@ -1,6 +1,6 @@
 #Stage_2_7Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: ShadowRealm
 Authors: Caridy Patiño, Jean-Francois Paradis
 Champions: Dave Herman, Mark Miller, Caridy Patiño, Leo Balter, Rick Waldron, Chengzhong Wu

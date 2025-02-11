@@ -1,6 +1,6 @@
 #Stage2Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: String.dedent
 Authors: Misha Kaletsky, Hemanth HM, Justin Ridgewell
 Champions: Hemanth HM, Justin Ridgewell

@@ -1,6 +1,6 @@
 #Stage2Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Async Context
 Authors: Chengzhong Wu
 Champions: Andreu Botella, Chengzhong Wu, Justin Ridgewell
@@ -20,7 +20,7 @@ Champions:
 - Chengzhong Wu ([@legendecas](https://github.com/legendecas))
 - Justin Ridgewell ([@jridgewell](https://github.com/jridgewell))
 
-Discuss with the group and join the bi-weekly via [#tc39-async-context][]
+Discuss with the group and join the bi-weekly via tc39-async-context
 matrix room ([Matrix Guide][]).
 
 # Motivation

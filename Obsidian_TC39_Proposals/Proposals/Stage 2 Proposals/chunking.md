@@ -1,6 +1,6 @@
 #Stage2Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: iterator chunking
 Authors: Michael Ficarra
 Champions: Michael Ficarra

@@ -1,13 +1,13 @@
 #Stage2Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: JSON.parseImmutable
 Authors: Robin Ricard, Richard Button, Nicolò Ribaudo, Ashley Claymore
 Champions: Robin Ricard, Richard Button, Nicolò Ribaudo, Ashley Claymore
 Date: July 2022
 Last Commit: 2022-07-28
 GitHub Link: https://github.com/tc39/proposal-json-parseimmutable
-GitHub Note Link: None
+GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-19.md#conclusiondecision-2
 
 # Proposal Description:
 # JSON.parseImmutable Proposal

@@ -1,6 +1,6 @@
 #Stage2Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Immutable ArrayBuffers
 Authors: Mark Miller, Peter Hoddie, Richard Gibson, Jack Works
 Champions: Mark Miller, Peter Hoddie, Richard Gibson, Jack Works

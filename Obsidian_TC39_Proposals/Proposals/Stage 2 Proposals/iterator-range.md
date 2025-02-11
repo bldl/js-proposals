@@ -1,6 +1,6 @@
 #Stage2Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Iterator.range
 Authors: Jack Works
 Champions: Jack Works

@@ -1,6 +1,6 @@
 #Stage2Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Extractors
 Authors: Ron Buckton
 Champions: Ron Buckton

@@ -1,13 +1,13 @@
 #Stage2Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: collection normalization
 Authors: Bradley Farias
 Champions: Bradley Farias
 Date: January 2019
 Last Commit: 2021-03-09
 GitHub Link: https://github.com/tc39/proposal-collection-normalization
-GitHub Note Link: None
+GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-30.md#richer-keys-for-stage-2
 
 # Proposal Description:
 # Collection {coerceKey, coerceValue}

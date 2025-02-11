@@ -1,6 +1,6 @@
 #Stage2Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Module Declarations
 Authors: Daniel Ehrenberg, Nicolò Ribaudo
 Champions: Daniel Ehrenberg, Mark Miller, Nicolò Ribaudo

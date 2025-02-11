@@ -1,6 +1,6 @@
 #Stage2Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Map.prototype.emplace
 Authors: Bradley Farias
 Champions: Erica Pramer
