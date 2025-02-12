@@ -1,6 +1,6 @@
 #Stage4Tag
-Classification: [[Syntactic Change]]
-Human Validated: No
+Classification: [[API Change]]
+Human Validated: KW
 Title: BigInt
 Authors: Daniel Ehrenberg
 Champions: Daniel Ehrenberg

@@ -1,6 +1,6 @@
 #Stage4Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: RegExp Modifiers
 Authors: Ron Buckton
 Champions: Ron Buckton

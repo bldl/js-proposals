@@ -1,6 +1,6 @@
 #Stage4Tag
-Classification: [[Semantic Change]]
-Human Validated: No
+Classification: [[API Change]]
+Human Validated: KW
 Title: Function.prototype.toString revision
 Authors: Michael Ficarra
 Champions: Michael Ficarra

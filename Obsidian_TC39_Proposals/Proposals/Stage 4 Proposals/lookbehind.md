@@ -1,6 +1,6 @@
 #Stage4Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: RegExp Lookbehind Assertions
 Authors: Gorkem Yakin, Nozomu Katō, Daniel Ehrenberg
 Champions: Daniel Ehrenberg, Mathias Bynens

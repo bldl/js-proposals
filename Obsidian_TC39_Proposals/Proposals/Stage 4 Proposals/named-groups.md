@@ -1,6 +1,6 @@
 #Stage4Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: RegExp named capture groups
 Authors: Gorkem Yakin, Daniel Ehrenberg
 Champions: Daniel Ehrenberg, Brian Terlson, Mathias Bynens

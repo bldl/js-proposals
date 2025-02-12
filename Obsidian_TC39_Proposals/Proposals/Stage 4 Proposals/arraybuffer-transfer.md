@@ -1,6 +1,6 @@
 #Stage4Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: ArrayBuffer transfer
 Authors: Shu-yu Guo, Jordan Harband, Yagiz Nizipli
 Champions: Shu-yu Guo, Jordan Harband, Yagiz Nizipli

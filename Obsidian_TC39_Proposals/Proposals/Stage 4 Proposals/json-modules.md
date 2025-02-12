@@ -1,6 +1,6 @@
 #Stage4Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: JSON Modules
 Authors: Myles Borins, Sven Sauleau, Dan Clark, Daniel Ehrenberg
 Champions: Myles Borins, Sven Sauleau, Dan Clark, Daniel Ehrenberg

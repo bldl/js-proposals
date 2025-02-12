@@ -1,6 +1,6 @@
 #Stage4Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Resizable and growable ArrayBuffers
 Authors: Shu-yu Guo
 Champions: Shu-yu Guo

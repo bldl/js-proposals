@@ -1,6 +1,6 @@
 #Stage4Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: RegExp Match Indices
 Authors: Ron Buckton
 Champions: Ron Buckton

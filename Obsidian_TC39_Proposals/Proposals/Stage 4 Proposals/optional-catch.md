@@ -1,6 +1,6 @@
 #Stage4Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Optional catch binding
 Authors: Michael Ficarra
 Champions: Michael Ficarra

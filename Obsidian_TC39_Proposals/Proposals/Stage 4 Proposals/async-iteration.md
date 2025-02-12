@@ -1,6 +1,6 @@
 #Stage4Tag
-Classification: [[API Change]] [[Syntactic Change]]
-Human Validated: No
+Classification: [[API Change]]
+Human Validated: KW
 Title: Asynchronous Iteration
 Authors: Domenic Denicola
 Champions: Domenic Denicola

@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cecf2ca1d26ec199",
+        "id": "68184b74a215a0ac",
         "type": "tabs",
         "children": [
           {
-            "id": "d3a6ef386928d13c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "8bea1c5178adca0f",
+            "id": "c46caa99acdf0100",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 3 Proposals/uint8array-base64.md",
+                "file": "Proposals/Stage 4 Proposals/well-formed-stringify.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "uint8array-base64"
+              "title": "well-formed-stringify"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,6 +72,16 @@
               },
               "icon": "lucide-search",
               "title": "Search"
+            }
+          },
+          {
+            "id": "46ed4e7ee906faee",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -183,34 +180,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8bea1c5178adca0f",
+  "active": "c46caa99acdf0100",
   "lastOpenFiles": [
-    "Proposals/Stage 3 Proposals/time-zone-canon.md",
-    "Proposals/Stage 3 Proposals/temporal.md",
-    "Proposals/Stage 3 Proposals/source-phase-imports.md",
-    "Proposals/Stage 3 Proposals/resource-management.md",
-    "Proposals/Stage 3 Proposals/regexp-legacy.md",
-    "Proposals/Stage 3 Proposals/redeclarable-global-eval-vars.md",
-    "Proposals/Stage 3 Proposals/json-parse-source.md",
-    "Proposals/Stage 3 Proposals/is-error.md",
-    "Proposals/Stage 3 Proposals/from-async.md",
-    "Proposals/Stage 3 Proposals/float16s.md",
-    "Proposals/Stage 3 Proposals/escape.md",
-    "Proposals/Stage 3 Proposals/dynamic-code-brand-checks.md",
-    "Proposals/Stage 3 Proposals/decorators.md",
-    "Proposals/Stage 3 Proposals/decorator-metadata.md",
-    "Proposals/Stage 3 Proposals/atomics-pause.md",
-    "Proposals/Stage 2.7 Proposals/shadowrealm.md",
-    "Proposals/Stage 2.7 Proposals/sequencing.md",
-    "Proposals/Stage 2.7 Proposals/math-sum.md",
-    "Proposals/Stage 2.7 Proposals/lazy-import.md",
-    "Proposals/Stage 2.7 Proposals/joint.md",
-    "Proposals/Stage 2.7 Proposals/esm-phase.md",
-    "Proposals/Stage 2 Proposals/throw-expressions.md",
-    "Proposals/Stage 2 Proposals/symbol-predicates.md",
-    "Proposals/Stage 2 Proposals/structs.md",
-    "Proposals/Stage 2 Proposals/string.dedent.md",
-    "Proposals/Stage 2 Proposals/scriptormodule.md",
+    "Proposals/Stage 4 Proposals/weakrefs.md",
+    "Proposals/Stage 4 Proposals/usv-string.md",
+    "Proposals/Stage 4 Proposals/unicode-escapes.md",
+    "Proposals/Stage 4 Proposals/try.md",
+    "Proposals/Stage 4 Proposals/trims.md",
+    "Proposals/Stage 4 Proposals/template-literal-lift.md",
+    "Proposals/Stage 4 Proposals/symbols-weakmap.md",
+    "Proposals/Stage 4 Proposals/symbol-description.md",
+    "Proposals/Stage 4 Proposals/private-methods.md",
+    "Proposals/Stage 4 Proposals/string-padding.md",
+    "Proposals/Stage 4 Proposals/static-blocks.md",
+    "Proposals/Stage 4 Proposals/set-methods.md",
+    "Proposals/Stage 4 Proposals/resizable.md",
+    "Proposals/Stage 4 Proposals/replace-all.md",
+    "Proposals/Stage 4 Proposals/regexp-v-flag.md",
+    "Proposals/Stage 4 Proposals/regexp-modifiers.md",
+    "Proposals/Stage 4 Proposals/regex-match-indices.md",
+    "Proposals/Stage 4 Proposals/promise-defer.md",
+    "Proposals/Stage 4 Proposals/promise-any.md",
+    "Proposals/Stage 4 Proposals/private-fields-in-in.md",
+    "Proposals/Stage 4 Proposals/optional-catch.md",
+    "Proposals/Stage 4 Proposals/object-values-entries.md",
+    "Proposals/Stage 4 Proposals/object-rest-spread.md",
+    "Proposals/Stage 4 Proposals/object-has.md",
+    "Proposals/Stage 4 Proposals/object-gopds.md",
+    "Proposals/Stage 4 Proposals/object-from-entries.md",
     "Types of Changes",
     "Untitled.canvas",
     "Proposal Types",

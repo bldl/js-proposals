@@ -1,6 +1,6 @@
 #Stage4Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Promise.prototype.finally
 Authors: Jordan Harband
 Champions: Jordan Harband

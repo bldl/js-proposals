@@ -1,6 +1,6 @@
 #Stage4Tag
 Classification: [[Semantic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Well-formed JSON.stringify
 Authors: Richard Gibson
 Champions: Mathias Bynens

@@ -1,6 +1,6 @@
 #Stage4Tag
-Classification: [[Syntactic Change]]
-Human Validated: No
+Classification: [[API Change]]
+Human Validated: KW
 Title: s (dotAll) flag for regular expressions
 Authors: Mathias Bynens
 Champions: Brian Terlson, Mathias Bynens

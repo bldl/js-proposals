@@ -1,6 +1,6 @@
 #Stage4Tag
-Classification: [[Syntactic Change]]
-Human Validated: No
+Classification: [[API Change]]
+Human Validated: KW
 Title: Async functions
 Authors: Brian Terlson
 Champions: Brian Terlson

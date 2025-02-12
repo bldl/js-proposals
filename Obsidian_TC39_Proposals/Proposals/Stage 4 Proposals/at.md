@@ -1,6 +1,6 @@
 #Stage4Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: .at()
 Authors: Shu-yu Guo, Tab Atkins
 Champions: Shu-yu Guo, Tab Atkins

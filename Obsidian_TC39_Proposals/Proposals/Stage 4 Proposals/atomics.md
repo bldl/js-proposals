@@ -1,6 +1,6 @@
 #Stage4Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: Shared memory and atomics
 Authors: Lars T Hansen
 Champions: Lars T Hansen

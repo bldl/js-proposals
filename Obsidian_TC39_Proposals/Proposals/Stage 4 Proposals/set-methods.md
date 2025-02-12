@@ -1,6 +1,6 @@
 #Stage4Tag
 Classification: [[API Change]]
-Human Validated: No
+Human Validated: KW
 Title: New Set methods
 Authors: Michał Wadas, Sathya Gunasekaran, Kevin Gibbons
 Champions: Kevin Gibbons

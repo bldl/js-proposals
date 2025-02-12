@@ -1,6 +1,6 @@
 #Stage4Tag
 Classification: [[Syntactic Change]]
-Human Validated: No
+Human Validated: KW
 Title: Hashbang Grammar
 Authors: Bradley Farias
 Champions: Bradley Farias
