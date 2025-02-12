@@ -2,5 +2,7 @@
   "obsidian-git",
   "execute-code",
   "obsidian-vault-statistics-plugin",
-  "quick-explorer"
+  "quick-explorer",
+  "obsidian-query-language",
+  "dataview"
 ]

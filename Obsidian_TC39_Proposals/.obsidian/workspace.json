@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c46caa99acdf0100",
+            "id": "e4ff2271bb902aa8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 4 Proposals/resizable.md",
+                "file": "Proposals/Inactive Proposal Summary.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "resizable"
+              "title": "Inactive Proposal Summary"
+            }
+          },
+          {
+            "id": "a64c83ca02250b77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Changes/Syntactic Change.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Syntactic Change"
+            }
+          },
+          {
+            "id": "b7323a265ce72c52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Changes/Syntactic Change.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Syntactic Change"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Human Validated: No\"",
+                "query": "\"#Stage4Tag\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -177,38 +226,41 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "qatt:Refresh QATT Tables": false,
+      "qatt:Refresh Views": false,
+      "qatt:Log Metrics": false
     }
   },
-  "active": "c46caa99acdf0100",
+  "active": "a64c83ca02250b77",
   "lastOpenFiles": [
+    "Changes/Semantic Change.md",
+    "Proposals/Stage 2 Proposal Summary.md",
+    "Changes/Syntactic Change.md",
+    "Changes/Unknown.md",
+    "Changes/API Change.md",
+    "Proposals/Stage 0 Proposal Summary.md",
+    "Proposals/Inactive Proposal Summary.md",
+    "Proposals/Stage 2.7 Proposals/esm-phase.md",
+    "Proposals/Stage 2.7 Proposals/shadowrealm.md",
+    "Proposals/Stage 2.7 Proposals/sequencing.md",
+    "Proposals/Stage 2.7 Proposals/math-sum.md",
+    "Proposals/Stage 2.7 Proposals/lazy-import.md",
+    "Proposals/Stage 2.7 Proposals/joint.md",
+    "Proposals/Stage 2.7 Proposal Summary.md",
+    "Proposals/Stage 4 Proposals/allsettled.md",
+    "Proposals/Stage 4 Proposal Summary.md",
+    "Proposals/Stage 3 Proposal Summary.md",
+    "Proposals/Stage 1 Proposal Summary.md",
+    "Proposals/Inactive Proposals/arraylast.md",
+    "Proposals/Inactive Proposals/-------------error---------------.md",
+    "Proposals/Stage 4 Proposals/resizable.md",
+    "Statistics.md",
     "Proposals/Stage 4 Proposals/well-formed-stringify.md",
     "Proposals/Stage 4 Proposals/weakrefs.md",
     "Proposals/Stage 4 Proposals/usv-string.md",
     "Proposals/Stage 4 Proposals/unicode-escapes.md",
-    "Proposals/Stage 4 Proposals/try.md",
-    "Proposals/Stage 4 Proposals/trims.md",
-    "Proposals/Stage 4 Proposals/template-literal-lift.md",
-    "Proposals/Stage 4 Proposals/symbols-weakmap.md",
-    "Proposals/Stage 4 Proposals/symbol-description.md",
-    "Proposals/Stage 4 Proposals/string-padding.md",
-    "Proposals/Stage 4 Proposals/static-blocks.md",
-    "Proposals/Stage 4 Proposals/set-methods.md",
-    "Proposals/Stage 4 Proposals/resizable.md",
-    "Proposals/Stage 4 Proposals/replace-all.md",
-    "Proposals/Stage 4 Proposals/regexp-v-flag.md",
-    "Proposals/Stage 4 Proposals/regexp-modifiers.md",
-    "Proposals/Stage 4 Proposals/regex-match-indices.md",
-    "Proposals/Stage 4 Proposals/promise-defer.md",
-    "Proposals/Stage 4 Proposals/promise-any.md",
-    "Proposals/Stage 4 Proposals/private-methods.md",
-    "Proposals/Stage 4 Proposals/private-fields-in-in.md",
-    "Proposals/Stage 4 Proposals/optional-catch.md",
-    "Proposals/Stage 4 Proposals/object-values-entries.md",
-    "Proposals/Stage 4 Proposals/object-rest-spread.md",
-    "Proposals/Stage 4 Proposals/object-has.md",
-    "Proposals/Stage 4 Proposals/object-gopds.md",
-    "Types of Changes",
+    "Changes",
     "Untitled.canvas",
     "Proposal Types",
     "Proposals 1/Stage 4 Proposals",
