@@ -6,6 +6,7 @@ Authors: Daniel Ehrenberg, Richard Button, Robin Ricard, Leo Balter, Rick Waldro
 Champions: Daniel Ehrenberg, Richard Button, Robin Ricard, Leo Balter, Rick Waldron, Caridy Patiño
 Date: January 2023
 Last Commit: 2022-06-07
+Expected Publication Year: 2023
 GitHub Link: https://github.com/tc39/proposal-symbols-as-weakmap-keys
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#symbols-as-weakmap-keys
 

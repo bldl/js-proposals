@@ -4,8 +4,9 @@ Human Validated: KW
 Title: Hashbang Grammar
 Authors: Bradley Farias
 Champions: Bradley Farias
-Date: uly 2022
+Date: July 2022
 Last Commit: 2018-11-29
+Expected Publication Year: 2023
 GitHub Link: https://github.com/tc39/proposal-hashbang
 GitHub Note Link: None
 

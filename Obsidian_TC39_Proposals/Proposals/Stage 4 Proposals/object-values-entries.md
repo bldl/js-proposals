@@ -6,6 +6,7 @@ Authors: Jordan Harband
 Champions: Jordan Harband
 Date: March 2016
 Last Commit: 2016-03-29
+Expected Publication Year: 2017
 GitHub Link: https://github.com/tc39/proposal-object-values-entries
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-03/march-29.md#objectvalues--objectentries
 

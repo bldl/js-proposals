@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 4 Proposals/well-formed-stringify.md",
+                "file": "Proposals/Stage 4 Proposals/resizable.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "well-formed-stringify"
+              "title": "resizable"
             }
           }
         ]
@@ -182,6 +182,7 @@
   },
   "active": "c46caa99acdf0100",
   "lastOpenFiles": [
+    "Proposals/Stage 4 Proposals/well-formed-stringify.md",
     "Proposals/Stage 4 Proposals/weakrefs.md",
     "Proposals/Stage 4 Proposals/usv-string.md",
     "Proposals/Stage 4 Proposals/unicode-escapes.md",
@@ -190,7 +191,6 @@
     "Proposals/Stage 4 Proposals/template-literal-lift.md",
     "Proposals/Stage 4 Proposals/symbols-weakmap.md",
     "Proposals/Stage 4 Proposals/symbol-description.md",
-    "Proposals/Stage 4 Proposals/private-methods.md",
     "Proposals/Stage 4 Proposals/string-padding.md",
     "Proposals/Stage 4 Proposals/static-blocks.md",
     "Proposals/Stage 4 Proposals/set-methods.md",
@@ -201,13 +201,13 @@
     "Proposals/Stage 4 Proposals/regex-match-indices.md",
     "Proposals/Stage 4 Proposals/promise-defer.md",
     "Proposals/Stage 4 Proposals/promise-any.md",
+    "Proposals/Stage 4 Proposals/private-methods.md",
     "Proposals/Stage 4 Proposals/private-fields-in-in.md",
     "Proposals/Stage 4 Proposals/optional-catch.md",
     "Proposals/Stage 4 Proposals/object-values-entries.md",
     "Proposals/Stage 4 Proposals/object-rest-spread.md",
     "Proposals/Stage 4 Proposals/object-has.md",
     "Proposals/Stage 4 Proposals/object-gopds.md",
-    "Proposals/Stage 4 Proposals/object-from-entries.md",
     "Types of Changes",
     "Untitled.canvas",
     "Proposal Types",

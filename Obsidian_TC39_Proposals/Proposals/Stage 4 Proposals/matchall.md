@@ -6,6 +6,7 @@ Authors: Jordan Harband
 Champions: Jordan Harband
 Date: March 2019
 Last Commit: 2018-12-11
+Expected Publication Year: 2020
 GitHub Link: https://github.com/tc39/proposal-string-matchall
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-26.md#stringprototypematchall-for-stage-4
 

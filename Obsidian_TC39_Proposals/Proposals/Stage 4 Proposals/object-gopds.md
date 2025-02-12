@@ -6,6 +6,7 @@ Authors: Jordan Harband, Andrea Giammarchi
 Champions: Jordan Harband, Andrea Giammarchi
 Date: May 2016
 Last Commit: 2016-07-30
+Expected Publication Year: 2017
 GitHub Link: https://github.com/tc39/proposal-object-getownpropertydescriptors
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-05/may-25.md#objectgetownpropertydescriptors-jhd
 
