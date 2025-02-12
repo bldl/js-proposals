@@ -11,6 +11,7 @@ WHERE contains(file.outlinks, link("API Change")) AND contains(file.tags, "#Inac
 
 
 # Stage 0
+
 ```dataview
 
 TABLE 
@@ -19,6 +20,7 @@ WHERE contains(file.outlinks, link("API Change")) AND contains(file.tags, "#Stag
 
 ```
 # Stage 1
+
 ```dataview
 
 TABLE 
@@ -28,6 +30,7 @@ WHERE contains(file.outlinks, link("API Change")) AND contains(file.tags, "#Stag
 ```
 
 # Stage 2
+
 ```dataview
 
 TABLE 
@@ -37,6 +40,7 @@ WHERE contains(file.outlinks, link("API Change")) AND contains(file.tags, "#Stag
 ```
 
 # Stage 2.7
+
 ```dataview
 
 TABLE 
@@ -46,6 +50,7 @@ WHERE contains(file.outlinks, link("API Change")) AND contains(file.tags, "#Stag
 ```
 
 # Stage 3
+
 ```dataview
 
 TABLE 
@@ -55,6 +60,7 @@ WHERE contains(file.outlinks, link("API Change")) AND contains(file.tags, "#Stag
 ```
 
 # Stage 4
+
 ```dataview
 
 TABLE 

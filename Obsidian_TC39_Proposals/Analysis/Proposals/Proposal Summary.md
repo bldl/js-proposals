@@ -22,7 +22,7 @@ if (amounts.successful) {
 
     dv.table(amounts.value.headers, amounts.value.values);
 
-    dv.paragraph("Total amount: " + sum);
+    
 } else {
     dv.paragraph("~~~~\n" + amounts.error + "\n~~~~");
 }

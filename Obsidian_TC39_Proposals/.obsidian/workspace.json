@@ -4,107 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "68184b74a215a0ac",
+        "id": "5999f55d5423be21",
         "type": "tabs",
         "children": [
           {
-            "id": "e4ff2271bb902aa8",
+            "id": "81cfbac069241c55",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Proposals/Proposal Summary.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Proposal Summary"
-            }
-          },
-          {
-            "id": "a64c83ca02250b77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Proposals/Proposal Summary.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Proposal Summary"
-            }
-          },
-          {
-            "id": "5dbcb571479ea0be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Changes/API Change.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "API Change"
-            }
-          },
-          {
-            "id": "b7323a265ce72c52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Changes/Syntactic Change.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Syntactic Change"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -250,17 +163,16 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
-      "qatt:Refresh QATT Tables": false,
-      "qatt:Refresh Views": false,
-      "qatt:Log Metrics": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a64c83ca02250b77",
+  "active": "81cfbac069241c55",
   "lastOpenFiles": [
+    "Analysis/Changes/Syntactic Change.md",
     "Analysis/Changes/API Change.md",
     "Analysis/Proposals/Proposal Summary.md",
     "Analysis/Changes/Semantic Change.md",
+    "Analysis/Changes/Unknown.md",
     "Analysis/Proposals/Stage 0 Proposal Summary.md",
     "Analysis/Proposals/Stage 1 Proposal Summary.md",
     "Analysis/Proposals",
@@ -270,8 +182,6 @@
     "Analysis/Proposals/Stage 2.7 Proposal Summary.md",
     "Analysis/Proposals/Stage 2 Proposal Summary.md",
     "Proposals/Inactive Proposals/buffer-transfer.md",
-    "Analysis/Changes/Syntactic Change.md",
-    "Analysis/Changes/Unknown.md",
     "Proposals/Stage 2.7 Proposals/esm-phase.md",
     "Proposals/Stage 2.7 Proposals/shadowrealm.md",
     "Proposals/Stage 2.7 Proposals/sequencing.md",
