@@ -4,11 +4,19 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "20a4a1eec7fc91e6",
         "type": "tabs",
         "children": [
           {
             "id": "9f40cd86c628cf29",
+=======
+        "id": "5999f55d5423be21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81cfbac069241c55",
+>>>>>>> 8a4df8fd740604f1dadd61f98dfe55108f7faa93
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -49,7 +57,11 @@
             "state": {
               "type": "search",
               "state": {
+<<<<<<< HEAD
                 "query": "",
+=======
+                "query": "\"#Stage4Tag\"",
+>>>>>>> 8a4df8fd740604f1dadd61f98dfe55108f7faa93
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,6 +180,7 @@
       "publish:Publish changes...": false
     }
   },
+<<<<<<< HEAD
   "active": "309748987b51e6c5",
   "lastOpenFiles": [
     "Analysis/Classifications/API Change.md",
@@ -199,6 +212,38 @@
     "Analysis/Proposals",
     "Analysis",
     "Analysis/Classifications",
+=======
+  "active": "81cfbac069241c55",
+  "lastOpenFiles": [
+    "Analysis/Changes/Syntactic Change.md",
+    "Analysis/Changes/API Change.md",
+    "Analysis/Proposals/Proposal Summary.md",
+    "Analysis/Changes/Semantic Change.md",
+    "Analysis/Changes/Unknown.md",
+    "Analysis/Proposals/Stage 0 Proposal Summary.md",
+    "Analysis/Proposals/Stage 1 Proposal Summary.md",
+    "Analysis/Proposals",
+    "Analysis/Proposals/Stage 4 Proposal Summary.md",
+    "Analysis/Proposals/Stage 3 Proposal Summary.md",
+    "Analysis",
+    "Analysis/Proposals/Stage 2.7 Proposal Summary.md",
+    "Analysis/Proposals/Stage 2 Proposal Summary.md",
+    "Proposals/Inactive Proposals/buffer-transfer.md",
+    "Proposals/Stage 2.7 Proposals/esm-phase.md",
+    "Proposals/Stage 2.7 Proposals/shadowrealm.md",
+    "Proposals/Stage 2.7 Proposals/sequencing.md",
+    "Proposals/Stage 2.7 Proposals/math-sum.md",
+    "Proposals/Stage 2.7 Proposals/lazy-import.md",
+    "Proposals/Stage 2.7 Proposals/joint.md",
+    "Proposals/Stage 4 Proposals/allsettled.md",
+    "Proposals/Inactive Proposals/arraylast.md",
+    "Proposals/Inactive Proposals/-------------error---------------.md",
+    "Proposals/Stage 4 Proposals/resizable.md",
+    "Statistics.md",
+    "Proposals/Stage 4 Proposals/well-formed-stringify.md",
+    "Proposals/Stage 4 Proposals/weakrefs.md",
+    "Analysis/Changes",
+>>>>>>> 8a4df8fd740604f1dadd61f98dfe55108f7faa93
     "Untitled.canvas",
     "Proposal Types",
     "Proposals 1/Stage 4 Proposals",
