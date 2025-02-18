@@ -20,7 +20,7 @@ def classifyProposal(title, proposalDescription):
     - [[Syntactic Change]]
     
     If multiple classifications apply, return a **space-separated string** like:
-    - [[API_Change]] [[Syntactic_Change]]
+    - [[API Change]] [[Syntactic Change]]
     
     DO NOT return any explanations, markdown, or extra text. Just the classification string.
     """

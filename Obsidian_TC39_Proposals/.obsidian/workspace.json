@@ -4,47 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "cecf2ca1d26ec199",
+        "id": "20a4a1eec7fc91e6",
         "type": "tabs",
         "children": [
           {
-            "id": "d3a6ef386928d13c",
+            "id": "9f40cd86c628cf29",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "bookmarks",
+              "type": "empty",
               "state": {},
-              "pinned": true,
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "8bea1c5178adca0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Proposals/Stage 3 Proposals/atomics-pause.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
               "icon": "lucide-file",
-              "title": "atomics-pause"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Human Validated: No\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,6 +58,16 @@
               },
               "icon": "lucide-search",
               "title": "Search"
+            }
+          },
+          {
+            "id": "46ed4e7ee906faee",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -180,38 +163,42 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "digitalgarden:Digital Garden Publication Center": false,
+      "publish:Publish changes...": false
     }
   },
-  "active": "8bea1c5178adca0f",
+  "active": "309748987b51e6c5",
   "lastOpenFiles": [
-    "Proposals/Stage 2.7 Proposals/shadowrealm.md",
-    "Proposals/Stage 2.7 Proposals/sequencing.md",
-    "Proposals/Stage 2.7 Proposals/math-sum.md",
-    "Proposals/Stage 2.7 Proposals/lazy-import.md",
-    "Proposals/Stage 2.7 Proposals/joint.md",
+    "Analysis/Classifications/API Change.md",
+    "Proposals/Inactive Proposals/callable-constructors.md",
+    "Proposals/Inactive Proposals/blocks.md",
+    "Analysis/Proposals/Proposal Summary.md",
+    "Proposals/Inactive Proposals/arraylast.md",
+    "index.md",
+    "Analysis/Classifications/Unknown.md",
+    "Analysis/Classifications/Syntactic Change.md",
+    "Analysis/Classifications/Semantic Change.md",
+    "TC39 Proposals.md",
+    "Proposals/Stage 4 Proposals/flat.md",
+    "Proposals/Stage 4 Proposals/chaining.md",
+    "Proposals/Stage 4 Proposals/globalThis.md",
     "Proposals/Stage 2.7 Proposals/esm-phase.md",
-    "Proposals/Stage 2 Proposals/throw-expressions.md",
-    "Proposals/Stage 2 Proposals/symbol-predicates.md",
-    "Proposals/Stage 2 Proposals/structs.md",
-    "Proposals/Stage 2 Proposals/string.dedent.md",
-    "Proposals/Stage 2 Proposals/scriptormodule.md",
-    "Proposals/Stage 2 Proposals/regexp-buffer-boundaries.md",
-    "Proposals/Stage 2 Proposals/record-tuple.md",
-    "Proposals/Stage 2 Proposals/map-emplace.md",
-    "Proposals/Stage 1 Proposals/regexp-x-mode.md",
-    "Proposals/Stage 1 Proposals/regexp-r-escape.md",
-    "Proposals/Stage 1 Proposals/regexp-atomic-operators.md",
-    "Proposals/Stage 2 Proposals/pipeline.md",
-    "Proposals/Stage 2 Proposals/module-expressions.md",
-    "Proposals/Stage 2 Proposals/module-declarations.md",
-    "Proposals/Stage 2 Proposals/json-parse-immutable.md",
-    "Proposals/Stage 2 Proposals/iterator-range.md",
-    "Proposals/Stage 2 Proposals/isTemplateObject.md",
-    "Proposals/Stage 2 Proposals/immutable-abs.md",
-    "Proposals/Stage 2 Proposals/function-sent.md",
-    "Proposals/Stage 2 Proposals/extractors.md",
-    "Types of Changes",
+    "Proposals/Stage 4 Proposals/dynamic-import.md",
+    "Proposals/Stage 4 Proposals/dot-all.md",
+    "Proposals/Stage 4 Proposals/regexp-modifiers.md",
+    "Proposals/Stage 4 Proposals/regexp-v-flag.md",
+    "Proposals/Stage 3 Proposals/regexp-legacy.md",
+    "Proposals/Stage 4 Proposals/at.md",
+    "Proposals/Stage 4 Proposals/symbols-weakmap.md",
+    "Proposals/Stage 4 Proposals/template-literal-lift.md",
+    "Proposals/Stage 4 Proposals/trims.md",
+    "Proposals/Stage 4 Proposals/try.md",
+    "Proposals/Stage 4 Proposals/unicode-escapes.md",
+    "Proposals/Stage 4 Proposals/usv-string.md",
+    "Analysis/Proposals",
+    "Analysis",
+    "Analysis/Classifications",
     "Untitled.canvas",
     "Proposal Types",
     "Proposals 1/Stage 4 Proposals",
@@ -219,8 +206,6 @@
     "Proposals 1/Stage 2.7 Proposals",
     "Proposals 1/Stage 2 Proposals",
     "Proposals 1/Stage 1 Proposals",
-    "Proposals 1/Stage 0 Proposals",
-    "Proposals 1/Inactive Proposals",
-    "Proposals 1"
+    "Proposals 1/Stage 0 Proposals"
   ]
 }

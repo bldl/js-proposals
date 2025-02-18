@@ -1,0 +1,251 @@
+{
+  "main": {
+    "id": "749958da903fba99",
+    "type": "split",
+    "children": [
+      {
+        "id": "57f9c4ae0dcfa40b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c6a92de346b0a94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Proposals/Proposal Summary.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Proposal Summary"
+            }
+          },
+          {
+            "id": "5193ff81af89cca9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Proposals/Proposal Summary.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Proposal Summary"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "511c3e974a858140",
+    "type": "split",
+    "children": [
+      {
+        "id": "8415b7294e057a67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "309748987b51e6c5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "be670cc0b1347778",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "46ed4e7ee906faee",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 257.5
+  },
+  "right": {
+    "id": "4be0bd39da1f29fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "17b03d432fe9b078",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df19a817504a98d1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Proposals/Finished Proposals/Finished Proposals.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Finished Proposals"
+            }
+          },
+          {
+            "id": "9e091819d5fe7658",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Proposals/Finished Proposals/Finished Proposals.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Finished Proposals"
+            }
+          },
+          {
+            "id": "6cc61818a6f9f3da",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "33bdf3e1fd68cb60",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Proposals/Stage 1 Proposals/concurrency-control.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of concurrency-control"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "digitalgarden:Digital Garden Publication Center": false,
+      "publish:Publish changes...": false
+    }
+  },
+  "active": "be670cc0b1347778",
+  "lastOpenFiles": [
+    "Analysis/Classifications/API Change.md",
+    "Proposals/Inactive Proposals/callable-constructors.md",
+    "Proposals/Inactive Proposals/blocks.md",
+    "Analysis/Proposals/Proposal Summary.md",
+    "Proposals/Inactive Proposals/arraylast.md",
+    "index.md",
+    "Analysis/Classifications/Unknown.md",
+    "Analysis/Classifications/Syntactic Change.md",
+    "Analysis/Classifications/Semantic Change.md",
+    "TC39 Proposals.md",
+    "Proposals/Stage 4 Proposals/flat.md",
+    "Proposals/Stage 4 Proposals/chaining.md",
+    "Proposals/Stage 4 Proposals/globalThis.md",
+    "Proposals/Stage 2.7 Proposals/esm-phase.md",
+    "Proposals/Stage 4 Proposals/dynamic-import.md",
+    "Proposals/Stage 4 Proposals/dot-all.md",
+    "Proposals/Stage 4 Proposals/regexp-modifiers.md",
+    "Proposals/Stage 4 Proposals/regexp-v-flag.md",
+    "Proposals/Stage 3 Proposals/regexp-legacy.md",
+    "Proposals/Stage 4 Proposals/at.md",
+    "Proposals/Stage 4 Proposals/symbols-weakmap.md",
+    "Proposals/Stage 4 Proposals/template-literal-lift.md",
+    "Proposals/Stage 4 Proposals/trims.md",
+    "Proposals/Stage 4 Proposals/try.md",
+    "Proposals/Stage 4 Proposals/unicode-escapes.md",
+    "Proposals/Stage 4 Proposals/usv-string.md",
+    "Analysis/Proposals",
+    "Analysis",
+    "Analysis/Classifications",
+    "Untitled.canvas",
+    "Proposal Types",
+    "Proposals 1/Stage 4 Proposals",
+    "Proposals 1/Stage 3 Proposals",
+    "Proposals 1/Stage 2.7 Proposals",
+    "Proposals 1/Stage 2 Proposals",
+    "Proposals 1/Stage 1 Proposals",
+    "Proposals 1/Stage 0 Proposals"
+  ]
+}
