@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ec950f6852fd3857",
+        "id": "a115ccb51b6689ca",
         "type": "tabs",
         "children": [
           {
-            "id": "9a78057d6e23db25",
+            "id": "af163633de69739c",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"#InactiveTag\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -163,8 +164,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9a78057d6e23db25",
+  "active": "887faf82dcbde95f",
   "lastOpenFiles": [
+    "Analysis/Changes/Unknown.md",
+    "Analysis/Classifications/Unknown.md",
     "Proposals/Inactive Proposals/dynamic-module-reform.md",
     "Proposals/Inactive Proposals/distinguishing-literal-strings.md",
     "Proposals/Inactive Proposals/deprecated.md",
@@ -183,7 +186,6 @@
     "Analysis/Classifications/Semantic Change.md",
     "Analysis/Classifications/API Change.md",
     "Analysis/Changes/API Change.md",
-    "Analysis/Classifications/Unknown.md",
     "Proposals/Stage 4 Proposals/well-formed-stringify.md",
     "Proposals/Stage 4 Proposals/allsettled.md"
   ]

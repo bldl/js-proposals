@@ -8,65 +8,86 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "Stage1Tag",
+      "query": "Stage3",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 14770272
       }
     },
     {
-      "query": "Stage2Tag",
+      "query": "Stage2",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 9051551
       }
     },
     {
-      "query": "Stage3Tag",
+      "query": "Stage1",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 2398519
       }
     },
     {
-      "query": "Stage4Tag",
+      "query": "Stage_2_7",
       "color": {
         "a": 1,
-        "rgb": 5431378
+        "rgb": 5397472
       }
     },
     {
-      "query": "Stage_2_7Tag",
+      "query": "Inactive",
       "color": {
         "a": 1,
         "rgb": 5431473
       }
     },
     {
-      "query": "Stage0Tag",
+      "query": "Finished",
       "color": {
         "a": 1,
         "rgb": 5419488
       }
     },
     {
-      "query": "InactiveTag",
+      "query": "Stage0",
       "color": {
         "a": 1,
-        "rgb": 5395168
+        "rgb": 9119547
       }
     },
     {
-      "query": "FinishedTag",
+      "query": "Semantic",
       "color": {
         "a": 1,
-        "rgb": 11621088
+        "rgb": 6152079
+      }
+    },
+    {
+      "query": "Syntactic",
+      "color": {
+        "a": 1,
+        "rgb": 12681955
+      }
+    },
+    {
+      "query": "API",
+      "color": {
+        "a": 1,
+        "rgb": 13230162
+      }
+    },
+    {
+      "query": "Processed",
+      "color": {
+        "a": 1,
+        "rgb": 16579836
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": 0,
+  "textFadeMultiplier": -1.1,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
@@ -74,6 +95,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.05415148389588206,
+  "scale": 0.25659556120811083,
   "close": false
 }
