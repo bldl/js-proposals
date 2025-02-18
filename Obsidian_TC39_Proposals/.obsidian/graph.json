@@ -1,114 +1,79 @@
 {
   "collapse-filter": false,
   "search": "",
-<<<<<<< HEAD
-  "showTags": true,
-=======
   "showTags": false,
->>>>>>> 8a4df8fd740604f1dadd61f98dfe55108f7faa93
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "Stage3",
+      "query": "Stage1Tag",
       "color": {
         "a": 1,
-        "rgb": 14770272
+        "rgb": 14701138
       }
     },
     {
-      "query": "Stage2",
+      "query": "Stage2Tag",
       "color": {
         "a": 1,
-        "rgb": 9051551
+        "rgb": 14725458
       }
     },
     {
-      "query": "Stage1",
+      "query": "Stage3Tag",
       "color": {
         "a": 1,
-        "rgb": 2398519
+        "rgb": 11657298
       }
     },
     {
-      "query": "Stage_2_7",
+      "query": "Stage4Tag",
       "color": {
         "a": 1,
-        "rgb": 5397472
+        "rgb": 5431378
       }
     },
     {
-      "query": "Inactive",
+      "query": "Stage_2_7Tag",
       "color": {
         "a": 1,
         "rgb": 5431473
       }
     },
     {
-      "query": "Finished",
+      "query": "Stage0Tag",
       "color": {
         "a": 1,
         "rgb": 5419488
       }
     },
     {
-      "query": "Stage0",
+      "query": "InactiveTag",
       "color": {
         "a": 1,
-        "rgb": 9119547
+        "rgb": 5395168
       }
     },
     {
-      "query": "Semantic",
+      "query": "FinishedTag",
       "color": {
         "a": 1,
-        "rgb": 6152079
-      }
-    },
-    {
-      "query": "Syntactic",
-      "color": {
-        "a": 1,
-        "rgb": 12681955
-      }
-    },
-    {
-      "query": "API",
-      "color": {
-        "a": 1,
-        "rgb": 13230162
-      }
-    },
-    {
-      "query": "Processed",
-      "color": {
-        "a": 1,
-        "rgb": 16579836
+        "rgb": 11621088
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -1.1,
+  "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-<<<<<<< HEAD
-  "collapse-forces": false,
-  "centerStrength": 0.633056133056133,
-  "repelStrength": 15.3222453222453,
-  "linkStrength": 0.678794178794179,
-  "linkDistance": 345,
-  "scale": 0.16514930665876013,
-  "close": true
-=======
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.0048233335301886,
+  "scale": 0.05415148389588206,
   "close": false
->>>>>>> 8a4df8fd740604f1dadd61f98dfe55108f7faa93
 }
