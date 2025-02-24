@@ -14,6 +14,13 @@ def getCommitMessages(apiLink):
     apiLink = f"https://api.github.com/repos/tc39/{apiLink}/commits"
     apiRequest = requests.get(apiLink, auth=(os.getenv("USERNAME"), os.getenv("API_KEY")))
     apiResponse = apiRequest.json()
+
+    while 'next' in apiRequest.links:
+        apiRequest = requests.get(apiRequest.links['next']['url'], auth=(os.getenv("USERNAME"), os.getenv("API_KEY")))
+        apiResponse.extend(apiRequest.json())
+
+    with open(f"sharedMethods/workingCommit.md", "w") as commitHistory:
+        commitHistory.write(f"{apiResponse}") 
     
     for each in apiResponse:
         message = each["commit"]["message"]
@@ -22,13 +29,17 @@ def getCommitMessages(apiLink):
 
         if "Stage" in message:
             allCommits.append((message, author, date))
+    
+    return allCommits
+
+def extractStageUpgrades(commitHistory):
         
-    for each in allCommits:
+    for each in commitHistory:
         message = each[0]
         author = each[1]
         date = each[2]
 
-        print(message, author, date)
+        print(message.split())
     
 
 #---------------------------------------------------------------------------------#
@@ -46,11 +57,13 @@ for file in os.listdir(path):
         #githubLink = re.search(r"GitHub Link:\s(\S+)", fileContent).group(1).split("/")[-1]
 
 # Testing purposes
-githubLink = "proposal-logical-assignment"
+githubLink = "proposal-weakrefs"
 
 # master does not work if in catch clause, master needs to be processed before mai
 
-getCommitMessages(githubLink)
+stageRelatedCommits = getCommitMessages(githubLink)
+
+extractStageUpgrades(stageRelatedCommits)
 
 
 
