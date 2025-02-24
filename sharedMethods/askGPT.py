@@ -43,3 +43,48 @@ def classifyProposal(title, proposalDescription):
 
     except:
         print("error with", title)
+
+
+def stageUpgrade(linkTitle, commitHistory):
+
+    print(commitHistory)
+
+    systemPrompt = """
+    
+    I am conducting research into ECMAScript proposals and I want to look at the timeline of the commits for each proposal.
+    
+    I have extracted the commit history for each proposal and have filtered it down to commit messages, authors, and dates for when the proposal upgraded stage.
+
+    I am sending you this data and I want you to take a look at the commit history and return to me a list of when the stage upgrade happened in this format:
+
+    Proposal title: *insert title*
+    Stage 1: *insert date*
+    Stage 2: *insert date*
+    Stage 2.7: *insert date*
+    Stage 3: *insert date*
+    Stage 4: *insert date*
+
+    If there is no mention of the specific proposal being upgraded, please fill in the date as NA instead. 
+
+    Please and thank you in advance!
+
+    """
+
+    client = OpenAI(api_key=os.getenv("OPENAI"))
+
+    try:
+        completion = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": systemPrompt},
+                {"role": "user", "content": linkTitle},
+                {"role": "user", "content": commitHistory}
+            ]
+        )
+
+        bot_response = completion.choices[0].message.content
+
+        return bot_response
+
+    except:
+        print("error with askGPT")

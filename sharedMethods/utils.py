@@ -3,13 +3,15 @@ import requests
 from dotenv import load_dotenv
 import re
 
+from askGPT import stageUpgrade
+
 #--------------------------------Helper methods-----------------------------------#
 
 def getCommitMessages(apiLink):
 
     allCommits = []
 
-    print(apiLink)
+    print("extracting commit history of", apiLink)
     load_dotenv()
     apiLink = f"https://api.github.com/repos/tc39/{apiLink}/commits"
     apiRequest = requests.get(apiLink, auth=(os.getenv("USERNAME"), os.getenv("API_KEY")))
@@ -18,28 +20,32 @@ def getCommitMessages(apiLink):
     while 'next' in apiRequest.links:
         apiRequest = requests.get(apiRequest.links['next']['url'], auth=(os.getenv("USERNAME"), os.getenv("API_KEY")))
         apiResponse.extend(apiRequest.json())
-
-    with open(f"sharedMethods/workingCommit.md", "w") as commitHistory:
-        commitHistory.write(f"{apiResponse}") 
     
     for each in apiResponse:
         message = each["commit"]["message"]
         author = each["commit"]["author"]["name"]
         date = each["commit"]["author"]["date"].split("T")[0]
 
-        if "Stage" in message:
+        if "stage" in message.lower():
             allCommits.append((message, author, date))
+
+    with open(f"sharedMethods/workingCommit.md", "w") as commitHistory:
+        commitHistory.write(f"{allCommits}") 
     
     return allCommits
 
-def extractStageUpgrades(commitHistory):
+def extractStageUpgrades(apiLink, commitHistory):
         
     for each in commitHistory:
         message = each[0]
         author = each[1]
         date = each[2]
 
-        print(message.split())
+    stringCommitHistory = str(commitHistory)
+
+    gptResponse = stageUpgrade(apiLink, stringCommitHistory)
+
+    print("gptResponse:\n", gptResponse)
     
 
 #---------------------------------------------------------------------------------#
@@ -57,13 +63,13 @@ for file in os.listdir(path):
         #githubLink = re.search(r"GitHub Link:\s(\S+)", fileContent).group(1).split("/")[-1]
 
 # Testing purposes
-githubLink = "proposal-weakrefs"
+githubLink = "proposal-logical-assignment"
 
 # master does not work if in catch clause, master needs to be processed before mai
 
 stageRelatedCommits = getCommitMessages(githubLink)
 
-extractStageUpgrades(stageRelatedCommits)
+extractStageUpgrades(githubLink, stageRelatedCommits)
 
 
 
