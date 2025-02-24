@@ -20,6 +20,14 @@ def getCommitMessages(apiLink):
     while 'next' in apiRequest.links:
         apiRequest = requests.get(apiRequest.links['next']['url'], auth=(os.getenv("USERNAME"), os.getenv("API_KEY")))
         apiResponse.extend(apiRequest.json())
+
+    first = apiResponse.pop()
+    message = first["commit"]["message"]
+    author = first["commit"]["author"]["name"]
+    date = first["commit"]["author"]["date"].split("T")[0]
+
+    allCommits.append((message, author, date))
+
     
     for each in apiResponse:
         message = each["commit"]["message"]
@@ -45,7 +53,7 @@ def extractStageUpgrades(apiLink, commitHistory):
 
     gptResponse = stageUpgrade(apiLink, stringCommitHistory)
 
-    print("gptResponse:\n", gptResponse)
+    return gptResponse
     
 
 #---------------------------------------------------------------------------------#
@@ -63,14 +71,15 @@ for file in os.listdir(path):
         #githubLink = re.search(r"GitHub Link:\s(\S+)", fileContent).group(1).split("/")[-1]
 
 # Testing purposes
-githubLink = "proposal-logical-assignment"
+githubLink = "proposal-array-from-async"
 
 # master does not work if in catch clause, master needs to be processed before mai
 
 stageRelatedCommits = getCommitMessages(githubLink)
 
-extractStageUpgrades(githubLink, stageRelatedCommits)
+gptResponse = extractStageUpgrades(githubLink, stageRelatedCommits)
 
+print(gptResponse)
 
 
     

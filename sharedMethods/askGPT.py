@@ -64,7 +64,12 @@ def stageUpgrade(linkTitle, commitHistory):
     Stage 3: *insert date*
     Stage 4: *insert date*
 
+    Since I will be inserting these dates into a md file, please only inlcude the information I have asked for above.
+
+    The date for stage 1 should be the earliest commit in the history as this is the stage in which the repository is first transfered ownership to ECMAScript.
+
     If there is no mention of the specific proposal being upgraded, please fill in the date as NA instead. 
+    If there is more than one mention of a upgrade for a specific stage, use the earliest date.
 
     Please and thank you in advance!
 
