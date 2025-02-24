@@ -28,7 +28,6 @@ def getCommitMessages(apiLink):
 
     allCommits.append((message, author, date))
 
-    
     for each in apiResponse:
         message = each["commit"]["message"]
         author = each["commit"]["author"]["name"]
@@ -36,9 +35,6 @@ def getCommitMessages(apiLink):
 
         if "stage" in message.lower():
             allCommits.append((message, author, date))
-
-    with open(f"sharedMethods/workingCommit.md", "w") as commitHistory:
-        commitHistory.write(f"{allCommits}") 
     
     return allCommits
 
@@ -54,33 +50,32 @@ def extractStageUpgrades(apiLink, commitHistory):
     gptResponse = stageUpgrade(apiLink, stringCommitHistory)
 
     return gptResponse
+
+#TODO implement this
+def insertStageUpgrades(path, githubLink, gptResponse):
+    
+    fullpath = path + githubLink
+    with open(fullpath, "r") as proposal:
+        proposal = file.read()
+
+        print(proposal)
+
+
     
 
 #---------------------------------------------------------------------------------#
 
 path = "Obsidian_TC39_Proposals/Proposals/Stage 4 Proposals/"
-
 for file in os.listdir(path):
-    
     filename = os.path.join(path, file)
-    
     with open(filename, "r") as file:
-
         fileContent = file.read()
-
         #githubLink = re.search(r"GitHub Link:\s(\S+)", fileContent).group(1).split("/")[-1]
-
 # Testing purposes
-githubLink = "proposal-array-from-async"
-
+githubLink = "proposal-promise-allSettled"
 # master does not work if in catch clause, master needs to be processed before mai
-
 stageRelatedCommits = getCommitMessages(githubLink)
-
 gptResponse = extractStageUpgrades(githubLink, stageRelatedCommits)
-
 print(gptResponse)
+#insertStageUpgrades(path, githubLink, gptResponse)
 
-
-    
-        
