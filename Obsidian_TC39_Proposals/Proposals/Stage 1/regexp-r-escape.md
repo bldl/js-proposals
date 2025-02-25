@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: RegExp \R Escape
 Authors: Ron Buckton
 Champions: Ron Buckton
-Date: December 2021
+Last Presented: December 2021
+Stage Upgrades: 
+Stage 1: 2021-10-15  
+Stage 2: 2021-12-04  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2021-12-04
+Keywords: #regular_expression #escape_sequence #unicode #line_terminator #code_point #atomic_group #backtracking #pattern_matching #character_class #split
 GitHub Link: https://github.com/tc39/proposal-regexp-r-escape
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#regexp-r-escape-for-stage-2
 

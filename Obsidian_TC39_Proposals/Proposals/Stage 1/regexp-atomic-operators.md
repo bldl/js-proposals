@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: RegExp Atomic Operators
 Authors: Ron Buckton
 Champions: Ron Buckton
-Date: June 2022
+Last Presented: June 2022
+Stage Upgrades: 
+Stage 1: 2021-10-16  
+Stage 2: 2022-06-08  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2022-06-08
+Keywords: #backtracking #possessive #quantifiers #atomic #groups #performance #syntax #non-backtracking #expressions #disjunction
 GitHub Link: https://github.com/tc39/proposal-regexp-atomic-operators
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-08.md#regex-atomic-operators
 

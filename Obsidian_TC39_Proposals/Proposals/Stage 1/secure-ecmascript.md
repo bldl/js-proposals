@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: SES Secure EcmaScript
 Authors: Mark Miller, Chip Morningstar, Caridy Patiño
 Champions: Mark Miller, Chip Morningstar, Caridy Patiño
-Date: February 2020
+Last Presented: February 2020
+Stage Upgrades: 
+Stage 1: 2015-07-24  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2021-02-18
+Keywords: #compartments #immutable #lightweight #intrinsics #global_object #sandboxing #separation #security #confinement #plugin
 GitHub Link: https://github.com/tc39/proposal-ses
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-6.md#ses-compartments
 

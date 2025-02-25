@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Concurrency Control
 Authors: Michael Ficarra, Luca Casonato, Kevin Gibbons
 Champions: Michael Ficarra, Luca Casonato
-Date: July 2024
+Last Presented: July 2024
+Stage Upgrades: 
+Stage 1: 2024-07-15  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2024-10-25
+Keywords: #concurrency #resource #governor #counting #token #asynchronous #iterator #limiting #semaphore #communication
 GitHub Link: https://github.com/tc39/proposal-concurrency-control
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#concurrency-control-presenter-mf-and-lca
 

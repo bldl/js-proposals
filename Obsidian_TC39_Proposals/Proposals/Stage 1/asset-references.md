@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Asset References
 Authors: Sebastian Markbage
 Champions: Sebastian Markbage
-Date: November 2018
+Last Presented: November 2018
+Stage Upgrades: 
+Stage 1: 2018-11-12  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2020-09-28
+Keywords: #asset #module #loading #dependency #binding #scheduling #resource #loader #data_structure #type
 GitHub Link: https://github.com/tc39/proposal-asset-references
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-28.md#asset-references-for-stage-1
 

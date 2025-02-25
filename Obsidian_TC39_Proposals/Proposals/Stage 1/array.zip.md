@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Array.zip and Array.zipKeyed
 Authors: Jordan Harband
 Champions: Jordan Harband
-Date: October 2024
+Last Presented: October 2024
+Stage Upgrades: 
+Stage 1: 2024-10-09  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2024-10-10
+Keywords: #iteration #synchronization #iterable #static_method #zip #zipkeyed #performance #compatibility #array_prototype #iteration_helpers
 GitHub Link: https://github.com/tc39/proposal-array-zip
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#arrayzip-for-stage-1-or-2-or-27
 

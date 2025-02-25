@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Maximally minimal mixins
 Authors: Justin Fagnani
 Champions: Justin Fagnani
-Date: January 2018
+Last Presented: January 2018
+Stage Upgrades: 
+Stage 1: 2017-07-25  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2019-12-06
+Keywords: #mixin #declarative #inheritance #factory #composition #static_analysis #ergonomics #protocol #trait #method
 GitHub Link: https://github.com/justinfagnani/proposal-mixins
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiie-maximally-minimal-mixins-proposal
 

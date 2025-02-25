@@ -1,11 +1,18 @@
-#Stage1Tag
-Classification: [[Unknown]]
-Human Validated: KW
+[[Stage 1]]
+Classification: [[API Change]]
+Human Validated: No
 Title: Reverse iteration
 Authors: Leo Balter, Jordan Harband
 Champions: Leo Balter, Jordan Harband
-Date: July 2019
+Last Presented: July 2019
+Stage Upgrades: 
+Stage 1: 2019-07-23  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2019-07-23
+Keywords: #repository #proposal #git #hooks #build #conflicts #specification #ecmarkup #documentation #versioning
 GitHub Link: https://github.com/tc39/proposal-reverseIterator
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#symbolreverse
 

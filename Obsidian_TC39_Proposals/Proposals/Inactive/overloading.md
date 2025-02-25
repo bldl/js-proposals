@@ -1,10 +1,18 @@
+[[Inactive]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Operator overloading
-Champions: Daniel Ehrenberg
-Reason for Withdrawal: Withdrawn
-Date: None
+Authors: Daniel Ehrenberg
+Champions: Withdrawn
+Last Presented: None
+Stage Upgrades: 
+Stage 1: 2020-04-24  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2023-12-18
+Keywords: #operator #overloading #numeric #vector #matrix #tensor #library #expressivity #predictability #syntax
 GitHub Link: https://github.com/tc39/proposal-operator-overloading
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#operator-overloading-for-stage-1
 

@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Wavy Dot: Syntactic Support for Promise Pipelining
 Authors: Mark Miller, Chip Morningstar, Michael Fig
 Champions: Mark Miller, Chip Morningstar, Michael Fig
-Date: December 2019
+Last Presented: December 2019
+Stage Upgrades: 
+Stage 1: 2019-07-12  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2020-04-26
+Keywords: #wavy_dot #promise #pipelining #syntax #internal_method #optional_chaining #operator #apply #expression #equivalence
 GitHub Link: https://github.com/tc39/proposal-wavy-dot
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#update-on-promise-pipelining
 

@@ -1,11 +1,18 @@
-#Stage_2_7Tag
+[[Stage 2.7]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Joint Iteration
 Authors: Michael Ficarra
 Champions: Michael Ficarra
-Date: June 2024
+Last Presented: June 2024
+Stage Upgrades: 
+Stage 1: 2023-09-27  
+Stage 2: 2024-02-08  
+Stage 2.7: 2024-06-21  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2024-10-28
+Keywords: #iterator #zip #zipwith #combination #variadic #aggregateerror #flatten #synchronization #tupling #iterable
 GitHub Link: https://github.com/tc39/proposal-joint-iteration
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-12.md#joint-iteration-for-stage-27
 

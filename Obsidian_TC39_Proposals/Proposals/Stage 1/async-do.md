@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: async do expressions
 Authors: Kevin Gibbons
 Champions: Kevin Gibbons
-Date: January 2021
+Last Presented: January 2021
+Stage Upgrades: 
+Stage 1: 2021-01-15  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2021-02-02
+Keywords: #asynchronous #context #syntax #operation #expression #promise #await #fetch #script #single
 GitHub Link: https://github.com/tc39/proposal-async-do-expressions
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#async-do-expressions
 

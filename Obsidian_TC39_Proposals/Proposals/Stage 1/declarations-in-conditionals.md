@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Declarations in Conditionals
 Authors: Devin Rousso
 Champions: Devin Rousso
-Date: October 2019
+Last Presented: October 2019
+Stage Upgrades: 
+Stage 1: 2019-10-03  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2022-01-24
+Keywords: #declarations #conditionals #visibility #performance #let #const #transpilation #evaluation #variables #scoping
 GitHub Link: https://github.com/tc39/proposal-Declarations-in-Conditionals
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#declarations-in-conditionals
 

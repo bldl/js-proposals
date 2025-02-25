@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Decimal
 Authors: Daniel Ehrenberg, Andrew Paprocki
 Champions: Philip Chimento, Andrew Paprocki, Jesse Alama
-Date: December 2021
+Last Presented: December 2021
+Stage Upgrades: 
+Stage 1: 2019-10-23  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2024-12-11
+Keywords: #decimal #representation #precision #mathematics #currency #conversion #string_formatting #rounding #Decimal128 #implementation
 GitHub Link: https://github.com/tc39/proposal-decimal
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#decimals
 

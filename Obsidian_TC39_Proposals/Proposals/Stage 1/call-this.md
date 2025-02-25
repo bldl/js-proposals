@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Call-this operator
 Authors: J.S. Choi
 Champions: J.S. Choi
-Date: October 2021
+Last Presented: October 2021
+Stage Upgrades: 
+Stage 1: 2021-11-11  
+Stage 2: 2016-10-07  
+Stage 2.7: NA  
+Stage 3: 2016-12-01  
+Stage 4: NA  
 Last Commit: 2023-05-05
+Keywords: #operator #binding #function #syntax #left-associative #arguments #precedence #receiver #usability #typeerror
 GitHub Link: https://github.com/tc39/proposal-call-this
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#bind-this-operator-for-stage-1
 

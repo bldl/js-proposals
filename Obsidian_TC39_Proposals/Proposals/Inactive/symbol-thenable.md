@@ -1,11 +1,18 @@
-#InactiveTag
+[[Inactive]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Symbol.thenable
-Champions: Gus Caplan, Jordan Harband, Myles Borins
-Reason for Withdrawal: Withdrawn; changing thenability on Module Namespace objects is not web compatible, and allowing non-Promise use of "then" is not worth slowing down all Promise operations
-Date: None
+Authors: Gus Caplan, Jordan Harband, Myles Borins
+Champions: Withdrawn; changing thenability on Module Namespace objects is not web compatible, and allowing non-Promise use of "then" is not worth slowing down all Promise operations
+Last Presented: None
+Stage Upgrades: 
+Stage 1: 2018-04-09  
+Stage 2: 2018-05-11  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2018-05-12
+Keywords: #thenable #promise #resolution #module_namespace_object #interop #dynamic_import #blacklisting #symbol #protocol #behaviour
 GitHub Link: https://github.com/devsnek/proposal-symbol-thenable
 GitHub Note Link: https://github.com/tc39/notes/blob/def2ee0c04bc91612576237314a4f3b1fe2edaef/meetings/2018-05/may-24.md#symbolthenable-for-stage-1-or-2
 

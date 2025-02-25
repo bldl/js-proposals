@@ -1,11 +1,18 @@
-#InactiveTag
-Classification: [[Unknown]]
-Human Validated: KW
+[[Inactive]]
+Classification: [[API Change]]
+Human Validated: No
 Title: Date.parse fallback semantics
-Champions: Morgan Phillips
-Reason for Withdrawal: Inactive; likely replaced by [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]
-Date: None
+Authors: Morgan Phillips
+Champions: Inactive; likely replaced by [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]
+Last Presented: None
+Stage Upgrades: 
+Stage 1: 2016-05-27
+Stage 2: NA
+Stage 2.7: NA
+Stage 3: NA
+Stage 4: NA
 Last Commit: 2022-01-24
+Keywords: #date #parsing #input #withdrawn #uniform #standard #documentation #specification #commit #history
 GitHub Link: https://github.com/tc39/proposal-date-time-string-format
 GitHub Note Link: None
 

@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: class Access Expressions
 Authors: Ron Buckton
 Champions: Ron Buckton
-Date: September 2020
+Last Presented: September 2020
+Stage Upgrades: 
+Stage 1: 2018-05-11  
+Stage 2: 2018-07-11  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2020-09-09
+Keywords: #class_property #static_members #method_invocation #lexical_scope #function_environment #class_expression #private_methods #access_syntax #inheritance #error_handling
 GitHub Link: https://github.com/tc39/proposal-class-access-expressions
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-22.md#class-access-expressions-for-stage-2
 

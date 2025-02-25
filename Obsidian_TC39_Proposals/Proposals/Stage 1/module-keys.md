@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Module Keys
 Authors: Mike Samuel
 Champions: Mike Samuel
-Date: May 2018
+Last Presented: May 2018
+Stage Upgrades: 
+Stage 1: 2018-02-27
+Stage 2: NA
+Stage 2.7: NA
+Stage 3: NA
+Stage 4: NA
 Last Commit: 2019-07-01
+Keywords: #module_body #secure_communication #trusted_intermediary #access_restrictions #permissions #public_key #private_key #opaque_values #confidentiality #authenticity
 GitHub Link: https://github.com/tc39/proposal-module-keys
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-23.md#module-keys-strawman-for-stage-1
 

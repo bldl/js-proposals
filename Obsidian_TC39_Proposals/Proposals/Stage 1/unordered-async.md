@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Unordered Async Iterator Helpers
 Authors: Michael Ficarra
 Champions: Michael Ficarra
-Date: July 2024
+Last Presented: July 2024
+Stage Upgrades: 
+Stage 1: 2024-07-17  
+Stage 2: 2024-08-07  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2024-08-07
+Keywords: #async_iterator #unordered #concurrency #promises #iterators #prototype #helpers #transform #throughput #queueing
 GitHub Link: https://github.com/tc39/proposal-unordered-async-iterator-helpers
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-30.md#unordered-async-iterator-helpers-for-stage-1
 

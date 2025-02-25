@@ -1,11 +1,18 @@
-#Stage_2_7Tag
+[[Stage 2.7]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Math.sumPrecise
 Authors: Kevin Gibbons
 Champions: Kevin Gibbons
-Date: April 2024
+Last Presented: April 2024
+Stage Upgrades: 
+Stage 1: 2023-12-18  
+Stage 2: 2024-02-21  
+Stage 2.7: 2024-04-09  
+Stage 3: 2024-10-27  
+Stage 4: NA  
 Last Commit: 2024-10-27
+Keywords: #sum #precision #floating_point #algorithm #iterable #reduce #identity #overflow #mathematics #numbers
 GitHub Link: https://github.com/tc39/proposal-math-sum
 GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#mathsumexact-for-stage-27
 

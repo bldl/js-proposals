@@ -51,26 +51,23 @@ def extractStageUpgrades(apiLink, commitHistory):
 
     return gptResponse
 
-#TODO implement this
-def insertStageUpgrades(path, githubLink, gptResponse):
-    
-    fullpath = path + githubLink
-    with open(fullpath, "r") as proposal:
-        proposal = file.read()
-
-        print(proposal)
-
 #---------------------------------------------------------------------------------#
 
 def getStageUpgrades(githubLink):
 
     githubLink = githubLink.split("/")[-1]
 
-    # master does not work if in catch clause, master needs to be processed before mai
-    stageRelatedCommits = getCommitMessages(githubLink)
+    try:
+        # master does not work if in catch clause, master needs to be processed before mai
+        stageRelatedCommits = getCommitMessages(githubLink)
 
-    gptResponse = extractStageUpgrades(githubLink, stageRelatedCommits)
+        gptResponse = extractStageUpgrades(githubLink, stageRelatedCommits)
     
-    return gptResponse
+        return gptResponse
+
+    except:
+        print("error with get commit messages for", githubLink)
+
+        return None
    
 

@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Negated in and instanceof operators
 Authors: Pablo Gorostiaga Belio
 Champions: Pablo Gorostiaga Belio
-Date: September 2023
+Last Presented: September 2023
+Stage Upgrades: 
+Stage 1: 2023-09-15  
+Stage 2: 2023-10-02  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2023-11-10
+Keywords: #in #negation #operators #readability #developer_experience #ergonomics #confusion #error_proneness #conditional #data_structure
 GitHub Link: https://github.com/tc39/proposal-negated-in-instanceof
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-28.md#negated-in-and-instanceof-operators-for-stage-1
 

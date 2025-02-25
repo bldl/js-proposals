@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Optional chaining in assignment LHS
 Authors: Nicolò Ribaudo
 Champions: Nicolò Ribaudo
-Date: July 2023
+Last Presented: July 2023
+Stage Upgrades: 
+Stage 1: 2023-07-16  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2024-01-23
+Keywords: #optional #chaining #assignment #property #object #syntax #optional_chaining #null_coalescing #undefined #expression
 GitHub Link: https://github.com/tc39/proposal-optional-chaining-assignment
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#optional-chaining-in-assignment-lhs-for-stage-1-or-2
 

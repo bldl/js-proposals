@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Built In Modules aka JS Standard Library
 Authors: Michael Saboff, Mattijs Hoitink
 Champions: Michael Saboff, Mattijs Hoitink, Mark Miller
-Date: September 2020
+Last Presented: September 2020
+Stage Upgrades: 
+Stage 1: 2018-07-14  
+Stage 2: 2020-09-09  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2020-09-24
+Keywords: #module #standard_library #import #module_resolution #prototype #shimming #polyfill #namespace #host #optimizations
 GitHub Link: https://github.com/tc39/proposal-built-in-modules
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#builtin-modules-for-stage-2
 

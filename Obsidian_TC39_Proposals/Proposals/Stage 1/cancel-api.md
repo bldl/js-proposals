@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Cancellation API
 Authors: Ron Buckton
 Champions: Ron Buckton, Brian Terlson
-Date: July 2018
+Last Presented: July 2018
+Stage Upgrades: 
+Stage 1: 2017-09-13  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2017-11-15
+Keywords: #cancellation #asynchronous #operations #coordination #tokens #background #fetching #observation #mechanism #iterators
 GitHub Link: https://github.com/tc39/proposal-cancellation
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#cancellation-update
 

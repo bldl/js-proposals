@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Function and Object Literal Decorators
 Authors: Ron Buckton
 Champions: Ron Buckton
-Date: February 2024
+Last Presented: February 2024
+Stage Upgrades: 
+Stage 1: 2024-01-09  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2024-01-25
+Keywords: #function #decorators #metadata #context #object_literal #validation #logging #authorization #expression #declaration
 GitHub Link: https://github.com/tc39/proposal-function-and-object-literal-element-decorators
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#function-and-object-literal-element-decorators-for-stage-1
 

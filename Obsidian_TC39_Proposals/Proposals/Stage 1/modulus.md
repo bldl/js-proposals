@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Modulus and Additional Integer Math
 Authors: Peter Hoddie
 Champions: Peter Hoddie
-Date: September 2020
+Last Presented: September 2020
+Stage Upgrades: 
+Stage 1: 2020-09-01  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2023-07-09
+Keywords: #integer_math #modulus #remainder #math_operations #static_methods #optimizations #signed_integers #random_integer #efficiency #cpu_architecture
 GitHub Link: https://github.com/tc39/proposal-integer-and-modulus-math
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#modulus-and-additional-integer-math-for-stage-1
 

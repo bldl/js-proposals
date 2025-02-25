@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: RegExp Extended Mode and Comments
 Authors: Ron Buckton
 Champions: Ron Buckton
-Date: October 2021
+Last Presented: October 2021
+Stage Upgrades: 
+Stage 1: 2021-10-15  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2021-10-28
+Keywords: #extended_mode #insignificant_whitespace #line_comments #inline_comments #regular_expressions #pattern_matching #multiline #flags #documentation #syntax
 GitHub Link: https://github.com/tc39/proposal-regexp-x-mode
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#regexp-extended-mode-and-comments
 

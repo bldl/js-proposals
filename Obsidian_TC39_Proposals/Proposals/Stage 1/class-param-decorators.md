@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Class Method Parameter Decorators
 Authors: Ron Buckton
 Champions: Ron Buckton
-Date: March 2023
+Last Presented: March 2023
+Stage Upgrades: 
+Stage 1: 2023-03-06  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2025-01-28
+Keywords: #decorators #dependency_injection #parameter_decorators #object_relational_mapping #metadata #validation #routing #marshaling #foreign_function_interface #constructor_parameters
 GitHub Link: https://github.com/tc39/proposal-class-method-parameter-decorators
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#class-constructor-and-method-parameter-decorators
 

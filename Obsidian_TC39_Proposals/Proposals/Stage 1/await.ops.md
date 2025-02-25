@@ -1,11 +1,18 @@
-#Stage1Tag
-Classification: [[Syntactic Change]]
-Human Validated: KW
+[[Stage 1]]
+Classification: [[Syntactic Change]] [[API Change]]
+Human Validated: No
 Title: await operations
 Authors: Jack Works
 Champions: Jack Works, Jordan Harband
-Date: July 2020
+Last Presented: July 2020
+Stage Upgrades: 
+Stage 1: 2020-06-04  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2022-11-20
+Keywords: #concurrent #promise #utils #syntax #simplification #execution #operations #functions #abstraction #handling
 GitHub Link: https://github.com/tc39/proposal-await.ops
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#await-operations-for-stage-1
 

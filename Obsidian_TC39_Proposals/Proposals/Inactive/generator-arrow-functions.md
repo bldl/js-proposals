@@ -1,11 +1,18 @@
-#InactiveTag
+[[Inactive]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Generator arrow functions
-Champions: Sergey Rubanov, Brendan Eich
-Reason for Withdrawal: Withdrawn: no interested champions in February 2024
-Date: None
+Authors: Sergey Rubanov, Brendan Eich
+Champions: Withdrawn: no interested champions in February 2024
+Last Presented: None
+Stage Upgrades: 
+Stage 1: 2019-10-21  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2020-07-24
+Keywords: #generator #arrow #function #syntax #keyword #hazard #react #expressions #use_cases #generators
 GitHub Link: https://github.com/tc39/proposal-generator-arrow-functions
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-09/sept-27.md#11ic-generator-arrow-functions
 

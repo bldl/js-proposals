@@ -1,11 +1,18 @@
-#InactiveTag
+[[Inactive]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: ArrayBuffer.prototype.transfer
-Champions: Domenic Denicola, Shu-yu Guo
-Reason for Withdrawal: Withdrawn: superseded by [Resizable Buffers][resizable-buffers]
-Date: None
+Authors: Domenic Denicola, Shu-yu Guo
+Champions: Withdrawn: superseded by [Resizable Buffers][resizable-buffers]
+Last Presented: None
+Stage Upgrades: 
+Stage 1: 2022-12-02  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: 2023-02-01  
+Stage 4: 2024-07-12  
 Last Commit: 2024-07-12
+Keywords: #arraybuffer #transfer #detach #ownership #realloc #fixed_length #detached #serialization #performance #memory
 GitHub Link: https://github.com/domenic/proposal-arraybuffer-transfer
 GitHub Note Link: None
 

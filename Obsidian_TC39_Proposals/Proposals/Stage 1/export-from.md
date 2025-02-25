@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: export v from "mod"; statements
 Authors: Lee Byron
 Champions: Ben Newman, John-David Dalton
-Date: July 2017
+Last Presented: July 2017
+Stage Upgrades: 
+Stage 1: 2016-03-29  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2021-10-15
+Keywords: #export #module #default #symmetric #export_from #named_export #compound_import #developer_experience #simplified_syntax #local_scope
 GitHub Link: https://github.com/tc39/proposal-export-default-from
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-27.md#export-default-from
 

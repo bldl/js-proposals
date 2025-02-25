@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Object pick/omit
 Authors: Hemanth HM, Aleen
 Champions: Hemanth HM
-Date: July 2022
+Last Presented: July 2022
+Stage Upgrades: 
+Stage 1: 2022-07-22  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2022-08-05
+Keywords: #object #properties #filtering #ergonomics #prototype #destructuring #keys #new_object #dynamic #configuration
 GitHub Link: https://github.com/tc39/proposal-object-pick-or-omit
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#ergonomic-dynamic-object-restructuring
 

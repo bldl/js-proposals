@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Observable
 Authors: Jafar Husain
 Champions: Jafar Husain, Mark Miller
-Date: May 2017
+Last Presented: May 2017
+Stage Upgrades: 
+Stage 1: 2015-05-01  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2019-11-01
+Keywords: #observable #subscriber #subscription #observer #asynchronous #compositional #lazy #event #stream #cleanup
 GitHub Link: https://github.com/tc39/proposal-observable
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-25.md#17iiia-observable-proposal-to-stage-2
 

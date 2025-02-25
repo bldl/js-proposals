@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Pattern Matching
 Authors: Jordan Harband, Mark Cohen, Tab Atkins, Daniel Rosenwasser, Jack Works, Ross Kirsling
 Champions: Jordan Harband, Mark Cohen, Tab Atkins, Daniel Rosenwasser, Jack Works, Ross Kirsling
-Date: March 2022
+Last Presented: March 2022
+Stage Upgrades: 
+Stage 1: 2018-05-25  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2024-09-27
+Keywords: #pattern #matcher #binding #exhaustiveness #custom_matchers #and_patterns #or_patterns #array_patterns #object_patterns #expression_semantics
 GitHub Link: https://github.com/tc39/proposal-pattern-matching
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#pattern-matching-for-stage-2
 

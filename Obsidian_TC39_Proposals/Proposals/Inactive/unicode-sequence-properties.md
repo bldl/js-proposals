@@ -1,11 +1,18 @@
-#InactiveTag
-Classification: [[Syntactic Change]] 
-Human Validated: KW
+[[Inactive]]
+Classification: [[API Change]] [[Syntactic Change]]
+Human Validated: No
 Title: Sequence properties in Unicode property escapes
-Champions: Mathias Bynens
-Reason for Withdrawal: Withdrawn; subsumed by [RegExp v flag with set notation + properties of strings][regexp-v-flag] proposal
-Date: None
+Authors: Mathias Bynens
+Champions: Withdrawn; subsumed by [RegExp v flag with set notation + properties of strings][regexp-v-flag] proposal
+Last Presented: None
+Stage Upgrades: 
+Stage 1: 2018-05-22  
+Stage 2: 2018-09-27  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2022-05-20
+Keywords: #unicode #property #regex #escapes #characters #sequences #emoji #regular_expression #code_points #syntax
 GitHub Link: https://github.com/tc39/proposal-regexp-unicode-sequence-properties
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#update-on-sequence-property-escapes-in-unicode-regular-expressions
 

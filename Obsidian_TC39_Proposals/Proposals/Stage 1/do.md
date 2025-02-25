@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: do expressions
 Authors: Dave Herman
 Champions: Kevin Gibbons
-Date: June 2020
+Last Presented: June 2020
+Stage Upgrades: 
+Stage 1: 2017-09-13  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2021-03-03
+Keywords: #expression_oriented #conditional_statements #variability #completion_value #early_errors #declarations #hoisting #templating #lexical_scope #control_flow
 GitHub Link: https://github.com/tc39/proposal-do-expressions
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-1.md#do-expressions-for-stage-2
 

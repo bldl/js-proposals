@@ -1,11 +1,18 @@
-#InactiveTag|
+[[Inactive]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Updates to Tail Calls to include an explicit syntactic opt-in
-Champions: Brian Terlson, Eric Faust
-Reason for Withdrawal: Inactive
-Date: None
+Authors: Brian Terlson, Eric Faust
+Champions: Inactive
+Last Presented: None
+Stage Upgrades: 
+Stage 1: 2016-04-12  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2016-05-07
+Keywords: #tail_calls #stack_frames #code_optimization #developer_tools #error_handling #function_call #performance_characteristics #developer_intent #debugging_workflows #syntactic_opt_in
 GitHub Link: https://github.com/tc39/proposal-ptc-syntax
 GitHub Note Link: None
 

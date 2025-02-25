@@ -1,11 +1,18 @@
-#Stage1Tag
-Classification: [[API Change]]
-Human Validated: KW
+[[Stage 1]]
+Classification: [[API Change]] [[Syntactic Change]]
+Human Validated: No
 Title: Sync Imports
 Authors: Guy Bedford
 Champions: Guy Bedford
-Date: December 2024
+Last Presented: None
+Stage Upgrades: 
+Stage 1: 2024-12-05  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2024-12-05
+Keywords: #synchronous #module #import #dynamic_loading #error_handling #registry #conditional_loading #lazy_loading #module_expression #module_declaration
 GitHub Link: https://github.com/guybedford/proposal-import-sync
 GitHub Note Link: None
 

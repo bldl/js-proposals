@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Semantic Change]]
-Human Validated: KW
+Human Validated: No
 Title: OOM Fails Fast
 Authors: Mark Miller
 Champions: Mark Miller
-Date: December 2019
+Last Presented: December 2019
+Stage Upgrades: 
+Stage 1: 2019-09-21  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2022-10-13
+Keywords: #out_of_memory #termination #inconsistent_state #agent_cluster #unit_of_preemptive_termination #recovery #weak_references #doubly_linked_list #coupling #corrupted_progress
 GitHub Link: https://github.com/tc39/proposal-oom-fails-fast
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#update-on-oom-must-fail-fast
 

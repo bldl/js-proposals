@@ -1,11 +1,18 @@
-#InactiveTag
+[[Inactive]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Function.pipe and flow
-Champions: J.S. Choi
-Reason for Withdrawal: Withdrawn: [rejected for stage 1][pipe-flow-notes]
-Date: None
+Authors: J.S. Choi
+Champions: Withdrawn: [rejected for stage 1][pipe-flow-notes]
+Last Presented: None
+Stage Upgrades: 
+Stage 1: 2022-08-17  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2022-08-20
+Keywords: #function #pipe #flow #compose #callback #composition #application #unary #async #promise
 GitHub Link: https://github.com/tc39/proposal-function-pipe-flow
 GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-21.md#functionpipe--flow-for-stage-1
 

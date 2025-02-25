@@ -1,11 +1,18 @@
-#InactiveTag
+[[Inactive]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: UUID
-Champions: Benjamin Coe
-Reason for Withdrawal: Withdrawn; moved to `crypto.randomUUID()` in February 2023
-Date: None
+Authors: Benjamin Coe
+Champions: Withdrawn; moved to `crypto.randomUUID()` in February 2023
+Last Presented: None
+Stage Upgrades: 
+Stage 1: 2019-04-07  
+Stage 2: 2019-10-03  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2021-04-02
+Keywords: #uuid #identifier #randomness #entropy #crypto #library #api #generation #security #pseudorandom
 GitHub Link: https://github.com/tc39/proposal-uuid
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#uuid-for-stage-1
 

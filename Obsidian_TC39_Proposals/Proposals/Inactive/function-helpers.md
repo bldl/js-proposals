@@ -1,11 +1,18 @@
-#InactiveTag
+[[Inactive]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Function helpers
-Champions: J. S. Choi
-Reason for Withdrawal: Presented and rejected before Stage 1 on 2021-10; split up into multiple subsequent proposals
-Date: None
+Authors: J. S. Choi
+Champions: Presented and rejected before Stage 1 on 2021-10; split up into multiple subsequent proposals
+Last Presented: None
+Stage Upgrades: 
+Stage 1: 2021-09-30  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2021-11-11
+Keywords: #function_helpers #function_composition #callback_manipulation #promise_handling #function_standardization #developer_ergonomics #function_utilities #unary_functions #function_piping #function_declaration
 GitHub Link: https://github.com/tc39/proposal-function-helpers
 GitHub Note Link: None
 

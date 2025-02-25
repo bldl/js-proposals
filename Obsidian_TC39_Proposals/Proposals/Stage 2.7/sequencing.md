@@ -1,11 +1,18 @@
-#Stage_2_7Tag
+[[Stage 2.7]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Iterator Sequencing
 Authors: Michael Ficarra
 Champions: Michael Ficarra
-Date: October 2024
+Last Presented: October 2024
+Stage Upgrades: 
+Stage 1: 2023-09-27  
+Stage 2: 2024-06-21  
+Stage 2.7: 2024-10-08  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2024-12-03
+Keywords: #iterator #sequencing #concatenation #generator #laziness #data_structure #functionality #ergonomics #flatMap #infinite
 GitHub Link: https://github.com/tc39/proposal-iterator-sequencing
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-sequencing-for-stage-27
 

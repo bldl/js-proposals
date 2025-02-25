@@ -1,11 +1,18 @@
-#Stage1Tag
-Classification: [[Syntactic Change]] [[Semantic Change]]
-Human Validated: KW
+[[Stage 1]]
+Classification: [[Syntactic Change]]
+Human Validated: No
 Title: First-class protocols
 Authors: Michael Ficarra
 Champions: Michael Ficarra
-Date: July 2018
+Last Presented: July 2018
+Stage Upgrades: 
+Stage 1: 2017-09-27  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2022-11-28
+Keywords: #protocol #symbols #protocols #iteration #functor #type_classes #traits #mixin #methods #namespace
 GitHub Link: https://github.com/tc39/proposal-first-class-protocols
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#updates-on-first-class-protocols
 

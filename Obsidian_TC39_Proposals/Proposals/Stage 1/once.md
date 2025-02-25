@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Function once
 Authors: J. S. Choi
 Champions: J. S. Choi
-Date: March 2022
+Last Presented: March 2022
+Stage Upgrades: 
+Stage 1: 2022-03-31  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2022-07-10
+Keywords: #callback #invocation #unique #function #execution #results #arguments #real_world #standardization #promise
 GitHub Link: https://github.com/tc39/proposal-function-once
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#functionprototypeonce-for-stage-1
 

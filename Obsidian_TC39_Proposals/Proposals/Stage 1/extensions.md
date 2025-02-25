@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Extensions
 Authors: HE Shi-Jun
 Champions: HE Shi-Jun
-Date: November 2020
+Last Presented: November 2020
+Stage Upgrades: 
+Stage 1: 2020-12-29  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2023-01-18
+Keywords: #extension_methods #accessors #prototypes #set #array #namespace #binding #operator #selectors #virtual_methods
 GitHub Link: https://github.com/tc39/proposal-extensions
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-19.md#extensions-for-stage-1
 

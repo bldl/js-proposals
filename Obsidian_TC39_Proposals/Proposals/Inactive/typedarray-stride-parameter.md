@@ -1,11 +1,18 @@
-#InactiveTag
+[[Inactive]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: TypedArray stride parameter
-Champions: Shu-yu Guo
-Reason for Withdrawal: [Withdrawn][typedarray-stride-parameter-notes]: concern about performance implications, and the proposal is not expressive enough
-Date: None
+Authors: Shu-yu Guo
+Champions: [Withdrawn][typedarray-stride-parameter-notes]: concern about performance implications, and the proposal is not expressive enough
+Last Presented: None
+Stage Upgrades: 
+Stage 1: 2020-01-23  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2020-03-17
+Keywords: #arraybuffer #stride #float32array #imageData #webgl #typedarray #vertex_attribute #buffer #offset #length
 GitHub Link: https://github.com/tc39/proposal-typedarray-stride
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-21.md#withdrawing-typedarray-stride
 

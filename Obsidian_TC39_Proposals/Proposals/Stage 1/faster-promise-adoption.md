@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Semantic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Faster Promise adoption
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell
-Date: June 2022
+Last Presented: June 2022
+Stage Upgrades: 
+Stage 1: 2022-06-06  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2022-06-08
+Keywords: #promise #adoption #settling #thenable #reentrancy #resolution #inner #outer #fast_path #ticks
 GitHub Link: https://github.com/tc39/proposal-faster-promise-adoption
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#remove-job-from-promise-resolve-functions
 

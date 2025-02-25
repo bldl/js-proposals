@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Mass Proxy Revocation
 Authors: Alex Vincent
 Champions: Mark S. Miller, Jack Works
-Date: November 2022
+Last Presented: November 2022
+Stage Upgrades: 
+Stage 1: 2022-12-01  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2022-12-01
+Keywords: #membrane #revocation #proxy #signals #garbage_collection #weakmap #symbol #memory_optimization #object_graph #realm
 GitHub Link: https://github.com/tc39/proposal-mass-proxy-revocation
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#mass-proxy-revocation-for-stage-1
 

@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: String.prototype.codePoints
 Authors: Ingvar Stepanyan
 Champions: Mathias Bynens
-Date: May 2018
+Last Presented: May 2018
+Stage Upgrades: 
+Stage 1: 2017-11-29  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2019-10-21
+Keywords: #code_points #iterator #tokenisation #position #code_point #lexer #identifier #lookahead_iterator #string_management #performance
 GitHub Link: https://github.com/tc39/proposal-string-prototype-codepoints
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-22.md#stringprototypecodepoints-for-stage-2
 

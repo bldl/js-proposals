@@ -1,11 +1,18 @@
-#InactiveTag
-Classification: [[Semantic Change]]
-Human Validated: KW
+[[Inactive]]
+Classification: [[Syntactic Change]]
+Human Validated: No
 Title: "use module"
-Champions: Dave Herman
-Reason for Withdrawal: Inactive; champion does not wish to pursue
-Date: None
+Authors: Dave Herman
+Champions: Inactive; champion does not wish to pursue
+Last Presented: None
+Stage Upgrades: 
+Stage 1: 2017-05-15  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2022-01-24
+Keywords: #module #pragma #syntax #portability #compatibility #environment #host #source #filenames #parsing
 GitHub Link: https://github.com/tc39/proposal-modules-pragma
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-26.md#9ivb-modulescript-pragma-for-stage-2
 

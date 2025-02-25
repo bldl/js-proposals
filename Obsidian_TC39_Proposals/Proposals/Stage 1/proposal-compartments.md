@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Compartments
 Authors: Bradley Farias
 Champions: Bradley Farias, Mark S. Miller, Caridy Patiño, J.F. Paradis, Patrick Soquet, Kris Kowal
-Date: March 2020
+Last Presented: March 2020
+Stage Upgrades: 
+Stage 1: 2020-03-20  
+Stage 2: 2020-04-07  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2022-12-19
+Keywords: #compartmentalization #virtualization #evaluators #modules #module_sources #static_analysis #import_reflection #scope_isolation #power_limitations #host_behaviors
 GitHub Link: https://github.com/tc39/proposal-compartments
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-03/april-1.md#compartments-for-stage-1
 

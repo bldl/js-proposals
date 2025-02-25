@@ -1,11 +1,18 @@
-#InactiveTag
+[[Inactive]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Improving iteration on Objects
-Champions: Jonathan Keslin
-Reason for Withdrawal: Withdrawn: concern about need for such an API
-Date: None
+Authors: Jonathan Keslin
+Champions: Withdrawn: concern about need for such an API
+Last Presented: None
+Stage Upgrades: 
+Stage 1: 2019-10-01  
+Stage 2: 2020-01-24  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2020-10-30
+Keywords: #iterator #iteration #object #map #static_method #key_value #entries #keys #values #performance
 GitHub Link: https://github.com/tc39/proposal-object-iteration
 GitHub Note Link: None
 

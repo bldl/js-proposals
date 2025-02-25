@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: DataView get/set Uint8Clamped methods
 Authors: Jordan Harband
 Champions: Jordan Harband
-Date: July 2023
+Last Presented: July 2023
+Stage Upgrades: 
+Stage 1: 2023-06-09  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2024-10-10
+Keywords: #dataview #typed_array #uint8clamped #get_method #set_method #arraybuffer #functionality #dispatch #support #methods
 GitHub Link: https://github.com/tc39/proposal-dataview-get-set-uint8clamped
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#dataview-getset-uint8clamped-methods-for-stage-1-or-2-or-3
 

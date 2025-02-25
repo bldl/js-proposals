@@ -1,11 +1,18 @@
-#Stage1Tag
-Classification: [[API Change]]
-Human Validated: KW
+[[Stage 1]]
+Classification: [[Syntactic Change]]
+Human Validated: No
 Title: Double-Ended Iterator and Destructuring
 Authors: HE Shi-Jun
 Champions: HE Shi-Jun
-Date: September 2020
+Last Presented: September 2020
+Stage Upgrades: 
+Stage 1: 2020-09-10  
+Stage 2: 2022-01-23  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2022-07-21
+Keywords: #double_ended #iterator #destructuring #generator #memory_management #sequence #dequeue #iterable #parameter_unpacking #performance
 GitHub Link: https://github.com/tc39/proposal-deiter
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#double-ended-iterator-and-destructuring-for-stage-1
 

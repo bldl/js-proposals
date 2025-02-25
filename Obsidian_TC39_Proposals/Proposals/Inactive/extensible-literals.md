@@ -1,11 +1,18 @@
-#InactiveTag
+[[Inactive]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Extensible numeric literals
-Champions: Daniel Ehrenberg
-Reason for Withdrawal: Withdrawn
-Date: None
+Authors: Daniel Ehrenberg
+Champions: Withdrawn
+Last Presented: None
+Stage Upgrades: 
+Stage 1: 2017-07-25  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2020-07-07
+Keywords: #numeric #suffix #overloading #literal #decimal #scoping #caching #parsing #precision #custom
 GitHub Link: https://github.com/tc39/proposal-extended-numeric-literals
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-21.md#numeric-literal-suffixes-update-separate-namespace-version
 

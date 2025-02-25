@@ -1,16 +1,23 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Type Annotations
 Authors: Gil Tayar, Daniel Rosenwasser, Romulo Cintra, Rob Palmer
 Champions: Daniel Rosenwasser, Romulo Cintra, Rob Palmer
-Date: March 2022
-Last Commit: 2024-11-13
+Last Presented: March 2022
+Stage Upgrades: 
+Stage 1: 2022-03-31  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
+Last Commit: 2025-02-15
+Keywords: #type_annotations #type_checker #type_erasure #type_declarations #generics #optional_parameters #type_assertions #type_exports #static_typing #type_systems
 GitHub Link: https://github.com/tc39/proposal-type-annotations
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#types-as-comments-for-stage-1
 
 # Proposal Description:
-> ⚠️ *This document has not been updated regularly. See TC39 meeting notes from 2022 ([March 29](https://github.com/tc39/notes/blob/main/meetings/2022-03/mar-29.md#types-as-comments-for-stage-1), [March 31](https://github.com/tc39/notes/blob/main/meetings/2022-03/mar-31.md#types-as-comments-continuation)) and 2023 ([March 22](https://github.com/tc39/notes/blob/main/meetings/2023-03/mar-22.md#type-annotations-proposal-update)) for the most up-to-date information.*
+> ⚠️ *This document has not been updated regularly. See TC39 meeting notes from 2022 ([March 29](https://github.com/tc39/notes/blob/main/meetings/2022-03/mar-29.md#types-as-comments-for-stage-1), [March 31](https://github.com/tc39/notes/blob/main/meetings/2022-03/mar-31.md#types-as-comments-continuation)) and 2023 ([March 22](https://github.com/tc39/notes/blob/main/meetings/2023-03/mar-22.md#type-annotations-proposal-update), [September 27](https://github.com/tc39/notes/blob/main/meetings/2023-09/september-27.md#type-annotations-stage-1-update-and-discussion)) for the most up-to-date information.*
 
 # ECMAScript proposal: Type Annotations
 

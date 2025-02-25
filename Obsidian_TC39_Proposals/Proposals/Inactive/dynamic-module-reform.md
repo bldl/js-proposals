@@ -1,11 +1,18 @@
-#InactiveTag
+[[Inactive]]
 Classification: [[Semantic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Dynamic Module Reform
-Champions: Caridy Patiño
-Reason for Withdrawal: Withdrawn: we decided to preserve the current semantics
-Date: None
+Authors: Caridy Patiño
+Champions: Withdrawn: we decided to preserve the current semantics
+Last Presented: None
+Stage Upgrades: 
+Stage 1: 2016-12-14  
+Stage 2: 2017-03-22  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2017-04-06
+Keywords: #dynamic #module #evaluation #dependencies #import #binding #circular #defer #resolution #semantics
 GitHub Link: https://github.com/tc39/proposal-dynamic-modules
 GitHub Note Link: None
 

@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: BigInt Math
 Authors: J.S. Choi
 Champions: J.S. Choi
-Date: August 2021
+Last Presented: August 2021
+Stage Upgrades: 
+Stage 1: 2021-09-03  
+Stage 2: 2016-10-07  
+Stage 2.7: NA  
+Stage 3: 2016-12-01  
+Stage 4: NA  
 Last Commit: 2022-07-11
+Keywords: #bigint #math #numeric #operations #overloading #precision #financial #scientific #type #methods
 GitHub Link: https://github.com/tc39/proposal-bigint-math
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-26.md#bigint-math-update
 

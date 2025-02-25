@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Iterator unique
 Authors: Michael Ficarra
 Champions: Michael Ficarra
-Date: February 2024
+Last Presented: February 2024
+Stage Upgrades: 
+Stage 1: 2024-02-08  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2024-02-08
+Keywords: #iterator #uniqueness #filter #mapper #duplicates #set #weakset #infinite_iterators #composite_keys #transform
 GitHub Link: https://github.com/tc39/proposal-iterator-unique
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#iterator-unique-for-stage-1
 

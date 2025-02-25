@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Error stacks
 Authors: Jordan Harband, Mark Miller
 Champions: Jordan Harband, Mark Miller
-Date: January 2017
+Last Presented: January 2017
+Stage Upgrades: 
+Stage 1: 2016-10-24  
+Stage 2: 2017-01-27  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2024-02-08
+Keywords: #error #stack_trace #standardization #security #implementation #getter #setter #browser_behavior #compatibility #data_property
 GitHub Link: https://github.com/tc39/proposal-error-stacks
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-01/jan-25.md#15iiia-error-stacks-seeking-stage-1
 

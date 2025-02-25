@@ -35,30 +35,6 @@
             "id": "367146898f769da4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis/Keywords/Terms.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Terms"
-            }
-          },
-          {
-            "id": "bb4ab4237b0fe28a",
-            "type": "leaf",
-            "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
@@ -66,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#module",
+                "query": "tag:#Stage1Tag OR tag:#Stage4Tag OR tag:#InactiveTag OR tag:#Stage2Tag OR tag:#Stage3Tag OR tag:#Stage0Tag OR tag:#Stage_2_7Tag",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,8 +95,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -213,43 +188,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bb4ab4237b0fe28a",
+  "active": "367146898f769da4",
   "lastOpenFiles": [
-    "Proposals/Stage 4/array-includes.md",
-    "Proposals/Stage 4/exponentiation.md",
-    "Proposals/Stage 4/object-values-entries.md",
-    "Analysis/Changes/API Change.md",
-    "Proposals/Stage 4/string-padding.md",
-    "Proposals/Stage 4/object-gopds.md",
-    "Proposals/Stage 4/function-commas.md",
-    "Proposals/Stage 4/async-await.md",
-    "Proposals/Stage 4/atomics.md",
-    "Proposals/Stage 4/template-literal-lift.md",
-    "Proposals/Stage 4/dot-all.md",
-    "Proposals/Stage 4/named-groups.md",
-    "Proposals/Stage 4/object-rest-spread.md",
-    "Proposals/Stage 4/lookbehind.md",
-    "Proposals/Stage 4/unicode-escapes.md",
-    "Analysis/Keywords/Terms.md",
-    "Proposals/Stage 4/finally.md",
-    "Proposals/Stage 4/async-iteration.md",
-    "Proposals/Stage 4/optional-catch.md",
-    "Proposals/Stage 4/json-superset.md",
-    "Proposals/Stage 4/symbol-description.md",
-    "Proposals/Stage 4/function-to-string.md",
-    "Proposals/Stage 4/object-from-entries.md",
-    "Proposals/Stage 4/well-formed-stringify.md",
-    "Proposals/Stage 4/trims.md",
-    "Proposals/Stage 4/flat.md",
+    "Proposals/Inactive/unicode-sequence-properties.md",
+    "Proposals/Inactive/arraylast.md",
+    "Proposals/Inactive/signbit.md",
+    "Proposals/Inactive/generator-arrow-functions.md",
+    "Proposals/Inactive/more-math.md",
+    "Proposals/Inactive/uuid.md",
+    "Proposals/Inactive/json-tryparse.md",
+    "Proposals/Inactive/extensible-literals.md",
+    "Proposals/Inactive/overloading.md",
+    "Proposals/Inactive/cleanup-some.md",
+    "Proposals/Inactive/symbol-thenable.md",
+    "Proposals/Inactive/pipe-flow.md",
+    "Proposals/Inactive/modules-pragma.md",
+    "Proposals/Inactive/function-helpers.md",
+    "Proposals/Inactive/deprecated.md",
+    "Proposals/Inactive/buffer-transfer.md",
+    "Proposals/Inactive/string-at.md",
+    "Proposals/Inactive/object-iteration.md",
+    "Proposals/Inactive/unused-params.md",
+    "Proposals/Inactive/typedarray-stride-parameter.md",
+    "Proposals/Inactive/fromimport.md",
+    "Proposals/Inactive/spaceship.md",
+    "Proposals/Inactive/refcollection.md",
+    "Proposals/Inactive/re-atomic-groups.md",
+    "Proposals/Inactive/blocks.md",
+    "Proposals/Inactive/zones.md",
+    "Proposals/Inactive/Node",
+    "Proposals/Stage 0/Node",
+    "Proposals/Stage 1/Node",
+    "Proposals/Stage 2/Node",
+    "Proposals/Stage 2.7/Node",
+    "Proposals/Stage 3/Node",
     "Proposals/Stage 0",
     "Proposals/Stage 1",
     "Proposals/Stage 2.7",
-    "Proposals/Stage 3",
-    "Proposals/Stage 4/Node",
-    "Proposals/Stage 4",
-    "Proposals/Stage_0",
-    "Proposals/Stage_1",
-    "Proposals/Stage_2",
-    "Proposals/Stage_2_7"
+    "Proposals/Stage 3"
   ]
 }

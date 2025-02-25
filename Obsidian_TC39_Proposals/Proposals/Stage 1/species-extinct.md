@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Semantic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Restrict subclassing support in built-in methods
 Authors: Yulia Startsev, Shu-yu Guo
 Champions: Yulia Startsev, Shu-yu Guo
-Date: June 2020
+Last Presented: June 2020
+Stage Upgrades: 
+Stage 1: 2020-05-21  
+Stage 2: 2020-07-23  
+Stage 2.7: NA  
+Stage 3: 2020-09-12  
+Stage 4: NA  
 Last Commit: 2024-04-30
+Keywords: #subclassing #implementation #security #complexity #prototypes #TypedArray #compatibility #performance #web #vulnerabilities
 GitHub Link: https://github.com/tc39/proposal-rm-builtin-subclassing
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-3.md#restrict-subclassing-support-for-built-in-methods-stage-1
 

@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Array filtering
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell
-Date: February 2020
+Last Presented: February 2020
+Stage Upgrades: 
+Stage 1: 2019-10-24  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2021-07-20
+Keywords: #array #filterReject #filter #data_structure #confusion #intuitive #removal #keeping #polyfill #partition
 GitHub Link: https://github.com/tc39/proposal-array-filtering
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#status-update-on-array-filtering
 

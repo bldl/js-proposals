@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Class Brand Checks
 Authors: HE Shi-Jun
 Champions: HE Shi-Jun
-Date: January 2021
+Last Presented: January 2021
+Stage Upgrades: 
+Stage 1: 2021-01-15  
+Stage 2: 2022-01-24  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2022-01-25
+Keywords: #brand_check #instanceof #class_brand #meta_method #type_checking #programmer_intention #prototype_chain #private_fields #object_interoperability #symbol_hasInstance
 GitHub Link: https://github.com/tc39/proposal-class-brand-check
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#class-brand-checks
 

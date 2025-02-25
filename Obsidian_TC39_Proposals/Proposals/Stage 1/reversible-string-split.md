@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Reversible string split
 Authors: Luca Casonato
 Champions: Luca Casonato
-Date: January 2022
+Last Presented: January 2022
+Stage Upgrades: 
+Stage 1: 2022-01-25  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2022-01-26
+Keywords: #reversible #split #string #separator #remainder #prefix #delimited #algorithm #substrings #method
 GitHub Link: https://github.com/tc39/proposal-reversible-string-split
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-01/jan-25.md#reversible-string-split
 

@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Policy Maps and Sets
 Authors: J.S. Choi
 Champions: J.S. Choi, Hemanth HM
-Date: July 2022
+Last Presented: July 2022
+Stage Upgrades: 
+Stage 1: 2022-03-30  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2022-08-20
+Keywords: #cache #memory #maps #sets #lru #lfu #fifo #lifo #eviction #memoization
 GitHub Link: https://github.com/tc39/proposal-policy-map-set
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#policy-maps-and-sets-for-stage-1
 

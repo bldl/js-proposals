@@ -1,11 +1,18 @@
-#Stage1Tag
-Classification: [[Semantic Change]] [[Syntactic Change]] 
-Human Validated: KW
+[[Stage 1]]
+Classification: [[API Change]]
+Human Validated: No
 Title: Await Dictionary
 Authors: Alexander J. Vincent
 Champions: Ashley Claymore, Jordan Harband, Chris de Almeida
-Date: March 2023
+Last Presented: March 2023
+Stage Upgrades: 
+Stage 1: 2023-03-24  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2023-03-25
+Keywords: #promise #properties #parallel #waterfall #object #entries #requests #combining #implementation #polyfill
 GitHub Link: https://github.com/tc39/proposal-await-dictionary
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#await-dictionary-for-stage-1
 

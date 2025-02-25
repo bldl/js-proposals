@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Math.seededRandoms()
 Authors: Tab Atkins
 Champions: Tab Atkins
-Date: January 2018
+Last Presented: January 2018
+Stage Upgrades: 
+Stage 1: 2017-12-23  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2024-05-15
+Keywords: #prng #seeded #random #reproducibility #bigint #pseudo_random #game_development #testing #uniform_distribution #cloning
 GitHub Link: https://github.com/tc39/proposal-seeded-random
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iif-mathseededrandoms-for-stage-1
 

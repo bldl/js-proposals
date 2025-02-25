@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Signals
 Authors: Rob Eisenberg, Daniel Ehrenberg
 Champions: Daniel Ehrenberg, Yehuda Katz, Jatin Ramanathan, Shay Lewis, Kristen Hewell Garrett, Dominic Gannaway, Preston Sego, Milo M, Rob Eisenberg
-Date: April 2024
+Last Presented: April 2024
+Stage Upgrades: 
+Stage 1: 2023-08-14  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2025-01-01
+Keywords: #signal #reactivity #dependency_tracking #memoization #computed_signal #state_signal #one_way_data_flow #auto_tracking #declarative_programming #lazy_evaluation
 GitHub Link: https://github.com/tc39/proposal-signals
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#signals-for-stage-1
 

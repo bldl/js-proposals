@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Emitter
 Authors: Shu-yu Guo, Pedram Emrouznejad
 Champions: Shu-yu Guo, Pedram Emrouznejad
-Date: June 2019
+Last Presented: June 2019
+Stage Upgrades: 
+Stage 1: 2019-05-06  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2019-06-11
+Keywords: #emitter #reactive #transformation #filtering #composition #iteration #performance #decoupling #memory #concurrency
 GitHub Link: https://github.com/tc39/proposal-emitter
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-06/june-5.md#emitter-for-stage-1
 

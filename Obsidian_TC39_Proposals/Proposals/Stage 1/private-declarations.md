@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Private declarations
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell
-Date: March 2019
+Last Presented: March 2019
+Stage Upgrades: 
+Stage 1: 2019-04-07  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2020-01-21
+Keywords: #private #declarations #visibility #protected #state #friend #classes #subclasses #access #inheritance
 GitHub Link: https://github.com/tc39/proposal-private-declarations
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-28.md#private-declarations-for-stage-1
 

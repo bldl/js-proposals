@@ -1,11 +1,18 @@
-#InactiveTag
+[[Inactive]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: WeakRefs cleanupSome
-Champions: Yulia Startsev, Daniel Ehrenberg
-Reason for Withdrawal: Withdrawn; subsumed by WebAssembly JS Promise Integration, which avoids the long task issue
-Date: None
+Authors: Yulia Startsev, Daniel Ehrenberg
+Champions: Withdrawn; subsumed by WebAssembly JS Promise Integration, which avoids the long task issue
+Last Presented: None
+Stage Upgrades: 
+Stage 1: 2020-07-06  
+Stage 2: 2020-07-22  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2022-01-04
+Keywords: #finalization_registry #cleanup #garbage_collection #weak_reference #event_loop #synchronous #background_worker #interoperability #memory_management #design_decision
 GitHub Link: https://github.com/tc39/proposal-cleanup-some
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
 

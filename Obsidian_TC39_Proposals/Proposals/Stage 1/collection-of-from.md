@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: of and from on collection constructors
 Authors: Leo Balter
 Champions: Leo Balter
-Date: September 2016
+Last Presented: September 2016
+Stage Upgrades: 
+Stage 1: 2017-05-21  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2019-10-22
+Keywords: #collection #constructors #iteration #set #map #utility #inheritance #initialization #parameters #methods
 GitHub Link: https://github.com/tc39/proposal-setmap-offrom
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-09/sept-29.md#11iic-set-map-weakset-and-weakmap-of-and-from-methods
 

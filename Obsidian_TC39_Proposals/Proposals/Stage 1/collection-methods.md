@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Collection methods
 Authors: Michał Wadas
 Champions: Sathya Gunasekaran
-Date: January 2018
+Last Presented: January 2018
+Stage Upgrades: 
+Stage 1: 2016-05-28  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2024-08-01
+Keywords: #collection #set #map #prototype #filter #reduce #addAll #deleteAll #merge #generic
 GitHub Link: https://github.com/tc39/proposal-collection-methods
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiik-new-set-builtin-methods-for-stage-2
 

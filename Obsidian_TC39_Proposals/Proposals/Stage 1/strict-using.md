@@ -1,11 +1,18 @@
-#Stage1Tag
-Classification: [[Semantic Change]]
-Human Validated: KW
+[[Stage 1]]
+Classification: [[Syntactic Change]]
+Human Validated: No
 Title: Strict Enforcement of 'using'
 Authors: Ron Buckton
 Champions: Ron Buckton
-Date: April 2024
+Last Presented: April 2024
+Stage Upgrades: 
+Stage 1: 2024-03-28  
+Stage 2: 2024-04-12  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2024-04-12
+Keywords: #resource_management #using #disposable #symbol #strict #asynchronous #enforcement #stack #automatic #cleanup
 GitHub Link: https://github.com/tc39/proposal-using-enforcement
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#strict-enforcement-of-using
 

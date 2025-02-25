@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Readonly Collections
 Authors: Mark Miller, Peter Hoddie
 Champions: Mark Miller, Peter Hoddie
-Date: October 2019
+Last Presented: October 2019
+Stage Upgrades: 
+Stage 1: 2019-09-21  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2019-10-15
+Keywords: #readonly #map #fixedmap #readonlymap #snapshot #diverge #view #collections #behavioral #subtyping
 GitHub Link: https://github.com/tc39/proposal-readonly-collections
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#readonly-collections-for-stage-1
 

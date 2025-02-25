@@ -1,11 +1,18 @@
-#InactiveTag
+[[Inactive]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Getting last element of Array
-Champions: Keith Cirkel
-Reason for Withdrawal: Withdrawn; the [Array#at](https://github.com/tc39/proposal-relative-indexing-method) proposal supersedes this work.
-Date: None
+Authors: Keith Cirkel
+Champions: Withdrawn; the [Array#at](https://github.com/tc39/proposal-relative-indexing-method) proposal supersedes this work.
+Last Presented: None
+Stage Upgrades: 
+Stage 1: 2018-01-13  
+Stage 2: 2019-05-15  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2020-07-22
+Keywords: #array #last #getter #setter #length #index #object #undefined #polyfill #syntax
 GitHub Link: https://github.com/tc39/proposal-array-last
 GitHub Note Link: None
 

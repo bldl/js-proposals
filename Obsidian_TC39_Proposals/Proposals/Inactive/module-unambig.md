@@ -1,11 +1,18 @@
-#InactiveTag
-Classification: [[Semantic Change]]
-Human Validated: KW
+[[Inactive]]
+Classification: [[Syntactic Change]]
+Human Validated: No
 Title: Proposed Grammar change to ES Modules
-Champions: Bradley Farias
-Reason for Withdrawal: Rejected: No consensus on this specific solution.
-Date: None
+Authors: Bradley Farias
+Champions: Rejected: No consensus on this specific solution.
+Last Presented: None
+Stage Upgrades: 
+Stage 1: 2016-06-14  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2017-04-06
+Keywords: #grammar #ambiguity #modules #imports #exports #parsing #scope #performance #script #arguments
 GitHub Link: https://github.com/tc39/proposal-UnambiguousJavaScriptGrammar
 GitHub Note Link: None
 

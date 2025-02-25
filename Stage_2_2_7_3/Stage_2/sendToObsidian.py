@@ -3,10 +3,12 @@ import requests
 import base64
 import os
 from dotenv import load_dotenv
+import datetime
 
-from sharedMethods.askGPT import classifyProposal
+from sharedMethods.askGPT import classifyProposal, getKeyWords
+from sharedMethods.stageUpgrades import getStageUpgrades
 
-path = "Obsidian_TC39_Proposals/Proposals/Stage 2 Proposals"
+path = "Obsidian_TC39_Proposals/Proposals/Stage 2"
 
 with open("Stage_2_2_7_3/Stage_2/outputMD/apiResults.md", "r") as file:
     fileContent = file.readlines()
@@ -27,8 +29,9 @@ for entry in data_list:
         }:
 
             link_title = link_titles.strip("[[]]")
-
+                
             invalid_chars = '\\/*?:"<>|'
+
             for char in invalid_chars:
                 link_titles = link_title.replace(char, "")
 
@@ -66,8 +69,11 @@ for entry in data_list:
                 commitDate = commitDateIso.split("T")
                 returnDate = commitDate[0]
 
-            #----------api call for readme------------------------
+           
+            stageUpgrades = getStageUpgrades(github_link)
+            print(stageUpgrades)
             
+            #----------api call for readme------------------------
             try:
                 load_dotenv()
                 githubReadme = f"https://api.github.com/repos/tc39/{apiProposalName}/contents/README.md"
@@ -75,42 +81,52 @@ for entry in data_list:
                 data = response.json()
                 file_content = base64.b64decode(data["content"]).decode("utf-8")
 
+                keywords = getKeyWords(title, file_content)
+
+                with open(f"Obsidian_TC39_Proposals/Analysis/Keywords/Terms.md", "a") as keywordList:
+                    keywordList.write(f"Proposal: {link_titles} \n {keywords}\n\n")
+
+
+                print(keywords)
+
                 try: 
                     print("sending", link_titles, "to GPT for processing")
                     classification = str(classifyProposal(link_titles, file_content))
                     print("gpt response", classification)
                 except:
                     print("error with asking open ai:", title)
-
             except:
                 print("Error with link:", link_titles)
-                with open(f"Obsidian_TC39_Proposals/Proposals/Stage 2 Proposals/{link_titles}.md", "w") as proposals:
+                with open(f"Obsidian_TC39_Proposals/Proposals/Stage 2/{link_titles}.md", "w") as proposals:
                     proposals.write(
-                        f"#Stage2Tag\n"
+                        f"[[Stage 2]]\n"
                         f"Classification:\n"
                         f"Human Validated: No\n"
                         f"Title: {title}\n"
                         f"Authors: {authors}\n"
                         f"Champions: {champions}\n"
-                        f"Date: {date}\n"
+                        f"Last Presented: {date}\n"
+                        f"Stage Upgrades: \n{stageUpgrades}\n"
                         f"Last Commit: {returnDate}\n"
+                        f"Keywords: \n"
                         f"GitHub Link: {github_link}\n"
                         f"GitHub Note Link: {github_note_link}\n\n"
                         f"# Proposal Description:\n"
                 )
                 continue
-
             #-----------------------------------------------------
-            with open(f"Obsidian_TC39_Proposals/Proposals/Stage 2 Proposals/{link_titles}.md", "w") as proposals:
+            with open(f"Obsidian_TC39_Proposals/Proposals/Stage 2/{link_titles}.md", "w") as proposals:
                 proposals.write(
-                    f"#Stage2Tag\n"
+                    f"[[Stage 2]]\n"
                     f"Classification: {classification}\n"
                     f"Human Validated: No\n"
                     f"Title: {title}\n"
                     f"Authors: {authors}\n"
                     f"Champions: {champions}\n"
-                    f"Date: {date}\n"
+                    f"Last Presented: {date}\n"
+                    f"Stage Upgrades: \n{stageUpgrades}\n"
                     f"Last Commit: {returnDate}\n"
+                    f"Keywords: {keywords}\n"
                     f"GitHub Link: {github_link}\n"
                     f"GitHub Note Link: {github_note_link}\n\n"
                     f"# Proposal Description:\n{file_content}"

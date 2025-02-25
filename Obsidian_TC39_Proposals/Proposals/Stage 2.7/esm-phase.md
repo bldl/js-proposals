@@ -1,11 +1,18 @@
-#Stage_2_7Tag
-Classification: [[API Change]]
-Human Validated: KW
+[[Stage 2.7]]
+Classification: [[Syntactic Change]]
+Human Validated: No
 Title: ESM Phase Imports
 Authors: Luca Casonato, Guy Bedford
 Champions: Luca Casonato, Guy Bedford
-Date: December 2024
+Last Presented: December 2024
+Stage Upgrades: 
+Stage 1: 2024-02-13  
+Stage 2: 2024-06-24  
+Stage 2.7: 2024-12-05  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2025-02-05
+Keywords: #module #worker #runtime #tooling #static_analysis #import #module_resolution #source_phase #dynamic_import #CSP
 GitHub Link: https://github.com/tc39/proposal-esm-phase-imports
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#esm-phase-imports
 

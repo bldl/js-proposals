@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Semantic Change]]
-Human Validated: KW
+Human Validated: No
 Title: uniform parsing of quasi-standard Date.parse input
 Authors: Richard Gibson
 Champions: Richard Gibson
-Date: September 2018
+Last Presented: September 2018
+Stage Upgrades: 
+Stage 1: 2018-06-29  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2023-09-13
+Keywords: #date #time #parsing #interchange #format #standardization #input #validation #iso8601 #rfc3339
 GitHub Link: https://github.com/tc39/proposal-uniform-interchange-date-parsing
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-09/sept-26.md#uniform-parsing-of-quasi-standard-dateparse-input
 

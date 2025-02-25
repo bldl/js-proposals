@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[Syntactic Change]]
-Human Validated: KW
+Human Validated: No
 Title: Object.freeze + Object.seal syntax
 Authors: Keith Cirkel
 Champions: Keith Cirkel
-Date: November 2017
+Last Presented: November 2017
+Stage Upgrades: 
+Stage 1: 2017-11-02  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2018-04-17
+Keywords: #freezing #sealing #object #immutability #prototype #destructuring #function #bindings #type_safety #syntax
 GitHub Link: https://github.com/keithamus/proposal-object-freeze-seal-syntax
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-30.md#10ivd-objectfreeze--objectseal-syntax-proposal-for-stage-0
 

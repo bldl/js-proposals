@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Freezing prototypes
 Authors: Kevin Gibbons
 Champions: Kevin Gibbons
-Date: January 2019
+Last Presented: January 2019
+Stage Upgrades: 
+Stage 1: 2019-01-31  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2019-01-31
+Keywords: #prototype #extensible #immutable #derived_classes #web_platform #reflect #api #superconstructor #internal_slot #trap
 GitHub Link: https://github.com/tc39/proposal-freeze-prototype
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-31.md#freezing-prototypes-for-stage-1
 

@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Standardized Debug
 Authors: Gus Caplan
 Champions: Gus Caplan
-Date: November 2020
+Last Presented: November 2020
+Stage Upgrades: 
+Stage 1: 2020-09-25  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2020-11-17
+Keywords: #standardized #debugging #functions #identity #meta_property #interoperability #debugger_log #debugger_break #ecosystem #api
 GitHub Link: https://github.com/tc39/proposal-standardized-debug
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#standardized-debug-for-stage-2
 

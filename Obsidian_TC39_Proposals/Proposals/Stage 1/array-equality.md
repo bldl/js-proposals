@@ -1,11 +1,18 @@
-#Stage1Tag
+[[Stage 1]]
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Array Equality
 Authors: Hemanth HM, Jordan Harband
 Champions: Hemanth HM, Jordan Harband
-Date: June 2020
+Last Presented: June 2020
+Stage Upgrades: 
+Stage 1: 2020-06-04  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2020-06-17
+Keywords: #array_comparison #deep_nesting #array_method #equality_check #schema_validation #data_structure #value_comparison #type_coercion #elementwise #prototype_extension
 GitHub Link: https://github.com/tc39/proposal-array-equality
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-4.md#generic-comparison
 
