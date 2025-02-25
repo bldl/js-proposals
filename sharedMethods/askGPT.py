@@ -85,8 +85,45 @@ def stageUpgrade(linkTitle, commitHistory):
         )
 
         bot_response = completion.choices[0].message.content
-        
+
         return bot_response
 
     except:
         print("error with askGPT")
+
+def getKeyWords(title, proposalDescription):
+    systemPrompt = """
+    I am conducting research on proposals for ECMAScript and have exported proposal descriptions from the GitHub repositories for each proposal. 
+    
+    I am sending you the proposal description and I want you to look at it and and return to me 10 keywords that are relevant for this proposal.
+    
+    Please do not include generic, surface level keywords such as "TC39" or "ECMAScript" or "JavaScript". 
+
+    Please instead include keywords that are directly related to the contents of this proposal.
+
+    Please return the keywords in this format within square brackets:
+    [[keyword1]] [[keyword2]] [[keyword3]] etc...
+
+    CRITICAL: Do NOT include the name of the proposal or use the same words as is in the proposal as one of the keywords!
+
+    Please and thank you!
+    """
+
+
+    client = OpenAI(api_key=os.getenv("OPENAI"))
+
+    try:
+        completion = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": systemPrompt},
+                {"role": "user", "content": proposalDescription}
+            ]
+        )
+
+        bot_response = completion.choices[0].message.content
+
+        return bot_response
+
+    except:
+        print("error with", title)

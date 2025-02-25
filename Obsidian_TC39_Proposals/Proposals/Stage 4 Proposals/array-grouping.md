@@ -1,12 +1,18 @@
 #Stage4Tag
 Classification: [[API Change]]
-Human Validated: KW
+Human Validated: No
 Title: Array Grouping
 Authors: Justin Ridgewell
 Champions: Justin Ridgewell, Jordan Harband
-Date: November 2023
+Last Presented: November 2023
+Stage Upgrades: 
+Stage 1: 2021-07-15  
+Stage 2: 2021-10-27  
+Stage 2.7: NA  
+Stage 3: 2021-12-20  
+Stage 4: 2023-11-27  
 Last Commit: 2023-11-27
-Expected Publication Year: 2024
+Keywords: [[grouping]] [[iterables]] [[static methods]] [[MapReduce]] [[null-prototype]] [[destructuring]] [[compound keys]] [[web compatibility]] [[polyfill]] [[tuples]]
 GitHub Link: https://github.com/tc39/proposal-array-grouping
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-27.md#array-grouping-for-stage-4
 

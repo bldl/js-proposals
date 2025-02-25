@@ -16,8 +16,357 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "123d3bb0c12d67b5",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Keywords/Keywords.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Keywords"
+            }
+          },
+          {
+            "id": "a8c52cea78462be4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Keywords/Words/polyfill.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "polyfill"
+            }
+          },
+          {
+            "id": "03e2a46a90ecaf1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Keywords/Words/tuples.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "tuples"
+            }
+          },
+          {
+            "id": "57883be86ea04334",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Keywords/Words/promise states.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "promise states"
+            }
+          },
+          {
+            "id": "896ac8219c5c851b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Keywords/Words/combinators.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "combinators"
+            }
+          },
+          {
+            "id": "33a63913db4b21a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Keywords/Words/requests.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "requests"
+            }
+          },
+          {
+            "id": "580a3cc2d9f9e1f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Keywords/Words/failure.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "failure"
+            }
+          },
+          {
+            "id": "7d6b6358c551f73b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Keywords/Words/results.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "results"
+            }
+          },
+          {
+            "id": "042153c75ac72e43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Keywords/Words/settled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "settled"
+            }
+          },
+          {
+            "id": "8efcc8b8314c8eb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Keywords/Words/asynchronous.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "asynchronous"
+            }
+          },
+          {
+            "id": "a56743bd30ca82ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Keywords/Words/grouping.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "grouping"
+            }
+          },
+          {
+            "id": "651a6e1c3e506b75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Keywords/Words/non-blocking.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "non-blocking"
+            }
+          },
+          {
+            "id": "5d2bfdad50917f49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Keywords/Words/error handling.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "error handling"
+            }
+          },
+          {
+            "id": "3f1768645947bf78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Keywords/Words/fulfillment.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "fulfillment"
+            }
+          },
+          {
+            "id": "9d5c2dd82dbb1b10",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -70,8 +419,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -164,29 +512,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "887faf82dcbde95f",
+  "active": "9d5c2dd82dbb1b10",
   "lastOpenFiles": [
-    "Analysis/Changes/Unknown.md",
-    "Analysis/Classifications/Unknown.md",
-    "Proposals/Inactive Proposals/dynamic-module-reform.md",
-    "Proposals/Inactive Proposals/distinguishing-literal-strings.md",
-    "Proposals/Inactive Proposals/deprecated.md",
+    "Analysis/Keywords/Keywords.md",
+    "Analysis/Keywords/Words/error handling.md",
+    "Analysis/Keywords/Words/combinators.md",
     "Proposals/Inactive Proposals/date-parse.md",
-    "Proposals/Inactive Proposals/collection-json.md",
-    "Proposals/Inactive Proposals/cleanup-some.md",
-    "Proposals/Inactive Proposals/cancel-promise.md",
-    "Analysis/Changes/Syntactic Change.md",
-    "Analysis/Classifications/Syntactic Change.md",
+    "Analysis/Keywords/Words/asynchronous.md",
+    "Analysis/Keywords/Words/fulfillment.md",
+    "Analysis/Keywords/Words/non-blocking.md",
+    "Analysis/Keywords/Words/grouping.md",
+    "Analysis/Keywords/Words/settled.md",
+    "Analysis/Keywords/Words/results.md",
+    "Analysis/Keywords/Words/failure.md",
+    "Analysis/Keywords/Words/requests.md",
+    "Analysis/Keywords/Words/promise states.md",
+    "Analysis/Keywords/Words/tuples.md",
+    "Analysis/Keywords/Words/polyfill.md",
+    "Analysis/Keywords/Words/compound keys.md",
+    "Analysis/Keywords/Words/web compatibility.md",
+    "Analysis/Keywords/Words",
+    "Analysis/Keywords/Words/destructuring.md",
     "Analysis/Proposals/Proposal Summary.md",
-    "Proposals/Stage 1 Proposals/eventual-send.md",
-    "Analysis/Changes/Semantic Change.md",
-    "Proposals/Inactive Proposals/buffer-transfer.md",
-    "Proposals/Inactive Proposals/arraylast.md",
-    "Proposals/Inactive Proposals/blocks.md",
-    "Analysis/Classifications/Semantic Change.md",
-    "Analysis/Classifications/API Change.md",
-    "Analysis/Changes/API Change.md",
-    "Proposals/Stage 4 Proposals/well-formed-stringify.md",
-    "Proposals/Stage 4 Proposals/allsettled.md"
+    "Analysis/Keywords",
+    "Analysis/Keywords/Words/null-prototype.md",
+    "Analysis/Keywords/Words/MapReduce.md",
+    "Analysis/Keywords/Words/static methods.md",
+    "Analysis/Keywords/Words/iterables.md",
+    "Proposals/Stage 4 Proposals/allsettled.md",
+    "Proposals/Stage 4 Proposals/array-grouping.md",
+    "Analysis/Changes/Unknown.md"
   ]
 }

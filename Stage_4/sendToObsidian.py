@@ -5,7 +5,7 @@ import os
 from dotenv import load_dotenv
 import datetime
 
-from sharedMethods.askGPT import classifyProposal
+from sharedMethods.askGPT import classifyProposal, getKeyWords
 from sharedMethods.stageUpgrades import getStageUpgrades
 
 path = "Obsidian_TC39_Proposals/Proposals/Stage 4 Proposals"
@@ -80,6 +80,15 @@ for entry in data_list:
                 response = requests.get(githubReadme, auth=(os.getenv("USERNAME"), os.getenv("API_KEY")))
                 data = response.json()
                 file_content = base64.b64decode(data["content"]).decode("utf-8")
+
+                keywords = getKeyWords(title, file_content)
+
+                with open(f"Obsidian_TC39_Proposals/Analysis/Keywords.md", "a") as keywordList:
+                    keywordList.write(f"{keywords}\n")
+
+
+                print(keywords)
+
                 try: 
                     print("sending", link_titles, "to GPT for processing")
                     classification = str(classifyProposal(link_titles, file_content))
@@ -99,6 +108,7 @@ for entry in data_list:
                         f"Last Presented: {date}\n"
                         f"Stage Upgrades: \n{stageUpgrades}\n"
                         f"Last Commit: {returnDate}\n"
+                        f"Keywords: \n"
                         f"GitHub Link: {github_link}\n"
                         f"GitHub Note Link: {github_note_link}\n\n"
                         f"# Proposal Description:\n"
@@ -116,6 +126,7 @@ for entry in data_list:
                     f"Last Presented: {date}\n"
                     f"Stage Upgrades: \n{stageUpgrades}\n"
                     f"Last Commit: {returnDate}\n"
+                    f"Keywords: {keywords}\n"
                     f"GitHub Link: {github_link}\n"
                     f"GitHub Note Link: {github_note_link}\n\n"
                     f"# Proposal Description:\n{file_content}"
