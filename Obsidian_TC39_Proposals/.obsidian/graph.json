@@ -4,7 +4,7 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
     {
@@ -71,17 +71,24 @@
       }
     },
     {
-      "query": "API",
+      "query": "API Change",
       "color": {
         "a": 1,
         "rgb": 13230162
       }
     },
     {
-      "query": "Processed",
+      "query": "Stage4Tag",
       "color": {
         "a": 1,
         "rgb": 16579836
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
       }
     }
   ],
@@ -90,11 +97,11 @@
   "textFadeMultiplier": -1.1,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "collapse-forces": false,
+  "centerStrength": 0.325363825363825,
+  "repelStrength": 8.75259875259875,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7264683601695078,
+  "scale": 0.44961630032524047,
   "close": false
 }

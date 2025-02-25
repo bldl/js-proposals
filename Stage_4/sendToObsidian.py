@@ -8,7 +8,7 @@ import datetime
 from sharedMethods.askGPT import classifyProposal, getKeyWords
 from sharedMethods.stageUpgrades import getStageUpgrades
 
-path = "Obsidian_TC39_Proposals/Proposals/Stage 4 Proposals"
+path = "Obsidian_TC39_Proposals/Proposals/Stage 4"
 
 with open("Stage_4/outputMD/apiResults.md", "r") as file:
     fileContent = file.readlines()
@@ -83,8 +83,8 @@ for entry in data_list:
 
                 keywords = getKeyWords(title, file_content)
 
-                with open(f"Obsidian_TC39_Proposals/Analysis/Keywords.md", "a") as keywordList:
-                    keywordList.write(f"{keywords}\n")
+                with open(f"Obsidian_TC39_Proposals/Analysis/Keywords/Terms.md", "a") as keywordList:
+                    keywordList.write(f"Proposal: {link_titles} \n {keywords}\n\n")
 
 
                 print(keywords)
@@ -97,9 +97,9 @@ for entry in data_list:
                     print("error with asking open ai:", title)
             except:
                 print("Error with link:", link_titles)
-                with open(f"Obsidian_TC39_Proposals/Proposals/Stage 4 Proposals/{link_titles}.md", "w") as proposals:
+                with open(f"Obsidian_TC39_Proposals/Proposals/Stage 4/{link_titles}.md", "w") as proposals:
                     proposals.write(
-                        f"#Stage4Tag\n"
+                        f"[[Stage 4]]\n"
                         f"Classification:\n"
                         f"Human Validated: No\n"
                         f"Title: {title}\n"
@@ -115,9 +115,9 @@ for entry in data_list:
                 )
                 continue
             #-----------------------------------------------------
-            with open(f"Obsidian_TC39_Proposals/Proposals/Stage 4 Proposals/{link_titles}.md", "w") as proposals:
+            with open(f"Obsidian_TC39_Proposals/Proposals/Stage 4/{link_titles}.md", "w") as proposals:
                 proposals.write(
-                    f"#Stage4Tag\n"
+                    f"[[Stage 4]]\n"
                     f"Classification: {classification}\n"
                     f"Human Validated: No\n"
                     f"Title: {title}\n"

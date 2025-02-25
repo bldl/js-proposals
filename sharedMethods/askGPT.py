@@ -101,10 +101,16 @@ def getKeyWords(title, proposalDescription):
 
     Please instead include keywords that are directly related to the contents of this proposal.
 
-    Please return the keywords in this format within square brackets:
-    [[keyword1]] [[keyword2]] [[keyword3]] etc...
+    Please keep the keywords lowercase.
 
-    CRITICAL: Do NOT include the name of the proposal or use the same words as is in the proposal as one of the keywords!
+    If the proposal is related to a data structure, please include the data structure amongst the keywords.
+
+    Please return the keywords in this format with an # in front of the keyword without space:
+    #keyword1 #keyword2 #keyword3 etc...
+
+    The correct formatting is CRITICAL. Keep the keywords one word and NEVER EVER use short hand notation. Instead use the full word: for example, use asynchronous instead of async and synchronous instead of sync. If you must to use more than one word per keyword, use an underscore between the words like such: #this_keyword.
+
+    CRITICAL: Do NOT, I REPEAT, NEVER include the name OR PART OF THE NAME of the proposal or use the same words as is in the proposal as one of the keywords!
 
     Please and thank you!
     """
