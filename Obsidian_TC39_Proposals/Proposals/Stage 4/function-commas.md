@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: 2016-07-28  
 Last Commit: 2016-07-28
-Keywords: #trailing_comma #function #parameter #code_contributor #version_control #grammar #code_attribution #code_style #transpiler #es5
+Keywords: #trailing_comma #parameter_list #code_attribution #version_control #grammar #syntax #function_definition #function_call #transpilation #code_style
 GitHub Link: https://github.com/tc39/proposal-trailing-function-commas
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-26.md#9ie-trailing-commas-in-functions
 

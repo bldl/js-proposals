@@ -10,9 +10,9 @@ Stage 1: 2020-09-25
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
+Stage 4: NA
 Last Commit: 2020-11-17
-Keywords: #standardized #debugging #functions #identity #meta_property #interoperability #debugger_log #debugger_break #ecosystem #api
+Keywords: #debugging #meta_property #identity_function #standardization #debugger_log #debugger_break #api_exposure #call_expression #ecmascript_implementation #interoperability
 GitHub Link: https://github.com/tc39/proposal-standardized-debug
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#standardized-debug-for-stage-2
 

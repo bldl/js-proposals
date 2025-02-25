@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2016-12-01  
 Stage 4: NA  
 Last Commit: 2022-07-11
-Keywords: #bigint #math #numeric #operations #overloading #precision #financial #scientific #type #methods
+Keywords: #bigint #math #operations #numeric #precision #overloading #exponentiation #comparison #methods #algorithms
 GitHub Link: https://github.com/tc39/proposal-bigint-math
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-26.md#bigint-math-update
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2017-11-28  
 Stage 4: NA  
 Last Commit: 2021-07-16
-Keywords: #numeric_literal #separator #readability #integer #floating_point #fixed_point #bigint #hexadecimal #binary #octal
+Keywords: #numeric_literal #separator #readability #visual #digits #fixed_point #bigint #numeric_literacy #syntax #financial
 GitHub Link: https://github.com/tc39/proposal-numeric-separator
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#numericliteralseparator-for-stage-4
 

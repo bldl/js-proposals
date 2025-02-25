@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2020-02-06
-Keywords: #cryptographically #secure #pseudo-random #number #generator #typedarray #arraybuffer #entropy #mocking #interface
+Keywords: #cryptographically #secure #pseudo #random #number #generation #typedarray #arraybuffer #entropy #crypto
 GitHub Link: https://github.com/tc39/proposal-csprng
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#arraybufferfillrandom-for-stage-1
 

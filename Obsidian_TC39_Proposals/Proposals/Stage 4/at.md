@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2020-09-08  
 Stage 4: 2022-01-24  
 Last Commit: 2022-01-24
-Keywords: #method #negative_indexing #built_in #polyfill #indexable #array #string #typedarray #web_compatibility #property_access
+Keywords: #method #negative_indexing #indexable #array #string #typedarray #polyfill #web_compatibility #property_access #object
 GitHub Link: https://github.com/tc39/proposal-relative-indexing-method
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#relative-indexing-at-method-for-stage-4
 

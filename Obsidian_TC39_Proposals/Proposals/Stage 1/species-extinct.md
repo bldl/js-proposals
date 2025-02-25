@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2020-09-12  
 Stage 4: NA  
 Last Commit: 2024-04-30
-Keywords: #subclassing #implementation #security #complexity #prototypes #TypedArray #compatibility #performance #web #vulnerabilities
+Keywords: #subclassing #@@species #implementation #complexity #security #performance #typedarray #incompatibility #array #regexp
 GitHub Link: https://github.com/tc39/proposal-rm-builtin-subclassing
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-3.md#restrict-subclassing-support-for-built-in-methods-stage-1
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-09-27
-Keywords: #extractor #destructuring #binding_pattern #assignment_pattern #custom_matcher #algebraic_data_type #instance_array #nested_object #pattern_matching #validation
+Keywords: #binding_pattern #assignment_pattern #destructuring #symbol_custom_matcher #user_defined_logic #data_validation #array_destructuring #object_destructuring #algebraic_data_types #custom_matcher
 GitHub Link: https://github.com/tc39/proposal-extractors
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#extractors-for-stage-2
 

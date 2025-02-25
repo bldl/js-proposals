@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-07-07
-Keywords: #slice #notation #syntax #array #typedarray #slicing #indices #bounds #negative_indices #ergonomic
+Keywords: #slice #notation #slice_methods #ergonomic #array #primitive #indices #positive_indices #negative_indices #out_of_bounds
 GitHub Link: https://github.com/tc39/proposal-slice-notation
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#slice-notation-for-stage-2
 

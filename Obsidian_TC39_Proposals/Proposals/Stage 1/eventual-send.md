@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-04-09
-Keywords: #promise #pipelining #distributed #latency #eventual_send #presence #handler #weak_reference #proxy #asynchronous
+Keywords: #promise #pipelining #distributed #eventual_send #latency #promises #presence #handler #trap #weak_references
 GitHub Link: https://github.com/tc39/proposal-eventual-send
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#eventual-send-support-for-distributed-promise-pipelining
 

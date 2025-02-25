@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2016-09-30  
 Stage 4: NA  
 Last Commit: 2018-02-12
-Keywords: #asynchronous #iterator #promise #request_queue #async_generator #async_iterable #yield #stream #for_await_of #symbol_async_iterator
+Keywords: #async_iterator #async_generator #promise #request_queue #async_iterable #streaming #data_access #for_await_of #yield #symbol_async_iterator
 GitHub Link: https://github.com/tc39/proposal-async-iteration
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-25.md#conclusionresolution
 

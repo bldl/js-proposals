@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-10-13
-Keywords: #out_of_memory #termination #inconsistent_state #agent_cluster #unit_of_preemptive_termination #recovery #weak_references #doubly_linked_list #coupling #corrupted_progress
+Keywords: #out_of_memory #termination #agent_cluster #inconsistent_state #recovering #fail_fast #computational_unit #allocation #doubly_linked_list #emergency_reserve
 GitHub Link: https://github.com/tc39/proposal-oom-fails-fast
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#update-on-oom-must-fail-fast
 

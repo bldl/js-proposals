@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2020-03-17
-Keywords: #arraybuffer #stride #float32array #imageData #webgl #typedarray #vertex_attribute #buffer #offset #length
+Keywords: #arraybuffer #view #stride #offset #length #typedarray #vertex #webgl #imagedata #channel
 GitHub Link: https://github.com/tc39/proposal-typedarray-stride
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-21.md#withdrawing-typedarray-stride
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-07-22
-Keywords: #memoization #caching #performance #function_decorator #result_caches #map #tuple #composite_keys #recursive #memory_management
+Keywords: #memoization #caching #function_calls #tuples #cache #LRUMap #function_decorator #singleton #optimization #recursive
 GitHub Link: https://github.com/tc39/proposal-function-memo
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#function-memoization-for-stage-1
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2021-10-15
-Keywords: #export #module #default #symmetric #export_from #named_export #compound_import #developer_experience #simplified_syntax #local_scope
+Keywords: #export #module #default #syntax #import #export #declarative #names #local #behavior
 GitHub Link: https://github.com/tc39/proposal-export-default-from
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-27.md#export-default-from
 

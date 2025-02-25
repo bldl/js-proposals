@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2019-10-28
-Keywords: #identity #representation #collection #key #mapping #composite #overlap #data #structure #effort
+Keywords: #identity #representation #efficiency #mapping #collection #data_structure #uniqueness #associativity #key_management #overlap
 GitHub Link: https://github.com/tc39/proposal-richer-keys
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-30.md#richer-keys-for-stage-2
 

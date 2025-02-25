@@ -12,7 +12,7 @@ Stage 2.7: 2024-06-21
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-10-28
-Keywords: #iterator #zip #zipwith #combination #variadic #aggregateerror #flatten #synchronization #tupling #iterable
+Keywords: #iterator #zip #combination #alignment #aggregate_error #variadic #mapping #position #tupling #filler
 GitHub Link: https://github.com/tc39/proposal-joint-iteration
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-12.md#joint-iteration-for-stage-27
 

@@ -1,5 +1,5 @@
 [[Inactive]]
-Classification: [[Syntactic Change]]
+Classification: [[Semantic Change]]
 Human Validated: No
 Title: Proposed Grammar change to ES Modules
 Authors: Bradley Farias
@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2017-04-06
-Keywords: #grammar #ambiguity #modules #imports #exports #parsing #scope #performance #script #arguments
+Keywords: #grammar #module #script #parse #import #export #scope #arguments #performance #ambiguity
 GitHub Link: https://github.com/tc39/proposal-UnambiguousJavaScriptGrammar
 GitHub Note Link: None
 

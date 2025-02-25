@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2016-05-07
-Keywords: #tail_calls #stack_frames #code_optimization #developer_tools #error_handling #function_call #performance_characteristics #developer_intent #debugging_workflows #syntactic_opt_in
+Keywords: #tail_calls #stack_frames #syntax #developer_tools #error_handling #performance #function_calls #debugging #developer_intent #recursion
 GitHub Link: https://github.com/tc39/proposal-ptc-syntax
 GitHub Note Link: None
 

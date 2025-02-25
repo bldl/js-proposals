@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-07-21
-Keywords: #double_ended #iterator #destructuring #generator #memory_management #sequence #dequeue #iterable #parameter_unpacking #performance
+Keywords: #double_ended #iterator #destructuring #sequence #generator #memory #iteration #helper #performance #deque
 GitHub Link: https://github.com/tc39/proposal-deiter
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#double-ended-iterator-and-destructuring-for-stage-1
 

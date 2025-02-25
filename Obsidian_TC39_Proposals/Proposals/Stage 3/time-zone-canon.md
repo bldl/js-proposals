@@ -8,7 +8,7 @@ Last Presented: July 2023
 Stage Upgrades: 
 None
 Last Commit: 2023-09-25
-Keywords: #time_zone #canonicalization #identifier #implementation #TZDB #Temporal #case_normalization #non_primary #primary_time_zone #user_complaints
+Keywords: #time_zone #canonicalization #IANA #Timezone #identifier #implementation #divergence #specification #polymorphism #user_experience
 GitHub Link: https://github.com/tc39/proposal-canonical-tz#readme
 GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2023-07/july-12.md#time-zone-canonicalization-for-stage-3
 

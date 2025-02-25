@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2023-01-18
-Keywords: #extension_methods #accessors #prototypes #set #array #namespace #binding #operator #selectors #virtual_methods
+Keywords: #extension_methods #accessors #prototype #namespace #object #set #array #utility #binding #operator
 GitHub Link: https://github.com/tc39/proposal-extensions
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-19.md#extensions-for-stage-1
 

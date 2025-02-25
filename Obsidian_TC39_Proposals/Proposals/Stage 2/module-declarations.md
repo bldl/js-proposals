@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2023-04-21
-Keywords: #module #bundling #export #import #declaration #performance #syntax #scope #module_body #resource
+Keywords: #module #declaration #syntax #bundling #performance #scoping #import #export #JavaScript #inline
 GitHub Link: https://github.com/tc39/proposal-module-declarations
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-declarations
 

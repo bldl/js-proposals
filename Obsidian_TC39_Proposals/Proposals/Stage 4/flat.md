@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2017-11-29  
 Stage 4: 2019-01-29  
 Last Commit: 2019-01-29
-Keywords: #array #method #prototype #flattening #mapping #nested #collection #data_structure #transformation #functional
+Keywords: #flattening #mapping #nested #elements #arrays #prototype #multidimensional #operations #functional #methods
 GitHub Link: https://github.com/tc39/proposal-flatMap
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#arrayprototypeflatflatmap-for-stage-4
 

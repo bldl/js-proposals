@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2017-10-26  
 Stage 4: 2021-06-10  
 Last Commit: 2021-02-15
-Keywords: #class #fields #syntax #private #repository #archive #historical #status #faq #update
+Keywords: #fields #merging #repository #historical #archive #syntax #documentation #updates #information #proposals
 GitHub Link: https://github.com/tc39/proposal-private-methods
 GitHub Note Link: None
 

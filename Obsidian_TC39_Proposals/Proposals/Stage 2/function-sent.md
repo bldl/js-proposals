@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2019-07-24
-Keywords: #generator #function #yield #context #resume #execution #tally #increment #communication #parameter
+Keywords: #generator #meta_property #function #yield #parameter #execution #context #two_way_communication #syntax_error #generator_body
 GitHub Link: https://github.com/tc39/proposal-function.sent
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#making-functionsent-inactive
 

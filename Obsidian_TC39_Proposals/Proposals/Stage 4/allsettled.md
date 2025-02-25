@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2019-03-27  
 Stage 4: 2019-07-24  
 Last Commit: 2019-12-09
-Keywords: #promise #combinator #fulfilled #rejected #settled #promise_state #request #error #results #userland
+Keywords: #promise #combinator #fulfillment #rejection #snapshot #status #iteration #errors #userland #progressive_enhancement
 GitHub Link: https://github.com/tc39/proposal-promise-allSettled
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-24.md#promiseallsettled
 

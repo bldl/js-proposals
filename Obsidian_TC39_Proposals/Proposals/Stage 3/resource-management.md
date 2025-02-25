@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2023-01-03  
 Stage 4: NA  
 Last Commit: 2024-06-15
-Keywords: #explicit_resource_management #resource_management #disposable_container #disposable_stack #async_disposable_stack #cleanup_logic #scoping #explicit_cleanup #finally_blocks #lifetime_management
+Keywords: #resource_management #disposable #cleanup #using_declaration #asynchronous_disposal #disposable_stack #async_disposable_stack #iterator_prototype #assertion_management #scope_management
 GitHub Link: https://github.com/tc39/proposal-explicit-resource-management
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#explicit-resource-management-for-stage-3
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2017-07-28  
 Stage 4: 2018-05-22  
 Last Commit: 2018-05-22
-Keywords: #omit #binding #grammar #error_handling #programming #feature_detection #fallback #patterns #code_simplicity #cleaner_code
+Keywords: #grammar #binding #catch #omission #exception #fallback #web_feature #implementation #syntax #error
 GitHub Link: https://github.com/tc39/proposal-optional-catch-binding
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-22.md#conclusionresolution-7
 

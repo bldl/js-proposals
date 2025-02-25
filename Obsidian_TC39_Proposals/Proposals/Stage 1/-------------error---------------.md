@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2021-03-03
-Keywords: #expression_oriented #local_scope #conditional_expression #templating #completion_value #early_error #variable_declaration #empty_block #context_inheritance #control_flow
+Keywords: #expression_oriented #local_scope #conditional_statements #templating #expressions #limitations #edge_cases #break_continue #function_hoisting #completion_value
 GitHub Link: None
 GitHub Note Link: None
 

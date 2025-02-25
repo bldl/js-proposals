@@ -8,11 +8,11 @@ Last Presented: March 2020
 Stage Upgrades: 
 Stage 1: 2017-05-24  
 Stage 2: 2017-05-25  
+Stage 2.7: NA  
 Stage 3: 2017-09-28  
 Stage 4: 2020-05-01  
-Stage 2.7: NA  
 Last Commit: 2020-05-01
-Keywords: #import #meta #module #metadata #host #script #url #filename #configuration #extensibility
+Keywords: #import #meta #metadata #module #host #script #url #filename #environment #configuration
 GitHub Link: https://github.com/tc39/proposal-import-meta
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-03/april-1.md#importmeta-for-stage-4-continued-from-previous-day
 

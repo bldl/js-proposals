@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-06-11
-Keywords: #async_iterator #concurrency #prototype #map #filter #flat_map #reduce #to_array #for_each #find
+Keywords: #async_iterator #helpers #concurrency #prototype #map #filter #flatmap #reduce #toarray #fetch
 GitHub Link: https://github.com/tc39/proposal-async-iterator-helpers
 GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2023-01/jan-31.md#parallel-async-iterators-via-a-tweak-to-iterator-helpers
 

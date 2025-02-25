@@ -10,8 +10,9 @@ Stage 1: 2016-07-27
 Stage 2: 2016-09-28  
 Stage 3: 2017-03-22  
 Stage 4: 2018-01-24  
+Stage 2.7: NA  
 Last Commit: 2023-03-20
-Keywords: #unicode #property #escape #regular_expressions #unicode_support #performance #compact #readable #unicode_properties #syntax
+Keywords: #unicode #property #regex #escape #symbol #character #pattern #matching #build_time #unicode_standard
 GitHub Link: https://github.com/tc39/proposal-regexp-unicode-property-escapes
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-24.md#conclusionresolution-1
 

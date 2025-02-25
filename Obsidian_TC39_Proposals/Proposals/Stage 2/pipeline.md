@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2023-11-30
-Keywords: #pipe #operator #expression #nesting #chaining #readability #fluency #placeholder #immutable #syntax
+Keywords: #pipe #operator #placeholder #expression #evaluation #nesting #binding #method #chaining #syntax
 GitHub Link: https://github.com/tc39/proposal-pipeline-operator
 GitHub Note Link: None
 

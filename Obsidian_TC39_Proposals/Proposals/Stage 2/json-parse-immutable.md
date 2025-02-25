@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-07-28
-Keywords: #immutable #data_structure #json #records #tuples #ergo #creation #efficient #deeply #return
+Keywords: #immutable #data_structure #records #tuples #ergonomic #creation #deeply #efficient #parsing #JSON
 GitHub Link: https://github.com/tc39/proposal-json-parseimmutable
 GitHub Note Link: None
 

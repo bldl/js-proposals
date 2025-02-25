@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2019-06-06  
 Stage 4: 2021-05-25  
 Last Commit: 2021-05-28
-Keywords: #top_level_await #async_function #module_system #promise #dynamic_import #resource_initialization #dependency_management #import #synchronous_execution #webassembly
+Keywords: #top_level_await #modules #asynchronous #promises #exports #fetch #dynamic_import #error_handling #dependency_management #resource_initialization
 GitHub Link: https://github.com/tc39/proposal-top-level-await
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#top-level-await
 

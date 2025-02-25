@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2019-10-15
-Keywords: #readonly #map #fixedmap #readonlymap #snapshot #diverge #view #collections #behavioral #subtyping
+Keywords: #readonly #collection #map #fixedmap #readonlymap #snapshot #diverge #query #behavioral #subtyping
 GitHub Link: https://github.com/tc39/proposal-readonly-collections
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#readonly-collections-for-stage-1
 

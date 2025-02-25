@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-02-07
-Keywords: #arraybuffer #readonly #view #typedarray #dataview #frozen #permissions #limiting #complexity #integration
+Keywords: #arraybuffer #readonly #typedarray #dataview #frozen #permissions #limits #views #complexity #integration
 GitHub Link: https://github.com/tc39/proposal-limited-arraybuffer
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#read-only-arraybuffer-and-fixed-view-of-arraybuffer-for-stage-1
 

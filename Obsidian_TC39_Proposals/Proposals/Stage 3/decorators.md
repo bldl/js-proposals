@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2022-03-28  
 Stage 4: NA  
 Last Commit: 2024-09-05
-Keywords: #decorators #metaprogramming #class #accessor #fields #methods #initialization #transpiler #access #dynamic
+Keywords: #decorators #metaprogramming #class_elements #methods #fields #auto_accessors #functionality #initialization #access #transpilers
 GitHub Link: https://github.com/tc39/proposal-decorators
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#decorators-for-stage-3
 

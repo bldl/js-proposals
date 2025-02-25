@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-01-24
-Keywords: #declarations #conditionals #visibility #performance #let #const #transpilation #evaluation #variables #scoping
+Keywords: #conditional #declaration #let #const #visibility #scope #transpilation #performance #evaluation #data_structure
 GitHub Link: https://github.com/tc39/proposal-Declarations-in-Conditionals
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#declarations-in-conditionals
 

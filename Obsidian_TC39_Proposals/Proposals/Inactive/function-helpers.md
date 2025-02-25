@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2021-11-11
-Keywords: #function_helpers #function_composition #callback_manipulation #promise_handling #function_standardization #developer_ergonomics #function_utilities #unary_functions #function_piping #function_declaration
+Keywords: #function #flow #pipe #async #callback #composition #function_identity #function_constant #debounce #throttle
 GitHub Link: https://github.com/tc39/proposal-function-helpers
 GitHub Note Link: None
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2019-12-02
-Keywords: #directive #implementation #security #encapsulation #refactoring #toString #stack #function #sensitive #hiding
+Keywords: #implementation #encapsulation #directives #refactoring #toString #stack_trace #source_hiding #security #library_code #polyfills
 GitHub Link: https://github.com/tc39/proposal-function-implementation-hiding
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-2.md#function-implementation-hiding-for-stage-3
 

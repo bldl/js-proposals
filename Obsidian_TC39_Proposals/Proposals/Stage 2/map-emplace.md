@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2025-02-05
-Keywords: #map #weakmap #default_value #callback_function #data_grouping #insertion #update #mutate #counter #lookup
+Keywords: #map #weakmap #default_value #insert #update #lookup #incremental #callback_function #counter #optimization
 GitHub Link: https://github.com/tc39/proposal-upsert
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#upsert-now-renamed-emplace-updates--for-stage-3
 

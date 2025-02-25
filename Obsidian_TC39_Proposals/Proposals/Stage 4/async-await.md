@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: 2015-10-06  
 Last Commit: 2020-11-19
-Keywords: #promises #generators #asynchronous #synchronous #compilation #vanilla #implementation #browser #runtime #example
+Keywords: #promises #generators #asynchronous #code #compilation #runtime #vanilla #execution #example #browser
 GitHub Link: https://github.com/tc39/proposal-async-await
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-28.md#10iv-async-functions
 

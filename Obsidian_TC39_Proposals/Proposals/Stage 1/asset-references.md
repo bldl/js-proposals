@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2020-09-28
-Keywords: #asset #module #loading #dependency #binding #scheduling #resource #loader #data_structure #type
+Keywords: #asset #reference #module #declaration #dynamic_import #loader #resource #specifier #asynchronous #binding
 GitHub Link: https://github.com/tc39/proposal-asset-references
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-28.md#asset-references-for-stage-1
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2022-11-30  
 Stage 4: 2023-05-15  
 Last Commit: 2023-05-15
-Keywords: #unicode #surrogate #well_formed #validation #utf16 #conversion #api #performance #strings #string_prototype
+Keywords: #unicode #surrogate #validation #method #conversion #performance #algorithm #encoding #unicode_scalar_value #well_formed
 GitHub Link: https://github.com/tc39/proposal-is-usv-string
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-15.md#well-formed-unicode-strings-for-stage-4
 

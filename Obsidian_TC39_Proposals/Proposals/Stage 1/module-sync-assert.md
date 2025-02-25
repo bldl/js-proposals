@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-03-28
-Keywords: #synchronous #module #event_handler #service_worker #error_handling #polyfill #api_stability #dependency_management #engine_hint #syntax_error
+Keywords: #synchronization #module #event #handler #typeerror #polyfill #engine #directive #evaluation #dependency
 GitHub Link: https://github.com/tc39/proposal-module-sync-assert
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-29.md#module-sync-assert-for-stage-1
 

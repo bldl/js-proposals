@@ -1,5 +1,5 @@
 [[Stage 1]]
-Classification: [[Semantic Change]]
+Classification: [[API Change]]
 Human Validated: No
 Title: Prototype pollution mitigation
 Authors: Santiago Díaz, Jun Kokatsu
@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2023-08-29
-Keywords: #prototype #pollution #reflection #encapsulation #vulnerability #security #object #properties #mitigation #automatic_refactoring
+Keywords: #prototype #pollution #reflection #encapsulation #vulnerability #security #mutability #properties #codebases #opt-in
 GitHub Link: https://github.com/tc39/proposal-symbol-proto
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#prototype-pollution-mitigation--symbolproto
 

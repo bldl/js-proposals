@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2018-11-29  
 Stage 4: 2022-07-20  
 Last Commit: 2018-11-29
-Keywords: #hashbang #shebang #cli #source_text #parser #standardization #interpreter #syntax #byte_order_mark #comments
+Keywords: #hashbang #shebang #cli #parser #script #module #comment #standardization #source_text #byte_order_mark
 GitHub Link: https://github.com/tc39/proposal-hashbang
 GitHub Note Link: None
 

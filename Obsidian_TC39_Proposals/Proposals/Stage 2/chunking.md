@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-09-23
-Keywords: #iterator #chunking #subsequences #stream #overlapping #sliding_window #pagination #batch_processing #matrix_operations #algorithm
+Keywords: #iterator #chunking #sliding #window #subsequence #overlapping #pagination #batch_processing #matrix #stream_processing
 GitHub Link: https://github.com/tc39/proposal-iterator-chunking
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#iterator-chunking-for-stage-2
 

@@ -12,7 +12,7 @@ Stage 2.7: 2024-04-08
 Stage 3: 2024-07-03  
 Stage 4: 2024-10-09  
 Last Commit: 2024-10-09
-Keywords: #promise #asynchronous #execution #exceptions #semantics #handling #function #synchronous #promise_resolution #ergonomics
+Keywords: #promise #synchronous #execution #error_handling #promise_semantics #async_function #userland #ergonomics #function_wrapping #parallel_execution
 GitHub Link: https://github.com/tc39/proposal-promise-try
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#promisetry-for-stage-4
 

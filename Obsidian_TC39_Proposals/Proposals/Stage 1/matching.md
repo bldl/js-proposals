@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-09-27
-Keywords: #pattern #matcher #binding #exhaustiveness #custom_matchers #and_patterns #or_patterns #array_patterns #object_patterns #expression_semantics
+Keywords: #pattern_matching #matcher #destructuring #combinator #exhaustiveness #extensibility #value_patterns #structure_patterns #custom_matcher #expression_sematics
 GitHub Link: https://github.com/tc39/proposal-pattern-matching
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#pattern-matching-for-stage-2
 

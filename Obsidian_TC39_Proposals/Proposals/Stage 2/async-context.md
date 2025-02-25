@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2025-02-11
-Keywords: #variable #context #asynchronous #snapshot #closure #implicit #propagation #execution #monitoring #tasks
+Keywords: #variable #context #snapshot #async #execution #propagation #callback #scheduling #implicit #monitoring
 GitHub Link: https://github.com/tc39/proposal-async-context
 GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#asynccontext-stage-2-updates
 

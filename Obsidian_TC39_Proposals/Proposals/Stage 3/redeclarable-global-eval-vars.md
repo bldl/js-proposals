@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-04-19
-Keywords: #eval #global #var #let #const #redeclaration #binding #configurable #environment #shadowing
+Keywords: #eval #global_scope #redeclaration #var_binding #configurable #lexical_binding #mental_model #implementation_complexity #shadowing #web_compatibility
 GitHub Link: https://github.com/tc39-transfer/proposal-redeclarable-global-eval-vars
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#make-eval-introduced-global-vars-redeclarable-for-stage-27
 

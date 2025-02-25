@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-08-01
-Keywords: #collection #set #map #prototype #filter #reduce #addAll #deleteAll #merge #generic
+Keywords: #set #map #collection #prototype #filter #reduce #merge #addAll #deleteAll #cognitive_overhead
 GitHub Link: https://github.com/tc39/proposal-collection-methods
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiik-new-set-builtin-methods-for-stage-2
 

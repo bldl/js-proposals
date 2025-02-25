@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2020-07-07
-Keywords: #numeric #suffix #overloading #literal #decimal #scoping #caching #parsing #precision #custom
+Keywords: #numeric #suffix #literal #scoping #overloading #declaration #parsing #type #function #cache
 GitHub Link: https://github.com/tc39/proposal-extended-numeric-literals
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-21.md#numeric-literal-suffixes-update-separate-namespace-version
 

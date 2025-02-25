@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2022-03-31  
 Stage 4: 2023-03-05  
 Last Commit: 2023-08-01
-Keywords: #array #copy #immutable #method #typedarray #prototype #reversed #sorted #spliced #index
+Keywords: #array #copy #immutable #functions #typedarray #reversed #sorted #spliced #method #subclass
 GitHub Link: https://github.com/tc39/proposal-change-array-by-copy
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-30.md#change-array-by-copy
 

@@ -12,7 +12,7 @@ Stage 2.7: 2025-02-10
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2025-02-10
-Keywords: #shadowrealm #global_environment #import_value #evaluate #promise #primitive_value #distinct_object #intrinsics #built_ins #callable
+Keywords: #shadowrealm #global_environment #intrinsics #built_ins #import_value #evaluate #callable #isolation #promise #distinct
 GitHub Link: https://github.com/tc39/proposal-shadowrealm
 GitHub Note Link: None
 

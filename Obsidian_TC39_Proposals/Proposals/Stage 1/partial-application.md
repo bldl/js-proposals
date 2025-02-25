@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2021-10-19
-Keywords: #partial_application #calling_convention #placeholder_argument #ordinal_placeholder #rest_placeholder #fixed_arity #variable_arity #non_placeholder #applied_arguments #function_binding
+Keywords: #placeholder_arguments #partial_application #ordinal_arguments #rest_arguments #function_binding #currying #calling_convention #functional_programming #unapplied_arguments #function_expression
 GitHub Link: https://github.com/tc39/proposal-partial-application
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#partial-application
 

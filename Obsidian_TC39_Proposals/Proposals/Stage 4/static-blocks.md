@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2021-01-15  
 Stage 4: 2021-08-31  
 Last Commit: 2021-08-31
-Keywords: #static_initialization #lexical_scope #private_state #static_blocks #field_initialization #privileged_access #class_declaration #error_handling #static_fields #data_sharing
+Keywords: #static_initialization #static_fields #lexical_scope #private_access #error_handling #class_body #shared_state #field_initialization #statement_evaluation #privileged_access
 GitHub Link: https://github.com/tc39/proposal-class-static-block
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#class-static-initialization-blocks-for-stage-4
 

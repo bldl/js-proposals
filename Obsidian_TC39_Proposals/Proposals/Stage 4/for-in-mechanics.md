@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2019-11-08  
 Stage 4: NA  
 Last Commit: 2020-02-10
-Keywords: #for_in #enumeration #object #interop #enumerable #properties #prototype #semantics #API #consistency
+Keywords: #for_in #enumeration #prototype #interop #enumerable #properties #object #order #keys #values
 GitHub Link: https://github.com/tc39/proposal-for-in-order
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#for-in-order-for-stage-4
 

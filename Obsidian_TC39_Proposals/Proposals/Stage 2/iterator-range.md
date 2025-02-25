@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2025-02-05
-Keywords: #iterator #range #sequence #bigint #incremental #decremental #step #infinite #filter #polyfill
+Keywords: #iterator #range #iterator_protocol #infinite_sequence #bigint #arithmetic_sequence #decremental #incremental #step #decimal_step
 GitHub Link: https://github.com/tc39/proposal-iterator.range
 GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#iteratorrange-for-stage-27
 

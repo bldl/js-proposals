@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2021-10-28
-Keywords: #extended_mode #insignificant_whitespace #line_comments #inline_comments #regular_expressions #pattern_matching #multiline #flags #documentation #syntax
+Keywords: #regular_expression #extended_mode #comments #insignificant_whitespace #line_comments #multi_line #pattern_matching #document #syntax #flag
 GitHub Link: https://github.com/tc39/proposal-regexp-x-mode
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#regexp-extended-mode-and-comments
 

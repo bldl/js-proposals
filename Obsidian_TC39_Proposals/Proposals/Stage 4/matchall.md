@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2018-01-24  
 Stage 4: NA  
 Last Commit: 2018-12-11
-Keywords: #string #regular_expression #capturing_group #iterator #global_flag #sticky_flag #performance #matches #mutation #polyfill
+Keywords: #string #regex #global #iterable #capturing #groups #lastIndex #performance #polyfill #iterator
 GitHub Link: https://github.com/tc39/proposal-string-matchall
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-26.md#stringprototypematchall-for-stage-4
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-08-05
-Keywords: #object #properties #filtering #ergonomics #prototype #destructuring #keys #new_object #dynamic #configuration
+Keywords: #object #pick #omit #properties #filter #configuration #dynamic #cloning #prototype #keys
 GitHub Link: https://github.com/tc39/proposal-object-pick-or-omit
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#ergonomic-dynamic-object-restructuring
 

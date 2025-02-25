@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2021-02-18
-Keywords: #compartments #immutable #lightweight #intrinsics #global_object #sandboxing #separation #security #confinement #plugin
+Keywords: #compartments #lightweight #immutable #realms #global_object #primordials #separation #security #concurrency #isolation
 GitHub Link: https://github.com/tc39/proposal-ses
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-6.md#ses-compartments
 

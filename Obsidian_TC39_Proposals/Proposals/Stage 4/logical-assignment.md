@@ -9,10 +9,10 @@ Stage Upgrades:
 Stage 1: 2018-03-24  
 Stage 2: NA  
 Stage 2.7: NA  
-Stage 3: 2020-03-15  
+Stage 3: 2020-04-01  
 Stage 4: 2020-07-21  
 Last Commit: 2020-07-21
-Keywords: #logical #operators #assignment #expressions #ternary #ternary_operator #short_circuiting #setter #properties #convenience
+Keywords: #logical #assignment #operators #short_circuiting #terse #setters #expressions #convenience #mathematical #performance
 GitHub Link: https://github.com/tc39/proposal-logical-assignment
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#logical-assignment-for-stage-4
 

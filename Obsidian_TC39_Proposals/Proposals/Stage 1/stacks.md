@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-02-08
-Keywords: #error #stack_trace #standardization #security #implementation #getter #setter #browser_behavior #compatibility #data_property
+Keywords: #error #stack #trace #standardization #property #security #browser #descriptor #getter #setter
 GitHub Link: https://github.com/tc39/proposal-error-stacks
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-01/jan-25.md#15iiia-error-stacks-seeking-stage-1
 

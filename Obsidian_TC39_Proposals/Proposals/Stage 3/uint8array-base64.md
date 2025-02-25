@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2024-02-21  
 Stage 4: NA  
 Last Commit: 2024-07-13
-Keywords: #base64 #hex #binary #encoding #decoding #uint8array #padding #options #streaming #alphabet
+Keywords: #base64 #hex #encoding #decoding #uint8array #options #streaming #padding #alphabet #input
 GitHub Link: https://github.com/tc39/proposal-arraybuffer-base64
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#uint8array-base64-for-stages-27-and-3
 

@@ -6,13 +6,13 @@ Authors: Morgan Phillips
 Champions: Inactive; likely replaced by [uniform parsing of quasi-standard `Date.parse` input][uniform-date-parse]
 Last Presented: None
 Stage Upgrades: 
-Stage 1: 2016-05-27
-Stage 2: NA
-Stage 2.7: NA
-Stage 3: NA
-Stage 4: NA
+Stage 1: 2016-05-27  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2022-01-24
-Keywords: #date #parsing #input #withdrawn #uniform #standard #documentation #specification #commit #history
+Keywords: #parsing #date #uniform #standard #input #documentation #specification #history #champion #process
 GitHub Link: https://github.com/tc39/proposal-date-time-string-format
 GitHub Note Link: None
 

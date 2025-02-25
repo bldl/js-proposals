@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2019-06-11
-Keywords: #emitter #reactive #transformation #filtering #composition #iteration #performance #decoupling #memory #concurrency
+Keywords: #emitter #reactive #transformation #filtering #iterable #composition #performance #decoupling #containers #backwards_compatibility
 GitHub Link: https://github.com/tc39/proposal-emitter
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-06/june-5.md#emitter-for-stage-1
 

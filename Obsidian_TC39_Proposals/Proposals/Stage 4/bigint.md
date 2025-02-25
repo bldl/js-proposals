@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2017-07-27  
 Stage 4: 2019-09-30  
 Last Commit: 2019-09-30
-Keywords: #bigint #precision #whole_numbers #operators #interoperability #cryptography #typed_arrays #integer_arithmetic #overflow #mathematics
+Keywords: #bigint #arbitrary #precision #integers #math #operators #comparisons #typed_arrays #interoperation #cryptography
 GitHub Link: https://github.com/tc39/proposal-bigint
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-06/june-4.md#bigint-to-stage-4
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2018-05-22  
 Stage 4: 2018-11-28  
 Last Commit: 2018-11-28
-Keywords: #symbol #description #metadata #setting #getter #character #string #object #primitive #context
+Keywords: #symbol #description #metadata #primitive #value #attributes #type #property #representation #function
 GitHub Link: https://github.com/tc39/proposal-Symbol-description
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-27.md#conclusionresolution-12
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2023-11-01  
 Stage 4: NA  
 Last Commit: 2023-12-27
-Keywords: #array #async #iterator #promise #mapping #error_handling #lazy_iteration #synchronous #data_structure #input
+Keywords: #array #async_iterator #promise #mapping #lazy_iteration #data_structure #error_handling #array_like #iterable #iteration
 GitHub Link: https://github.com/tc39/proposal-array-from-async
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-14.md#arrayfromasync-for-stage-3
 

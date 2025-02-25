@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2016-09-29  
 Stage 4: 2019-10-01  
 Last Commit: 2019-10-01
-Keywords: #global #window #global_object #windowproxy #identity #navigation #serialization #context #CSP #SES
+Keywords: #global #object #window #global_object #identity #navigation #shadow #context #ses #properties
 GitHub Link: https://github.com/tc39/proposal-global
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-1.md#globalthis-to-stage-4
 

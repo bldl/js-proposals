@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2024-07-29  
 Stage 4: 2025-02-18  
 Last Commit: 2025-02-18
-Keywords: #escaping #regular_expression #escaping_function #unicode #patterns #context_escape #string_interpolation #substitution #edge_cases #syntax
+Keywords: #regexp #string #regular_expression #escape #escape_function #context_escape #unicode #replacement #pattern #subpar
 GitHub Link: https://github.com/tc39/proposal-regex-escaping
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#regexpescape-for-stage-3
 

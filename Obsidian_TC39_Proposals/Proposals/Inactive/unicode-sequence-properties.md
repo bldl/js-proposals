@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-05-20
-Keywords: #unicode #property #regex #escapes #characters #sequences #emoji #regular_expression #code_points #syntax
+Keywords: #unicode #property #sequence #regex #test #escapes #emoji #character #pattern #alternation
 GitHub Link: https://github.com/tc39/proposal-regexp-unicode-sequence-properties
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#update-on-sequence-property-escapes-in-unicode-regular-expressions
 

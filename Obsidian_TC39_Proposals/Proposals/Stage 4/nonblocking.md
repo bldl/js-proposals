@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2021-03-31
-Keywords: #asynchronous #atomic #wait #blocking #agents #polyfill #implementation #examples #test_cases #event_loop
+Keywords: #asynchronous #atomic #wait #agents #nonblocking #polyfill #implementation #test_cases #event_loop #concurrency
 GitHub Link: https://github.com/tc39/proposal-atomics-wait-async
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-15.md#atomicswaitasync-for-stage-4
 

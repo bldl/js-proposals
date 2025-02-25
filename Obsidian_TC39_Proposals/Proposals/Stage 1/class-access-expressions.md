@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2020-09-09
-Keywords: #class_property #static_members #method_invocation #lexical_scope #function_environment #class_expression #private_methods #access_syntax #inheritance #error_handling
+Keywords: #class_properties #static_members #lexical_scope #class_methods #method_invocation #error_handling #anonymous_classes #private_methods #function_environment #class_fields
 GitHub Link: https://github.com/tc39/proposal-class-access-expressions
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-22.md#class-access-expressions-for-stage-2
 

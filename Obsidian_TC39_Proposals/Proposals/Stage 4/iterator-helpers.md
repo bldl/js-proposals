@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2022-12-01  
 Stage 4: 2024-10-08  
 Last Commit: 2024-10-08
-Keywords: #iterator #prototype #map #filter #take #drop #flatMap #reduce #forEach #find
+Keywords: #iterator #map #filter #take #drop #flatMap #reduce #toArray #forEach #find
 GitHub Link: https://github.com/tc39/proposal-iterator-helpers
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-helpers-for-stage-4
 

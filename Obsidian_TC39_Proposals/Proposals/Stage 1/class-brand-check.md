@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-01-25
-Keywords: #brand_check #instanceof #class_brand #meta_method #type_checking #programmer_intention #prototype_chain #private_fields #object_interoperability #symbol_hasInstance
+Keywords: #brand_check #instanceof #meta_method #object_creation #prototype_based #class_brand #symbol_has_instance #type_checking #interoperability #private_fields
 GitHub Link: https://github.com/tc39/proposal-class-brand-check
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#class-brand-checks
 

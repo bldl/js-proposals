@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-08-20
-Keywords: #function #pipe #flow #compose #callback #composition #application #unary #async #promise
+Keywords: #function #pipe #flow #compose #unary #callbacks #asynchronous #composition #application #concise
 GitHub Link: https://github.com/tc39/proposal-function-pipe-flow
 GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-21.md#functionpipe--flow-for-stage-1
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: 2024-10-08  
 Last Commit: 2024-10-08
-Keywords: #regular_expression #modifiers #subexpression #flags #ignore_case #multiline #dot_all #extended_mode #configuration #syntax_highlighter
+Keywords: #regular_expression #flags #subexpression #ignore_case #multiline #single_line #extended_mode #pattern_modification #parsers #syntax_highlighters
 GitHub Link: https://github.com/tc39/proposal-regexp-modifiers
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#regexp-modifiers-for-stage-4
 

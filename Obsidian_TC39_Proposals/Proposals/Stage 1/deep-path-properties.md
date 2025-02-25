@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2020-06-03
-Keywords: #record #tuple #deep #nested #syntax #spreading #immutable #computed #properties #structure
+Keywords: #deep_path #record #tuple #nesting #syntax #immutable #spread #computed_keys #type_error #readability
 GitHub Link: https://github.com/tc39/proposal-deep-path-properties-for-record
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-3.md#deep-path-properties
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2019-07-25  
 Stage 4: 2019-12-06  
 Last Commit: 2022-01-24
-Keywords: #optional_chaining #nullish_coalescing #short_circuiting #deep_structure #property_access #method_invocation #tree_structure #error_handling #optional_deletion #lazy_evaluation
+Keywords: #property_access #nullish_coalescing #short_circuiting #tree_structure #optional_methods #error_handling #syntax_extension #base_case #optional_deletion #optional_chaining
 GitHub Link: https://github.com/tc39/proposal-optional-chaining
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#optional-chaining-for-stage-4
 

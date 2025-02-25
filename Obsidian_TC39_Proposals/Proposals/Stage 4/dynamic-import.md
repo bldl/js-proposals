@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2016-12-01  
 Stage 4: 2019-06-20  
 Last Commit: 2019-06-20
-Keywords: #dynamic_loading #module_loader #promise #namespace #lazy_loading #runtime #host_environment #dependency_graph #asynchronous #template_strings
+Keywords: #dynamic_loading #module_specifier #promises #script_execution #error_handling #asynchronous_code #host_operations #lazy_loading #runtime_evaluation #module_dependencies
 GitHub Link: https://github.com/tc39/proposal-dynamic-import
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-06/june-4.md#dynamic-import-for-stage-4
 

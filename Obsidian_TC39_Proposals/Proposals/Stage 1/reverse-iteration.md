@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2019-07-23
-Keywords: #repository #proposal #git #hooks #build #conflicts #specification #ecmarkup #documentation #versioning
+Keywords: #repository #proposal #git #commit #repository_management #hooks #build_process #ecmarkup #specification #version_control
 GitHub Link: https://github.com/tc39/proposal-reverseIterator
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#symbolreverse
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2018-01-25  
 Stage 4: 2018-05-22  
 Last Commit: 2019-02-13
-Keywords: #json #syntax #characters #string #parsing #separators #complexity #compatibility #validity #burden
+Keywords: #json #syntax #string #separator #parser #complexity #specification #compatibility #template_literal #cognitive_burden
 GitHub Link: https://github.com/tc39/proposal-json-superset
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-22.md#conclusionresolution-8
 

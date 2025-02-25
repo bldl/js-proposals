@@ -8,11 +8,10 @@ import datetime
 from sharedMethods.askGPT import classifyProposal, getKeyWords
 from sharedMethods.stageUpgrades import getStageUpgrades
 
-def sendToObsidian(stage):
+def sendToObsidian(obsidianFile, apiFile):
+    path = f"Obsidian_TC39_Proposals/Proposals/{obsidianFile}"
 
-    path = "Obsidian_TC39_Proposals/Proposals/{stage}"
-
-    with open("{stage}/outputMD/apiResults.md", "r") as file:
+    with open(f"{apiFile}/outputMD/apiResults.md", "r") as file:
         fileContent = file.readlines()
 
     data_list = [ast.literal_eval(line.strip()) for line in fileContent]
@@ -51,29 +50,34 @@ def sendToObsidian(stage):
                 except:
                     print("Error with link:", link_title)
 
-                # default branch called main
-                try: 
-                    commitDate = f"https://api.github.com/repos/tc39/{apiProposalName}/branches/main"
+                try:
+                    # default branch called main
+                    try: 
+                        commitDate = f"https://api.github.com/repos/tc39/{apiProposalName}/branches/main"
 
-                    commitDateResponse = requests.get(commitDate, auth=(os.getenv("USERNAME"), os.getenv("API_KEY")))
-                    commitDate = commitDateResponse.json()
-                    commitDateIso = commitDate["commit"]["commit"]["author"]["date"]
-                    commitDate = commitDateIso.split("T")
-                    returnDate = commitDate[0]
+                        commitDateResponse = requests.get(commitDate, auth=(os.getenv("USERNAME"), os.getenv("API_KEY")))
+                        commitDate = commitDateResponse.json()
+                        commitDateIso = commitDate["commit"]["commit"]["author"]["date"]
+                        commitDate = commitDateIso.split("T")
+                        returnDate = commitDate[0]
 
-                # default branch called master
+                    # default branch called master
+                    except:
+                        commitDate = f"https://api.github.com/repos/tc39/{apiProposalName}/branches/master"
+
+                        commitDateResponse = requests.get(commitDate, auth=(os.getenv("USERNAME"), os.getenv("API_KEY")))
+                        commitDate = commitDateResponse.json()
+                        commitDateIso = commitDate["commit"]["commit"]["author"]["date"]
+                        commitDate = commitDateIso.split("T")
+                        returnDate = commitDate[0]
                 except:
-                    commitDate = f"https://api.github.com/repos/tc39/{apiProposalName}/branches/master"
+                    returnDate = None
 
-                    commitDateResponse = requests.get(commitDate, auth=(os.getenv("USERNAME"), os.getenv("API_KEY")))
-                    commitDate = commitDateResponse.json()
-                    commitDateIso = commitDate["commit"]["commit"]["author"]["date"]
-                    commitDate = commitDateIso.split("T")
-                    returnDate = commitDate[0]
-
-
-                stageUpgrades = getStageUpgrades(github_link)
-                print(stageUpgrades)
+                try:
+                    stageUpgrades = getStageUpgrades(github_link)
+                    print(stageUpgrades)
+                except:
+                    print("error with getStageUpgrade for", github_link)
 
                 #----------api call for readme------------------------
                 try:
@@ -85,8 +89,9 @@ def sendToObsidian(stage):
 
                     keywords = getKeyWords(title, file_content)
 
-                    with open(f"Obsidian_TC39_Proposals/Analysis/Keywords/Keywords.md", "a") as keywordList:
-                        keywordList.write(f"Proposal: {link_titles}\n {keywords}\n\n")
+                    with open(f"Obsidian_TC39_Proposals/Analysis/Keywords/Terms.md", "a") as keywordList:
+                        keywordList.write(f"Proposal: {link_titles} \n {keywords}\n\n")
+
 
                     print(keywords)
 
@@ -98,9 +103,9 @@ def sendToObsidian(stage):
                         print("error with asking open ai:", title)
                 except:
                     print("Error with link:", link_titles)
-                    with open(f"Obsidian_TC39_Proposals/Proposals/{stage}/{link_titles}.md", "w") as proposals:
+                    with open(f"Obsidian_TC39_Proposals/Proposals/{obsidianFile}/{link_titles}.md", "w") as proposals:
                         proposals.write(
-                            f"[[{stage}]]\n"
+                            f"[[{obsidianFile}]]\n"
                             f"Classification:\n"
                             f"Human Validated: No\n"
                             f"Title: {title}\n"
@@ -116,9 +121,9 @@ def sendToObsidian(stage):
                     )
                     continue
                 #-----------------------------------------------------
-                with open(f"Obsidian_TC39_Proposals/Proposals/{stage}/{link_titles}.md", "w") as proposals:
+                with open(f"Obsidian_TC39_Proposals/Proposals/{obsidianFile}/{link_titles}.md", "w") as proposals:
                     proposals.write(
-                        f"[[{stage}]]\n"
+                        f"[[{obsidianFile}]]\n"
                         f"Classification: {classification}\n"
                         f"Human Validated: No\n"
                         f"Title: {title}\n"

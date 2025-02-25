@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2019-06-07  
 Stage 4: 2020-12-16  
 Last Commit: 2021-09-07
-Keywords: #weak_reference #finalization_registry #garbage_collection #memory_management #caching #data_structure #cleanup #memory_leak #webassembly #asynchronous
+Keywords: #weak_reference #finalization_registry #garbage_collection #memory_management #cache #finalizer #memory_leak #data_structure #webassembly #cross_worker
 GitHub Link: https://github.com/tc39/proposal-weakrefs
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
 

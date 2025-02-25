@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2021-05-25  
 Stage 4: NA  
 Last Commit: 2021-08-31
-Keywords: #object #hasown #property #prototype #method #library #polyfill #redefine #error #eslint
+Keywords: #object #method #property #inheritance #polyfills #error_handling #library #codemod #eslint #redefinition
 GitHub Link: https://github.com/tc39/proposal-accessible-object-hasownproperty
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#accessible-object-hasownproperty-for-stage-4
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2025-01-28
-Keywords: #decorators #dependency_injection #parameter_decorators #object_relational_mapping #metadata #validation #routing #marshaling #foreign_function_interface #constructor_parameters
+Keywords: #decorators #parameters #metaprogramming #dependency_injection #validation #marshaling #routing #metadata #object_relational_mapping #foreign_function_interface
 GitHub Link: https://github.com/tc39/proposal-class-method-parameter-decorators
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#class-constructor-and-method-parameter-decorators
 

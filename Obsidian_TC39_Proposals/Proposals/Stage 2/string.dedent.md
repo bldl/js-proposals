@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2023-08-21
-Keywords: #string #dedent #template_literal #indentation #multiline #sensible #performance #whitespace #readability #expressions
+Keywords: #dedent #template_literal #multiline #whitespace #indentation #performance #readability #code_generation #tagged_templates #string_processing
 GitHub Link: https://github.com/tc39/proposal-string-dedent
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#stringdedent
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2017-11-15
-Keywords: #cancellation #asynchronous #operations #coordination #tokens #background #fetching #observation #mechanism #iterators
+Keywords: #cancellation #asynchronous #operations #tokens #coordination #observation #fetching #background #resources #user_controlled
 GitHub Link: https://github.com/tc39/proposal-cancellation
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#cancellation-update
 

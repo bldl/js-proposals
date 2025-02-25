@@ -7,12 +7,12 @@ Champions: Ron Buckton
 Last Presented: February 2024
 Stage Upgrades: 
 Stage 1: 2017-07-15  
-Stage 2: 2017-09-27  
+Stage 2: 2017-09-11  
 Stage 2.7: NA  
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-01-19
-Keywords: #throw #expression #exception #syntax #grammar #parameters #precedence #ambiguity #Operators #ternary
+Keywords: #expression #exception #syntax #precedence #ambiguity #grammar #conditional #arrow_function #throw_statement #error
 GitHub Link: https://github.com/tc39/proposal-throw-expressions
 GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-02/feb-8.md#throw-expressions-update-or-stage-27
 

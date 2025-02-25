@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-01-26
-Keywords: #reversible #split #string #separator #remainder #prefix #delimited #algorithm #substrings #method
+Keywords: #splitN #reversible #substring #delimiter #prefix #array #remainder #parsing #INI #header
 GitHub Link: https://github.com/tc39/proposal-reversible-string-split
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-01/jan-25.md#reversible-string-split
 

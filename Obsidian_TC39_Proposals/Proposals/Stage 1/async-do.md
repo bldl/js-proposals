@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2021-02-02
-Keywords: #asynchronous #context #syntax #operation #expression #promise #await #fetch #script #single
+Keywords: #asynchronous #context #operation #syntax #expression #promise #fetch #await #readFile #motivation
 GitHub Link: https://github.com/tc39/proposal-async-do-expressions
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#async-do-expressions
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2024-04-15  
 Stage 4: NA  
 Last Commit: 2024-12-05
-Keywords: #code #eval #trusted_types #host #compilation #type_information #security #dynamic #string #object
+Keywords: #dynamic #eval #trusted_types #host_callout #code_like #security #type_information #compilation #runtime #backwards_compatibility
 GitHub Link: https://github.com/tc39/proposal-dynamic-code-brand-checks
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
 

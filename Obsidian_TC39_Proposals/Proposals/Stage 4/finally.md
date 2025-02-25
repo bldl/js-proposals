@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2017-07-25  
 Stage 4: 2018-01-24  
 Last Commit: 2018-01-28
-Keywords: #promise #callback #cleanup #loading #rejection #fulfillment #polyfill #promise_library #finally #execution
+Keywords: #promise #callback #cleanup #rejection #fulfillment #loading #promise_library #error_handling #synchronous #javascript
 GitHub Link: https://github.com/tc39/proposal-promise-finally
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-24.md#conclusionresolution-2
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2019-01-16
-Keywords: #binary #ast #parsing #performance #encoding #annotation #defer #semantic #compression #grammar
+Keywords: #binary #ast #parsing #performance #serialization #compression #syntax #encoding #annotations #backwards_compatibility
 GitHub Link: https://github.com/tc39/proposal-binary-ast
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-24.md#binary-ast
 

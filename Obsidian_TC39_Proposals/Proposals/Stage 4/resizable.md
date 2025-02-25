@@ -7,12 +7,12 @@ Champions: Shu-yu Guo
 Last Presented: September 2023
 Stage Upgrades: 
 Stage 1: 2020-07-01  
-Stage 2: 2020-09-28  
+Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
 Stage 4: 2023-10-24  
 Last Commit: 2023-10-24
-Keywords: #arraybuffer #sharedarraybuffer #inplace #memory_management #resize #growing #shrinking #typedarray #webgpu #webassembly
+Keywords: #resizable #buffer #memory_management #typedarray #in_place #growth #shrinking #performance #security #WebAssembly
 GitHub Link: https://github.com/tc39/proposal-resizablearraybuffer
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-26.md#resizable-buffers-for-stage-4
 

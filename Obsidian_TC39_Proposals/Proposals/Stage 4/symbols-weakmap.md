@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2022-06-07  
 Stage 4: NA  
 Last Commit: 2022-06-07
-Keywords: #weakmap #symbol #primitive #garbage_collection #identity #records #tuples #virtualization #references #membranes
+Keywords: #weakmap #symbol #primitive #identity #records #tuples #garbage_collection #memory_management #virtualization #reference
 GitHub Link: https://github.com/tc39/proposal-symbols-as-weakmap-keys
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#symbols-as-weakmap-keys
 

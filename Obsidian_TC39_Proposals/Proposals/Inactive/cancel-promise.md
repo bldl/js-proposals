@@ -1,5 +1,5 @@
 [[Inactive]]
-Classification: [[API Change]]
+Classification: [[Syntactic Change]]
 Human Validated: No
 Title: Cancelable Promises
 Authors: Domenic Denicola
@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2016-12-15
-Keywords: #withdrawn #champion #documentation #specification #process #commit #history #active #reference #proposal
+Keywords: #withdrawn #champion #documentation #specification #commit #history #active #process #reference #proposals
 GitHub Link: https://github.com/tc39/proposal-cancelable-promises
 GitHub Note Link: None
 

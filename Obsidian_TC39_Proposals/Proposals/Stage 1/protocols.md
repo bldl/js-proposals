@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-11-28
-Keywords: #protocol #symbols #protocols #iteration #functor #type_classes #traits #mixin #methods #namespace
+Keywords: #protocol #symbols #identity #iteration #functor #compare #overlapping #namespace #implementation #extension
 GitHub Link: https://github.com/tc39/proposal-first-class-protocols
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#updates-on-first-class-protocols
 

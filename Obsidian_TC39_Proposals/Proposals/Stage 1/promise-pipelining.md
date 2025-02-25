@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2020-04-26
-Keywords: #wavy_dot #promise #pipelining #syntax #internal_method #optional_chaining #operator #apply #expression #equivalence
+Keywords: #wavy_dot #promise #pipelining #syntactic_sugar #optional_chaining #infix_operator #internal_methods #eventual_apply #eventual_get #babel
 GitHub Link: https://github.com/tc39/proposal-wavy-dot
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#update-on-promise-pipelining
 

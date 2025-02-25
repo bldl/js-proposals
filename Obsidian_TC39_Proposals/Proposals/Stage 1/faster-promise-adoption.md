@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-06-08
-Keywords: #promise #adoption #settling #thenable #reentrancy #resolution #inner #outer #fast_path #ticks
+Keywords: #promise #adoption #settle #thenable #resolution #performance #interleaving #hazards #native #async
 GitHub Link: https://github.com/tc39/proposal-faster-promise-adoption
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#remove-job-from-promise-resolve-functions
 

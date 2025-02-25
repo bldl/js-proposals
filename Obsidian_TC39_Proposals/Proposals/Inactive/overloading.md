@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2023-12-18
-Keywords: #operator #overloading #numeric #vector #matrix #tensor #library #expressivity #predictability #syntax
+Keywords: #operator #overloading #numeric #vector #matrix #tensor #expressivity #predictability #syntax #libraries
 GitHub Link: https://github.com/tc39/proposal-operator-overloading
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#operator-overloading-for-stage-1
 

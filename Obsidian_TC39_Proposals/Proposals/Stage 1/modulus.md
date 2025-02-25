@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2023-07-09
-Keywords: #integer_math #modulus #remainder #math_operations #static_methods #optimizations #signed_integers #random_integer #efficiency #cpu_architecture
+Keywords: #integer_math #modulus #remainder #int32 #random_integer #math_operations #engine_optimizations #compiler_optimizations #math_object #efficient_implementation
 GitHub Link: https://github.com/tc39/proposal-integer-and-modulus-math
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#modulus-and-additional-integer-math-for-stage-1
 

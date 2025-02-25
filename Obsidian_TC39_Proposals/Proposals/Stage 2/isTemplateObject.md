@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2024-05-30  
 Stage 4: NA  
 Last Commit: 2024-10-20
-Keywords: #template #trusted #interpolation #security #sensitive #operation #attacker #malicious #array #contextual_autoescaping
+Keywords: #template #secure #vulnerability #interpolation #trust #tag_function #execution #array #string #context
 GitHub Link: https://github.com/tc39/proposal-array-is-template-object
 GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-10.md#arrayistemplateobject-next-steps
 

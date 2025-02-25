@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-05-25
-Keywords: #accessor #getter #setter #private #decorators #grouped #boilerplate #initialization #fields #syntax
+Keywords: #grouped_accessors #auto_accessors #getter #setter #private_field #decorator #syntactic_sugar #boilerplate #encapsulation #access_control
 GitHub Link: https://github.com/tc39/proposal-grouped-and-auto-accessors
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-19.md#continuation-grouped-accessors-and-auto-accessors
 

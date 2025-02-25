@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2015-11-17  
 Stage 4: 2016-05-25  
 Last Commit: 2016-05-25
-Keywords: #string_padding #fill_string #monospaced #padding #string_manipulation #performance #string_formatting #web_compatibility #utility_functions #length_semantics
+Keywords: #padding #string #performance #left_padding #right_padding #character_fill #monospaced #efficiency #formatting #development
 GitHub Link: https://github.com/tc39/proposal-string-pad-start-end
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-05/may-25.md#stringprototypepadstartend-jhd
 

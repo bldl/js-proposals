@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2020-07-22
-Keywords: #array #last #getter #setter #length #index #object #undefined #polyfill #syntax
+Keywords: #array #element #index #getter #setter #length #operation #syntax #undefined #polyfill
 GitHub Link: https://github.com/tc39/proposal-array-last
 GitHub Note Link: None
 

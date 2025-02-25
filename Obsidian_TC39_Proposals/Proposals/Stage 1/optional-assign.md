@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-01-23
-Keywords: #optional #chaining #assignment #property #object #syntax #optional_chaining #null_coalescing #undefined #expression
+Keywords: #optional #chaining #assignment #property #object #existence #syntax #guarding #expression #operator
 GitHub Link: https://github.com/tc39/proposal-optional-chaining-assignment
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#optional-chaining-in-assignment-lhs-for-stage-1-or-2
 

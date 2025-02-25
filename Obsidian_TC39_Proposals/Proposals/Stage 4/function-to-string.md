@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: 2018-11-28  
 Last Commit: 2018-11-28
-Keywords: #function #prototype #to_string #serialization #formatting #stringification #inheritance #functionality #representation #customization
+Keywords: #function #prototype #toString #serialization #deserialization #object #representation #default #method #stringification
 GitHub Link: https://github.com/tc39/Function-prototype-toString-revision
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-27.md#conclusionresolution-13
 

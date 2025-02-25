@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "-path:Analysis/Changes  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -8,73 +8,59 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"Proposals/Stage 0\"  ",
+      "query": "path:Proposals/Inactive  ",
       "color": {
         "a": 1,
-        "rgb": 5431473
+        "rgb": 14701138
       }
     },
     {
-      "query": "path:\"Proposals/Stage 1\"  ",
+      "query": "path:\"Proposals/Stage 0\"  ",
       "color": {
         "a": 1,
         "rgb": 14725458
       }
     },
     {
-      "query": "path:\"Proposals/Stage 2\"  ",
+      "query": "path:\"Proposals/Stage 1\"  ",
       "color": {
         "a": 1,
         "rgb": 11657298
       }
     },
     {
-      "query": "path:\"Proposals/Stage 2.7\"  ",
+      "query": "path:\"Proposals/Stage 2\"  ",
       "color": {
         "a": 1,
         "rgb": 5431378
       }
     },
     {
-      "query": "path:\"Proposals/Stage 3\"  ",
+      "query": "path:\"Proposals/Stage 2.7\"  ",
       "color": {
         "a": 1,
         "rgb": 5431473
       }
     },
     {
-      "query": "path:\"Proposals/Stage 4\"  ",
+      "query": "path:\"Proposals/Stage 3\"  ",
       "color": {
         "a": 1,
         "rgb": 5419488
       }
     },
     {
-      "query": "path:\"Proposals/Inactive\"  ",
+      "query": "path:\"Proposals/Stage 4\"  ",
       "color": {
         "a": 1,
         "rgb": 5395168
       }
     },
     {
-      "query": "path:\"Analysis/Changes/API Change\"  ",
+      "query": "path:Analysis/Changes  ",
       "color": {
         "a": 1,
         "rgb": 11621088
-      }
-    },
-    {
-      "query": "path:\"Analysis/Changes/Semantic Change\"",
-      "color": {
-        "a": 1,
-        "rgb": 14701233
-      }
-    },
-    {
-      "query": "path:\"Analysis/Changes/Syntactic Change\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
       }
     }
   ],
@@ -88,6 +74,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.24890997139825732,
-  "close": true
+  "scale": 0.24807035477340497,
+  "close": false
 }

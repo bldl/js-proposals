@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2018-10-12
-Keywords: #interface #description #interfaces #coercion #overloading #syntax #conversion #tools #arguments #specification
+Keywords: #interface #description #coercion #overloading #type #syntax #specification #argument_handling #maintenance #documentation
 GitHub Link: https://github.com/tc39/proposal-idl
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-09/sept-27.md#idl-for-javascript
 

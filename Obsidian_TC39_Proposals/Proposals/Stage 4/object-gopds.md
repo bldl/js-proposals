@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: 2016-05-25  
 Last Commit: 2016-07-30
-Keywords: #descriptors #object #properties #copy #shallow #merge #composition #accessors #enumerability #polyfill
+Keywords: #descriptors #copying #enumerable #accessors #composition #mixins #properties #shallow_copy #prototypes #boilerplate
 GitHub Link: https://github.com/tc39/proposal-object-getownpropertydescriptors
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-05/may-25.md#objectgetownpropertydescriptors-jhd
 

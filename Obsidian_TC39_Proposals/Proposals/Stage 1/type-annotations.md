@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2025-02-15
-Keywords: #type_annotations #type_checker #type_erasure #type_declarations #generics #optional_parameters #type_assertions #type_exports #static_typing #type_systems
+Keywords: #type_annotations #type_checking #type_syntax #type_systems #type_declarations #generics #type_assertions #type_erasure #optional_parameters #runtime_compatibility
 GitHub Link: https://github.com/tc39/proposal-type-annotations
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#types-as-comments-for-stage-1
 

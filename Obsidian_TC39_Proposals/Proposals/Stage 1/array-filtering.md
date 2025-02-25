@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2021-07-20
-Keywords: #array #filterReject #filter #data_structure #confusion #intuitive #removal #keeping #polyfill #partition
+Keywords: #array #filter #reject #confusion #intuition #polyfill #method #array_prototype #function #collection
 GitHub Link: https://github.com/tc39/proposal-array-filtering
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#status-update-on-array-filtering
 

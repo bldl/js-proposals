@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2021-07-14  
 Stage 4: 2022-06-06  
 Last Commit: 2022-06-06
-Keywords: #findlast #findlastindex #array_method #performance #element_search #condition_function #tail_access #reverse_mutation #index_calculation #typed_array
+Keywords: #find_last #find_index #time_complexity #array_methods #duplicate_elements #performance_sensitive #element_search #iterative_processing #functional_programming #typed_array
 GitHub Link: https://github.com/tc39/proposal-array-find-from-last
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#findlastfindlastindex-for-stage-4
 

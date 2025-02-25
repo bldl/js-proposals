@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-05-15
-Keywords: #prng #seeded #random #reproducibility #bigint #pseudo_random #game_development #testing #uniform_distribution #cloning
+Keywords: #prng #seed #predictable #pseudo_random #distribution #entropy #clone #algorithm #function #bigint
 GitHub Link: https://github.com/tc39/proposal-seeded-random
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iif-mathseededrandoms-for-stage-1
 

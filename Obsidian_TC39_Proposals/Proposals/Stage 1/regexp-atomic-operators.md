@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-06-08
-Keywords: #backtracking #possessive #quantifiers #atomic #groups #performance #syntax #non-backtracking #expressions #disjunction
+Keywords: #backtracking #atomic #quantifiers #performance #control #expression #syntax #greedy #disjunction #non_backtracking
 GitHub Link: https://github.com/tc39/proposal-regexp-atomic-operators
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-08.md#regex-atomic-operators
 

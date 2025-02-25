@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2023-09-13
-Keywords: #date #time #parsing #interchange #format #standardization #input #validation #iso8601 #rfc3339
+Keywords: #date #time #format #validation #standardization #input #parsing #ISO8601 #RFC3339 #interchange
 GitHub Link: https://github.com/tc39/proposal-uniform-interchange-date-parsing
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-09/sept-26.md#uniform-parsing-of-quasi-standard-dateparse-input
 

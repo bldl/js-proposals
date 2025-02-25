@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2020-09-18  
 Stage 4: NA  
 Last Commit: 2024-12-12
-Keywords: #import #attributes #module #json #syntax #importation #metadata #interoperability #standards #specification
+Keywords: #import #attributes #module #json #syntax #environment #metadata #security #importation #caching
 GitHub Link: https://github.com/tc39/proposal-import-attributes
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#import-attributes-and-json-modules-for-stage-4
 

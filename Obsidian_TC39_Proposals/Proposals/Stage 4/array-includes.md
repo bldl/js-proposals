@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: 2015-11-17  
 Last Commit: 2015-11-17
-Keywords: #array #includes #element #detection #samevaluezero #na #typerarrays #index #comparison #values
+Keywords: #array #includes #pattern #comparison #NaN #consistency #parameter #algorithm #values #typed_array
 GitHub Link: https://github.com/tc39/proposal-Array.prototype.includes
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2015-11/nov-17.md#arrayprototypeincludes
 

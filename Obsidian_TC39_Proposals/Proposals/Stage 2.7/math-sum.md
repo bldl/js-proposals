@@ -12,7 +12,7 @@ Stage 2.7: 2024-04-09
 Stage 3: 2024-10-27  
 Stage 4: NA  
 Last Commit: 2024-10-27
-Keywords: #sum #precision #floating_point #algorithm #iterable #reduce #identity #overflow #mathematics #numbers
+Keywords: #sum #precision #floating_point #iterable #algorithm #arbitrary_precision #identity #overflow #reduce #numeric
 GitHub Link: https://github.com/tc39/proposal-math-sum
 GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#mathsumexact-for-stage-27
 

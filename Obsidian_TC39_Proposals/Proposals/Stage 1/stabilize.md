@@ -1,5 +1,5 @@
 [[Stage 1]]
-Classification: [[Semantic Change]]
+Classification: [[API Change]]
 Human Validated: No
 Title: Stabilize
 Authors: Mark Miller, Chip Morningstar, Richard Gibson, Mathieu Hofman
@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2025-02-20
-Keywords: #integrity #traits #programming #frozen #sealed #non-extensible #proxy #bounded #invariants #safety
+Keywords: #integrity #traits #frozen #non-extensible #proxy #reentrancy #override #assignment #programming #security
 GitHub Link: https://github.com/Agoric/proposal-stabilize
 GitHub Note Link: None
 

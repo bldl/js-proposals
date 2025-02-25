@@ -12,7 +12,7 @@ Stage 2.7: 2024-12-05
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2025-02-05
-Keywords: #module #worker #runtime #tooling #static_analysis #import #module_resolution #source_phase #dynamic_import #CSP
+Keywords: #worker #module #import #source #resolution #dynamic #analysis #tooling #CSP #ergonomics
 GitHub Link: https://github.com/tc39/proposal-esm-phase-imports
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#esm-phase-imports
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-06-12
-Keywords: #void #discard #binding #elision #assignment #pattern #parameters #resource #exclusion #declaration
+Keywords: #void #binding #elision #discard #parameters #patterns #assignment #object #array #extraction
 GitHub Link: https://github.com/tc39/proposal-discard-binding
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#discard-bindings-update-or-stage-2
 

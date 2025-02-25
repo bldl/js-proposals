@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2023-07-12  
 Stage 4: 2023-12-12  
 Last Commit: 2023-12-12
-Keywords: #promise #executor #resolve #reject #asynchronous #callback #utility #boilerplate #configuration #application
+Keywords: #promise #executor #callback #resolution #rejection #asynchronous #utility #boilerplate #event #configuration
 GitHub Link: https://github.com/tc39/proposal-promise-with-resolvers
 GitHub Note Link: None
 

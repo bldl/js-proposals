@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2019-10-04  
 Stage 4: 2020-07-21  
 Last Commit: 2020-08-10
-Keywords: #promise #aggregate_error #combinator #iterable #rejection #exception #fulfilled #error #fulfillment #promise_chain
+Keywords: #promise #aggregate_error #combinator #rejection #fulfillment #iterable #error_handling #promise_library #exception #stack_trace
 GitHub Link: https://github.com/tc39/proposal-promise-any
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#promiseany--aggregateerror-for-stage-4
 

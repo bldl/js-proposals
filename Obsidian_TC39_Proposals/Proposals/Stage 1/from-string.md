@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2018-03-21
-Keywords: #bigint #number #fromstring #parsing #syntaxerror #radix #literal #exception #typeerror #rangeerror
+Keywords: #bigint #number #fromstring #string_conversion #radix #syntax_error #range_error #type_error #exception_handling #integer_literals
 GitHub Link: https://github.com/tc39/proposal-number-fromstring
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iic-bigintnumberfromstring-for-stage-1
 

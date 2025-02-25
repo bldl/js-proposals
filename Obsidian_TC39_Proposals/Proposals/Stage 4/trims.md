@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2018-06-19  
 Stage 4: NA  
 Last Commit: 2019-12-30
-Keywords: #trim #whitespace #string #aliasing #web_compatibility #consistency #specification #implementation #pad #engines
+Keywords: #trim_start #trim_end #trim_left #trim_right #whitespace #string_manipulation #web_compatibility #string_api #function_aliasing #consistency
 GitHub Link: https://github.com/tc39/proposal-string-left-right-trim
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#stringprototypetrimstarttrimend-for-stage-4
 

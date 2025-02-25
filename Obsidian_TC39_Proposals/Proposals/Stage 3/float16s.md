@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2023-05-16  
 Stage 4: NA  
 Last Commit: 2024-12-05
-Keywords: #float16 #typedarray #binary16 #gpu #webgl #webgpu #color #memory #dataview #performance
+Keywords: #float16 #typedarray #webgpu #webgl #memory_constraints #gpu_operations #dataview #performance_costs #math_f16round #color_management
 GitHub Link: https://github.com/tc39/proposal-float16array
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#float16array-for-stage-3
 

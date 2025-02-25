@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-07-10
-Keywords: #callback #invocation #unique #function #execution #results #arguments #real_world #standardization #promise
+Keywords: #callback #once_function #prototype #function_call #arguments #result #standardization #web_compatibility #development #performance
 GitHub Link: https://github.com/tc39/proposal-function-once
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#functionprototypeonce-for-stage-1
 

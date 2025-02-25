@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2018-07-24  
 Stage 4: 2019-01-29  
 Last Commit: 2019-01-29
-Keywords: #key_value #object_transformation #iterable #map #reduce #json #apiprinciples #object_entries #collection #property
+Keywords: #key_value_pairs #iterable #map #object #transformation #serialization #API #data_structure #JSON #properties
 GitHub Link: https://github.com/tc39/proposal-object-from-entries
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#objectfromentries-for-stage-4
 

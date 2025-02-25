@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2021-03-03
-Keywords: #expression_oriented #conditional_statements #variability #completion_value #early_errors #declarations #hoisting #templating #lexical_scope #control_flow
+Keywords: #expression_oriented #local_scope #conditional_statements #templating #early_errors #declarations #completion_value #hoisting #edge_cases #syntax_rules
 GitHub Link: https://github.com/tc39/proposal-do-expressions
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-1.md#do-expressions-for-stage-2
 

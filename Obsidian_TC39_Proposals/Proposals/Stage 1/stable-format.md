@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2025-02-19
-Keywords: #locale #formatting #internationalization #collation #date_formatting #iso_8601 #number_formatting #time_zone #string_conversion #unicode
+Keywords: #internationalization #formatters #locales #ISO_8601 #numeric #collation #duration #list_format #temporal #BCP_47
 GitHub Link: https://github.com/tc39/proposal-stable-formatting
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-27.md#stable-formatting-for-stage-1
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2021-10-28  
 Stage 4: 2025-02-13  
 Last Commit: 2025-02-15
-Keywords: #date #time #immutable #calendar #proleptic #clock #leap_seconds #functions #API #objects
+Keywords: #immutable #datetime #calendar #proleptic #leapseconds #timezone #standardization #api #specification #polyfill
 GitHub Link: https://github.com/tc39/proposal-temporal
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-30.md#temporal-update--bug-fixes
 

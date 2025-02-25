@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-01-25
-Keywords: #function #decorators #metadata #context #object_literal #validation #logging #authorization #expression #declaration
+Keywords: #function #decorator #metaprogramming #metadata #context #object_literal #initializer #async #arrow_function #function_expression
 GitHub Link: https://github.com/tc39/proposal-function-and-object-literal-element-decorators
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#function-and-object-literal-element-decorators-for-stage-1
 

@@ -6,13 +6,13 @@ Authors: Jordan Harband
 Champions: Jordan Harband
 Last Presented: August 2021
 Stage Upgrades: 
-Stage 1: 2021-10-29  
-Stage 2: NA  
+Stage 1: 2021-08-18  
+Stage 2: 2021-10-29  
 Stage 2.7: NA  
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2023-09-21
-Keywords: #intrinsic #reflection #runtime #modification #environment #evaluation #function #iterator #shim #csp
+Keywords: #intrinsics #first_run #environment #caching #functions #prototype #robustness #reflect #eval #security
 GitHub Link: https://github.com/tc39/proposal-get-intrinsic
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#get-intrinsic-for-stage-1
 

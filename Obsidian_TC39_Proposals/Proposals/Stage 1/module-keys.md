@@ -6,13 +6,13 @@ Authors: Mike Samuel
 Champions: Mike Samuel
 Last Presented: May 2018
 Stage Upgrades: 
-Stage 1: 2018-02-27
-Stage 2: NA
-Stage 2.7: NA
-Stage 3: NA
-Stage 4: NA
+Stage 1: 2018-02-27  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2019-07-01
-Keywords: #module_body #secure_communication #trusted_intermediary #access_restrictions #permissions #public_key #private_key #opaque_values #confidentiality #authenticity
+Keywords: #module_api #secure_communication #module_loader #public_key #private_key #opaque_value #permissions #trust_management #trusted_intermediary #module_isolation
 GitHub Link: https://github.com/tc39/proposal-module-keys
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-23.md#module-keys-strawman-for-stage-1
 

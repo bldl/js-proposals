@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-10-25
-Keywords: #concurrency #resource #governor #counting #token #asynchronous #iterator #limiting #semaphore #communication
+Keywords: #concurrency #governor #counting #semaphore #protocol #resource_management #async_iterator #promise #task_limiting #integration
 GitHub Link: https://github.com/tc39/proposal-concurrency-control
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#concurrency-control-presenter-mf-and-lca
 

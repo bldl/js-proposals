@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2018-09-26  
 Stage 4: 2019-01-29  
 Last Commit: 2019-01-29
-Keywords: #unicode #utf-8 #utf-16 #surrogate #escape_sequences #json #well_formed #validity #serialization #consistency
+Keywords: #unicode #utf8 #utf16 #json #serialization #surrogate #escape_sequences #invalid #backwards_compatibility #validity
 GitHub Link: https://github.com/tc39/proposal-well-formed-stringify
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#well-formed-jsonstringify-for-stage-4
 

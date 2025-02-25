@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2023-02-01  
 Stage 4: 2024-07-12  
 Last Commit: 2024-07-12
-Keywords: #arraybuffer #transfer #detach #ownership #realloc #fixed_length #detached #serialization #performance #memory
+Keywords: #arraybuffer #transfer #ownership #detached #reallocation #serialization #fixed_length #performance #memory_management #typedarray
 GitHub Link: https://github.com/domenic/proposal-arraybuffer-transfer
 GitHub Note Link: None
 

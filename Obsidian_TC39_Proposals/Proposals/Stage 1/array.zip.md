@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-10-10
-Keywords: #iteration #synchronization #iterable #static_method #zip #zipkeyed #performance #compatibility #array_prototype #iteration_helpers
+Keywords: #iteration #synchronization #static_method #array_zip #performance #compatibility #iterators #api_design #data_structure #iterable
 GitHub Link: https://github.com/tc39/proposal-array-zip
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#arrayzip-for-stage-1-or-2-or-27
 

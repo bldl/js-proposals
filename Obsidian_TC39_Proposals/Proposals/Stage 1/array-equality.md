@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2020-06-17
-Keywords: #array_comparison #deep_nesting #array_method #equality_check #schema_validation #data_structure #value_comparison #type_coercion #elementwise #prototype_extension
+Keywords: #array #equality #method #comparison #deep #nested #validation #prototype #assert #schema
 GitHub Link: https://github.com/tc39/proposal-array-equality
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-4.md#generic-comparison
 

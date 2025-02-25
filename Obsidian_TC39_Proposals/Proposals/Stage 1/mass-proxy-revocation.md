@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-12-01
-Keywords: #membrane #revocation #proxy #signals #garbage_collection #weakmap #symbol #memory_optimization #object_graph #realm
+Keywords: #proxy #revocation #membrane #garbage_collection #signal #object_graph #performance #memory_management #binding #realm
 GitHub Link: https://github.com/tc39/proposal-mass-proxy-revocation
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#mass-proxy-revocation-for-stage-1
 

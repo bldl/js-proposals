@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2021-12-20  
 Stage 4: 2023-11-27  
 Last Commit: 2023-11-27
-Keywords: #array #grouping #map #object #method #key #tuple #prototype #destructuring #dataset
+Keywords: #grouping #array #iterables #object #map #data #tuples #compound_key #destructuring #polyfill
 GitHub Link: https://github.com/tc39/proposal-array-grouping
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-27.md#array-grouping-for-stage-4
 

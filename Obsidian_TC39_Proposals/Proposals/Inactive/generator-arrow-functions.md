@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2020-07-24
-Keywords: #generator #arrow #function #syntax #keyword #hazard #react #expressions #use_cases #generators
+Keywords: #generator #arrow #function #syntax #keyword #react #execution #structure #hazard #generator_expression
 GitHub Link: https://github.com/tc39/proposal-generator-arrow-functions
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-09/sept-27.md#11ic-generator-arrow-functions
 

@@ -6,13 +6,13 @@ Authors: JF Bastien
 Champions: Withdrawn: no interested champions in February 2024
 Last Presented: None
 Stage Upgrades: 
-Stage 1: 2017-05-03
-Stage 2: NA
-Stage 2.7: NA
-Stage 3: NA
-Stage 4: NA
+Stage 1: 2017-05-03  
+Stage 2: NA  
+Stage 2.7: NA  
+Stage 3: NA  
+Stage 4: NA  
 Last Commit: 2020-02-06
-Keywords: #signbit #number #negative #mathematical #operations #polyfill #floating_point #value #determination #utilization
+Keywords: #signbit #mathematics #number #negative #polarity #floating_point #precision #sign #operations #polyfill
 GitHub Link: https://github.com/tc39/proposal-Math.signbit
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-23.md#16ib-mathsignbit-proposal
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2018-04-17
-Keywords: #freezing #sealing #object #immutability #prototype #destructuring #function #bindings #type_safety #syntax
+Keywords: #freezing #sealing #immutable #destructuring #prototype #bindings #syntax #type_safety #function #options
 GitHub Link: https://github.com/keithamus/proposal-object-freeze-seal-syntax
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-30.md#10ivd-objectfreeze--objectseal-syntax-proposal-for-stage-0
 

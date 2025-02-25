@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2015-11-17  
 Stage 4: 2016-03-29  
 Last Commit: 2016-03-29
-Keywords: #values #entries #iteration #serialization #map #array #object #consistency #key_value_pairs #hash_filter
+Keywords: #values #entries #iteration #object #map #serialize #keys #array #hash #consistency
 GitHub Link: https://github.com/tc39/proposal-object-values-entries
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-03/march-29.md#objectvalues--objectentries
 

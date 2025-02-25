@@ -75,7 +75,7 @@ source venv/bin/activate
 To retrieve updated repositories from Github API:
 Run apiCall.py in each stage.
 
-Finished:
+Stage 4:
 `python -m Stage_4.extractFromApiResponse` then `python -m Stage_4.sendToObsidian`
 
 Inactive:

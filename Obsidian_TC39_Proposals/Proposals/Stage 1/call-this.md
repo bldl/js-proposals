@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2016-12-01  
 Stage 4: NA  
 Last Commit: 2023-05-05
-Keywords: #operator #binding #function #syntax #left-associative #arguments #precedence #receiver #usability #typeerror
+Keywords: #operator #function #binding #receiver #arguments #left_associative #syntax #type_error #method #precedence
 GitHub Link: https://github.com/tc39/proposal-call-this
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#bind-this-operator-for-stage-1
 

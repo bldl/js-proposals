@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2022-07-20  
 Stage 4: NA  
 Last Commit: 2023-09-26
-Keywords: #reviver #serialization #context #data_structure #source_text #bigint #round_trippability #non_lossy #input_information #performance
+Keywords: #reviver #serialization #source_text #round_tripping #bigint #context #input_information #frozen_objects #data_structure #json_primitives
 GitHub Link: https://github.com/tc39/proposal-json-parse-with-source
 GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-19.md#conclusiondecision-2
 

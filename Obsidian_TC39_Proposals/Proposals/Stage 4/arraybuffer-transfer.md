@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2023-02-01  
 Stage 4: 2024-07-12  
 Last Commit: 2024-07-12
-Keywords: #arraybuffer #transfer #detached #ownership #reallocation #serialization #resizability #performance #memory_management #typedarray
+Keywords: #arraybuffer #transfer #detached #ownership #realloc #serialization #fixed_length #optimizations #memory_management #typedarray
 GitHub Link: https://github.com/tc39/proposal-arraybuffer-transfer
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#arraybuffer-transfer-for-stage-4
 

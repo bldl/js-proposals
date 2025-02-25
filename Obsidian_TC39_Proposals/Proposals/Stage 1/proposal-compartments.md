@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-12-19
-Keywords: #compartmentalization #virtualization #evaluators #modules #module_sources #static_analysis #import_reflection #scope_isolation #power_limitations #host_behaviors
+Keywords: #compartmentalization #module #evaluator #virtualization #isolation #scoping #security #dependencies #prototypes #encapsulation
 GitHub Link: https://github.com/tc39/proposal-compartments
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-03/april-1.md#compartments-for-stage-1
 

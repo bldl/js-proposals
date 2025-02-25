@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-08-07
-Keywords: #async_iterator #unordered #concurrency #promises #iterators #prototype #helpers #transform #throughput #queueing
+Keywords: #unordered #async_iterator #concurrency #promises #performance #iterator #transform #method #prototype #helpers
 GitHub Link: https://github.com/tc39/proposal-unordered-async-iterator-helpers
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-30.md#unordered-async-iterator-helpers-for-stage-1
 

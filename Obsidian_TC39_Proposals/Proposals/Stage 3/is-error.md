@@ -12,7 +12,7 @@ Stage 2.7: 2024-10-15
 Stage 3: 2024-12-02  
 Stage 4: NA  
 Last Commit: 2025-01-09
-Keywords: #error #serialization #debugging #instanceof #prototypes #structured_clone #cross_realm #error_reporting #branding #validation
+Keywords: #error_handling #branding #serialization #error_reporting #debugging #structural_cloning #instance_check #prototype_methods #cross_realm #reliable_test
 GitHub Link: https://github.com/tc39/proposal-is-error
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#erroriserror-for-stage-27
 

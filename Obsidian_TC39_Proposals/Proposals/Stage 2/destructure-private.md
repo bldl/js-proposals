@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-07-15
-Keywords: #private_fields #destructuring #class_instances #syntax #local_references #properties #comparison #reification #private_properties #object_literal
+Keywords: #private #fields #destructuring #class #syntax #properties #references #instance #equality #local
 GitHub Link: https://github.com/tc39/proposal-destructuring-private
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#destructuring-private-fields
 

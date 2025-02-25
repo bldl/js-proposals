@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2025-01-01
-Keywords: #signal #reactivity #dependency_tracking #memoization #computed_signal #state_signal #one_way_data_flow #auto_tracking #declarative_programming #lazy_evaluation
+Keywords: #signal #reactivity #computed #memoization #state #auto_tracking #dependency_graph #declarative #scheduling #interoperability
 GitHub Link: https://github.com/tc39/proposal-signals
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#signals-for-stage-1
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-01-24
-Keywords: #module #pragma #syntax #portability #compatibility #environment #host #source #filenames #parsing
+Keywords: #module #script #pragma #portability #compatibility #in_band #syntax #parsing #environment #declaration
 GitHub Link: https://github.com/tc39/proposal-modules-pragma
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-26.md#9ivb-modulescript-pragma-for-stage-2
 

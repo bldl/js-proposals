@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2023-12-13
-Keywords: #deeply_immutable #compound_primitives #record #tuple #syntax #equality #javascript_engines #optimization #data_structure #comparison
+Keywords: #immutable #data_structure #deeply_immutable #object_like #array_like #value_comparison #primitives #compound_primitives #syntax_extension #debuggable
 GitHub Link: https://github.com/tc39/proposal-record-tuple
 GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#asynccontext-stage-2-updates
 

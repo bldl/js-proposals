@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2017-07-29  
 Stage 4: NA  
 Last Commit: 2022-11-10
-Keywords: #regexp #static_properties #backward_compatibility #subclass #internal_slots #web_compatibility #capture_groups #pattern_matching #realm #data_extraction
+Keywords: #regexp #legacy #static #properties #internal #slots #compile #backward #compatibility #realm
 GitHub Link: https://github.com/tc39/proposal-regexp-legacy-features
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-25.md#15ia-regexp-legacy-features-for-stage-3
 

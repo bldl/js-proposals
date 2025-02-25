@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2020-10-30
-Keywords: #iterator #iteration #object #map #static_method #key_value #entries #keys #values #performance
+Keywords: #iterator #object #iteration #entries #keys #values #transform #performance #collection #polyfill
 GitHub Link: https://github.com/tc39/proposal-object-iteration
 GitHub Note Link: None
 

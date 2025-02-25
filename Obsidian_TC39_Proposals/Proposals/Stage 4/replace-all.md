@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2019-10-03  
 Stage 4: 2020-06-27  
 Last Commit: 2021-02-19
-Keywords: #string #substring #global #regexp #split #join #replacement #escaping #optimization #api
+Keywords: #string #substring #regexp #global #api #optimization #escaping #simplification #replacement #performance
 GitHub Link: https://github.com/tc39/proposal-string-replaceall
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-2.md#stringprototypereplaceall-for-stage-4
 

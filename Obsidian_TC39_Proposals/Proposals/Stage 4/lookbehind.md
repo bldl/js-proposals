@@ -8,11 +8,10 @@ Last Presented: January 2018
 Stage Upgrades: 
 Stage 1: 2015-11-16  
 Stage 2: 2016-12-06  
-Stage 2.7: NA  
 Stage 3: 2017-03-22  
 Stage 4: 2018-01-24  
 Last Commit: 2017-11-12
-Keywords: #lookbehind #negative #positive #backtracking #capture_groups #greediness #unbounded #pattern_matching #assertions #regular_expressions
+Keywords: #lookbehind #lookahead #regular_expression #zero_width #pattern_matching #negative_assertion #positive_assertion #backreference #greediness #capture_group
 GitHub Link: https://github.com/tc39/proposal-regexp-lookbehind
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#conclusionresolution-16
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2019-07-25  
 Stage 4: 2021-06-10  
 Last Commit: 2022-06-06
-Keywords: #substrings #capture #offsets #unmatched #indices #named_captures #regex_flags #textmate #performance #group_indices
+Keywords: #array #captures #indices #substrings #regexp #groups #offsets #textmate #unmatched #performance
 GitHub Link: https://github.com/tc39/proposal-regexp-match-indices
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#regexp-match-indices
 

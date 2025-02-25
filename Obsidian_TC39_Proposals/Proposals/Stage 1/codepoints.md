@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2019-10-21
-Keywords: #code_points #iterator #tokenisation #position #code_point #lexer #identifier #lookahead_iterator #string_management #performance
+Keywords: #code_points #iterator #tokenise #lexers #identifier #position #code_point #lookahead_iterator #numerical #string_values
 GitHub Link: https://github.com/tc39/proposal-string-prototype-codepoints
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-22.md#stringprototypecodepoints-for-stage-2
 

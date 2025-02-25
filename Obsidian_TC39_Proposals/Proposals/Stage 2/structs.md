@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-12-17
-Keywords: #structs #shared_memory #mutex #condition #parallelism #synchronization #optimization #fixed_layout #threadsafe #expressivity
+Keywords: #structs #shared_structs #mutex #condition #memory_model #parallelism #synchronization #threadsafe #fixed_layout #high_performance
 GitHub Link: https://github.com/tc39/proposal-structs
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#structs-and-shared-structs-for-stage-2
 

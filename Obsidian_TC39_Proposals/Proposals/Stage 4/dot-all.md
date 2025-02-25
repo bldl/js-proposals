@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2017-03-22  
 Stage 4: 2017-12-18  
 Last Commit: 2018-01-19
-Keywords: #regular_expression #dotAll #line_terminator #matching #unicode #multiline #escape_sequence #modifier #backwards_compatibility #accessor
+Keywords: #regular_expression #dotAll #line_terminator #unicode #pattern #multiline #flags #test #developer #match
 GitHub Link: https://github.com/tc39/proposal-regexp-dotall-flag
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-28.md#9ie-regexp-dotall-status-update
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2022-11-30  
 Stage 4: 2024-06-25  
 Last Commit: 2024-07-06
-Keywords: #set #methods #union #intersection #difference #symmetric_difference #subset #superset #disjoint #size
+Keywords: #set #union #intersection #difference #symmetric_difference #subset #superset #disjoint #numeric #methods
 GitHub Link: https://github.com/tc39/proposal-set-methods
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#set-methods-for-stage-4
 

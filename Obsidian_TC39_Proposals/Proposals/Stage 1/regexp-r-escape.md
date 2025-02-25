@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2021-12-04
-Keywords: #regular_expression #escape_sequence #unicode #line_terminator #code_point #atomic_group #backtracking #pattern_matching #character_class #split
+Keywords: #unicode #line_terminator #escape_sequence #pattern #atomic_groups #backtracking #character_class #flags #code_points #regexp
 GitHub Link: https://github.com/tc39/proposal-regexp-r-escape
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#regexp-r-escape-for-stage-2
 

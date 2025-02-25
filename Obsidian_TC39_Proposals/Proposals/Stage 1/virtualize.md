@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2020-02-02
-Keywords: #virtualizability #host_objects #deletable_properties #property_descriptors #whitelist #non_deletable #encapsulation #bleaching #abstraction_leakage #startup_code
+Keywords: #virtualizability #host_objects #global_object #deletable_properties #non_deletable #memory_safety #runtime_environment #proxy_mechanism #I_O_abstraction #security_vulnerabilities
 GitHub Link: https://github.com/Agoric/proposal-preserve-virtualizability
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-4.md#preserve-host-virtualizability
 

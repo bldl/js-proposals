@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: 2017-09-12  
 Last Commit: 2022-01-24
-Keywords: #expression #interpolation #console #tagged_template #literal #syntax #comment #dynamic #function #quotation
+Keywords: #string_interpolation #multiline_strings #tagged_template_literals #literal_types #template_processing #syntax_extension #expression_insertion #code_template #dynamic_content #runtime_evaluation
 GitHub Link: https://github.com/tc39/proposal-template-literal-revision
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-03/mar-21.md#10ia-template-literal-updates
 

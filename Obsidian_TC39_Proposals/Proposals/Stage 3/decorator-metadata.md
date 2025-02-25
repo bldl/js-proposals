@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-01-17
-Keywords: #decorators #metadata #introspection #weakmap #inheritance #serialization #dependency_injection #declarative_routing #context #private_metadata
+Keywords: #metadata #decorators #weakmap #introspection #serialization #validation #inheritance #dependency_injection #private_metadata #reactivity
 GitHub Link: https://github.com/tc39/proposal-decorator-metadata
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-18.md#decorator-metadata-final-spec-text-review-for-stage-3
 

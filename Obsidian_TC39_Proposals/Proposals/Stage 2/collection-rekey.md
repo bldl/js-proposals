@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2021-03-09
-Keywords: #coerce #normalization #data_structure #insertion #fragile #boilerplate #validation #maps #sets #type_checking
+Keywords: #coerce_key #coerce_value #data_normalization #user_objects #checked_keys #validation #type_coercion #data_structures #map #set
 GitHub Link: https://github.com/tc39/proposal-collection-normalization
 GitHub Note Link: None
 

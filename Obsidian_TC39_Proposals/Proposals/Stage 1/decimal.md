@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2024-12-11
-Keywords: #decimal #representation #precision #mathematics #currency #conversion #string_formatting #rounding #Decimal128 #implementation
+Keywords: #decimal #representation #precision #money #currency #rounding #arithmetic #conversion #Decimal128 #formatting
 GitHub Link: https://github.com/tc39/proposal-decimal
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#decimals
 

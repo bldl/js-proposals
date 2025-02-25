@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2017-04-06
-Keywords: #dynamic #module #evaluation #dependencies #import #binding #circular #defer #resolution #semantics
+Keywords: #module_records #dynamic_modules #execution_order #pending_imports #circular_dependencies #module_evaluation #module_instantiation #import_binding #source_text #error_handling
 GitHub Link: https://github.com/tc39/proposal-dynamic-modules
 GitHub Note Link: None
 

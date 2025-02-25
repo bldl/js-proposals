@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2021-10-25  
 Stage 4: NA  
 Last Commit: 2022-12-19
-Keywords: #module_expressions #module #worker #closure #realm #import #fetch #caching #structured_clone #content_security_policy
+Keywords: #module_expressions #module_objects #memory_sharing #web_workers #structured_clone #import_meta #dynamic_import #task_sharing #content_security_policy #syntactic_scope
 GitHub Link: https://github.com/tc39/proposal-module-expressions
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-expressions
 

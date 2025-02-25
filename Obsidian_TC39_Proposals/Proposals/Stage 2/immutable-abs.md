@@ -12,7 +12,7 @@ Stage 2.7: 2025-02-22
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2025-02-22
-Keywords: #immutable #arraybuffer #immutable_buffer #typedarray #dataview #transfer #resize #copied #frozen #zero_copy
+Keywords: #immutable #arraybuffer #immutable_buffer #typedarray #dataview #transfer #performance #embedded_systems #frozen #cloning
 GitHub Link: https://github.com/Agoric/tc39-proposal-immutable-arraybuffer
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-10.md#immutable-arraybuffers-for-stage-1
 

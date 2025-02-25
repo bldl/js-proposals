@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-05-28
-Keywords: #buffer_boundaries #character_escapes #unicode #regular_expressions #input #multiline #syntax #metacharacters #lookbehind #disjunctions
+Keywords: #buffer_boundaries #unicode #character #anchors #regular_expressions #multiline #pattern #alternatives #learning_curve #syntax
 GitHub Link: https://github.com/tc39/proposal-regexp-buffer-boundaries
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-buffer-boundaries-for-stage-2
 

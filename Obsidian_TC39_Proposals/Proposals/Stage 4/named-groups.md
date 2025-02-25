@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: 2017-03-22  
 Stage 4: NA  
 Last Commit: 2018-01-24
-Keywords: #named_capture_groups #backreferences #regular_expression #string_manipulation #groups_property #destructuring #replacement_value #identifier_name #unicode #accessibility
+Keywords: #capture_groups #named_groups #backreferences #regular_expressions #string_manipulation #destructuring #replacement #unicode #syntax_error #grammar
 GitHub Link: https://github.com/tc39/proposal-regexp-named-groups
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-28.md#9if-regexp-named-captures-status-update
 

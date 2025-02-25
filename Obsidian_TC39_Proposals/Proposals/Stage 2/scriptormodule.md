@@ -10,9 +10,9 @@ Stage 1: 2024-07-31
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA
+Stage 4: NA  
 Last Commit: 2024-07-31
-Keywords: #promise #host #job #active_script #module #cleanup #callback #propagation #implementation #consistency
+Keywords: #promise #slot #handler #job #module #script #callback #execution #state #binding
 GitHub Link: https://github.com/tc39/proposal-jobcallback-module
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-31.md#continuation-propagate-active-scriptormodule-with-jobcallback-record
 

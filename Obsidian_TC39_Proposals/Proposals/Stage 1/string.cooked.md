@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-07-01
-Keywords: #string #template #literal #concatenation #preprocessing #mapping #encoding #percent_encoding #identity_function #type_error
+Keywords: #template_literal #string_manipulation #escaping #url_encoding #string_concatenation #interpolation #prototyping #functional_programming #syntax_error #type_error
 GitHub Link: https://github.com/tc39/proposal-string-cooked
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#stringcooked
 

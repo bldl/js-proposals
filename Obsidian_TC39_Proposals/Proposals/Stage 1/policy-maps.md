@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2022-08-20
-Keywords: #cache #memory #maps #sets #lru #lfu #fifo #lifo #eviction #memoization
+Keywords: #cache #replacement #memory #management #lru #fifo #lifo #lfu #data_structure #mapping
 GitHub Link: https://github.com/tc39/proposal-policy-map-set
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#policy-maps-and-sets-for-stage-1
 

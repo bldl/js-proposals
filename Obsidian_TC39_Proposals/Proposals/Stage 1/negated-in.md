@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2023-11-10
-Keywords: #in #negation #operators #readability #developer_experience #ergonomics #confusion #error_proneness #conditional #data_structure
+Keywords: #negation #operator #readability #error_proneness #guard_clause #conditional #developer_experience #syntax #data_structure #intuitive
 GitHub Link: https://github.com/tc39/proposal-negated-in-instanceof
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-28.md#negated-in-and-instanceof-operators-for-stage-1
 

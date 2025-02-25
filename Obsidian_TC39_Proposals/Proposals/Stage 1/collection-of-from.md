@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2019-10-22
-Keywords: #collection #constructors #iteration #set #map #utility #inheritance #initialization #parameters #methods
+Keywords: #collection #constructor #set #map #polyfill #iteration #initialization #factory #utility #method
 GitHub Link: https://github.com/tc39/proposal-setmap-offrom
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-09/sept-29.md#11iic-set-map-weakset-and-weakmap-of-and-from-methods
 

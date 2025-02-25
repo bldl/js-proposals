@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2021-04-02
-Keywords: #uuid #identifier #randomness #entropy #crypto #library #api #generation #security #pseudorandom
+Keywords: #uuid #uniqueness #identifiers #cryptography #randomness #entropy #security #api #generation #library
 GitHub Link: https://github.com/tc39/proposal-uuid
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#uuid-for-stage-1
 

@@ -12,7 +12,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA  
 Last Commit: 2019-12-06
-Keywords: #mixin #declarative #inheritance #factory #composition #static_analysis #ergonomics #protocol #trait #method
+Keywords: #mixins #inheritance #subclass_factory #declarative_syntax #static_analysis #ergonomics #composition #traits #protocols #instanceof
 GitHub Link: https://github.com/justinfagnani/proposal-mixins
 GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiie-maximally-minimal-mixins-proposal
 
