@@ -54,8 +54,7 @@ def stageUpgrade(linkTitle, commitHistory):
     I have extracted the commit history for each proposal and have filtered it down to commit messages, authors, and dates for when the proposal upgraded stage.
 
     I am sending you this data and I want you to take a look at the commit history and return to me a list of when the stage upgrade happened in this format:
-
-    Proposal title: *insert title*
+    
     Stage 1: *insert date*
     Stage 2: *insert date*
     Stage 2.7: *insert date*
@@ -86,7 +85,7 @@ def stageUpgrade(linkTitle, commitHistory):
         )
 
         bot_response = completion.choices[0].message.content
-
+        
         return bot_response
 
     except:

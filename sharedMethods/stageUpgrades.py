@@ -3,7 +3,7 @@ import requests
 from dotenv import load_dotenv
 import re
 
-from askGPT import stageUpgrade
+from sharedMethods.askGPT import stageUpgrade
 
 #--------------------------------Helper methods-----------------------------------#
 
@@ -60,22 +60,17 @@ def insertStageUpgrades(path, githubLink, gptResponse):
 
         print(proposal)
 
-
-    
-
 #---------------------------------------------------------------------------------#
 
-path = "Obsidian_TC39_Proposals/Proposals/Stage 4 Proposals/"
-for file in os.listdir(path):
-    filename = os.path.join(path, file)
-    with open(filename, "r") as file:
-        fileContent = file.read()
-        #githubLink = re.search(r"GitHub Link:\s(\S+)", fileContent).group(1).split("/")[-1]
-# Testing purposes
-githubLink = "proposal-promise-allSettled"
-# master does not work if in catch clause, master needs to be processed before mai
-stageRelatedCommits = getCommitMessages(githubLink)
-gptResponse = extractStageUpgrades(githubLink, stageRelatedCommits)
-print(gptResponse)
-#insertStageUpgrades(path, githubLink, gptResponse)
+def getStageUpgrades(githubLink):
+
+    githubLink = githubLink.split("/")[-1]
+
+    # master does not work if in catch clause, master needs to be processed before mai
+    stageRelatedCommits = getCommitMessages(githubLink)
+
+    gptResponse = extractStageUpgrades(githubLink, stageRelatedCommits)
+    
+    return gptResponse
+   
 
