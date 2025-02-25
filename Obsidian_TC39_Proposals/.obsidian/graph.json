@@ -8,80 +8,73 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "Stage3",
-      "color": {
-        "a": 1,
-        "rgb": 14770272
-      }
-    },
-    {
-      "query": "Stage2",
-      "color": {
-        "a": 1,
-        "rgb": 9051551
-      }
-    },
-    {
-      "query": "Stage1",
-      "color": {
-        "a": 1,
-        "rgb": 2398519
-      }
-    },
-    {
-      "query": "Stage_2_7",
-      "color": {
-        "a": 1,
-        "rgb": 5397472
-      }
-    },
-    {
-      "query": "Inactive",
+      "query": "path:\"Proposals/Stage 0\"  ",
       "color": {
         "a": 1,
         "rgb": 5431473
       }
     },
     {
-      "query": "Finished",
+      "query": "path:\"Proposals/Stage 1\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:\"Proposals/Stage 2\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:\"Proposals/Stage 2.7\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:\"Proposals/Stage 3\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:\"Proposals/Stage 4\"  ",
       "color": {
         "a": 1,
         "rgb": 5419488
       }
     },
     {
-      "query": "Stage0",
+      "query": "path:\"Proposals/Inactive\"  ",
       "color": {
         "a": 1,
-        "rgb": 9119547
+        "rgb": 5395168
       }
     },
     {
-      "query": "Semantic",
+      "query": "path:\"Analysis/Changes/API Change\"  ",
       "color": {
         "a": 1,
-        "rgb": 6152079
+        "rgb": 11621088
       }
     },
     {
-      "query": "Syntactic",
+      "query": "path:\"Analysis/Changes/Semantic Change\"",
       "color": {
         "a": 1,
-        "rgb": 12681955
+        "rgb": 14701233
       }
     },
     {
-      "query": "API",
+      "query": "path:\"Analysis/Changes/Syntactic Change\"  ",
       "color": {
         "a": 1,
-        "rgb": 13230162
-      }
-    },
-    {
-      "query": "Processed",
-      "color": {
-        "a": 1,
-        "rgb": 16579836
+        "rgb": 14701138
       }
     }
   ],
@@ -95,6 +88,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.423085711795395,
-  "close": false
+  "scale": 0.24890997139825732,
+  "close": true
 }
