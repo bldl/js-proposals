@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Await Dictionary
-Authors: Alexander J. Vincent
-Champions: Ashley Claymore, Jordan Harband, Chris de Almeida
-Last Presented: March 2023
-Stage Upgrades: 
-Stage 1: 2023-03-24  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Await Dictionary<br>Authors: Alexander J. Vincent<br>Champions: Ashley Claymore, Jordan Harband, Chris de Almeida<br>Last Presented: March 2023<br>Stage Upgrades:<br>Stage 1: 2023-03-24  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2023-03-25
-Keywords: #promise #properties #parallel #requests #waterfall #pollution #object #entries #mapping #asynchronous
-GitHub Link: https://github.com/tc39/proposal-await-dictionary
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#await-dictionary-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2023-03-25<br>Keywords: #promise #properties #parallel #waterfall #pollution #entries #object #native #polyfill #asynchronous<br>GitHub Link: https://github.com/tc39/proposal-await-dictionary <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#await-dictionary-for-stage-1
 # Proposal Description:
 # Await dictionary of Promises
 
@@ -135,3 +122,4 @@ None.
 
 **A**: We haven't really talked about them yet.  That said, `Object.entries()`, for better or for worse, only considers string keys.
 
+<br>

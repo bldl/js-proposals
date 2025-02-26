@@ -1,15 +1,2 @@
-[[Stage 0]]
-Classification:
-Human Validated: No
-Title: Method parameter decorators
-Authors: Igor Minar
-Champions: Igor Minar
-Last Presented: 
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://goo.gl/r1XT9b
-GitHub Note Link: None
-
-# Proposal Description:
+[[Stage 0]]<br>Classification<br>Human Validated: No<br>Title: Method parameter decorators<br>Authors: Igor Minar<br>Champions: Igor Minar<br>Last Presented: <br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://goo.gl/r1XT9b <br>GitHub Note Link: None
+# Proposal Description:<br>

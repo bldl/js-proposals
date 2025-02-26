@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Double-Ended Iterator and Destructuring
-Authors: HE Shi-Jun
-Champions: HE Shi-Jun
-Last Presented: September 2020
-Stage Upgrades: 
-Stage 1: 2020-09-10  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] [[API Change]]<br>Human Validated: No<br>Title: Double-Ended Iterator and Destructuring<br>Authors: HE Shi-Jun<br>Champions: HE Shi-Jun<br>Last Presented: September 2020<br>Stage Upgrades:<br>Stage 1: 2020-09-10  
 Stage 2: 2022-01-23  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-07-21
-Keywords: #double_ended #iterator #destructuring #sequence #generator #memory #iteration #helper #performance #deque
-GitHub Link: https://github.com/tc39/proposal-deiter
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#double-ended-iterator-and-destructuring-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2022-07-21<br>Keywords: #iterator #destructuring #double_ended #generator #array #memory #sequence #context #implementation #helpers<br>GitHub Link: https://github.com/tc39/proposal-deiter <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#double-ended-iterator-and-destructuring-for-stage-1
 # Proposal Description:
 # Double-Ended Iterator and Destructuring
 
@@ -225,3 +212,4 @@ Note, even these two things could coexist, bidirectional is **not** compatible w
 - https://esdiscuss.org/topic/rest-parameters
 - https://esdiscuss.org/topic/strawman-complete-array-and-object-destructuring
 - https://esdiscuss.org/topic/an-update-on-rest-operator
+<br>

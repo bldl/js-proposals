@@ -1,21 +1,8 @@
-[[Inactive]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Getting last element of Array
-Authors: Keith Cirkel
-Champions: Withdrawn; the [Array#at](https://github.com/tc39/proposal-relative-indexing-method) proposal supersedes this work.
-Last Presented: None
-Stage Upgrades: 
-Stage 1: 2018-01-13  
-Stage 2: 2019-05-15  
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Getting last element of Array<br>Authors: Keith Cirkel<br>Champions: Withdrawn; the [Array#at](https://github.com/tc39/proposal-relative-indexing-method) proposal supersedes this work.<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2018-01-13  
+Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2020-07-22
-Keywords: #array #element #index #getter #setter #length #operation #syntax #undefined #polyfill
-GitHub Link: https://github.com/tc39/proposal-array-last
-GitHub Note Link: None
-
+Stage 4: NA<br>Last Commit: 2020-07-22<br>Keywords: #array #item #index #getter #setter #length #operation #generic #polyfill #syntax<br>GitHub Link: https://github.com/tc39/proposal-array-last <br>GitHub Note Link: None
 # Proposal Description:
 # Getting last item from Array
 
@@ -158,3 +145,4 @@ Object.defineProperty(Array.prototype, 'lastIndex', {
    - Within the top 1000 most popular english words (both last and end are)
    - Should be intuitive for both getting and setting
    - Ideally not be a compound word (like lastItem)
+<br>

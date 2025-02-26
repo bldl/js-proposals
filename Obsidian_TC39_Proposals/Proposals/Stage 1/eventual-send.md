@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Support for Distributed Promise Pipelining
-Authors: Mark Miller, Chip Morningstar, Michael Fig
-Champions: Mark Miller, Chip Morningstar, Michael Fig
-Last Presented: October 2019
-Stage Upgrades: 
-Stage 1: 2019-09-20  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Support for Distributed Promise Pipelining<br>Authors: Mark Miller, Chip Morningstar, Michael Fig<br>Champions: Mark Miller, Chip Morningstar, Michael Fig<br>Last Presented: October 2019<br>Stage Upgrades:<br>Stage 1: 2019-09-20  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-04-09
-Keywords: #promise #pipelining #distributed #eventual_send #latency #promises #presence #handler #trap #weak_references
-GitHub Link: https://github.com/tc39/proposal-eventual-send
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#eventual-send-support-for-distributed-promise-pipelining
-
+Stage 4: NA<br>Last Commit: 2022-04-09<br>Keywords: #promise #pipelining #delegated #presence #handler #latency #communication #object #asynchronous #network<br>GitHub Link: https://github.com/tc39/proposal-eventual-send <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#eventual-send-support-for-distributed-promise-pipelining
 # Proposal Description:
 ## `Promise.delegated`
 
@@ -417,3 +404,4 @@ the wavy dot syntax.
    * ***fallback behaviors*** for absent traps, implemented in terms of the remaining traps.
       * `h.eventualSend(t, 'foo', [x])` defaults to
         `h.eventualApply(t, h.eventualGet(t, 'foo'), [x])`
+<br>

@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Array filtering
-Authors: Justin Ridgewell
-Champions: Justin Ridgewell
-Last Presented: February 2020
-Stage Upgrades: 
-Stage 1: 2019-10-24  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Array filtering<br>Authors: Justin Ridgewell<br>Champions: Justin Ridgewell<br>Last Presented: February 2020<br>Stage Upgrades:<br>Stage 1: 2019-10-24  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2021-07-20
-Keywords: #array #filter #reject #confusion #intuition #polyfill #method #array_prototype #function #collection
-GitHub Link: https://github.com/tc39/proposal-array-filtering
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#status-update-on-array-filtering
-
+Stage 4: NA<br>Last Commit: 2021-07-20<br>Keywords: #array #filter #filtering #removal #clarity #confusion #polyfill #partition #function #array_method<br>GitHub Link: https://github.com/tc39/proposal-array-filtering <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#status-update-on-array-filtering
 # Proposal Description:
 # proposal-array-filtering
 
@@ -93,3 +80,4 @@ A polyfill is available in the [core-js](https://github.com/zloirock/core-js) li
 - Lodash
   - [`_.reject`](https://lodash.com/docs/4.17.15#reject) ([700k downloads/week](https://www.npmjs.com/package/lodash.reject))
   - [`_.partition`](https://lodash.com/docs/4.17.15#partition) ([18k downloads/week](https://www.npmjs.com/package/lodash.partition))
+<br>

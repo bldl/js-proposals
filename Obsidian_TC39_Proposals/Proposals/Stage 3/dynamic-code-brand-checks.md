@@ -1,21 +1,8 @@
-[[Stage 3]]
-Classification: [[API Change]] [[Semantic Change]]
-Human Validated: No
-Title: Dynamic Code Brand Checks
-Authors: Nicolo Ribaudo
-Champions: Krzysztof Kotowicz, Mike Samuel, Nicolo Ribaudo
-Last Presented: April 2024
-Stage Upgrades: 
-Stage 1: 2019-06-06  
+[[Stage 3]]<br>Classification: [[API Change]] [[Semantic Change]]<br>Human Validated: No<br>Title: Dynamic Code Brand Checks<br>Authors: Nicolo Ribaudo<br>Champions: Krzysztof Kotowicz, Mike Samuel, Nicolo Ribaudo<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2019-06-06  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2024-04-15  
-Stage 4: NA  
-Last Commit: 2024-12-05
-Keywords: #dynamic #eval #trusted_types #host_callout #code_like #security #type_information #compilation #runtime #backwards_compatibility
-GitHub Link: https://github.com/tc39/proposal-dynamic-code-brand-checks
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
-
+Stage 4: NA<br>Last Commit: 2024-12-05<br>Keywords: #code #eval #trusted_types #host #security #context #dynamic #compilation #type_information #object<br>GitHub Link: https://github.com/tc39/proposal-dynamic-code-brand-checks <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
 # Proposal Description:
 # TC39 Proposal: Dynamic Code Brand Checks
 
@@ -214,3 +201,4 @@ be specified as [web-platform-tests](https://github.com/web-platform-tests/wpt).
 [default policy]: https://w3c.github.io/trusted-types/dist/spec/#default-policy-hdr
 [createscript callback]: https://w3c.github.io/trusted-types/dist/spec/#callbackdef-createscriptcallback
 [draft spec]: https://tc39.es/proposal-dynamic-code-brand-checks/
+<br>

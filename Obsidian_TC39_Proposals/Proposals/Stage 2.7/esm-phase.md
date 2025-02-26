@@ -1,21 +1,8 @@
-[[Stage 2.7]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: ESM Phase Imports
-Authors: Luca Casonato, Guy Bedford
-Champions: Luca Casonato, Guy Bedford
-Last Presented: December 2024
-Stage Upgrades: 
-Stage 1: 2024-02-13  
+[[Stage 2.7]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: ESM Phase Imports<br>Authors: Luca Casonato, Guy Bedford<br>Champions: Luca Casonato, Guy Bedford<br>Last Presented: December 2024<br>Stage Upgrades:<br>Stage 1: 2024-02-13  
 Stage 2: 2024-06-24  
 Stage 2.7: 2024-12-05  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2025-02-05
-Keywords: #worker #module #import #source #resolution #dynamic #analysis #tooling #CSP #ergonomics
-GitHub Link: https://github.com/tc39/proposal-esm-phase-imports
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#esm-phase-imports
-
+Stage 4: NA<br>Last Commit: 2025-02-05<br>Keywords: #module #worker #import #source #resolution #analysis #ergonomics #tooling #dynamics #csp<br>GitHub Link: https://github.com/tc39/proposal-esm-phase-imports <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#esm-phase-imports
 # Proposal Description:
 # ECMAScript Module Phase Imports
 
@@ -293,3 +280,4 @@ _Post an [issue](https://github.com/tc39/proposal-esm-phase-imports/issues)._
 [Module Expressions]: https://github.com/tc39/proposal-module-expressions
 [Module Declarations]: https://github.com/tc39/proposal-module-declarations
 [Source Phase Imports]: https://github.com/tc39/proposal-source-phase-imports
+<br>

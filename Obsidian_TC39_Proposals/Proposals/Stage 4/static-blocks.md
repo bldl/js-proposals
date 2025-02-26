@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Class Static Block
-Authors: Ron Buckton
-Champions: Ron Buckton
-Last Presented: August 2021
-Stage Upgrades: 
-Stage 1: 2018-05-12  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Class Static Block<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: August 2021<br>Stage Upgrades:<br>Stage 1: 2018-05-12  
 Stage 2: 2020-11-06  
 Stage 2.7: NA  
 Stage 3: 2021-01-15  
-Stage 4: 2021-08-31  
-Last Commit: 2021-08-31
-Keywords: #static_initialization #static_fields #lexical_scope #private_access #error_handling #class_body #shared_state #field_initialization #statement_evaluation #privileged_access
-GitHub Link: https://github.com/tc39/proposal-class-static-block
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#class-static-initialization-blocks-for-stage-4
-
+Stage 4: 2021-08-31<br>Last Commit: 2021-08-31<br>Keywords: #static_initialization #class_definition #lexical_scope #privileged_access #private_state #static_analysis #multi_step_initialization #decorators #field_initialization #instance_private<br>GitHub Link: https://github.com/tc39/proposal-class-static-block <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#class-static-initialization-blocks-for-stage-4
 # Proposal Description:
 <!--#region:intro-->
 # ECMAScript class static initialization blocks
@@ -350,3 +337,4 @@ The following is a high-level list of tasks to progress through each stage of th
 [Implementation1]: https://bugzilla.mozilla.org/show_bug.cgi?id=1712138
 [Implementation2]: https://bugs.chromium.org/p/v8/issues/detail?id=11375
 [Ecma262PullRequest]: https://github.com/tc39/ecma262/pull/2440
+<br>

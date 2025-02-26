@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: String.prototype.{trimStart,trimEnd}
-Authors: Sebastian Markbåge
-Champions: Sebastian Markbåge, Mathias Bynens
-Last Presented: January 2019
-Stage Upgrades: 
-Stage 1: 2015-07-28  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: String.prototype.{trimStart,trimEnd}<br>Authors: Sebastian Markbåge<br>Champions: Sebastian Markbåge, Mathias Bynens<br>Last Presented: January 2019<br>Stage Upgrades:<br>Stage 1: 2015-07-28  
 Stage 2: 2017-06-12  
 Stage 2.7: NA  
-Stage 3: 2018-06-19  
-Stage 4: NA  
-Last Commit: 2019-12-30
-Keywords: #trim_start #trim_end #trim_left #trim_right #whitespace #string_manipulation #web_compatibility #string_api #function_aliasing #consistency
-GitHub Link: https://github.com/tc39/proposal-string-left-right-trim
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#stringprototypetrimstarttrimend-for-stage-4
-
+Stage 3: 2018-02-08  
+Stage 4: NA<br>Last Commit: 2019-12-30<br>Keywords: #string #trim #whitespace #consistency #aliasing #compatibility #standardization #implementation #specification #testing<br>GitHub Link: https://github.com/tc39/proposal-string-left-right-trim <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#stringprototypetrimstarttrimend-for-stage-4
 # Proposal Description:
 # String.prototype.trimStart / String.prototype.trimEnd
 
@@ -53,3 +40,4 @@ Designated TC39 reviewers: Jordan Harband + Daniel Ehrenberg
 - [SpiderMonkey](https://bugzilla.mozilla.org/show_bug.cgi?id=1434007#c12), in Firefox 61+
 - [JSC](https://bugs.webkit.org/show_bug.cgi?id=26590), in Safari 12+
 - [ChakraCore](https://github.com/Microsoft/ChakraCore/pull/5693)
+<br>

@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Iterator unique
-Authors: Michael Ficarra
-Champions: Michael Ficarra
-Last Presented: February 2024
-Stage Upgrades: 
-Stage 1: 2023-12-11  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Iterator unique<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: February 2024<br>Stage Upgrades:<br>Stage 1: 2024-02-08  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-02-08
-Keywords: #iterator #unique #values #duplicates #filter #mapper #set #comparator #transform #collection
-GitHub Link: https://github.com/tc39/proposal-iterator-unique
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#iterator-unique-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2024-02-08<br>Keywords: #iterator #unique #values #duplicates #collection #mapper #filter #composite_keys #transform #chaining<br>GitHub Link: https://github.com/tc39/proposal-iterator-unique <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#iterator-unique-for-stage-1
 # Proposal Description:
 Iterator Unique
 ===============
@@ -122,3 +109,4 @@ let uniques = iter.uniqBy(obj => obj.field);
 | Ramda | `uniq` | `uniqWith` | `uniqBy` |
 | sequency | `distinct` | -- | `distinctBy` |
 | wu | `unique` | -- | -- |
+<br>

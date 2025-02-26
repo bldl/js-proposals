@@ -1,21 +1,8 @@
-[[Stage 2.7]]
-Classification: [[API Change]]
-Human Validated: No
-Title: ShadowRealm
-Authors: Caridy Patiño, Jean-Francois Paradis
-Champions: Dave Herman, Mark Miller, Caridy Patiño, Leo Balter, Rick Waldron, Chengzhong Wu
-Last Presented: February 2024
-Stage Upgrades: 
-Stage 1: 2016-04-14  
+[[Stage 2.7]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: ShadowRealm<br>Authors: Caridy Patiño, Jean-Francois Paradis<br>Champions: Dave Herman, Mark Miller, Caridy Patiño, Leo Balter, Rick Waldron, Chengzhong Wu<br>Last Presented: February 2024<br>Stage Upgrades:<br>Stage 1: 2016-04-14  
 Stage 2: 2018-05-22  
 Stage 2.7: 2025-02-10  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2025-02-10
-Keywords: #shadowrealm #global_environment #intrinsics #built_ins #import_value #evaluate #callable #isolation #promise #distinct
-GitHub Link: https://github.com/tc39/proposal-shadowrealm
-GitHub Note Link: None
-
+Stage 4: NA<br>Last Commit: 2025-02-10<br>Keywords: #shadowrealm #global_environment #intrinsics #built_ins #isolated #api #import_value #evaluate #primitive_value #promise<br>GitHub Link: https://github.com/tc39/proposal-shadowrealm <br>GitHub Note Link: None
 # Proposal Description:
 # ECMAScript spec proposal for ShadowRealm API
 
@@ -104,3 +91,4 @@ open dist/index.html
 ```
 
 Alternatively, you can use `npm run watch`.
+<br>

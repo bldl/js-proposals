@@ -1,21 +1,8 @@
-[[Stage 2]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Module Declarations
-Authors: Daniel Ehrenberg, Nicolò Ribaudo
-Champions: Daniel Ehrenberg, Mark Miller, Nicolò Ribaudo
-Last Presented: November 2022
-Stage Upgrades: 
-Stage 1: 2021-02-02  
+[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Module Declarations<br>Authors: Daniel Ehrenberg, Nicolò Ribaudo<br>Champions: Daniel Ehrenberg, Mark Miller, Nicolò Ribaudo<br>Last Presented: November 2022<br>Stage Upgrades:<br>Stage 1: 2021-02-02  
 Stage 2: 2023-04-21  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2023-04-21
-Keywords: #module #declaration #syntax #bundling #performance #scoping #import #export #JavaScript #inline
-GitHub Link: https://github.com/tc39/proposal-module-declarations
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-declarations
-
+Stage 4: NA<br>Last Commit: 2023-04-21<br>Keywords: #module #declaration #bundling #performance #export #import #syntax #scoping #optimization #module_body<br>GitHub Link: https://github.com/tc39/proposal-module-declarations <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-declarations
 # Proposal Description:
 # JavaScript Module Declarations
 
@@ -176,3 +163,4 @@ We are developing these two features as separate proposals because module declar
 ## Next steps
 
 The plan for this proposal is to present it for Stage 1 at a future TC39 meeting, and to prototype its use *in conjunction with* [resource bundle loading](https://github.com/littledan/resource-bundles/blob/main/subresource-loading.md) for a high-performance, native bundling solution on the Web platform.
+<br>

@@ -1,21 +1,8 @@
-[[Stage 2]]
-Classification: [[API Change]]
-Human Validated: No
-Title: collection normalization
-Authors: Bradley Farias
-Champions: Bradley Farias
-Last Presented: January 2019
-Stage Upgrades: 
-Stage 1: 2019-01-31  
+[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: collection normalization<br>Authors: Bradley Farias<br>Champions: Bradley Farias<br>Last Presented: January 2019<br>Stage Upgrades:<br>Stage 1: 2019-01-31  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2021-03-09
-Keywords: #coerce_key #coerce_value #data_normalization #user_objects #checked_keys #validation #type_coercion #data_structures #map #set
-GitHub Link: https://github.com/tc39/proposal-collection-normalization
-GitHub Note Link: None
-
+Stage 4: NA<br>Last Commit: 2021-03-09<br>Keywords: #coerce_key #coerce_value #normalization #data_structure #insertion #validation #type_checking #maps #sets #boilerplate<br>GitHub Link: https://github.com/tc39/proposal-collection-normalization <br>GitHub Note Link: None
 # Proposal Description:
 # Collection {coerceKey, coerceValue}
 
@@ -217,3 +204,4 @@ This is roughly [the fragile base class problem](https://en.wikipedia.org/wiki/F
 3. Even if this is a userland solution, it seems prudent to allow easier usage of maps. We should aim to alleviate developers without requiring that all new features have new kernel semantics. I spoke of this with respect to [expanding the standard library](https://docs.google.com/presentation/d/1QSwQYJz4c1VESEKTWPqrAPbDn_y9lTBBjaWRjej1c-w/view#slide=id.p).
 
 4. Composition, while extending is nice it doesn't always allow for simple chaining and composition of features. If we introduce `RekeyableMap` as a concrete base class it may conflict with other base classes that may be introduced like if there was `InsertIfMissingMap`. Since both are base classes it would not allow both features to be combined easily.
+<br>

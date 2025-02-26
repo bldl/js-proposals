@@ -1,21 +1,8 @@
-[[Stage 0]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Function bind syntax
-Authors: Kevin Smith
-Champions: Brian Terlson, Matthew Podwysocki
-Last Presented: March 2015
-Stage Upgrades: 
-Stage 1: 2014-12-31  
+[[Stage 0]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Function bind syntax<br>Authors: Kevin Smith<br>Champions: Brian Terlson, Matthew Podwysocki<br>Last Presented: March 2015<br>Stage Upgrades:<br>Stage 1: 2014-12-31  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2018-01-19
-Keywords: #this_binding #method_extraction #iterator_library #syntactic_sugar #bound_function #strict_mode #virtual_method #constructor_wrapper #callable_function #closure_binding
-GitHub Link: https://github.com/tc39/proposal-bind-operator
-GitHub Note Link: None
-
+Stage 4: NA<br>Last Commit: 2018-01-19<br>Keywords: #this_binding #method_extraction #syntactic_sugar #lexical_scope #closure #virtual_methods #function_callee #constructor #type_error #bound_function<br>GitHub Link: https://github.com/tc39/proposal-bind-operator <br>GitHub Note Link: None
 # Proposal Description:
 ## ECMAScript This-Binding Syntax ##
 
@@ -214,3 +201,4 @@ When a bound constructor wrapper function _F_ is called with zero or more _args_
 - Assert: IsConstructor(_target_).
 - Let _args_ be a List consisting of all the arguments passed to this function.
 - Return ? Construct(_target_, _args_).
+<br>

@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: DataView get/set Uint8Clamped methods
-Authors: Jordan Harband
-Champions: Jordan Harband
-Last Presented: July 2023
-Stage Upgrades: 
-Stage 1: 2023-07-15  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: DataView get/set Uint8Clamped methods<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: July 2023<br>Stage Upgrades:<br>Stage 1: 2023-07-15  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-10-10
-Keywords: #dataview #typed_array #uint8clamped_array #get_method #set_method #arraybuffer #dynamic_dispatch #functionality #support #matrix
-GitHub Link: https://github.com/tc39/proposal-dataview-get-set-uint8clamped
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#dataview-getset-uint8clamped-methods-for-stage-1-or-2-or-3
-
+Stage 4: NA<br>Last Commit: 2024-10-10<br>Keywords: #typed_array #dataview #get_method #set_method #uint8clampedarray #dynamic_dispatch #arraybuffer #functionality #consistency #support<br>GitHub Link: https://github.com/tc39/proposal-dataview-get-set-uint8clamped <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#dataview-getset-uint8clamped-methods-for-stage-1-or-2-or-3
 # Proposal Description:
 # DataView get/set Uint8Clamped methods
 
@@ -140,4 +127,4 @@ Here's a matrix representing the consistently available functionality for each o
 Add the get and set methods to round out Typed Array support.
 
 ## Use Cases
- - dynamic dispatch based on Typed Array type: https://github.com/esfx/esfx/blob/main/packages/struct-type/src/internal/numbers.ts#L122-L133
+ - dynamic dispatch based on Typed Array type: https://github.com/esfx/esfx/blob/main/packages/struct-type/src/internal/numbers.ts#L122-L133<br>

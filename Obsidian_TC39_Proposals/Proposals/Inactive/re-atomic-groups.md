@@ -1,15 +1,2 @@
-[[Inactive]]
-Classification:
-Human Validated: No
-Title: RegExp Atomic Groups & Possessive Quantifiers
-Authors: Justin Ridgewell
-Champions: Never presented; engines are not interested in the feature, mainly because it doesn't solve backtracking for most users
-Last Presented: None
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://github.com/jridgewell/proposal-regexp-atomic-and-possessive
-GitHub Note Link: None
-
-# Proposal Description:
+[[Inactive]]<br>Classification<br>Human Validated: No<br>Title: RegExp Atomic Groups & Possessive Quantifiers<br>Authors: Justin Ridgewell<br>Champions: Never presented; engines are not interested in the feature, mainly because it doesn't solve backtracking for most users<br>Last Presented: None<br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://github.com/jridgewell/proposal-regexp-atomic-and-possessive <br>GitHub Note Link: None
+# Proposal Description:<br>

@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: WeakRefs
-Authors: Dean Tribble, Sathya Gunasekaran
-Champions: Dean Tribble, Mark Miller, Till Schneidereit, Sathya Gunasekaran, Daniel Ehrenberg
-Last Presented: July 2020
-Stage Upgrades: 
-Stage 1: 2016-03-31  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: WeakRefs<br>Authors: Dean Tribble, Sathya Gunasekaran<br>Champions: Dean Tribble, Mark Miller, Till Schneidereit, Sathya Gunasekaran, Daniel Ehrenberg<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2016-03-31  
 Stage 2: 2018-03-23  
 Stage 2.7: NA  
 Stage 3: 2019-06-07  
-Stage 4: 2020-12-16  
-Last Commit: 2021-09-07
-Keywords: #weak_reference #finalization_registry #garbage_collection #memory_management #cache #finalizer #memory_leak #data_structure #webassembly #cross_worker
-GitHub Link: https://github.com/tc39/proposal-weakrefs
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
-
+Stage 4: 2020-12-16<br>Last Commit: 2021-09-07<br>Keywords: #weak_reference #finalization_registry #garbage_collection #memory_management #caching #resource_leaks #webassembly #memory_usage #iterable_weakmap #finalizers<br>GitHub Link: https://github.com/tc39/proposal-weakrefs <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
 # Proposal Description:
 # WeakRefs TC39 proposal
 
@@ -399,3 +386,4 @@ The WeakRefs proposal guarantees that multiple calls to `WeakRef.prototype.deref
 * Firefox 79
 * Safari 14.1
 * [Available in Moddable XS](https://github.com/Moddable-OpenSource/moddable-xst/releases/tag/v9.0.1)
+<br>

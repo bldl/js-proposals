@@ -1,21 +1,8 @@
-[[Stage 2]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: RegExp Buffer Boundaries (\A, \z, \Z)
-Authors: Ron Buckton
-Champions: Ron Buckton
-Last Presented: December 2021
-Stage Upgrades: 
-Stage 1: 2021-10-15  
+[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: RegExp Buffer Boundaries (\A, \z, \Z)<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: December 2021<br>Stage Upgrades:<br>Stage 1: 2021-10-15  
 Stage 2: 2021-12-16  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-05-28
-Keywords: #buffer_boundaries #unicode #character #anchors #regular_expressions #multiline #pattern #alternatives #learning_curve #syntax
-GitHub Link: https://github.com/tc39/proposal-regexp-buffer-boundaries
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-buffer-boundaries-for-stage-2
-
+Stage 4: NA<br>Last Commit: 2022-05-28<br>Keywords: #buffer_boundaries #unicode #multiline #regular_expression #pattern #character_escape #input #metacharacter #syntax #readability<br>GitHub Link: https://github.com/tc39/proposal-regexp-buffer-boundaries <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-buffer-boundaries-for-stage-2
 # Proposal Description:
 <!--#region:intro-->
 # Regular Expression Buffer Boundaries for ECMAScript
@@ -249,3 +236,4 @@ The following is a high-level list of tasks to progress through each stage of th
 [Implementation1]: #todo
 [Implementation2]: #todo
 [Ecma262PullRequest]: #todo
+<br>

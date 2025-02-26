@@ -1,21 +1,8 @@
-[[Stage 3]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Decorators
-Authors: Daniel Ehrenberg, Kristen Hewell Garrett
-Champions: Kristen Hewell Garrett
-Last Presented: March 2023
-Stage Upgrades: 
-Stage 1: 2017-04-30  
+[[Stage 3]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Decorators<br>Authors: Daniel Ehrenberg, Kristen Hewell Garrett<br>Champions: Kristen Hewell Garrett<br>Last Presented: March 2023<br>Stage Upgrades:<br>Stage 1: 2017-04-30  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2022-03-28  
-Stage 4: NA  
-Last Commit: 2024-09-05
-Keywords: #decorators #metaprogramming #class_elements #methods #fields #auto_accessors #functionality #initialization #access #transpilers
-GitHub Link: https://github.com/tc39/proposal-decorators
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#decorators-for-stage-3
-
+Stage 4: NA<br>Last Commit: 2024-09-05<br>Keywords: #decorators #metaprogramming #class_methods #class_fields #accessors #auto_accessors #initialization #context_object #function_replacement #static_analysis<br>GitHub Link: https://github.com/tc39/proposal-decorators <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#decorators-for-stage-3
 # Proposal Description:
 # Decorators
 
@@ -978,3 +965,4 @@ We are truly sorry about the delay here. We understand that this causes real pro
 It took us a long time for everyone to get on the same page about the requirements spanning frameworks, tooling and native implementations. Only after pushing in various concrete directions did we get a full understanding of the requirements which this proposal aims to meet.
 
 We are working to develop better communication within TC39 and with the broader JavaScript community so that this sort of problem can be corrected sooner in the future.
+<br>

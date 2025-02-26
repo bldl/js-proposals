@@ -1,15 +1,2 @@
-[[Stage 0]]
-Classification:
-Human Validated: No
-Title: Object Shorthand Improvements
-Authors: Ron Buckton
-Champions: Ron Buckton
-Last Presented: Sep 2017
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://github.com/rbuckton/proposal-shorthand-improvements
-GitHub Note Link: None
-
-# Proposal Description:
+[[Stage 0]]<br>Classification<br>Human Validated: No<br>Title: Object Shorthand Improvements<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: Sep 2017<br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://github.com/rbuckton/proposal-shorthand-improvements <br>GitHub Note Link: None
+# Proposal Description:<br>

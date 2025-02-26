@@ -1,15 +1,2 @@
-[[Stage 0]]
-Classification:
-Human Validated: No
-Title: Nested import declarations
-Authors: Ben Newman
-Champions: Ben Newman
-Last Presented: July 2016
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://github.com/benjamn/reify/blob/HEAD/PROPOSAL.md
-GitHub Note Link: None
-
-# Proposal Description:
+[[Stage 0]]<br>Classification<br>Human Validated: No<br>Title: Nested import declarations<br>Authors: Ben Newman<br>Champions: Ben Newman<br>Last Presented: July 2016<br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://github.com/benjamn/reify/blob/HEAD/PROPOSAL.md <br>GitHub Note Link: None
+# Proposal Description:<br>

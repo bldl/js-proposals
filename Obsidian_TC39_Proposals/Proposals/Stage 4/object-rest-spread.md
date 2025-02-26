@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Rest/Spread Properties
-Authors: Sebastian Markbåge
-Champions: Sebastian Markbåge
-Last Presented: January 2018
-Stage Upgrades: 
-Stage 1: 2014-05-30  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Rest/Spread Properties<br>Authors: Sebastian Markbåge<br>Champions: Sebastian Markbåge<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2014-10-29  
 Stage 2: 2015-08-19  
 Stage 2.7: NA  
 Stage 3: 2016-09-29  
-Stage 4: 2018-02-13  
-Last Commit: 2022-01-24
-Keywords: #rest_properties #spread_properties #object_destructuring #enumerable #transpilers #object_literals #property_keys #copying #object_initializers #remaining_properties
-GitHub Link: https://github.com/tc39/proposal-object-rest-spread
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#restspread-properties-for-stage-4
-
+Stage 4: 2018-02-13<br>Last Commit: 2022-01-24<br>Keywords: #rest_properties #spread_properties #object_destructuring #object_literals #enumerable #property_keys #transpilers #object_initializers #property_values #copy<br>GitHub Link: https://github.com/tc39/proposal-object-rest-spread <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#restspread-properties-for-stage-4
 # Proposal Description:
 Object Rest/Spread Properties for ECMAScript
 --------------------------------------------
@@ -65,3 +52,4 @@ It is a Stage 4 proposal for ECMAScript.
 ## [Known Issues](Issues.md)
 
 This proposal only iterates over __own__ properties. [See why this matters.](Issues.md)
+<br>

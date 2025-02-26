@@ -1,15 +1,2 @@
-[[Inactive]]
-Classification:
-Human Validated: No
-Title: deprecated
-Authors: James M Snell
-Champions: Never presented
-Last Presented: None
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://github.com/jasnell/proposal-deprecated
-GitHub Note Link: None
-
-# Proposal Description:
+[[Inactive]]<br>Classification<br>Human Validated: No<br>Title: deprecated<br>Authors: James M Snell<br>Champions: Never presented<br>Last Presented: None<br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://github.com/jasnell/proposal-deprecated <br>GitHub Note Link: None
+# Proposal Description:<br>

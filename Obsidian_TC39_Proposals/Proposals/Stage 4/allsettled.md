@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Promise.allSettled
-Authors: Jason Williams, Robert Pamely, Mathias Bynens
-Champions: Mathias Bynens
-Last Presented: July 2019
-Stage Upgrades: 
-Stage 1: 2018-09-27  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Promise.allSettled<br>Authors: Jason Williams, Robert Pamely, Mathias Bynens<br>Champions: Mathias Bynens<br>Last Presented: July 2019<br>Stage Upgrades:<br>Stage 1: 2018-09-27  
 Stage 2: 2019-01-30  
 Stage 2.7: NA  
 Stage 3: 2019-03-27  
-Stage 4: 2019-07-24  
-Last Commit: 2019-12-09
-Keywords: #promise #combinator #fulfillment #rejection #snapshot #status #iteration #errors #userland #progressive_enhancement
-GitHub Link: https://github.com/tc39/proposal-promise-allSettled
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-24.md#promiseallsettled
-
+Stage 4: 2019-07-24<br>Last Commit: 2019-12-09<br>Keywords: #promise #settled #fulfilled #rejected #combinators #asynchronous #responses #results #requests #errors<br>GitHub Link: https://github.com/tc39/proposal-promise-allSettled <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-24.md#promiseallsettled
 # Proposal Description:
 # `Promise.allSettled`
 
@@ -190,3 +177,4 @@ Similar functionality exists in other languages with different names. Since ther
 * [Chakra](https://github.com/microsoft/ChakraCore/pull/6138)
 * [XS](https://github.com/Moddable-OpenSource/moddable/issues/211), shipping in v9.0.0
 * [Spec-compliant polyfill](https://www.npmjs.com/package/promise.allsettled)
+<br>

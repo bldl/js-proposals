@@ -1,21 +1,8 @@
-[[Stage 2]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: function.sent metaproperty
-Authors: Allen Wirfs-Brock
-Champions: HE Shi-Jun
-Last Presented: July 2019
-Stage Upgrades: 
-Stage 1: 2019-08-18  
+[[Stage 2]]<br>Classification: [[API Change]] [[Syntactic Change]]<br>Human Validated: No<br>Title: function.sent metaproperty<br>Authors: Allen Wirfs-Brock<br>Champions: HE Shi-Jun<br>Last Presented: July 2019<br>Stage Upgrades:<br>Stage 1: 2019-08-18  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2019-07-24
-Keywords: #generator #meta_property #function #yield #parameter #execution #context #two_way_communication #syntax_error #generator_body
-GitHub Link: https://github.com/tc39/proposal-function.sent
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#making-functionsent-inactive
-
+Stage 4: NA<br>Last Commit: 2019-07-24<br>Keywords: #generator #function #yield #execution #context #increment #communication #meta_property #parameter #syntax<br>GitHub Link: https://github.com/tc39/proposal-function.sent <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#making-functionsent-inactive
 # Proposal Description:
 # Generator function.sent Meta Property
 
@@ -144,3 +131,4 @@ Between lines 8 and 9 of the ES6 algorithm add the following step:
 Between lines 5 and 6 of the ES6 algorithm add the following step:
 
 &nbsp;&nbsp;&nbsp;&nbsp;5.5.&nbsp;&nbsp;Set the LastYieldValue component of *genContext* to **undefined**.
+<br>

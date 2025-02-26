@@ -1,21 +1,8 @@
-[[Inactive]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Operator overloading
-Authors: Daniel Ehrenberg
-Champions: Withdrawn
-Last Presented: None
-Stage Upgrades: 
-Stage 1: 2020-04-24  
+[[Inactive]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Operator overloading<br>Authors: Daniel Ehrenberg<br>Champions: Withdrawn<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2020-04-24  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2023-12-18
-Keywords: #operator #overloading #numeric #vector #matrix #tensor #expressivity #predictability #syntax #libraries
-GitHub Link: https://github.com/tc39/proposal-operator-overloading
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#operator-overloading-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2023-12-18<br>Keywords: #operator #overloading #numeric #types #vector #matrix #tensor #expressivity #compatibility #syntax<br>GitHub Link: https://github.com/tc39/proposal-operator-overloading <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#operator-overloading-for-stage-1
 # Proposal Description:
 # Operator overloading in JavaScript
 
@@ -395,3 +382,4 @@ Possibly. `[]` is property access, not an operator as such. ES6 introduced Proxy
 - From the perspective of many JavaScript developers and even library authors, at a high level, it's an "implementation detail" that array index access is based on JavaScript property access; for them, overloading this way is consistent with their mental model.
 
 The overloading of `[]` proposed here would be based on the semantics of Integer Indexed Exotic Objects. It wouldn't add or change anything about JavaScript's meta-object protocol, and it would only change the semantics of objects with overloading of `[]` declared.
+<br>

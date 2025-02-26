@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: New Set methods
-Authors: Michał Wadas, Sathya Gunasekaran, Kevin Gibbons
-Champions: Kevin Gibbons
-Last Presented: April 2024
-Stage Upgrades: 
-Stage 1: 2016-05-28  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: New Set methods<br>Authors: Michał Wadas, Sathya Gunasekaran, Kevin Gibbons<br>Champions: Kevin Gibbons<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2016-05-28  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2022-11-30  
-Stage 4: 2024-06-25  
-Last Commit: 2024-07-06
-Keywords: #set #union #intersection #difference #symmetric_difference #subset #superset #disjoint #numeric #methods
-GitHub Link: https://github.com/tc39/proposal-set-methods
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#set-methods-for-stage-4
-
+Stage 4: 2024-06-25<br>Last Commit: 2024-07-06<br>Keywords: #methods #union #intersection #difference #symmetric_difference #subset #superset #disjoint #numeric #properties<br>GitHub Link: https://github.com/tc39/proposal-set-methods <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#set-methods-for-stage-4
 # Proposal Description:
 # Set Methods for JavaScript
 
@@ -98,3 +85,4 @@ We decided to choose:
    - [isDisjointFrom](https://npmjs.com/set.prototype.isdisjointfrom)
    - [isSubsetOf](https://npmjs.com/set.prototype.issubsetof)
    - [isSupersetOf](https://npmjs.com/set.prototype.issupersetof)
+<br>

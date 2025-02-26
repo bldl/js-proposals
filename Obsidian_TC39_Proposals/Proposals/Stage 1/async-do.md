@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: async do expressions
-Authors: Kevin Gibbons
-Champions: Kevin Gibbons
-Last Presented: January 2021
-Stage Upgrades: 
-Stage 1: 2021-01-15  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: async do expressions<br>Authors: Kevin Gibbons<br>Champions: Kevin Gibbons<br>Last Presented: January 2021<br>Stage Upgrades:<br>Stage 1: 2021-01-15  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2021-02-02
-Keywords: #asynchronous #context #operation #syntax #expression #promise #fetch #await #readFile #motivation
-GitHub Link: https://github.com/tc39/proposal-async-do-expressions
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#async-do-expressions
-
+Stage 4: NA<br>Last Commit: 2021-02-02<br>Keywords: #asynchronous #context #expression #synchronous #operation #syntax #promise #fetch #await #read_file<br>GitHub Link: https://github.com/tc39/proposal-async-do-expressions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#async-do-expressions
 # Proposal Description:
 # ECMAScript proposal: `async do` expressions
 
@@ -53,3 +40,4 @@ Promise.all([
   },
 ]).then(([a, b]) => console.log([a, b]));
 ```
+<br>

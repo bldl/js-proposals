@@ -7,6 +7,6 @@ import datetime
 
 from sharedMethods.askGPT import classifyProposal, getKeyWords
 from sharedMethods.stageUpgrades import getStageUpgrades
-from sharedMethods.sendToObsidian import sendToObsidian
+from sharedMethods.sharedSendToObsidian import sendToObsidian
 
 sendToObsidian('Stage 2.7', 'Stage_2_2_7_3/Stage_2_7')

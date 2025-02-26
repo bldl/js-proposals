@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Optional Chaining
-Authors: Gabriel Isenberg, Claude Pache, Dustin Savery
-Champions: Gabriel Isenberg, Dustin Savery, Justin Ridgewell, Daniel Rosenwasser
-Last Presented: December 2019
-Stage Upgrades: 
-Stage 1: 2017-03-09  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Optional Chaining<br>Authors: Gabriel Isenberg, Claude Pache, Dustin Savery<br>Champions: Gabriel Isenberg, Dustin Savery, Justin Ridgewell, Daniel Rosenwasser<br>Last Presented: December 2019<br>Stage Upgrades:<br>Stage 1: 2017-03-09  
 Stage 2: 2019-06-05  
 Stage 2.7: NA  
 Stage 3: 2019-07-25  
-Stage 4: 2019-12-06  
-Last Commit: 2022-01-24
-Keywords: #property_access #nullish_coalescing #short_circuiting #tree_structure #optional_methods #error_handling #syntax_extension #base_case #optional_deletion #optional_chaining
-GitHub Link: https://github.com/tc39/proposal-optional-chaining
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#optional-chaining-for-stage-4
-
+Stage 4: 2019-12-06<br>Last Commit: 2022-01-24<br>Keywords: #optional #chaining #operator #nullish #short-circuiting #tree #property #access #function #method<br>GitHub Link: https://github.com/tc39/proposal-optional-chaining <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#optional-chaining-for-stage-4
 # Proposal Description:
 # Optional Chaining for JavaScript
 
@@ -375,3 +362,4 @@ See: https://tc39.github.io/proposal-optional-chaining/
 * https://esdiscuss.org/topic/optional-chaining-aka-existential-operator-null-propagation
 * https://esdiscuss.org/topic/specifying-the-existential-operator-using-abrupt-completion
 
+<br>

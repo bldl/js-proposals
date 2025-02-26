@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Optional chaining in assignment LHS
-Authors: Nicolò Ribaudo
-Champions: Nicolò Ribaudo
-Last Presented: July 2023
-Stage Upgrades: 
-Stage 1: 2023-07-16  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Optional chaining in assignment LHS<br>Authors: Nicolò Ribaudo<br>Champions: Nicolò Ribaudo<br>Last Presented: July 2023<br>Stage Upgrades:<br>Stage 1: 2023-07-16  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-01-23
-Keywords: #optional #chaining #assignment #property #object #existence #syntax #guarding #expression #operator
-GitHub Link: https://github.com/tc39/proposal-optional-chaining-assignment
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#optional-chaining-in-assignment-lhs-for-stage-1-or-2
-
+Stage 4: NA<br>Last Commit: 2024-01-23<br>Keywords: #optional #chaining #assignment #object #property #eval #default #undifined #syntax #conditional<br>GitHub Link: https://github.com/tc39/proposal-optional-chaining-assignment <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#optional-chaining-in-assignment-lhs-for-stage-1-or-2
 # Proposal Description:
 # Optional Chaining Assignment
 
@@ -63,3 +50,4 @@ This proposal introduces the following syntax:
 - [ ] V8
 - [ ] JSC
 - [ ] SpiderMonkey
+<br>

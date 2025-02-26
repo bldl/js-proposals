@@ -1,21 +1,8 @@
-[[Stage 3]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Error.isError
-Authors: Jordan Harband
-Champions: Jordan Harband
-Last Presented: December 2024
-Stage Upgrades: 
-Stage 1: 2024-04-10  
+[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Error.isError<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: December 2024<br>Stage Upgrades:<br>Stage 1: 2024-04-10  
 Stage 2: 2024-07-09  
 Stage 2.7: 2024-10-15  
 Stage 3: 2024-12-02  
-Stage 4: NA  
-Last Commit: 2025-01-09
-Keywords: #error_handling #branding #serialization #error_reporting #debugging #structural_cloning #instance_check #prototype_methods #cross_realm #reliable_test
-GitHub Link: https://github.com/tc39/proposal-is-error
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#erroriserror-for-stage-27
-
+Stage 4: NA<br>Last Commit: 2025-01-09<br>Keywords: #error_handling #error_reporting #serialization #debugging #type_validation #cross_realm #brand_checking #native_errors #prototype_methods #structured_clone<br>GitHub Link: https://github.com/tc39/proposal-is-error <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#erroriserror-for-stage-27
 # Proposal Description:
 # [Error.isError]()
 ECMAScript Proposal, specs, and reference implementation for `Error.isError`
@@ -42,3 +29,4 @@ This list is not exhaustive.
 
 ## Spec
 You can view the spec rendered as [HTML](https://tc39.es/proposal-is-error/).
+<br>

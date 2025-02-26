@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Freezing prototypes
-Authors: Kevin Gibbons
-Champions: Kevin Gibbons
-Last Presented: January 2019
-Stage Upgrades: 
-Stage 1: 2019-01-31  
-Stage 2: NA  
-Stage 2.7: NA  
-Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2019-01-31
-Keywords: #prototype #freezing #extensible #immutable #reflection #derived_classes #web_platform #constructor #internal_slot #api
-GitHub Link: https://github.com/tc39/proposal-freeze-prototype
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-31.md#freezing-prototypes-for-stage-1
-
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Freezing prototypes<br>Authors: Kevin Gibbons<br>Champions: Kevin Gibbons<br>Last Presented: January 2019<br>Stage Upgrades:<br>Stage 1: 2019-01-31
+Stage 2: NA
+Stage 2.7: NA
+Stage 3: NA
+Stage 4: NA<br>Last Commit: 2019-01-31<br>Keywords: #prototype #freeze #extensible #derived_class #method #immutability #reflect #superconstructor #objects #api<br>GitHub Link: https://github.com/tc39/proposal-freeze-prototype <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-31.md#freezing-prototypes-for-stage-1
 # Proposal Description:
 # Freezing prototypes
 
@@ -50,3 +37,4 @@ It's not clear what the API for this would be. Two  possible designs (a non-exha
   - How would / could / should these be made consistent with existing traps, particularly the `isExtensible` trap?
 - A new options-bag parameter to `preventExtensions` and `isExtensible` which would specify that these should only apply to the `[[Prototype]]`
   - Harder to feature detect; if you pass the option on an implementation which didn't support it, you'd freeze more than intended
+<br>

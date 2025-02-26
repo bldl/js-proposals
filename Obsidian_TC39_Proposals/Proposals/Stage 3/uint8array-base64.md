@@ -1,21 +1,8 @@
-[[Stage 3]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Uint8Array to/from Base64
-Authors: Kevin Gibbons
-Champions: Kevin Gibbons
-Last Presented: February 2024
-Stage Upgrades: 
-Stage 1: 2021-06-26  
+[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Uint8Array to/from Base64<br>Authors: Kevin Gibbons<br>Champions: Kevin Gibbons<br>Last Presented: February 2024<br>Stage Upgrades:<br>Stage 1: 2021-06-26  
 Stage 2: 2023-05-16  
 Stage 2.7: NA  
 Stage 3: 2024-02-21  
-Stage 4: NA  
-Last Commit: 2024-07-13
-Keywords: #base64 #hex #encoding #decoding #uint8array #options #streaming #padding #alphabet #input
-GitHub Link: https://github.com/tc39/proposal-arraybuffer-base64
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#uint8array-base64-for-stages-27-and-3
-
+Stage 4: NA<br>Last Commit: 2024-07-13<br>Keywords: #base64 #hex #uint8array #encoding #decoding #options #buffer #padding #representation #streaming<br>GitHub Link: https://github.com/tc39/proposal-arraybuffer-base64 <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#uint8array-base64-for-stages-27-and-3
 # Proposal Description:
 # Uint8Array to/from base64 and hex
 
@@ -147,3 +134,4 @@ That's also been the consensus when it's come up [previously](https://discourse.
 ### What if I just want to encode a portion of an ArrayBuffer?
 
 Uint8Arrays can be partial views of an underlying buffer, so you can create such a view and invoke `.toBase64` on it.
+<br>

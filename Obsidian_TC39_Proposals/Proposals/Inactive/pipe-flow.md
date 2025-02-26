@@ -1,21 +1,8 @@
-[[Inactive]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Function.pipe and flow
-Authors: J.S. Choi
-Champions: Withdrawn: [rejected for stage 1][pipe-flow-notes]
-Last Presented: None
-Stage Upgrades: 
-Stage 1: 2022-08-17  
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Function.pipe and flow<br>Authors: J.S. Choi<br>Champions: Withdrawn: [rejected for stage 1][pipe-flow-notes]<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2022-08-17  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-08-20
-Keywords: #function #pipe #flow #compose #unary #callbacks #asynchronous #composition #application #concise
-GitHub Link: https://github.com/tc39/proposal-function-pipe-flow
-GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-21.md#functionpipe--flow-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2022-08-20<br>Keywords: #function #pipeline #composition #callbacks #metafunctions #application #asynchronous #unary #reduce #functionality<br>GitHub Link: https://github.com/tc39/proposal-function-pipe-flow <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-21.md#functionpipe--flow-for-stage-1
 # Proposal Description:
 # Function.pipe and flow for JavaScript
 ECMAScript Stage-0 Proposal (**withdrawn**). J. S. Choi, 2021.
@@ -453,3 +440,4 @@ it will return `Promise.resolve`.
 [pipe history]: https://github.com/tc39/proposal-pipeline-operator/blob/main/HISTORY.md
 
 </details>
+<br>

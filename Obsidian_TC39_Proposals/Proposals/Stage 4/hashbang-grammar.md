@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Hashbang Grammar
-Authors: Bradley Farias
-Champions: Bradley Farias
-Last Presented: uly 2022
-Stage Upgrades: 
-Stage 1: 2018-03-21  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Hashbang Grammar<br>Authors: Bradley Farias<br>Champions: Bradley Farias<br>Last Presented: uly 2022<br>Stage Upgrades:<br>Stage 1: 2018-03-21  
 Stage 2: 2018-09-11  
 Stage 2.7: NA  
 Stage 3: 2018-11-29  
-Stage 4: 2022-07-20  
-Last Commit: 2018-11-29
-Keywords: #hashbang #shebang #cli #parser #script #module #comment #standardization #source_text #byte_order_mark
-GitHub Link: https://github.com/tc39/proposal-hashbang
-GitHub Note Link: None
-
+Stage 4: 2022-07-20<br>Last Commit: 2018-11-29<br>Keywords: #hashbang #cli #parser #source_text #standardization #script #module #interpreter #byte_order_mark #comments<br>GitHub Link: https://github.com/tc39/proposal-hashbang <br>GitHub Note Link: None
 # Proposal Description:
 # Hashbang Grammar
 
@@ -72,3 +59,4 @@ Generally speaking, the BOM character is assumed to be handled by the host, and 
 
 * [March 2018](https://tc39.github.io/tc39-notes/2018-03_mar-21.html#10iic-hashbang-grammar-for-stage-2)
 * [November 2017](https://tc39.github.io/tc39-notes/2017-11_nov-28.html#10if-interpreterdirective)
+<br>

@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Numeric separators
-Authors: Sam Goto, Rick Waldron
-Champions: Sam Goto, Rick Waldron , Leo Balter
-Last Presented: July 2020
-Stage Upgrades: 
-Stage 1: 2017-05-26  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Numeric separators<br>Authors: Sam Goto, Rick Waldron<br>Champions: Sam Goto, Rick Waldron , Leo Balter<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2017-05-26  
 Stage 2: 2017-08-08  
 Stage 2.7: NA  
 Stage 3: 2017-11-28  
-Stage 4: NA  
-Last Commit: 2021-07-16
-Keywords: #numeric_literal #separator #readability #visual #digits #fixed_point #bigint #numeric_literacy #syntax #financial
-GitHub Link: https://github.com/tc39/proposal-numeric-separator
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#numericliteralseparator-for-stage-4
-
+Stage 4: NA<br>Last Commit: 2021-07-16<br>Keywords: #numeric_literal #readability #separator #underscore #floating_point #integer #financial #parsing #syntax_error #bigint<br>GitHub Link: https://github.com/tc39/proposal-numeric-separator <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#numericliteralseparator-for-stage-4
 # Proposal Description:
 # Numeric Separators
 
@@ -327,3 +314,4 @@ double real = 1_000.111_1e-1_000;
 * [Shipping in V8 v7.5 / Chrome 75](https://v8.dev/blog/v8-release-75#numeric-separators)
 * [Shipping in SpiderMonkey / Firefox 70](https://bugzilla.mozilla.org/show_bug.cgi?id=1435818)
 * [Shipping in JavaScriptCore / Safari 13](https://bugs.webkit.org/show_bug.cgi?id=196351)
+<br>

@@ -1,21 +1,8 @@
-[[Inactive]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: "use module"
-Authors: Dave Herman
-Champions: Inactive; champion does not wish to pursue
-Last Presented: None
-Stage Upgrades: 
-Stage 1: 2017-05-15  
+[[Inactive]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: "use module"<br>Authors: Dave Herman<br>Champions: Inactive; champion does not wish to pursue<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2017-05-15  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-01-24
-Keywords: #module #script #pragma #portability #compatibility #in_band #syntax #parsing #environment #declaration
-GitHub Link: https://github.com/tc39/proposal-modules-pragma
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-26.md#9ivb-modulescript-pragma-for-stage-2
-
+Stage 4: NA<br>Last Commit: 2022-01-24<br>Keywords: #module #pragma #portability #compatibility #host_environment #source_file #configuration #script #syntax #parsing<br>GitHub Link: https://github.com/tc39/proposal-modules-pragma <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-26.md#9ivb-modulescript-pragma-for-stage-2
 # Proposal Description:
 # ECMAScript proposal: `"use module";`
 
@@ -51,3 +38,4 @@ This is suboptimal for readability, since it does not clearly convey what its in
   * [Ecmarkup source](https://github.com/tc39/proposal-modules-pragma/blob/master/spec.html)
   * [HTML version](https://tc39.github.io/proposal-modules-pragma/)
 
+<br>

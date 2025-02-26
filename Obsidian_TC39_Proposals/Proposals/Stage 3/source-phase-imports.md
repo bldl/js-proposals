@@ -1,21 +1,8 @@
-[[Stage 3]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Source Phase Imports
-Authors: Luca Casonato
-Champions: Guy Bedford, Luca Casonato
-Last Presented: July 2023
-Stage Upgrades: 
-Stage 1: 2021-12-17  
+[[Stage 3]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Source Phase Imports<br>Authors: Luca Casonato<br>Champions: Guy Bedford, Luca Casonato<br>Last Presented: July 2023<br>Stage Upgrades:<br>Stage 1: 2021-12-17  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2023-07-24  
-Stage 4: NA  
-Last Commit: 2025-02-07
-Keywords: #module_source #dynamic_import #module_loading #security_policies #webassembly #custom_loaders #module_instantiation #static_analysis #import_attributes #compiled_resources
-GitHub Link: https://github.com/tc39/proposal-source-phase-imports
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-12.md#source-phase-imports-for-stage-3
-
+Stage 4: NA<br>Last Commit: 2025-02-07<br>Keywords: #module_source #webassembly #dynamic_import #static_analysis #module_loading #caching #security_policies #es_modules #host_execution #prototype_chain<br>GitHub Link: https://github.com/tc39/proposal-source-phase-imports <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-12.md#source-phase-imports-for-stage-3
 # Proposal Description:
 # Source Phase Imports
 
@@ -210,3 +197,4 @@ needed. See the security improvements section for more details.
 [wasm-js-api]: https://webassembly.github.io/spec/js-api/#modules
 [wasm-esm]:
     https://github.com/WebAssembly/esm-integration/tree/master/proposals/esm-integration
+<br>

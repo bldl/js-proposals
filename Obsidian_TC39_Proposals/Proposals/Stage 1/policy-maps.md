@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Policy Maps and Sets
-Authors: J.S. Choi
-Champions: J.S. Choi, Hemanth HM
-Last Presented: July 2022
-Stage Upgrades: 
-Stage 1: 2022-03-30  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Policy Maps and Sets<br>Authors: J.S. Choi<br>Champions: J.S. Choi, Hemanth HM<br>Last Presented: July 2022<br>Stage Upgrades:<br>Stage 1: 2022-03-30  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-08-20
-Keywords: #cache #replacement #memory #management #lru #fifo #lifo #lfu #data_structure #mapping
-GitHub Link: https://github.com/tc39/proposal-policy-map-set
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#policy-maps-and-sets-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2022-08-20<br>Keywords: #cache #mapping #memory #eviction #policy #function #LIFO #FIFO #LRU #LFU<br>GitHub Link: https://github.com/tc39/proposal-policy-map-set <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#policy-maps-and-sets-for-stage-1
 # Proposal Description:
 # Policy Maps and Sets for JavaScript
 ECMAScript Stage-1 Proposal. 2022.
@@ -211,3 +198,4 @@ const cache = new Map(initialEntries, 256, policyType);
 [issue #1]: https://github.com/js-choi/proposal-policy-map-set/issues/1
 [issue #3]: https://github.com/js-choi/proposal-policy-map-set/issues/3
 [issue #4]: https://github.com/js-choi/proposal-policy-map-set/issues/4
+<br>

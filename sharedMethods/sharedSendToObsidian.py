@@ -74,9 +74,10 @@ def sendToObsidian(obsidianFile, apiFile):
                     returnDate = None
 
                 try:
-                    stageUpgrades = getStageUpgrades(github_link)
+                    stageUpgrades = getStageUpgrades(github_link).strip()
                     print(stageUpgrades)
                 except:
+                    stageUpgrades = None
                     print("error with getStageUpgrade for", github_link)
 
                 #----------api call for readme------------------------
@@ -105,35 +106,35 @@ def sendToObsidian(obsidianFile, apiFile):
                     print("Error with link:", link_titles)
                     with open(f"Obsidian_TC39_Proposals/Proposals/{obsidianFile}/{link_titles}.md", "w") as proposals:
                         proposals.write(
-                            f"[[{obsidianFile}]]\n"
-                            f"Classification:\n"
-                            f"Human Validated: No\n"
-                            f"Title: {title}\n"
-                            f"Authors: {authors}\n"
-                            f"Champions: {champions}\n"
-                            f"Last Presented: {date}\n"
-                            f"Stage Upgrades: \n{stageUpgrades}\n"
-                            f"Last Commit: {returnDate}\n"
-                            f"Keywords: \n"
-                            f"GitHub Link: {github_link}\n"
-                            f"GitHub Note Link: {github_note_link}\n\n"
-                            f"# Proposal Description:\n"
+                            f"[[{obsidianFile}]]<br>"
+                            f"Classification<br>"
+                            f"Human Validated: No<br>"
+                            f"Title: {title}<br>"
+                            f"Authors: {authors}<br>"
+                            f"Champions: {champions}<br>"
+                            f"Last Presented: {date}<br>"
+                            f"Stage Upgrades:<br>{stageUpgrades}<br>"
+                            f"Last Commit: {returnDate}<br>"
+                            f"Keywords:<br>"
+                            f"GitHub Link: {github_link} <br>"
+                            f"GitHub Note Link: {github_note_link}\n"
+                            f"# Proposal Description:<br>"
                     )
                     continue
                 #-----------------------------------------------------
                 with open(f"Obsidian_TC39_Proposals/Proposals/{obsidianFile}/{link_titles}.md", "w") as proposals:
                     proposals.write(
-                        f"[[{obsidianFile}]]\n"
-                        f"Classification: {classification}\n"
-                        f"Human Validated: No\n"
-                        f"Title: {title}\n"
-                        f"Authors: {authors}\n"
-                        f"Champions: {champions}\n"
-                        f"Last Presented: {date}\n"
-                        f"Stage Upgrades: \n{stageUpgrades}\n"
-                        f"Last Commit: {returnDate}\n"
-                        f"Keywords: {keywords}\n"
-                        f"GitHub Link: {github_link}\n"
-                        f"GitHub Note Link: {github_note_link}\n\n"
-                        f"# Proposal Description:\n{file_content}"
+                        f"[[{obsidianFile}]]<br>"
+                        f"Classification: {classification}<br>"
+                        f"Human Validated: No<br>"
+                        f"Title: {title}<br>"
+                        f"Authors: {authors}<br>"
+                        f"Champions: {champions}<br>"
+                        f"Last Presented: {date}<br>"
+                        f"Stage Upgrades:<br>{stageUpgrades}<br>"
+                        f"Last Commit: {returnDate}<br>"
+                        f"Keywords: {keywords}<br>"
+                        f"GitHub Link: {github_link} <br>"
+                        f"GitHub Note Link: {github_note_link}\n"
+                        f"# Proposal Description:\n{file_content}<br>"
                     )

@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Get Intrinsic
-Authors: Jordan Harband
-Champions: Jordan Harband
-Last Presented: August 2021
-Stage Upgrades: 
-Stage 1: 2021-08-18  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Get Intrinsic<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: August 2021<br>Stage Upgrades:<br>Stage 1: 2021-08-18  
 Stage 2: 2021-10-29  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2023-09-21
-Keywords: #intrinsics #first_run #environment #caching #functions #prototype #robustness #reflect #eval #security
-GitHub Link: https://github.com/tc39/proposal-get-intrinsic
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#get-intrinsic-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2023-09-21<br>Keywords: #intrinsic #first_run #runtime #robustness #evaluation #caching #environment #dependencies #iterator #function<br>GitHub Link: https://github.com/tc39/proposal-get-intrinsic <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#get-intrinsic-for-stage-1
 # Proposal Description:
 # "Get Intrinsic" Proposal
 
@@ -96,3 +83,4 @@ You can view the spec for the `Reflect.getIntrinsic`/`Reflect.getIntrinsics` sol
 ## Implementations
 
 None yet - it would be inappropriate to publish a runtime implementation of a language proposal for API prior to stage 3.
+<br>

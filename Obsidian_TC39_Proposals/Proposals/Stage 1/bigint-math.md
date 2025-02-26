@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: BigInt Math
-Authors: J.S. Choi
-Champions: J.S. Choi
-Last Presented: August 2021
-Stage Upgrades: 
-Stage 1: 2021-09-03  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: BigInt Math<br>Authors: J.S. Choi<br>Champions: J.S. Choi<br>Last Presented: August 2021<br>Stage Upgrades:<br>Stage 1: 2021-09-03  
 Stage 2: 2016-10-07  
 Stage 2.7: NA  
 Stage 3: 2016-12-01  
-Stage 4: NA  
-Last Commit: 2022-07-11
-Keywords: #bigint #math #operations #numeric #precision #overloading #exponentiation #comparison #methods #algorithms
-GitHub Link: https://github.com/tc39/proposal-bigint-math
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-26.md#bigint-math-update
-
+Stage 4: NA<br>Last Commit: 2022-07-11<br>Keywords: #bigint #math #numeric #operations #exponentiation #precision #comparison #type_overloading #methods #functions<br>GitHub Link: https://github.com/tc39/proposal-bigint-math <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-26.md#bigint-math-update
 # Proposal Description:
 # BigInt `Math` for JavaScript
 ECMAScript Stage-1 Proposal. J. S. Choi, 2021.
@@ -137,3 +124,4 @@ are excluded from this proposal. These include:
 [issue #6]: https://github.com/js-choi/proposal-bigint-math/issues/6
 [issue #8]: https://github.com/js-choi/proposal-bigint-math/issues/8
 [issue #9]: https://github.com/js-choi/proposal-bigint-math/issues/9
+<br>

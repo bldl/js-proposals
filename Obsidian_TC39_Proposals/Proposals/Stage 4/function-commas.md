@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Trailing commas in function parameter lists and calls
-Authors: Jeff Morrison
-Champions: Jeff Morrison
-Last Presented: July 2016
-Stage Upgrades: 
-Stage 1: 2014-09-22  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Trailing commas in function parameter lists and calls<br>Authors: Jeff Morrison<br>Champions: Jeff Morrison<br>Last Presented: July 2016<br>Stage Upgrades:<br>Stage 1: 2014-09-22  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: 2016-07-28  
-Last Commit: 2016-07-28
-Keywords: #trailing_comma #parameter_list #code_attribution #version_control #grammar #syntax #function_definition #function_call #transpilation #code_style
-GitHub Link: https://github.com/tc39/proposal-trailing-function-commas
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-26.md#9ie-trailing-commas-in-functions
-
+Stage 4: 2016-07-28<br>Last Commit: 2016-07-28<br>Keywords: #trailing_comma #function_parameter #code_style #version_control #blame #syntax #grammar #parameter_list #code_attribution #transpilation<br>GitHub Link: https://github.com/tc39/proposal-trailing-function-commas <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-26.md#9ie-trailing-commas-in-functions
 # Proposal Description:
 # Proposal to allow trailing commas in function parameter lists
 
@@ -74,3 +61,4 @@ For the CLI, you can either give it a single filename argument to read from disk
 ## Spec Text
 
 See [http://jeffmo.github.io/es-trailing-function-commas/](http://jeffmo.github.io/es-trailing-function-commas/)
+<br>

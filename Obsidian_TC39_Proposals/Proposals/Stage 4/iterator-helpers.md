@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Sync Iterator helpers
-Authors: Gus Caplan
-Champions: Michael Ficarra, Jonathan Keslin, Kevin Gibbons
-Last Presented: October 2024
-Stage Upgrades: 
-Stage 1: 2019-01-31  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Sync Iterator helpers<br>Authors: Gus Caplan<br>Champions: Michael Ficarra, Jonathan Keslin, Kevin Gibbons<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2019-01-31  
 Stage 2: 2019-07-24  
 Stage 2.7: NA  
 Stage 3: 2022-12-01  
-Stage 4: 2024-10-08  
-Last Commit: 2024-10-08
-Keywords: #iterator #map #filter #take #drop #flatMap #reduce #toArray #forEach #find
-GitHub Link: https://github.com/tc39/proposal-iterator-helpers
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-helpers-for-stage-4
-
+Stage 4: 2024-10-08<br>Last Commit: 2024-10-08<br>Keywords: #iterator #map #filter #take #drop #flatMap #reduce #toArray #some #every<br>GitHub Link: https://github.com/tc39/proposal-iterator-helpers <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-helpers-for-stage-4
 # Proposal Description:
 # Iterator Helpers
 
@@ -458,3 +445,4 @@ const WrapForValidIteratorPrototype = Object.getPrototypeOf(Iterator.from({ next
 | append                      | ☐    | ☐      | ☐             | ☑  |
 
 Note: The method names are combined, such as `toArray` and `collect`.
+<br>

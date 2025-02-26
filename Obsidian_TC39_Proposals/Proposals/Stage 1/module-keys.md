@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Module Keys
-Authors: Mike Samuel
-Champions: Mike Samuel
-Last Presented: May 2018
-Stage Upgrades: 
-Stage 1: 2018-02-27  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Module Keys<br>Authors: Mike Samuel<br>Champions: Mike Samuel<br>Last Presented: May 2018<br>Stage Upgrades:<br>Stage 1: 2018-02-27  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2019-07-01
-Keywords: #module_api #secure_communication #module_loader #public_key #private_key #opaque_value #permissions #trust_management #trusted_intermediary #module_isolation
-GitHub Link: https://github.com/tc39/proposal-module-keys
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-23.md#module-keys-strawman-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2019-07-01<br>Keywords: #module_body #secure #communication #trust #authorization #module_loader #opaque #confidentiality #authenticity #permissions<br>GitHub Link: https://github.com/tc39/proposal-module-keys <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-23.md#module-keys-strawman-for-stage-1
 # Proposal Description:
 # TC39 Module Keys (Stage 1 Proposal)
 
@@ -742,3 +729,4 @@ should probably be turned off in production.)
 [Node frenemies design]: https://gist.github.com/mikesamuel/bd653e9f69595f7b9d7dd4381a154e02
 [CommonJS proof of concept]: https://github.com/nodejs/node/pull/19017
 [feature-policy]: https://wicg.github.io/feature-policy/
+<br>

@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Cryptographically Secure Random Number Generation
-Authors: Ron Buckton
-Champions: Ron Buckton
-Last Presented: February 2020
-Stage Upgrades: 
-Stage 1: 2020-02-04  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Cryptographically Secure Random Number Generation<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: February 2020<br>Stage Upgrades:<br>Stage 1: 2020-02-04  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2020-02-06
-Keywords: #cryptographically #secure #pseudo #random #number #generation #typedarray #arraybuffer #entropy #crypto
-GitHub Link: https://github.com/tc39/proposal-csprng
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#arraybufferfillrandom-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2020-02-06<br>Keywords: #cryptographically #secure #pseudo #random #number #generation #arraybuffer #typedarray #entropy #typeerror<br>GitHub Link: https://github.com/tc39/proposal-csprng <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#arraybufferfillrandom-for-stage-1
 # Proposal Description:
 <!--#region:intro-->
 # Cryptographically Secure Pseudo-Random Number Generation (CSPRNG) for ECMAScript
@@ -194,3 +181,4 @@ The following is a high-level list of tasks to progress through each stage of th
 [Implementation1]: #todo
 [Implementation2]: #todo
 [Ecma262PullRequest]: #todo
+<br>

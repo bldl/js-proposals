@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: SES Secure EcmaScript
-Authors: Mark Miller, Chip Morningstar, Caridy Patiño
-Champions: Mark Miller, Chip Morningstar, Caridy Patiño
-Last Presented: February 2020
-Stage Upgrades: 
-Stage 1: 2015-07-24  
-Stage 2: NA  
-Stage 2.7: NA  
-Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2021-02-18
-Keywords: #compartments #lightweight #immutable #realms #global_object #primordials #separation #security #concurrency #isolation
-GitHub Link: https://github.com/tc39/proposal-ses
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-6.md#ses-compartments
-
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: SES Secure EcmaScript<br>Authors: Mark Miller, Chip Morningstar, Caridy Patiño<br>Champions: Mark Miller, Chip Morningstar, Caridy Patiño<br>Last Presented: February 2020<br>Stage Upgrades:<br>Stage 1: 2015-07-24
+Stage 2: NA
+Stage 2.7: NA
+Stage 3: NA
+Stage 4: NA<br>Last Commit: 2021-02-18<br>Keywords: #compartment #immutable #lightweight #global_object #eval #locking #intrinsics #security #isolation #shared<br>GitHub Link: https://github.com/tc39/proposal-ses <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-6.md#ses-compartments
 # Proposal Description:
 # Draft Proposal for SES (Secure EcmaScript)
 
@@ -905,3 +892,4 @@ The Compartment API proposed here derives directly from [Moddable's earlier Comp
 Thanks to the regular attendees at the recent SES meetings, especially Bradley Farias, Michael Fig, Saleh Motaal, and Chip Morningstar.
 
 Many thanks to E. Dean Tribble, Kevin Reid, Dave Herman, Michael Ficarra, Tom Van Cutsem, Kris Kowal, Kevin Smith, Terry Hayes, Daniel Ehrenberg, Ojan Vafai, Elliott Sprehn, and Alex Russell. Thanks to the entire Caja team (Jasvir Nagra, Ihab Awad, Mike Stay, Mike Samuel, Felix Lee, Kevin Reid, and Ben Laurie) for building a system in which all the hardest issues have already been worked out.
+<br>

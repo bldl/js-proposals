@@ -1,21 +1,8 @@
-[[Stage 2.7]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Math.sumPrecise
-Authors: Kevin Gibbons
-Champions: Kevin Gibbons
-Last Presented: April 2024
-Stage Upgrades: 
-Stage 1: 2023-12-18  
+[[Stage 2.7]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Math.sumPrecise<br>Authors: Kevin Gibbons<br>Champions: Kevin Gibbons<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2023-12-18  
 Stage 2: 2024-02-21  
 Stage 2.7: 2024-04-09  
 Stage 3: 2024-10-27  
-Stage 4: NA  
-Last Commit: 2024-10-27
-Keywords: #sum #precision #floating_point #iterable #algorithm #arbitrary_precision #identity #overflow #reduce #numeric
-GitHub Link: https://github.com/tc39/proposal-math-sum
-GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#mathsumexact-for-stage-27
-
+Stage 4: NA<br>Last Commit: 2024-10-27<br>Keywords: #sum #precision #floating_point #iterable #algorithm #reduction #identity #accumulation #performance #summation<br>GitHub Link: https://github.com/tc39/proposal-math-sum <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#mathsumexact-for-stage-27
 # Proposal Description:
 # Math.sumPrecise
 
@@ -84,3 +71,4 @@ We could have seperate methods for summing BigInts. I'd vote for `BigInt.sum` or
 ### What about product?
 
 That comes up much less so I'm not currently proposing it.
+<br>

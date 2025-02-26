@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Collection methods
-Authors: Michał Wadas
-Champions: Sathya Gunasekaran
-Last Presented: January 2018
-Stage Upgrades: 
-Stage 1: 2016-05-28  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Collection methods<br>Authors: Michał Wadas<br>Champions: Sathya Gunasekaran<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2016-05-28  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-08-01
-Keywords: #set #map #collection #prototype #filter #reduce #merge #addAll #deleteAll #cognitive_overhead
-GitHub Link: https://github.com/tc39/proposal-collection-methods
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiik-new-set-builtin-methods-for-stage-2
-
+Stage 4: NA<br>Last Commit: 2024-08-01<br>Keywords: #collection #set #map #filter #reduce #merge #mapping #prototype #functionality #polyfill<br>GitHub Link: https://github.com/tc39/proposal-collection-methods <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiik-new-set-builtin-methods-for-stage-2
 # Proposal Description:
 # New collections (Set and Map) methods
 
@@ -147,3 +134,4 @@ See [stage 3 Iterator Helpers](https://github.com/tc39/proposal-iterator-helpers
 # Rationales
 
 See [rationales.md](./rationales.md) for details.
+<br>

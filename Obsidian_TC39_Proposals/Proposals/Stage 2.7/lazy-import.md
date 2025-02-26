@@ -1,21 +1,8 @@
-[[Stage 2.7]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Deferring Module Evaluation
-Authors: Yulia Startsev, Guy Bedford
-Champions: Yulia Startsev, Guy Bedford, Nicolò Ribaudo
-Last Presented: June 2024
-Stage Upgrades: 
-Stage 1: 2021-01-28  
+[[Stage 2.7]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Deferring Module Evaluation<br>Authors: Yulia Startsev, Guy Bedford<br>Champions: Yulia Startsev, Guy Bedford, Nicolò Ribaudo<br>Last Presented: June 2024<br>Stage Upgrades:<br>Stage 1: 2021-01-28  
 Stage 2: 2023-07-18  
 Stage 2.7: 2024-06-12  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2025-02-23
-Keywords: #defer #evaluation #module #performance #initialization #asynchronous #execution #namespace #optimization #lazy_loading
-GitHub Link: https://github.com/tc39/proposal-defer-import-eval
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#deferred-import-evaluation-for-stage-27
-
+Stage 4: NA<br>Last Commit: 2025-02-26<br>Keywords: #performance #lazy_loading #module_caching #evaluation #synchronous #dynamic_import #execution_graph #deferred_loading #namespace_object #asynchronous<br>GitHub Link: https://github.com/tc39/proposal-defer-import-eval <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#deferred-import-evaluation-for-stage-27
 # Proposal Description:
 # Deferring Module Evaluation
 
@@ -406,3 +393,4 @@ Another approach we considered (and discarded) was to always suppress evaluation
 There are two reasons why we chose to use an "import modifier" rather than an attribute:
 1. Import attributes affect what a module _is_, but cannot change basic semantics of how ECMAScript modules behave: they are similar to adding query parameters to the imported URL, except that attributes are handled by the running environment rather than by the server. For example, `with { type: "json" }` behaves as if the imported module was a JavaScript file wrapped in ``export default JSON.parse(` ... the file contents ... `);``. `import defer` changes how namespace objects behave (by making them side-effectul, while before this proposal property access on namespace objects couldn't trigger any side effect): it cannot be expressed as a wrapped/modified "classic" ECMAScript module.
 2. Together with the [source phase imports proposal](https://github.com/tc39/proposal-source-phase-imports), we are exposing multiple "phases" of module loading. The phases we've identified are: resolving a module given a specifier, fetching the module (these two both happens in hosts and not in ECMA-262), attaching modules to their execution and resolution context, linking modules together, and finally executing them. We are using `import` modifiers to represent modules processed up to one of those phases, without going all the way to finishing execution. These modifiers give more guarantees than import attributes: while `import "x" with { attr1: "val" }` and `import "x" with { attr2: "val2" }` might be two completely different modules, `import source s from "x"`, `import defer * as ns from "x"`, and `import "x"` all are guaranteed to load the same module, and that module will be executed at most once regardless of which "phase" it gets temporarely paused at (and then continued from).
+<br>

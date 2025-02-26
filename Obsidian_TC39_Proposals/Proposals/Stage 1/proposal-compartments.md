@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Compartments
-Authors: Bradley Farias
-Champions: Bradley Farias, Mark S. Miller, Caridy Patiño, J.F. Paradis, Patrick Soquet, Kris Kowal
-Last Presented: March 2020
-Stage Upgrades: 
-Stage 1: 2020-03-20  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Compartments<br>Authors: Bradley Farias<br>Champions: Bradley Farias, Mark S. Miller, Caridy Patiño, J.F. Paradis, Patrick Soquet, Kris Kowal<br>Last Presented: March 2020<br>Stage Upgrades:<br>Stage 1: 2020-03-20  
 Stage 2: 2020-04-07  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-12-19
-Keywords: #compartmentalization #module #evaluator #virtualization #isolation #scoping #security #dependencies #prototypes #encapsulation
-GitHub Link: https://github.com/tc39/proposal-compartments
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-03/april-1.md#compartments-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2022-12-19<br>Keywords: #isolated #evaluators #modules #global_object #static_analysis #virtualization #dependencies #prototypes #compartment #module_source<br>GitHub Link: https://github.com/tc39/proposal-compartments <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-03/april-1.md#compartments-for-stage-1
 # Proposal Description:
 # Compartments
 
@@ -104,3 +91,4 @@ and related module proposals.
 [2]: ./2-virtual-module-source.md
 [3]: ./3-evaluator.md
 [4]: ./4-compartment.md
+<br>

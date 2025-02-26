@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Observable
-Authors: Jafar Husain
-Champions: Jafar Husain, Mark Miller
-Last Presented: May 2017
-Stage Upgrades: 
-Stage 1: 2015-05-01  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Observable<br>Authors: Jafar Husain<br>Champions: Jafar Husain, Mark Miller<br>Last Presented: May 2017<br>Stage Upgrades:<br>Stage 1: 2015-05-01  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2019-11-01
-Keywords: #observable #observer #subscription #push_based #asynchronous #event_stream #combinators #emit #stream_protocol #cleanup
-GitHub Link: https://github.com/tc39/proposal-observable
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-25.md#17iiia-observable-proposal-to-stage-2
-
+Stage 4: NA<br>Last Commit: 2019-11-01<br>Keywords: #observable #subscription #observer #asynchronous #event #stream #compositional #lazy #cleanup #push_based<br>GitHub Link: https://github.com/tc39/proposal-observable <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-25.md#17iiia-observable-proposal-to-stage-2
 # Proposal Description:
 ## ECMAScript Observable ##
 
@@ -274,3 +261,4 @@ interface SubscriptionObserver {
     get closed() : Boolean;
 }
 ```
+<br>

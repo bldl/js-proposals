@@ -1,21 +1,8 @@
-[[Stage 3]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Float16 on TypedArrays, DataView, Math.f16round
-Authors: Leo Balter
-Champions: Leo Balter, Kevin Gibbons
-Last Presented: May 2023
-Stage Upgrades: 
-Stage 1: 2023-02-18  
+[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Float16 on TypedArrays, DataView, Math.f16round<br>Authors: Leo Balter<br>Champions: Leo Balter, Kevin Gibbons<br>Last Presented: May 2023<br>Stage Upgrades:<br>Stage 1: 2023-02-18  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2023-05-16  
-Stage 4: NA  
-Last Commit: 2024-12-05
-Keywords: #float16 #typedarray #webgpu #webgl #memory_constraints #gpu_operations #dataview #performance_costs #math_f16round #color_management
-GitHub Link: https://github.com/tc39/proposal-float16array
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#float16array-for-stage-3
-
+Stage 4: NA<br>Last Commit: 2024-12-05<br>Keywords: #float16 #typedarray #precision #memory #gpu #webgl #arm #data_view #math #performance<br>GitHub Link: https://github.com/tc39/proposal-float16array <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#float16array-for-stage-3
 # Proposal Description:
 # Float16Array
 
@@ -54,3 +41,4 @@ This would add a new kind of TypedArray, `Float16Array`, to complement the exist
 ## Userland
 
 [@petramoriken](https://github.com/petamoriken) has [a package implementing `Float16Array`](https://github.com/petamoriken/float16) which gets 100k+ downloads/week [on npm](https://www.npmjs.com/package/@petamoriken/float16). See that repository for examples of some of the limitations and downsides of trying to do this purely in userland - notably the impossibility of integrating correctly with other web platform features like `WebGL`'s `HALF_FLOAT` buffers and `structuredClone`.
+<br>

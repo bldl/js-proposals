@@ -1,21 +1,8 @@
-[[Stage 2]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Immutable ArrayBuffers
-Authors: Mark Miller, Peter Hoddie, Richard Gibson, Jack Works
-Champions: Mark Miller, Peter Hoddie, Richard Gibson, Jack Works
-Last Presented: None
-Stage Upgrades: 
-Stage 1: 2024-11-21  
+[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Immutable ArrayBuffers<br>Authors: Mark Miller, Peter Hoddie, Richard Gibson, Jack Works<br>Champions: Mark Miller, Peter Hoddie, Richard Gibson, Jack Works<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2024-11-21  
 Stage 2: 2024-12-05  
 Stage 2.7: 2025-02-22  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2025-02-22
-Keywords: #immutable #arraybuffer #immutable_buffer #typedarray #dataview #transfer #performance #embedded_systems #frozen #cloning
-GitHub Link: https://github.com/Agoric/tc39-proposal-immutable-arraybuffer
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-10.md#immutable-arraybuffers-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2025-02-22<br>Keywords: #immutable #arraybuffer #immutable_buffer #typedarray #dataview #frozen #non_detachable #memory_management #performance #binary_data<br>GitHub Link: https://github.com/Agoric/tc39-proposal-immutable-arraybuffer <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-10.md#immutable-arraybuffers-for-stage-1
 # Proposal Description:
 # Immutable ArrayBuffers
 
@@ -214,3 +201,4 @@ We will drive the resolution to this from implementor feedback. But when this by
 </dd>
 
 <dl>
+<br>

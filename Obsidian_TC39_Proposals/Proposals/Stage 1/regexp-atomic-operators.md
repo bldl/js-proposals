@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: RegExp Atomic Operators
-Authors: Ron Buckton
-Champions: Ron Buckton
-Last Presented: June 2022
-Stage Upgrades: 
-Stage 1: 2021-10-16  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: RegExp Atomic Operators<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: June 2022<br>Stage Upgrades:<br>Stage 1: 2021-10-16  
 Stage 2: 2022-06-08  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-06-08
-Keywords: #backtracking #atomic #quantifiers #performance #control #expression #syntax #greedy #disjunction #non_backtracking
-GitHub Link: https://github.com/tc39/proposal-regexp-atomic-operators
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-08.md#regex-atomic-operators
-
+Stage 4: NA<br>Last Commit: 2022-06-08<br>Keywords: #backtracking #atomic #quantifiers #performance #regex #greedy #non-backtracking #disjunction #syntax #pattern<br>GitHub Link: https://github.com/tc39/proposal-regexp-atomic-operators <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-08.md#regex-atomic-operators
 # Proposal Description:
 <!--#region:intro-->
 # Regular Expression Atomic Operators for ECMAScript
@@ -242,3 +229,4 @@ The following is a high-level list of tasks to progress through each stage of th
 [Implementation1]: #todo
 [Implementation2]: #todo
 [Ecma262PullRequest]: #todo
+<br>

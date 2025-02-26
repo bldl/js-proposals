@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Optional catch binding
-Authors: Michael Ficarra
-Champions: Michael Ficarra
-Last Presented: May 2018
-Stage Upgrades: 
-Stage 1: 2017-06-11  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Optional catch binding<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: May 2018<br>Stage Upgrades:<br>Stage 1: 2017-06-11  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2017-07-28  
-Stage 4: 2018-05-22  
-Last Commit: 2018-05-22
-Keywords: #grammar #binding #catch #omission #exception #fallback #web_feature #implementation #syntax #error
-GitHub Link: https://github.com/tc39/proposal-optional-catch-binding
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-22.md#conclusionresolution-7
-
+Stage 4: 2018-05-22<br>Last Commit: 2018-05-22<br>Keywords: #binding #grammar #omission #error #try #catch #feature #programming #variable #syntax<br>GitHub Link: https://github.com/tc39/proposal-optional-catch-binding <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-22.md#conclusionresolution-7
 # Proposal Description:
 This proposal makes a grammatical change to ECMAScript, allowing the omission
 of a `catch` binding in cases where the binding would not be used. This occurs
@@ -63,3 +50,4 @@ try {
 ```
 
 See [the the full text of the proposal](https://tc39.github.io/proposal-optional-catch-binding/) for more info.
+<br>

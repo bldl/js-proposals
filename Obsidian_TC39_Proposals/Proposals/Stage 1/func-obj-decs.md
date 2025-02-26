@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Function and Object Literal Decorators
-Authors: Ron Buckton
-Champions: Ron Buckton
-Last Presented: February 2024
-Stage Upgrades: 
-Stage 1: 2024-01-09  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Function and Object Literal Decorators<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: February 2024<br>Stage Upgrades:<br>Stage 1: 2024-01-09  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-01-25
-Keywords: #function #decorator #metaprogramming #metadata #context #object_literal #initializer #async #arrow_function #function_expression
-GitHub Link: https://github.com/tc39/proposal-function-and-object-literal-element-decorators
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#function-and-object-literal-element-decorators-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2024-01-25<br>Keywords: #decorator #metaprogramming #function #context #metadata #logging #authorization #http #generator #accessor<br>GitHub Link: https://github.com/tc39/proposal-function-and-object-literal-element-decorators <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#function-and-object-literal-element-decorators-for-stage-1
 # Proposal Description:
 # ECMAScript Decorators for Functions
 
@@ -881,3 +868,4 @@ The following is a high-level list of tasks to progress through each stage of th
 [Metadata]: https://github.com/tc39/proposal-decorator-metadata
 [ParameterDecorators]: https://github.com/tc39/proposal-class-method-parameter-decorators
 [AsyncContext]: https://github.com/tc39/proposal-async-context
+<br>

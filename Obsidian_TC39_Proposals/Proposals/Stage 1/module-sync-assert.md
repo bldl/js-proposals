@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Module sync assert
-Authors: Jack Works
-Champions: Jack Works
-Last Presented: November 2023
-Stage Upgrades: 
-Stage 1: 2023-10-01  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Module sync assert<br>Authors: Jack Works<br>Champions: Jack Works<br>Last Presented: November 2023<br>Stage Upgrades:<br>Stage 1: 2023-10-01  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-03-28
-Keywords: #synchronization #module #event #handler #typeerror #polyfill #engine #directive #evaluation #dependency
-GitHub Link: https://github.com/tc39/proposal-module-sync-assert
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-29.md#module-sync-assert-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2024-03-28<br>Keywords: #synchronous #module #evaluation #directive #error #debugging #polyfill #fetch #service_worker #api_stability<br>GitHub Link: https://github.com/tc39/proposal-module-sync-assert <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-29.md#module-sync-assert-for-stage-1
 # Proposal Description:
 # Module sync assert
 
@@ -72,3 +59,4 @@ Adding a new directive to hint the engine.
 
 It is possible, but each tool needs to invent its convention to do this.
 It also does not apply to developers that don't use a bundler/linter.
+<br>

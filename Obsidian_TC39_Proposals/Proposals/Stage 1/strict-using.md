@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]] [[Semantic Change]]
-Human Validated: No
-Title: Strict Enforcement of 'using'
-Authors: Ron Buckton
-Champions: Ron Buckton
-Last Presented: April 2024
-Stage Upgrades: 
-Stage 1: 2024-03-28  
+[[Stage 1]]<br>Classification: [[API Change]] [[Syntactic Change]]<br>Human Validated: No<br>Title: Strict Enforcement of 'using'<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2024-03-28  
 Stage 2: 2024-04-12  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-04-12
-Keywords: #disposable #resource #management #symbol #enforcement #cleanup #declaration #stack #synchronization #opt-in
-GitHub Link: https://github.com/tc39/proposal-using-enforcement
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#strict-enforcement-of-using
-
+Stage 4: NA<br>Last Commit: 2024-04-12<br>Keywords: #resource_management #disposable #disposable_stack #async_disposable_stack #symbol_enter #strict_enforcement #cleanup #resource_acquisition #automatic_finalization #host_apis<br>GitHub Link: https://github.com/tc39/proposal-using-enforcement <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#strict-enforcement-of-using
 # Proposal Description:
 # Strict Enforcement of `using`
 
@@ -321,3 +308,4 @@ The following is a high-level list of tasks to progress through each stage of th
 [Implementation2]: #todo
 [Ecma262PullRequest]: #todo
 [Explicit Resource Management]: https://github.com/tc39/proposal-explicit-resource-management
+<br>

@@ -1,21 +1,8 @@
-[[Inactive]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Updates to Tail Calls to include an explicit syntactic opt-in
-Authors: Brian Terlson, Eric Faust
-Champions: Inactive
-Last Presented: None
-Stage Upgrades: 
-Stage 1: 2016-04-12  
+[[Inactive]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Updates to Tail Calls to include an explicit syntactic opt-in<br>Authors: Brian Terlson, Eric Faust<br>Champions: Inactive<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2016-04-12  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2016-05-07
-Keywords: #tail_calls #stack_frames #syntax #developer_tools #error_handling #performance #function_calls #debugging #developer_intent #recursion
-GitHub Link: https://github.com/tc39/proposal-ptc-syntax
-GitHub Note Link: None
-
+Stage 4: NA<br>Last Commit: 2016-05-07<br>Keywords: #tail_calls #stack_frames #performance #developer_tools #error_handling #cross_realm #developer_intent #recursion #syntax #optimization<br>GitHub Link: https://github.com/tc39/proposal-ptc-syntax <br>GitHub Note Link: None
 # Proposal Description:
 # Syntactic Tail Calls (STC)
 Discussion and specification for an explicit syntactic opt-in for Tail Calls, dubbed Syntactic Tail Calls or STC.
@@ -201,3 +188,4 @@ function () { !return expr }
 // We could do like we did for # above, but it also reads strangely:
 () !=> expr
 ```
+<br>

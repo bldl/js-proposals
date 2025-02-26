@@ -1,15 +1,2 @@
-[[Stage 0]]
-Classification:
-Human Validated: No
-Title: Orthogonal Classes
-Authors: Mark Miller, Allen Wirfs-Brock
-Champions: Mark Miller, Allen Wirfs-Brock
-Last Presented: March 2017
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://github.com/erights/Orthogonal-Classes
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-03/mar-22.md#10iiia-orthogonal-classes
-
-# Proposal Description:
+[[Stage 0]]<br>Classification<br>Human Validated: No<br>Title: Orthogonal Classes<br>Authors: Mark Miller, Allen Wirfs-Brock<br>Champions: Mark Miller, Allen Wirfs-Brock<br>Last Presented: March 2017<br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://github.com/erights/Orthogonal-Classes <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-03/mar-22.md#10iiia-orthogonal-classes
+# Proposal Description:<br>

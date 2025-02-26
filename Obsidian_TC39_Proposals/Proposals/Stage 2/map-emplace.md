@@ -1,21 +1,8 @@
-[[Stage 2]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Map.prototype.emplace
-Authors: Bradley Farias
-Champions: Erica Pramer
-Last Presented: July 2020
-Stage Upgrades: 
-Stage 1: 2019-09-14  
+[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Map.prototype.emplace<br>Authors: Bradley Farias<br>Champions: Erica Pramer<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2019-09-14  
 Stage 2: 2019-11-08  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2025-02-05
-Keywords: #map #weakmap #default_value #insert #update #lookup #incremental #callback_function #counter #optimization
-GitHub Link: https://github.com/tc39/proposal-upsert
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#upsert-now-renamed-emplace-updates--for-stage-3
-
+Stage 4: NA<br>Last Commit: 2025-02-05<br>Keywords: #map #weakmap #default_value #callback_function #grouping #incremental #counter #insert #compute #prefetch<br>GitHub Link: https://github.com/tc39/proposal-upsert <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#upsert-now-renamed-emplace-updates--for-stage-3
 # Proposal Description:
 # Proposal Upsert
 
@@ -205,3 +192,4 @@ Map.prototype.getOrInsertComputed = function (key, callbackFunction) {
   return this.get(key);
 };
 ```
+<br>

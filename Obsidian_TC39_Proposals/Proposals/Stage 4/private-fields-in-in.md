@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Ergonomic brand checks for Private Fields
-Authors: Jordan Harband
-Champions: Jordan Harband
-Last Presented: July 2021
-Stage Upgrades: 
-Stage 1: 2020-04-01  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Ergonomic brand checks for Private Fields<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: July 2021<br>Stage Upgrades:<br>Stage 1: 2020-04-01  
 Stage 2: 2020-06-01  
 Stage 2.7: NA  
 Stage 3: 2021-01-27  
-Stage 4: 2021-07-14  
-Last Commit: 2021-07-14
-Keywords: #private_field #brand_check #boolean #getter #in_operator #exception_handling #fallback_behavior #class_fields #property_check #data_structure
-GitHub Link: https://github.com/tc39/proposal-private-fields-in-in
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#ergonomic-brand-checks-for-stage-4
-
+Stage 4: 2021-07-14<br>Last Commit: 2021-07-14<br>Keywords: #private_field #brand_check #boolean #getters #class_syntax #exception_handling #in_operator #fallback_behavior #private_access #data_encapsulation<br>GitHub Link: https://github.com/tc39/proposal-private-fields-in-in <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#ergonomic-brand-checks-for-stage-4
 # Proposal Description:
 # Ergonomic brand checks for Private Fields
 
@@ -118,3 +105,4 @@ You can view the spec for the `in` solution rendered as [HTML](http://tc39.es/pr
 
 ## Implementations
  - Babel: https://babeljs.io/docs/en/babel-plugin-proposal-private-property-in-object / https://www.npmjs.com/package/@babel/plugin-proposal-private-property-in-object
+<br>

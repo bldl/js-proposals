@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Array.zip and Array.zipKeyed
-Authors: Jordan Harband
-Champions: Jordan Harband
-Last Presented: October 2024
-Stage Upgrades: 
-Stage 1: 2024-10-09  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Array.zip and Array.zipKeyed<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2024-10-09  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-10-10
-Keywords: #iteration #synchronization #static_method #array_zip #performance #compatibility #iterators #api_design #data_structure #iterable
-GitHub Link: https://github.com/tc39/proposal-array-zip
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#arrayzip-for-stage-1-or-2-or-27
-
+Stage 4: NA<br>Last Commit: 2024-10-10<br>Keywords: #iteration #synchronization #performance #static_method #iterable #array_zip #utilities #joint_iteration #compatibility #iteration_helpers<br>GitHub Link: https://github.com/tc39/proposal-array-zip <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#arrayzip-for-stage-1-or-2-or-27
 # Proposal Description:
 # proposal-array-zip
 
@@ -42,3 +29,4 @@ Add `Array.zip` and `Array.zipKeyed` static methods to the `Array` constructor.
  - the method names, APIs, and semantics must match https://github.com/tc39/proposal-joint-iteration, to avoid confusion
   - this includes accepting iterables, like `Array.from` and `Array.fromAsync`
  - Adding Array.prototype methods is the most frequent cause of web compatibility issues, and browsers have expressed an unwillingness to even attempt adding more in the future - thus, they must be static
+<br>

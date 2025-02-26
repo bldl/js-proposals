@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Promise.any
-Authors: Mathias Bynens, Kevin Gibbons, Sergey Rubanov
-Champions: Mathias Bynens
-Last Presented: July 2020
-Stage Upgrades: 
-Stage 1: 2019-03-27  
+[[Stage 4]]<br>Classification: [[API Change]] [[Syntactic Change]]<br>Human Validated: No<br>Title: Promise.any<br>Authors: Mathias Bynens, Kevin Gibbons, Sergey Rubanov<br>Champions: Mathias Bynens<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2019-03-27  
 Stage 2: 2019-07-24  
 Stage 2.7: NA  
 Stage 3: 2019-10-04  
-Stage 4: 2020-07-21  
-Last Commit: 2020-08-10
-Keywords: #promise #aggregate_error #combinator #rejection #fulfillment #iterable #error_handling #promise_library #exception #stack_trace
-GitHub Link: https://github.com/tc39/proposal-promise-any
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#promiseany--aggregateerror-for-stage-4
-
+Stage 4: 2020-07-21<br>Last Commit: 2020-08-10<br>Keywords: #promise #any #aggregate_error #iterable #error_handling #short_circuit #promise_combination #fulfilled #rejected #asynchronous<br>GitHub Link: https://github.com/tc39/proposal-promise-any <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#promiseany--aggregateerror-for-stage-4
 # Proposal Description:
 # ECMAScript proposal: `Promise.any` + `AggregateError`
 
@@ -131,3 +118,4 @@ Promise.any([
     - [es-shims](https://github.com/es-shims/Promise.any)
 
 - [TypeScript](https://github.com/microsoft/TypeScript/pull/33844)
+<br>

@@ -1,21 +1,8 @@
-[[Stage 3]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Decorator Metadata
-Authors: Kristen Hewell Garrett
-Champions: Kristen Hewell Garrett
-Last Presented: May 2023
-Stage Upgrades: 
-Stage 1: 2022-04-01  
-Stage 2: NA  
-Stage 2.7: NA  
-Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-01-17
-Keywords: #metadata #decorators #weakmap #introspection #serialization #validation #inheritance #dependency_injection #private_metadata #reactivity
-GitHub Link: https://github.com/tc39/proposal-decorator-metadata
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-18.md#decorator-metadata-final-spec-text-review-for-stage-3
-
+[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Decorator Metadata<br>Authors: Kristen Hewell Garrett<br>Champions: Kristen Hewell Garrett<br>Last Presented: May 2023<br>Stage Upgrades:<br>Stage 1: 2022-04-01
+Stage 2: NA
+Stage 2.7: NA
+Stage 3: NA
+Stage 4: NA<br>Last Commit: 2024-01-17<br>Keywords: #metadata #decorators #introspection #validation #serialization #dependency_injection #class_prototype #inheritance #weakmap #declarative_routing<br>GitHub Link: https://github.com/tc39/proposal-decorator-metadata <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-18.md#decorator-metadata-final-spec-text-review-for-stage-3
 # Proposal Description:
 <!-- @format -->
 
@@ -185,3 +172,4 @@ class C {
 PRIVATE_METADATA.get(C[Symbol.metadata]).a; // 'x'
 PRIVATE_METADATA.get(C[Symbol.metadata]).b; // 'y'
 ```
+<br>

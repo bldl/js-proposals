@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Change Array by Copy
-Authors: Ashley Claymore, Robin Ricard
-Champions: Ashley Claymore, Robin Ricard
-Last Presented: arch 2022
-Stage Upgrades: 
-Stage 1: 2021-04-20  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Change Array by Copy<br>Authors: Ashley Claymore, Robin Ricard<br>Champions: Ashley Claymore, Robin Ricard<br>Last Presented: arch 2022<br>Stage Upgrades:<br>Stage 1: 2021-04-20  
 Stage 2: 2022-02-22  
 Stage 2.7: NA  
 Stage 3: 2022-03-31  
-Stage 4: 2023-03-05  
-Last Commit: 2023-08-01
-Keywords: #array #copy #immutable #functions #typedarray #reversed #sorted #spliced #method #subclass
-GitHub Link: https://github.com/tc39/proposal-change-array-by-copy
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-30.md#change-array-by-copy
-
+Stage 4: 2023-03-05<br>Last Commit: 2023-08-01<br>Keywords: #array #copy #immutable #typedarray #method #function #reversed #sorted #spliced #subclass<br>GitHub Link: https://github.com/tc39/proposal-change-array-by-copy <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-30.md#change-array-by-copy
 # Proposal Description:
 > **Note**
 > This proposal is ['finished'](https://github.com/tc39/proposals/blob/main/finished-proposals.md) and has been merged into the ECMAScript spec. [PR](https://github.com/tc39/ecma262/pull/2997)
@@ -124,3 +111,4 @@ If web compatibility prescribes it, property names defined in this proposal are 
    - [`array.prototype.with`](https://www.npmjs.com/package/array.prototype.with)
 
 - [./polyfill.js](./polyfill.js) (minimalist reference implementation)
+<br>

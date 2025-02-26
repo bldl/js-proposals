@@ -1,21 +1,8 @@
-[[Stage 2]]
-Classification: [[API Change]]
-Human Validated: No
-Title: JSON.parseImmutable
-Authors: Robin Ricard, Richard Button, Nicolò Ribaudo, Ashley Claymore
-Champions: Robin Ricard, Richard Button, Nicolò Ribaudo, Ashley Claymore
-Last Presented: July 2022
-Stage Upgrades: 
-Stage 1: 2022-07-28  
+[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: JSON.parseImmutable<br>Authors: Robin Ricard, Richard Button, Nicolò Ribaudo, Ashley Claymore<br>Champions: Robin Ricard, Richard Button, Nicolò Ribaudo, Ashley Claymore<br>Last Presented: July 2022<br>Stage Upgrades:<br>Stage 1: 2022-07-28  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-07-28
-Keywords: #immutable #data_structure #records #tuples #ergonomic #creation #deeply #efficient #parsing #JSON
-GitHub Link: https://github.com/tc39/proposal-json-parseimmutable
-GitHub Note Link: None
-
+Stage 4: NA<br>Last Commit: 2022-07-28<br>Keywords: #immutable #data_structure #tuple #record #creation #ergonomic #efficient #json #deeply #structure<br>GitHub Link: https://github.com/tc39/proposal-json-parseimmutable <br>GitHub Note Link: None
 # Proposal Description:
 # JSON.parseImmutable Proposal
 
@@ -59,3 +46,4 @@ JSON.parseImmutable(data);
 <!-- References -->
 [rec-tup-proposal]: https://github.com/tc39/proposal-record-tuple
 [json-mdn]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
+<br>

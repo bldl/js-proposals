@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Object.fromEntries
-Authors: Darien Maillet Valentine
-Champions: Jordan Harband, Kevin Gibbons
-Last Presented: January 2019
-Stage Upgrades: 
-Stage 1: 2017-08-07  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Object.fromEntries<br>Authors: Darien Maillet Valentine<br>Champions: Jordan Harband, Kevin Gibbons<br>Last Presented: January 2019<br>Stage Upgrades:<br>Stage 1: 2017-08-07  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2018-07-24  
-Stage 4: 2019-01-29  
-Last Commit: 2019-01-29
-Keywords: #key_value_pairs #iterable #map #object #transformation #serialization #API #data_structure #JSON #properties
-GitHub Link: https://github.com/tc39/proposal-object-from-entries
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#objectfromentries-for-stage-4
-
+Stage 4: 2019-01-29<br>Last Commit: 2019-01-29<br>Keywords: #key_value_pairs #iterable #object_transformation #map #array_manipulation #json_serialization #data_structure #property_transformation #data_model #metaprogramming<br>GitHub Link: https://github.com/tc39/proposal-object-from-entries <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#objectfromentries-for-stage-4
 # Proposal Description:
 # Object.fromEntries
 
@@ -153,3 +140,4 @@ In Python, a `dict` can be initialized with [an array of key-value tuples](https
 ```python
 dict([('two', 2), ('one', 1), ('three', 3)])
 ```
+<br>

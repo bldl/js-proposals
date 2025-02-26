@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Sync Imports
-Authors: Guy Bedford
-Champions: Guy Bedford
-Last Presented: None
-Stage Upgrades: 
-Stage 1: 2024-12-05  
+[[Stage 1]]<br>Classification: [[API Change]] [[Syntactic Change]]<br>Human Validated: No<br>Title: Sync Imports<br>Authors: Guy Bedford<br>Champions: Guy Bedford<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2024-12-05  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-12-05
-Keywords: #synchronous #import #module #registry #conditional_loading #dynamic_loading #error_handling #specifier #eval #engine
-GitHub Link: https://github.com/guybedford/proposal-import-sync
-GitHub Note Link: None
-
+Stage 4: NA<br>Last Commit: 2024-12-05<br>Keywords: #synchronous #import #module #registry #dynamic #require #error #loading #builtin #conditional<br>GitHub Link: https://github.com/guybedford/proposal-import-sync <br>GitHub Note Link: None
 # Proposal Description:
 # Import Sync
 
@@ -152,3 +139,4 @@ To guarantee that a graph is sync upfront, instead see the [Module Sync Assert](
 _Post an [issue](https://github.com/guybedford/proposal-import-sync/issues)._
 
 [Defer Import Eval]: https://github.com/tc39/proposal-defer-import-eval
+<br>

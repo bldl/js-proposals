@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Promise.withResolvers
-Authors: Peter Klecha
-Champions: Peter Klecha
-Last Presented: sub> - [2023-11
-Stage Upgrades: 
-Stage 1: 2023-03-24  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Promise.withResolvers<br>Authors: Peter Klecha<br>Champions: Peter Klecha<br>Last Presented: sub> - [2023-11<br>Stage Upgrades:<br>Stage 1: 2023-03-24  
 Stage 2: 2023-05-18  
 Stage 2.7: NA  
 Stage 3: 2023-07-12  
-Stage 4: 2023-12-12  
-Last Commit: 2023-12-12
-Keywords: #promise #executor #callback #resolution #rejection #asynchronous #utility #boilerplate #event #configuration
-GitHub Link: https://github.com/tc39/proposal-promise-with-resolvers
-GitHub Note Link: None
-
+Stage 4: 2023-12-12<br>Last Commit: 2023-12-12<br>Keywords: #promise #executor #resolver #rejector #asynchronous #callback #utility #error_handling #data #boilerplate<br>GitHub Link: https://github.com/tc39/proposal-promise-with-resolvers <br>GitHub Note Link: None
 # Proposal Description:
 # `Promise.withResolvers`
 
@@ -125,3 +112,4 @@ Libraries and applications continually re-invent this wheel. Below are just a ha
 |Vite|[inline example](https://github.com/vitejs/vite/blob/134ce6817984bad0f5fb043481502531fee9b1db/playground/test-utils.ts#L225)
 |Deno stdlib | [utility](https://deno.land/std@0.178.0/async/deferred.ts?source)
 
+<br>

@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Modulus and Additional Integer Math
-Authors: Peter Hoddie
-Champions: Peter Hoddie
-Last Presented: September 2020
-Stage Upgrades: 
-Stage 1: 2020-09-01  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Modulus and Additional Integer Math<br>Authors: Peter Hoddie<br>Champions: Peter Hoddie<br>Last Presented: September 2020<br>Stage Upgrades:<br>Stage 1: 2020-09-01  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2023-07-09
-Keywords: #integer_math #modulus #remainder #int32 #random_integer #math_operations #engine_optimizations #compiler_optimizations #math_object #efficient_implementation
-GitHub Link: https://github.com/tc39/proposal-integer-and-modulus-math
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#modulus-and-additional-integer-math-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2023-07-09<br>Keywords: #integer #modulus #remainder #math #optimization #random #signed #division #float #operation<br>GitHub Link: https://github.com/tc39/proposal-integer-and-modulus-math <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#modulus-and-additional-integer-math-for-stage-1
 # Proposal Description:
 # Modulus and Additional Integer Math
 Updated July 9, 2023
@@ -160,3 +147,4 @@ But... `%` is defined as "remainder"
 **Q**: Do these static methods accept `BigInt` arguments?
 
 **A**: No, to be consistent with the other static methods on `Math`, including `Math.imul`. There is no fundamental objection to supporting `BigInt` where it makes sense should that be the committee's preference.
+<br>

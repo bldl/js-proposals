@@ -1,21 +1,8 @@
-[[Stage 3]]
-Classification: [[Semantic Change]]
-Human Validated: No
-Title: Redeclarable global eval-introduced vars
-Authors: Shu-yu Guo
-Champions: Shu-yu Guo
-Last Presented: April 2024
-Stage Upgrades: 
-Stage 1: 2024-02-13  
+[[Stage 3]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: Redeclarable global eval-introduced vars<br>Authors: Shu-yu Guo<br>Champions: Shu-yu Guo<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2024-02-13  
 Stage 2: 2024-04-08  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-04-19
-Keywords: #eval #global_scope #redeclaration #var_binding #configurable #lexical_binding #mental_model #implementation_complexity #shadowing #web_compatibility
-GitHub Link: https://github.com/tc39-transfer/proposal-redeclarable-global-eval-vars
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#make-eval-introduced-global-vars-redeclarable-for-stage-27
-
+Stage 4: NA<br>Last Commit: 2024-04-19<br>Keywords: #eval #global_environment #var_names #redeclaration #configurable #global_scope #lexical_binding #implementation #complexity #shadowing<br>GitHub Link: https://github.com/tc39-transfer/proposal-redeclarable-global-eval-vars <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#make-eval-introduced-global-vars-redeclarable-for-stage-27
 # Proposal Description:
 # Make `eval`-introduced global `var`s redeclarable
 
@@ -103,3 +90,4 @@ It is web compatible to make this change as we are changing a throwing behavior 
 Not really, because function scopes and the global toplevel scope already behave very differently.
 
 Per above, the global toplevel is an _open_ scope while function scopes are _closed_. This proposal changes observable behavior that is only observable by re-entering the global scope (e.g. via new `<script>` tags in the HTML embedding). In other words, if one were to use the global top-level scope like a closed scope and does not re-enter it, there is no observable difference.
+<br>

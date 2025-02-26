@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Partial application
-Authors: Ron Buckton
-Champions: Ron Buckton
-Last Presented: July 2018
-Stage Upgrades: 
-Stage 1: 2017-07-19  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Partial application<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: July 2018<br>Stage Upgrades:<br>Stage 1: 2017-07-19  
 Stage 2: 2021-10-15  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2021-10-19
-Keywords: #placeholder_arguments #partial_application #ordinal_arguments #rest_arguments #function_binding #currying #calling_convention #functional_programming #unapplied_arguments #function_expression
-GitHub Link: https://github.com/tc39/proposal-partial-application
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#partial-application
-
+Stage 4: NA<br>Last Commit: 2021-10-19<br>Keywords: #function_application #partial_application #placeholder_argument #ordinal_placeholder #rest_placeholder #calling_convention #fixed_arity #variable_arity #syntax_error #eager_evaluation<br>GitHub Link: https://github.com/tc39/proposal-partial-application <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#partial-application
 # Proposal Description:
 # Partial Application Syntax for ECMAScript
 
@@ -587,3 +574,4 @@ The following is a high-level list of tasks to progress through each stage of th
 [Implementation1]: #todo
 [Implementation2]: #todo
 [Ecma262PullRequest]: #todo
+<br>

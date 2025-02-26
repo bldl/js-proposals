@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Wavy Dot: Syntactic Support for Promise Pipelining
-Authors: Mark Miller, Chip Morningstar, Michael Fig
-Champions: Mark Miller, Chip Morningstar, Michael Fig
-Last Presented: December 2019
-Stage Upgrades: 
-Stage 1: 2019-07-12  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Wavy Dot: Syntactic Support for Promise Pipelining<br>Authors: Mark Miller, Chip Morningstar, Michael Fig<br>Champions: Mark Miller, Chip Morningstar, Michael Fig<br>Last Presented: December 2019<br>Stage Upgrades:<br>Stage 1: 2019-07-12  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2020-04-26
-Keywords: #wavy_dot #promise #pipelining #syntactic_sugar #optional_chaining #infix_operator #internal_methods #eventual_apply #eventual_get #babel
-GitHub Link: https://github.com/tc39/proposal-wavy-dot
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#update-on-promise-pipelining
-
+Stage 4: NA<br>Last Commit: 2020-04-26<br>Keywords: #promise #pipelining #operator #syntax #sugar #chaining #method #function #evaluation #desugaring<br>GitHub Link: https://github.com/tc39/proposal-wavy-dot <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#update-on-promise-pipelining
 # Proposal Description:
 # proposal-wavy-dot
 
@@ -101,3 +88,4 @@ Attempted Concrete Syntax, where "..." signifies the existing productions of tha
 # Prototype
 
 A [Babel playground](https://babeljs.io/repl/build/21430/#?browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=PTAEFEDcFMDsBcCuBDANqA5teAoAZgPYEB-AdAEbIBOOIEMCK6yADi6gJ75FkAU5AS3gAaUOQIixyeAEpaYKHCRpQAZzgATbiQrIAXvwJ5R42TiA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=true&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=es2015%2Creact%2Cstage-1%2Cstage-2&prettier=false&targets=&version=7.9.0%2Bpr.11487&externalPlugins=) implements this proposal using static methods on the `HandledPromise` object that is in the current scope.  The [Work-In-Progress Babel pull request for this syntax](https://github.com/babel/babel/pull/11487) is also available.
+<br>

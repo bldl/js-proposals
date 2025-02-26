@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: of and from on collection constructors
-Authors: Leo Balter
-Champions: Leo Balter
-Last Presented: September 2016
-Stage Upgrades: 
-Stage 1: 2017-05-21  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: of and from on collection constructors<br>Authors: Leo Balter<br>Champions: Leo Balter<br>Last Presented: September 2016<br>Stage Upgrades:<br>Stage 1: 2017-05-21  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2019-10-22
-Keywords: #collection #constructor #set #map #polyfill #iteration #initialization #factory #utility #method
-GitHub Link: https://github.com/tc39/proposal-setmap-offrom
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-09/sept-29.md#11iic-set-map-weakset-and-weakmap-of-and-from-methods
-
+Stage 4: NA<br>Last Commit: 2019-10-22<br>Keywords: #collection #constructors #methods #sets #maps #iteration #utilities #polyfills #syntax #initialization<br>GitHub Link: https://github.com/tc39/proposal-setmap-offrom <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-09/sept-29.md#11iic-set-map-weakset-and-weakmap-of-and-from-methods
 # Proposal Description:
 # `of` and `from` on collection constructors
 
@@ -47,3 +34,4 @@ https://github.com/tc39/proposal-setmap-offrom/issues
 ## Polyfill
 
 A polyfill is available in the [core-js](https://github.com/zloirock/core-js) library. You can find it in the [ECMAScript proposals section](https://github.com/zloirock/core-js#of-and-from-methods-on-collection-constructors).
+<br>

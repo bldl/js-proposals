@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: class Access Expressions
-Authors: Ron Buckton
-Champions: Ron Buckton
-Last Presented: September 2020
-Stage Upgrades: 
-Stage 1: 2018-05-11  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: class Access Expressions<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: September 2020<br>Stage Upgrades:<br>Stage 1: 2018-05-11  
 Stage 2: 2018-07-11  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2020-09-09
-Keywords: #class_properties #static_members #lexical_scope #class_methods #method_invocation #error_handling #anonymous_classes #private_methods #function_environment #class_fields
-GitHub Link: https://github.com/tc39/proposal-class-access-expressions
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-22.md#class-access-expressions-for-stage-2
-
+Stage 4: NA<br>Last Commit: 2020-09-09<br>Keywords: #class_property #static_members #this_keyword #class_methods #private_methods #anonymous_classes #lexical_scope #function_environment #method_invocation #type_error<br>GitHub Link: https://github.com/tc39/proposal-class-access-expressions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-22.md#class-access-expressions-for-stage-2
 # Proposal Description:
 <!--#region:intro-->
 # ECMAScript class property access expressions
@@ -526,3 +513,4 @@ The following is a high-level list of tasks to progress through each stage of th
 [Implementation2]: #todo
 [Ecma262PullRequest]: #todo
 <!--#endregion:links-->
+<br>

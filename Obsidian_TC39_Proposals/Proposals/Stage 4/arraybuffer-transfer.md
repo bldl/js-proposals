@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: ArrayBuffer transfer
-Authors: Shu-yu Guo, Jordan Harband, Yagiz Nizipli
-Champions: Shu-yu Guo, Jordan Harband, Yagiz Nizipli
-Last Presented: February 2024
-Stage Upgrades: 
-Stage 1: 2022-12-02  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: ArrayBuffer transfer<br>Authors: Shu-yu Guo, Jordan Harband, Yagiz Nizipli<br>Champions: Shu-yu Guo, Jordan Harband, Yagiz Nizipli<br>Last Presented: February 2024<br>Stage Upgrades:<br>Stage 1: 2022-12-02  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2023-02-01  
-Stage 4: 2024-07-12  
-Last Commit: 2024-07-12
-Keywords: #arraybuffer #transfer #detached #ownership #realloc #serialization #fixed_length #optimizations #memory_management #typedarray
-GitHub Link: https://github.com/tc39/proposal-arraybuffer-transfer
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#arraybuffer-transfer-for-stage-4
-
+Stage 4: 2024-07-12<br>Last Commit: 2024-07-12<br>Keywords: #arraybuffer #transfer #detached #ownership #reallocation #memory_management #serialization #performance #methodology #data_structure<br>GitHub Link: https://github.com/tc39/proposal-arraybuffer-transfer <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#arraybuffer-transfer-for-stage-4
 # Proposal Description:
 # `ArrayBuffer.prototype.transfer` and friends
 
@@ -198,3 +185,4 @@ Feels nice to round out the expressivity, but granted the use case here isn't as
 
 Thanks to:
   - @domenic for https://github.com/domenic/proposal-arraybuffer-transfer/tree/HEAD~1
+<br>

@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: String.prototype.matchAll
-Authors: Jordan Harband
-Champions: Jordan Harband
-Last Presented: March 2019
-Stage Upgrades: 
-Stage 1: 2015-07-28  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: String.prototype.matchAll<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: March 2019<br>Stage Upgrades:<br>Stage 1: 2015-07-28  
 Stage 2: 2017-09-28  
 Stage 2.7: NA  
 Stage 3: 2018-01-24  
-Stage 4: NA  
-Last Commit: 2018-12-11
-Keywords: #string #regex #global #iterable #capturing #groups #lastIndex #performance #polyfill #iterator
-GitHub Link: https://github.com/tc39/proposal-string-matchall
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-26.md#stringprototypematchall-for-stage-4
-
+Stage 4: NA<br>Last Commit: 2018-12-11<br>Keywords: #string #regex #matches #capturing #iterator #global #sticky #performance #mutate #groups<br>GitHub Link: https://github.com/tc39/proposal-string-matchall <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-26.md#stringprototypematchall-for-stage-4
 # Proposal Description:
 # String.prototype.matchAll
 Proposal and specs for String.prototype.matchAll.
@@ -84,3 +71,4 @@ The name `matchAll` was selected to correspond with `match`, and to connote that
 Update from committee feedback: ruby uses the word `scan` for this, but the committee is not comfortable introducing a new word to JavaScript. `matchEach` was suggested, but some were not comfortable with the naming similarity to `forEach` while the API was quite different. `matchAll` seems to be the name everyone is most comfortable with.
 
 In the September 2017 TC39 meeting, there was a question raised about whether "all" means "all overlapping matches" or "all non-overlapping matches" - where “overlapping” means “all matches starting from each character in the string”, and “non-overlapping” means “all matches starting from the beginning of the string”. We briefly considered either renaming the method, or adding a way to achieve both semantics, but the objection was withdrawn.
+<br>

@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Error stacks
-Authors: Jordan Harband, Mark Miller
-Champions: Jordan Harband, Mark Miller
-Last Presented: January 2017
-Stage Upgrades: 
-Stage 1: 2016-10-24  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Error stacks<br>Authors: Jordan Harband, Mark Miller<br>Champions: Jordan Harband, Mark Miller<br>Last Presented: January 2017<br>Stage Upgrades:<br>Stage 1: 2016-10-24  
 Stage 2: 2017-01-27  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-02-08
-Keywords: #error #stack #trace #standardization #property #security #browser #descriptor #getter #setter
-GitHub Link: https://github.com/tc39/proposal-error-stacks
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-01/jan-25.md#15iiia-error-stacks-seeking-stage-1
-
+Stage 4: NA<br>Last Commit: 2024-02-08<br>Keywords: #stack_trace #error_handling #standardization #security_guarantees #error_objects #property_descriptor #implementation_compatibility #getter_setter #v8_engine #javascript_errors<br>GitHub Link: https://github.com/tc39/proposal-error-stacks <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-01/jan-25.md#15iiia-error-stacks-seeking-stage-1
 # Proposal Description:
 # Error Stacks
 ECMAScript Proposal, specs, and reference implementation for `Error.prototype.stack`/`System.getStack`/`System.getStackString`
@@ -53,3 +40,4 @@ Firefox: `stack` is an own property on `Error.prototype`: `{ configurable: true,
 
 ## Spec
 You can view the spec rendered as [HTML](https://tc39.github.io/proposal-error-stacks/).
+<br>

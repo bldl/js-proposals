@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Deep Path Properties in Record Literals
-Authors: Rick Button
-Champions: Rick Button
-Last Presented: June 2020
-Stage Upgrades: 
-Stage 1: 2020-06-03  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Deep Path Properties in Record Literals<br>Authors: Rick Button<br>Champions: Rick Button<br>Last Presented: June 2020<br>Stage Upgrades:<br>Stage 1: 2020-06-03  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2020-06-03
-Keywords: #deep_path #record #tuple #nesting #syntax #immutable #spread #computed_keys #type_error #readability
-GitHub Link: https://github.com/tc39/proposal-deep-path-properties-for-record
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-3.md#deep-path-properties
-
+Stage 4: NA<br>Last Commit: 2020-06-03<br>Keywords: #deep_path #properties #record #literal #syntax #nested #structure #immutability #typeerror #spread<br>GitHub Link: https://github.com/tc39/proposal-deep-path-properties-for-record <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-3.md#deep-path-properties
 # Proposal Description:
 # Deep Path Properties in Record Literals
 
@@ -213,3 +200,4 @@ const one = #{ a: #[1,2,3] };
 `Tuples` cannot have non-number-like keys, as they are immutable ordered lists of values and do not have the concept of a "property" (just like a `number` doesn't have properties). If you attempt to create a `Record` literal with deep path property syntax that would create a `Tuple` with a non-number-like key, a `TypeError` is thrown.
 
 See [issue #4](https://github.com/rickbutton/proposal-record-deep-spread/issues/4) for more discussion.
+<br>

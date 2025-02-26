@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Cancellation API
-Authors: Ron Buckton
-Champions: Ron Buckton, Brian Terlson
-Last Presented: July 2018
-Stage Upgrades: 
-Stage 1: 2017-09-13  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Cancellation API<br>Authors: Ron Buckton<br>Champions: Ron Buckton, Brian Terlson<br>Last Presented: July 2018<br>Stage Upgrades:<br>Stage 1: 2017-09-13  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2017-11-15
-Keywords: #cancellation #asynchronous #operations #tokens #coordination #observation #fetching #background #resources #user_controlled
-GitHub Link: https://github.com/tc39/proposal-cancellation
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#cancellation-update
-
+Stage 4: NA<br>Last Commit: 2017-11-15<br>Keywords: #cancellation #asynchronous #operations #cancellation_token #coordinator #user_controlled #background_tasks #resource_management #architectural_observations #transient<br>GitHub Link: https://github.com/tc39/proposal-cancellation <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#cancellation-update
 # Proposal Description:
 # ECMAScript Cancellation
 
@@ -198,3 +185,4 @@ The following is a high-level list of tasks to progress through each stage of th
 [Implementation1]: #todo
 [Implementation2]: #todo
 [Ecma262PullRequest]: #todo
+<br>

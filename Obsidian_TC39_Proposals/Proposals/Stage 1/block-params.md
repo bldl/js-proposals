@@ -1,15 +1,2 @@
-[[Stage 1]]
-Classification:
-Human Validated: No
-Title: Block Params
-Authors: Sam Goto
-Champions: Sam Goto
-Last Presented: November 2017
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://github.com/samuelgoto/proposal-block-params
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-30.md#9iiia-block-params-to-stage-1
-
-# Proposal Description:
+[[Stage 1]]<br>Classification<br>Human Validated: No<br>Title: Block Params<br>Authors: Sam Goto<br>Champions: Sam Goto<br>Last Presented: November 2017<br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://github.com/samuelgoto/proposal-block-params <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-30.md#9iiia-block-params-to-stage-1
+# Proposal Description:<br>

@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Standardized Debug
-Authors: Gus Caplan
-Champions: Gus Caplan
-Last Presented: November 2020
-Stage Upgrades: 
-Stage 1: 2020-09-25  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Standardized Debug<br>Authors: Gus Caplan<br>Champions: Gus Caplan<br>Last Presented: November 2020<br>Stage Upgrades:<br>Stage 1: 2020-09-25  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA
-Last Commit: 2020-11-17
-Keywords: #debugging #meta_property #identity_function #standardization #debugger_log #debugger_break #api_exposure #call_expression #ecmascript_implementation #interoperability
-GitHub Link: https://github.com/tc39/proposal-standardized-debug
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#standardized-debug-for-stage-2
-
+Stage 4: NA<br>Last Commit: 2020-11-17<br>Keywords: #debugging #api #standardization #identity_function #meta_property #interoperability #execution #environment #development #breakpoint<br>GitHub Link: https://github.com/tc39/proposal-standardized-debug <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#standardized-debug-for-stage-2
 # Proposal Description:
 # Standardized Debug
 
@@ -38,3 +25,4 @@ Note that, like `import()`, they are only valid in call expression form. For
 example, `x().then(debugger.break)` would be invalid. You would have to do
 `x().then((v) => debugger.break(v))`. This limitation is in place to ensure
 these methods (particularly `break`) are only ever invoked from ECMAScript code.
+<br>

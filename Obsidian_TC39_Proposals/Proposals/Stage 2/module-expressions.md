@@ -1,21 +1,8 @@
-[[Stage 2]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Module Expressions
-Authors: Surma, Daniel Ehrenberg, Nicolò Ribaudo
-Champions: Surma, Nicolò Ribaudo
-Last Presented: November 2022
-Stage Upgrades: 
-Stage 1: 2020-08-13  
+[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Module Expressions<br>Authors: Surma, Daniel Ehrenberg, Nicolò Ribaudo<br>Champions: Surma, Nicolò Ribaudo<br>Last Presented: November 2022<br>Stage Upgrades:<br>Stage 1: 2020-08-13  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2021-10-25  
-Stage 4: NA  
-Last Commit: 2022-12-19
-Keywords: #module_expressions #module_objects #memory_sharing #web_workers #structured_clone #import_meta #dynamic_import #task_sharing #content_security_policy #syntactic_scope
-GitHub Link: https://github.com/tc39/proposal-module-expressions
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-expressions
-
+Stage 4: NA<br>Last Commit: 2022-12-19<br>Keywords: #module #worker #import #realm #closure #CORS #scheduling #parallelism #structured_clone #content_security_policy<br>GitHub Link: https://github.com/tc39/proposal-module-expressions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-expressions
 # Proposal Description:
 # Module Expressions
 
@@ -483,3 +470,4 @@ export default function greenlet(args, module) {
 [houdini bundler guidance]: https://houdini.how/usage
 [unpkg.com]: https://unpkg.com
 [paralleljs]: https://github.com/parallel-js/parallel.js
+<br>

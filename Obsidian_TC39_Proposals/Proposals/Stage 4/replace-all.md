@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: String.prototype.replaceAll
-Authors: Peter Marshall, Jakob Gruber, Mathias Bynens
-Champions: Mathias Bynens
-Last Presented: June 2020
-Stage Upgrades: 
-Stage 1: 2017-11-16  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: String.prototype.replaceAll<br>Authors: Peter Marshall, Jakob Gruber, Mathias Bynens<br>Champions: Mathias Bynens<br>Last Presented: June 2020<br>Stage Upgrades:<br>Stage 1: 2017-11-16  
 Stage 2: 2019-03-27  
 Stage 2.7: NA  
 Stage 3: 2019-10-03  
-Stage 4: 2020-06-27  
-Last Commit: 2021-02-19
-Keywords: #string #substring #regexp #global #api #optimization #escaping #simplification #replacement #performance
-GitHub Link: https://github.com/tc39/proposal-string-replaceall
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-2.md#stringprototypereplaceall-for-stage-4
-
+Stage 4: 2020-06-27<br>Last Commit: 2021-02-19<br>Keywords: #string #substring #global #regexp #method #api #replace #optimization #occurrences #split<br>GitHub Link: https://github.com/tc39/proposal-string-replaceall <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-2.md#stringprototypereplaceall-for-stage-4
 # Proposal Description:
 # `String.prototype.replaceAll` proposal
 
@@ -126,3 +113,4 @@ A: This is an awkward interface — because the default limit is 1, the user wou
 - Polyfills:
     - [core-js](https://github.com/zloirock/core-js#stringreplaceall)
     - [es-shims](https://github.com/es-shims/String.prototype.replaceAll)
+<br>

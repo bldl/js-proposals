@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: RegExp Modifiers
-Authors: Ron Buckton
-Champions: Ron Buckton
-Last Presented: October 2024
-Stage Upgrades: 
-Stage 1: 2021-10-15  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: RegExp Modifiers<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2021-10-15  
 Stage 2: 2021-12-16  
 Stage 2.7: NA  
-Stage 3: NA  
-Stage 4: 2024-10-08  
-Last Commit: 2024-10-08
-Keywords: #regular_expression #flags #subexpression #ignore_case #multiline #single_line #extended_mode #pattern_modification #parsers #syntax_highlighters
-GitHub Link: https://github.com/tc39/proposal-regexp-modifiers
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#regexp-modifiers-for-stage-4
-
+Stage 3: 2024-10-08  
+Stage 4: NA<br>Last Commit: 2024-10-08<br>Keywords: #modifiers #flags #subexpression #case_insensitivity #multiline #dot_all #configuration #syntax_highlighter #dynamic #text_processing<br>GitHub Link: https://github.com/tc39/proposal-regexp-modifiers <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#regexp-modifiers-for-stage-4
 # Proposal Description:
 <!--#region:intro-->
 # Regular Expression Pattern Modifiers for ECMAScript
@@ -207,3 +194,4 @@ The following is a high-level list of tasks to progress through each stage of th
 [Implementation1]: https://bugs.chromium.org/p/v8/issues/detail?id=12956
 [Implementation2]: https://bugzilla.mozilla.org/show_bug.cgi?id=1899813
 [Ecma262PullRequest]: https://github.com/tc39/ecma262/pull/3221
+<br>

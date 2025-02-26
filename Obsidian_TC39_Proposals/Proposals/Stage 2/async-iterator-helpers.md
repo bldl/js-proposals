@@ -1,21 +1,8 @@
-[[Stage 2]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Async Iterator helpers
-Authors: Gus Caplan
-Champions: Michael Ficarra, Jonathan Keslin, Kevin Gibbons
-Last Presented: June 2024
-Stage Upgrades: 
-Stage 1: 2023-02-04  
+[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Async Iterator helpers<br>Authors: Gus Caplan<br>Champions: Michael Ficarra, Jonathan Keslin, Kevin Gibbons<br>Last Presented: June 2024<br>Stage Upgrades:<br>Stage 1: 2023-02-04  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-06-11
-Keywords: #async_iterator #helpers #concurrency #prototype #map #filter #flatmap #reduce #toarray #fetch
-GitHub Link: https://github.com/tc39/proposal-async-iterator-helpers
-GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2023-01/jan-31.md#parallel-async-iterators-via-a-tweak-to-iterator-helpers
-
+Stage 4: NA<br>Last Commit: 2024-06-11<br>Keywords: #async #iterator #concurrency #prototype #helpers #map #filter #reduce #flatMap #promise<br>GitHub Link: https://github.com/tc39/proposal-async-iterator-helpers <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2023-01/jan-31.md#parallel-async-iterators-via-a-tweak-to-iterator-helpers
 # Proposal Description:
 # Async Iterator Helpers
 
@@ -79,3 +66,4 @@ This proposal introduces two new intrisic objects, in addition to the two added 
 const AsyncIteratorHelperPrototype = Object.getPrototypeOf(AsyncIterator.from([]).take(0));
 const WrapForValidAsyncIteratorPrototype = Object.getPrototypeOf(AsyncIterator.from({ async next(){} }));
 ```
+<br>

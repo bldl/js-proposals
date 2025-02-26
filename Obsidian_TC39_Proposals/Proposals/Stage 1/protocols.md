@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: First-class protocols
-Authors: Michael Ficarra
-Champions: Michael Ficarra
-Last Presented: July 2018
-Stage Upgrades: 
-Stage 1: 2017-09-27  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: First-class protocols<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: July 2018<br>Stage Upgrades:<br>Stage 1: 2017-09-27  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-11-28
-Keywords: #protocol #symbols #identity #iteration #functor #compare #overlapping #namespace #implementation #extension
-GitHub Link: https://github.com/tc39/proposal-first-class-protocols
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#updates-on-first-class-protocols
-
+Stage 4: NA<br>Last Commit: 2022-11-28<br>Keywords: #protocol #symbols #type_classes #traits #mixin #property #composition #namespace #methods #implementation<br>GitHub Link: https://github.com/tc39/proposal-first-class-protocols <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#updates-on-first-class-protocols
 # Proposal Description:
 ECMAScript First-Class Protocols Proposal
 =========================================
@@ -202,3 +189,4 @@ in doing it properly, see the output of the sweet.js implementation.
 * [[ES Wiki] strawman:syntax_for_efficient_traits](https://web.archive.org/web/20160616221253/http://wiki.ecmascript.org/doku.php?id=strawman:syntax_for_efficient_traits)
 * [[ES Wiki] strawman:classes_with_trait_composition](https://web.archive.org/web/20160318073016/http://wiki.ecmascript.org/doku.php?id=strawman:classes_with_trait_composition)
 * [[es-discuss] Traits - current state of discussion](https://esdiscuss.org/topic/traits-current-state-of-discussion)
+<br>

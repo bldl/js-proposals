@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: RegExp named capture groups
-Authors: Gorkem Yakin, Daniel Ehrenberg
-Champions: Daniel Ehrenberg, Brian Terlson, Mathias Bynens
-Last Presented: November 2017
-Stage Upgrades: 
-Stage 1: 2015-11-16  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: RegExp named capture groups<br>Authors: Gorkem Yakin, Daniel Ehrenberg<br>Champions: Daniel Ehrenberg, Brian Terlson, Mathias Bynens<br>Last Presented: November 2017<br>Stage Upgrades:<br>Stage 1: 2015-11-16  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2017-03-22  
-Stage 4: NA  
-Last Commit: 2018-01-24
-Keywords: #capture_groups #named_groups #backreferences #regular_expressions #string_manipulation #destructuring #replacement #unicode #syntax_error #grammar
-GitHub Link: https://github.com/tc39/proposal-regexp-named-groups
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-28.md#9if-regexp-named-captures-status-update
-
+Stage 4: NA<br>Last Commit: 2018-01-24<br>Keywords: #named_capture #backreference #regex #destructuring #replacement #groups #identifier #syntax #overlapping #refactoring<br>GitHub Link: https://github.com/tc39/proposal-regexp-named-groups <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-28.md#9if-regexp-named-captures-status-update
 # Proposal Description:
 # RegExp Named Capture Groups
 
@@ -150,3 +137,4 @@ Ruby's syntax is identical to .NET, with named capture groups with the syntax `"
 * [XS](https://github.com/Moddable-OpenSource/moddable/blob/public/xs/sources/xsre.c), in [January 17, 2018 update](http://blog.moddable.tech/blog/january-17-2017-big-update-to-moddable-sdk/)
 * [Transpiler (Babel plugin)](https://github.com/DmitrySoshnikov/babel-plugin-transform-modern-regexp#named-capturing-groups)
 * [Safari](https://developer.apple.com/safari/technology-preview/release-notes/) beginning in Safari Technology Preview 40
+<br>

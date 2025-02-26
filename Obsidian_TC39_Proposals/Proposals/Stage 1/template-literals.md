@@ -1,15 +1,2 @@
-[[Stage 1]]
-Classification:
-Human Validated: No
-Title: Improved Escapes for Template Literals
-Authors: HE Shi-Jun
-Champions: HE Shi-Jun
-Last Presented: February 2024
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://github.com/hax/proposal-raw-string-literals
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#raw-string-literals-for-stage-1
-
-# Proposal Description:
+[[Stage 1]]<br>Classification<br>Human Validated: No<br>Title: Improved Escapes for Template Literals<br>Authors: HE Shi-Jun<br>Champions: HE Shi-Jun<br>Last Presented: February 2024<br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://github.com/hax/proposal-raw-string-literals <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#raw-string-literals-for-stage-1
+# Proposal Description:<br>

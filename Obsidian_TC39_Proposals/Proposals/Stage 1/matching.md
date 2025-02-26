@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Pattern Matching
-Authors: Jordan Harband, Mark Cohen, Tab Atkins, Daniel Rosenwasser, Jack Works, Ross Kirsling
-Champions: Jordan Harband, Mark Cohen, Tab Atkins, Daniel Rosenwasser, Jack Works, Ross Kirsling
-Last Presented: March 2022
-Stage Upgrades: 
-Stage 1: 2018-05-25  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Pattern Matching<br>Authors: Jordan Harband, Mark Cohen, Tab Atkins, Daniel Rosenwasser, Jack Works, Ross Kirsling<br>Champions: Jordan Harband, Mark Cohen, Tab Atkins, Daniel Rosenwasser, Jack Works, Ross Kirsling<br>Last Presented: March 2022<br>Stage Upgrades:<br>Stage 1: 2018-05-25  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-09-27
-Keywords: #pattern_matching #matcher #destructuring #combinator #exhaustiveness #extensibility #value_patterns #structure_patterns #custom_matcher #expression_sematics
-GitHub Link: https://github.com/tc39/proposal-pattern-matching
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#pattern-matching-for-stage-2
-
+Stage 4: NA<br>Last Commit: 2024-09-27<br>Keywords: #pattern_matching #matcher_patterns #value_patterns #structure_patterns #combinator_patterns #object_patterns #array_patterns #exhaustiveness #ergonomics #expressivity<br>GitHub Link: https://github.com/tc39/proposal-pattern-matching <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#pattern-matching-for-stage-2
 # Proposal Description:
 # ECMAScript Pattern Matching
 
@@ -1447,3 +1434,4 @@ of course.
 * [Babel Plugin](https://github.com/babel/babel/pull/9318)
 * [Sweet.js macro](https://github.com/natefaubion/sparkler) (NOTE: this isn’t based on the proposal, this proposal is partially based on it!)
 -->
+<br>

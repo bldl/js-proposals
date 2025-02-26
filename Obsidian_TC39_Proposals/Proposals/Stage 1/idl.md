@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: IDL for ECMAScript
-Authors: Daniel Ehrenberg
-Champions: Daniel Ehrenberg
-Last Presented: September 2018
-Stage Upgrades: 
-Stage 1: 2018-10-12  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: IDL for ECMAScript<br>Authors: Daniel Ehrenberg<br>Champions: Daniel Ehrenberg<br>Last Presented: September 2018<br>Stage Upgrades:<br>Stage 1: 2018-10-12  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2018-10-12
-Keywords: #interface #description #coercion #overloading #type #syntax #specification #argument_handling #maintenance #documentation
-GitHub Link: https://github.com/tc39/proposal-idl
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-09/sept-27.md#idl-for-javascript
-
+Stage 4: NA<br>Last Commit: 2018-10-12<br>Keywords: #interface #description #type #coercion #constructor #enumerable #overloading #syntax #bindings #automated<br>GitHub Link: https://github.com/tc39/proposal-idl <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-09/sept-27.md#idl-for-javascript
 # Proposal Description:
 # IDL for ECMAScript
 
@@ -114,3 +101,4 @@ In terms of the TC39 Stage Process, the following milestones are planned with re
 3. Entering Stage 3: Entire specification is converted to IDL, and IDL definition is fully rigorous; at least one tool is making some use of the IDL
     * During Stage 3: Make further use of IDL in tools, tests and native implementations
 4. Entering Stage 4: At least one native implementation uses code generated from the IDL; at least two native implementations implemented any/all normative changes; test262 uses IDL to exhaustively test coercions; PR against the entire specification is prepared
+<br>

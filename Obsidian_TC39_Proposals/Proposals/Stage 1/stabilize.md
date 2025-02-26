@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Stabilize
-Authors: Mark Miller, Chip Morningstar, Richard Gibson, Mathieu Hofman
-Champions: Mark Miller, Chip Morningstar, Richard Gibson, Mathieu Hofman
-Last Presented: December 2024
-Stage Upgrades: 
-Stage 1: 2024-12-05  
+[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: Stabilize<br>Authors: Mark Miller, Chip Morningstar, Richard Gibson, Mathieu Hofman<br>Champions: Mark Miller, Chip Morningstar, Richard Gibson, Mathieu Hofman<br>Last Presented: December 2024<br>Stage Upgrades:<br>Stage 1: 2024-12-05  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2025-02-20
-Keywords: #integrity #traits #frozen #non-extensible #proxy #reentrancy #override #assignment #programming #security
-GitHub Link: https://github.com/Agoric/proposal-stabilize
-GitHub Note Link: None
-
+Stage 4: NA<br>Last Commit: 2025-02-20<br>Keywords: #integrity #traits #frozen #sealed #non-extensible #overridable #non-trapping #proxy #programming #supply-chain<br>GitHub Link: https://github.com/Agoric/proposal-stabilize <br>GitHub Note Link: None
 # Proposal Description:
 # proposal: Stabilize, and other integrity traits
 
@@ -263,3 +250,4 @@ The most plausible re-unbundling from here would be to again break out overridab
 [harden as a new integrity level #1912](https://github.com/endojs/endo/issues/1912)
 
 [Normative: Make non-writable prototype properties not prevent assigning to instance #1320](https://github.com/tc39/ecma262/pull/1320)
+<br>

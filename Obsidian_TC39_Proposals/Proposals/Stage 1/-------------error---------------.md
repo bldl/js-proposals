@@ -1,21 +1,4 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: -------------error---------------
-Authors: 
-Champions: Brendan Eich
-Last Presented: July 2017
-Stage Upgrades: 
-Stage 1: 2017-09-13  
-Stage 2: NA  
-Stage 2.7: NA  
-Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2021-03-03
-Keywords: #expression_oriented #local_scope #conditional_statements #templating #expressions #limitations #edge_cases #break_continue #function_hoisting #completion_value
-GitHub Link: None
-GitHub Note Link: None
-
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: -------------error---------------<br>Authors: <br>Champions: Brendan Eich<br>Last Presented: July 2017<br>Stage Upgrades:<br>None<br>Last Commit: 2021-03-03<br>Keywords: #expression #programming #scope #declaration #conditional #templating #completion_value #expressions #early_errors #edge_cases<br>GitHub Link: None <br>GitHub Note Link: None
 # Proposal Description:
 # ECMAScript proposal: `do` expressions
 
@@ -176,3 +159,4 @@ Because of the potential for confusion, unlabeled `break` and `continue` are not
 ### B.3.3 function hoisting
 
 Sloppy-mode function hoisting is not allowed to pass through a do-expression.
+<br>

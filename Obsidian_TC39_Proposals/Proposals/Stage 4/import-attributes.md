@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Import Attributes
-Authors: Myles Borins, Sven Sauleau, Dan Clark, Daniel Ehrenberg
-Champions: Sven Sauleau, Dan Clark, Daniel Ehrenberg, Nicolò Ribaudo
-Last Presented: October 2024
-Stage Upgrades: 
-Stage 1: 2019-12-06  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Import Attributes<br>Authors: Myles Borins, Sven Sauleau, Dan Clark, Daniel Ehrenberg<br>Champions: Sven Sauleau, Dan Clark, Daniel Ehrenberg, Nicolò Ribaudo<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2019-12-06  
 Stage 2: 2020-06-04  
 Stage 2.7: NA  
 Stage 3: 2020-09-18  
-Stage 4: NA  
-Last Commit: 2024-12-12
-Keywords: #import #attributes #module #json #syntax #environment #metadata #security #importation #caching
-GitHub Link: https://github.com/tc39/proposal-import-attributes
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#import-attributes-and-json-modules-for-stage-4
-
+Stage 4: NA<br>Last Commit: 2024-12-12<br>Keywords: #import_attributes #module_imports #json_modules #key_value #type_attribute #data_security #module_specifier #interoperability #semantic_integration #developer_experience<br>GitHub Link: https://github.com/tc39/proposal-import-attributes <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#import-attributes-and-json-modules-for-stage-4
 # Proposal Description:
 # Import Attributes
 
@@ -257,3 +244,4 @@ Standardization here would consist of building consensus not just in TC39 but al
 
 * [Specification Outline](https://tc39.es/proposal-import-attributes/)
 * [Pull Request for HTML spec integration](https://github.com/whatwg/html/pull/5658)
+<br>

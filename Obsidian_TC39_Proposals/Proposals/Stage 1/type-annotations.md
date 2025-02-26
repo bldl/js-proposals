@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Type Annotations
-Authors: Gil Tayar, Daniel Rosenwasser, Romulo Cintra, Rob Palmer
-Champions: Daniel Rosenwasser, Romulo Cintra, Rob Palmer
-Last Presented: March 2022
-Stage Upgrades: 
-Stage 1: 2022-03-31  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Type Annotations<br>Authors: Gil Tayar, Daniel Rosenwasser, Romulo Cintra, Rob Palmer<br>Champions: Daniel Rosenwasser, Romulo Cintra, Rob Palmer<br>Last Presented: March 2022<br>Stage Upgrades:<br>Stage 1: 2022-03-31  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2025-02-15
-Keywords: #type_annotations #type_checking #type_syntax #type_systems #type_declarations #generics #type_assertions #type_erasure #optional_parameters #runtime_compatibility
-GitHub Link: https://github.com/tc39/proposal-type-annotations
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#types-as-comments-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2025-02-15<br>Keywords: #type_annotations #static_typing #type_checking #type_syntax #type_erasure #function_declaration #interface #generics #type_alias #parameter_optional<br>GitHub Link: https://github.com/tc39/proposal-type-annotations <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#types-as-comments-for-stage-1
 # Proposal Description:
 > ⚠️ *This document has not been updated regularly. See TC39 meeting notes from 2022 ([March 29](https://github.com/tc39/notes/blob/main/meetings/2022-03/mar-29.md#types-as-comments-for-stage-1), [March 31](https://github.com/tc39/notes/blob/main/meetings/2022-03/mar-31.md#types-as-comments-continuation)) and 2023 ([March 22](https://github.com/tc39/notes/blob/main/meetings/2023-03/mar-22.md#type-annotations-proposal-update), [September 27](https://github.com/tc39/notes/blob/main/meetings/2023-09/september-27.md#type-annotations-stage-1-update-and-discussion)) for the most up-to-date information.*
 
@@ -813,3 +800,4 @@ The [optional types proposal repository contains links to other prior discussion
 ### Relevant discussions elsewhere
 
 [Gilad Bracha](https://en.wikipedia.org/wiki/Gilad_Bracha) has [advocated for pluggable type systems](https://bracha.org/pluggableTypesPosition.pdf).
+<br>

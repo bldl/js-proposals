@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Signals
-Authors: Rob Eisenberg, Daniel Ehrenberg
-Champions: Daniel Ehrenberg, Yehuda Katz, Jatin Ramanathan, Shay Lewis, Kristen Hewell Garrett, Dominic Gannaway, Preston Sego, Milo M, Rob Eisenberg
-Last Presented: April 2024
-Stage Upgrades: 
-Stage 1: 2023-08-14  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Signals<br>Authors: Rob Eisenberg, Daniel Ehrenberg<br>Champions: Daniel Ehrenberg, Yehuda Katz, Jatin Ramanathan, Shay Lewis, Kristen Hewell Garrett, Dominic Gannaway, Preston Sego, Milo M, Rob Eisenberg<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2023-08-14  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2025-01-01
-Keywords: #signal #reactivity #computed #memoization #state #auto_tracking #dependency_graph #declarative #scheduling #interoperability
-GitHub Link: https://github.com/tc39/proposal-signals
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#signals-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2025-01-01<br>Keywords: #signal #reactivity #dependency_tracking #memoization #automatic_updates #computed_signals #state_management #efficiency #interoperability #frameworks<br>GitHub Link: https://github.com/tc39/proposal-signals <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#signals-for-stage-1
 # Proposal Description:
 # 🚦 JavaScript Signals standard proposal🚦
 <img align=right src="Signals.svg" alt="Signals logo" width=100>
@@ -828,3 +815,4 @@ See:
 **Q**: How will we prevent standardizing the wrong kind of Signals too soon, just like {{JS/web feature that you don't like}}?
 
 **A**: The authors of this proposal plan to go the extra mile with prototyping and proving things out prior to requesting stage advancement at TC39. See "Status and development plan" above. If you see gaps in this plan or opportunities for improvement, please file an issue explaining.
+<br>

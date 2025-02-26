@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Array find from last
-Authors: Wenlu Wang
-Champions: Wenlu Wang, Daniel Rosenwasser
-Last Presented: June 2022
-Stage Upgrades: 
-Stage 1: 2020-11-09  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Array find from last<br>Authors: Wenlu Wang<br>Champions: Wenlu Wang, Daniel Rosenwasser<br>Last Presented: June 2022<br>Stage Upgrades:<br>Stage 1: 2020-11-09  
 Stage 2: 2021-03-11  
 Stage 2.7: NA  
 Stage 3: 2021-07-14  
-Stage 4: 2022-06-06  
-Last Commit: 2022-06-06
-Keywords: #find_last #find_index #time_complexity #array_methods #duplicate_elements #performance_sensitive #element_search #iterative_processing #functional_programming #typed_array
-GitHub Link: https://github.com/tc39/proposal-array-find-from-last
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#findlastfindlastindex-for-stage-4
-
+Stage 4: 2022-06-06<br>Last Commit: 2022-06-06<br>Keywords: #find_last #find_last_index #performance #time_complexity #array #typed_array #element #index #mutation #iteration<br>GitHub Link: https://github.com/tc39/proposal-array-find-from-last <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#findlastfindlastindex-for-stage-4
 # Proposal Description:
 # [proposal-array-find-from-last](https://tc39.es/proposal-array-find-from-last/index.html)
 
@@ -119,3 +106,4 @@ array.findLastIndex(n => n.value === 42); // -1
 Champions:
  - @Kingwl (Wenlu Wang, KWL)
  - @DanielRosenwasser (Daniel Rosenwasser, DRR)
+<br>

@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Nullish coalescing Operator
-Authors: Gabriel Isenberg
-Champions: Gabriel Isenberg, Justin Ridgewell, Daniel Rosenwasser
-Last Presented: December 2019
-Stage Upgrades: 
-Stage 1: 2017-09-28  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Nullish coalescing Operator<br>Authors: Gabriel Isenberg<br>Champions: Gabriel Isenberg, Justin Ridgewell, Daniel Rosenwasser<br>Last Presented: December 2019<br>Stage Upgrades:<br>Stage 1: 2017-09-28  
 Stage 2: 2019-06-05  
 Stage 2.7: NA  
 Stage 3: 2019-07-23  
-Stage 4: 2020-01-21  
-Last Commit: 2022-11-24
-Keywords: #nullary #coalescing #operator #null #undefined #property_access #default_value #falsy #optional_chaining #equality_check
-GitHub Link: https://github.com/tc39/proposal-nullish-coalescing
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#nullish-coalescing-for-stage-4
-
+Stage 4: 2020-01-21<br>Last Commit: 2022-11-24<br>Keywords: #null #undefined #property_access #default_value #falsy_value #equality_check #optional_chaining #complementary_operator #nullary_coalescing #operator<br>GitHub Link: https://github.com/tc39/proposal-nullish-coalescing <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#nullish-coalescing-for-stage-4
 # Proposal Description:
 # Nullish Coalescing for JavaScript
 
@@ -93,3 +80,4 @@ While this proposal specifically calls out `null` and `undefined` values, the in
 ## Prior discussion
 * https://stackoverflow.com/questions/476436/is-there-a-null-coalescing-operator-in-javascript
 * https://esdiscuss.org/topic/proposal-for-a-null-coalescing-operator
+<br>

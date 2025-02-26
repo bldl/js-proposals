@@ -1,20 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: RegExp Lookbehind Assertions
-Authors: Gorkem Yakin, Nozomu Katō, Daniel Ehrenberg
-Champions: Daniel Ehrenberg, Mathias Bynens
-Last Presented: January 2018
-Stage Upgrades: 
-Stage 1: 2015-11-16  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: RegExp Lookbehind Assertions<br>Authors: Gorkem Yakin, Nozomu Katō, Daniel Ehrenberg<br>Champions: Daniel Ehrenberg, Mathias Bynens<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2015-11-16  
 Stage 2: 2016-12-06  
+Stage 2.7: NA  
 Stage 3: 2017-03-22  
-Stage 4: 2018-01-24  
-Last Commit: 2017-11-12
-Keywords: #lookbehind #lookahead #regular_expression #zero_width #pattern_matching #negative_assertion #positive_assertion #backreference #greediness #capture_group
-GitHub Link: https://github.com/tc39/proposal-regexp-lookbehind
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#conclusionresolution-16
-
+Stage 4: 2018-01-24<br>Last Commit: 2017-11-12<br>Keywords: #lookbehind #zero_width #assertions #capture_groups #negative_assertion #greedy_quantifiers #backtracking #pattern_matching #dollar_amount #regular_expression<br>GitHub Link: https://github.com/tc39/proposal-regexp-lookbehind <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#conclusionresolution-16
 # Proposal Description:
 # RegExp Lookbehind Assertions
 
@@ -68,3 +56,4 @@ Analogous to the negative lookahead assertion `/(?!.)/` long present in ECMAScri
 
 * [V8](https://bugs.chromium.org/p/v8/issues/detail?id=4545), shipping in Chrome 62
 * [XS](https://github.com/Moddable-OpenSource/moddable/blob/public/xs/sources/xsre.c), in [January 17, 2018 update](http://blog.moddable.tech/blog/january-17-2017-big-update-to-moddable-sdk/)
+<br>

@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Promise.try
-Authors: Jordan Harband
-Champions: Jordan Harband
-Last Presented: October 2024
-Stage Upgrades: 
-Stage 1: 2016-11-29  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Promise.try<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2016-11-29  
 Stage 2: 2024-03-26  
 Stage 2.7: 2024-04-08  
 Stage 3: 2024-07-03  
-Stage 4: 2024-10-09  
-Last Commit: 2024-10-09
-Keywords: #promise #synchronous #execution #error_handling #promise_semantics #async_function #userland #ergonomics #function_wrapping #parallel_execution
-GitHub Link: https://github.com/tc39/proposal-promise-try
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#promisetry-for-stage-4
-
+Stage 4: 2024-10-09<br>Last Commit: 2024-10-09<br>Keywords: #promise #synchronous #execution #function #exception #semantics #ergonomic #wrap #parallel #behavior<br>GitHub Link: https://github.com/tc39/proposal-promise-try <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#promisetry-for-stage-4
 # Proposal Description:
 # Promise.try
 ECMAScript Proposal, specs, and reference implementation for `Promise.try`
@@ -56,3 +43,4 @@ You can view the spec rendered as [HTML](https://tc39.github.io/proposal-promise
 ## Polyfills
  - [core-js](https://www.npmjs.com/package/core-js) v3.37+ ([docs](https://github.com/zloirock/core-js#promisetry))
  - es-shims: [promise.try](https://www.npmjs.com/package/promise.try)
+<br>

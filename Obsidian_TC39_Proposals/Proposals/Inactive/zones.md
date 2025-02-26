@@ -1,15 +1,2 @@
-[[Inactive]]
-Classification:
-Human Validated: No
-Title: Zones
-Authors: Domenic Denicola, Miško Hevery
-Champions: Withdrawn; champion is no longer participating in TC39
-Last Presented: None
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://github.com/domenic/zones
-GitHub Note Link: None
-
-# Proposal Description:
+[[Inactive]]<br>Classification<br>Human Validated: No<br>Title: Zones<br>Authors: Domenic Denicola, Miško Hevery<br>Champions: Withdrawn; champion is no longer participating in TC39<br>Last Presented: None<br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://github.com/domenic/zones <br>GitHub Note Link: None
+# Proposal Description:<br>

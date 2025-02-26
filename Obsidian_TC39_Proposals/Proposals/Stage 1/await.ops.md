@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]] [[API Change]]
-Human Validated: No
-Title: await operations
-Authors: Jack Works
-Champions: Jack Works, Jordan Harband
-Last Presented: July 2020
-Stage Upgrades: 
-Stage 1: 2020-06-04  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: await operations<br>Authors: Jack Works<br>Champions: Jack Works, Jordan Harband<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2020-06-04  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-11-20
-Keywords: #await_all #await_race #await_allSettled #await_any #concurrent #promise_utilities #abstraction #async_functions #syntax_sugar #operation
-GitHub Link: https://github.com/tc39/proposal-await.ops
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#await-operations-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2022-11-20<br>Keywords: #await_all #await_race #await_allSettled #await_any #concurrency #promise_utilities #asynchronous #simplification #abstraction_leak #syntax<br>GitHub Link: https://github.com/tc39/proposal-await.ops <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#await-operations-for-stage-1
 # Proposal Description:
 # await operations proposal
 
@@ -58,3 +45,4 @@ await.allSettled expr
 await.any expr
 // eq: await Promise.any(expr)
 ```
+<br>

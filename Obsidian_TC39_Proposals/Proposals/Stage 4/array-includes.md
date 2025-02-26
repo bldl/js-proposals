@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Array.prototype.includes
-Authors: Domenic Denicola
-Champions: Domenic Denicola, Rick Waldron
-Last Presented: November 2015
-Stage Upgrades: 
-Stage 1: 2014-07-23  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Array.prototype.includes<br>Authors: Domenic Denicola<br>Champions: Domenic Denicola, Rick Waldron<br>Last Presented: November 2015<br>Stage Upgrades:<br>Stage 1: 2014-07-23  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: 2015-11-17  
-Last Commit: 2015-11-17
-Keywords: #array #includes #pattern #comparison #NaN #consistency #parameter #algorithm #values #typed_array
-GitHub Link: https://github.com/tc39/proposal-Array.prototype.includes
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2015-11/nov-17.md#arrayprototypeincludes
-
+Stage 4: 2015-11-17<br>Last Commit: 2015-11-17<br>Keywords: #includes #method #array #semantics #equality #comparison #element #includes #from_index #typed_arrays<br>GitHub Link: https://github.com/tc39/proposal-Array.prototype.includes <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2015-11/nov-17.md#arrayprototypeincludes
 # Proposal Description:
 # `Array.prototype.includes` Proposal
 
@@ -115,3 +102,4 @@ assert([1, 2, +0].includes(-0) === true);
 assert(["a", "b", "c"].includes("a") === true);
 assert(["a", "b", "c"].includes("a", 1) === false);
 ```
+<br>

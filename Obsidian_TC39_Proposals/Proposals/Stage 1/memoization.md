@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]] [[Syntactic Change]]
-Human Validated: No
-Title: Function Memoization
-Authors: J.S. Choi
-Champions: J.S. Choi, Hemanth HM
-Last Presented: July 2022
-Stage Upgrades: 
-Stage 1: 2022-07-22  
+[[Stage 1]]<br>Classification: [[API Change]] [[Syntactic Change]]<br>Human Validated: No<br>Title: Function Memoization<br>Authors: J.S. Choi<br>Champions: J.S. Choi, Hemanth HM<br>Last Presented: July 2022<br>Stage Upgrades:<br>Stage 1: 2022-07-22  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-07-22
-Keywords: #memoization #caching #function_calls #tuples #cache #LRUMap #function_decorator #singleton #optimization #recursive
-GitHub Link: https://github.com/tc39/proposal-function-memo
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#function-memoization-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2022-07-22<br>Keywords: #memoization #caching #function_decorator #result_caches #tuples #composite_keys #memory_usage #recursive_functions #cache_management #prototype_method<br>GitHub Link: https://github.com/tc39/proposal-function-memo <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#function-memoization-for-stage-1
 # Proposal Description:
 # Function.prototype.memo for JavaScript
 ECMAScript Stage-1 Proposal.
@@ -209,3 +196,4 @@ How should function calls be considered “equivalent”? How are values compare
 [Issue 3]: https://github.com/js-choi/proposal-function-memo/issues/3
 [Issue 4]: https://github.com/js-choi/proposal-function-memo/issues/4
 [Issue 5]: https://github.com/js-choi/proposal-function-memo/issues/5
+<br>

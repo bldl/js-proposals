@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: JSON superset
-Authors: Richard Gibson
-Champions: Mark Miller, Mathias Bynens
-Last Presented: May 2018
-Stage Upgrades: 
-Stage 1: 2017-09-27  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: JSON superset<br>Authors: Richard Gibson<br>Champions: Mark Miller, Mathias Bynens<br>Last Presented: May 2018<br>Stage Upgrades:<br>Stage 1: 2017-07-25  
 Stage 2: 2017-11-29  
 Stage 2.7: NA  
 Stage 3: 2018-01-25  
-Stage 4: 2018-05-22  
-Last Commit: 2019-02-13
-Keywords: #json #syntax #string #separator #parser #complexity #specification #compatibility #template_literal #cognitive_burden
-GitHub Link: https://github.com/tc39/proposal-json-superset
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-22.md#conclusionresolution-8
-
+Stage 4: 2018-05-22<br>Last Commit: 2019-02-13<br>Keywords: #json #syntax #characters #serialization #complexity #conformance #parsing #validity #unicode #line_terminators<br>GitHub Link: https://github.com/tc39/proposal-json-superset <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-22.md#conclusionresolution-8
 # Proposal Description:
 # Subsume JSON (a.k.a. JSON ⊂ ECMAScript)
 
@@ -85,3 +72,4 @@ Test262 tests are here: <https://github.com/tc39/test262/pull/1544>
 
 ## Specification
 The specification is available in [ecmarkup](spec.emu) or [rendered HTML](https://tc39.github.io/proposal-json-superset/).
+<br>

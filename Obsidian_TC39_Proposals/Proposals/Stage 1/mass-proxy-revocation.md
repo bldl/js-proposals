@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Mass Proxy Revocation
-Authors: Alex Vincent
-Champions: Mark S. Miller, Jack Works
-Last Presented: November 2022
-Stage Upgrades: 
-Stage 1: 2022-12-01  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Mass Proxy Revocation<br>Authors: Alex Vincent<br>Champions: Mark S. Miller, Jack Works<br>Last Presented: November 2022<br>Stage Upgrades:<br>Stage 1: 2022-12-01  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-12-01
-Keywords: #proxy #revocation #membrane #garbage_collection #signal #object_graph #performance #memory_management #binding #realm
-GitHub Link: https://github.com/tc39/proposal-mass-proxy-revocation
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#mass-proxy-revocation-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2022-12-01<br>Keywords: #revocation #membranes #proxies #realm #garbage_collection #signal #memory_optimization #binding #object_graph #weakmap<br>GitHub Link: https://github.com/tc39/proposal-mass-proxy-revocation <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#mass-proxy-revocation-for-stage-1
 # Proposal Description:
 # Mass Proxy Revocation
 
@@ -188,3 +175,4 @@ In particular, the `Proxy.createSignal()` and `Proxy.finalizeSignal(signal)` met
 #### Observing revocation
 
 This proposal is tailored towards allowing creation of revocable groupings of Proxies.  A general signaling mechanism has been the subject of debate at TC39 and we believe this proposal serves its own purpose without an observation mechanism. There is no clear reason why signaling could not be added to the proposed APIs here as a follow on. Adding signaling has a variety of concerns such as re-entrancy and compatibility with other host environment features.
+<br>

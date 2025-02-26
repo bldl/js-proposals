@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Semantic Change]]
-Human Validated: No
-Title: for-in mechanics
-Authors: Kevin Gibbons
-Champions: Kevin Gibbons
-Last Presented: December 2019
-Stage Upgrades: 
-Stage 1: 2018-09-12  
+[[Stage 4]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: for-in mechanics<br>Authors: Kevin Gibbons<br>Champions: Kevin Gibbons<br>Last Presented: December 2019<br>Stage Upgrades:<br>Stage 1: 2018-09-12  
 Stage 2: 2019-08-22  
 Stage 2.7: NA  
 Stage 3: 2019-11-08  
-Stage 4: NA  
-Last Commit: 2020-02-10
-Keywords: #for_in #enumeration #prototype #interop #enumerable #properties #object #order #keys #values
-GitHub Link: https://github.com/tc39/proposal-for-in-order
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#for-in-order-for-stage-4
-
+Stage 4: NA<br>Last Commit: 2020-02-10<br>Keywords: #for-in #enumeration #interop #properties #enumerable #inheritance #object #prototype #applied #ordering<br>GitHub Link: https://github.com/tc39/proposal-for-in-order <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#for-in-order-for-stage-4
 # Proposal Description:
 **This proposal has been accepted and [merged into the main specification](https://github.com/tc39/ecma262/pull/1791). This repository exists only for historical interest.**
 
@@ -86,3 +73,4 @@ The following APIs invoke the `[[OwnPropertyKeys]]` internal method directly, wh
 ## Spec text
 
 See [candidate spec text](http://tc39.es/proposal-for-in-order/). This does not yet capture the "no non-enumerable property shadows an enumerable one" constraint above, because I am having trouble figuring out how to say that.
+<br>

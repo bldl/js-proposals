@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Array Equality
-Authors: Hemanth HM, Jordan Harband
-Champions: Hemanth HM, Jordan Harband
-Last Presented: June 2020
-Stage Upgrades: 
-Stage 1: 2020-06-04  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Array Equality<br>Authors: Hemanth HM, Jordan Harband<br>Champions: Hemanth HM, Jordan Harband<br>Last Presented: June 2020<br>Stage Upgrades:<br>Stage 1: 2020-06-04  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2020-06-17
-Keywords: #array #equality #method #comparison #deep #nested #validation #prototype #assert #schema
-GitHub Link: https://github.com/tc39/proposal-array-equality
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-4.md#generic-comparison
-
+Stage 4: NA<br>Last Commit: 2020-06-17<br>Keywords: #array #equality #comparison #deep #nested #method #prototype #functional #validation #type<br>GitHub Link: https://github.com/tc39/proposal-array-equality <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-4.md#generic-comparison
 # Proposal Description:
 # proposal-array-equality
 > Determining whether two arrays are equal.
@@ -105,3 +92,4 @@ __Python:__ `[1,[2,3]] == [1,[2,3]]`
 __Java:__ `java.util.Arrays.equal`
 
 __C#:__ `Enumerable.Except` or `SequenceEqual`
+<br>

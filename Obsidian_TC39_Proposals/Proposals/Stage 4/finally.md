@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Promise.prototype.finally
-Authors: Jordan Harband
-Champions: Jordan Harband
-Last Presented: January 2018
-Stage Upgrades: 
-Stage 1: 2016-05-17  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Promise.prototype.finally<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2016-05-17  
 Stage 2: 2016-07-29  
 Stage 2.7: NA  
 Stage 3: 2017-07-25  
-Stage 4: 2018-01-24  
-Last Commit: 2018-01-28
-Keywords: #promise #callback #cleanup #rejection #fulfillment #loading #promise_library #error_handling #synchronous #javascript
-GitHub Link: https://github.com/tc39/proposal-promise-finally
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-24.md#conclusionresolution-2
-
+Stage 4: 2018-01-24<br>Last Commit: 2018-01-28<br>Keywords: #promise #callback #cleanup #settled #rejected #fulfilled #loading #promise_library #polyfill #function<br>GitHub Link: https://github.com/tc39/proposal-promise-finally <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-24.md#conclusionresolution-2
 # Proposal Description:
 # [Promise.prototype.finally](https://www.npmjs.com/package/promise.prototype.finally)
 ECMAScript Proposal, specs, and reference implementation for `Promise.prototype.finally`
@@ -51,3 +38,4 @@ I’d briefly considered `always` as an alternative, since that wouldn’t imply
 
 ## Spec
 You can view the spec in [markdown format](spec.md) or rendered as [HTML](https://tc39.github.io/proposal-promise-finally/).
+<br>

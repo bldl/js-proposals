@@ -1,21 +1,8 @@
-[[Stage 3]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Temporal
-Authors: Philipp Dunkel, Maggie Johnson-Pint, Matt Johnson-Pint, Brian Terlson, Shane Carr, Ujjwal Sharma, Philip Chimento, Jason Williams, Justin Grant
-Champions: Philipp Dunkel, Maggie Johnson-Pint, Matt Johnson-Pint, Brian Terlson, Shane Carr, Ujjwal Sharma, Philip Chimento, Jason Williams, Justin Grant
-Last Presented: July 2024
-Stage Upgrades: 
-Stage 1: 2017-05-03  
+[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Temporal<br>Authors: Philipp Dunkel, Maggie Johnson-Pint, Matt Johnson-Pint, Brian Terlson, Shane Carr, Ujjwal Sharma, Philip Chimento, Jason Williams, Justin Grant<br>Champions: Philipp Dunkel, Maggie Johnson-Pint, Matt Johnson-Pint, Brian Terlson, Shane Carr, Ujjwal Sharma, Philip Chimento, Jason Williams, Justin Grant<br>Last Presented: July 2024<br>Stage Upgrades:<br>Stage 1: 2017-05-03  
 Stage 2: 2018-09-27  
 Stage 2.7: NA  
 Stage 3: 2021-10-28  
-Stage 4: 2025-02-13  
-Last Commit: 2025-02-15
-Keywords: #immutable #datetime #calendar #proleptic #leapseconds #timezone #standardization #api #specification #polyfill
-GitHub Link: https://github.com/tc39/proposal-temporal
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-30.md#temporal-update--bug-fixes
-
+Stage 4: 2025-02-13<br>Last Commit: 2025-02-15<br>Keywords: #date #time #immutable #calendar #API #proleptic #leap_seconds #timezone #namespace #polyfill<br>GitHub Link: https://github.com/tc39/proposal-temporal <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-30.md#temporal-update--bug-fixes
 # Proposal Description:
 # Temporal
 
@@ -88,3 +75,4 @@ Instead, please use a polyfill from the table above.**
 ## Documentation Playground
 
 When viewing the [reference documentation](https://tc39.es/proposal-temporal/docs/index.html), the non-production polyfill is automatically loaded in your browser, so you can try out Temporal by opening your browser's developer tools console.
+<br>

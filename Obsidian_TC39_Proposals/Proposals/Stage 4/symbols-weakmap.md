@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Symbols as WeakMap keys
-Authors: Daniel Ehrenberg, Richard Button, Robin Ricard, Leo Balter, Rick Waldron, Caridy Patiño
-Champions: Daniel Ehrenberg, Richard Button, Robin Ricard, Leo Balter, Rick Waldron, Caridy Patiño
-Last Presented: January 2023
-Stage Upgrades: 
-Stage 1: 2020-06-02  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Symbols as WeakMap keys<br>Authors: Daniel Ehrenberg, Richard Button, Robin Ricard, Leo Balter, Rick Waldron, Caridy Patiño<br>Champions: Daniel Ehrenberg, Richard Button, Robin Ricard, Leo Balter, Rick Waldron, Caridy Patiño<br>Last Presented: January 2023<br>Stage Upgrades:<br>Stage 1: 2020-06-02  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2022-06-07  
-Stage 4: NA  
-Last Commit: 2022-06-07
-Keywords: #weakmap #symbol #primitive #identity #records #tuples #garbage_collection #memory_management #virtualization #reference
-GitHub Link: https://github.com/tc39/proposal-symbols-as-weakmap-keys
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#symbols-as-weakmap-keys
-
+Stage 4: NA<br>Last Commit: 2022-06-07<br>Keywords: #weakmap #symbol #garbage_collection #referencing #primitive #immutability #membrane #identity #records #tuples<br>GitHub Link: https://github.com/tc39/proposal-symbols-as-weakmap-keys <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#symbols-as-weakmap-keys
 # Proposal Description:
 # Symbols as WeakMap keys
 
@@ -159,3 +146,4 @@ We should also support Symbols in WeakRefs and FinalizationRegistry. Not only is
 We think that adding Symbols as WeakMap keys is a useful, minimal primitive enabling Records and Tuples to reference Objects while respecting the constraints imposed by the goal to support membrane-based isolation within a single Realm. At the same time, the userspace solutions seem sufficient for many/most use cases; we believe that Records and Tuples are very useful without any additional mechanism for referencing objects from primitives, and therefore makes sense to proceed with Records and Tuples independently of this proposal.
 
 [rtp]: https://github.com/tc39/proposal-record-tuple
+<br>

@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Semantic Change]]
-Human Validated: No
-Title: uniform parsing of quasi-standard Date.parse input
-Authors: Richard Gibson
-Champions: Richard Gibson
-Last Presented: September 2018
-Stage Upgrades: 
-Stage 1: 2018-06-29  
+[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: uniform parsing of quasi-standard Date.parse input<br>Authors: Richard Gibson<br>Champions: Richard Gibson<br>Last Presented: September 2018<br>Stage Upgrades:<br>Stage 1: 2018-06-29  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2023-09-13
-Keywords: #date #time #format #validation #standardization #input #parsing #ISO8601 #RFC3339 #interchange
-GitHub Link: https://github.com/tc39/proposal-uniform-interchange-date-parsing
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-09/sept-26.md#uniform-parsing-of-quasi-standard-dateparse-input
-
+Stage 4: NA<br>Last Commit: 2023-09-13<br>Keywords: #date_time #parsing #interchange_format #validation #RFC_3339 #ISO_8601 #out_of_bounds #implementation_defined #timestamp #year_month<br>GitHub Link: https://github.com/tc39/proposal-uniform-interchange-date-parsing <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-09/sept-26.md#uniform-parsing-of-quasi-standard-dateparse-input
 # Proposal Description:
 # Uniform parsing of quasi-standard Date.parse input
 
@@ -139,3 +126,4 @@ This proposal, in contrast, is focused on _rejecting_ input when it diverges fro
 Essentially, this proposal aims to make parsing a limited subset of ISO 8601 calendar date-times the primary function of `Date.parse`, restricting implementation-specific behavior to other date-time formats.
 
 [temporal](https://github.com/tc39/proposal-temporal) by @maggiepint, @mj1856, and @bterlson seeks to introduce _new_ types for working with dates and times, making it substantially larger than this proposal. Regardless of its progress, however, `Date` will remain part of ECMAScript and should be improved where possible. The inference of local vs. zero UTC offset from the presence vs. absence of time fields in a parsed ISO 8601 string can't be changed, but the parsing itself can be made more predictable as presented here.
+<br>

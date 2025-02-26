@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: import()
-Authors: Domenic Denicola
-Champions: Domenic Denicola
-Last Presented: June 2019
-Stage Upgrades: 
-Stage 1: 2016-09-02  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: import()<br>Authors: Domenic Denicola<br>Champions: Domenic Denicola<br>Last Presented: June 2019<br>Stage Upgrades:<br>Stage 1: 2016-09-02  
 Stage 2: 2016-10-07  
 Stage 2.7: NA  
 Stage 3: 2016-12-01  
-Stage 4: 2019-06-20  
-Last Commit: 2019-06-20
-Keywords: #dynamic_loading #module_specifier #promises #script_execution #error_handling #asynchronous_code #host_operations #lazy_loading #runtime_evaluation #module_dependencies
-GitHub Link: https://github.com/tc39/proposal-dynamic-import
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-06/june-4.md#dynamic-import-for-stage-4
-
+Stage 4: 2019-06-20<br>Last Commit: 2019-06-20<br>Keywords: #dynamic_loading #module_nation #promises #lazy_loading #runtime_specifier #module_dependencies #asynchronous_loading #host_environment #tree_shaking #performance<br>GitHub Link: https://github.com/tc39/proposal-dynamic-import <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-06/june-4.md#dynamic-import-for-stage-4
 # Proposal Description:
 # import()
 
@@ -154,3 +141,4 @@ This proposal would be a small expansion of the existing JavaScript and HTML cap
 The ideas in the Loader specification would largely stay the same, although probably this would either supplant the current `System.loader.import()` proposal or make `System.loader.import()` a lower-level version that is used in specialized circumstances. The Loader specification would continue to work on prototyping more general ideas for pluggable loading pipelines and reflective modules, which over time could be used to generalize HTML and Node's host-specific pipelines.
 
 Concretely, this repository is intended as a TC39 proposal to advance through the stages process, specifying the `import()` syntax and the relevant host environment hooks. It also contains [an outline of proposed changes to the HTML Standard](HTML%20Integration.md) that would integrate with this proposal.
+<br>

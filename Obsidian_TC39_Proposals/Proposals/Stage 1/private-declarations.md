@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Private declarations
-Authors: Justin Ridgewell
-Champions: Justin Ridgewell
-Last Presented: March 2019
-Stage Upgrades: 
-Stage 1: 2019-01-15  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Private declarations<br>Authors: Justin Ridgewell<br>Champions: Justin Ridgewell<br>Last Presented: March 2019<br>Stage Upgrades:<br>Stage 1: 2019-04-07  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2020-01-21
-Keywords: #private_state #visibility #protection #declarations #subclasses #inheritance #linting #friend_classes #trusted_code #methods
-GitHub Link: https://github.com/tc39/proposal-private-declarations
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-28.md#private-declarations-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2020-01-21<br>Keywords: #private_state #class_hierarchy #visibility #friend_class #trusted_code #protected_state #object_scoped #linting_pattern #private_declaration #overriding_behavior<br>GitHub Link: https://github.com/tc39/proposal-private-declarations <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-28.md#private-declarations-for-stage-1
 # Proposal Description:
 # Private Declarations
 
@@ -139,3 +126,4 @@ export function registerExtendedTemplate() {
   return templatesService.#registerTemplate(...arguments);
 }
 ```
+<br>

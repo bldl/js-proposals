@@ -1,21 +1,8 @@
-[[Stage 2]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Structs: Fixed Layout Objects and Some Synchronization Primitives
-Authors: Shu-yu Guo
-Champions: Shu-yu Guo
-Last Presented: October 2024
-Stage Upgrades: 
-Stage 1: 2021-08-21  
+[[Stage 2]]<br>Classification: [[API Change]] [[Syntactic Change]]<br>Human Validated: No<br>Title: Structs: Fixed Layout Objects and Some Synchronization Primitives<br>Authors: Shu-yu Guo<br>Champions: Shu-yu Guo<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2021-08-21  
 Stage 2: 2024-10-18  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-12-17
-Keywords: #structs #shared_structs #mutex #condition #memory_model #parallelism #synchronization #threadsafe #fixed_layout #high_performance
-GitHub Link: https://github.com/tc39/proposal-structs
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#structs-and-shared-structs-for-stage-2
-
+Stage 4: NA<br>Last Commit: 2024-12-17<br>Keywords: #structs #shared_memory #mutex #condition_variable #fixed_layout #parallelism #synchronization #atomicity #memory_model #high_performance<br>GitHub Link: https://github.com/tc39/proposal-structs <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#structs-and-shared-structs-for-stage-2
 # Proposal Description:
 # JavaScript Structs: Fixed Layout Objects and Some Synchronization Primitives
 
@@ -449,3 +436,4 @@ Production engines use moving garbage collectors, such as generational collector
 Engines can choose to pin these objects and make them immovable.
 
 Engines can also choose to implement synchronization primitives entirely in userspace. For example, WebKit's `ParkingLot`](https://webkit.org/blog/6161/locking-in-webkit/) is a userspace implementation of Linux futexes. This may have other benefits, such as improved and tuneable performance.
+<br>

@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Semantic Change]]
-Human Validated: No
-Title: Preserve Host Virtualizability
-Authors: Mark Miller, J.F. Paradis, Caridy Patiño, Dan Finley, Alan Schmitt
-Champions: Mark Miller, J.F. Paradis, Caridy Patiño, Dan Finley, Alan Schmitt
-Last Presented: February 2020
-Stage Upgrades: 
-Stage 1: 2019-11-21  
+[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: Preserve Host Virtualizability<br>Authors: Mark Miller, J.F. Paradis, Caridy Patiño, Dan Finley, Alan Schmitt<br>Champions: Mark Miller, J.F. Paradis, Caridy Patiño, Dan Finley, Alan Schmitt<br>Last Presented: February 2020<br>Stage Upgrades:<br>Stage 1: 2019-11-21  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2020-02-02
-Keywords: #virtualizability #host_objects #global_object #deletable_properties #non_deletable #memory_safety #runtime_environment #proxy_mechanism #I_O_abstraction #security_vulnerabilities
-GitHub Link: https://github.com/Agoric/proposal-preserve-virtualizability
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-4.md#preserve-host-virtualizability
-
+Stage 4: NA<br>Last Commit: 2020-02-02<br>Keywords: #virtualizability #host_objects #deletable_properties #global_object #memory_safety #property_descriptors #interoperability #proxy_mechanism #object_invariants #non_standard_properties<br>GitHub Link: https://github.com/Agoric/proposal-preserve-virtualizability <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-4.md#preserve-host-virtualizability
 # Proposal Description:
 # Preserve Host Virtualizability
 
@@ -83,3 +70,4 @@ This combination---of diconnecting the frame global from its context, and of ble
 ## Non-shimmable Builtin Modules
 
 ## Hidden Builtin Module Instance State
+<br>

@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Function once
-Authors: J. S. Choi
-Champions: J. S. Choi
-Last Presented: March 2022
-Stage Upgrades: 
-Stage 1: 2022-03-31  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Function once<br>Authors: J. S. Choi<br>Champions: J. S. Choi<br>Last Presented: March 2022<br>Stage Upgrades:<br>Stage 1: 2022-03-31  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-07-10
-Keywords: #callback #once_function #prototype #function_call #arguments #result #standardization #web_compatibility #development #performance
-GitHub Link: https://github.com/tc39/proposal-function-once
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#functionprototypeonce-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2022-07-10<br>Keywords: #callback #function #execution #result #arguments #standardization #promise #returns #wrapper #once<br>GitHub Link: https://github.com/tc39/proposal-function-once <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#functionprototypeonce-for-stage-1
 # Proposal Description:
 # Function.prototype.once for JavaScript
 ECMAScript Stage-1 Proposal. 2022.
@@ -132,3 +119,4 @@ web is conditionally monkey patching a once method into Function.prototype.
 [Underscore]: https://www.npmjs.com/package/underscore
 [onetime]: https://www.npmjs.com/package/onetime
 [code search]: https://sourcegraph.com/search?q=context:global+%21Function.prototype.once&patternType=literal
+<br>

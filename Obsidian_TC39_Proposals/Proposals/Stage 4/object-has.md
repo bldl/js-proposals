@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Accessible Object.prototype.hasOwnProperty
-Authors: Jamie Kyle
-Champions: Tierney Cyren, Jamie Kyle
-Last Presented: August 2021
-Stage Upgrades: 
-Stage 1: 2021-04-05  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Accessible Object.prototype.hasOwnProperty<br>Authors: Jamie Kyle<br>Champions: Tierney Cyren, Jamie Kyle<br>Last Presented: August 2021<br>Stage Upgrades:<br>Stage 1: 2021-04-05  
 Stage 2: 2021-04-20  
 Stage 2.7: NA  
 Stage 3: 2021-05-25  
-Stage 4: NA  
-Last Commit: 2021-08-31
-Keywords: #object #method #property #inheritance #polyfills #error_handling #library #codemod #eslint #redefinition
-GitHub Link: https://github.com/tc39/proposal-accessible-object-hasownproperty
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#accessible-object-hasownproperty-for-stage-4
-
+Stage 4: NA<br>Last Commit: 2021-08-31<br>Keywords: #object #method #property #prototype #accessibility #redefinition #inheritance #polyfill #dictionary #eslint<br>GitHub Link: https://github.com/tc39/proposal-accessible-object-hasownproperty <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#accessible-object-hasownproperty-for-stage-4
 # Proposal Description:
 # Accessible `Object.prototype.hasOwnProperty()`
 
@@ -203,3 +190,4 @@ The purpose of `Reflect` is to contain, 1:1, a method for each `Proxy` trap. The
 [ramda-has]: https://ramdajs.com/docs/#has
 [eslint-no-prototype-builtins]: https://eslint.org/docs/rules/no-prototype-builtins
 [mdn-hasownproperty-advice]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty#using_hasownproperty_as_a_property_name
+<br>

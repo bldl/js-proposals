@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Emitter
-Authors: Shu-yu Guo, Pedram Emrouznejad
-Champions: Shu-yu Guo, Pedram Emrouznejad
-Last Presented: June 2019
-Stage Upgrades: 
-Stage 1: 2019-05-06  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Emitter<br>Authors: Shu-yu Guo, Pedram Emrouznejad<br>Champions: Shu-yu Guo, Pedram Emrouznejad<br>Last Presented: June 2019<br>Stage Upgrades:<br>Stage 1: 2019-05-06  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2019-06-11
-Keywords: #emitter #reactive #transformation #filtering #iterable #composition #performance #decoupling #containers #backwards_compatibility
-GitHub Link: https://github.com/tc39/proposal-emitter
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-06/june-5.md#emitter-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2019-06-11<br>Keywords: #emitter #transformation #composition #reactive #iterable #filtering #performance #memory #streaming #decoupling<br>GitHub Link: https://github.com/tc39/proposal-emitter <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-06/june-5.md#emitter-for-stage-1
 # Proposal Description:
 # ECMAScript proposal: `Emitter`
 
@@ -168,3 +155,4 @@ More details are included and will be documented in the [FAQ](FAQ.md).
 * [How does this relate to Observables?](/FAQ.md#how-does-this-relate-to-observables)
 * [How does this relate to the Standard Library?](/FAQ.md#how-does-this-relate-to-the-standard-library)
 * [Should this be done in X instead?](/FAQ.md#should-this-be-done-in-x-instead)
+<br>

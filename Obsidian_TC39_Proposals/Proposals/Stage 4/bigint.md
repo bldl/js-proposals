@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: BigInt
-Authors: Daniel Ehrenberg
-Champions: Daniel Ehrenberg
-Last Presented: June 2019
-Stage Upgrades: 
-Stage 1: 2017-01-27  
+[[Stage 4]]<br>Classification: [[API Change]] [[Syntactic Change]]<br>Human Validated: No<br>Title: BigInt<br>Authors: Daniel Ehrenberg<br>Champions: Daniel Ehrenberg<br>Last Presented: June 2019<br>Stage Upgrades:<br>Stage 1: 2017-01-27  
 Stage 2: 2017-03-23  
 Stage 2.7: NA  
 Stage 3: 2017-07-27  
-Stage 4: 2019-09-30  
-Last Commit: 2019-09-30
-Keywords: #bigint #arbitrary #precision #integers #math #operators #comparisons #typed_arrays #interoperation #cryptography
-GitHub Link: https://github.com/tc39/proposal-bigint
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-06/june-4.md#bigint-to-stage-4
-
+Stage 4: 2019-09-30<br>Last Commit: 2019-09-30<br>Keywords: #bigint #arbitrary #precision #integers #operators #comparisons #interoperation #serialization #typed_arrays #cryptography<br>GitHub Link: https://github.com/tc39/proposal-bigint <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-06/june-4.md#bigint-to-stage-4
 # Proposal Description:
 # BigInt: Arbitrary precision integers in JavaScript
 
@@ -493,3 +480,4 @@ Related specification proposals:
 - [BigInt WebAssembly JS API integration proposal](https://github.com/WebAssembly/spec/pull/707)	
 - [HTML serialization of BigInt](https://github.com/whatwg/html/pull/3480)	
 - [BigInt as an IndexedDB key](https://github.com/w3c/IndexedDB/pull/231)
+<br>

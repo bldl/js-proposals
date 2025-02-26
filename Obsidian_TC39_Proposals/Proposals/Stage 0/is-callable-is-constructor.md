@@ -1,15 +1,2 @@
-[[Stage 0]]
-Classification:
-Human Validated: No
-Title: Reflect.{isCallable,isConstructor}
-Authors: Caitlin Potter
-Champions: Caitlin Potter
-Last Presented: 
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://github.com/caitp/TC39-Proposals/blob/HEAD/tc39-reflect-isconstructor-iscallable.md
-GitHub Note Link: None
-
-# Proposal Description:
+[[Stage 0]]<br>Classification<br>Human Validated: No<br>Title: Reflect.{isCallable,isConstructor}<br>Authors: Caitlin Potter<br>Champions: Caitlin Potter<br>Last Presented: <br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://github.com/caitp/TC39-Proposals/blob/HEAD/tc39-reflect-isconstructor-iscallable.md <br>GitHub Note Link: None
+# Proposal Description:<br>

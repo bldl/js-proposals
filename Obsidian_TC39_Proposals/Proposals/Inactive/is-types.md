@@ -1,15 +1,2 @@
-[[Inactive]]
-Classification:
-Human Validated: No
-Title: Builtins.typeOf() and Builtins.is()
-Authors: James M Snell
-Champions: Withdrawn: can be solved in other ways
-Last Presented: None
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://github.com/jasnell/proposal-istypes
-GitHub Note Link: None
-
-# Proposal Description:
+[[Inactive]]<br>Classification<br>Human Validated: No<br>Title: Builtins.typeOf() and Builtins.is()<br>Authors: James M Snell<br>Champions: Withdrawn: can be solved in other ways<br>Last Presented: None<br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://github.com/jasnell/proposal-istypes <br>GitHub Note Link: None
+# Proposal Description:<br>

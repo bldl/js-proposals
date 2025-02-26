@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Stable Formatting
-Authors: Eemeli Aro
-Champions: Eemeli Aro
-Last Presented: September 2023
-Stage Upgrades: 
-Stage 1: 2023-09-28  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Stable Formatting<br>Authors: Eemeli Aro<br>Champions: Eemeli Aro<br>Last Presented: September 2023<br>Stage Upgrades:<br>Stage 1: 2023-09-28  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2025-02-19
-Keywords: #internationalization #formatters #locales #ISO_8601 #numeric #collation #duration #list_format #temporal #BCP_47
-GitHub Link: https://github.com/tc39/proposal-stable-formatting
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-27.md#stable-formatting-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2025-02-19<br>Keywords: #formatting #locale #internationalization #date_time #standardization #numerical #string_manipulation #collation #ISO_8601 #display_names<br>GitHub Link: https://github.com/tc39/proposal-stable-formatting <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-27.md#stable-formatting-for-stage-1
 # Proposal Description:
 # Stable Formatting
 
@@ -296,3 +283,4 @@ with an options argument as defined above.
 - [ISO 639-2](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes)
 - [BCP 47 / RFC 5646](https://www.rfc-editor.org/rfc/rfc5646.html)
 - [Unicode Technical Standard #35 (LDML)](https://unicode.org/reports/tr35/)
+<br>

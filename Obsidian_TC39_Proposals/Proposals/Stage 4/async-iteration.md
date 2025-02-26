@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]] [[Syntactic Change]]
-Human Validated: No
-Title: Asynchronous Iteration
-Authors: Domenic Denicola
-Champions: Domenic Denicola
-Last Presented: January 2018
-Stage Upgrades: 
-Stage 1: 2014-09-03  
+[[Stage 4]]<br>Classification: [[API Change]] [[Syntactic Change]]<br>Human Validated: No<br>Title: Asynchronous Iteration<br>Authors: Domenic Denicola<br>Champions: Domenic Denicola<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2014-09-03  
 Stage 2: 2016-03-31  
 Stage 2.7: NA  
 Stage 3: 2016-09-30  
-Stage 4: NA  
-Last Commit: 2018-02-12
-Keywords: #async_iterator #async_generator #promise #request_queue #async_iterable #streaming #data_access #for_await_of #yield #symbol_async_iterator
-GitHub Link: https://github.com/tc39/proposal-async-iteration
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-25.md#conclusionresolution
-
+Stage 4: NA<br>Last Commit: 2018-02-12<br>Keywords: #asynchronous #iterator #promise #yield #request_queue #for_await_of #async_generator #async_iterable #stream #data_access<br>GitHub Link: https://github.com/tc39/proposal-async-iteration <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-25.md#conclusionresolution
 # Proposal Description:
 # Asynchronous Iterators for JavaScript
 
@@ -93,3 +80,4 @@ This function then returns an async generator object, which can be consumed with
 - JavaScriptCore: [shipping in Safari Tech Preview 40](https://github.com/tc39/proposal-async-iteration/issues/63#issuecomment-330929480)
 - SpiderMonkey: [shipping in Firefox 57](https://github.com/tc39/proposal-async-iteration/issues/63#issuecomment-330978069); [launch bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1352312)
 - V8: [shipping in Chrome 63](https://blog.chromium.org/2017/10/chrome-63-beta-dynamic-module-imports_27.html); [launch bug](https://crbug.com/v8/5855)
+<br>

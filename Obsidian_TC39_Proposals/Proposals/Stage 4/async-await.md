@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Async functions
-Authors: Brian Terlson
-Champions: Brian Terlson
-Last Presented: July 2016
-Stage Upgrades: 
-Stage 1: 2014-01-28  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Async functions<br>Authors: Brian Terlson<br>Champions: Brian Terlson<br>Last Presented: July 2016<br>Stage Upgrades:<br>Stage 1: 2014-01-28  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: 2015-10-06  
-Last Commit: 2020-11-19
-Keywords: #promises #generators #asynchronous #code #compilation #runtime #vanilla #execution #example #browser
-GitHub Link: https://github.com/tc39/proposal-async-await
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-28.md#10iv-async-functions
-
+Stage 4: 2015-10-06<br>Last Commit: 2020-11-19<br>Keywords: #promises #generators #asynchronous #compilation #es5 #execution #vanilla #browser #runtimes #example<br>GitHub Link: https://github.com/tc39/proposal-async-await <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-28.md#10iv-async-functions
 # Proposal Description:
 # Async Functions for  ECMAScript
 
@@ -30,3 +17,4 @@ This repo contains a complete example using a large number of the features of th
 npm install
 regenerator -r server.asyncawait.js | node
 ```
+<br>

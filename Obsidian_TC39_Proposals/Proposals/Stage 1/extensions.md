@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Extensions
-Authors: HE Shi-Jun
-Champions: HE Shi-Jun
-Last Presented: November 2020
-Stage Upgrades: 
-Stage 1: 2020-12-29  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Extensions<br>Authors: HE Shi-Jun<br>Champions: HE Shi-Jun<br>Last Presented: November 2020<br>Stage Upgrades:<br>Stage 1: 2020-12-29  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2023-01-18
-Keywords: #extension_methods #accessors #prototype #namespace #object #set #array #utility #binding #operator
-GitHub Link: https://github.com/tc39/proposal-extensions
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-19.md#extensions-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2023-01-18<br>Keywords: #extension_method #extension_accessor #namespace_object #prototype_method #iterable #set #accessor #binding #operator_precedence #util_function<br>GitHub Link: https://github.com/tc39/proposal-extensions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-19.md#extensions-for-stage-1
 # Proposal Description:
 # Extensions and `::` operator
 
@@ -129,3 +116,4 @@ let classCount = $
 - [design details](docs/design.md)
 - [slide for stage 1](https://johnhax.net/2020/tc39-nov-ext/slide)
 - [experimental implementation](experimental)
+<br>

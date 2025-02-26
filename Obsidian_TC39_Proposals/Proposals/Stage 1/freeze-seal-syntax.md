@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Object.freeze + Object.seal syntax
-Authors: Keith Cirkel
-Champions: Keith Cirkel
-Last Presented: November 2017
-Stage Upgrades: 
-Stage 1: 2017-11-02  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Object.freeze + Object.seal syntax<br>Authors: Keith Cirkel<br>Champions: Keith Cirkel<br>Last Presented: November 2017<br>Stage Upgrades:<br>Stage 1: 2017-11-02  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2018-04-17
-Keywords: #freezing #sealing #immutable #destructuring #prototype #bindings #syntax #type_safety #function #options
-GitHub Link: https://github.com/keithamus/proposal-object-freeze-seal-syntax
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-30.md#10ivd-objectfreeze--objectseal-syntax-proposal-for-stage-0
-
+Stage 4: NA<br>Last Commit: 2018-04-17<br>Keywords: #freezing #sealing #immutable #destructuring #parameter #type_safety #object #prototype #assign #function<br>GitHub Link: https://github.com/keithamus/proposal-object-freeze-seal-syntax <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-30.md#10ivd-objectfreeze--objectseal-syntax-proposal-for-stage-0
 # Proposal Description:
 # Object.freeze and Object.seal syntax
 
@@ -269,3 +256,4 @@ const c = foo.c
 ```
 
 </details>
+<br>

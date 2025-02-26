@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: globalThis
-Authors: Jordan Harband
-Champions: Jordan Harband
-Last Presented: October 2019
-Stage Upgrades: 
-Stage 1: 2015-11-19  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: globalThis<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: October 2019<br>Stage Upgrades:<br>Stage 1: 2015-11-19  
 Stage 2: 2016-03-29  
 Stage 2.7: NA  
 Stage 3: 2016-09-29  
-Stage 4: 2019-10-01  
-Last Commit: 2019-10-01
-Keywords: #global #object #window #global_object #identity #navigation #shadow #context #ses #properties
-GitHub Link: https://github.com/tc39/proposal-global
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-1.md#globalthis-to-stage-4
-
+Stage 4: 2019-10-01<br>Last Commit: 2019-10-01<br>Keywords: #global_object #window #windowproxy #shadow_global #context #writable #configurable #navigation #csp #ses<br>GitHub Link: https://github.com/tc39/proposal-global <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-1.md#globalthis-to-stage-4
 # Proposal Description:
 # [globalThis](https://www.npmjs.com/package/globalthis)
 ECMAScript Proposal, specs, and reference implementation for `globalThis`
@@ -118,3 +105,4 @@ You can view the spec in [markdown format](spec.md) or rendered as [HTML](http:/
 
 ## Thanks
 Originally inspired by https://twitter.com/littledan/status/627284720284372992 / http://littledan.github.io/global.html
+<br>

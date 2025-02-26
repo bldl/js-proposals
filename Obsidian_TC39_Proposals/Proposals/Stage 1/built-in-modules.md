@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]] [[Syntactic Change]]
-Human Validated: No
-Title: Built In Modules aka JS Standard Library
-Authors: Michael Saboff, Mattijs Hoitink
-Champions: Michael Saboff, Mattijs Hoitink, Mark Miller
-Last Presented: September 2020
-Stage Upgrades: 
-Stage 1: 2018-07-14  
+[[Stage 1]]<br>Classification: [[API Change]] [[Syntactic Change]]<br>Human Validated: No<br>Title: Built In Modules aka JS Standard Library<br>Authors: Michael Saboff, Mattijs Hoitink<br>Champions: Michael Saboff, Mattijs Hoitink, Mark Miller<br>Last Presented: September 2020<br>Stage Upgrades:<br>Stage 1: 2018-07-14  
 Stage 2: 2020-09-11  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2020-09-24
-Keywords: #modules #standard_library #importing #module_resolution #namespace #freezing #shimming #polyfilling #optimization #engine
-GitHub Link: https://github.com/tc39/proposal-built-in-modules
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#builtin-modules-for-stage-2
-
+Stage 4: NA<br>Last Commit: 2020-09-24<br>Keywords: #module #library #modules #import #namespace #resolution #shimming #prototype #optimizations #functionality<br>GitHub Link: https://github.com/tc39/proposal-built-in-modules <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#builtin-modules-for-stage-2
 # Proposal Description:
 # Built In Modules Proposal (aka JavaScript Standard Library)
 
@@ -339,3 +326,4 @@ modules behave different and the same assumptions can't be applied to both.
 
 - none yet
 
+<br>

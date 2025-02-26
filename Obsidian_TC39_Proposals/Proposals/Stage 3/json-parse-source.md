@@ -1,21 +1,8 @@
-[[Stage 3]]
-Classification: [[API Change]]
-Human Validated: No
-Title: JSON.parse source text access
-Authors: Richard Gibson
-Champions: Richard Gibson
-Last Presented: January 2023
-Stage Upgrades: 
-Stage 1: 2018-09-28  
+[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: JSON.parse source text access<br>Authors: Richard Gibson<br>Champions: Richard Gibson<br>Last Presented: January 2023<br>Stage Upgrades:<br>Stage 1: 2018-09-28  
 Stage 2: 2020-07-22  
 Stage 2.7: NA  
 Stage 3: 2022-07-20  
-Stage 4: NA  
-Last Commit: 2023-09-26
-Keywords: #reviver #serialization #source_text #round_tripping #bigint #context #input_information #frozen_objects #data_structure #json_primitives
-GitHub Link: https://github.com/tc39/proposal-json-parse-with-source
-GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-19.md#conclusiondecision-2
-
+Stage 4: NA<br>Last Commit: 2023-09-26<br>Keywords: #reviver #serialization #bigint #raw_JSON #source_text #context #non_primitive #performance #transformation #input<br>GitHub Link: https://github.com/tc39/proposal-json-parse-with-source <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-19.md#conclusiondecision-2
 # Proposal Description:
 # JSON.parse source text access
 
@@ -112,3 +99,4 @@ We consider this to be acceptable, but mostly moot (see the following point). Wh
 
 ### Non-primitive values
 Per https://github.com/tc39/proposal-json-parse-with-source/issues/10#issuecomment-704441802 , source text exposure is limited to primitive values.
+<br>

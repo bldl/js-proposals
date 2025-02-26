@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Readonly Collections
-Authors: Mark Miller, Peter Hoddie
-Champions: Mark Miller, Peter Hoddie
-Last Presented: October 2019
-Stage Upgrades: 
-Stage 1: 2019-09-21  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Readonly Collections<br>Authors: Mark Miller, Peter Hoddie<br>Champions: Mark Miller, Peter Hoddie<br>Last Presented: October 2019<br>Stage Upgrades:<br>Stage 1: 2019-09-21  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2019-10-15
-Keywords: #readonly #collection #map #fixedmap #readonlymap #snapshot #diverge #query #behavioral #subtyping
-GitHub Link: https://github.com/tc39/proposal-readonly-collections
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#readonly-collections-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2019-10-15<br>Keywords: #collection #mutable #immutable #query #method #type #behavioral #subtype #fixed_map #readonly_map<br>GitHub Link: https://github.com/tc39/proposal-readonly-collections <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#readonly-collections-for-stage-1
 # Proposal Description:
 # proposal-readonly-collections
 
@@ -99,3 +86,4 @@ On a suitable implementation such as [Moddable's XS](https://github.com/Moddable
 # Related
 
 This proposal is based on experience with E's [collection classes](http://erights.org/elang/collect/tables.html).
+<br>

@@ -1,21 +1,8 @@
-[[Inactive]]
-Classification: [[Semantic Change]]
-Human Validated: No
-Title: Proposed Grammar change to ES Modules
-Authors: Bradley Farias
-Champions: Rejected: No consensus on this specific solution.
-Last Presented: None
-Stage Upgrades: 
-Stage 1: 2016-06-14  
+[[Inactive]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: Proposed Grammar change to ES Modules<br>Authors: Bradley Farias<br>Champions: Rejected: No consensus on this specific solution.<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2016-06-14  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2017-04-06
-Keywords: #grammar #module #script #parse #import #export #scope #arguments #performance #ambiguity
-GitHub Link: https://github.com/tc39/proposal-UnambiguousJavaScriptGrammar
-GitHub Note Link: None
-
+Stage 4: NA<br>Last Commit: 2017-04-06<br>Keywords: #grammar #ambiguity #modules #performance #exports #imports #scope #initialization #parsing #tooling<br>GitHub Link: https://github.com/tc39/proposal-UnambiguousJavaScriptGrammar <br>GitHub Note Link: None
 # Proposal Description:
 # Unambiguous JavaScript Grammar
 
@@ -249,3 +236,4 @@ feedback from:<br>
 
 Thank you! :heart:<br>
   &#8212; [@jdalton](https://github.com/jdalton)
+<br>

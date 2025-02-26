@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Duplicate named capture groups
-Authors: Kevin Gibbons
-Champions: Kevin Gibbons
-Last Presented: April 2024
-Stage Upgrades: 
-Stage 1: 2022-01-24  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Duplicate named capture groups<br>Authors: Kevin Gibbons<br>Champions: Kevin Gibbons<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2022-01-24  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2022-08-01  
-Stage 4: NA  
-Last Commit: 2023-03-11
-Keywords: #named_capturing #regex #backreferences #alternatives #groups #match #semantics #patterns #repetition #participation
-GitHub Link: https://github.com/tc39/proposal-duplicate-named-capturing-groups
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#duplicate-named-capture-groups-for-stage-4
-
+Stage 4: NA<br>Last Commit: 2023-03-11<br>Keywords: #named_capturing_group #regular_expression #backreference #alternative #group_name #match_result #property_enumeration #syntax #semantics #input_consumption<br>GitHub Link: https://github.com/tc39/proposal-duplicate-named-capturing-groups <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#duplicate-named-capture-groups-for-stage-4
 # Proposal Description:
 # Duplicate named capturing groups
 
@@ -91,3 +78,4 @@ Per [this webpage](https://www.regular-expressions.info/named.html#duplicate), s
 
 See [this issue](https://github.com/tc39/proposal-regexp-named-groups/issues/44) and [some discussion on twitter](https://twitter.com/littledan/status/1352019266300768266).
 
+<br>

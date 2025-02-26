@@ -1,21 +1,8 @@
-[[Inactive]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Symbol.thenable
-Authors: Gus Caplan, Jordan Harband, Myles Borins
-Champions: Withdrawn; changing thenability on Module Namespace objects is not web compatible, and allowing non-Promise use of "then" is not worth slowing down all Promise operations
-Last Presented: None
-Stage Upgrades: 
-Stage 1: 2018-04-09  
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Symbol.thenable<br>Authors: Gus Caplan, Jordan Harband, Myles Borins<br>Champions: Withdrawn; changing thenability on Module Namespace objects is not web compatible, and allowing non-Promise use of "then" is not worth slowing down all Promise operations<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2018-04-09  
 Stage 2: 2018-05-11  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2018-05-12
-Keywords: #promise #thenable #namespace #symbol #interop #module #legacy #dynamic_import #resolution #protocol
-GitHub Link: https://github.com/devsnek/proposal-symbol-thenable
-GitHub Note Link: https://github.com/tc39/notes/blob/def2ee0c04bc91612576237314a4f3b1fe2edaef/meetings/2018-05/may-24.md#symbolthenable-for-stage-1-or-2
-
+Stage 4: NA<br>Last Commit: 2018-05-12<br>Keywords: #symbol_thenable #promise #thenable #module_namespace #interop #legacy #modifier #resolution #blacklist #protocols<br>GitHub Link: https://github.com/devsnek/proposal-symbol-thenable <br>GitHub Note Link: https://github.com/tc39/notes/blob/def2ee0c04bc91612576237314a4f3b1fe2edaef/meetings/2018-05/may-24.md#symbolthenable-for-stage-1-or-2
 # Proposal Description:
 # Symbol.thenable
 
@@ -94,3 +81,4 @@ sort of "disabled" symbol.
   ```
 
 [First-Class Protocols Proposal]: https://github.com/michaelficarra/proposal-first-class-protocols
+<br>

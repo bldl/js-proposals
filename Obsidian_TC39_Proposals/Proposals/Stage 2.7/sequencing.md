@@ -1,21 +1,8 @@
-[[Stage 2.7]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Iterator Sequencing
-Authors: Michael Ficarra
-Champions: Michael Ficarra
-Last Presented: October 2024
-Stage Upgrades: 
-Stage 1: 2023-09-27  
+[[Stage 2.7]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Iterator Sequencing<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2023-09-27  
 Stage 2: 2024-06-21  
 Stage 2.7: 2024-10-08  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-12-03
-Keywords: #iterator #sequence #concatenation #generator #values #ergonomics #infinite #lazy #function #flatten
-GitHub Link: https://github.com/tc39/proposal-iterator-sequencing
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-sequencing-for-stage-27
-
+Stage 4: NA<br>Last Commit: 2024-12-03<br>Keywords: #iterator #sequence #concatenate #generator #ergonomic #flatMap #values #immediate #data_structure #laziness<br>GitHub Link: https://github.com/tc39/proposal-iterator-sequencing <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-sequencing-for-stage-27
 # Proposal Description:
 Iterator Sequencing
 ===================
@@ -115,3 +102,4 @@ let repeatedNats = p().flatMap(x => x);
 | ramda                      | `concat`                   | `unnest`      |
 | sequency                   | `plus`                     |               |
 | wu                         |                            | `chain`       |
+<br>

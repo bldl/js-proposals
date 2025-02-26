@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Grouped Accessors and Auto-Accessors
-Authors: Ron Buckton
-Champions: Ron Buckton
-Last Presented: November 2020
-Stage Upgrades: 
-Stage 1: 2021-08-10  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Grouped Accessors and Auto-Accessors<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: November 2020<br>Stage Upgrades:<br>Stage 1: 2021-08-10  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-05-25
-Keywords: #grouped_accessors #auto_accessors #getter #setter #private_field #decorator #syntactic_sugar #boilerplate #encapsulation #access_control
-GitHub Link: https://github.com/tc39/proposal-grouped-and-auto-accessors
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-19.md#continuation-grouped-accessors-and-auto-accessors
-
+Stage 4: NA<br>Last Commit: 2022-05-25<br>Keywords: #grouped #accessor #getter #setter #private #backing #field #decorator #syntax #readability<br>GitHub Link: https://github.com/tc39/proposal-grouped-and-auto-accessors <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-19.md#continuation-grouped-accessors-and-auto-accessors
 # Proposal Description:
 # Grouped Accessors and Auto-Accessors for ECMAScript
 
@@ -424,3 +411,4 @@ The following is a high-level list of tasks to progress through each stage of th
 [Implementation1]: #todo
 [Implementation2]: #todo
 [Ecma262PullRequest]: #todo
+<br>

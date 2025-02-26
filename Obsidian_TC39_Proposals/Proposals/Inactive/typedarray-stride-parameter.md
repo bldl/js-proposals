@@ -1,21 +1,8 @@
-[[Inactive]]
-Classification: [[API Change]]
-Human Validated: No
-Title: TypedArray stride parameter
-Authors: Shu-yu Guo
-Champions: [Withdrawn][typedarray-stride-parameter-notes]: concern about performance implications, and the proposal is not expressive enough
-Last Presented: None
-Stage Upgrades: 
-Stage 1: 2020-01-23  
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: TypedArray stride parameter<br>Authors: Shu-yu Guo<br>Champions: [Withdrawn][typedarray-stride-parameter-notes]: concern about performance implications, and the proposal is not expressive enough<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2020-01-23  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2020-03-17
-Keywords: #arraybuffer #view #stride #offset #length #typedarray #vertex #webgl #imagedata #channel
-GitHub Link: https://github.com/tc39/proposal-typedarray-stride
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-21.md#withdrawing-typedarray-stride
-
+Stage 4: NA<br>Last Commit: 2020-03-17<br>Keywords: #stride #arraybuffer #typedarray #interleaved #viewport #performance #offset #length #imageData #vertex_attribute<br>GitHub Link: https://github.com/tc39/proposal-typedarray-stride <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-21.md#withdrawing-typedarray-stride
 # Proposal Description:
 # ArrayBufferView stride parameter
 
@@ -233,3 +220,4 @@ None
 [webglbuffer]: https://developer.mozilla.org/en-US/docs/Web/API/WebGLBuffer
 [arraybuffer]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer
 [typedarray]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+<br>

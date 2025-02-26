@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: String padding
-Authors: Jordan Harband
-Champions: Jordan Harband, Rick Waldron
-Last Presented: May 2016
-Stage Upgrades: 
-Stage 1: 2015-07-30  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: String padding<br>Authors: Jordan Harband<br>Champions: Jordan Harband, Rick Waldron<br>Last Presented: May 2016<br>Stage Upgrades:<br>Stage 1: 2015-07-30  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2015-11-17  
-Stage 4: 2016-05-25  
-Last Commit: 2016-05-25
-Keywords: #padding #string #performance #left_padding #right_padding #character_fill #monospaced #efficiency #formatting #development
-GitHub Link: https://github.com/tc39/proposal-string-pad-start-end
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-05/may-25.md#stringprototypepadstartend-jhd
-
+Stage 4: 2016-05-25<br>Last Commit: 2016-05-25<br>Keywords: #string_padding #string_manipulation #padding #fill_string #formatting #monospaced #efficiency #developer_productivity #string_functions #specification<br>GitHub Link: https://github.com/tc39/proposal-string-pad-start-end <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-05/may-25.md#stringprototypepadstartend-jhd
 # Proposal Description:
 # [String.prototype.padStart](https://github.com/es-shims/String.prototype.padStart) / [String.prototype.padEnd](https://github.com/es-shims/String.prototype.padEnd)
 ECMAScript proposal, specs, tests, and reference implementation for String.prototype.padStart/padEnd.
@@ -46,3 +33,4 @@ While updating this proposal with spec language, we discussed at length whether 
 
 ## Left padding, with respect to the fill string: consistency with other languages
 Per [#6](https://github.com/tc39/proposal-string-pad-start-end/issues/6), the only languages we found that support multiple character fill strings that provide both "left" and "right" functionality are Ruby and PHP. Both language’s form of “pad on the left” takes the *first* part of the fill string, not the last. The clear example of why this matters is: `"abc".padStart(10, "0123456789")` - taking the last part of the fill string gives `"3456789abc"`, whereas taking the first part gives `"0123456abc"`. In other words, `string.padStart(mask.length, mask)` should do what one expects.
+<br>

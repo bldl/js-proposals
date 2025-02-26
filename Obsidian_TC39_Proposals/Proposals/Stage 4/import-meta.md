@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: import.meta
-Authors: Domenic Denicola
-Champions: Gus Caplan
-Last Presented: March 2020
-Stage Upgrades: 
-Stage 1: 2017-05-24  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: import.meta<br>Authors: Domenic Denicola<br>Champions: Gus Caplan<br>Last Presented: March 2020<br>Stage Upgrades:<br>Stage 1: 2017-05-24  
 Stage 2: 2017-05-25  
 Stage 2.7: NA  
 Stage 3: 2017-09-28  
-Stage 4: 2020-05-01  
-Last Commit: 2020-05-01
-Keywords: #import #meta #metadata #module #host #script #url #filename #environment #configuration
-GitHub Link: https://github.com/tc39/proposal-import-meta
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-03/april-1.md#importmeta-for-stage-4-continued-from-previous-day
-
+Stage 4: 2020-05-01<br>Last Commit: 2020-05-01<br>Keywords: #module #metadata #module_system #script_element #host_environment #resource_resolution #url #package_json #dynamic_loading #extensibility<br>GitHub Link: https://github.com/tc39/proposal-import-meta <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-03/april-1.md#importmeta-for-stage-4-continued-from-previous-day
 # Proposal Description:
 # import.meta
 
@@ -156,3 +143,4 @@ There is no real benefit to locking down the object, as it is local to the modul
 Additionally, leaving it mutable allows module-to-module transpilers to "polyfill" future features by inserting a few extra lines at the top of each module, adding or modifying `import.meta` properties. For example, if in a few years HTML adds an additional property, it would be possible to write a transpiler that adds that property, when targeting older browsers.
 
 Finally, the escape hatch provided by HostFinalizeImportMeta allows hosts which prefer a more locked-down `import.meta` object to take that route.
+<br>

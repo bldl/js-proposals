@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Top-level await
-Authors: Myles Borins, Yulia Startsev, Daniel Ehrenberg, Guy Bedford, Ms2ger
-Champions: Myles Borins, Yulia Startsev
-Last Presented: May 2021
-Stage Upgrades: 
-Stage 1: 2018-01-24  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Top-level await<br>Authors: Myles Borins, Yulia Startsev, Daniel Ehrenberg, Guy Bedford, Ms2ger<br>Champions: Myles Borins, Yulia Startsev<br>Last Presented: May 2021<br>Stage Upgrades:<br>Stage 1: 2018-01-24  
 Stage 2: 2018-05-22  
 Stage 2.7: NA  
 Stage 3: 2019-06-06  
-Stage 4: 2021-05-25  
-Last Commit: 2021-05-28
-Keywords: #top_level_await #modules #asynchronous #promises #exports #fetch #dynamic_import #error_handling #dependency_management #resource_initialization
-GitHub Link: https://github.com/tc39/proposal-top-level-await
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#top-level-await
-
+Stage 4: 2021-05-25<br>Last Commit: 2021-05-28<br>Keywords: #await #modules #asynchronous #promises #import #execution #dynamism #initialization #dependencies #resource<br>GitHub Link: https://github.com/tc39/proposal-top-level-await <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#top-level-await
 # Proposal Description:
 # ECMAScript proposal: Top-level `await`
 
@@ -427,3 +414,4 @@ In May 2018, this proposal reached Stage 2 in TC39's process, with many design d
 * https://gist.github.com/Rich-Harris/0b6f317657f5167663b493c722647221
 
 [defer]: https://jakearchibald.com/2017/es-modules-in-browsers/#defer-by-default
+<br>

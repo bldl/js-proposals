@@ -1,21 +1,8 @@
-[[Stage 3]]
-Classification: [[API Change]]
-Human Validated: No
-Title: RegExp.escape
-Authors: Domenic Denicola, Benjamin Gruenbaum, Jordan Harband
-Champions: Jordan Harband, Kevin Gibbons
-Last Presented: July 2024
-Stage Upgrades: 
-Stage 1: 2015-06-12  
+[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: RegExp.escape<br>Authors: Domenic Denicola, Benjamin Gruenbaum, Jordan Harband<br>Champions: Jordan Harband, Kevin Gibbons<br>Last Presented: July 2024<br>Stage Upgrades:<br>Stage 1: 2015-06-12  
 Stage 2: 2023-09-26  
 Stage 2.7: NA  
 Stage 3: 2024-07-29  
-Stage 4: 2025-02-18  
-Last Commit: 2025-02-18
-Keywords: #regexp #string #regular_expression #escape #escape_function #context_escape #unicode #replacement #pattern #subpar
-GitHub Link: https://github.com/tc39/proposal-regex-escaping
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#regexpescape-for-stage-3
-
+Stage 4: 2025-02-18<br>Last Commit: 2025-02-18<br>Keywords: #escaping #regular_expression #string #special_character #replace #unicode #function #static_method #pattern #context_escape<br>GitHub Link: https://github.com/tc39/proposal-regex-escaping <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#regexpescape-for-stage-3
 # Proposal Description:
 # RegExp Escaping Proposal
 
@@ -130,3 +117,4 @@ We've had [a meeting about this subject](https://github.com/benjamingr/RegExp.es
  - es-shims: [`regexp.escape`](https://www.npmjs.com/package/regexp.escape)
  - [core-js](https://www.npmjs.com/package/core-js)
  - [`@li/regexp-escape-polyfill`](https://jsr.io/@li/regexp-escape-polyfill)
+<br>

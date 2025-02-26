@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Asset References
-Authors: Sebastian Markbage
-Champions: Sebastian Markbage
-Last Presented: November 2018
-Stage Upgrades: 
-Stage 1: 2018-11-12  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Asset References<br>Authors: Sebastian Markbage<br>Champions: Sebastian Markbage<br>Last Presented: November 2018<br>Stage Upgrades:<br>Stage 1: 2018-11-12  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2020-09-28
-Keywords: #asset #reference #module #declaration #dynamic_import #loader #resource #specifier #asynchronous #binding
-GitHub Link: https://github.com/tc39/proposal-asset-references
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-28.md#asset-references-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2020-09-28<br>Keywords: #asset #module #dynamic_import #reference #loader #packager #specifier #resource_manager #interoperability #type_system<br>GitHub Link: https://github.com/tc39/proposal-asset-references <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-28.md#asset-references-for-stage-1
 # Proposal Description:
 # Asset References
 
@@ -398,3 +385,4 @@ export function foo(): void {
   Deno.core.dispatch(Deno.core.ops()["op_foo"], argUi8);
 }
 ```
+<br>

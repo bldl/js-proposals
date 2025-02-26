@@ -1,21 +1,8 @@
-[[Stage 2]]
-Classification: [[Semantic Change]]
-Human Validated: No
-Title: Propagate active ScriptOrModule with JobCallback Record
-Authors: Chengzhong Wu
-Champions: Chengzhong Wu
-Last Presented: July 2024
-Stage Upgrades: 
-Stage 1: 2024-07-31  
+[[Stage 2]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: Propagate active ScriptOrModule with JobCallback Record<br>Authors: Chengzhong Wu<br>Champions: Chengzhong Wu<br>Last Presented: July 2024<br>Stage Upgrades:<br>Stage 1: 2024-07-31  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-07-31
-Keywords: #promise #slot #handler #job #module #script #callback #execution #state #binding
-GitHub Link: https://github.com/tc39/proposal-jobcallback-module
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-31.md#continuation-propagate-active-scriptormodule-with-jobcallback-record
-
+Stage 4: NA<br>Last Commit: 2024-07-31<br>Keywords: #promise #handler #jobs #active_script #module #html #timeouts #javascript_promises #callbacks #finalization_registry<br>GitHub Link: https://github.com/tc39/proposal-jobcallback-module <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-31.md#continuation-propagate-active-scriptormodule-with-jobcallback-record
 # Proposal Description:
 # ecma262#3195
 
@@ -111,3 +98,4 @@ Conclusion:
 
 The proposed change also fixes the inconsistent requirement on ecma262
 `HostEnqueuePromiseJob` and HTML `HostMakeJobCallback`.
+<br>

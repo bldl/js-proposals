@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: {BigInt,Number}.fromString
-Authors: Mathias Bynens
-Champions: Mathias Bynens
-Last Presented: January 2018
-Stage Upgrades: 
-Stage 1: 2017-12-19  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: {BigInt,Number}.fromString<br>Authors: Mathias Bynens<br>Champions: Mathias Bynens<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2017-12-19  
 Stage 2: 2018-03-21  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2018-03-21
-Keywords: #bigint #number #fromstring #string_conversion #radix #syntax_error #range_error #type_error #exception_handling #integer_literals
-GitHub Link: https://github.com/tc39/proposal-number-fromstring
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iic-bigintnumberfromstring-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2018-03-21<br>Keywords: #bigint #number #fromstring #parsing #radix #syntaxerror #rangeerror #typeerror #exception #literal<br>GitHub Link: https://github.com/tc39/proposal-number-fromstring <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iic-bigintnumberfromstring-for-stage-1
 # Proposal Description:
 # ECMAScript proposal: `{BigInt,Number}.fromString`
 
@@ -157,3 +144,4 @@ Number.fromString(true, 32);
 ## Implementations
 
 * none yet
+<br>

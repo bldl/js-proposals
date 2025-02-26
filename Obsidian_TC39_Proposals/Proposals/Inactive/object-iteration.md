@@ -1,21 +1,8 @@
-[[Inactive]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Improving iteration on Objects
-Authors: Jonathan Keslin
-Champions: Withdrawn: concern about need for such an API
-Last Presented: None
-Stage Upgrades: 
-Stage 1: 2019-10-01  
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Improving iteration on Objects<br>Authors: Jonathan Keslin<br>Champions: Withdrawn: concern about need for such an API<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2019-10-01  
 Stage 2: 2020-01-24  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2020-10-30
-Keywords: #iterator #object #iteration #entries #keys #values #transform #performance #collection #polyfill
-GitHub Link: https://github.com/tc39/proposal-object-iteration
-GitHub Note Link: None
-
+Stage 4: NA<br>Last Commit: 2020-10-30<br>Keywords: #iterator #object #iteration #keys #values #entries #mapping #performance #dictionary #transform<br>GitHub Link: https://github.com/tc39/proposal-object-iteration <br>GitHub Note Link: None
 # Proposal Description:
 # WITHDRAWN: This proposal has been withdrawn from consideration
 
@@ -162,3 +149,4 @@ More investigation to follow.
 <a id='footnote-1'><sup>1</sup></a> Specifically, `Object.entries`, `Object.keys`, and `Object.values`
 
 [Iterator Helpers]: https://github.com/tc39/proposal-iterator-helpers
+<br>

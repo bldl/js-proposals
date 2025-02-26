@@ -1,21 +1,8 @@
-[[Inactive]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Extensible numeric literals
-Authors: Daniel Ehrenberg
-Champions: Withdrawn
-Last Presented: None
-Stage Upgrades: 
-Stage 1: 2017-07-25  
+[[Inactive]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Extensible numeric literals<br>Authors: Daniel Ehrenberg<br>Champions: Withdrawn<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2017-07-25  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2020-07-07
-Keywords: #numeric #suffix #literal #scoping #overloading #declaration #parsing #type #function #cache
-GitHub Link: https://github.com/tc39/proposal-extended-numeric-literals
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-21.md#numeric-literal-suffixes-update-separate-namespace-version
-
+Stage 4: NA<br>Last Commit: 2020-07-07<br>Keywords: #numeric #literal #suffix #bigint #operator_overloading #precision #decimal #caching #scope #template<br>GitHub Link: https://github.com/tc39/proposal-extended-numeric-literals <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-21.md#numeric-literal-suffixes-update-separate-namespace-version
 # Proposal Description:
 # Numeric Literal Suffixes
 
@@ -142,3 +129,4 @@ function pxSuffix(obj) {
 ### Status
 
 This proposal is at Stage 1 in TC39. The new version using a separate namespace for suffixes has not yet been presented to committee.
+<br>

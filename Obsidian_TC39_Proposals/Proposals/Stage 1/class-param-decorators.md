@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Class Method Parameter Decorators
-Authors: Ron Buckton
-Champions: Ron Buckton
-Last Presented: March 2023
-Stage Upgrades: 
-Stage 1: 2023-03-06  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Class Method Parameter Decorators<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: March 2023<br>Stage Upgrades:<br>Stage 1: 2023-03-06  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2025-01-28
-Keywords: #decorators #parameters #metaprogramming #dependency_injection #validation #marshaling #routing #metadata #object_relational_mapping #foreign_function_interface
-GitHub Link: https://github.com/tc39/proposal-class-method-parameter-decorators
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#class-constructor-and-method-parameter-decorators
-
+Stage 4: NA<br>Last Commit: 2025-01-28<br>Keywords: #decorators #metaprogramming #dependency_injection #object_relational_mapping #parameter_validation #http_routing #foreign_function_interface #metadata #argument_validation #parameter_marshaling<br>GitHub Link: https://github.com/tc39/proposal-class-method-parameter-decorators <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#class-constructor-and-method-parameter-decorators
 # Proposal Description:
 # ECMAScript Decorators for Class Method and Constructor Parameters
 
@@ -794,3 +781,4 @@ The following is a high-level list of tasks to progress through each stage of th
 [Implementation1]: #todo
 [Implementation2]: #todo
 [Ecma262PullRequest]: #todo
+<br>

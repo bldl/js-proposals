@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Reversible string split
-Authors: Luca Casonato
-Champions: Luca Casonato
-Last Presented: January 2022
-Stage Upgrades: 
-Stage 1: 2022-01-25  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Reversible string split<br>Authors: Luca Casonato<br>Champions: Luca Casonato<br>Last Presented: January 2022<br>Stage Upgrades:<br>Stage 1: 2022-01-25  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-01-26
-Keywords: #splitN #reversible #substring #delimiter #prefix #array #remainder #parsing #INI #header
-GitHub Link: https://github.com/tc39/proposal-reversible-string-split
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-01/jan-25.md#reversible-string-split
-
+Stage 4: NA<br>Last Commit: 2022-01-26<br>Keywords: #split_n #remainder #string_split #prefix_split #delimiter #join #parse #key_value #ini #character_delimited<br>GitHub Link: https://github.com/tc39/proposal-reversible-string-split <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-01/jan-25.md#reversible-string-split
 # Proposal Description:
 # Reversible string split
 
@@ -262,3 +249,4 @@ to give us a good answer yet. What we do know:
   version 1.4 (2002).
 
 Thanks to @hax and @aimingoo for the research on this.
+<br>

@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Object pick/omit
-Authors: Hemanth HM, Aleen
-Champions: Hemanth HM
-Last Presented: July 2022
-Stage Upgrades: 
-Stage 1: 2022-07-22  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Object pick/omit<br>Authors: Hemanth HM, Aleen<br>Champions: Hemanth HM<br>Last Presented: July 2022<br>Stage Upgrades:<br>Stage 1: 2022-07-22  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-08-05
-Keywords: #object #pick #omit #properties #filter #configuration #dynamic #cloning #prototype #keys
-GitHub Link: https://github.com/tc39/proposal-object-pick-or-omit
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#ergonomic-dynamic-object-restructuring
-
+Stage 4: NA<br>Last Commit: 2022-08-05<br>Keywords: #pick #omit #object #properties #filter #ergonomic #prototype #dynamic #configuration #syntax<br>GitHub Link: https://github.com/tc39/proposal-object-pick-or-omit <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#ergonomic-dynamic-object-restructuring
 # Proposal Description:
 ## `Object.{pick, omit}`
 > ECMAScript Proposal, specs, and reference implementation for `Object.pick`, `Object.omit`.
@@ -273,3 +260,4 @@ Object.pick({a : 1, b : 2}, (v, k) => k !== 'b'); // => {a: 1}
     ```
 
 ***Notice: If you have any suggestions or ideas about this proposal? Appreciate your discussions via issues.***
+<br>

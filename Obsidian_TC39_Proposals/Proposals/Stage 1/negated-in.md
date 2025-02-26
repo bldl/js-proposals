@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Negated in and instanceof operators
-Authors: Pablo Gorostiaga Belio
-Champions: Pablo Gorostiaga Belio
-Last Presented: September 2023
-Stage Upgrades: 
-Stage 1: 2023-09-15  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Negated in and instanceof operators<br>Authors: Pablo Gorostiaga Belio<br>Champions: Pablo Gorostiaga Belio<br>Last Presented: September 2023<br>Stage Upgrades:<br>Stage 1: 2023-09-15  
 Stage 2: 2023-10-02  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2023-11-10
-Keywords: #negation #operator #readability #error_proneness #guard_clause #conditional #developer_experience #syntax #data_structure #intuitive
-GitHub Link: https://github.com/tc39/proposal-negated-in-instanceof
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-28.md#negated-in-and-instanceof-operators-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2023-11-10<br>Keywords: #negation #operator #readability #developer_experience #guard #expression #type_check #error_proneness #syntax #conditional<br>GitHub Link: https://github.com/tc39/proposal-negated-in-instanceof <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-28.md#negated-in-and-instanceof-operators-for-stage-1
 # Proposal Description:
 # Negated `in` and `instanceof` operators
 
@@ -208,3 +195,4 @@ a not in [1, 2, 3]
 The pattern matching proposal proposes a new relational expression like `a in b` or `a instanceof b`, using a new operator `is`: https://github.com/tc39/proposal-pattern-matching#is-expression
 
 In the same line as `in` and `instanceof`, we could extend the proposal to include a negated `is` operator such as `!is`. 
+<br>

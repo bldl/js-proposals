@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Semantic Change]]
-Human Validated: No
-Title: Faster Promise adoption
-Authors: Justin Ridgewell
-Champions: Justin Ridgewell
-Last Presented: June 2022
-Stage Upgrades: 
-Stage 1: 2022-06-06  
+[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: Faster Promise adoption<br>Authors: Justin Ridgewell<br>Champions: Justin Ridgewell<br>Last Presented: June 2022<br>Stage Upgrades:<br>Stage 1: 2022-06-06  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-06-08
-Keywords: #promise #adoption #settle #thenable #resolution #performance #interleaving #hazards #native #async
-GitHub Link: https://github.com/tc39/proposal-faster-promise-adoption
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#remove-job-from-promise-resolve-functions
-
+Stage 4: NA<br>Last Commit: 2022-06-08<br>Keywords: #promise #adoption #settling #resolution #ticks #thenable #reentrancy #inner #outer #path<br>GitHub Link: https://github.com/tc39/proposal-faster-promise-adoption <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#remove-job-from-promise-resolve-functions
 # Proposal Description:
 # proposal-faster-promise-adoption
 
@@ -75,3 +62,4 @@ re-entrancy.
 [mhofman]: https://github.com/mhofman
 [2022-06-slides]: https://docs.google.com/presentation/d/17QGvaa6G1XIc4LJj3ZvcjyVLwL6pXvG9Nk6S_eAgBiY/edit?usp=sharing
 [unwrapping-thenable]: https://github.com/domenic/promises-unwrapping/issues/105
+<br>

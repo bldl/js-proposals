@@ -1,15 +1,2 @@
-[[Inactive]]
-Classification:
-Human Validated: No
-Title: Typed Objects
-Authors: Till Schneidereit (previously [Dmitry Lomov, Niko Matsakis][typed-objects])
-Champions: Postponed: waiting for WebAssembly requirements to become clearer
-Last Presented: None
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://github.com/tschneidereit/proposal-typed-objects
-GitHub Note Link: None
-
-# Proposal Description:
+[[Inactive]]<br>Classification<br>Human Validated: No<br>Title: Typed Objects<br>Authors: Till Schneidereit (previously [Dmitry Lomov, Niko Matsakis][typed-objects])<br>Champions: Postponed: waiting for WebAssembly requirements to become clearer<br>Last Presented: None<br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://github.com/tschneidereit/proposal-typed-objects <br>GitHub Note Link: None
+# Proposal Description:<br>

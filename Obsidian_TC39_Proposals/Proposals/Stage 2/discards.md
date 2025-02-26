@@ -1,21 +1,8 @@
-[[Stage 2]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: "Discard" (void) Bindings
-Authors: Ron Buckton
-Champions: Ron Buckton
-Last Presented: June 2024
-Stage Upgrades: 
-Stage 1: 2024-01-17  
+[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: "Discard" (void) Bindings<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: June 2024<br>Stage Upgrades:<br>Stage 1: 2024-01-17  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-06-12
-Keywords: #void #binding #elision #discard #parameters #patterns #assignment #object #array #extraction
-GitHub Link: https://github.com/tc39/proposal-discard-binding
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#discard-bindings-update-or-stage-2
-
+Stage 4: NA<br>Last Commit: 2024-06-12<br>Keywords: #void #discard #binding #elision #variable #assignment #parameters #object #array #pattern_matching<br>GitHub Link: https://github.com/tc39/proposal-discard-binding <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#discard-bindings-update-or-stage-2
 # Proposal Description:
 # `void` Discard Bindings for ECMAScript
 
@@ -514,4 +501,4 @@ The following is a high-level list of tasks to progress through each stage of th
 [Explicit Resource Management]: https://github.com/tc39/proposal-explicit-resource-management
 [using-void]: https://github.com/tc39/proposal-explicit-resource-management/blob/main/future/using-void-declaration.md
 [Extractors]: https://github.com/tc39/proposal-extractors
-[Pattern Matching]: https://github.com/tc39/proposal-pattern-matching
+[Pattern Matching]: https://github.com/tc39/proposal-pattern-matching<br>

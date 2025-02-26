@@ -1,21 +1,8 @@
-[[Stage 2]]
-Classification: [[API Change]]
-Human Validated: No
-Title: iterator chunking
-Authors: Michael Ficarra
-Champions: Michael Ficarra
-Last Presented: October 2024
-Stage Upgrades: 
-Stage 1: 2023-12-11  
+[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: iterator chunking<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2023-12-11  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-09-23
-Keywords: #iterator #chunking #sliding #window #subsequence #overlapping #pagination #batch_processing #matrix #stream_processing
-GitHub Link: https://github.com/tc39/proposal-iterator-chunking
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#iterator-chunking-for-stage-2
-
+Stage 4: NA<br>Last Commit: 2024-09-23<br>Keywords: #iterator #chunking #subsequences #sliding_window #pagination #stream_processing #batch_processing #matrix_operations #running_computations #adjacent_elements<br>GitHub Link: https://github.com/tc39/proposal-iterator-chunking <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#iterator-chunking-for-stage-2
 # Proposal Description:
 Iterator Chunking
 =================
@@ -118,3 +105,4 @@ let windowsOf4 = Array.from(digits().windows(4));
 | Ramda | `splitEvery` | `aperture` | infinite empty arrays | no |
 | sequency | `chunk` | -- | throws | N/A |
 | wu | `chunk` | -- | collects everything into a single array | N/A |
+<br>

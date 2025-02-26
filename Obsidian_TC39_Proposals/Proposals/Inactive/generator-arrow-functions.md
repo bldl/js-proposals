@@ -1,21 +1,8 @@
-[[Inactive]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Generator arrow functions
-Authors: Sergey Rubanov, Brendan Eich
-Champions: Withdrawn: no interested champions in February 2024
-Last Presented: None
-Stage Upgrades: 
-Stage 1: 2019-10-21  
+[[Inactive]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Generator arrow functions<br>Authors: Sergey Rubanov, Brendan Eich<br>Champions: Withdrawn: no interested champions in February 2024<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2019-10-21  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2020-07-24
-Keywords: #generator #arrow #function #syntax #keyword #react #execution #structure #hazard #generator_expression
-GitHub Link: https://github.com/tc39/proposal-generator-arrow-functions
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-09/sept-27.md#11ic-generator-arrow-functions
-
+Stage 4: NA<br>Last Commit: 2020-07-24<br>Keywords: #generator #arrow_function #generator_function #syntax #use_case #keyword #feature #hazard #react #expression<br>GitHub Link: https://github.com/tc39/proposal-generator-arrow-functions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-09/sept-27.md#11ic-generator-arrow-functions
 # Proposal Description:
 # ECMAScript proposal: Generator Arrow Functions
 
@@ -84,3 +71,4 @@ class Foo {
 ## Implementations
 
 - none yet
+<br>

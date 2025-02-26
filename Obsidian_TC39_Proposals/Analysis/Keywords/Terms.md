@@ -1499,3 +1499,1008 @@ Proposal: arraylast
 Proposal: unicode-sequence-properties 
  #unicode #property #sequence #regex #test #escapes #emoji #character #pattern #alternation
 
+Proposal: shadowrealm 
+ #shadowrealm #global_environment #isolated #intrinsics #built_ins #import_value #evaluate #promise #primitive_value #callable
+
+Proposal: math-sum 
+ #sum #precise #iterable #floating_point #arithmetic #algorithm #overflow #identity #coercion #numbers
+
+Proposal: lazy-import 
+ #module #evaluation #execution #performance #import #defer #namespace #synchronous #dependencies #optimization
+
+Proposal: joint 
+ #iterator #zip #zipWith #combination #error_handling #variadic #tupling #iterable #synchronization #filler_element
+
+Proposal: sequencing 
+ #iterator #sequence #yield #concatenation #function #ergonomic #iterable #generator #flatMap #data_structure
+
+Proposal: esm-phase 
+ #module #worker #import #module_resolution #static_analysis #module_object #dynamic_import #runtime #tooling #CSP
+
+Proposal: shadowrealm 
+ #shadowrealm #global_environment #intrinsics #builtins #promise #primitive_value #callable #scope #isolation #import
+
+Proposal: math-sum 
+ #method #summation #precision #floating_point #iterable #algorithm #overflow #identity #numbers #array
+
+Proposal: lazy-import 
+ #deferred #module #evaluation #namespace #import #performance #execution #initialization #asynchronous #synchronization
+
+Proposal: joint 
+ #iterator #zip #combination #tupling #iterable #variadic #aggregate_error #strict #filler #map
+
+Proposal: sequencing 
+ #iterator #sequence #concatenation #values #generators #ergonomic #functionality #library #data_structure #function
+
+Proposal: esm-phase 
+ #import #module #worker #static #dynamic #resolution #url #ergonomics #analysis #loading
+
+Proposal: shadowrealm 
+ #shadowrealm #global_environment #intrinsics #built_ins #isolated #promises #api #binding #global_object #primitive_value
+
+Proposal: math-sum 
+ #sum #precise #floating_point #iterable #algorithm #reduced #identity #overflow #addition #numbers
+
+Proposal: lazy-import 
+ #defer #module #evaluation #performance #initialization #namespace #synchronous #dependencies #cpu #optimization
+
+Proposal: joint 
+ #iterator #synchronization #combination #zip #variadic #error_handling #aggregate_error #tupling #iterable #design_space
+
+Proposal: sequencing 
+ #iterator #sequencing #concatenation #generators #ergonomic #functionality #infinite #flatMap #yield #data_structure
+
+Proposal: esm-phase 
+ #worker #module #import #source #static #analysis #resolution #url #constructor #CSP
+
+Proposal: shadowrealm 
+ #shadowrealm #environment #global_object #intrinsics #built_ins #import_value #evaluate #bounded #isolated #promise
+
+Proposal: math-sum 
+ #math #sum #precise #iterable #floating_point #algorithm #reduce #overflow #identity #numerical
+
+Proposal: lazy-import 
+ #defer #module #loading #execution #performance #namespace #binding #optimization #synchronous #dynamic_import
+
+Proposal: joint 
+ #iterator #zip #combination #alignment #variadic #aggregateerror #tupling #iterable #position #filler
+
+Proposal: sequencing 
+ #iterator #sequencing #yield #function #concatenation #ergonomic #generator #flatMap #values #data_structure
+
+Proposal: esm-phase 
+ #module #worker #import #module_graph #url #dynamic_import #static_analysis #module_resolution #CSP #module_source
+
+Proposal: shadowrealm 
+ #shadowrealm #global_environment #evaluation #intrinsics #binding #promise #isolated #primitive_value #callable #object_prototype
+
+Proposal: math-sum 
+ #summation #floating_point #algorithm #precision #iterable #numeric #overflow #identity #reduce #arithmetic
+
+Proposal: lazy-import 
+ #deferred_execution #module_system #dynamic_import #performance_optimization #synchronous_loading #asynchronous_dependencies #namespace_object #execution_graph #lazy_loading #module_cache
+
+Proposal: joint 
+ #iterator #iteration #zip #zipWith #map #positionally #tupling #aggregateError #varargs #filler
+
+Proposal: sequencing 
+ #iterator #sequencing #concatenation #generators #ergonomic #functionality #values #infinite #libraries #data_structure
+
+Proposal: esm-phase 
+ #module #worker #source #import #dynamic #resolution #analysis #CSP #tooling #instantiation
+
+Proposal: shadowrealm 
+ #shadowrealm #global_environment #intrinsics #builtins #promises #isolation #evaluation #import_value #primitive_value #callable
+
+Proposal: math-sum 
+ #method #precision #algorithm #iterable #floating_point #summation #numerical #arithmetic #identity #overflow
+
+Proposal: lazy-import 
+ #deferred_execution #module_import #namespace_object #synchronous_evaluation #performance_optimization #loading_graph #execution_bottleneck #dynamic_import #transitive_dependencies #cpu_bottlenecks
+
+Proposal: joint 
+ #iterator #zip #map #combining #tupling #variadic #aggregate_error #zip_longest #zip_equal #filler_element
+
+Proposal: sequencing 
+ #iterator #sequencing #concatenation #generators #ergonomic #values #flat_map #infinite #libraries #data_structure
+
+Proposal: esm-phase 
+ #module #worker #import #static #resolution #analysis #source #module_graph #ergonomics #tooling
+
+Proposal: shadowrealm 
+ #shadowrealm #global_environment #intrinsics #built_ins #import_value #evaluate #promise #primitive_value #callable #isolation
+
+Proposal: math-sum 
+ #sum #precise #floating_point #iterable #algorithm #number #identity #reduce #operation #overflow
+
+Proposal: lazy-import 
+ #deferred_evaluation #module_loading #performance_optimization #synchronous_execution #module_namespace #dynamic_import #API_consumer #execution_graph #import_modifier #top_level_await
+
+Proposal: joint 
+ #iterator #zip #combiner #aggregate_error #variadic #tupling #positionally_aligned #zip_longest #flat_map #iterable
+
+Proposal: sequencing 
+ #iterator #sequence #combine #chaining #concatenation #generators #functionality #ergonomics #values #flatten
+
+Proposal: esm-phase 
+ #source_phase #module_source #worker_loading #static_analysis #module_resolution #import_attributes #dynamic_import #runtime_support #tooling #compartments
+
+Proposal: shadowrealm 
+ #shadowrealm #global_environment #intrinsics #built_ins #promises #primitive_value #callable #evaluation #isolation #security
+
+Proposal: math-sum 
+ #sum #floating_point #algorithm #iterable #precision #addition #identity #overflow #BigInt #number
+
+Proposal: lazy-import 
+ #deferred_evaluation #module_namespace #performance_optimization #synchronous_execution #dynamic_import #initialization #execution_graph #cpu_bottlenecks #lazy_loading #graph_loading
+
+Proposal: joint 
+ #iterator #zip #combination #alignment #variadic #aggregate_error #filler #tupling #design_space #iterables
+
+Proposal: sequencing 
+ #iterator #sequence #values #concat #chain #ergonomic #generators #functional #flatMap #data_structure
+
+Proposal: esm-phase 
+ #module #worker #import #dynamic #static #resolution #url #ergonomics #analysis #CSP
+
+Proposal: shadowrealm 
+ #shadowrealm #global_environment #intrinsics #built_ins #isolated_realms #primitive_values #callable #import_value #evaluate #promise
+
+Proposal: math-sum 
+ #sum #precise #floating_point #iterable #algorithm #reduction #addition #identity #overflow #implementation
+
+Proposal: lazy-import 
+ #performance #optimization #module #evaluation #initialization #synchronous #defer #dependencies #namespace #execution
+
+Proposal: joint 
+ #iterator #zip #iterable #combining #positionally #map #variadic #aggregate_error #filler #strict
+
+Proposal: sequencing 
+ #iterator #sequencing #concatenation #generators #ergonomic #functionality #intersection #values #infinite #collection
+
+Proposal: esm-phase 
+ #module #worker #import #runtime #analysis #ergonomics #resolution #binding #cloning #virtualization
+
+Proposal: shadowrealm 
+ #shadowrealm #environment #global_object #intrinsics #built_ins #evaluate #import_value #primitive_value #isolated #callable
+
+Proposal: math-sum 
+ #sum #floating_point #precision #iterable #summation #algorithm #numeric #overflow #identity #robust
+
+Proposal: lazy-import 
+ #deferred_evaluation #module_import #performance_optimization #synchronous_execution #module_namespace #dynamic_loading #application_initialization #cpu_bottleneck #asynchronous_dependencies #execution_graph
+
+Proposal: joint 
+ #iterator #zip #iterable #combine #variadic #map #aggregate_error #zip_longest #tupling #filler
+
+Proposal: sequencing 
+ #iterator #sequence #concat #chain #generator #yield #functional #ergonomic #flatten #data_structure
+
+Proposal: esm-phase 
+ #worker #module #source #runtime #ergonomics #analysis #CSP #dynamic #import #loader
+
+Proposal: shadowrealm 
+ #shadowrealms #global_environment #intrinsics #built_ins #isolated #callable #evaluate #import_value #primitive_value #promise
+
+Proposal: math-sum 
+ #addition #precision #floating_point #iterable #algorithm #mathematics #number_coercion #identity #overflow #summation
+
+Proposal: lazy-import 
+ #deferred #evaluation #optimization #synchronous #namespace #module #dynamic #execution #performance #initialization
+
+Proposal: joint 
+ #iterator #zip #combination #align #iterable #variadic #tupling #error_handling #filler #map
+
+Proposal: sequencing 
+ #iterator #sequencing #concatenation #ergonomic #functionality #generators #yield #flatMap #infinite #data_structure
+
+Proposal: esm-phase 
+ #worker #module #import #source #resolution #static #CSP #ergo #dynamic #analysis
+
+Proposal: shadowrealm 
+ #shadowrealm #global_environment #intrinsics #builtins #import_value #evaluate #promise #isolation #separation #runtime
+
+Proposal: math-sum 
+ #sum #precision #floating #algorithm #iterable #operation #reduce #javascript #arithmetic #identity
+
+Proposal: lazy-import 
+ #module #evaluation #defer #synchronous #initialization #performance #namespace #optimization #import #dependencies
+
+Proposal: joint 
+ #iterator #zip #values #combination #aggregator #variadic #mapping #filling #positioning #tupling
+
+Proposal: sequencing 
+ #iterator #sequencing #concat #chain #generator #flatMap #ergonomic #infinite #lazy #functional
+
+Proposal: esm-phase 
+ #source #worker #module #dynamic #import #resolution #analysis #CSP #tooling #ergonomics
+
+Proposal: shadowrealm 
+ #shadowrealm #global_environment #global_object #intrinsics #built_ins #callable #import_value #evaluate #promise #isolated
+
+Proposal: math-sum 
+ #sum #precision #floating_point #iteration #algorithm #reduction #truncation #identity #numeric #overflow
+
+Proposal: lazy-import 
+ #defer #module #evaluation #performance #optimization #namespace #exotic #synchronization #initialization #loading
+
+Proposal: joint 
+ #iterator #iteration #zip #zipWith #combine #variadic #map #advance #aggregateError #positionally
+
+Proposal: sequencing 
+ #iterator #sequence #concatenation #generator #values #function #ergonomic #infinite #iterators #flatMap
+
+Proposal: esm-phase 
+ #worker #module #import #dynamic #source #resolution #CSP #analysis #optimization #ergonomics
+
+Proposal: shadowrealm 
+ #shadowrealm #global_environment #intrinsics #built_ins #import_value #evaluate #promise #primitive_value #callable #isolated_realms
+
+Proposal: math-sum 
+ #sum #precision #floating_point #iterable #algorithm #arbitrary_precision #identity #numbers #reduction #overflow
+
+Proposal: lazy-import 
+ #deferred_import #module_evaluation #performance_optimization #synchronous_execution #namespace_proxy #asynchronous_dependencies #loading_graph #execution_graph #import_modifier #api_consumer
+
+Proposal: joint 
+ #iterator #zip #combiner #aggregateerror #map #tuple #variadic #filler #synchronization #alignment
+
+Proposal: sequencing 
+ #iterator #sequence #concatenation #generators #values #ergonomics #infinite #flatMap #libraries #functionality
+
+Proposal: esm-phase 
+ #module #worker #import #resolution #static #analysis #ergonomics #CSP #dynamic #coding
+
+Proposal: shadowrealm 
+ #shadowrealm #global_environment #intrinsics #built_ins #isolated #environment #import_value #evaluate #promise #primitive_value
+
+Proposal: math-sum 
+ #sum #precise #floating_point #algorithm #iterable #addition #identity #overflow #number #reduce
+
+Proposal: lazy-import 
+ #deferred_evaluation #module_loading #synchronous_execution #namespace_object #performance_optimization #import_modifier #top_level_execution #lazy_loading #cpu_bottleneck #asynchronous_dependencies
+
+Proposal: joint 
+ #iterator #zip #zipWith #variadic #map #aggregateError #combiner #zipLongest #zipEqual #tupling
+
+Proposal: sequencing 
+ #iterator #sequencing #concatenation #generators #ergonomic #functionality #infinite #flat_map #iterator_libraries #values
+
+Proposal: esm-phase 
+ #worker #module #source #dynamic #resolution #analysis #tooling #CSP #virtualization #ergonomics
+
+Proposal: shadowrealm 
+ #shadowrealm #global_environment #intrinsics #built_ins #import_value #evaluate #distinct_boundaries #callable #asynchronous #primitive_value
+
+Proposal: math-sum 
+ #sum #precision #floating #arithmetic #iterable #algorithm #reduce #overflow #identity #number
+
+Proposal: lazy-import 
+ #defer #execution #performance #optimization #import #module #loading #synchronous #namespace #dependencies
+
+Proposal: joint 
+ #iterator #zip #combination #variadic #tupling #aggregate_error #options_bag #synchronisation #corresponding_values #zip_with
+
+Proposal: sequencing 
+ #iterator #sequencing #concat #chain #ergonomic #generators #values #iteration #flat_map #data_structure
+
+Proposal: esm-phase 
+ #worker #module #import #static #dynamic #analysis #resolution #compatibility #tooling #ergonomics
+
+Proposal: shadowrealm 
+ #shadowrealm #global_environment #intrinsics #built_ins #promise #evaluate #import_value #primitive_value #isolated_realms #api
+
+Proposal: math-sum 
+ #sum #floating_point #algorithm #iterable #operation #precision #addition #overflow #reduce #identity
+
+Proposal: lazy-import 
+ #performance #initialization #module #defer #namespace #execution #optimization #loading #bottleneck #import
+
+Proposal: joint 
+ #iterator #zip #iterable #combination #positionally #variadic #aggregate_error #filler #map #flatMap
+
+Proposal: sequencing 
+ #iterator #sequencing #yield #concatenation #generators #ergonomics #functional #infinite #flatMap #data_structure
+
+Proposal: esm-phase 
+ #module #worker #import #static #resolution #tooling #dynamic #CSP #ergonomics #analysis
+
+Proposal: shadowrealm 
+ #shadowrealm #global_environment #intrinsic #built_in #isolated #import_value #evaluate #promise #primitive_value #callable
+
+Proposal: math-sum 
+ #sum #precision #floating_point #iterable #algorithm #reduction #sum_algorithm #accuracy #bigint #operation
+
+Proposal: lazy-import 
+ #module #evaluation #performance #initialization #namespace #synchronization #dependencies #execution #optimization #lazy_loading
+
+Proposal: joint 
+ #iterator #zip #zipwith #positional #iterables #aggregateerror #variadic #combining #tupling #ziplongest
+
+Proposal: sequencing 
+ #iterator #sequencing #concatenation #ergonomic #functional #generators #flattening #infinite #values #chaining
+
+Proposal: esm-phase 
+ #worker #module #source #import #resolution #analysis #ergonomics #dynamics #compartments #bundle
+
+Proposal: shadowrealm 
+ #shadowrealm #global_environment #intrinsics #built_ins #import_value #evaluate #isolated_realms #promise #primitive_value #callable
+
+Proposal: math-sum 
+ #sum #floating_point #iteration #algorithm #precision #numbers #reduction #identity #error #operation
+
+Proposal: lazy-import 
+ #deferred_execution #module_cache #dynamic_import #loading_performance #synchronous #optimization #module_namespace #eager_evaluation #cpu_bottlenecks #execution_graph
+
+Proposal: joint 
+ #iterator #zip #zipWith #variadic #aggregateError #combiner #iterable #filler #strict #naming
+
+Proposal: sequencing 
+ #iterator #sequence #generation #combination #consumption #ergonomics #functionality #iterable #concatenation #values
+
+Proposal: esm-phase 
+ #worker #import #module #static #resolution #CSP #dynamic #analysis #tooling #ergonomics
+
+Proposal: ptc 
+ #tail_calls #stack_frames #performance #debugging #developer_tools #error_handling #developer_intent #function_level #syntax_error #recursion
+
+Proposal: date-parse 
+ #parsing #date #input #formatting #standardization #syntax #validation #consistency #error_handling #compatibility
+
+Proposal: typedarray-stride-parameter 
+ #buffer #stride #offset #length #typedarray #webgl #vertex #image #rgba #manipulate
+
+Proposal: object-iteration 
+ None
+
+Proposal: pipe-flow 
+ None
+
+Proposal: extensible-literals 
+ #numeric #suffix #literal #decimal #operator #overloading #caching #scoping #identifier #type
+
+Proposal: cancel-promise 
+ #withdrawn #documentation #specification #commit #history #process #proposal #inactive #reference #champion
+
+Proposal: module-unambig 
+ #grammar #ambiguity #modules #performance #exports #imports #scope #initialization #parsing #tooling
+
+Proposal: dynamic-module-reform 
+ #dynamic #module #evaluation #import #binding #circular #syntax #semantics #instantiation #records
+
+Proposal: ptc 
+ #tail_calls #stack_frames #performance #developer_tools #error_handling #cross_realm #developer_intent #recursion #syntax #optimization
+
+Proposal: date-parse 
+ #parsing #date #input #uniform #standard #format #algorithm #specification #commit #documentation
+
+Proposal: typedarray-stride-parameter 
+ #stride #arraybuffer #typedarray #interleaved #viewport #performance #offset #length #imageData #vertex_attribute
+
+Proposal: object-iteration 
+ #iterator #object #iteration #keys #values #entries #mapping #performance #dictionary #transform
+
+Proposal: buffer-transfer 
+ #ownership #memory #buffer #detachment #reallocation #optimization #serialization #performance #typedarray #api
+
+Proposal: function-helpers 
+ #function #helper #callback #standardization #function_composition #promise #ergonomics #utility #declaration #method
+
+Proposal: modules-pragma 
+ #module #pragma #portability #compatibility #host_environment #source_file #configuration #script #syntax #parsing
+
+Proposal: pipe-flow 
+ #function #pipeline #composition #callbacks #metafunctions #application #asynchronous #unary #reduce #functionality
+
+Proposal: symbol-thenable 
+ #symbol_thenable #promise #thenable #module_namespace #interop #legacy #modifier #resolution #blacklist #protocols
+
+Proposal: cleanup-some 
+ #finalizationregistry #cleanup #garbage_collection #weakref #synchronization #callback #interoperability #worker #long_job #webassembly
+
+Proposal: overloading 
+ #operator #overloading #numeric #types #vector #matrix #tensor #expressivity #compatibility #syntax
+
+Proposal: extensible-literals 
+ #numeric #literal #suffix #bigint #operator_overloading #precision #decimal #caching #scope #template
+
+Proposal: uuid 
+ #uuid #identifier #generation #cryptography #randomness #secure #entropy #uniqueness #database #api
+
+Proposal: generator-arrow-functions 
+ #generator #arrow_function #generator_function #syntax #use_case #keyword #feature #hazard #react #expression
+
+Proposal: signbit 
+ #signbit #mathematics #number #floating_point #bitwise #negative #positive #value #evaluation #polyfill
+
+Proposal: arraylast 
+ #array #item #index #getter #setter #length #operation #generic #polyfill #syntax
+
+Proposal: unicode-sequence-properties 
+ #unicode #property #regex #expression #character #code_point #emoji #sequence #alternation #transpilation
+
+Proposal: bind-syntax 
+ #this_binding #method_extraction #syntactic_sugar #lexical_scope #closure #virtual_methods #function_callee #constructor #type_error #bound_function
+
+Proposal: export-from 
+ #default #export #module #syntax #declaration #scope #named #symmetric #shorter #compound
+
+Proposal: observable 
+ #observable #subscription #observer #asynchronous #event #stream #compositional #lazy #cleanup #push_based
+
+Proposal: secure-ecmascript 
+ #compartment #immutable #lightweight #global_object #eval #locking #intrinsics #security #isolation #shared
+
+Proposal: collection-of-from 
+ #collection #constructors #methods #sets #maps #iteration #utilities #polyfills #syntax #initialization
+
+Proposal: stacks 
+ #stack_trace #error_handling #standardization #security_guarantees #error_objects #property_descriptor #implementation_compatibility #getter_setter #v8_engine #javascript_errors
+
+Proposal: do 
+ #expression_oriented #local_scope #conditional_statements #template_literals #early_errors #completion_value #var_declarations #empty_statements #await_yield #break_continue
+
+Proposal: -------------error--------------- 
+ #expression #programming #scope #declaration #conditional #templating #completion_value #expressions #early_errors #edge_cases
+
+Proposal: binary-ast 
+ #binary #ast #parsing #serialization #performance #annotations #compression #encoding #scope #python
+
+Proposal: protocols 
+ #protocol #symbols #type_classes #traits #mixin #property #composition #namespace #methods #implementation
+
+Proposal: partial-application 
+ #function_application #partial_application #placeholder_argument #ordinal_placeholder #rest_placeholder #calling_convention #fixed_arity #variable_arity #syntax_error #eager_evaluation
+
+Proposal: cancel-api 
+ #cancellation #asynchronous #operations #cancellation_token #coordinator #user_controlled #background_tasks #resource_management #architectural_observations #transient
+
+Proposal: codepoints 
+ #code_points #iterator #tokenise #lexers #identifier #unicode #grapheme #position #numerical #performance
+
+Proposal: freeze-seal-syntax 
+ #freezing #sealing #immutable #destructuring #parameter #type_safety #object #prototype #assign #function
+
+Proposal: from-string 
+ #bigint #number #fromstring #parsing #radix #syntaxerror #rangeerror #typeerror #exception #literal
+
+Proposal: seeded-randoms 
+ #seeded #pseudo_random #generator #reproducibility #testing #cloning #entropy #uniformity #child_prng #bigint
+
+Proposal: mixins 
+ #mixin #inheritance #declarative #syntax #static_analysis #composition #protocols #trait #ergonomics #factory
+
+Proposal: collection-methods 
+ #collection #set #map #filter #reduce #merge #mapping #prototype #functionality #polyfill
+
+Proposal: richer-keys 
+ #identity #representation #collection #rekey #composite #overlap #structure #effort #key #data
+
+Proposal: slice-notation 
+ #slice #notation #syntax #ergonomic #indices #defaults #negative_indices #out_of_bounds #array #slicing
+
+Proposal: module-keys 
+ #module_body #secure #communication #trust #authorization #module_loader #opaque #confidentiality #authenticity #permissions
+
+Proposal: class-access-expressions 
+ #class_property #static_members #this_keyword #class_methods #private_methods #anonymous_classes #lexical_scope #function_environment #method_invocation #type_error
+
+Proposal: matching 
+ #pattern_matching #matcher_patterns #value_patterns #structure_patterns #combinator_patterns #object_patterns #array_patterns #exhaustiveness #ergonomics #expressivity
+
+Proposal: built-in-modules 
+ #module #library #modules #import #namespace #resolution #shimming #prototype #optimizations #functionality
+
+Proposal: uniform-date-parse 
+ #date_time #parsing #interchange_format #validation #RFC_3339 #ISO_8601 #out_of_bounds #implementation_defined #timestamp #year_month
+
+Proposal: idl 
+ #interface #description #type #coercion #constructor #enumerable #overloading #syntax #bindings #automated
+
+Proposal: asset-references 
+ #asset #module #dynamic_import #reference #loader #packager #specifier #resource_manager #interoperability #type_system
+
+Proposal: freeze-proto 
+ #prototype #freeze #extensible #derived_class #method #immutability #reflect #superconstructor #objects #api
+
+Proposal: private-declarations 
+ #private_state #class_hierarchy #visibility #friend_class #trusted_code #protected_state #object_scoped #linting_pattern #private_declaration #overriding_behavior
+
+Proposal: emitter 
+ #emitter #transformation #composition #reactive #iterable #filtering #performance #memory #streaming #decoupling
+
+Proposal: reverse-iteration 
+ #repository #template #proposal #github #merge #git #commit #output #hook #spec
+
+Proposal: declarations-in-conditionals 
+ #conditional #visibility #let #const #variable #declaration #transpilation #evaluation #performance #scope
+
+Proposal: readonly-collections 
+ #collection #mutable #immutable #query #method #type #behavioral #subtype #fixed_map #readonly_map
+
+Proposal: eventual-send 
+ #promise #pipelining #delegated #presence #handler #latency #communication #object #asynchronous #network
+
+Proposal: promise-pipelining 
+ #promise #pipelining #operator #syntax #sugar #chaining #method #function #evaluation #desugaring
+
+Proposal: oom 
+ #memory #termination #state #agent #consistency #recovery #doubly_linked_list #preemptive #allocation #error
+
+Proposal: array-filtering 
+ #array #filter #filtering #removal #clarity #confusion #polyfill #partition #function #array_method
+
+Proposal: decimal 
+ #decimal #numeric #precision #rounding #currency #formatting #data_exchange #decimal128 #mathematics #syntax
+
+Proposal: virtualize 
+ #virtualizability #host_objects #deletable_properties #global_object #memory_safety #property_descriptors #interoperability #proxy_mechanism #object_invariants #non_standard_properties
+
+Proposal: csprng 
+ #cryptographically #secure #pseudo #random #number #generation #arraybuffer #typedarray #entropy #typeerror
+
+Proposal: proposal-compartments 
+ #isolated #evaluators #modules #global_object #static_analysis #virtualization #dependencies #prototypes #compartment #module_source
+
+Proposal: deep-path-properties 
+ #deep_path #properties #record #literal #syntax #nested #structure #immutability #typeerror #spread
+
+Proposal: species-extinct 
+ #subclassing #security #implementation #complexity #array #regexp #promise #typedarray #performance #web_compatibility
+
+Proposal: array-equality 
+ #array #equality #comparison #deep #nested #method #prototype #functional #validation #type
+
+Proposal: await.ops 
+ #await_all #await_race #await_allSettled #await_any #concurrency #promise_utilities #asynchronous #simplification #abstraction_leak #syntax
+
+Proposal: double-ended-iterator 
+ #iterator #destructuring #double_ended #generator #array #memory #sequence #context #implementation #helpers
+
+Proposal: debug 
+ #debugging #api #standardization #identity_function #meta_property #interoperability #execution #environment #development #breakpoint
+
+Proposal: modulus 
+ #integer #modulus #remainder #math #optimization #random #signed #division #float #operation
+
+Proposal: extensions 
+ #extension_method #extension_accessor #namespace_object #prototype_method #iterable #set #accessor #binding #operator_precedence #util_function
+
+Proposal: accessors 
+ #grouped #accessor #getter #setter #private #backing #field #decorator #syntax #readability
+
+Proposal: async-do 
+ #asynchronous #context #expression #synchronous #operation #syntax #promise #fetch #await #read_file
+
+Proposal: class-brand-check 
+ #brand_check #instanceof #private_fields #prototype #object_creation #class_based #meta_method #programmers_intention #syntax_conflict #customization
+
+Proposal: limited-array-buffer 
+ #arraybuffer #frozen #readonly #typedarray #dataview #permission #view #range #integration #complexity
+
+Proposal: bigint-math 
+ #bigint #math #numeric #operations #exponentiation #precision #comparison #type_overloading #methods #functions
+
+Proposal: get-intrinsic 
+ #intrinsic #first_run #runtime #robustness #evaluation #caching #environment #dependencies #iterator #function
+
+Proposal: string.cooked 
+ #string_method #template_literal #cooked_string #string_concatenation #escape_sequences #type_error #custom_template #url_encoding #preprocessing #mapping
+
+Proposal: call-this 
+ #operator #binding #function #syntax #receiver #arguments #associative #typeerror #dynamic #interoperability
+
+Proposal: regexp-x-mode 
+ #extended_mode #insignificant_whitespace #comments #line_comments #multiline #pattern_matching #regular_expression #inline_comments #documenting #character_classes
+
+Proposal: regexp-r-escape 
+ #unicode #line_terminator #escape_sequence #pattern #backtracking #atomic_group #character_class #split #fs #regular_expression
+
+Proposal: reversible-string-split 
+ #split_n #remainder #string_split #prefix_split #delimiter #join #parse #key_value #ini #character_delimited
+
+Proposal: once 
+ #callback #function #execution #result #arguments #standardization #promise #returns #wrapper #once
+
+Proposal: type-annotations 
+ #type_annotations #static_typing #type_checking #type_syntax #type_erasure #function_declaration #interface #generics #type_alias #parameter_optional
+
+Proposal: faster-promise-adoption 
+ #promise #adoption #settling #resolution #ticks #thenable #reentrancy #inner #outer #path
+
+Proposal: regexp-atomic-operators 
+ #backtracking #atomic #quantifiers #performance #regex #greedy #non-backtracking #disjunction #syntax #pattern
+
+Proposal: policy-maps 
+ #cache #mapping #memory #eviction #policy #function #LIFO #FIFO #LRU #LFU
+
+Proposal: memoization 
+ #memoization #caching #function_decorator #result_caches #tuples #composite_keys #memory_usage #recursive_functions #cache_management #prototype_method
+
+Proposal: pick-omit 
+ #pick #omit #object #properties #filter #ergonomic #prototype #dynamic #configuration #syntax
+
+Proposal: mass-proxy-revocation 
+ #revocation #membranes #proxies #realm #garbage_collection #signal #memory_optimization #binding #object_graph #weakmap
+
+Proposal: proto-pollution 
+ #prototype #pollution #vulnerability #encapsulation #reflection #prototypes #security #object #data #mitigation
+
+Proposal: await-dictionary 
+ #promise #properties #parallel #waterfall #pollution #entries #object #native #polyfill #asynchronous
+
+Proposal: class-param-decorators 
+ #decorators #metaprogramming #dependency_injection #object_relational_mapping #parameter_validation #http_routing #foreign_function_interface #metadata #argument_validation #parameter_marshaling
+
+Proposal: optional-assign 
+ #optional #chaining #assignment #object #property #eval #default #undifined #syntax #conditional
+
+Proposal: dataview-uint8c 
+ #typed_array #dataview #get_method #set_method #uint8clampedarray #dynamic_dispatch #arraybuffer #functionality #consistency #support
+
+Proposal: stable-format 
+ #formatting #locale #internationalization #date_time #standardization #numerical #string_manipulation #collation #ISO_8601 #display_names
+
+Proposal: negated-in 
+ #negation #operator #readability #developer_experience #guard #expression #type_check #error_proneness #syntax #conditional
+
+Proposal: module-sync-assert 
+ #synchronous #module #evaluation #directive #error #debugging #polyfill #fetch #service_worker #api_stability
+
+Proposal: iterator-unique 
+ #iterator #unique #values #duplicates #collection #mapper #filter #composite_keys #transform #chaining
+
+Proposal: func-obj-decs 
+ #decorator #metaprogramming #function #context #metadata #logging #authorization #http #generator #accessor
+
+Proposal: strict-using 
+ #resource_management #disposable #disposable_stack #async_disposable_stack #symbol_enter #strict_enforcement #cleanup #resource_acquisition #automatic_finalization #host_apis
+
+Proposal: signals 
+ #signal #reactivity #dependency_tracking #memoization #automatic_updates #computed_signals #state_management #efficiency #interoperability #frameworks
+
+Proposal: concurrency-control 
+ #concurrency #governor #token #semaphore #resource #async_iterator #limiting #integration #capacity #control
+
+Proposal: unordered-async 
+ #async #iterator #concurrency #unordered #promise #prototype #helpers #async_iterator #transformation #iteration
+
+Proposal: array.zip 
+ #iteration #synchronization #performance #static_method #iterable #array_zip #utilities #joint_iteration #compatibility #iteration_helpers
+
+Proposal: stabilize 
+ #integrity #traits #frozen #sealed #non-extensible #overridable #non-trapping #proxy #programming #supply-chain
+
+Proposal: import-sync 
+ #synchronous #import #module #registry #dynamic #require #error #loading #builtin #conditional
+
+Proposal: function-sent 
+ #generator #function #yield #execution #context #increment #communication #meta_property #parameter #syntax
+
+Proposal: throw-expressions 
+ #throw #exception #expression #precedence #ambiguity #conditional #arrow_function #parameter_initializer #error_handling #ternary
+
+Proposal: censorship 
+ #directive #sensitive #hide_source #encapsulation #function #refactoring #introspection #implementation #security #confidentiality
+
+Proposal: collection-rekey 
+ #coerce_key #coerce_value #normalization #data_structure #insertion #validation #type_checking #maps #sets #boilerplate
+
+Proposal: isTemplateObject 
+ #template #tag #bundle #trusted #operation #vulnerability #security #interpolation #checking #policy
+
+Proposal: map-emplace 
+ #map #weakmap #default_value #callback_function #grouping #incremental #counter #insert #compute #prefetch
+
+Proposal:  
+ #map #weakmap #getOrInsert #default_value #callback_function #incremental #counting #grouping #lookup #trivial
+
+Proposal: record-tuple 
+ #immutable #data_structure #deeply_immutable #record #tuple #primitives #comparison #syntax #construction #manipulation
+
+Proposal: module-expressions 
+ #module #worker #import #realm #closure #CORS #scheduling #parallelism #structured_clone #content_security_policy
+
+Proposal: pipeline 
+ #pipe_operator #topic_reference #consecutive_operations #readability #method_chaining #deep_nesting #placeholder_token #expression_nesting #fluent_interfaces #data_transformation
+
+Proposal: destructure-private 
+ #private #destructuring #fields #class #instance #syntax #references #properties #local #comparison
+
+Proposal: regexp-buffer-boundaries 
+ #buffer_boundaries #unicode #multiline #regular_expression #pattern #character_escape #input #metacharacter #syntax #readability
+
+Proposal: string.dedent 
+ #dedent #template #multiline #indentation #formatting #readability #whitespace #string #sensible #performance
+
+Proposal: json-parse-immutable 
+ #immutable #data_structure #tuple #record #creation #ergonomic #efficient #json #deeply #structure
+
+Proposal: module-declarations 
+ #module #declaration #bundling #performance #export #import #syntax #scoping #optimization #module_body
+
+Proposal: symbol-predicates 
+ #symbol #predicates #differentiation #uniqueness #forgeable #well_known #weakmap #library #boolean #ecma
+
+Proposal: async-iterator-helpers 
+ #async #iterator #concurrency #prototype #helpers #map #filter #reduce #flatMap #promise
+
+Proposal: iterator-range 
+ #iterator #range #sequence #incremental #decremental #bigint #infinite #arithmetic #step #filter
+
+Proposal: async-context 
+ #variable #context #snapshot #asynchronous #implicit #execution #propagation #closure #value_store #monitoring
+
+Proposal: discards 
+ #void #discard #binding #elision #variable #assignment #parameters #object #array #pattern_matching
+
+Proposal: scriptormodule 
+ #promise #handler #jobs #active_script #module #html #timeouts #javascript_promises #callbacks #finalization_registry
+
+Proposal: structs 
+ #structs #shared_memory #mutex #condition_variable #fixed_layout #parallelism #synchronization #atomicity #memory_model #high_performance
+
+Proposal: extractors 
+ #extractor #destructuring #binding_pattern #assignment_pattern #custom_matcher #data_validation #transformation #pattern_matching #algebraic_data_type #iterable
+
+Proposal: chunking 
+ #iterator #chunking #subsequences #sliding_window #pagination #stream_processing #batch_processing #matrix_operations #running_computations #adjacent_elements
+
+Proposal: immutable-abs 
+ #immutable #arraybuffer #immutable_buffer #typedarray #dataview #frozen #non_detachable #memory_management #performance #binary_data
+
+Proposal: shadowrealm 
+ #shadowrealm #global_environment #intrinsics #built_ins #isolated #api #import_value #evaluate #primitive_value #promise
+
+Proposal: math-sum 
+ #sum #precision #floating_point #iterable #algorithm #reduction #identity #accumulation #performance #summation
+
+Proposal: lazy-import 
+ #performance #lazy_loading #module_caching #evaluation #synchronous #dynamic_import #execution_graph #deferred_loading #namespace_object #asynchronous
+
+Proposal: joint 
+ #iterator #zip #combination #tupling #variadic #mapping #synchronisation #alignment #data_structure #aggregate_error
+
+Proposal: sequencing 
+ #iterator #sequence #concatenate #generator #ergonomic #flatMap #values #immediate #data_structure #laziness
+
+Proposal: esm-phase 
+ #module #worker #import #source #resolution #analysis #ergonomics #tooling #dynamics #csp
+
+Proposal: regexp-legacy 
+ #regexp #static_properties #subclass #cross_realm #backward_compatibility #internal_slots #successful_match #legacy_features #data_property #runtime_environment
+
+Proposal: temporal 
+ #date #time #immutable #calendar #API #proleptic #leap_seconds #timezone #namespace #polyfill
+
+Proposal: decorators 
+ #decorators #metaprogramming #class_methods #class_fields #accessors #auto_accessors #initialization #context_object #function_replacement #static_analysis
+
+Proposal: json-parse-source 
+ #reviver #serialization #bigint #raw_JSON #source_text #context #non_primitive #performance #transformation #input
+
+Proposal: from-async 
+ #async_iterator #promise #lazy_iteration #mapping_callback #data_structure #non_iterable #unit_tests #command_line #error_handling #factory_method
+
+Proposal: resource-management 
+ #keyword1 #resource_management #disposable_container #using_declaration #cleanup_logic #memory_management #iterator_prototype #synchronous_disposal #asynchronous_disposal #suppressed_error
+
+Proposal: float16s 
+ #float16 #typedarray #precision #memory #gpu #webgl #arm #data_view #math #performance
+
+Proposal: decorator-metadata 
+ #metadata #decorators #introspection #validation #serialization #dependency_injection #class_prototype #inheritance #weakmap #declarative_routing
+
+Proposal: source-phase-imports 
+ #module_source #webassembly #dynamic_import #static_analysis #module_loading #caching #security_policies #es_modules #host_execution #prototype_chain
+
+Proposal: time-zone-canon 
+ #time_zone #canonicalization #identifier #implementation #user_experience #specification #timezone_database #cross_implementation #time_zone_link #abstract_operations
+
+Proposal: uint8array-base64 
+ #base64 #hex #uint8array #encoding #decoding #options #buffer #padding #representation #streaming
+
+Proposal: dynamic-code-brand-checks 
+ #code #eval #trusted_types #host #security #context #dynamic #compilation #type_information #object
+
+Proposal: redeclarable-global-eval-vars 
+ #eval #global_environment #var_names #redeclaration #configurable #global_scope #lexical_binding #implementation #complexity #shadowing
+
+Proposal: escape 
+ #escaping #regular_expression #string #special_character #replace #unicode #function #static_method #pattern #context_escape
+
+Proposal: atomics-pause 
+ #microwaits #atomics #locking #threading #efficiency #performance #contention #scheduling #mutexes #wait_times
+
+Proposal: is-error 
+ #error_handling #error_reporting #serialization #debugging #type_validation #cross_realm #brand_checking #native_errors #prototype_methods #structured_clone
+
+Proposal: try 
+ #promise #synchronous #execution #function #exception #semantics #ergonomic #wrap #parallel #behavior
+
+Proposal: iterator-helpers 
+ #iterator #map #filter #take #drop #flatMap #reduce #toArray #some #every
+
+Proposal: json-modules 
+ #json #module #import #attributes #parsing #interoperability #security #mime #export #ecosystem
+
+Proposal: import-attributes 
+ #import_attributes #module_imports #json_modules #key_value #type_attribute #data_security #module_specifier #interoperability #semantic_integration #developer_experience
+
+Proposal: regexp-modifiers 
+ #modifiers #flags #subexpression #case_insensitivity #multiline #dot_all #configuration #syntax_highlighter #dynamic #text_processing
+
+Proposal: set-methods 
+ #methods #union #intersection #difference #symmetric_difference #subset #superset #disjoint #numeric #properties
+
+Proposal: named-capture-groups 
+ #named_capturing_group #regular_expression #backreference #alternative #group_name #match_result #property_enumeration #syntax #semantics #input_consumption
+
+Proposal: arraybuffer-transfer 
+ #arraybuffer #transfer #detached #ownership #reallocation #memory_management #serialization #performance #methodology #data_structure
+
+Proposal: promise-defer 
+ #promise #executor #resolver #rejector #asynchronous #callback #utility #error_handling #data #boilerplate
+
+Proposal: array-grouping 
+ #grouping #array #object #map #iterables #method #prototype #key #data #tuples
+
+Proposal: resizable 
+ #arraybuffer #sharedarraybuffer #resizability #memory_management #typedarray #performance #security #in_place #growth #shrinking
+
+Proposal: regexp-v-flag 
+ #difference #intersection #nested #character_class #unicode #properties #regular_expression #set_operations #syntax #semantics
+
+Proposal: nonblocking 
+ #asynchronous #wait #blocking #agents #polyfill #implementation #test_cases #examples #non_blocking #execution
+
+Proposal: usv-string 
+ #unicode #well_formed #surrogate #validation #string #UTF_16 #replacement_character #performance #algorithm #encode
+
+Proposal: change-array-by-copy 
+ #array #copy #immutable #typedarray #method #function #reversed #sorted #spliced #subclass
+
+Proposal: symbols-weakmap 
+ #weakmap #symbol #garbage_collection #referencing #primitive #immutability #membrane #identity #records #tuples
+
+Proposal: hashbang-grammar 
+ #hashbang #cli #parser #source_text #standardization #script #module #interpreter #byte_order_mark #comments
+
+Proposal: find-last 
+ #find_last #find_last_index #performance #time_complexity #array #typed_array #element #index #mutation #iteration
+
+Proposal: error-cause 
+ #error_handling #contextual_information #exception_design #chained_errors #error_instances #diagnosis #augmented_errors #cause_property #standardization #debug_tooling
+
+Proposal: static-blocks 
+ #static_initialization #class_definition #lexical_scope #privileged_access #private_state #static_analysis #multi_step_initialization #decorators #field_initialization #instance_private
+
+Proposal: object-has 
+ #object #method #property #prototype #accessibility #redefinition #inheritance #polyfill #dictionary #eslint
+
+Proposal: at 
+ #negative_indexing #indexable #method #array #string #typedarray #property_access #polyfill #webidl #dom
+
+Proposal: private-fields-in-in 
+ #private_field #brand_check #boolean #getters #class_syntax #exception_handling #in_operator #fallback_behavior #private_access #data_encapsulation
+
+Proposal: await 
+ #await #modules #asynchronous #promises #import #execution #dynamism #initialization #dependencies #resource
+
+Proposal: regex-match-indices 
+ #array #indices #captured #substrings #named #properties #regexp #exec #flag #performance
+
+Proposal: private-methods 
+ #fields #private #syntax #repository #archive #canonical #status #proposal #historical #faq
+
+Proposal: numeric_separators 
+ #numeric_literal #readability #separator #underscore #floating_point #integer #financial #parsing #syntax_error #bigint
+
+Proposal: logical-assignment 
+ #logical_operator #assignment_expression #short_circuiting #terse_code #default_value #setter #performance #property_assignment #convenience_operator #coalescing
+
+Proposal: weakrefs 
+ #weak_reference #finalization_registry #garbage_collection #memory_management #caching #resource_leaks #webassembly #memory_usage #iterable_weakmap #finalizers
+
+Proposal: promise-any 
+ #promise #any #aggregate_error #iterable #error_handling #short_circuit #promise_combination #fulfilled #rejected #asynchronous
+
+Proposal: replace-all 
+ #string #substring #global #regexp #method #api #replace #optimization #occurrences #split
+
+Proposal: import-meta 
+ #module #metadata #module_system #script_element #host_environment #resource_resolution #url #package_json #dynamic_loading #extensibility
+
+Proposal: nullish-coalescing 
+ #null #undefined #property_access #default_value #falsy_value #equality_check #optional_chaining #complementary_operator #nullary_coalescing #operator
+
+Proposal: chaining 
+ #optional #chaining #operator #nullish #short-circuiting #tree #property #access #function #method
+
+Proposal: for-in-mechanics 
+ #for-in #enumeration #interop #properties #enumerable #inheritance #object #prototype #applied #ordering
+
+Proposal: globalThis 
+ #global_object #window #windowproxy #shadow_global #context #writable #configurable #navigation #csp #ses
+
+Proposal: allsettled 
+ #promise #settled #fulfilled #rejected #combinators #asynchronous #responses #results #requests #errors
+
+Proposal: bigint 
+ #bigint #arbitrary #precision #integers #operators #comparisons #interoperation #serialization #typed_arrays #cryptography
+
+Proposal: dynamic-import 
+ #dynamic_loading #module_nation #promises #lazy_loading #runtime_specifier #module_dependencies #asynchronous_loading #host_environment #tree_shaking #performance
+
+Proposal: matchall 
+ #string #regex #matches #capturing #iterator #global #sticky #performance #mutate #groups
+
+Proposal: flat 
+ #flattening #mapping #nested_arrays #array_methods #element_removal #higher_order_function #iterable #transformation #collection #concatenation
+
+Proposal: trims 
+ #string #trim #whitespace #consistency #aliasing #compatibility #standardization #implementation #specification #testing
+
+Proposal: well-formed-stringify 
+ #unicode #utf8 #utf16 #json #escape_sequences #surrogate #code_points #validity #well_formed #representation
+
+Proposal: object-from-entries 
+ #key_value_pairs #iterable #object_transformation #map #array_manipulation #json_serialization #data_structure #property_transformation #data_model #metaprogramming
+
+Proposal: function-to-string 
+ #function #to_string #reflection #serialization #stringification #prototype #method #customization #overriding #descriptors
+
+Proposal: symbol-description 
+ #symbol #description #primitive #metadata #property #declaration #enhancement #reflection #identification #type
+
+Proposal: json-superset 
+ #json #syntax #characters #serialization #complexity #conformance #parsing #validity #unicode #line_terminators
+
+Proposal: optional-catch 
+ #binding #grammar #omission #error #try #catch #feature #programming #variable #syntax
+
+Proposal: async-iteration 
+ #asynchronous #iterator #promise #yield #request_queue #for_await_of #async_generator #async_iterable #stream #data_access
+
+Proposal: finally 
+ #promise #callback #cleanup #settled #rejected #fulfilled #loading #promise_library #polyfill #function
+
+Proposal: unicode-escapes 
+ #unicode #property #regex #escape #character #script #pattern #compact #performance #library
+
+Proposal: lookbehind 
+ #lookbehind #zero_width #assertions #capture_groups #negative_assertion #greedy_quantifiers #backtracking #pattern_matching #dollar_amount #regular_expression
+
+Proposal: object-rest-spread 
+ #rest_properties #spread_properties #object_destructuring #object_literals #enumerable #property_keys #transpilers #object_initializers #property_values #copy
+
+Proposal: named-groups 
+ #named_capture #backreference #regex #destructuring #replacement #groups #identifier #syntax #overlapping #refactoring
+
+Proposal: dot-all 
+ #dot_all #regex #multiline #line_terminator #character #flags #unicode #pattern #accessor #test
+
+Proposal: template-literal-lift 
+ #syntax #tagged #transformations #expressions #interpolation #functionality #literals #performance #extensibility #unicode
+
+Proposal: atomics 
+ #shared_memory #atomics #multithreading #synchronization #concurrency #memory_model #data_race #shared_array_buffer #thread_safety #performance
+
+Proposal: async-await 
+ #promises #generators #asynchronous #compilation #es5 #execution #vanilla #browser #runtimes #example
+
+Proposal: function-commas 
+ #trailing_comma #function_parameter #code_style #version_control #blame #syntax #grammar #parameter_list #code_attribution #transpilation
+
+Proposal: object-gopds 
+ #object #descriptors #copy #properties #composition #prototypes #getters #setters #mixins #boilerplate
+
+Proposal: string-padding 
+ #string_padding #string_manipulation #padding #fill_string #formatting #monospaced #efficiency #developer_productivity #string_functions #specification
+
+Proposal: object-values-entries 
+ #object #values #entries #iteration #serialization #map #key_value_pairs #consistency #hash_filter #arrays
+
+Proposal: array-includes 
+ #includes #method #array #semantics #equality #comparison #element #includes #from_index #typed_arrays
+

@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Concurrency Control
-Authors: Michael Ficarra, Luca Casonato, Kevin Gibbons
-Champions: Michael Ficarra, Luca Casonato
-Last Presented: July 2024
-Stage Upgrades: 
-Stage 1: 2024-07-15  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Concurrency Control<br>Authors: Michael Ficarra, Luca Casonato, Kevin Gibbons<br>Champions: Michael Ficarra, Luca Casonato<br>Last Presented: July 2024<br>Stage Upgrades:<br>Stage 1: 2024-07-15  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-10-25
-Keywords: #concurrency #governor #counting #semaphore #protocol #resource_management #async_iterator #promise #task_limiting #integration
-GitHub Link: https://github.com/tc39/proposal-concurrency-control
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#concurrency-control-presenter-mf-and-lca
-
+Stage 4: NA<br>Last Commit: 2024-10-25<br>Keywords: #concurrency #governor #token #semaphore #resource #async_iterator #limiting #integration #capacity #control<br>GitHub Link: https://github.com/tc39/proposal-concurrency-control <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#concurrency-control-presenter-mf-and-lca
 # Proposal Description:
 JavaScript Concurrency Control Proposal
 =======================================
@@ -178,3 +165,4 @@ While a counting semaphore is a common concurrency control mechanism, there are 
 Because of this variety of use cases, it is important to give developers the flexibility to use their own concurrency control mechanisms with built in JavaScript APIs.
 
 The `CountingGovernor` class provides a simple and common concurrency control mechanism that can be used in many cases. It is expected that many developers will use `CountingGovernor` for their concurrency control needs. However, because APIs don't explicitly take a `CountingGovernor` instance, but any object that implements the `Governor` interface, developers can use their own concurrency control mechanisms if they need to.
+<br>

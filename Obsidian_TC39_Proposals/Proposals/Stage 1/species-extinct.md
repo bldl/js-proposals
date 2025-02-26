@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Semantic Change]]
-Human Validated: No
-Title: Restrict subclassing support in built-in methods
-Authors: Yulia Startsev, Shu-yu Guo
-Champions: Yulia Startsev, Shu-yu Guo
-Last Presented: June 2020
-Stage Upgrades: 
-Stage 1: 2020-05-21  
+[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: Restrict subclassing support in built-in methods<br>Authors: Yulia Startsev, Shu-yu Guo<br>Champions: Yulia Startsev, Shu-yu Guo<br>Last Presented: June 2020<br>Stage Upgrades:<br>Stage 1: 2020-05-21  
 Stage 2: 2020-07-23  
 Stage 2.7: NA  
 Stage 3: 2020-09-12  
-Stage 4: NA  
-Last Commit: 2024-04-30
-Keywords: #subclassing #@@species #implementation #complexity #security #performance #typedarray #incompatibility #array #regexp
-GitHub Link: https://github.com/tc39/proposal-rm-builtin-subclassing
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-3.md#restrict-subclassing-support-for-built-in-methods-stage-1
-
+Stage 4: NA<br>Last Commit: 2024-04-30<br>Keywords: #subclassing #security #implementation #complexity #array #regexp #promise #typedarray #performance #web_compatibility<br>GitHub Link: https://github.com/tc39/proposal-rm-builtin-subclassing <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-3.md#restrict-subclassing-support-for-built-in-methods-stage-1
 # Proposal Description:
 # Restricting subclassing support in built-in methods
 
@@ -504,3 +491,4 @@ Thus, the working hypothesis is that most of the real uses are false positives d
 If removing Type III and Type IV is not web compatible, this proposal shall be withdrawn.
 
 If removing Type II is not web compatible (or if there is renewed consensus in TC39 to uphold developer intuition) but removing Type III and Type IV subclassing is web compatible, then this proposal shall explore alternative ways to support only Type II with less implementation and security burden. If no good alternative arises, and implementers deem the benefits of removing Type III and Type IV alone does not justify changing behavior, this proposal shall be withdrawn.
+<br>

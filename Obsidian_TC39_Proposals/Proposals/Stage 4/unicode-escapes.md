@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: RegExp Unicode Property Escapes
-Authors: Mathias Bynens
-Champions: Brian Terlson, Daniel Ehrenberg, Mathias Bynens
-Last Presented: January 2018
-Stage Upgrades: 
-Stage 1: 2016-07-27  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: RegExp Unicode Property Escapes<br>Authors: Mathias Bynens<br>Champions: Brian Terlson, Daniel Ehrenberg, Mathias Bynens<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2016-07-27  
 Stage 2: 2016-09-28  
 Stage 3: 2017-03-22  
 Stage 4: 2018-01-24  
-Stage 2.7: NA  
-Last Commit: 2023-03-20
-Keywords: #unicode #property #regex #escape #symbol #character #pattern #matching #build_time #unicode_standard
-GitHub Link: https://github.com/tc39/proposal-regexp-unicode-property-escapes
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-24.md#conclusionresolution-1
-
+Stage 2.7: NA<br>Last Commit: 2023-03-20<br>Keywords: #unicode #property #regex #escape #character #script #pattern #compact #performance #library<br>GitHub Link: https://github.com/tc39/proposal-regexp-unicode-property-escapes <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-24.md#conclusionresolution-1
 # Proposal Description:
 # ECMAScript proposal: Unicode property escapes in regular expressions
 
@@ -320,3 +307,4 @@ const regexIdentifierName = /^(?:[$_\p{ID_Start}])(?:[$\u200C\u200D\p{ID_Continu
     * [online demo](https://mothereff.in/regexpu#input=/%5Cp%7BLetter%7D/u&unicodePropertyEscape=1)
     * [exhaustive list of supported properties](https://github.com/mathiasbynens/regexpu-core/blob/master/property-escapes.md)
     * [Babel plugin](https://github.com/mathiasbynens/babel-plugin-transform-unicode-property-regex)
+<br>

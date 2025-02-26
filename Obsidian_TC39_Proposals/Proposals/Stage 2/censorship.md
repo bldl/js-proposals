@@ -1,21 +1,8 @@
-[[Stage 2]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Function implementation hiding
-Authors: Domenic Denicola, Michael Ficarra
-Champions: Michael Ficarra
-Last Presented: June 2020
-Stage Upgrades: 
-Stage 1: 2018-01-09  
+[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Function implementation hiding<br>Authors: Domenic Denicola, Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: June 2020<br>Stage Upgrades:<br>Stage 1: 2018-01-09  
 Stage 2: 2019-03-15  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2019-12-02
-Keywords: #implementation #encapsulation #directives #refactoring #toString #stack_trace #source_hiding #security #library_code #polyfills
-GitHub Link: https://github.com/tc39/proposal-function-implementation-hiding
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-2.md#function-implementation-hiding-for-stage-3
-
+Stage 4: NA<br>Last Commit: 2019-12-02<br>Keywords: #directive #sensitive #hide_source #encapsulation #function #refactoring #introspection #implementation #security #confidentiality<br>GitHub Link: https://github.com/tc39/proposal-function-implementation-hiding <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-2.md#function-implementation-hiding-for-stage-3
 # Proposal Description:
 # Function implementation hiding proposal
 
@@ -312,3 +299,4 @@ Since applications are boostrapped by a the host, this would most likely be done
 The conclusion of the January 2018 TC39 meeting was to split these efforts, focusing this proposal on the in-band mechanism, and separately pursuing out-of-band mechanisms with individual host environments. However, shortly afterward discussions with JavaScript engine implementers revealed the basic premise behind the memory-saving mechanism was flawed. In engines that preserve the source text for lazy compilation, a directive to hide the source text from user land code wouldn't, in fact, save memory!
 
 As such, work on the out-of-band memory-saving switch for `Function.prototype.toString` has not progressed. It may pick up again, perhaps if engines change their lazy compilation techniques. And in that case, this appendix will be updated to direct you toward those efforts.
+<br>

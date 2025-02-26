@@ -1,15 +1,2 @@
-[[Inactive]]
-Classification:
-Human Validated: No
-Title: from ... import
-Authors: Bradley Farias
-Champions: Never presented; preliminary feedback about syntax cost not being worth the weight
-Last Presented: None
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://github.com/bmeck/proposal-from-import
-GitHub Note Link: None
-
-# Proposal Description:
+[[Inactive]]<br>Classification<br>Human Validated: No<br>Title: from ... import<br>Authors: Bradley Farias<br>Champions: Never presented; preliminary feedback about syntax cost not being worth the weight<br>Last Presented: None<br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://github.com/bmeck/proposal-from-import <br>GitHub Note Link: None
+# Proposal Description:<br>

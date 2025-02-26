@@ -1,15 +1,2 @@
-[[Stage 1]]
-Classification:
-Human Validated: No
-Title: Legacy reflection features for functions in JavaScript
-Authors: Mark Miller, Claude Pache, Jack Works
-Champions: Mark Miller, Claude Pache, Jack Works
-Last Presented: February 2020
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://github.com/claudepache/es-legacy-function-reflection
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#legacy-reflection-features-for-functions-in-javascript-for-stage-1
-
-# Proposal Description:
+[[Stage 1]]<br>Classification<br>Human Validated: No<br>Title: Legacy reflection features for functions in JavaScript<br>Authors: Mark Miller, Claude Pache, Jack Works<br>Champions: Mark Miller, Claude Pache, Jack Works<br>Last Presented: February 2020<br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://github.com/claudepache/es-legacy-function-reflection <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#legacy-reflection-features-for-functions-in-javascript-for-stage-1
+# Proposal Description:<br>

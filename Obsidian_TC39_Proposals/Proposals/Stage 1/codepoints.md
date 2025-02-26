@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: String.prototype.codePoints
-Authors: Ingvar Stepanyan
-Champions: Mathias Bynens
-Last Presented: May 2018
-Stage Upgrades: 
-Stage 1: 2017-11-29  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: String.prototype.codePoints<br>Authors: Ingvar Stepanyan<br>Champions: Mathias Bynens<br>Last Presented: May 2018<br>Stage Upgrades:<br>Stage 1: 2017-11-29  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2019-10-21
-Keywords: #code_points #iterator #tokenise #lexers #identifier #position #code_point #lookahead_iterator #numerical #string_values
-GitHub Link: https://github.com/tc39/proposal-string-prototype-codepoints
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-22.md#stringprototypecodepoints-for-stage-2
-
+Stage 4: NA<br>Last Commit: 2019-10-21<br>Keywords: #code_points #iterator #tokenise #lexers #identifier #unicode #grapheme #position #numerical #performance<br>GitHub Link: https://github.com/tc39/proposal-string-prototype-codepoints <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-22.md#stringprototypecodepoints-for-stage-2
 # Proposal Description:
 # String.prototype.codePoints
 
@@ -147,3 +134,4 @@ You can view the rendered spec [here](https://tc39.github.io/proposal-string-pro
 ## Implementations
 
 - [Polyfill](https://github.com/zloirock/core-js#stringcodepoints)
+<br>

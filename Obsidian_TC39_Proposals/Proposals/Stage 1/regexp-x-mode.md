@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: RegExp Extended Mode and Comments
-Authors: Ron Buckton
-Champions: Ron Buckton
-Last Presented: October 2021
-Stage Upgrades: 
-Stage 1: 2021-10-15  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: RegExp Extended Mode and Comments<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: October 2021<br>Stage Upgrades:<br>Stage 1: 2021-10-15  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2021-10-28
-Keywords: #regular_expression #extended_mode #comments #insignificant_whitespace #line_comments #multi_line #pattern_matching #document #syntax #flag
-GitHub Link: https://github.com/tc39/proposal-regexp-x-mode
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#regexp-extended-mode-and-comments
-
+Stage 4: NA<br>Last Commit: 2021-10-28<br>Keywords: #extended_mode #insignificant_whitespace #comments #line_comments #multiline #pattern_matching #regular_expression #inline_comments #documenting #character_classes<br>GitHub Link: https://github.com/tc39/proposal-regexp-x-mode <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#regexp-extended-mode-and-comments
 # Proposal Description:
 <!--#region:intro-->
 # Regular Expression Extended Mode and Comments for ECMAScript
@@ -234,3 +221,4 @@ The following is a high-level list of tasks to progress through each stage of th
 [Implementation1]: #todo
 [Implementation2]: #todo
 [Ecma262PullRequest]: #todo
+<br>

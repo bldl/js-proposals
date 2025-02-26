@@ -1,21 +1,8 @@
-[[Inactive]]
-Classification: [[API Change]]
-Human Validated: No
-Title: WeakRefs cleanupSome
-Authors: Yulia Startsev, Daniel Ehrenberg
-Champions: Withdrawn; subsumed by WebAssembly JS Promise Integration, which avoids the long task issue
-Last Presented: None
-Stage Upgrades: 
-Stage 1: 2020-07-06  
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: WeakRefs cleanupSome<br>Authors: Yulia Startsev, Daniel Ehrenberg<br>Champions: Withdrawn; subsumed by WebAssembly JS Promise Integration, which avoids the long task issue<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2020-07-06  
 Stage 2: 2020-07-22  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-01-04
-Keywords: #finalization_registry #cleanup #garbage_collection #weak_reference #observability #event_loop #background_thread #synchronous #cleanup_callback #webassembly
-GitHub Link: https://github.com/tc39/proposal-cleanup-some
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
-
+Stage 4: NA<br>Last Commit: 2022-01-04<br>Keywords: #finalizationregistry #cleanup #garbage_collection #weakref #synchronization #callback #interoperability #worker #long_job #webassembly<br>GitHub Link: https://github.com/tc39/proposal-cleanup-some <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
 # Proposal Description:
 # The `FinalizationRegistry.prototype.cleanupSome` Method
 
@@ -70,3 +57,4 @@ Splitting `cleanupSome` into a separate proposal would make it clear to the Java
 ## History
 
 This API was originally proposed in a form which would be WebAssembly-specific. See the [historical document - Support for long wasm jobs](https://github.com/tc39/proposal-weakrefs/wiki/Support-for-long-wasm-jobs) for more details.
+<br>

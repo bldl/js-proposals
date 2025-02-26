@@ -1,21 +1,8 @@
-[[Stage 2]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Pipeline Operator
-Authors: J. S. Choi, James DiGioia, Ron Buckton, Tab Atkins
-Champions: J. S. Choi, Ron Buckton, Tab Atkins
-Last Presented: August 2021
-Stage Upgrades: 
-Stage 1: 2017-12-26  
+[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Pipeline Operator<br>Authors: J. S. Choi, James DiGioia, Ron Buckton, Tab Atkins<br>Champions: J. S. Choi, Ron Buckton, Tab Atkins<br>Last Presented: August 2021<br>Stage Upgrades:<br>Stage 1: 2017-12-26  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2023-11-30
-Keywords: #pipe #operator #placeholder #expression #evaluation #nesting #binding #method #chaining #syntax
-GitHub Link: https://github.com/tc39/proposal-pipeline-operator
-GitHub Note Link: None
-
+Stage 4: NA<br>Last Commit: 2023-11-30<br>Keywords: #pipe_operator #topic_reference #consecutive_operations #readability #method_chaining #deep_nesting #placeholder_token #expression_nesting #fluent_interfaces #data_transformation<br>GitHub Link: https://github.com/tc39/proposal-pipeline-operator <br>GitHub Note Link: None
 # Proposal Description:
 # Pipe Operator (`|>`) for JavaScript
 
@@ -1026,3 +1013,4 @@ which was set aside in favor of single-operator proposals.
 This split mix might return as a proposal after Hack pipes.
 
 [split mix]: https://github.com/tc39/proposal-pipeline-operator/wiki#proposal-3-split-mix
+<br>

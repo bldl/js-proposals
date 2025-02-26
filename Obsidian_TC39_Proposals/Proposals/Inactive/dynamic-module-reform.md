@@ -1,21 +1,8 @@
-[[Inactive]]
-Classification: [[Semantic Change]]
-Human Validated: No
-Title: Dynamic Module Reform
-Authors: Caridy Patiño
-Champions: Withdrawn: we decided to preserve the current semantics
-Last Presented: None
-Stage Upgrades: 
-Stage 1: 2016-12-14  
+[[Inactive]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: Dynamic Module Reform<br>Authors: Caridy Patiño<br>Champions: Withdrawn: we decided to preserve the current semantics<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2016-12-14  
 Stage 2: 2017-03-22  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2017-04-06
-Keywords: #module_records #dynamic_modules #execution_order #pending_imports #circular_dependencies #module_evaluation #module_instantiation #import_binding #source_text #error_handling
-GitHub Link: https://github.com/tc39/proposal-dynamic-modules
-GitHub Note Link: None
-
+Stage 4: NA<br>Last Commit: 2017-04-06<br>Keywords: #dynamic #module #evaluation #import #binding #circular #syntax #semantics #instantiation #records<br>GitHub Link: https://github.com/tc39/proposal-dynamic-modules <br>GitHub Note Link: None
 # Proposal Description:
 # Dynamic Module Reform (REJECTED)
 
@@ -103,3 +90,4 @@ Most of the discussion around this topic is condenced in the meetings notes from
 ## Spec
 
 You can view the spec rendered as [HTML](https://rawgit.com/tc39/proposal-dynamic-modules/master/index.html).
+<br>

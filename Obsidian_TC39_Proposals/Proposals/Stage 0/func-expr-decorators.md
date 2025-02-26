@@ -1,15 +1,2 @@
-[[Stage 0]]
-Classification:
-Human Validated: No
-Title: Function expression decorators
-Authors: Igor Minar
-Champions: Igor Minar
-Last Presented: 
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://goo.gl/8MmCMG
-GitHub Note Link: None
-
-# Proposal Description:
+[[Stage 0]]<br>Classification<br>Human Validated: No<br>Title: Function expression decorators<br>Authors: Igor Minar<br>Champions: Igor Minar<br>Last Presented: <br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://goo.gl/8MmCMG <br>GitHub Note Link: None
+# Proposal Description:<br>

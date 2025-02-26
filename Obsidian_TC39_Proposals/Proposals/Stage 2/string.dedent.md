@@ -1,21 +1,8 @@
-[[Stage 2]]
-Classification: [[API Change]] [[Syntactic Change]]
-Human Validated: No
-Title: String.dedent
-Authors: Misha Kaletsky, Hemanth HM, Justin Ridgewell
-Champions: Hemanth HM, Justin Ridgewell
-Last Presented: June 2022
-Stage Upgrades: 
-Stage 1: 2020-05-29  
+[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: String.dedent<br>Authors: Misha Kaletsky, Hemanth HM, Justin Ridgewell<br>Champions: Hemanth HM, Justin Ridgewell<br>Last Presented: June 2022<br>Stage Upgrades:<br>Stage 1: 2020-05-29  
 Stage 2: 2022-06-07  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2023-08-21
-Keywords: #dedent #template_literal #multiline #whitespace #indentation #performance #readability #code_generation #tagged_templates #string_processing
-GitHub Link: https://github.com/tc39/proposal-string-dedent
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#stringdedent
-
+Stage 4: NA<br>Last Commit: 2023-08-21<br>Keywords: #dedent #template #multiline #indentation #formatting #readability #whitespace #string #sensible #performance<br>GitHub Link: https://github.com/tc39/proposal-string-dedent <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#stringdedent
 # Proposal Description:
 # String dedent
 
@@ -229,3 +216,4 @@ To summarise the [problem](#problem) section above:
 - [2020-09 Committee Meeting](https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-23.md#stringdedent-for-stage-1)
 - [2022-03 Committee Meeting](https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-30.md#stringdedent-status-update)
 - [2022-06 Committee Meeting](https://github.com/tc39/notes/blob/main/meetings/2022-06/jun-07.md#stringdedent)
+<br>

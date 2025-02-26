@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Logical Assignment Operators
-Authors: Justin Ridgewell
-Champions: Justin Ridgewell ,  Hemanth HM
-Last Presented: July 2020
-Stage Upgrades: 
-Stage 1: 2018-03-24  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Logical Assignment Operators<br>Authors: Justin Ridgewell<br>Champions: Justin Ridgewell ,  Hemanth HM<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2018-03-24  
 Stage 2: NA  
 Stage 2.7: NA  
-Stage 3: 2020-04-01  
-Stage 4: 2020-07-21  
-Last Commit: 2020-07-21
-Keywords: #logical #assignment #operators #short_circuiting #terse #setters #expressions #convenience #mathematical #performance
-GitHub Link: https://github.com/tc39/proposal-logical-assignment
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#logical-assignment-for-stage-4
-
+Stage 3: 2020-03-15  
+Stage 4: 2020-07-21<br>Last Commit: 2020-07-21<br>Keywords: #logical_operator #assignment_expression #short_circuiting #terse_code #default_value #setter #performance #property_assignment #convenience_operator #coalescing<br>GitHub Link: https://github.com/tc39/proposal-logical-assignment <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#logical-assignment-for-stage-4
 # Proposal Description:
 # proposal-logical-assignment
 
@@ -146,3 +133,4 @@ See discussion of short-circuit semantics in [#3](https://github.com/tc39/propos
 - [CoffeeScript](http://coffeescript.org/#try:a%20%3D%201%0Ab%20%3D%202%0A%0A%0A%23%20%22Or%20Or%20Equals%22%20(or%2C%20the%20Mallet%20operator%20%3Awink%3A)%0Aa%20%7C%7C%3D%20b%3B%0Aa%20%7C%7C%20(a%20%3D%20b)%3B%0A%0A%23%20%22And%20And%20Equals%22%0Aa%20%26%26%3D%20b%3B%0Aa%20%26%26%20(a%20%3D%20b)%3B%0A%0A%23%20Eventually....%0A%23%20%22QQ%20Equals%22%0A%23a%20%3F%3F%3D%20b%3B%0A%23a%20%3F%3F%20(a%20%3D%20b)%3B%0A)
 - [C#'s null coalescing assignment](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-8.0/null-coalescing-assignment#detailed-design)
 - My very first [Babel PR](https://github.com/babel/babel/pull/516) (back when it was still [6to5](https://github.com/babel/babel/tree/ecd85f53b4764ada862537aa767699814f1f1fe2)). 😄
+<br>

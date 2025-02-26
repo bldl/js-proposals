@@ -1,21 +1,8 @@
-[[Stage 2]]
-Classification: [[API Change]]
-Human Validated: No
-Title: isTemplateObject
-Authors: Mike Samuel, Krzysztof Kotowicz
-Champions: Daniel Ehrenberg, Jordan Harband
-Last Presented: April 2024
-Stage Upgrades: 
-Stage 1: 2019-03-27  
+[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: isTemplateObject<br>Authors: Mike Samuel, Krzysztof Kotowicz<br>Champions: Daniel Ehrenberg, Jordan Harband<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2019-03-27  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2024-05-30  
-Stage 4: NA  
-Last Commit: 2024-10-20
-Keywords: #template #secure #vulnerability #interpolation #trust #tag_function #execution #array #string #context
-GitHub Link: https://github.com/tc39/proposal-array-is-template-object
-GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-10.md#arrayistemplateobject-next-steps
-
+Stage 4: NA<br>Last Commit: 2024-10-20<br>Keywords: #template #tag #bundle #trusted #operation #vulnerability #security #interpolation #checking #policy<br>GitHub Link: https://github.com/tc39/proposal-array-is-template-object <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-10.md#arrayistemplateobject-next-steps
 # Proposal Description:
 # Reflect.isTemplateObject (stage [2](https://tc39.es/process-document/))
 
@@ -199,3 +186,4 @@ If the [literals proposal](https://github.com/mikewest/tc39-proposal-literals) w
 [contextual autoescaping]: https://rawgit.com/mikesamuel/sanitized-jquery-templates/trunk/safetemplate.html
 [TT-block]: https://w3c.github.io/webappsec-trusted-types/dist/spec/#abstract-opdef-should-trusted-type-policy-creation-be-blocked-by-content-security-policy
 [Create a Trusted Type]: https://w3c.github.io/webappsec-trusted-types/dist/spec/#create-a-trusted-type-algorithm
+<br>

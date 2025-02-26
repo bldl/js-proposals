@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Maximally minimal mixins
-Authors: Justin Fagnani
-Champions: Justin Fagnani
-Last Presented: January 2018
-Stage Upgrades: 
-Stage 1: 2017-07-25  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Maximally minimal mixins<br>Authors: Justin Fagnani<br>Champions: Justin Fagnani<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2017-07-25  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2019-12-06
-Keywords: #mixins #inheritance #subclass_factory #declarative_syntax #static_analysis #ergonomics #composition #traits #protocols #instanceof
-GitHub Link: https://github.com/justinfagnani/proposal-mixins
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiie-maximally-minimal-mixins-proposal
-
+Stage 4: NA<br>Last Commit: 2019-12-06<br>Keywords: #mixin #inheritance #declarative #syntax #static_analysis #composition #protocols #trait #ergonomics #factory<br>GitHub Link: https://github.com/justinfagnani/proposal-mixins <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiie-maximally-minimal-mixins-proposal
 # Proposal Description:
 # Maximally Minimal Mixins
 @justinfagnani
@@ -500,3 +487,4 @@ class C extends M(Object) {
   subclassMethod() {/*...*/}
 }
 ```
+<br>

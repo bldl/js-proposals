@@ -1,21 +1,8 @@
-[[Stage 3]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Explicit Resource Management
-Authors: Ron Buckton
-Champions: Ron Buckton
-Last Presented: March 2023
-Stage Upgrades: 
-Stage 1: 2018-01-25  
+[[Stage 3]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Explicit Resource Management<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: March 2023<br>Stage Upgrades:<br>Stage 1: 2018-01-25  
 Stage 2: 2019-11-10  
 Stage 2.7: NA  
 Stage 3: 2023-01-03  
-Stage 4: NA  
-Last Commit: 2024-06-15
-Keywords: #resource_management #disposable #cleanup #using_declaration #asynchronous_disposal #disposable_stack #async_disposable_stack #iterator_prototype #assertion_management #scope_management
-GitHub Link: https://github.com/tc39/proposal-explicit-resource-management
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#explicit-resource-management-for-stage-3
-
+Stage 4: NA<br>Last Commit: 2024-06-15<br>Keywords: #keyword1 #resource_management #disposable_container #using_declaration #cleanup_logic #memory_management #iterator_prototype #synchronous_disposal #asynchronous_disposal #suppressed_error<br>GitHub Link: https://github.com/tc39/proposal-explicit-resource-management <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#explicit-resource-management-for-stage-3
 # Proposal Description:
 # ECMAScript Explicit Resource Management
 
@@ -1932,3 +1919,4 @@ The following is a high-level list of tasks to progress through each stage of th
 [wrapper]: #wrapper
 [callback-adapting wrapper]: #adapter
 [single-use disposer]: #disposer
+<br>

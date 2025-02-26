@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: RegExp \R Escape
-Authors: Ron Buckton
-Champions: Ron Buckton
-Last Presented: December 2021
-Stage Upgrades: 
-Stage 1: 2021-10-15  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: RegExp \R Escape<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: December 2021<br>Stage Upgrades:<br>Stage 1: 2021-10-15  
 Stage 2: 2021-12-04  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2021-12-04
-Keywords: #unicode #line_terminator #escape_sequence #pattern #atomic_groups #backtracking #character_class #flags #code_points #regexp
-GitHub Link: https://github.com/tc39/proposal-regexp-r-escape
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#regexp-r-escape-for-stage-2
-
+Stage 4: NA<br>Last Commit: 2021-12-04<br>Keywords: #unicode #line_terminator #escape_sequence #pattern #backtracking #atomic_group #character_class #split #fs #regular_expression<br>GitHub Link: https://github.com/tc39/proposal-regexp-r-escape <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#regexp-r-escape-for-stage-2
 # Proposal Description:
 <!--#region:intro-->
 # Regular Expression `\R` Escape for ECMAScript
@@ -171,3 +158,4 @@ The following is a high-level list of tasks to progress through each stage of th
 [Implementation1]: #todo
 [Implementation2]: #todo
 [Ecma262PullRequest]: #todo
+<br>

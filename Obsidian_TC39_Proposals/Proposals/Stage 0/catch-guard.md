@@ -1,15 +1,2 @@
-[[Stage 0]]
-Classification:
-Human Validated: No
-Title: Catch Guard
-Authors: Willian Martins
-Champions: Willian Martins
-Last Presented: None
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://github.com/wmsbill/proposal-catch-guards
-GitHub Note Link: None
-
-# Proposal Description:
+[[Stage 0]]<br>Classification<br>Human Validated: No<br>Title: Catch Guard<br>Authors: Willian Martins<br>Champions: Willian Martins<br>Last Presented: None<br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://github.com/wmsbill/proposal-catch-guards <br>GitHub Note Link: None
+# Proposal Description:<br>

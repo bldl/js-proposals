@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: RegExp Match Indices
-Authors: Ron Buckton
-Champions: Ron Buckton
-Last Presented: May 2021
-Stage Upgrades: 
-Stage 1: 2018-05-02  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: RegExp Match Indices<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: May 2021<br>Stage Upgrades:<br>Stage 1: 2018-05-02  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2019-07-25  
-Stage 4: 2021-06-10  
-Last Commit: 2022-06-06
-Keywords: #array #captures #indices #substrings #regexp #groups #offsets #textmate #unmatched #performance
-GitHub Link: https://github.com/tc39/proposal-regexp-match-indices
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#regexp-match-indices
-
+Stage 4: 2021-06-10<br>Last Commit: 2022-06-06<br>Keywords: #array #indices #captured #substrings #named #properties #regexp #exec #flag #performance<br>GitHub Link: https://github.com/tc39/proposal-regexp-match-indices <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#regexp-match-indices
 # Proposal Description:
 <!--#region:intro-->
 # RegExp Match Indices for ECMAScript
@@ -228,3 +215,4 @@ The following is a high-level list of tasks to progress through each stage of th
 [Implementation2]: https://github.com/engine262/engine262/pull/99
 [Ecma262PullRequest]: https://github.com/tc39/ecma262/pull/1713
 <!--#endregion:links-->
+<br>

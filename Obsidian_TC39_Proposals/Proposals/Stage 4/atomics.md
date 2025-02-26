@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Shared memory and atomics
-Authors: Lars T Hansen
-Champions: Lars T Hansen
-Last Presented: January 2017
-Stage Upgrades: 
-Stage 1: 2015-06-24  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Shared memory and atomics<br>Authors: Lars T Hansen<br>Champions: Lars T Hansen<br>Last Presented: January 2017<br>Stage Upgrades:<br>Stage 1: 2015-06-24  
 Stage 2: 2016-01-28  
 Stage 2.7: NA  
 Stage 3: 2016-12-02  
-Stage 4: 2017-02-09  
-Last Commit: 2017-02-09
-Keywords: #shared_memory #atomics #threading #concurrency #data_races #lockfree #buffering #synchronization #performance #interoperability
-GitHub Link: https://github.com/tc39/proposal-ecmascript-sharedmem
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-01/jan-24.md#13if-seeking-stage-4-for-sharedarraybuffer
-
+Stage 4: 2017-02-09<br>Last Commit: 2017-02-09<br>Keywords: #shared_memory #atomics #multithreading #synchronization #concurrency #memory_model #data_race #shared_array_buffer #thread_safety #performance<br>GitHub Link: https://github.com/tc39/proposal-ecmascript-sharedmem <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-01/jan-24.md#13if-seeking-stage-4-for-sharedarraybuffer
 # Proposal Description:
 # ecmascript_sharedmem
 
@@ -48,3 +35,4 @@ Firefox, Chrome and WebKit ship with prototype implementations of the proposal; 
 
 The sources for the specs are in the tc39/ subdirectory and the formatted versions are generated with the `format.sh` script.
 
+<br>

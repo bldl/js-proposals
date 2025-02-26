@@ -1,21 +1,8 @@
-[[Inactive]]
-Classification: [[API Change]] [[Syntactic Change]]
-Human Validated: No
-Title: Sequence properties in Unicode property escapes
-Authors: Mathias Bynens
-Champions: Withdrawn; subsumed by [RegExp v flag with set notation + properties of strings][regexp-v-flag] proposal
-Last Presented: None
-Stage Upgrades: 
-Stage 1: 2018-05-22  
+[[Inactive]]<br>Classification: [[API Change]] [[Syntactic Change]]<br>Human Validated: No<br>Title: Sequence properties in Unicode property escapes<br>Authors: Mathias Bynens<br>Champions: Withdrawn; subsumed by [RegExp v flag with set notation + properties of strings][regexp-v-flag] proposal<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2018-05-22  
 Stage 2: 2018-09-27  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-05-20
-Keywords: #unicode #property #sequence #regex #test #escapes #emoji #character #pattern #alternation
-GitHub Link: https://github.com/tc39/proposal-regexp-unicode-sequence-properties
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#update-on-sequence-property-escapes-in-unicode-regular-expressions
-
+Stage 4: NA<br>Last Commit: 2022-05-20<br>Keywords: #unicode #property #regex #expression #character #code_point #emoji #sequence #alternation #transpilation<br>GitHub Link: https://github.com/tc39/proposal-regexp-unicode-sequence-properties <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#update-on-sequence-property-escapes-in-unicode-regular-expressions
 # Proposal Description:
 # ECMAScript proposal: support properties of strings (a.k.a. “sequence properties”) in Unicode property escapes
 
@@ -175,3 +162,4 @@ const reHashtag = /[#﹟＃][[\p{XID_Continue}\p{RGI_Emoji}[-+_]]--[#﹟＃]]+/u
 ## Implementations
 
 * none yet
+<br>

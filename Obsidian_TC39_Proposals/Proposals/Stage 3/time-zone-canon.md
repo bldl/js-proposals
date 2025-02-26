@@ -1,17 +1,4 @@
-[[Stage 3]]
-Classification: [[Semantic Change]]
-Human Validated: No
-Title: Time Zone Canonicalization
-Authors: Justin Grant
-Champions: Justin Grant, Richard Gibson
-Last Presented: July 2023
-Stage Upgrades: 
-None
-Last Commit: 2023-09-25
-Keywords: #time_zone #canonicalization #IANA #Timezone #identifier #implementation #divergence #specification #polymorphism #user_experience
-GitHub Link: https://github.com/tc39/proposal-canonical-tz#readme
-GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2023-07/july-12.md#time-zone-canonicalization-for-stage-3
-
+[[Stage 3]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: Time Zone Canonicalization<br>Authors: Justin Grant<br>Champions: Justin Grant, Richard Gibson<br>Last Presented: July 2023<br>Stage Upgrades:<br>None<br>Last Commit: 2023-09-25<br>Keywords: #time_zone #canonicalization #identifier #implementation #user_experience #specification #timezone_database #cross_implementation #time_zone_link #abstract_operations<br>GitHub Link: https://github.com/tc39/proposal-canonical-tz#readme <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2023-07/july-12.md#time-zone-canonicalization-for-stage-3
 # Proposal Description:
 # Handling Time Zone Canonicalization Changes
 
@@ -432,3 +419,4 @@ This repo is maintained by the champion of [JSR-310](https://jcp.org/en/jsr/deta
 Note that the string serialization format of `Temporal.ZonedDateTime`, including use of IANA time zone identifiers, was designed to be interoperable with [`java.time.ZonedDateTime`](https://docs.oracle.com/javase/8/docs/api/java/time/ZonedDateTime.html).
 In addition, ECMAScript's time zone use cases are similar to Java's.
 So this may be a useful standard TZDB build configuration to consider recommending for in ECMAScript.
+<br>

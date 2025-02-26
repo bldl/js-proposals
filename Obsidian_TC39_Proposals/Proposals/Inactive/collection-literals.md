@@ -1,15 +1,2 @@
-[[Inactive]]
-Classification:
-Human Validated: No
-Title: Tagged Collection Literals
-Authors: Kat Marchán
-Champions: Withdrawn: pursuing `when new` syntax and other alternatives
-Last Presented: None
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://github.com/zkat/proposal-collection-literals
-GitHub Note Link: None
-
-# Proposal Description:
+[[Inactive]]<br>Classification<br>Human Validated: No<br>Title: Tagged Collection Literals<br>Authors: Kat Marchán<br>Champions: Withdrawn: pursuing `when new` syntax and other alternatives<br>Last Presented: None<br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://github.com/zkat/proposal-collection-literals <br>GitHub Note Link: None
+# Proposal Description:<br>

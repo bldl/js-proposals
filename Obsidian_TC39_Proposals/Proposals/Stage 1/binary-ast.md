@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]] [[Semantic Change]]
-Human Validated: No
-Title: Binary AST
-Authors: Shu-yu Guo
-Champions: Shu-yu Guo
-Last Presented: May 2018
-Stage Upgrades: 
-Stage 1: 2017-07-13  
+[[Stage 1]]<br>Classification: [[API Change]] [[Semantic Change]]<br>Human Validated: No<br>Title: Binary AST<br>Authors: Shu-yu Guo<br>Champions: Shu-yu Guo<br>Last Presented: May 2018<br>Stage Upgrades:<br>Stage 1: 2017-07-13  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2019-01-16
-Keywords: #binary #ast #parsing #performance #serialization #compression #syntax #encoding #annotations #backwards_compatibility
-GitHub Link: https://github.com/tc39/proposal-binary-ast
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-24.md#binary-ast
-
+Stage 4: NA<br>Last Commit: 2019-01-16<br>Keywords: #binary #ast #parsing #serialization #performance #annotations #compression #encoding #scope #python<br>GitHub Link: https://github.com/tc39/proposal-binary-ast <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-24.md#binary-ast
 # Proposal Description:
 # Binary AST Proposal Overview
 
@@ -283,3 +270,4 @@ Yes. HTML integration is forthcoming, but an application is free to mix loading 
 **Will this be a new surface for attacks?**
 
 Yes, but we believe this is a much smaller and much more controlled and testable surface than alternatives, such as bytecode.
+<br>

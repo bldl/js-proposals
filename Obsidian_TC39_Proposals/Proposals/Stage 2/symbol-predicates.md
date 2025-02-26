@@ -1,21 +1,8 @@
-[[Stage 2]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Symbol Predicates
-Authors: Robin Ricard, Jordan Harband
-Champions: Ashley Claymore, Jordan Harband
-Last Presented: May 2023
-Stage Upgrades: 
-Stage 1: 2022-07-20  
+[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Symbol Predicates<br>Authors: Robin Ricard, Jordan Harband<br>Champions: Ashley Claymore, Jordan Harband<br>Last Presented: May 2023<br>Stage Upgrades:<br>Stage 1: 2022-07-20  
 Stage 2: 2023-02-01  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2023-05-15
-Keywords: #symbol #predicate #unique #registered #well_known #library #weakmap #symbol_type #detector #differentiation
-GitHub Link: https://github.com/tc39/proposal-symbol-predicates
-GitHub Note Link: https://github.com/tc39/notes/blob/4c253a989e8da200bc8c351f1e0a557e2a5d73e4/meetings/2023-05/may-15.md?plain=1#L385
-
+Stage 4: NA<br>Last Commit: 2023-05-15<br>Keywords: #symbol #predicates #differentiation #uniqueness #forgeable #well_known #weakmap #library #boolean #ecma<br>GitHub Link: https://github.com/tc39/proposal-symbol-predicates <br>GitHub Note Link: https://github.com/tc39/notes/blob/4c253a989e8da200bc8c351f1e0a557e2a5d73e4/meetings/2023-05/may-15.md?plain=1#L385
 # Proposal Description:
 # Symbol Predicates Proposal
 
@@ -105,3 +92,4 @@ Note that the two predicate packages belo are not polyfills; but they precisely 
   1. Whenever you update `ecmarkup`, run `npm run build` and commit any changes that come from that dependency.
 
   [explainer]: https://github.com/tc39/how-we-work/blob/HEAD/explainer.md
+<br>

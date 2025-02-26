@@ -1,15 +1,2 @@
-[[Stage 0]]
-Classification:
-Human Validated: No
-Title: Relationships
-Authors: Mark Miller, Waldemar Horwat
-Champions: Mark Miller, Waldemar Horwat
-Last Presented: 
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://web.archive.org/web/20160804042554/http://wiki.ecmascript.org/doku.php?id=strawman:relationships
-GitHub Note Link: None
-
-# Proposal Description:
+[[Stage 0]]<br>Classification<br>Human Validated: No<br>Title: Relationships<br>Authors: Mark Miller, Waldemar Horwat<br>Champions: Mark Miller, Waldemar Horwat<br>Last Presented: <br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://web.archive.org/web/20160804042554/http://wiki.ecmascript.org/doku.php?id=strawman:relationships <br>GitHub Note Link: None
+# Proposal Description:<br>

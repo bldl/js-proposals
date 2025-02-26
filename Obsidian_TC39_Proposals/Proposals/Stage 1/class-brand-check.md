@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Class Brand Checks
-Authors: HE Shi-Jun
-Champions: HE Shi-Jun
-Last Presented: January 2021
-Stage Upgrades: 
-Stage 1: 2021-01-15  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Class Brand Checks<br>Authors: HE Shi-Jun<br>Champions: HE Shi-Jun<br>Last Presented: January 2021<br>Stage Upgrades:<br>Stage 1: 2021-01-15  
 Stage 2: 2022-01-24  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-01-25
-Keywords: #brand_check #instanceof #meta_method #object_creation #prototype_based #class_brand #symbol_has_instance #type_checking #interoperability #private_fields
-GitHub Link: https://github.com/tc39/proposal-class-brand-check
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#class-brand-checks
-
+Stage 4: NA<br>Last Commit: 2022-01-25<br>Keywords: #brand_check #instanceof #private_fields #prototype #object_creation #class_based #meta_method #programmers_intention #syntax_conflict #customization<br>GitHub Link: https://github.com/tc39/proposal-class-brand-check <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#class-brand-checks
 # Proposal Description:
 # `class.hasInstance()`
 
@@ -124,3 +111,4 @@ TBD
 
 About naming, I choose `.hasInstance` which follow `Symbol.hasInstance`, though there could always be other choices: `.hasBrand` or `.checkBrand`.
 
+<br>

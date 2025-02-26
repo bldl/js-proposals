@@ -1,21 +1,8 @@
-[[Inactive]]
-Classification: [[API Change]]
-Human Validated: No
-Title: ArrayBuffer.prototype.transfer
-Authors: Domenic Denicola, Shu-yu Guo
-Champions: Withdrawn: superseded by [Resizable Buffers][resizable-buffers]
-Last Presented: None
-Stage Upgrades: 
-Stage 1: 2022-12-02  
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: ArrayBuffer.prototype.transfer<br>Authors: Domenic Denicola, Shu-yu Guo<br>Champions: Withdrawn: superseded by [Resizable Buffers][resizable-buffers]<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2022-12-02  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2023-02-01  
-Stage 4: 2024-07-12  
-Last Commit: 2024-07-12
-Keywords: #arraybuffer #transfer #ownership #detached #reallocation #serialization #fixed_length #performance #memory_management #typedarray
-GitHub Link: https://github.com/domenic/proposal-arraybuffer-transfer
-GitHub Note Link: None
-
+Stage 4: 2024-07-12<br>Last Commit: 2024-07-12<br>Keywords: #ownership #memory #buffer #detachment #reallocation #optimization #serialization #performance #typedarray #api<br>GitHub Link: https://github.com/domenic/proposal-arraybuffer-transfer <br>GitHub Note Link: None
 # Proposal Description:
 # `ArrayBuffer.prototype.transfer` and friends
 
@@ -198,3 +185,4 @@ Feels nice to round out the expressivity, but granted the use case here isn't as
 
 Thanks to:
   - @domenic for https://github.com/domenic/proposal-arraybuffer-transfer/tree/HEAD~1
+<br>

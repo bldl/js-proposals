@@ -1,21 +1,8 @@
-[[Stage 3]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Atomics.pause
-Authors: Shu-yu Guo
-Champions: Shu-yu Guo
-Last Presented: October 2024
-Stage Upgrades: 
-Stage 1: 2024-02-13  
+[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Atomics.pause<br>Authors: Shu-yu Guo<br>Champions: Shu-yu Guo<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2024-02-13  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2024-10-18  
-Stage 4: NA  
-Last Commit: 2024-10-18
-Keywords: #micro_wait #atomics #lock #multithreading #scheduling #performance #busy_loop #cpu_hinting #exponential_backoff #futex
-GitHub Link: https://github.com/tc39/proposal-atomics-microwait
-GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-10/october-09.md#atomicspause-for-stage-3
-
+Stage 4: NA<br>Last Commit: 2024-10-18<br>Keywords: #microwaits #atomics #locking #threading #efficiency #performance #contention #scheduling #mutexes #wait_times<br>GitHub Link: https://github.com/tc39/proposal-atomics-microwait <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-10/october-09.md#atomicspause-for-stage-3
 # Proposal Description:
 # Micro waits in JS
 
@@ -93,3 +80,4 @@ This overload was removed from the proposal for the following reasons:
 
 - Not enough bang for the buck. There is no consensus to allow indefinite blocking on the main thread, and bounded-time blocking is of limited value for the use case.
 - It is difficult to specify _how_ to clamp the timeout in a web embedding. The previous idea was to tie it to the current "idle period", which is sensitive to scheduled tasks and the presence of event handlers responding to input, etc. However, this is mechanically complicated. Moreover, there is likely to be _no_ free idle periods in an application, which suggests we may need both a floor and a ceiling for the clamping. This further raises the specification challenge for the small gain.
+<br>

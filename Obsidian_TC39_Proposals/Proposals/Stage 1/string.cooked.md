@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: String.cooked
-Authors: Darien Maillet Valentine
-Champions: Jamie Kyle, Hemanth HM
-Last Presented: October 2021
-Stage Upgrades: 
-Stage 1: 2021-08-25  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: String.cooked<br>Authors: Darien Maillet Valentine<br>Champions: Jamie Kyle, Hemanth HM<br>Last Presented: October 2021<br>Stage Upgrades:<br>Stage 1: 2021-08-25  
 Stage 2: 2022-07-01  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2022-07-01
-Keywords: #template_literal #string_manipulation #escaping #url_encoding #string_concatenation #interpolation #prototyping #functional_programming #syntax_error #type_error
-GitHub Link: https://github.com/tc39/proposal-string-cooked
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#stringcooked
-
+Stage 4: NA<br>Last Commit: 2022-07-01<br>Keywords: #string_method #template_literal #cooked_string #string_concatenation #escape_sequences #type_error #custom_template #url_encoding #preprocessing #mapping<br>GitHub Link: https://github.com/tc39/proposal-string-cooked <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#stringcooked
 # Proposal Description:
 # String.cooked proposal
 
@@ -147,3 +134,4 @@ Arguably it could instead throw for any non-String value (unidiomatic) or it
 could not throw for `undefined`. The rationale for the currently proposed
 behavior is that it aims to balance footgun prevention with other ergonomics
 concerns.
+<br>

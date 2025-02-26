@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Decimal
-Authors: Daniel Ehrenberg, Andrew Paprocki
-Champions: Philip Chimento, Andrew Paprocki, Jesse Alama
-Last Presented: December 2021
-Stage Upgrades: 
-Stage 1: 2019-10-23  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Decimal<br>Authors: Daniel Ehrenberg, Andrew Paprocki<br>Champions: Philip Chimento, Andrew Paprocki, Jesse Alama<br>Last Presented: December 2021<br>Stage Upgrades:<br>Stage 1: 2019-10-23  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-12-11
-Keywords: #decimal #representation #precision #money #currency #rounding #arithmetic #conversion #Decimal128 #formatting
-GitHub Link: https://github.com/tc39/proposal-decimal
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#decimals
-
+Stage 4: NA<br>Last Commit: 2024-12-11<br>Keywords: #decimal #numeric #precision #rounding #currency #formatting #data_exchange #decimal128 #mathematics #syntax<br>GitHub Link: https://github.com/tc39/proposal-decimal <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#decimals
 # Proposal Description:
 # Ecma TC39 JavaScript Decimal proposal
 
@@ -389,3 +376,4 @@ Your help would be really appreciated in this proposal! There are lots of ways t
 + Help us write and improve documentation, tests, and prototype implementations
 
 See a full list of to-do tasks at [#45](https://github.com/tc39/proposal-decimal/issues/45).
+<br>

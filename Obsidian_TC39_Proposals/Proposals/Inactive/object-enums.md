@@ -1,15 +1,2 @@
-[[Inactive]]
-Classification:
-Human Validated: No
-Title: Object enumerables
-Authors: Leo Balter, John-David Dalton
-Champions: Rejected
-Last Presented: None
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://github.com/leobalter/object-enumerables
-GitHub Note Link: None
-
-# Proposal Description:
+[[Inactive]]<br>Classification<br>Human Validated: No<br>Title: Object enumerables<br>Authors: Leo Balter, John-David Dalton<br>Champions: Rejected<br>Last Presented: None<br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://github.com/leobalter/object-enumerables <br>GitHub Note Link: None
+# Proposal Description:<br>

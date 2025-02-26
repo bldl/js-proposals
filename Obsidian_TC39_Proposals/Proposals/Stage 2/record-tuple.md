@@ -1,21 +1,8 @@
-[[Stage 2]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: Record & Tuple
-Authors: Robin Ricard, Richard Button
-Champions: Robin Ricard, Richard Button
-Last Presented: April 2024
-Stage Upgrades: 
-Stage 1: 2019-10-01  
+[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Record & Tuple<br>Authors: Robin Ricard, Richard Button<br>Champions: Robin Ricard, Richard Button<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2019-10-01  
 Stage 2: 2021-08-13  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2023-12-13
-Keywords: #immutable #data_structure #deeply_immutable #object_like #array_like #value_comparison #primitives #compound_primitives #syntax_extension #debuggable
-GitHub Link: https://github.com/tc39/proposal-record-tuple
-GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#asynccontext-stage-2-updates
-
+Stage 4: NA<br>Last Commit: 2023-12-13<br>Keywords: #immutable #data_structure #deeply_immutable #record #tuple #primitives #comparison #syntax #construction #manipulation<br>GitHub Link: https://github.com/tc39/proposal-record-tuple <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#asynccontext-stage-2-updates
 # Proposal Description:
 # JavaScript Records & Tuples Proposal
 
@@ -859,3 +846,4 @@ The operator `===` is defined with the [Strict Equality Comparison](https://tc39
 #### Structural Sharing
 
 Structural sharing is a technique used to limit the memory footprint of immutable data structures. In a nutshell, when applying an operation to derive a new version of an immutable structure, structural sharing will attempt to keep most of the internal structure intact and used by both the old and derived versions of that structure. This greatly limits the amount to copy to derive the new structure.
+<br>

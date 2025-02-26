@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Math.seededRandoms()
-Authors: Tab Atkins
-Champions: Tab Atkins
-Last Presented: January 2018
-Stage Upgrades: 
-Stage 1: 2017-12-23  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Math.seededRandoms()<br>Authors: Tab Atkins<br>Champions: Tab Atkins<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2017-12-23  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2024-05-15
-Keywords: #prng #seed #predictable #pseudo_random #distribution #entropy #clone #algorithm #function #bigint
-GitHub Link: https://github.com/tc39/proposal-seeded-random
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iif-mathseededrandoms-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2024-05-15<br>Keywords: #seeded #pseudo_random #generator #reproducibility #testing #cloning #entropy #uniformity #child_prng #bigint<br>GitHub Link: https://github.com/tc39/proposal-seeded-random <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iif-mathseededrandoms-for-stage-1
 # Proposal Description:
 # Seeded Pseudo-Random Numbers
 
@@ -154,4 +141,4 @@ This proposal is focused specifically on making a seeded PRNG, and intentionally
 
 Instead, <https://github.com/tc39-transfer/proposal-random-functions> is a separate proposal for adding more random functions to the existing unseeded functionality. The intention is that the `PRNG` object from this proposal will grow all the same methods, so if we added `Math.randomInt()`, we'd also get `PRNG.randomInt()`, etc.
 
-Whichever proposal advances first will just concern itself with itself, and whichever advances second will carry the burden of defining that overlap. (That is, if this proposal goes first, then `proposal-random-functions` will define that all its methods also exist on `PRNG`; if it goes first, then this proposal will define that all the new random functions also exist as `PRNG` methods.)
+Whichever proposal advances first will just concern itself with itself, and whichever advances second will carry the burden of defining that overlap. (That is, if this proposal goes first, then `proposal-random-functions` will define that all its methods also exist on `PRNG`; if it goes first, then this proposal will define that all the new random functions also exist as `PRNG` methods.)<br>

@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: .at()
-Authors: Shu-yu Guo, Tab Atkins
-Champions: Shu-yu Guo, Tab Atkins
-Last Presented: August 2021
-Stage Upgrades: 
-Stage 1: 2020-03-26  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: .at()<br>Authors: Shu-yu Guo, Tab Atkins<br>Champions: Shu-yu Guo, Tab Atkins<br>Last Presented: August 2021<br>Stage Upgrades:<br>Stage 1: 2020-03-26  
 Stage 2: 2020-07-27  
 Stage 2.7: NA  
 Stage 3: 2020-09-08  
-Stage 4: 2022-01-24  
-Last Commit: 2022-01-24
-Keywords: #method #negative_indexing #indexable #array #string #typedarray #polyfill #web_compatibility #property_access #object
-GitHub Link: https://github.com/tc39/proposal-relative-indexing-method
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#relative-indexing-at-method-for-stage-4
-
+Stage 4: 2022-01-24<br>Last Commit: 2022-01-24<br>Keywords: #negative_indexing #indexable #method #array #string #typedarray #property_access #polyfill #webidl #dom<br>GitHub Link: https://github.com/tc39/proposal-relative-indexing-method <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#relative-indexing-at-method-for-stage-4
 # Proposal Description:
 # Proposal for an `.at()` method on all the built-in indexables
 
@@ -181,3 +168,4 @@ We could potentially preview any of these changes before attempting to accept th
 In particular, testing negative indexes would be fairly simple, just requiring a change to `signed long` and an extra line in the algorithms of the methods.
 
 Testing returning `undefined` is also plausible; tho still slightly awkward to *express* in WebIDL (requiring the return type to be written as `any`), it's a tiny change to the algorithms of the methods.
+<br>

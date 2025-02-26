@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Error Cause
-Authors: Chengzhong Wu
-Champions: Chengzhong Wu,  Hemanth HM
-Last Presented: October 2021
-Stage Upgrades: 
-Stage 1: 2020-09-24  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Error Cause<br>Authors: Chengzhong Wu<br>Champions: Chengzhong Wu,  Hemanth HM<br>Last Presented: October 2021<br>Stage Upgrades:<br>Stage 1: 2020-09-24  
 Stage 2: 2020-11-19  
 Stage 2.7: NA  
 Stage 3: 2021-03-10  
-Stage 4: 2021-10-26  
-Last Commit: 2021-10-26
-Keywords: #error_handling #contextual_information #exception_design #error_chaining #cause_property #augmented_errors #debug_tooling #polyfills #error_instances #runtime_exceptions
-GitHub Link: https://github.com/tc39/proposal-error-cause
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-26.md#error-cause-for-stage-4
-
+Stage 4: 2021-10-26<br>Last Commit: 2021-10-26<br>Keywords: #error_handling #contextual_information #exception_design #chained_errors #error_instances #diagnosis #augmented_errors #cause_property #standardization #debug_tooling<br>GitHub Link: https://github.com/tc39/proposal-error-cause <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-26.md#error-cause-for-stage-4
 # Proposal Description:
 # Error Cause
 
@@ -144,3 +131,4 @@ error properly.
 
 [es-shim]: https://github.com/es-shims/api
 [VError]: https://github.com/joyent/node-verror
+<br>

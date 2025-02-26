@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Reverse iteration
-Authors: Leo Balter, Jordan Harband
-Champions: Leo Balter, Jordan Harband
-Last Presented: July 2019
-Stage Upgrades: 
-Stage 1: 2019-07-23  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Reverse iteration<br>Authors: Leo Balter, Jordan Harband<br>Champions: Leo Balter, Jordan Harband<br>Last Presented: July 2019<br>Stage Upgrades:<br>Stage 1: 2019-07-23  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2019-07-23
-Keywords: #repository #proposal #git #commit #repository_management #hooks #build_process #ecmarkup #specification #version_control
-GitHub Link: https://github.com/tc39/proposal-reverseIterator
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#symbolreverse
-
+Stage 4: NA<br>Last Commit: 2019-07-23<br>Keywords: #repository #template #proposal #github #merge #git #commit #output #hook #spec<br>GitHub Link: https://github.com/tc39/proposal-reverseIterator <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#symbolreverse
 # Proposal Description:
 # template-for-proposals
 
@@ -51,3 +38,4 @@ Follow these steps:
   1. Make your changes to `spec.emu` (ecmarkup uses HTML syntax, but is not HTML, so I strongly suggest not naming it ".html")
   1. Any commit that makes meaningful changes to the spec, should run `npm run build` and commit the resulting output.
   1. Whenever you update `ecmarkup`, run `npm run build` and commit any changes that come from that dependency.
+<br>

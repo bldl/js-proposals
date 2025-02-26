@@ -1,21 +1,8 @@
-[[Inactive]]
-Classification: [[API Change]]
-Human Validated: No
-Title: UUID
-Authors: Benjamin Coe
-Champions: Withdrawn; moved to `crypto.randomUUID()` in February 2023
-Last Presented: None
-Stage Upgrades: 
-Stage 1: 2019-04-07  
-Stage 2: 2019-10-03  
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: UUID<br>Authors: Benjamin Coe<br>Champions: Withdrawn; moved to `crypto.randomUUID()` in February 2023<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2019-10-03  
+Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2021-04-02
-Keywords: #uuid #uniqueness #identifiers #cryptography #randomness #entropy #security #api #generation #library
-GitHub Link: https://github.com/tc39/proposal-uuid
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#uuid-for-stage-1
-
+Stage 4: NA<br>Last Commit: 2021-04-02<br>Keywords: #uuid #identifier #generation #cryptography #randomness #secure #entropy #uniqueness #database #api<br>GitHub Link: https://github.com/tc39/proposal-uuid <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#uuid-for-stage-1
 # Proposal Description:
 # ECMAScript proposal: JavaScript standard library UUID
 
@@ -274,3 +261,4 @@ Apart from that, UUID adoption across other languages/libraries seems to be rath
 [standard-library-proposal]: https://github.com/tc39/proposal-javascript-standard-library
 [tifu]: https://medium.com/@betable/tifu-by-using-math-random-f1c308c4fd9d
 [csprng]: https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator
+<br>

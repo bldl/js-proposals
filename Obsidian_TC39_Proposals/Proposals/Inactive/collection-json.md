@@ -1,15 +1,2 @@
-[[Inactive]]
-Classification:
-Human Validated: No
-Title: {Set,Map}.prototype.toJSON
-Authors: David Bruant, Jordan Harband
-Champions: Rejected: better solved by a custom replacer function.
-Last Presented: None
-Stage Upgrades: 
-None
-Last Commit: None
-Keywords: 
-GitHub Link: https://github.com/DavidBruant/Map-Set.prototype.toJSON
-GitHub Note Link: None
-
-# Proposal Description:
+[[Inactive]]<br>Classification<br>Human Validated: No<br>Title: {Set,Map}.prototype.toJSON<br>Authors: David Bruant, Jordan Harband<br>Champions: Rejected: better solved by a custom replacer function.<br>Last Presented: None<br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: https://github.com/DavidBruant/Map-Set.prototype.toJSON <br>GitHub Note Link: None
+# Proposal Description:<br>

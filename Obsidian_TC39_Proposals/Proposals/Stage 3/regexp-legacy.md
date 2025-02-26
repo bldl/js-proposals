@@ -1,21 +1,8 @@
-[[Stage 3]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Legacy RegExp features in JavaScript
-Authors: Claude Pache
-Champions: Mark Miller, Claude Pache
-Last Presented: May 2017
-Stage Upgrades: 
-Stage 1: 2015-11-10  
+[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Legacy RegExp features in JavaScript<br>Authors: Claude Pache<br>Champions: Mark Miller, Claude Pache<br>Last Presented: May 2017<br>Stage Upgrades:<br>Stage 1: 2015-11-10  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2017-07-29  
-Stage 4: NA  
-Last Commit: 2022-11-10
-Keywords: #regexp #legacy #static #properties #internal #slots #compile #backward #compatibility #realm
-GitHub Link: https://github.com/tc39/proposal-regexp-legacy-features
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-25.md#15ia-regexp-legacy-features-for-stage-3
-
+Stage 4: NA<br>Last Commit: 2022-11-10<br>Keywords: #regexp #static_properties #subclass #cross_realm #backward_compatibility #internal_slots #successful_match #legacy_features #data_property #runtime_environment<br>GitHub Link: https://github.com/tc39/proposal-regexp-legacy-features <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-25.md#15ia-regexp-legacy-features-for-stage-3
 # Proposal Description:
 # Legacy RegExp features in JavaScript
 
@@ -79,7 +66,7 @@ RegExp instances have an additional slot which optionally keeps a reference to i
 1. Let _obj_ be ? OrdinaryCreateFromConstructor(_newTarget_, "%RegExpPrototype%", «[[RegExpMatcher]], [[OriginalSource]], [[OriginalFlags]], **[[Realm]]**, **[[LegacyFeaturesEnabled]]**»).
 1. **Let _thisRealm_ be the current Realm Record.**
 1. **Set the value of _obj_’s [[Realm]] internal slot to _thisRealm_.**
-1. **If SameValue(_newTarget_, _thisRealm_.[[Intrinsics]].[[%RegExp%]]) is true, then**
+1. **If SameValue(_newTarget_, _thisRealm_.[[Intrinsics]].[[RegExp]]) is true, then**
     1. **Set the value of _obj_’s [[LegacyFeaturesEnabled]] internal slot to true.**
 1. **Else,**
     1. **Set the value of _obj_’s [[LegacyFeaturesEnabled]] internal slot to false.**
@@ -282,3 +269,4 @@ The modification below will disable RegExp.prototype.compile for objects that ar
     1. Let _F_ be _flags_.
 1. Return ? RegExpInitialize(_O_, _P_, _F_).
 
+<br>

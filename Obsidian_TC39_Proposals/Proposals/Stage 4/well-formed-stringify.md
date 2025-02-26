@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[Semantic Change]]
-Human Validated: No
-Title: Well-formed JSON.stringify
-Authors: Richard Gibson
-Champions: Mathias Bynens
-Last Presented: January 2019
-Stage Upgrades: 
-Stage 1: 2018-03-24  
+[[Stage 4]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: Well-formed JSON.stringify<br>Authors: Richard Gibson<br>Champions: Mathias Bynens<br>Last Presented: January 2019<br>Stage Upgrades:<br>Stage 1: 2018-03-24  
 Stage 2: 2018-05-23  
 Stage 2.7: NA  
 Stage 3: 2018-09-26  
-Stage 4: 2019-01-29  
-Last Commit: 2019-01-29
-Keywords: #unicode #utf8 #utf16 #json #serialization #surrogate #escape_sequences #invalid #backwards_compatibility #validity
-GitHub Link: https://github.com/tc39/proposal-well-formed-stringify
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#well-formed-jsonstringify-for-stage-4
-
+Stage 4: 2019-01-29<br>Last Commit: 2019-01-29<br>Keywords: #unicode #utf8 #utf16 #json #escape_sequences #surrogate #code_points #validity #well_formed #representation<br>GitHub Link: https://github.com/tc39/proposal-well-formed-stringify <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#well-formed-jsonstringify-for-stage-4
 # Proposal Description:
 # Well-formed JSON.stringify
 
@@ -68,3 +55,4 @@ The specification is available in [ecmarkup](spec.emu) or [rendered HTML](https:
 * [V8](https://bugs.chromium.org/p/v8/issues/detail?id=7782), enabled by default in V8 v7.2.10 and Chrome 72
 * [SpiderMonkey](https://bugzilla.mozilla.org/show_bug.cgi?id=1469021), shipping in Firefox 64
 * [JavaScriptCore](https://bugs.webkit.org/show_bug.cgi?id=191677), shipping in [Safari Technology Preview 73](https://webkit.org/blog/8555/release-notes-for-safari-technology-preview-73/)
+<br>

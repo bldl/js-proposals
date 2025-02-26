@@ -1,21 +1,8 @@
-[[Stage 1]]
-Classification: [[Syntactic Change]]
-Human Validated: No
-Title: export v from "mod"; statements
-Authors: Lee Byron
-Champions: Ben Newman, John-David Dalton
-Last Presented: July 2017
-Stage Upgrades: 
-Stage 1: 2016-03-29  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: export v from "mod"; statements<br>Authors: Lee Byron<br>Champions: Ben Newman, John-David Dalton<br>Last Presented: July 2017<br>Stage Upgrades:<br>Stage 1: 2016-03-29  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA  
-Last Commit: 2021-10-15
-Keywords: #export #module #default #syntax #import #export #declarative #names #local #behavior
-GitHub Link: https://github.com/tc39/proposal-export-default-from
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-27.md#export-default-from
-
+Stage 4: NA<br>Last Commit: 2021-10-15<br>Keywords: #default #export #module #syntax #declaration #scope #named #symmetric #shorter #compound<br>GitHub Link: https://github.com/tc39/proposal-export-default-from <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-27.md#export-default-from
 # Proposal Description:
 # ECMAScript Proposal: export default from
 
@@ -272,3 +259,4 @@ Statement Form                          | [[ModuleRequest]] | [[ImportName]] | [
 `import * as ns from "mod";`            | `"mod"`           | `"*"`          | `"ns"`         |
 `export * as ns from "mod";`            | `"mod"`           | `"*"`          | **null**       | `"ns"`
 `export * from "mod";`                  | `"mod"`           | `"*"`          | **null**       | **null** (many)
+<br>

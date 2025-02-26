@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Object.values/Object.entries
-Authors: Jordan Harband
-Champions: Jordan Harband
-Last Presented: March 2016
-Stage Upgrades: 
-Stage 1: 2015-08-31  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Object.values/Object.entries<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: March 2016<br>Stage Upgrades:<br>Stage 1: 2015-08-31  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2015-11-17  
-Stage 4: 2016-03-29  
-Last Commit: 2016-03-29
-Keywords: #values #entries #iteration #object #map #serialize #keys #array #hash #consistency
-GitHub Link: https://github.com/tc39/proposal-object-values-entries
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-03/march-29.md#objectvalues--objectentries
-
+Stage 4: 2016-03-29<br>Last Commit: 2016-03-29<br>Keywords: #object #values #entries #iteration #serialization #map #key_value_pairs #consistency #hash_filter #arrays<br>GitHub Link: https://github.com/tc39/proposal-object-values-entries <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-03/march-29.md#objectvalues--objectentries
 # Proposal Description:
 # [Object.values](https://github.com/es-shims/Object.values) / [Object.entries](https://github.com/es-shims/Object.entries)
 ECMAScript Proposal, specs, and reference implementation for `Object.values`/`Object.entries`
@@ -50,3 +37,4 @@ Note: there's been a small bit of spec refactoring to ensure that `Object.{keys,
 
 ## Iterators or Arrays?
 Consistency with `Object.keys` is paramount in this proposal‘s opinion. A follow-on proposal for an iterator, however, could likely be `Reflect.ownValues` and `Reflect.ownEntries`, which would complete the triplet with `Reflect.ownKeys`, providing an array of both string-valued and symbol-valued properties. However, this proposal is focused on `Object.values`/`Object.entries`, and the existence of either the `Object` or `Reflect` forms should not preclude the existence of the other. In addition, the current precedent for returning iterators from `keys`/`values`/`entries` currently only applies to methods on prototypes - and in addition, “`Object` is special” seems to be something many accept. Also, arrays are themselves iterable already.
+<br>

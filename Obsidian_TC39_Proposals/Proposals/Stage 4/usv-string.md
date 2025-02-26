@@ -1,21 +1,8 @@
-[[Stage 4]]
-Classification: [[API Change]]
-Human Validated: No
-Title: Well-Formed Unicode Strings
-Authors: Guy Bedford, Bradley Farias
-Champions: Guy Bedford, Bradley Farias, Michael Ficarra
-Last Presented: May 2023
-Stage Upgrades: 
-Stage 1: 2021-08-20  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Well-Formed Unicode Strings<br>Authors: Guy Bedford, Bradley Farias<br>Champions: Guy Bedford, Bradley Farias, Michael Ficarra<br>Last Presented: May 2023<br>Stage Upgrades:<br>Stage 1: 2021-08-20  
 Stage 2: 2022-09-13  
 Stage 2.7: NA  
 Stage 3: 2022-11-30  
-Stage 4: 2023-05-15  
-Last Commit: 2023-05-15
-Keywords: #unicode #surrogate #validation #method #conversion #performance #algorithm #encoding #unicode_scalar_value #well_formed
-GitHub Link: https://github.com/tc39/proposal-is-usv-string
-GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-15.md#well-formed-unicode-strings-for-stage-4
-
+Stage 4: 2023-05-15<br>Last Commit: 2023-05-15<br>Keywords: #unicode #well_formed #surrogate #validation #string #UTF_16 #replacement_character #performance #algorithm #encode<br>GitHub Link: https://github.com/tc39/proposal-is-usv-string <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-15.md#well-formed-unicode-strings-for-stage-4
 # Proposal Description:
 # Well-Formed Unicode Strings
 
@@ -96,3 +83,4 @@ Consumers may want to throw/error when encountering ill-formed strings. Also, co
 
  - [core-js](https://github.com/zloirock/core-js#well-formed-unicode-strings)
  - [string.prototype.iswellformed](https://npmjs.com/string.prototype.iswellformed) / [string.prototype.towellformed](https://npmjs.com/string.prototype.towellformed)
+<br>
