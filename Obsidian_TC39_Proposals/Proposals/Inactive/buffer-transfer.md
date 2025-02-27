@@ -1,65 +1,20 @@
-[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: ArrayBuffer.prototype.transfer<br>Authors: Domenic Denicola, Shu-yu Guo<br>Champions: Withdrawn: superseded by [Resizable Buffers][resizable-buffers]<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2022-12-02  
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: ArrayBuffer.prototype.transfer<br>Authors: Domenic Denicola, Shu-yu Guo<br>Withdrawn: superseded by [Resizable Buffers][resizable-buffers]<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: NA
 Stage 2: NA  
 Stage 2.7: NA  
-Stage 3: 2023-02-01  
-Stage 4: 2024-07-12<br>Last Commit: 2024-07-12<br>Keywords: #ownership #memory #buffer #detachment #reallocation #optimization #serialization #performance #typedarray #api<br>GitHub Link: https://github.com/domenic/proposal-arraybuffer-transfer <br>GitHub Note Link: None
+Stage 3: NA
+Stage 4: NA<br>Last Commit: 2018-05-17<br>Keywords: #binary_data #memory_management #concurrency #asynchronous_execution #data_safety #arraybuffer #detaching #reallocation #performance_optimization #race_conditions<br>GitHub Link: https://github.com/domenic/proposal-arraybuffer-transfer <br>GitHub Note Link: None
 # Proposal Description:
-# `ArrayBuffer.prototype.transfer` and friends
+# # `ArrayBuffer.prototype.transfer()` proposal
 
-Stage: 4 ([included in ES2024](https://github.com/tc39/ecma262/pull/3175)). **This repository is no longer active.**
+This is a proposal to add a new method, `transfer()`, to JavaScript's `ArrayBuffer` class. It has not yet been presented to the JavaScript standards committee.
 
-Author: Shu-yu Guo (@syg)
+## The problem
 
-Champion: Shu-yu Guo (@syg), Jordan Harband (@ljharb), Yagiz Nizipli (@anonrig)
+When dealing with binary data asynchronously, there is a conflict between efficiency and safety.
 
-## Introduction
+Consider a function such as the following:
 
-`ArrayBuffer`s may be transferred and detached by HTML's serialization algorithms, but there lacks a programmatic JS API for the same expressivity. A programmatic API is useful for programming patterns such as transferring ownership of `ArrayBuffer`s, optimized reallocations (i.e. `realloc` semantics), and fixing resizable `ArrayBuffer`s into fixed-length ones. This proposal fills out this expressivity by adding new methods to `ArrayBuffer.prototype`.
-
-This proposal is spun out of the [resizable buffers proposal](https://github.com/tc39/proposal-resizablearraybuffer/issues/113). At the time of spinning out, resizable buffers was Stage 3, and this proposal was demoted to Stage 2.
-
-
-## API
-
-```javascript
-class ArrayBuffer {
-  // ... existing stuff
-
-  // Returns a new ArrayBuffer with the same byte content
-  // as this buffer for [0, min(this.byteLength, newByteLength)],
-  // then detaches this buffer.
-  //
-  // The maximum byte length and thus the resizability of this buffer
-  // is preserved in the new ArrayBuffer.
-  //
-  // Any new memory is zeroed.
-  //
-  // If newByteLength is undefined, it is set to this.bytelength.
-  //
-  // Designed to be implementable as a copy-free move or a realloc.
-  //
-  // Throws a RangeError unless all of the following are satisfied:
-  // - 0 <= newByteLength
-  // - If this buffer is resizable, newByteLength <= this.maxByteLength
-  transfer(newByteLength);
-
-  // Like transfer, except always returns a non-resizable ArrayBuffer.
-  transferToFixedLength(newByteLength);
-
-  // Returns whether this ArrayBuffer is detached.
-  get detached();
-}
-```
-
-## Motivation and use cases
-
-### Ownership
-
-A "move and detach original `ArrayBuffer`" method can be used to implement ownership semantics when working with `ArrayBuffer`s. This is useful in many situations, such as disallowing other users from modifying a buffer when writing into it.
-
-For example, consider the following example from @domenic from the original transfer proposal:
-
-```javascript
+```js
 function validateAndWrite(arrayBuffer) {
   // Do some asynchronous validation.
   await validate(arrayBuffer);
@@ -67,7 +22,11 @@ function validateAndWrite(arrayBuffer) {
   // Assuming we've got here, it's valid; write it to disk.
   await fs.writeFile("data.bin", arrayBuffer);
 }
+```
 
+This function, as written, is fairly efficient. But it is not safe, or predictable: the caller can modify any data they pass in at any time, and the function will just keep using the same data. Consider:
+
+```js
 const data = new Uint8Array([0x01, 0x02, 0x03]);
 validateAndWrite(data.buffer);
 setTimeout(() => {
@@ -75,9 +34,13 @@ setTimeout(() => {
 }, 50);
 ```
 
-Depending on the time taken for `await validate(arrayBuffer)`, the validation result may be stale due to the callback passed to `setTimeout`. A defensive approach would copy the input first, but this is markedly less performant:
+If `validate()` takes 49 milliseconds, then it's quite possible that `validateAndWrite()` ends up validating the original contents of the buffer (`0x01 0x02 0x03`) but writing the new contents of the buffer (`0x00 0x00 0x00`). That is, any security or robustness guarantees `validate()` was meant to provide are illusory.
 
-```javascript
+(This gets worse if you consider how `fs.writeFile()` might be implemented; I have unconfirmed reports that Node.js's version directly reads the `ArrayBuffer`'s memory from another thread, so that it's possible to get a race condition and end up writing `0x01 0x00 0x00` or similar.)
+
+The defensive way to write this code is to make a copy of the buffer before processing it:
+
+```js
 function validateAndWriteSafeButSlow(arrayBuffer) {
   // Copy first!
   const copy = arrayBuffer.slice();
@@ -87,102 +50,81 @@ function validateAndWriteSafeButSlow(arrayBuffer) {
 }
 ```
 
-With `transfer`, the ownership transfer can be succinctly expressed:
+However, this adds extra time and memory consumption to all binary-data-consuming functions; given that binary data often comes in large chunks, this is not generally desireable.
 
-```javascript
+## Detaching and transferring
+
+Some web platform APIs, notably the various `postMessage()` methods and the [BYOB reader mode for `ReadableStream`](https://streams.spec.whatwg.org/#example-manual-read-bytes), have a solution for this dillema. When you pass an `ArrayBuffer` (or wrapper around one, such as a typed array) to one of these APIs, they take ownership of the data block encapsulated in the `ArrayBuffer`.
+
+Concretely, they [detach](https://tc39.github.io/ecma262/#sec-detacharraybuffer) the `ArrayBuffer` object itself. Essentially, it no longer "owns" the memory, and attempting to use it will throw ([sorta](https://github.com/tc39/ecma262/issues/678)). These APIs then use the backing bytes for their own purposes.
+
+This proposal is for exposing that same capability to JavaScript
+
+## `ArrayBuffer.prototype.transfer()`
+
+To do this, we propose a new method, `ab.transfer()`, which detaches `ab` and returns a new `ArrayBuffer` pointing to the same data block. This would allow our above `validateAndWrite()` function to be safe and fast:
+
+```js
 function validateAndWriteSafeAndFast(arrayBuffer) {
-  // Transfer to take ownership, which implementations can choose to
-  // implement as a zero-copy move.
-  const owned = arrayBuffer.transfer();
+  // Transfer first!
+  const transferred = arrayBuffer.transfer();
 
-  // arrayBuffer is detached after this point.
-  assert(arrayBuffer.detached);
-
-  await validate(owned);
-  await fs.writeFile("data.bin", owned);
+  await validate(transferred);
+  await fs.writeFile("data.bin", transferred);
 }
 ```
 
-### Realloc
+Now attempts to modify an `ArrayBuffer` after passing it to `validateAndWriteSafeAndFast()` will throw, making it clear that the function has taken ownership of the data and does not expect further modification of it.
 
-The same `transfer` API, when passing a `newByteLength` argument, can double to have the same expressivity as [`realloc`](https://en.cppreference.com/w/c/memory/realloc). Operating systems often implement `realloc` more efficiently than a copy.
+As a bonus, you can use this for providing a strong signal to the engine that it can free an `ArrayBuffer`'s memory, without needing to find all references to the `ArrayBuffer` object and null them out:
 
-### Fixing resizable buffers to be fixed-length
-
-The `transferToFixedLength` method is a variant of `transfer` that always returns a fixed-length `ArrayBuffer`. This is useful in cases when the new buffer no longers needs resizability, allowing implementations to free up virtual memory if resizable buffers were implemented in-place (i.e. address space is reserved up front).
-
-### Checking detachedness
-
-Owing to the [messy history](https://esdiscuss.org/topic/arraybuffer-neutering) of TypedArray and `ArrayBuffer` standardization, and preservation of web compatibility, TypedArray views on detached buffers throw for some operations (e.g. prototype methods), and return sentinel values (`0` or `undefined`) for others (e.g. indexed access and length).
-
-The `detached` getter is added to authoritatively determine whether an `ArrayBuffer` is detached.
-
-Currently, there isn't any performant way of detecting whether an `ArrayBuffer` is detached. The following implementation is an example of how the detachedness can be detected, but has some flaws in V8: functions with try catch blocks are not inlined in V8. See also [this Node internal comment](https://github.com/nodejs/node/blob/main/lib/querystring.js#L472).
-
-```javascript
-const assert = require('node:assert')
-
-function isBufferDetached(buffer) {
-  if (buffer.byteLength === 0) {
-    try {
-      new Uint8Array(buffer);
-    } catch (error) {
-      assert(error.name === 'TypeError');
-      return true;
-    }
-  }
-  return false
-}
+```js
+arrayBuffer.transfer(); // don't save the result anywhere
 ```
 
-## FAQ and design rationale tradeoffs
+## Bonus proposal: `ArrayBuffer.prototype.realloc(newByteLength)`
 
-### Why do both `transfer` and `transferToFixedLength` exist instead of a single, more flexible method?
+As a secondary API, while we're in the area, we propose a related API, called `realloc()`. This transfers the contents of the `ArrayBuffer` into a new one with a new length. It is expected to have similar semantics to the [C `realloc()` function](http://en.cppreference.com/w/c/memory/realloc), allowing in-place expansion or contraction when possible.
 
-Most folks seem to have the intuition that the move semantics, being the primary use case, ought to preserve resizability. Transferring `ArrayBuffer`s in HTML serialization preserves resizability, and symmetry with that is good for intuition.
+The main use case for this is trimming an `ArrayBuffer`, while avoiding copies when possible.
 
-A flexible `transfer` also complicates the API design for a more minority use case, thus the separate `transferToFixedLength` method.
+For example, consider reading a file. You are given a low-level system API `file.readInto(buffer, offset, count)` that attempts to read `count` bytes from `file` into `buffer` starting at `offset`, and resolves with a promise for the number of bytes read:
 
-### Why can't I pass a new `maxByteLength` to `transfer`?
+```js
+const buffer = new ArrayBuffer(1024 * 1024);
+const bytesRead = await file.readInto(buffer, 0, buffer.byteLength);
+```
 
-One of the goals of `transfer`, in addition to detach semantics, is to be more efficiently implementable than a copy in user code. It is not clear to the author that for resizable buffers implemented in-place, reallocation of the virtual memory pages is possible and efficient on all popular operating systems.
+If the file is small, `bytesRead` might be much less than 1 MiB, and so you're wasting memory. You could fix this, but it would require a copy:
 
-And besides it adds complexity in service of a more minority use case. Resizable buffers ought to be allocated with sufficient maximum size from the start.
+```js
+const tempBuffer = new ArrayBuffer(1024 * 1024);
+const bytesRead = await file.readInto(tempBuffer, 0, tempBuffer.byteLength);
+const buffer = tempBuffer.slice(0, bytesRead);
+```
 
-### If performance is the goal, why add new methods instead of implementing copy-on-write (CoW) as a transparent optimization?
+But with `ArrayBuffer.prototype.realloc()`, the implementation may be able to avoid the copy:
 
-In a word, security.
+```js
+const tempBuffer = new ArrayBuffer(1024 * 1024);
+const bytesRead = await file.readInto(tempBuffer, 0, tempBuffer.byteLength);
+const buffer = tempBuffer.realloc(bytesRead);
+```
 
-`ArrayBuffer`s are a very popular attack vector for exploiting JavaScript engines. An important security mitigation engines employ is to ensure the `ArrayBuffer`'s data pointer is constant and does not move. For this same reason, resizable buffers are specified to allow in-place implementation.
+If implementation conditions align correctly, no copies are performed here: `buffer` points to the same region of memory as `tempBuffer`, but now any bytes between `bytesRead` and `1024 * 1024` are freed, since they can be accessed neither via `buffer` (whose length is `bytesRead`) nor via `tempBuffer` (which is now detached).
 
-CoW `ArrayBuffer`s may be implemented by moving the data pointer. When the CoW `ArrayBuffer` is modified, new memory is allocated and the backing store is updated. However, this conflicts with the security mitigation.
+I mainly envision this being used as an alternative for `tempBuffer.slice(0, bytesRead)` that developers can use whenever they want to resize, and don't need two copies of the data lying around. In that case they can just use `realloc()` and perhaps get a performance or memory improvement if the engine is in a good position to optimize.
 
-It is possible to both implement copy-on-write `ArrayBuffer`s and keep the "fixed data pointer" security mitigation only with additional help from the underlying operating system: by mapping new virtual memory that is marked as CoW and initially point to the same physical pages as the source buffer. This technique is, however, not portable.
+This API is less important than the `transfer()` API, and I look forward to the committee's feedback as to whether we should pursue it or not.
 
-At this time, Google Chrome deems this mitigation important enough for security to not implement CoW `ArrayBuffer`s.
+## FAQs
 
-### How is `get detached()` used in browsers and in runtimes?
+### What about SharedArrayBuffer?
 
-- Node.js [discussed adding a public API](https://github.com/nodejs/node/pull/45512) for `get detached()`
-- WebKit has [`isDetached`](https://github.com/WebKit/WebKit/blob/6545977030f491dd87b3ae9fd666f6b949ae8a74/Source/JavaScriptCore/runtime/ArrayBuffer.h#L308) in internal `ArrayBuffer` class
-- V8 added [`v8::ArrayBuffer::WasDetached`](https://github.com/v8/v8/commit/9df5ef70ff18977b157028fc55ced5af4bcee535) which was later [backported to Node.js](https://github.com/nodejs/node/pull/45568) and used in Node webstreams.
+It doesn't really make sense to add `transfer()` to `SharedArrayBuffer.prototype`. Certainly the use case, of avoiding concurrent access to the same data, doesn't make sense in this context. Additionally, we have no concept of detaching for `SharedArrayBuffer` instances.
 
-### How is `transfer` used in browsers and in runtimes?
+## History and acknowledgments
 
-Most browsers use `detach()` as the name for detaching `ArrayBuffer`s.
+This proposal derives from Luke Wagner's [`ArrayBuffer.transfer`](https://gist.github.com/lukewagner/2735af7eea411e18cf20) strawperson, split into two distinct methods: `transfer()` and `realloc()`. That strawperson in turn derives from a suggestion of Dmitry Lomov. Thanks to them both!
 
-- V8 has `Detach()` as [`v8::ArrayBuffer::Detach()`](https://v8docs.nodesource.com/node-18.2/d5/d6e/classv8_1_1_array_buffer.html#abb7a2b60240651d16e17d02eb6f636cf)
- - WebKit has [`void detach()`](https://github.com/WebKit/WebKit/blob/6545977030f491dd87b3ae9fd666f6b949ae8a74/Source/JavaScriptCore/runtime/ArrayBuffer.h#L307)
- - Node.js [has an internal implementation](https://github.com/nodejs/node/blob/22c645d411b7cba9e7b0d578a3e7108147a5d89e/lib/internal/webstreams/util.js#L131) to support detaching internal buffers called `transferArrayBuffer`, and used in Node webstream.
-
-## Open questions
-
-### Do we really need `transferToFixedLength`?
-
-Feels nice to round out the expressivity, but granted the use case here isn't as compelling as `transfer`.
-
-## History and acknowledgment
-
-Thanks to:
-  - @domenic for https://github.com/domenic/proposal-arraybuffer-transfer/tree/HEAD~1
-<br>
+At that time one of the major envisioned use cases for the proposal was to provide resizable memory for asm.js. That use case has largely been subsumed by WebAssembly, and so the proposal was abandoned. I picked it up because I believe there is still a strong use case for transferring and trimming `ArrayBuffer`s even in pure JavaScript code.

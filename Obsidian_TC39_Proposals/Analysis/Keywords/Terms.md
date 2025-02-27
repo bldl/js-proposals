@@ -2504,3 +2504,6 @@ Proposal: object-values-entries
 Proposal: array-includes 
  #includes #method #array #semantics #equality #comparison #element #includes #from_index #typed_arrays
 
+Proposal: buffer-transfer 
+ #ownership #detachment #reallocation #performance #buffer #fixed_length #transfer #resizability #security #serialization
+

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Classifications/Syntactic Change.md",
+                "file": "Proposals/Inactive/collection-json.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Syntactic Change"
+              "title": "collection-json"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "554742c426108215",
@@ -179,15 +179,21 @@
   },
   "active": "e04ceb2aedf3a976",
   "lastOpenFiles": [
-    "Analysis/Classifications/Semantic Change.md",
+    "Proposals/Inactive/cleanup-some.md",
+    "Proposals/Inactive/cancel-promise.md",
+    "Proposals/Inactive/callable-constructors.md",
     "Proposals/Inactive/arraylast.md",
-    "Proposals/Inactive/uuid.md",
-    "index.md",
     "Proposals/Inactive/blocks.md",
+    "Proposals/Inactive/buffer-transfer.md",
+    "Proposals/Inactive/collection-json.md",
+    "Proposals/Stage 4/arraybuffer-transfer.md",
+    "index.md",
     "Proposals/Inactive/-------------error---------------.md",
     "Analysis/Keywords/Terms.md",
-    "Analysis/Classifications/Unknown.md",
     "Analysis/Classifications/Syntactic Change.md",
+    "Analysis/Classifications/Semantic Change.md",
+    "Proposals/Inactive/uuid.md",
+    "Analysis/Classifications/Unknown.md",
     "Analysis/Classifications/API Change.md",
     "Analysis/Proposals/Proposal Summary.md",
     "Analysis/Changes/Semantic Change.md",
@@ -199,12 +205,6 @@
     "Proposals/Stage 4/object-values-entries.md",
     "Proposals/Stage 4/string-padding.md",
     "Proposals/Stage 4/object-gopds.md",
-    "Proposals/Stage 4/function-commas.md",
-    "Proposals/Stage 4/async-await.md",
-    "Proposals/Stage 4/atomics.md",
-    "Proposals/Stage 4/template-literal-lift.md",
-    "Proposals/Stage 4/dot-all.md",
-    "Proposals/Stage 4/named-groups.md",
     "Proposals/Inactive/Node",
     "Proposals/Stage 0/Node",
     "Proposals/Stage 1/Node",

@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Getting last element of Array<br>Authors: Keith Cirkel<br>Champions: Withdrawn; the [Array#at](https://github.com/tc39/proposal-relative-indexing-method) proposal supersedes this work.<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2018-01-13  
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Getting last element of Array<br>Authors: Keith Cirkel<br>Withdrawn; the [Array#at](https://github.com/tc39/proposal-relative-indexing-method) proposal supersedes this work.<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2018-01-13  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

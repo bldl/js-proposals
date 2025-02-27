@@ -184,5 +184,5 @@ Feels nice to round out the expressivity, but granted the use case here isn't as
 ## History and acknowledgment
 
 Thanks to:
-  - @domenic for https://github.com/domenic/proposal-arraybuffer-transfer/tree/HEAD~1
+  - @domenic for [[buffer-transfer]]
 <br>
