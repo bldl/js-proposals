@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Inactive/function-helpers.md",
+                "file": "Proposals/Inactive/module-unambig.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "function-helpers"
+              "title": "module-unambig"
             }
           }
         ]
@@ -179,6 +179,11 @@
   },
   "active": "e04ceb2aedf3a976",
   "lastOpenFiles": [
+    "Proposals/Inactive/json-tryparse.md",
+    "Proposals/Inactive/is-types.md",
+    "Proposals/Inactive/icu.md",
+    "Proposals/Inactive/function-helpers.md",
+    "Proposals/Inactive/generator-arrow-functions.md",
     "Proposals/Inactive/fromimport.md",
     "Proposals/Inactive/dynamic-module-reform.md",
     "Proposals/Inactive/extensible-literals.md",
@@ -192,11 +197,6 @@
     "Analysis/Classifications/Syntactic Change.md",
     "Proposals/Inactive/cleanup-some.md",
     "Proposals/Inactive/cancel-promise.md",
-    "Proposals/Inactive/function-helpers.md",
-    "Proposals/Inactive/generator-arrow-functions.md",
-    "Proposals/Inactive/icu.md",
-    "Proposals/Inactive/is-types.md",
-    "Proposals/Inactive/json-tryparse.md",
     "Proposals/Inactive/module-unambig.md",
     "Proposals/Inactive/modules-pragma.md",
     "Proposals/Inactive/more-math.md",
