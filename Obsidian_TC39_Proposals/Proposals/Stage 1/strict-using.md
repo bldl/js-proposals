@@ -221,7 +221,7 @@ complex mechanism than what is proposed. For further discussion on full exceptio
 
 # Potential Semantics
 
-[CreateDisposableResource ( V, hint, method )]() would be modified as follows:
+[CreateDisposableResource ( V, hint, method )] would be modified as follows:
 
 ```
   1. If _method_ is not present, then

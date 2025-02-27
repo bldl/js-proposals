@@ -1,2 +1,0 @@
-[[Inactive]]<br>Classification<br>Human Validated: No<br>Title: -------------error---------------<br>Authors: Allen Wirfs-Brock<br>Champions: Withdrawn per [PR comment](https://github.com/tc39/ecma262/issues/1595#issuecomment-509348434)<br>Last Presented: None<br>Stage Upgrades:<br>None<br>Last Commit: None<br>Keywords:<br>GitHub Link: None <br>GitHub Note Link: None
-# Proposal Description:<br>

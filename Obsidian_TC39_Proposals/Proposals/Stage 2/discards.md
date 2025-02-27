@@ -52,7 +52,7 @@ There are a number of potential use cases for "discard" bindings that this propo
 - [Discards in callback parameters](#parameters) (i.e., `const indices = ar.map((void, i) => i)`) 
 - [Discards in class method parameters](#parameters) to avoid declaring otherwise unused parameter bindings.
 - [Discards in Extractors](#extractors) (i.e., `const Message(void, body) = msg`) to indicate explicit elisions.
-- [Discards in Pattern Matching]() (i.e., `obj is { x: void, y: void }`) to match the existence of a property/element
+- [Discards in Pattern Matching] (i.e., `obj is { x: void, y: void }`) to match the existence of a property/element
   when the actual value of that property/element is not relevant.
 
 # Prior Art
