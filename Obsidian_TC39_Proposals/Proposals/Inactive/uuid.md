@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: UUID<br>Authors: Benjamin Coe<br>Champions: Withdrawn; moved to `crypto.randomUUID()` in February 2023<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2019-10-03  
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: UUID<br>Authors: Benjamin Coe<br>Withdrawn; moved to `crypto.randomUUID()` in February 2023<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2019-10-03  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

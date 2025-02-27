@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Operator overloading<br>Authors: Daniel Ehrenberg<br>Champions: Withdrawn<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2020-04-24  
+[[Inactive]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Operator overloading<br>Authors: Daniel Ehrenberg<br>Withdrawn<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2020-04-24  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Improving iteration on Objects<br>Authors: Jonathan Keslin<br>Champions: Withdrawn: concern about need for such an API<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2019-10-01  
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Improving iteration on Objects<br>Authors: Jonathan Keslin<br>Withdrawn: concern about need for such an API<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2019-10-01  
 Stage 2: 2020-01-24  
 Stage 2.7: NA  
 Stage 3: NA  

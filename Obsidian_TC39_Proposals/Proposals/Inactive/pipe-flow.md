@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Function.pipe and flow<br>Authors: J.S. Choi<br>Champions: Withdrawn: [rejected for stage 1][pipe-flow-notes]<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2022-08-17  
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Function.pipe and flow<br>Authors: J.S. Choi<br>Withdrawn: [rejected for stage 1][pipe-flow-notes]<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2022-08-17  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

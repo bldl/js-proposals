@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Symbol.thenable<br>Authors: Gus Caplan, Jordan Harband, Myles Borins<br>Champions: Withdrawn; changing thenability on Module Namespace objects is not web compatible, and allowing non-Promise use of "then" is not worth slowing down all Promise operations<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2018-04-09  
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Symbol.thenable<br>Authors: Gus Caplan, Jordan Harband, Myles Borins<br>Withdrawn; changing thenability on Module Namespace objects is not web compatible, and allowing non-Promise use of "then" is not worth slowing down all Promise operations<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2018-04-09  
 Stage 2: 2018-05-11  
 Stage 2.7: NA  
 Stage 3: NA  

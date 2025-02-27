@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: "use module"<br>Authors: Dave Herman<br>Champions: Inactive; champion does not wish to pursue<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2017-05-15  
+[[Inactive]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: "use module"<br>Authors: Dave Herman<br>Inactive; champion does not wish to pursue<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2017-05-15  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

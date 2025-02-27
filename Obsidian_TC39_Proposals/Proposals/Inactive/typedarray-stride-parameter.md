@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: TypedArray stride parameter<br>Authors: Shu-yu Guo<br>Champions: [Withdrawn][typedarray-stride-parameter-notes]: concern about performance implications, and the proposal is not expressive enough<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2020-01-23  
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: TypedArray stride parameter<br>Authors: Shu-yu Guo<br>[Withdrawn][typedarray-stride-parameter-notes]: concern about performance implications, and the proposal is not expressive enough<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2020-01-23  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

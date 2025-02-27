@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Generator arrow functions<br>Authors: Sergey Rubanov, Brendan Eich<br>Champions: Withdrawn: no interested champions in February 2024<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2019-10-21  
+[[Inactive]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Generator arrow functions<br>Authors: Sergey Rubanov, Brendan Eich<br>Withdrawn: no interested champions in February 2024<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2019-10-21  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

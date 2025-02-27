@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Function helpers<br>Authors: J. S. Choi<br>Champions: Presented and rejected before Stage 1 on 2021-10; split up into multiple subsequent proposals<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2021-09-30  
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Function helpers<br>Authors: J. S. Choi<br>Presented and rejected before Stage 1 on 2021-10; split up into multiple subsequent proposals<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2021-09-30  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

@@ -1,8 +1,8 @@
-[[Inactive]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: Dynamic Module Reform<br>Authors: Caridy Patiño<br>Champions: Withdrawn: we decided to preserve the current semantics<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2016-12-14  
-Stage 2: 2017-03-22  
+[[Inactive]]<br>Classification: [[Semantic Change]]<br>Human Validated: KW<br>Title: Dynamic Module Reform<br>Authors: Caridy Patiño<br>Withdrawn: we decided to preserve the current semantics<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2016-12-14  
+Stage 2: NA
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2017-04-06<br>Keywords: #dynamic #module #evaluation #import #binding #circular #syntax #semantics #instantiation #records<br>GitHub Link: https://github.com/tc39/proposal-dynamic-modules <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2017-04-06<br>Keywords: #dynamic #module #evaluation #import #binding #circular #syntax #semantics #instantiation #records<br>GitHub Link: https://github.com/tc39/proposal-dynamic-modules <br>GitHub Note Link: https://github.com/rwaldron/tc39-notes/blob/master/es8/2017-03/mar-23.md#10iia-dynamic-module-reform-for-stage-2
 # Proposal Description:
 # Dynamic Module Reform (REJECTED)
 

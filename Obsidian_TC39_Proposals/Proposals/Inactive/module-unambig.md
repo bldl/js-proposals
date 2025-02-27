@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: Proposed Grammar change to ES Modules<br>Authors: Bradley Farias<br>Champions: Rejected: No consensus on this specific solution.<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2016-06-14  
+[[Inactive]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: Proposed Grammar change to ES Modules<br>Authors: Bradley Farias<br>Rejected: No consensus on this specific solution.<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2016-06-14  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

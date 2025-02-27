@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: WeakRefs cleanupSome<br>Authors: Yulia Startsev, Daniel Ehrenberg<br>Champions: Withdrawn; subsumed by WebAssembly JS Promise Integration, which avoids the long task issue<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2020-07-06  
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: WeakRefs cleanupSome<br>Authors: Yulia Startsev, Daniel Ehrenberg<br>Withdrawn; subsumed by WebAssembly JS Promise Integration, which avoids the long task issue<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2020-07-06  
 Stage 2: 2020-07-22  
 Stage 2.7: NA  
 Stage 3: NA  
