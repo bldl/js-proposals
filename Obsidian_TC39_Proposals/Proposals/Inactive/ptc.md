@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Updates to Tail Calls to include an explicit syntactic opt-in<br>Authors: Brian Terlson, Eric Faust<br>Inactive<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2016-04-12  
+[[Inactive]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Updates to Tail Calls to include an explicit syntactic opt-in<br>Authors: Brian Terlson, Eric Faust<br>Inactive<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: NA
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

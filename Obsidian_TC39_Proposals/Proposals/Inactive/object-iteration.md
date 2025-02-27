@@ -1,5 +1,5 @@
-[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Improving iteration on Objects<br>Authors: Jonathan Keslin<br>Withdrawn: concern about need for such an API<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2019-10-01  
-Stage 2: 2020-01-24  
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Improving iteration on Objects<br>Authors: Jonathan Keslin<br>Withdrawn: concern about need for such an API<br>Last Presented: 2020-02-06<br>Stage Upgrades:<br>Stage 1: 2019-10-01  
+Stage 2: NA
 Stage 2.7: NA  
 Stage 3: NA  
 Stage 4: NA<br>Last Commit: 2020-10-30<br>Keywords: #iterator #object #iteration #keys #values #entries #mapping #performance #dictionary #transform<br>GitHub Link: https://github.com/tc39/proposal-object-iteration <br>GitHub Note Link: None

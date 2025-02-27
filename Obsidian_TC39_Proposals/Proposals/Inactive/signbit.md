@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Math.signbit: IEEE-754 sign bit<br>Authors: JF Bastien<br>Withdrawn: no interested champions in February 2024<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2017-05-03  
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Math.signbit: IEEE-754 sign bit<br>Authors: JF Bastien<br>Withdrawn: no interested champions in February 2024<br>Last Presented: 2017-01-25<br>Stage Upgrades:<br>Stage 1: 2017-01-26  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

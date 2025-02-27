@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d51e6b0e5accdd6f",
+        "id": "12a5d927fed7cf4c",
         "type": "tabs",
         "children": [
           {
-            "id": "e04ceb2aedf3a976",
+            "id": "c63ee9f04dd2c10d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Inactive/module-unambig.md",
+                "file": "Proposals/Inactive/zones.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -21,14 +21,14 @@
                   "collapseAll": false,
                   "extraContext": false,
                   "sortOrder": "alphabetical",
-                  "showSearch": true,
+                  "showSearch": false,
                   "searchQuery": "",
                   "backlinkCollapsed": false,
                   "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "module-unambig"
+              "title": "zones"
             }
           }
         ]
@@ -177,34 +177,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e04ceb2aedf3a976",
+  "active": "c63ee9f04dd2c10d",
   "lastOpenFiles": [
+    "Proposals/Inactive/uuid.md",
+    "Proposals/Inactive/unicode-sequence-properties.md",
+    "Proposals/Inactive/unused-params.md",
+    "Proposals/Inactive/typedarray-stride-parameter.md",
+    "Proposals/Inactive/typed-objects-new.md",
+    "Proposals/Inactive/symbol-thenable.md",
+    "Proposals/Inactive/spaceship.md",
+    "Proposals/Inactive/string-at.md",
+    "Proposals/Inactive/zones.md",
+    "Proposals/Inactive/simd.md",
+    "Proposals/Inactive/shallow-equal.md",
+    "Proposals/Inactive/signbit.md",
+    "Proposals/Inactive/refcollection.md",
+    "Proposals/Inactive/re-atomic-groups.md",
+    "Proposals/Inactive/ptc.md",
+    "Proposals/Inactive/object-iteration.md",
+    "Proposals/Inactive/overloading.md",
+    "Proposals/Inactive/pipe-flow.md",
+    "Proposals/Inactive/object-enums.md",
+    "Proposals/Inactive/modules-pragma.md",
+    "Proposals/Inactive/more-math.md",
+    "Proposals/Inactive/module-unambig.md",
     "Proposals/Inactive/json-tryparse.md",
     "Proposals/Inactive/is-types.md",
     "Proposals/Inactive/icu.md",
     "Proposals/Inactive/function-helpers.md",
-    "Proposals/Inactive/generator-arrow-functions.md",
-    "Proposals/Inactive/fromimport.md",
-    "Proposals/Inactive/dynamic-module-reform.md",
-    "Proposals/Inactive/extensible-literals.md",
-    "Proposals/Inactive/date-parse.md",
-    "Proposals/Inactive/deprecated.md",
-    "Proposals/Inactive/distinguishing-literal-strings.md",
-    "Proposals/Inactive/construct.md",
-    "Proposals/Inactive/collection-literals.md",
-    "Proposals/Stage 1/uniform-date-parse.md",
-    "Proposals/Inactive/collection-json.md",
-    "Analysis/Classifications/Syntactic Change.md",
-    "Proposals/Inactive/cleanup-some.md",
-    "Proposals/Inactive/cancel-promise.md",
-    "Proposals/Inactive/module-unambig.md",
-    "Proposals/Inactive/modules-pragma.md",
-    "Proposals/Inactive/more-math.md",
-    "Proposals/Inactive/object-enums.md",
-    "Proposals/Inactive/object-iteration.md",
-    "Proposals/Inactive/overloading.md",
-    "Proposals/Inactive/pipe-flow.md",
-    "Proposals/Inactive/ptc.md",
     "Proposals/Inactive/Node",
     "Proposals/Stage 0/Node",
     "Proposals/Stage 1/Node",
