@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 1/mass-proxy-revocation.md",
+                "file": "Proposals/Stage 1/matching.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "mass-proxy-revocation"
+              "title": "matching"
             }
           }
         ]
@@ -179,9 +179,12 @@
   },
   "active": "a4901fe9296a8c53",
   "lastOpenFiles": [
+    "Proposals/Stage 1/memoization.md",
+    "Proposals/Stage 1/matching.md",
+    "Proposals/Stage 1/mass-proxy-revocation.md",
     "Proposals/Stage 1/locale-extensions.md",
-    "Proposals/Stage 1/limited-array-buffer.md",
     "Proposals/Stage 1/legacy-reflection.md",
+    "Proposals/Stage 1/limited-array-buffer.md",
     "Proposals/Stage 1/iterator-unique.md",
     "Proposals/Stage 1/import-sync.md",
     "Proposals/Stage 1/idl.md",
@@ -202,9 +205,6 @@
     "Proposals/Stage 1/declarations-in-conditionals.md",
     "Proposals/Stage 1/decimal.md",
     "Proposals/Stage 1/debug.md",
-    "Proposals/Stage 1/dataview-uint8c.md",
-    "Proposals/Stage 1/csprng.md",
-    "Proposals/Stage 1/concurrency-control.md",
     "Proposals/Inactive/Node",
     "Analysis/Keywords",
     "Analysis/Stages",

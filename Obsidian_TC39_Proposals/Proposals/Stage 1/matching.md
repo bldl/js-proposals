@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Pattern Matching<br>Authors: Jordan Harband, Mark Cohen, Tab Atkins, Daniel Rosenwasser, Jack Works, Ross Kirsling<br>Champions: Jordan Harband, Mark Cohen, Tab Atkins, Daniel Rosenwasser, Jack Works, Ross Kirsling<br>Last Presented: March 2022<br>Stage Upgrades:<br>Stage 1: 2018-05-25  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Pattern Matching<br>Authors: Jordan Harband, Mark Cohen, Tab Atkins, Daniel Rosenwasser, Jack Works, Ross Kirsling<br>Champions: Jordan Harband, Mark Cohen, Tab Atkins, Daniel Rosenwasser, Jack Works, Ross Kirsling<br>Last Presented: March 2022<br>Stage Upgrades:<br>Stage 1: 2018-05-25  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

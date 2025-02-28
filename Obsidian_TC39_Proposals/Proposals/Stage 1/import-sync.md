@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]] <br>Human Validated: No<br>Title: Sync Imports<br>Authors: Guy Bedford<br>Champions: Guy Bedford<br>Last Presented: December 2024<br>Stage Upgrades:<br>Stage 1: 2024-12-05  
+[[Stage 1]]<br>Classification: [[API Change]] <br>Human Validated: KW<br>Title: Sync Imports<br>Authors: Guy Bedford<br>Champions: Guy Bedford<br>Last Presented: December 2024<br>Stage Upgrades:<br>Stage 1: 2024-12-05  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
