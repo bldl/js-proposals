@@ -1,4 +1,4 @@
-[[Stage 0]]<br>Classification: [[Semantic Change]] [[Syntactic Change]]<br>Human Validated: No<br>Title: Relationships<br>Authors: Mark Miller, Waldemar Horwat<br>Champions: Mark Miller, Waldemar Horwat<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: NA  
+[[Stage 0]]<br>Classification: [[Semantic Change]] [[Syntactic Change]]<br>Human Validated: KW<br>Title: Relationships<br>Authors: Mark Miller, Waldemar Horwat<br>Champions: Mark Miller, Waldemar Horwat<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: NA  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

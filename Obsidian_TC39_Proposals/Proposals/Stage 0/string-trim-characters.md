@@ -1,4 +1,4 @@
-[[Stage 0]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: String trim characters<br>Authors: Wenlu Wang<br>Champions: Wenlu Wang<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: NA  
+[[Stage 0]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: String trim characters<br>Authors: Wenlu Wang<br>Champions: Wenlu Wang<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: NA  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
