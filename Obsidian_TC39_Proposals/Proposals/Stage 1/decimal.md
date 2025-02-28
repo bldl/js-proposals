@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Decimal<br>Authors: Daniel Ehrenberg, Andrew Paprocki<br>Champions: Philip Chimento, Andrew Paprocki, Jesse Alama<br>Last Presented: December 2021<br>Stage Upgrades:<br>Stage 1: 2019-10-23  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Decimal<br>Authors: Daniel Ehrenberg, Andrew Paprocki<br>Champions: Philip Chimento, Andrew Paprocki, Jesse Alama<br>Last Presented: December 2021<br>Stage Upgrades:<br>Stage 1: 2020-02-10  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

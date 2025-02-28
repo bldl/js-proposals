@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: Faster Promise adoption<br>Authors: Justin Ridgewell<br>Champions: Justin Ridgewell<br>Last Presented: June 2022<br>Stage Upgrades:<br>Stage 1: 2022-06-06  
+[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: KW<br>Title: Faster Promise adoption<br>Authors: Justin Ridgewell<br>Champions: Justin Ridgewell<br>Last Presented: June 2022<br>Stage Upgrades:<br>Stage 1: 2022-06-06  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

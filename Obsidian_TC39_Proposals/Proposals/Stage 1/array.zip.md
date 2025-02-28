@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Array.zip and Array.zipKeyed<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2024-10-09  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Array.zip and Array.zipKeyed<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2024-10-09  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

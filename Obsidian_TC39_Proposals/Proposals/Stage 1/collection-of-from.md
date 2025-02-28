@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: of and from on collection constructors<br>Authors: Leo Balter<br>Champions: Leo Balter<br>Last Presented: September 2016<br>Stage Upgrades:<br>Stage 1: 2017-05-21  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: of and from on collection constructors<br>Authors: Leo Balter<br>Champions: Leo Balter<br>Last Presented: September 2016<br>Stage Upgrades:<br>Stage 1: 2017-05-21  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

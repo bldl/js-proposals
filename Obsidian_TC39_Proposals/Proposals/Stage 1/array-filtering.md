@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Array filtering<br>Authors: Justin Ridgewell<br>Champions: Justin Ridgewell<br>Last Presented: February 2020<br>Stage Upgrades:<br>Stage 1: 2019-10-24  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Array filtering<br>Authors: Justin Ridgewell<br>Champions: Justin Ridgewell<br>Last Presented: February 2020<br>Stage Upgrades:<br>Stage 1: 2019-12-12  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

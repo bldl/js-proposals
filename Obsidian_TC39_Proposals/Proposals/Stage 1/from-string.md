@@ -1,5 +1,5 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: {BigInt,Number}.fromString<br>Authors: Mathias Bynens<br>Champions: Mathias Bynens<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2017-12-19  
-Stage 2: 2018-03-21  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: {BigInt,Number}.fromString<br>Authors: Mathias Bynens<br>Champions: Mathias Bynens<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2018-03-21  
+Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
 Stage 4: NA<br>Last Commit: 2018-03-21<br>Keywords: #bigint #number #fromstring #parsing #radix #syntaxerror #rangeerror #typeerror #exception #literal<br>GitHub Link: https://github.com/tc39/proposal-number-fromstring <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iic-bigintnumberfromstring-for-stage-1

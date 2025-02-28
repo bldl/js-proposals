@@ -1,7 +1,7 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Call-this operator<br>Authors: J.S. Choi<br>Champions: J.S. Choi<br>Last Presented: October 2021<br>Stage Upgrades:<br>Stage 1: 2021-11-11  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Call-this operator<br>Authors: J.S. Choi<br>Champions: J.S. Choi<br>Last Presented: October 2021<br>Stage Upgrades:<br>Stage 1: 2021-11-11  
 Stage 2: NA  
 Stage 2.7: NA  
-Stage 3: 2016-12-01  
+Stage 3: NA  
 Stage 4: NA<br>Last Commit: 2023-05-05<br>Keywords: #operator #binding #function #syntax #receiver #arguments #associative #typeerror #dynamic #interoperability<br>GitHub Link: https://github.com/tc39/proposal-call-this <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#bind-this-operator-for-stage-1
 # Proposal Description:
 # Call-this operator for JavaScript

@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Asset References<br>Authors: Sebastian Markbage<br>Champions: Sebastian Markbage<br>Last Presented: November 2018<br>Stage Upgrades:<br>Stage 1: 2018-11-12  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Asset References<br>Authors: Sebastian Markbage<br>Champions: Sebastian Markbage<br>Last Presented: November 2018<br>Stage Upgrades:<br>Stage 1: 2018-11-28 
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

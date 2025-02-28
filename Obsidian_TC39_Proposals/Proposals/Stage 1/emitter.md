@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Emitter<br>Authors: Shu-yu Guo, Pedram Emrouznejad<br>Champions: Shu-yu Guo, Pedram Emrouznejad<br>Last Presented: June 2019<br>Stage Upgrades:<br>Stage 1: 2019-05-06  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Emitter<br>Authors: Shu-yu Guo, Pedram Emrouznejad<br>Champions: Shu-yu Guo, Pedram Emrouznejad<br>Last Presented: June 2019<br>Stage Upgrades:<br>Stage 1: 2019-06-05  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

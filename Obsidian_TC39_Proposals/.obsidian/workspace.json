@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "12a5d927fed7cf4c",
+        "id": "ed13ea68e74048c0",
         "type": "tabs",
         "children": [
           {
-            "id": "18277bd8fc47938a",
+            "id": "15ac54459f11a54e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 0/ortho.md",
+                "file": "Proposals/Stage 1/iterator-unique.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ortho"
+              "title": "iterator-unique"
             }
           }
         ]
@@ -177,34 +177,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18277bd8fc47938a",
+  "active": "15ac54459f11a54e",
   "lastOpenFiles": [
-    "Proposals/Stage 0/metaprops.md",
-    "Proposals/Stage 0/clone.md",
-    "Proposals/Stage 0/bind-syntax.md",
-    "Proposals/Stage 0/string-trim-characters.md",
-    "Proposals/Stage 0/relationships.md",
-    "Proposals/Stage 0/ortho.md",
-    "Proposals/Inactive/function-helpers.md",
-    "Proposals/Inactive/generator-arrow-functions.md",
-    "Proposals/Inactive/icu.md",
-    "Proposals/Inactive/is-types.md",
-    "Proposals/Inactive/json-tryparse.md",
-    "Proposals/Inactive/module-unambig.md",
-    "Proposals/Inactive/modules-pragma.md",
-    "Proposals/Inactive/more-math.md",
-    "Proposals/Inactive/object-enums.md",
-    "Proposals/Inactive/object-iteration.md",
-    "Proposals/Inactive/overloading.md",
-    "Proposals/Inactive/pipe-flow.md",
-    "Proposals/Inactive/ptc.md",
-    "Proposals/Inactive/re-atomic-groups.md",
-    "Proposals/Inactive/refcollection.md",
-    "Proposals/Inactive/shallow-equal.md",
-    "Proposals/Inactive/signbit.md",
-    "Proposals/Inactive/simd.md",
-    "Proposals/Inactive/spaceship.md",
-    "Proposals/Inactive/string-at.md",
+    "Proposals/Stage 1/import-sync.md",
+    "Proposals/Stage 1/idl.md",
+    "Proposals/Stage 1/get-intrinsic.md",
+    "Proposals/Stage 1/func-obj-decs.md",
+    "Proposals/Stage 1/from-string.md",
+    "Proposals/Stage 1/freeze-seal-syntax.md",
+    "Proposals/Stage 1/freeze-proto.md",
+    "Proposals/Stage 1/faster-promise-adoption.md",
+    "Proposals/Stage 1/extensions.md",
+    "Proposals/Stage 1/export-from.md",
+    "Proposals/Stage 1/eventual-send.md",
+    "Proposals/Stage 1/emitter.md",
+    "Proposals/Stage 1/dynamic-modules.md",
+    "Proposals/Stage 1/double-ended-iterator.md",
+    "Proposals/Stage 1/do.md",
+    "Proposals/Stage 1/deep-path-properties.md",
+    "Proposals/Stage 1/declarations-in-conditionals.md",
+    "Proposals/Stage 1/decimal.md",
+    "Proposals/Stage 1/debug.md",
+    "Proposals/Stage 1/dataview-uint8c.md",
+    "Proposals/Stage 1/csprng.md",
+    "Proposals/Stage 1/concurrency-control.md",
+    "Proposals/Stage 1/collection-of-from.md",
+    "Proposals/Stage 1/collection-methods.md",
+    "Proposals/Stage 1/codepoints.md",
+    "Proposals/Stage 1/class-param-decorators.md",
     "Proposals/Inactive/Node",
     "Analysis/Keywords",
     "Analysis/Stages",

@@ -1,12 +1,12 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]] [[API Change]]<br>Human Validated: No<br>Title: Double-Ended Iterator and Destructuring<br>Authors: HE Shi-Jun<br>Champions: HE Shi-Jun<br>Last Presented: September 2020<br>Stage Upgrades:<br>Stage 1: 2020-09-10  
-Stage 2: 2022-01-23  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] [[API Change]]<br>Human Validated: KW<br>Title: Double-Ended Iterator and Destructuring<br>Authors: HE Shi-Jun<br>Champions: HE Shi-Jun<br>Last Presented: September 2020<br>Stage Upgrades:<br>Stage 1: 2022-01-23  
+Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
 Stage 4: NA<br>Last Commit: 2022-07-21<br>Keywords: #iterator #destructuring #double_ended #generator #array #memory #sequence #context #implementation #helpers<br>GitHub Link: https://github.com/tc39/proposal-deiter <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#double-ended-iterator-and-destructuring-for-stage-1
 # Proposal Description:
 # Double-Ended Iterator and Destructuring
 
-Stauts: Stage 1
+Status: Stage 1
 
 Author: HE Shi-Jun (hax)
 

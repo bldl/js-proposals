@@ -1,8 +1,8 @@
-[[Stage 1]]<br>Classification: [[API Change]] [[Syntactic Change]]<br>Human Validated: No<br>Title: Sync Imports<br>Authors: Guy Bedford<br>Champions: Guy Bedford<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2024-12-05  
+[[Stage 1]]<br>Classification: [[API Change]] <br>Human Validated: No<br>Title: Sync Imports<br>Authors: Guy Bedford<br>Champions: Guy Bedford<br>Last Presented: December 2024<br>Stage Upgrades:<br>Stage 1: 2024-12-05  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-12-05<br>Keywords: #synchronous #import #module #registry #dynamic #require #error #loading #builtin #conditional<br>GitHub Link: https://github.com/guybedford/proposal-import-sync <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2024-12-05<br>Keywords: #synchronous #import #module #registry #dynamic #require #error #loading #builtin #conditional<br>GitHub Link: https://github.com/guybedford/proposal-import-sync <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-04.md#import-sync-discussion-request-for-stage-1
 # Proposal Description:
 # Import Sync
 

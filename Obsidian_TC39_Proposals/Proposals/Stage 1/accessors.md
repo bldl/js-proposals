@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Grouped Accessors and Auto-Accessors<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: November 2020<br>Stage Upgrades:<br>Stage 1: 2021-08-10  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Grouped Accessors and Auto-Accessors<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: November 2020<br>Stage Upgrades:<br>Stage 1: 2021-08-11  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

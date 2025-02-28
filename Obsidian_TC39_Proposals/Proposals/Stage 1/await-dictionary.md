@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Await Dictionary<br>Authors: Alexander J. Vincent<br>Champions: Ashley Claymore, Jordan Harband, Chris de Almeida<br>Last Presented: March 2023<br>Stage Upgrades:<br>Stage 1: 2023-03-24  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Await Dictionary<br>Authors: Alexander J. Vincent<br>Champions: Ashley Claymore, Jordan Harband, Chris de Almeida<br>Last Presented: March 2023<br>Stage Upgrades:<br>Stage 1: 2023-03-23  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

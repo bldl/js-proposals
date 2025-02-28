@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Array Equality<br>Authors: Hemanth HM, Jordan Harband<br>Champions: Hemanth HM, Jordan Harband<br>Last Presented: June 2020<br>Stage Upgrades:<br>Stage 1: 2020-06-04  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Array Equality<br>Authors: Hemanth HM, Jordan Harband<br>Champions: Hemanth HM, Jordan Harband<br>Last Presented: June 2020<br>Stage Upgrades:<br>Stage 1: 2020-06-04  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

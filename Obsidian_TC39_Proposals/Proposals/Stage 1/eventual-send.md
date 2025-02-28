@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Support for Distributed Promise Pipelining<br>Authors: Mark Miller, Chip Morningstar, Michael Fig<br>Champions: Mark Miller, Chip Morningstar, Michael Fig<br>Last Presented: October 2019<br>Stage Upgrades:<br>Stage 1: 2019-09-20  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Support for Distributed Promise Pipelining<br>Authors: Mark Miller, Chip Morningstar, Michael Fig<br>Champions: Mark Miller, Chip Morningstar, Michael Fig<br>Last Presented: October 2019<br>Stage Upgrades:<br>Stage 1: 2019-10-05  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

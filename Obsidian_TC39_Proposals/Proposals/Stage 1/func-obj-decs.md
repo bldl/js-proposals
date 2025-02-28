@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Function and Object Literal Decorators<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: February 2024<br>Stage Upgrades:<br>Stage 1: 2024-01-09  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Function and Object Literal Decorators<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: February 2024<br>Stage Upgrades:<br>Stage 1: 2024-02-08  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
@@ -11,7 +11,7 @@ expressions, function declarations, and object literal elements.
 
 ## Status
 
-**Stage:** 0  \
+**Stage:** 1  \
 **Champion:** Ron Buckton (@rbuckton)  \
 **Last Presented:** (none)
 

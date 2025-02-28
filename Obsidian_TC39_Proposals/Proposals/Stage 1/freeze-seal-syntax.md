@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Object.freeze + Object.seal syntax<br>Authors: Keith Cirkel<br>Champions: Keith Cirkel<br>Last Presented: November 2017<br>Stage Upgrades:<br>Stage 1: 2017-11-02  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Object.freeze + Object.seal syntax<br>Authors: Keith Cirkel<br>Champions: Keith Cirkel<br>Last Presented: November 2017<br>Stage Upgrades:<br>Stage 1: 2017-11-30  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

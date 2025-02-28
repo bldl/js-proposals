@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Concurrency Control<br>Authors: Michael Ficarra, Luca Casonato, Kevin Gibbons<br>Champions: Michael Ficarra, Luca Casonato<br>Last Presented: July 2024<br>Stage Upgrades:<br>Stage 1: 2024-07-15  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Concurrency Control<br>Authors: Michael Ficarra, Luca Casonato, Kevin Gibbons<br>Champions: Michael Ficarra, Luca Casonato<br>Last Presented: July 2024<br>Stage Upgrades:<br>Stage 1: 2024-08-07  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

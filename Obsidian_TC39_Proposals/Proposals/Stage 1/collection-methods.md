@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Collection methods<br>Authors: Michał Wadas<br>Champions: Sathya Gunasekaran<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2016-05-28  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Collection methods<br>Authors: Michał Wadas<br>Champions: Sathya Gunasekaran<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2019-01-15  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

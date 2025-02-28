@@ -1,5 +1,5 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Get Intrinsic<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: August 2021<br>Stage Upgrades:<br>Stage 1: 2021-08-18  
-Stage 2: 2021-10-29  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Get Intrinsic<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: August 2021<br>Stage Upgrades:<br>Stage 1: 2021-10-29  
+Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
 Stage 4: NA<br>Last Commit: 2023-09-21<br>Keywords: #intrinsic #first_run #runtime #robustness #evaluation #caching #environment #dependencies #iterator #function<br>GitHub Link: https://github.com/tc39/proposal-get-intrinsic <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#get-intrinsic-for-stage-1

@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: IDL for ECMAScript<br>Authors: Daniel Ehrenberg<br>Champions: Daniel Ehrenberg<br>Last Presented: September 2018<br>Stage Upgrades:<br>Stage 1: 2018-10-12  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: IDL for ECMAScript<br>Authors: Daniel Ehrenberg<br>Champions: Daniel Ehrenberg<br>Last Presented: September 2018<br>Stage Upgrades:<br>Stage 1: 2018-10-12  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

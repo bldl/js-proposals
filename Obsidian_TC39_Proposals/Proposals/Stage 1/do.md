@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: do expressions<br>Authors: Dave Herman<br>Champions: Kevin Gibbons<br>Last Presented: June 2020<br>Stage Upgrades:<br>Stage 1: 2017-09-13  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: do expressions<br>Authors: Dave Herman<br>Champions: Kevin Gibbons<br>Last Presented: June 2020<br>Stage Upgrades:<br>Stage 1: 2017-09-13  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

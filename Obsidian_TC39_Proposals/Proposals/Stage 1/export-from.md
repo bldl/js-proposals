@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: export v from "mod"; statements<br>Authors: Lee Byron<br>Champions: Ben Newman, John-David Dalton<br>Last Presented: July 2017<br>Stage Upgrades:<br>Stage 1: 2016-03-29  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: export v from "mod"; statements<br>Authors: Lee Byron<br>Champions: Ben Newman, John-David Dalton<br>Last Presented: July 2017<br>Stage Upgrades:<br>Stage 1: 2016-03-29  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

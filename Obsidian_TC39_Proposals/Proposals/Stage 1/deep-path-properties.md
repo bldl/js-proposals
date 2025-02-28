@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Deep Path Properties in Record Literals<br>Authors: Rick Button<br>Champions: Rick Button<br>Last Presented: June 2020<br>Stage Upgrades:<br>Stage 1: 2020-06-03  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Deep Path Properties in Record Literals<br>Authors: Rick Button<br>Champions: Rick Button<br>Last Presented: June 2020<br>Stage Upgrades:<br>Stage 1: 2020-06-03  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

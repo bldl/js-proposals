@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Standardized Debug<br>Authors: Gus Caplan<br>Champions: Gus Caplan<br>Last Presented: November 2020<br>Stage Upgrades:<br>Stage 1: 2020-09-25  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Standardized Debug<br>Authors: Gus Caplan<br>Champions: Gus Caplan<br>Last Presented: November 2020<br>Stage Upgrades:<br>Stage 1: 2020-09-25  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
