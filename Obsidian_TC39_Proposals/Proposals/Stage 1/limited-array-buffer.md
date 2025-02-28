@@ -1,5 +1,5 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Limited ArrayBuffer<br>Authors: Jack Works<br>Champions: Jack Works<br>Last Presented: April 2021<br>Stage Upgrades:<br>Stage 1: 2021-03-28  
-Stage 2: 2021-11-11  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Limited ArrayBuffer<br>Authors: Jack Works<br>Champions: Jack Works<br>Last Presented: April 2021<br>Stage Upgrades: <br>Stage 1: 2021-11-11  
+Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
 Stage 4: NA<br>Last Commit: 2022-02-07<br>Keywords: #arraybuffer #frozen #readonly #typedarray #dataview #permission #view #range #integration #complexity<br>GitHub Link: https://github.com/tc39/proposal-limited-arraybuffer <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#read-only-arraybuffer-and-fixed-view-of-arraybuffer-for-stage-1

@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Iterator unique<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: February 2024<br>Stage Upgrades:<br>Stage 1: 2024-02-08  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Iterator unique<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: February 2024<br>Stage Upgrades:<br>Stage 1: 2024-02-08  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
