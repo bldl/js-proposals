@@ -1,8 +1,8 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Unordered Async Iterator Helpers<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: July 2024<br>Stage Upgrades:<br>Stage 1: 2024-07-17  
-Stage 2: 2024-08-07  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Unordered Async Iterator Helpers<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: July 2024<br>Stage Upgrades:<br>Stage 1: 2024-08-08  
+Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-08-07<br>Keywords: #async #iterator #concurrency #unordered #promise #prototype #helpers #async_iterator #transformation #iteration<br>GitHub Link: https://github.com/tc39/proposal-unordered-async-iterator-helpers <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-30.md#unordered-async-iterator-helpers-for-stage-1
+Stage 4: NA<br>Last Commit: 2024-08-08<br>Keywords: #async #iterator #concurrency #unordered #promise #prototype #helpers #async_iterator #transformation #iteration<br>GitHub Link: https://github.com/tc39/proposal-unordered-async-iterator-helpers <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-30.md#unordered-async-iterator-helpers-for-stage-1
 # Proposal Description:
 JavaScript Unordered Async Iterator Helpers Proposal
 ====================================================

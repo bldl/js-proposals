@@ -1,5 +1,5 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: RegExp \R Escape<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: December 2021<br>Stage Upgrades:<br>Stage 1: 2021-10-15  
-Stage 2: 2021-12-04  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: RegExp \R Escape<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: December 2021<br>Stage Upgrades:<br>Stage 1: 2021-12-04  
+Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
 Stage 4: NA<br>Last Commit: 2021-12-04<br>Keywords: #unicode #line_terminator #escape_sequence #pattern #backtracking #atomic_group #character_class #split #fs #regular_expression<br>GitHub Link: https://github.com/tc39/proposal-regexp-r-escape <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#regexp-r-escape-for-stage-2

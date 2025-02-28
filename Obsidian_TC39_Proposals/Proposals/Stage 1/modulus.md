@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Modulus and Additional Integer Math<br>Authors: Peter Hoddie<br>Champions: Peter Hoddie<br>Last Presented: September 2020<br>Stage Upgrades:<br>Stage 1: 2020-09-01  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Modulus and Additional Integer Math<br>Authors: Peter Hoddie<br>Champions: Peter Hoddie<br>Last Presented: September 2020<br>Stage Upgrades:<br>Stage 1: 2023-06-23  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

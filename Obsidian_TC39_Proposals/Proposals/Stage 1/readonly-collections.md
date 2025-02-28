@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Readonly Collections<br>Authors: Mark Miller, Peter Hoddie<br>Champions: Mark Miller, Peter Hoddie<br>Last Presented: October 2019<br>Stage Upgrades:<br>Stage 1: 2019-09-21  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Readonly Collections<br>Authors: Mark Miller, Peter Hoddie<br>Champions: Mark Miller, Peter Hoddie<br>Last Presented: October 2019<br>Stage Upgrades:<br>Stage 1: 2019-10-05  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: Preserve Host Virtualizability<br>Authors: Mark Miller, J.F. Paradis, Caridy Patiño, Dan Finley, Alan Schmitt<br>Champions: Mark Miller, J.F. Paradis, Caridy Patiño, Dan Finley, Alan Schmitt<br>Last Presented: February 2020<br>Stage Upgrades:<br>Stage 1: 2019-11-21  
+[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: KW<br>Title: Preserve Host Virtualizability<br>Authors: Mark Miller, J.F. Paradis, Caridy Patiño, Dan Finley, Alan Schmitt<br>Champions: Mark Miller, J.F. Paradis, Caridy Patiño, Dan Finley, Alan Schmitt<br>Last Presented: February 2020<br>Stage Upgrades:<br>Stage 1: NA 
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

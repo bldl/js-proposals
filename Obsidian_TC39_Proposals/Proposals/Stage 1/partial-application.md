@@ -1,5 +1,5 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Partial application<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: July 2018<br>Stage Upgrades:<br>Stage 1: 2017-07-19  
-Stage 2: 2021-10-15  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Partial application<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: July 2018<br>Stage Upgrades:<br>Stage 1: 2017-11-17  
+Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
 Stage 4: NA<br>Last Commit: 2021-10-19<br>Keywords: #function_application #partial_application #placeholder_argument #ordinal_placeholder #rest_placeholder #calling_convention #fixed_arity #variable_arity #syntax_error #eager_evaluation<br>GitHub Link: https://github.com/tc39/proposal-partial-application <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#partial-application

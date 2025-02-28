@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: SES Secure EcmaScript<br>Authors: Mark Miller, Chip Morningstar, Caridy Patiño<br>Champions: Mark Miller, Chip Morningstar, Caridy Patiño<br>Last Presented: February 2020<br>Stage Upgrades:<br>Stage 1: 2015-07-24
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: SES Secure EcmaScript<br>Authors: Mark Miller, Chip Morningstar, Caridy Patiño<br>Champions: Mark Miller, Chip Morningstar, Caridy Patiño<br>Last Presented: February 2020<br>Stage Upgrades:<br>Stage 1: 2016-04-15
 Stage 2: NA
 Stage 2.7: NA
 Stage 3: NA

@@ -1,5 +1,5 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Slice notation<br>Authors: Sathya Gunasekaran<br>Champions: Sathya Gunasekaran<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2018-03-01  
-Stage 2: 2018-03-24  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Slice notation<br>Authors: Sathya Gunasekaran<br>Champions: Sathya Gunasekaran<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2018-03-24  
+Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
 Stage 4: NA<br>Last Commit: 2022-07-07<br>Keywords: #slice #notation #syntax #ergonomic #indices #defaults #negative_indices #out_of_bounds #array #slicing<br>GitHub Link: https://github.com/tc39/proposal-slice-notation <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#slice-notation-for-stage-2

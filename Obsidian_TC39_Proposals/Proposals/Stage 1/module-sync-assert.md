@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Module sync assert<br>Authors: Jack Works<br>Champions: Jack Works<br>Last Presented: November 2023<br>Stage Upgrades:<br>Stage 1: 2023-10-01  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Module sync assert<br>Authors: Jack Works<br>Champions: Jack Works<br>Last Presented: November 2023<br>Stage Upgrades:<br>Stage 1: 2023-11-29  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

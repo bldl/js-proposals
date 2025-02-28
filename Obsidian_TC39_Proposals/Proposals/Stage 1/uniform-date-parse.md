@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: uniform parsing of quasi-standard Date.parse input<br>Authors: Richard Gibson<br>Champions: Richard Gibson<br>Last Presented: September 2018<br>Stage Upgrades:<br>Stage 1: 2018-06-29  
+[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: KW<br>Title: uniform parsing of quasi-standard Date.parse input<br>Authors: Richard Gibson<br>Champions: Richard Gibson<br>Last Presented: September 2018<br>Stage Upgrades:<br>Stage 1: 2018-09-28  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

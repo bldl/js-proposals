@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Reversible string split<br>Authors: Luca Casonato<br>Champions: Luca Casonato<br>Last Presented: January 2022<br>Stage Upgrades:<br>Stage 1: 2022-01-25  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Reversible string split<br>Authors: Luca Casonato<br>Champions: Luca Casonato<br>Last Presented: January 2022<br>Stage Upgrades:<br>Stage 1: 2022-01-25  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

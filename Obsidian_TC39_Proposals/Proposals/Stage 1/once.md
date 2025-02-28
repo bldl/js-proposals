@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Function once<br>Authors: J. S. Choi<br>Champions: J. S. Choi<br>Last Presented: March 2022<br>Stage Upgrades:<br>Stage 1: 2022-03-31  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Function once<br>Authors: J. S. Choi<br>Champions: J. S. Choi<br>Last Presented: March 2022<br>Stage Upgrades:<br>Stage 1: 2022-03-31  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

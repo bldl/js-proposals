@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Observable<br>Authors: Jafar Husain<br>Champions: Jafar Husain, Mark Miller<br>Last Presented: May 2017<br>Stage Upgrades:<br>Stage 1: 2015-05-01  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Observable<br>Authors: Jafar Husain<br>Champions: Jafar Husain, Mark Miller<br>Last Presented: May 2017<br>Stage Upgrades:<br>Stage 1: 2015-05-01  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

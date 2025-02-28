@@ -1,5 +1,5 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Prototype pollution mitigation<br>Authors: Santiago Díaz, Jun Kokatsu<br>Champions: Shu-yu Guo<br>Last Presented: January 2023<br>Stage Upgrades:<br>Stage 1: 2022-11-18  
-Stage 2: 2023-05-25  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Prototype pollution mitigation<br>Authors: Santiago Díaz, Jun Kokatsu<br>Champions: Shu-yu Guo<br>Last Presented: January 2023<br>Stage Upgrades:<br>Stage 1: 2022-05-25  
+Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
 Stage 4: NA<br>Last Commit: 2023-08-29<br>Keywords: #prototype #pollution #vulnerability #encapsulation #reflection #prototypes #security #object #data #mitigation<br>GitHub Link: https://github.com/tc39/proposal-symbol-proto <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#prototype-pollution-mitigation--symbolproto

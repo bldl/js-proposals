@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Module Keys<br>Authors: Mike Samuel<br>Champions: Mike Samuel<br>Last Presented: May 2018<br>Stage Upgrades:<br>Stage 1: 2018-02-27  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Module Keys<br>Authors: Mike Samuel<br>Champions: Mike Samuel<br>Last Presented: May 2018<br>Stage Upgrades:<br>Stage 1: 2018-06-12
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

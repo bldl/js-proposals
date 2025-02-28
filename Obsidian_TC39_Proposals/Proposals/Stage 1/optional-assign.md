@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Optional chaining in assignment LHS<br>Authors: Nicolò Ribaudo<br>Champions: Nicolò Ribaudo<br>Last Presented: July 2023<br>Stage Upgrades:<br>Stage 1: 2023-07-16  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Optional chaining in assignment LHS<br>Authors: Nicolò Ribaudo<br>Champions: Nicolò Ribaudo<br>Last Presented: July 2023<br>Stage Upgrades:<br>Stage 1: 2023-07-16  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

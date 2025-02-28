@@ -1,8 +1,8 @@
-[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: Stabilize<br>Authors: Mark Miller, Chip Morningstar, Richard Gibson, Mathieu Hofman<br>Champions: Mark Miller, Chip Morningstar, Richard Gibson, Mathieu Hofman<br>Last Presented: December 2024<br>Stage Upgrades:<br>Stage 1: 2024-12-05  
+[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: KW<br>Title: Stabilize<br>Authors: Mark Miller, Chip Morningstar, Richard Gibson, Mathieu Hofman<br>Champions: Mark Miller, Chip Morningstar, Richard Gibson, Mathieu Hofman<br>Last Presented: December 2024<br>Stage Upgrades:<br>Stage 1: 2024-12-05  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2025-02-20<br>Keywords: #integrity #traits #frozen #sealed #non-extensible #overridable #non-trapping #proxy #programming #supply-chain<br>GitHub Link: https://github.com/Agoric/proposal-stabilize <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2025-02-20<br>Keywords: #integrity #traits #frozen #sealed #non-extensible #overridable #non-trapping #proxy #programming #supply-chain<br>GitHub Link: https://github.com/Agoric/proposal-stabilize <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-03.md#stabilize-to-stage-1
 # Proposal Description:
 # proposal: Stabilize, and other integrity traits
 
