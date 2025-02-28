@@ -1,8 +1,8 @@
-[[Stage 0]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Function bind syntax<br>Authors: Kevin Smith<br>Champions: Brian Terlson, Matthew Podwysocki<br>Last Presented: March 2015<br>Stage Upgrades:<br>Stage 1: 2014-12-31  
+[[Stage 0]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Function bind syntax<br>Authors: Kevin Smith<br>Champions: Brian Terlson, Matthew Podwysocki<br>Last Presented: March 2015<br>Stage Upgrades:<br>Stage 1: NA  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2018-01-19<br>Keywords: #this_binding #method_extraction #syntactic_sugar #lexical_scope #closure #virtual_methods #function_callee #constructor #type_error #bound_function<br>GitHub Link: https://github.com/tc39/proposal-bind-operator <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2018-01-19<br>Keywords: #this_binding #method_extraction #syntactic_sugar #lexical_scope #closure #virtual_methods #function_callee #constructor #type_error #bound_function<br>GitHub Link: https://github.com/tc39/proposal-bind-operator <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2015-03/mar-25.md#6vi-function-bind-and-private-fields-redux-kevin-smith
 # Proposal Description:
 ## ECMAScript This-Binding Syntax ##
 

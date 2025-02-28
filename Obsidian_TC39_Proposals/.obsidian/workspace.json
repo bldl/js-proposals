@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c63ee9f04dd2c10d",
+            "id": "18277bd8fc47938a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Inactive/zones.md",
+                "file": "Proposals/Stage 0/string-trim-characters.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "zones"
+              "title": "string-trim-characters"
             }
           }
         ]
@@ -177,43 +177,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c63ee9f04dd2c10d",
+  "active": "18277bd8fc47938a",
   "lastOpenFiles": [
+    "Proposals/Stage 0/relationships.md",
+    "Proposals/Stage 0/ortho.md",
+    "Proposals/Stage 0/object-shorthand-improvements.md",
+    "Proposals/Stage 0/nested-imports.md",
+    "Proposals/Stage 0/method-param-decorators.md",
+    "Proposals/Stage 0/metaprops.md",
+    "Proposals/Stage 0/is-callable-is-constructor.md",
+    "Proposals/Stage 0/func-expr-decorators.md",
+    "Proposals/Stage 0/defensible-classes.md",
+    "Proposals/Stage 0/bind-syntax.md",
+    "Proposals/Stage 0/as-patterns.md",
+    "Proposals/Stage 0/catch-guard.md",
+    "Proposals/Stage 0/clone.md",
+    "Proposals/Inactive/cleanup-some.md",
+    "Proposals/Inactive/cancel-promise.md",
+    "Proposals/Inactive/buffer-transfer.md",
+    "Proposals/Inactive/blocks.md",
+    "Proposals/Inactive/arraylast.md",
+    "Proposals/Inactive/collection-literals.md",
+    "Proposals/Stage 1/matching.md",
+    "Proposals/Stage 1/modulus.md",
     "Proposals/Inactive/uuid.md",
-    "Proposals/Inactive/unicode-sequence-properties.md",
-    "Proposals/Inactive/unused-params.md",
-    "Proposals/Inactive/typedarray-stride-parameter.md",
-    "Proposals/Inactive/typed-objects-new.md",
-    "Proposals/Inactive/symbol-thenable.md",
-    "Proposals/Inactive/spaceship.md",
-    "Proposals/Inactive/string-at.md",
     "Proposals/Inactive/zones.md",
-    "Proposals/Inactive/simd.md",
-    "Proposals/Inactive/shallow-equal.md",
+    "Proposals/Stage 0/string-trim-characters.md",
     "Proposals/Inactive/signbit.md",
-    "Proposals/Inactive/refcollection.md",
-    "Proposals/Inactive/re-atomic-groups.md",
-    "Proposals/Inactive/ptc.md",
-    "Proposals/Inactive/object-iteration.md",
-    "Proposals/Inactive/overloading.md",
-    "Proposals/Inactive/pipe-flow.md",
-    "Proposals/Inactive/object-enums.md",
-    "Proposals/Inactive/modules-pragma.md",
-    "Proposals/Inactive/more-math.md",
     "Proposals/Inactive/module-unambig.md",
-    "Proposals/Inactive/json-tryparse.md",
-    "Proposals/Inactive/is-types.md",
-    "Proposals/Inactive/icu.md",
-    "Proposals/Inactive/function-helpers.md",
     "Proposals/Inactive/Node",
+    "Analysis/Keywords",
+    "Analysis/Stages",
     "Proposals/Stage 0/Node",
     "Proposals/Stage 1/Node",
     "Proposals/Stage 2/Node",
     "Proposals/Stage 2.7/Node",
     "Proposals/Stage 3/Node",
     "Proposals/Stage 0",
-    "Proposals/Stage 1",
-    "Proposals/Stage 2.7",
-    "Proposals/Stage 3"
+    "Proposals/Stage 1"
   ]
 }
