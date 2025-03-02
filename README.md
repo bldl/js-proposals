@@ -1,5 +1,7 @@
 # tc39_proposals_project
 
+Available: https://tc39-proposals-quartz.vercel.app/ 
+
 20 credit z-inf project
 
 Student: Kai Waløen (UiB)
