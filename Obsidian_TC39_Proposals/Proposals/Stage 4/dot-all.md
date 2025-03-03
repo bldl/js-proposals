@@ -1,8 +1,8 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: s (dotAll) flag for regular expressions<br>Authors: Mathias Bynens<br>Champions: Brian Terlson, Mathias Bynens<br>Last Presented: November 2017<br>Stage Upgrades:<br>Stage 1: 2016-11-30  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: s (dotAll) flag for regular expressions<br>Authors: Mathias Bynens<br>Champions: Brian Terlson, Mathias Bynens<br>Last Presented: November 2017<br>Stage Upgrades:<br>Stage 1: 2016-11-30  
 Stage 2: 2017-03-22  
 Stage 2.7: NA  
 Stage 3: 2017-03-22  
-Stage 4: 2017-12-18<br>Last Commit: 2018-01-19<br>Keywords: #dot_all #regex #multiline #line_terminator #character #flags #unicode #pattern #accessor #test<br>GitHub Link: https://github.com/tc39/proposal-regexp-dotall-flag <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-28.md#9ie-regexp-dotall-status-update
+Stage 4: 2017-12-19<br>Last Commit: 2018-01-19<br>Keywords: #dot_all #regex #multiline #line_terminator #character #flags #unicode #pattern #accessor #test<br>GitHub Link: https://github.com/tc39/proposal-regexp-dotall-flag <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-28.md#9ie-regexp-dotall-status-update
 # Proposal Description:
 # ECMAScript proposal: `s` (`dotAll`) flag for regular expressions
 

@@ -1,8 +1,8 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: JSON Modules<br>Authors: Myles Borins, Sven Sauleau, Dan Clark, Daniel Ehrenberg<br>Champions: Myles Borins, Sven Sauleau, Dan Clark, Daniel Ehrenberg<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2019-12-06  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: JSON Modules<br>Authors: Myles Borins, Sven Sauleau, Dan Clark, Daniel Ehrenberg<br>Champions: Myles Borins, Sven Sauleau, Dan Clark, Daniel Ehrenberg<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2019-12-06  
 Stage 2: 2020-06-04  
 Stage 2.7: NA  
 Stage 3: 2021-02-01  
-Stage 4: NA<br>Last Commit: 2023-12-12<br>Keywords: #json #module #import #attributes #parsing #interoperability #security #mime #export #ecosystem<br>GitHub Link: https://github.com/tc39/proposal-json-modules <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#import-attributes-and-json-modules-for-stage-4
+Stage 4: 2024-10-08<br>Last Commit: 2023-12-12<br>Keywords: #json #module #import #attributes #parsing #interoperability #security #mime #export #ecosystem<br>GitHub Link: https://github.com/tc39/proposal-json-modules <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#import-attributes-and-json-modules-for-stage-4
 # Proposal Description:
 # JSON modules
 

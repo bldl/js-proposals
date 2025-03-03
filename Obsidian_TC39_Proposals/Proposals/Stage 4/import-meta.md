@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: import.meta<br>Authors: Domenic Denicola<br>Champions: Gus Caplan<br>Last Presented: March 2020<br>Stage Upgrades:<br>Stage 1: 2017-05-24  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: import.meta<br>Authors: Domenic Denicola<br>Champions: Gus Caplan<br>Last Presented: March 2020<br>Stage Upgrades:<br>Stage 1: NA  
 Stage 2: 2017-05-25  
 Stage 2.7: NA  
 Stage 3: 2017-09-28  

@@ -1,7 +1,7 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Trailing commas in function parameter lists and calls<br>Authors: Jeff Morrison<br>Champions: Jeff Morrison<br>Last Presented: July 2016<br>Stage Upgrades:<br>Stage 1: 2014-09-22  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Trailing commas in function parameter lists and calls<br>Authors: Jeff Morrison<br>Champions: Jeff Morrison<br>Last Presented: July 2016<br>Stage Upgrades:<br>Stage 1: NA  
 Stage 2: NA  
 Stage 2.7: NA  
-Stage 3: NA  
+Stage 3: 2015-11-16  
 Stage 4: 2016-07-28<br>Last Commit: 2016-07-28<br>Keywords: #trailing_comma #function_parameter #code_style #version_control #blame #syntax #grammar #parameter_list #code_attribution #transpilation<br>GitHub Link: https://github.com/tc39/proposal-trailing-function-commas <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-26.md#9ie-trailing-commas-in-functions
 # Proposal Description:
 # Proposal to allow trailing commas in function parameter lists

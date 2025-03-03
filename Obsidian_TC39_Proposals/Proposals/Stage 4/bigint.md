@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[API Change]] [[Syntactic Change]]<br>Human Validated: No<br>Title: BigInt<br>Authors: Daniel Ehrenberg<br>Champions: Daniel Ehrenberg<br>Last Presented: June 2019<br>Stage Upgrades:<br>Stage 1: 2017-01-27  
+[[Stage 4]]<br>Classification: [[API Change]] <br>Human Validated: KW<br>Title: BigInt<br>Authors: Daniel Ehrenberg<br>Champions: Daniel Ehrenberg<br>Last Presented: June 2019<br>Stage Upgrades:<br>Stage 1: 2017-01-27  
 Stage 2: 2017-03-23  
 Stage 2.7: NA  
 Stage 3: 2017-07-27  

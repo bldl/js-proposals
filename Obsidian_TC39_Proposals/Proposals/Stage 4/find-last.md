@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Array find from last<br>Authors: Wenlu Wang<br>Champions: Wenlu Wang, Daniel Rosenwasser<br>Last Presented: June 2022<br>Stage Upgrades:<br>Stage 1: 2020-11-09  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Array find from last<br>Authors: Wenlu Wang<br>Champions: Wenlu Wang, Daniel Rosenwasser<br>Last Presented: June 2022<br>Stage Upgrades:<br>Stage 1: 2021-02-01  
 Stage 2: 2021-03-11  
 Stage 2.7: NA  
 Stage 3: 2021-07-14  

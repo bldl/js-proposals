@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Sync Iterator helpers<br>Authors: Gus Caplan<br>Champions: Michael Ficarra, Jonathan Keslin, Kevin Gibbons<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2019-01-31  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Sync Iterator helpers<br>Authors: Gus Caplan<br>Champions: Michael Ficarra, Jonathan Keslin, Kevin Gibbons<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2019-01-31  
 Stage 2: 2019-07-24  
 Stage 2.7: NA  
 Stage 3: 2022-12-01  

@@ -1,8 +1,8 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Hashbang Grammar<br>Authors: Bradley Farias<br>Champions: Bradley Farias<br>Last Presented: uly 2022<br>Stage Upgrades:<br>Stage 1: 2018-03-21  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Hashbang Grammar<br>Authors: Bradley Farias<br>Champions: Bradley Farias<br>Last Presented: July 2022<br>Stage Upgrades:<br>Stage 1: 2018-03-21  
 Stage 2: 2018-09-11  
 Stage 2.7: NA  
 Stage 3: 2018-11-29  
-Stage 4: 2022-07-20<br>Last Commit: 2018-11-29<br>Keywords: #hashbang #cli #parser #source_text #standardization #script #module #interpreter #byte_order_mark #comments<br>GitHub Link: https://github.com/tc39/proposal-hashbang <br>GitHub Note Link: None
+Stage 4: 2022-07-20<br>Last Commit: 2022-07-20<br>Keywords: #hashbang #cli #parser #source_text #standardization #script #module #interpreter #byte_order_mark #comments<br>GitHub Link: https://github.com/tc39/proposal-hashbang <br>GitHub Note Link: None
 # Proposal Description:
 # Hashbang Grammar
 
