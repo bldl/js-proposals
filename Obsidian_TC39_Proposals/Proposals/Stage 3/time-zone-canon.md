@@ -1,4 +1,8 @@
-[[Stage 3]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: Time Zone Canonicalization<br>Authors: Justin Grant<br>Champions: Justin Grant, Richard Gibson<br>Last Presented: July 2023<br>Stage Upgrades:<br>None<br>Last Commit: 2023-09-25<br>Keywords: #time_zone #canonicalization #identifier #implementation #user_experience #specification #timezone_database #cross_implementation #time_zone_link #abstract_operations<br>GitHub Link: https://github.com/tc39/proposal-canonical-tz#readme <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2023-07/july-12.md#time-zone-canonicalization-for-stage-3
+[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Time Zone Canonicalization<br>Authors: Justin Grant<br>Champions: Justin Grant, Richard Gibson<br>Last Presented: July 2023<br>Stage Upgrades:<br>Stage 1: 2023-04-01  
+Stage 2: 2023-05-18  
+Stage 2.7: NA  
+Stage 3: 2023-07-15  
+Stage 4: NA<br>Last Commit: 2023-09-26<br>Keywords: #time_zone #canonicalization #identifier #implementation #user_experience #specification #timezone_database #cross_implementation #time_zone_link #abstract_operations<br>GitHub Link: https://github.com/tc39/proposal-canonical-tz#readme <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2023-07/july-12.md#time-zone-canonicalization-for-stage-3
 # Proposal Description:
 # Handling Time Zone Canonicalization Changes
 

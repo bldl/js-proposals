@@ -1,4 +1,4 @@
-[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Error.isError<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: December 2024<br>Stage Upgrades:<br>Stage 1: 2024-04-10  
+[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Error.isError<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: December 2024<br>Stage Upgrades:<br>Stage 1: 2024-04-10  
 Stage 2: 2024-07-09  
 Stage 2.7: 2024-10-15  
 Stage 3: 2024-12-02  

@@ -1,8 +1,8 @@
-[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Array.fromAsync<br>Authors: J.S. Choi<br>Champions: J.S. Choi<br>Last Presented: May 2023<br>Stage Upgrades:<br>Stage 1: 2016-09-02  
-Stage 2: 2016-10-07  
+[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Array.fromAsync<br>Authors: J.S. Choi<br>Champions: J.S. Choi<br>Last Presented: May 2023<br>Stage Upgrades:<br>Stage 1: 2021-09-02  
+Stage 2:  2021-12-14
 Stage 2.7: NA  
 Stage 3: 2023-11-01  
-Stage 4: 2021-12-18<br>Last Commit: 2023-12-27<br>Keywords: #async_iterator #promise #lazy_iteration #mapping_callback #data_structure #non_iterable #unit_tests #command_line #error_handling #factory_method<br>GitHub Link: https://github.com/tc39/proposal-array-from-async <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-14.md#arrayfromasync-for-stage-3
+Stage 4: NA<br>Last Commit: 2023-12-27<br>Keywords: #async_iterator #promise #lazy_iteration #mapping_callback #data_structure #non_iterable #unit_tests #command_line #error_handling #factory_method<br>GitHub Link: https://github.com/tc39/proposal-array-from-async <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-14.md#arrayfromasync-for-stage-3
 # Proposal Description:
 # Array.fromAsync for JavaScript
 ECMAScript Stage-3 (conditional on editor review) Proposal. J. S. Choi, 2021.

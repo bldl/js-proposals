@@ -1,7 +1,7 @@
-[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Decorator Metadata<br>Authors: Kristen Hewell Garrett<br>Champions: Kristen Hewell Garrett<br>Last Presented: May 2023<br>Stage Upgrades:<br>Stage 1: 2022-04-01
-Stage 2: NA
+[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Decorator Metadata<br>Authors: Kristen Hewell Garrett<br>Champions: Kristen Hewell Garrett<br>Last Presented: May 2023<br>Stage Upgrades:<br>Stage 1: NA
+Stage 2: 2022-04-10
 Stage 2.7: NA
-Stage 3: NA
+Stage 3: 2023-06-13
 Stage 4: NA<br>Last Commit: 2024-01-17<br>Keywords: #metadata #decorators #introspection #validation #serialization #dependency_injection #class_prototype #inheritance #weakmap #declarative_routing<br>GitHub Link: https://github.com/tc39/proposal-decorator-metadata <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-18.md#decorator-metadata-final-spec-text-review-for-stage-3
 # Proposal Description:
 <!-- @format -->

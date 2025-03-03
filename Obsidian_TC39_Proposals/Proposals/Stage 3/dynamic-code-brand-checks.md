@@ -1,4 +1,4 @@
-[[Stage 3]]<br>Classification: [[API Change]] [[Semantic Change]]<br>Human Validated: No<br>Title: Dynamic Code Brand Checks<br>Authors: Nicolo Ribaudo<br>Champions: Krzysztof Kotowicz, Mike Samuel, Nicolo Ribaudo<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2019-06-06  
+[[Stage 3]]<br>Classification: [[API Change]] <br>Human Validated: KW<br>Title: Dynamic Code Brand Checks<br>Authors: Nicolo Ribaudo<br>Champions: Krzysztof Kotowicz, Mike Samuel, Nicolo Ribaudo<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2019-06-06  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2024-04-15  

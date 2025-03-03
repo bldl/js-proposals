@@ -1,5 +1,5 @@
-[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Legacy RegExp features in JavaScript<br>Authors: Claude Pache<br>Champions: Mark Miller, Claude Pache<br>Last Presented: May 2017<br>Stage Upgrades:<br>Stage 1: 2015-11-10  
-Stage 2: NA  
+[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Legacy RegExp features in JavaScript<br>Authors: Claude Pache<br>Champions: Mark Miller, Claude Pache<br>Last Presented: May 2017<br>Stage Upgrades:<br>Stage 1: NA  
+Stage 2: 2016-09-29  
 Stage 2.7: NA  
 Stage 3: 2017-07-29  
 Stage 4: NA<br>Last Commit: 2022-11-10<br>Keywords: #regexp #static_properties #subclass #cross_realm #backward_compatibility #internal_slots #successful_match #legacy_features #data_property #runtime_environment<br>GitHub Link: https://github.com/tc39/proposal-regexp-legacy-features <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-25.md#15ia-regexp-legacy-features-for-stage-3

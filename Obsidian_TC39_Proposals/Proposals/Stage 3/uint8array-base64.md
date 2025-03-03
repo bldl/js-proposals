@@ -1,4 +1,4 @@
-[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Uint8Array to/from Base64<br>Authors: Kevin Gibbons<br>Champions: Kevin Gibbons<br>Last Presented: February 2024<br>Stage Upgrades:<br>Stage 1: 2021-06-26  
+[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Uint8Array to/from Base64<br>Authors: Kevin Gibbons<br>Champions: Kevin Gibbons<br>Last Presented: February 2024<br>Stage Upgrades:<br>Stage 1: 2023-04-06  
 Stage 2: 2023-05-16  
 Stage 2.7: NA  
 Stage 3: 2024-02-21  

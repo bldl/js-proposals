@@ -1,4 +1,4 @@
-[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: RegExp.escape<br>Authors: Domenic Denicola, Benjamin Gruenbaum, Jordan Harband<br>Champions: Jordan Harband, Kevin Gibbons<br>Last Presented: July 2024<br>Stage Upgrades:<br>Stage 1: 2015-06-12  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: RegExp.escape<br>Authors: Domenic Denicola, Benjamin Gruenbaum, Jordan Harband<br>Champions: Jordan Harband, Kevin Gibbons<br>Last Presented: July 2024<br>Stage Upgrades:<br>Stage 1: 2015-06-12  
 Stage 2: 2023-09-26  
 Stage 2.7: NA  
 Stage 3: 2024-07-29  

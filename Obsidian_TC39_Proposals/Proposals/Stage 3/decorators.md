@@ -1,7 +1,7 @@
-[[Stage 3]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Decorators<br>Authors: Daniel Ehrenberg, Kristen Hewell Garrett<br>Champions: Kristen Hewell Garrett<br>Last Presented: March 2023<br>Stage Upgrades:<br>Stage 1: 2017-04-30  
-Stage 2: NA  
+[[Stage 3]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Decorators<br>Authors: Daniel Ehrenberg, Kristen Hewell Garrett<br>Champions: Kristen Hewell Garrett<br>Last Presented: March 2023<br>Stage Upgrades:<br>Stage 1: NA  
+Stage 2: 2021-04-10  
 Stage 2.7: NA  
-Stage 3: 2022-03-28  
+Stage 3: 2022-03-29  
 Stage 4: NA<br>Last Commit: 2024-09-05<br>Keywords: #decorators #metaprogramming #class_methods #class_fields #accessors #auto_accessors #initialization #context_object #function_replacement #static_analysis<br>GitHub Link: https://github.com/tc39/proposal-decorators <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#decorators-for-stage-3
 # Proposal Description:
 # Decorators

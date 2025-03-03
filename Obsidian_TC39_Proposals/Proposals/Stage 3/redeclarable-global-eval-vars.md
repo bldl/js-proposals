@@ -1,6 +1,6 @@
-[[Stage 3]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: Redeclarable global eval-introduced vars<br>Authors: Shu-yu Guo<br>Champions: Shu-yu Guo<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2024-02-13  
-Stage 2: 2024-04-08  
-Stage 2.7: NA  
+[[Stage 3]]<br>Classification: [[Semantic Change]]<br>Human Validated: KW<br>Title: Redeclarable global eval-introduced vars<br>Authors: Shu-yu Guo<br>Champions: Shu-yu Guo<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: NA  
+Stage 2: 2024-02-13  
+Stage 2.7: 2024-04-12  
 Stage 3: NA  
 Stage 4: NA<br>Last Commit: 2024-04-19<br>Keywords: #eval #global_environment #var_names #redeclaration #configurable #global_scope #lexical_binding #implementation #complexity #shadowing<br>GitHub Link: https://github.com/tc39-transfer/proposal-redeclarable-global-eval-vars <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#make-eval-introduced-global-vars-redeclarable-for-stage-27
 # Proposal Description:

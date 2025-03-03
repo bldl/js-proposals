@@ -1,6 +1,6 @@
-[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Atomics.pause<br>Authors: Shu-yu Guo<br>Champions: Shu-yu Guo<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2024-02-13  
+[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Atomics.pause<br>Authors: Shu-yu Guo<br>Champions: Shu-yu Guo<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2024-02-13  
 Stage 2: NA  
-Stage 2.7: NA  
+Stage 2.7: 2024-06-13  
 Stage 3: 2024-10-18  
 Stage 4: NA<br>Last Commit: 2024-10-18<br>Keywords: #microwaits #atomics #locking #threading #efficiency #performance #contention #scheduling #mutexes #wait_times<br>GitHub Link: https://github.com/tc39/proposal-atomics-microwait <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-10/october-09.md#atomicspause-for-stage-3
 # Proposal Description:
