@@ -1,4 +1,4 @@
-[[Stage 2.7]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Iterator Sequencing<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2023-09-27  
+[[Stage 2.7]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Iterator Sequencing<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2023-09-27  
 Stage 2: 2024-06-21  
 Stage 2.7: 2024-10-08  
 Stage 3: NA  

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 2/throw-expressions.md",
+                "file": "Proposals/Stage 2.7/sequencing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "throw-expressions"
+              "title": "sequencing"
             }
           }
         ]
@@ -179,6 +179,14 @@
   },
   "active": "32bb5785244b77a0",
   "lastOpenFiles": [
+    "Proposals/Stage 2.7/shadowrealm.md",
+    "Proposals/Stage 2.7/sequencing.md",
+    "Proposals/Stage 2.7/math-sum.md",
+    "Proposals/Stage 2.7/lazy-import.md",
+    "Proposals/Stage 2.7/joint.md",
+    "Proposals/Stage 2.7/immutable-abs.md",
+    "Proposals/Stage 2.7/esm-phase.md",
+    "Proposals/Stage 2/throw-expressions.md",
     "Proposals/Stage 2/symbol-predicates.md",
     "Proposals/Stage 2/structs.md",
     "Proposals/Stage 2/string.dedent.md",
@@ -197,14 +205,6 @@
     "Proposals/Stage 2/discards.md",
     "Proposals/Stage 2/destructure-private.md",
     "Proposals/Stage 2/collection-rekey.md",
-    "Proposals/Stage 2.7/immutable-abs.md",
-    "Proposals/Stage 2/chunking.md",
-    "Proposals/Stage 2/censorship.md",
-    "Proposals/Stage 2/async-iterator-helpers.md",
-    "Proposals/Stage 2/async-context.md",
-    "Proposals/Stage 1/array-equality.md",
-    "Proposals/Stage 1/virtualize.md",
-    "Proposals/Stage 1/unordered-async.md",
     "Proposals/Inactive/Node",
     "Analysis/Keywords",
     "Analysis/Stages",
