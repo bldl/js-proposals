@@ -1,5 +1,5 @@
-[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Record & Tuple<br>Authors: Robin Ricard, Richard Button<br>Champions: Robin Ricard, Richard Button<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2019-10-01  
-Stage 2: 2021-08-13  
+[[Stage 2]]<br>Classification: [[API Change]] [[Syntactic Change]]<br>Human Validated: KW<br>Title: Record & Tuple<br>Authors: Robin Ricard, Richard Button<br>Champions: Robin Ricard, Richard Button<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2019-10-01  
+Stage 2: 2020-07-22  
 Stage 2.7: NA  
 Stage 3: NA  
 Stage 4: NA<br>Last Commit: 2023-12-13<br>Keywords: #immutable #data_structure #deeply_immutable #record #tuple #primitives #comparison #syntax #construction #manipulation<br>GitHub Link: https://github.com/tc39/proposal-record-tuple <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#asynccontext-stage-2-updates

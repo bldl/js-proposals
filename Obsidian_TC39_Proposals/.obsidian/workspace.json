@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 2/record-tuple.md",
+                "file": "Proposals/Stage 2/throw-expressions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "record-tuple"
+              "title": "throw-expressions"
             }
           }
         ]
@@ -179,6 +179,12 @@
   },
   "active": "32bb5785244b77a0",
   "lastOpenFiles": [
+    "Proposals/Stage 2/symbol-predicates.md",
+    "Proposals/Stage 2/structs.md",
+    "Proposals/Stage 2/string.dedent.md",
+    "Proposals/Stage 2/scriptormodule.md",
+    "Proposals/Stage 2/regexp-buffer-boundaries.md",
+    "Proposals/Stage 2/record-tuple.md",
     "Proposals/Stage 2/pipeline.md",
     "Proposals/Stage 2/module-expressions.md",
     "Proposals/Stage 2/module-declarations.md",
@@ -199,12 +205,6 @@
     "Proposals/Stage 1/array-equality.md",
     "Proposals/Stage 1/virtualize.md",
     "Proposals/Stage 1/unordered-async.md",
-    "Proposals/Stage 1/uniform-date-parse.md",
-    "Proposals/Stage 1/type-annotations.md",
-    "Proposals/Stage 1/template-literals.md",
-    "Proposals/Stage 1/string.cooked.md",
-    "Proposals/Stage 1/strict-using.md",
-    "Proposals/Stage 1/stacks.md",
     "Proposals/Inactive/Node",
     "Analysis/Keywords",
     "Analysis/Stages",

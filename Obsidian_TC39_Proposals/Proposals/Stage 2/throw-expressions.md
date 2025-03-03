@@ -1,8 +1,8 @@
-[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: throw expressions<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: February 2024<br>Stage Upgrades:<br>Stage 1: 2017-07-15  
+[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: throw expressions<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: February 2024<br>Stage Upgrades:<br>Stage 1: 2017-09-12  
 Stage 2: 2017-09-27  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-01-19<br>Keywords: #throw #exception #expression #precedence #ambiguity #conditional #arrow_function #parameter_initializer #error_handling #ternary<br>GitHub Link: https://github.com/tc39/proposal-throw-expressions <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-02/feb-8.md#throw-expressions-update-or-stage-27
+Stage 4: NA<br>Last Commit: 2024-01-20<br>Keywords: #throw #exception #expression #precedence #ambiguity #conditional #arrow_function #parameter_initializer #error_handling #ternary<br>GitHub Link: https://github.com/tc39/proposal-throw-expressions <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-02/feb-8.md#throw-expressions-update-or-stage-27
 # Proposal Description:
 # ECMAScript `throw` expressions
 

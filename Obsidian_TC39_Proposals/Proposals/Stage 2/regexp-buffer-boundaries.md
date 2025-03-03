@@ -1,4 +1,4 @@
-[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: RegExp Buffer Boundaries (\A, \z, \Z)<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: December 2021<br>Stage Upgrades:<br>Stage 1: 2021-10-15  
+[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: RegExp Buffer Boundaries (\A, \z, \Z)<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: December 2021<br>Stage Upgrades:<br>Stage 1: 2021-10-28  
 Stage 2: 2021-12-16  
 Stage 2.7: NA  
 Stage 3: NA  

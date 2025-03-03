@@ -1,8 +1,8 @@
-[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: String.dedent<br>Authors: Misha Kaletsky, Hemanth HM, Justin Ridgewell<br>Champions: Hemanth HM, Justin Ridgewell<br>Last Presented: June 2022<br>Stage Upgrades:<br>Stage 1: 2020-05-29  
+[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: String.dedent<br>Authors: Misha Kaletsky, Hemanth HM, Justin Ridgewell<br>Champions: Hemanth HM, Justin Ridgewell<br>Last Presented: June 2022<br>Stage Upgrades:<br>Stage 1: 2022-02-01  
 Stage 2: 2022-06-07  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2023-08-21<br>Keywords: #dedent #template #multiline #indentation #formatting #readability #whitespace #string #sensible #performance<br>GitHub Link: https://github.com/tc39/proposal-string-dedent <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#stringdedent
+Stage 4: NA<br>Last Commit: 2023-09-13<br>Keywords: #dedent #template #multiline #indentation #formatting #readability #whitespace #string #sensible #performance<br>GitHub Link: https://github.com/tc39/proposal-string-dedent <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#stringdedent
 # Proposal Description:
 # String dedent
 

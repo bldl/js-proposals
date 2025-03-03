@@ -1,4 +1,4 @@
-[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Symbol Predicates<br>Authors: Robin Ricard, Jordan Harband<br>Champions: Ashley Claymore, Jordan Harband<br>Last Presented: May 2023<br>Stage Upgrades:<br>Stage 1: 2022-07-20  
+[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Symbol Predicates<br>Authors: Robin Ricard, Jordan Harband<br>Champions: Ashley Claymore, Jordan Harband<br>Last Presented: May 2023<br>Stage Upgrades:<br>Stage 1: 2022-07-21  
 Stage 2: 2023-02-01  
 Stage 2.7: NA  
 Stage 3: NA  
