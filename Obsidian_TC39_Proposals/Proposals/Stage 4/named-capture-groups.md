@@ -1,5 +1,5 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Duplicate named capture groups<br>Authors: Kevin Gibbons<br>Champions: Kevin Gibbons<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2022-01-24  
-Stage 2: NA  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Duplicate named capture groups<br>Authors: Kevin Gibbons<br>Champions: Kevin Gibbons<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: NA  
+Stage 2: 2022-06-07  
 Stage 2.7: NA  
 Stage 3: 2022-08-01  
 Stage 4: NA<br>Last Commit: 2023-03-11<br>Keywords: #named_capturing_group #regular_expression #backreference #alternative #group_name #match_result #property_enumeration #syntax #semantics #input_consumption<br>GitHub Link: https://github.com/tc39/proposal-duplicate-named-capturing-groups <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#duplicate-named-capture-groups-for-stage-4

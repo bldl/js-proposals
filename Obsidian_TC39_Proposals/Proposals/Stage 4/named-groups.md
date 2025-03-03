@@ -1,8 +1,8 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: RegExp named capture groups<br>Authors: Gorkem Yakin, Daniel Ehrenberg<br>Champions: Daniel Ehrenberg, Brian Terlson, Mathias Bynens<br>Last Presented: November 2017<br>Stage Upgrades:<br>Stage 1: 2015-11-16  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: RegExp named capture groups<br>Authors: Gorkem Yakin, Daniel Ehrenberg<br>Champions: Daniel Ehrenberg, Brian Terlson, Mathias Bynens<br>Last Presented: November 2017<br>Stage Upgrades:<br>Stage 1: NA  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2017-03-22  
-Stage 4: NA<br>Last Commit: 2018-01-24<br>Keywords: #named_capture #backreference #regex #destructuring #replacement #groups #identifier #syntax #overlapping #refactoring<br>GitHub Link: https://github.com/tc39/proposal-regexp-named-groups <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-28.md#9if-regexp-named-captures-status-update
+Stage 4: 2018-01-24<br>Last Commit: 2018-01-24<br>Keywords: #named_capture #backreference #regex #destructuring #replacement #groups #identifier #syntax #overlapping #refactoring<br>GitHub Link: https://github.com/tc39/proposal-regexp-named-groups <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-28.md#9if-regexp-named-captures-status-update
 # Proposal Description:
 # RegExp Named Capture Groups
 

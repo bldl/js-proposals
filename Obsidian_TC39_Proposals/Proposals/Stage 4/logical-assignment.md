@@ -1,5 +1,5 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Logical Assignment Operators<br>Authors: Justin Ridgewell<br>Champions: Justin Ridgewell ,  Hemanth HM<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2018-03-24  
-Stage 2: NA  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Logical Assignment Operators<br>Authors: Justin Ridgewell<br>Champions: Justin Ridgewell ,  Hemanth HM<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2018-03-25  
+Stage 2: 2020-02-16  
 Stage 2.7: NA  
 Stage 3: 2020-03-15  
 Stage 4: 2020-07-21<br>Last Commit: 2020-07-21<br>Keywords: #logical_operator #assignment_expression #short_circuiting #terse_code #default_value #setter #performance #property_assignment #convenience_operator #coalescing<br>GitHub Link: https://github.com/tc39/proposal-logical-assignment <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#logical-assignment-for-stage-4

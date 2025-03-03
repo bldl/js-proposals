@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 4/numeric_separators.md",
+                "file": "Proposals/Stage 4/nonblocking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "numeric_separators"
+              "title": "nonblocking"
             }
           }
         ]
@@ -179,6 +179,14 @@
   },
   "active": "32bb5785244b77a0",
   "lastOpenFiles": [
+    "Proposals/Stage 4/named-groups.md",
+    "Proposals/Stage 4/named-capture-groups.md",
+    "Proposals/Stage 4/matchall.md",
+    "Proposals/Stage 4/lookbehind.md",
+    "Proposals/Stage 4/logical-assignment.md",
+    "Proposals/Stage 4/json-superset.md",
+    "Proposals/Stage 4/json-modules.md",
+    "Proposals/Stage 4/numeric_separators.md",
     "Proposals/Stage 4/promise-any.md",
     "Proposals/Stage 4/import-meta.md",
     "Proposals/Stage 4/error-cause.md",
@@ -190,9 +198,6 @@
     "Proposals/Stage 2/async-iterator-helpers.md",
     "Proposals/Stage 3/decorators.md",
     "Proposals/Stage 4/arraybuffer-transfer.md",
-    "Proposals/Stage 4/json-modules.md",
-    "Proposals/Stage 4/json-superset.md",
-    "Proposals/Stage 4/logical-assignment.md",
     "Proposals/Stage 4/iterator-helpers.md",
     "Proposals/Stage 4/import-attributes.md",
     "Proposals/Stage 4/hashbang-grammar.md",
@@ -200,11 +205,6 @@
     "Proposals/Stage 4/function-to-string.md",
     "Proposals/Stage 4/function-commas.md",
     "Proposals/Stage 4/for-in-mechanics.md",
-    "Proposals/Stage 4/flat.md",
-    "Proposals/Stage 4/find-last.md",
-    "Proposals/Stage 4/finally.md",
-    "Proposals/Stage 4/exponentiation.md",
-    "Proposals/Stage 4/escape.md",
     "Proposals/Inactive/Node",
     "Analysis/Keywords",
     "Analysis/Stages",
