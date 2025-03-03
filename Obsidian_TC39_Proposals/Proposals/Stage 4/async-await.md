@@ -1,8 +1,8 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Async functions<br>Authors: Brian Terlson<br>Champions: Brian Terlson<br>Last Presented: July 2016<br>Stage Upgrades:<br>Stage 1: 2014-01-28  
-Stage 2: NA  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Async functions<br>Authors: Brian Terlson<br>Champions: Brian Terlson<br>Last Presented: July 2016<br>Stage Upgrades:<br>Stage 1: 2014-04-09  
+Stage 2: 2015-08-02  
 Stage 2.7: NA  
-Stage 3: NA  
-Stage 4: 2015-10-06<br>Last Commit: 2020-11-19<br>Keywords: #promises #generators #asynchronous #compilation #es5 #execution #vanilla #browser #runtimes #example<br>GitHub Link: https://github.com/tc39/proposal-async-await <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-28.md#10iv-async-functions
+Stage 3: 2015-09-29  
+Stage 4: 2015-10-08<br>Last Commit: 2020-11-19<br>Keywords: #promises #generators #asynchronous #compilation #es5 #execution #vanilla #browser #runtimes #example<br>GitHub Link: https://github.com/tc39/proposal-async-await <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-28.md#10iv-async-functions
 # Proposal Description:
 # Async Functions for  ECMAScript
 

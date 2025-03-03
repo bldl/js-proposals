@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 3/uint8array-base64.md",
+                "file": "Proposals/Stage 4/atomics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "uint8array-base64"
+              "title": "atomics"
             }
           }
         ]
@@ -179,6 +179,14 @@
   },
   "active": "32bb5785244b77a0",
   "lastOpenFiles": [
+    "Proposals/Stage 4/at.md",
+    "Proposals/Stage 4/async-await.md",
+    "Proposals/Stage 4/async-iteration.md",
+    "Proposals/Stage 4/arraybuffer-transfer.md",
+    "Proposals/Stage 4/array-includes.md",
+    "Proposals/Stage 4/array-grouping.md",
+    "Proposals/Stage 4/allsettled.md",
+    "Proposals/Stage 3/uint8array-base64.md",
     "Proposals/Stage 3/time-zone-canon.md",
     "Proposals/Stage 3/temporal.md",
     "Proposals/Stage 3/source-phase-imports.md",
@@ -197,14 +205,6 @@
     "Proposals/Stage 2.7/shadowrealm.md",
     "Proposals/Stage 2.7/sequencing.md",
     "Proposals/Stage 2.7/math-sum.md",
-    "Proposals/Stage 2.7/lazy-import.md",
-    "Proposals/Stage 2.7/joint.md",
-    "Proposals/Stage 2.7/immutable-abs.md",
-    "Proposals/Stage 2.7/esm-phase.md",
-    "Proposals/Stage 2/throw-expressions.md",
-    "Proposals/Stage 2/symbol-predicates.md",
-    "Proposals/Stage 2/structs.md",
-    "Proposals/Stage 2/string.dedent.md",
     "Proposals/Inactive/Node",
     "Analysis/Keywords",
     "Analysis/Stages",

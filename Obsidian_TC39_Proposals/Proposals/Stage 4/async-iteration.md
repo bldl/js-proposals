@@ -1,8 +1,8 @@
-[[Stage 4]]<br>Classification: [[API Change]] [[Syntactic Change]]<br>Human Validated: No<br>Title: Asynchronous Iteration<br>Authors: Domenic Denicola<br>Champions: Domenic Denicola<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2014-09-03  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Asynchronous Iteration<br>Authors: Domenic Denicola<br>Champions: Domenic Denicola<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2016-02-02  
 Stage 2: 2016-03-31  
 Stage 2.7: NA  
 Stage 3: 2016-09-30  
-Stage 4: NA<br>Last Commit: 2018-02-12<br>Keywords: #asynchronous #iterator #promise #yield #request_queue #for_await_of #async_generator #async_iterable #stream #data_access<br>GitHub Link: https://github.com/tc39/proposal-async-iteration <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-25.md#conclusionresolution
+Stage 4: 2018-01-25<br>Last Commit: 2018-02-12<br>Keywords: #asynchronous #iterator #promise #yield #request_queue #for_await_of #async_generator #async_iterable #stream #data_access<br>GitHub Link: https://github.com/tc39/proposal-async-iteration <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-25.md#conclusionresolution
 # Proposal Description:
 # Asynchronous Iterators for JavaScript
 
