@@ -1,8 +1,8 @@
-[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: isTemplateObject<br>Authors: Mike Samuel, Krzysztof Kotowicz<br>Champions: Daniel Ehrenberg, Jordan Harband<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2019-03-27  
-Stage 2: NA  
+[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: isTemplateObject<br>Authors: Mike Samuel, Krzysztof Kotowicz<br>Champions: Daniel Ehrenberg, Jordan Harband<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: NA  
+Stage 2: 2019-06-05  
 Stage 2.7: NA  
-Stage 3: 2024-05-30  
-Stage 4: NA<br>Last Commit: 2024-10-20<br>Keywords: #template #tag #bundle #trusted #operation #vulnerability #security #interpolation #checking #policy<br>GitHub Link: https://github.com/tc39/proposal-array-is-template-object <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-10.md#arrayistemplateobject-next-steps
+Stage 3: NA  
+Stage 4: NA<br>Last Commit: 2024-10-21<br>Keywords: #template #tag #bundle #trusted #operation #vulnerability #security #interpolation #checking #policy<br>GitHub Link: https://github.com/tc39/proposal-array-is-template-object <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-10.md#arrayistemplateobject-next-steps
 # Proposal Description:
 # Reflect.isTemplateObject (stage [2](https://tc39.es/process-document/))
 

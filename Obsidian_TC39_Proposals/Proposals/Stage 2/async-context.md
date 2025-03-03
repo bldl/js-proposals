@@ -1,8 +1,8 @@
-[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Async Context<br>Authors: Chengzhong Wu<br>Champions: Andreu Botella, Chengzhong Wu, Justin Ridgewell<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2023-02-01  
+[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Async Context<br>Authors: Chengzhong Wu<br>Champions: Andreu Botella, Chengzhong Wu, Justin Ridgewell<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2023-02-01  
 Stage 2: 2023-03-23  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2025-02-11<br>Keywords: #variable #context #snapshot #asynchronous #implicit #execution #propagation #closure #value_store #monitoring<br>GitHub Link: https://github.com/tc39/proposal-async-context <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#asynccontext-stage-2-updates
+Stage 4: NA<br>Last Commit: 2025-03-03<br>Keywords: #variable #context #snapshot #asynchronous #implicit #execution #propagation #closure #value_store #monitoring<br>GitHub Link: https://github.com/tc39/proposal-async-context <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#asynccontext-stage-2-updates
 # Proposal Description:
 # Async Context for JavaScript
 

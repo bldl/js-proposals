@@ -1,4 +1,4 @@
-[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Immutable ArrayBuffers<br>Authors: Mark Miller, Peter Hoddie, Richard Gibson, Jack Works<br>Champions: Mark Miller, Peter Hoddie, Richard Gibson, Jack Works<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2024-11-21  
+[[Stage 2.7]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Immutable ArrayBuffers<br>Authors: Mark Miller, Peter Hoddie, Richard Gibson, Jack Works<br>Champions: Mark Miller, Peter Hoddie, Richard Gibson, Jack Works<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2024-11-30  
 Stage 2: 2024-12-05  
 Stage 2.7: 2025-02-22  
 Stage 3: NA  

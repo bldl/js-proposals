@@ -1,5 +1,5 @@
-[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Destructure Private Fields<br>Authors: Justin Ridgewell<br>Champions: Justin Ridgewell<br>Last Presented: December 2021<br>Stage Upgrades:<br>Stage 1: 2021-09-05  
-Stage 2: 2021-10-29  
+[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Destructure Private Fields<br>Authors: Justin Ridgewell<br>Champions: Justin Ridgewell<br>Last Presented: December 2021<br>Stage Upgrades:<br>Stage 1: 2021-09-05  
+Stage 2: 2021-10-30  
 Stage 2.7: NA  
 Stage 3: NA  
 Stage 4: NA<br>Last Commit: 2024-07-15<br>Keywords: #private #destructuring #fields #class #instance #syntax #references #properties #local #comparison<br>GitHub Link: https://github.com/tc39/proposal-destructuring-private <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#destructuring-private-fields

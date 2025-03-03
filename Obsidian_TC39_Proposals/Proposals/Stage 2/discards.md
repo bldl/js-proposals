@@ -1,5 +1,5 @@
-[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: "Discard" (void) Bindings<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: June 2024<br>Stage Upgrades:<br>Stage 1: 2024-01-17  
-Stage 2: NA  
+[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: "Discard" (void) Bindings<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: June 2024<br>Stage Upgrades:<br>Stage 1: 2024-01-17  
+Stage 2: 2024-06-13  
 Stage 2.7: NA  
 Stage 3: NA  
 Stage 4: NA<br>Last Commit: 2024-06-12<br>Keywords: #void #discard #binding #elision #variable #assignment #parameters #object #array #pattern_matching<br>GitHub Link: https://github.com/tc39/proposal-discard-binding <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#discard-bindings-update-or-stage-2

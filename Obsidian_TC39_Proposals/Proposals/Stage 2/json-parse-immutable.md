@@ -1,8 +1,8 @@
-[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: JSON.parseImmutable<br>Authors: Robin Ricard, Richard Button, Nicolò Ribaudo, Ashley Claymore<br>Champions: Robin Ricard, Richard Button, Nicolò Ribaudo, Ashley Claymore<br>Last Presented: July 2022<br>Stage Upgrades:<br>Stage 1: 2022-07-28  
-Stage 2: NA  
+[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: JSON.parseImmutable<br>Authors: Robin Ricard, Richard Button, Nicolò Ribaudo, Ashley Claymore<br>Champions: Robin Ricard, Richard Button, Nicolò Ribaudo, Ashley Claymore<br>Last Presented: July 2022<br>Stage Upgrades:<br>Stage 1: NA  
+Stage 2: 2022-07-28  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-07-28<br>Keywords: #immutable #data_structure #tuple #record #creation #ergonomic #efficient #json #deeply #structure<br>GitHub Link: https://github.com/tc39/proposal-json-parseimmutable <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2022-07-28<br>Keywords: #immutable #data_structure #tuple #record #creation #ergonomic #efficient #json #deeply #structure<br>GitHub Link: https://github.com/tc39/proposal-json-parseimmutable <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-19.md#conclusiondecision-2
 # Proposal Description:
 # JSON.parseImmutable Proposal
 

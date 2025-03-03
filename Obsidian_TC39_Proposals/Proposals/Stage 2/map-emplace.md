@@ -1,4 +1,4 @@
-[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Map.prototype.emplace<br>Authors: Bradley Farias<br>Champions: Erica Pramer<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2019-09-14  
+[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Map.prototype.emplace<br>Authors: Bradley Farias<br>Champions: Erica Pramer<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2019-09-14  
 Stage 2: 2019-11-08  
 Stage 2.7: NA  
 Stage 3: NA  

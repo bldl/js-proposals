@@ -1,7 +1,7 @@
-[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Module Expressions<br>Authors: Surma, Daniel Ehrenberg, Nicolò Ribaudo<br>Champions: Surma, Nicolò Ribaudo<br>Last Presented: November 2022<br>Stage Upgrades:<br>Stage 1: 2020-08-13  
-Stage 2: NA  
+[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Module Expressions<br>Authors: Surma, Daniel Ehrenberg, Nicolò Ribaudo<br>Champions: Surma, Nicolò Ribaudo<br>Last Presented: November 2022<br>Stage Upgrades:<br>Stage 1: 2020-12-11  
+Stage 2: 2021-10-29  
 Stage 2.7: NA  
-Stage 3: 2021-10-25  
+Stage 3: NA  
 Stage 4: NA<br>Last Commit: 2022-12-19<br>Keywords: #module #worker #import #realm #closure #CORS #scheduling #parallelism #structured_clone #content_security_policy<br>GitHub Link: https://github.com/tc39/proposal-module-expressions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-expressions
 # Proposal Description:
 # Module Expressions

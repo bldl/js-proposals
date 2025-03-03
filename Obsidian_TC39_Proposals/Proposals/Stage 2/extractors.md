@@ -1,5 +1,5 @@
-[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Extractors<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2022-09-01  
-Stage 2: 2022-09-15  
+[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Extractors<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2022-09-15  
+Stage 2: 2022-10-09 
 Stage 2.7: NA  
 Stage 3: NA  
 Stage 4: NA<br>Last Commit: 2024-09-27<br>Keywords: #extractor #destructuring #binding_pattern #assignment_pattern #custom_matcher #data_validation #transformation #pattern_matching #algebraic_data_type #iterable<br>GitHub Link: https://github.com/tc39/proposal-extractors <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#extractors-for-stage-2

@@ -1,8 +1,8 @@
-[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: collection normalization<br>Authors: Bradley Farias<br>Champions: Bradley Farias<br>Last Presented: January 2019<br>Stage Upgrades:<br>Stage 1: 2019-01-31  
-Stage 2: NA  
+[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: collection normalization<br>Authors: Bradley Farias<br>Champions: Bradley Farias<br>Last Presented: January 2019<br>Stage Upgrades:<br>Stage 1: NA  
+Stage 2: 2019-01-30  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2021-03-09<br>Keywords: #coerce_key #coerce_value #normalization #data_structure #insertion #validation #type_checking #maps #sets #boilerplate<br>GitHub Link: https://github.com/tc39/proposal-collection-normalization <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2021-03-09<br>Keywords: #coerce_key #coerce_value #normalization #data_structure #insertion #validation #type_checking #maps #sets #boilerplate<br>GitHub Link: https://github.com/tc39/proposal-collection-normalization <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-30.md#richer-keys-for-stage-2
 # Proposal Description:
 # Collection {coerceKey, coerceValue}
 

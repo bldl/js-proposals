@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 1/virtualize.md",
+                "file": "Proposals/Stage 2/record-tuple.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "virtualize"
+              "title": "record-tuple"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#security",
+                "query": "tag:#array",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,6 +179,25 @@
   },
   "active": "32bb5785244b77a0",
   "lastOpenFiles": [
+    "Proposals/Stage 2/pipeline.md",
+    "Proposals/Stage 2/module-expressions.md",
+    "Proposals/Stage 2/module-declarations.md",
+    "Proposals/Stage 2/map-emplace.md",
+    "Proposals/Stage 2/json-parse-immutable.md",
+    "Proposals/Stage 2/iterator-range.md",
+    "Proposals/Stage 2/isTemplateObject.md",
+    "Proposals/Stage 2/function-sent.md",
+    "Proposals/Stage 2/extractors.md",
+    "Proposals/Stage 2/discards.md",
+    "Proposals/Stage 2/destructure-private.md",
+    "Proposals/Stage 2/collection-rekey.md",
+    "Proposals/Stage 2.7/immutable-abs.md",
+    "Proposals/Stage 2/chunking.md",
+    "Proposals/Stage 2/censorship.md",
+    "Proposals/Stage 2/async-iterator-helpers.md",
+    "Proposals/Stage 2/async-context.md",
+    "Proposals/Stage 1/array-equality.md",
+    "Proposals/Stage 1/virtualize.md",
     "Proposals/Stage 1/unordered-async.md",
     "Proposals/Stage 1/uniform-date-parse.md",
     "Proposals/Stage 1/type-annotations.md",
@@ -186,25 +205,6 @@
     "Proposals/Stage 1/string.cooked.md",
     "Proposals/Stage 1/strict-using.md",
     "Proposals/Stage 1/stacks.md",
-    "Analysis/Classifications/Syntactic Change.md",
-    "Proposals/Stage 1/stable-format.md",
-    "Proposals/Stage 1/stabilize.md",
-    "Proposals/Stage 1/species-extinct.md",
-    "Proposals/Stage 1/slice-notation.md",
-    "Proposals/Stage 1/richer-keys.md",
-    "Proposals/Stage 1/secure-ecmascript.md",
-    "Proposals/Stage 1/seeded-randoms.md",
-    "Proposals/Stage 1/signals.md",
-    "Proposals/Stage 1/reversible-string-split.md",
-    "Analysis/Classifications/API Change.md",
-    "collection-rekey.md",
-    "Proposals/Stage 1/reverse-iteration.md",
-    "Proposals/Stage 1/regexp-x-mode.md",
-    "Proposals/Stage 1/regexp-r-escape.md",
-    "Proposals/Stage 1/regexp-atomic-operators.md",
-    "Proposals/Stage 1/readonly-collections.md",
-    "Proposals/Stage 1/protocols.md",
-    "Proposals/Stage 1/proto-pollution.md",
     "Proposals/Inactive/Node",
     "Analysis/Keywords",
     "Analysis/Stages",
