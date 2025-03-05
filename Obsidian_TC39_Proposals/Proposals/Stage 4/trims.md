@@ -1,8 +1,8 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: String.prototype.{trimStart,trimEnd}<br>Authors: Sebastian Markbåge<br>Champions: Sebastian Markbåge, Mathias Bynens<br>Last Presented: January 2019<br>Stage Upgrades:<br>Stage 1: 2015-07-28  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: String.prototype.{trimStart,trimEnd}<br>Authors: Sebastian Markbåge<br>Champions: Sebastian Markbåge, Mathias Bynens<br>Last Presented: January 2019<br>Stage Upgrades:<br>Stage 1: 2016-04-29  
 Stage 2: 2017-06-12  
 Stage 2.7: NA  
 Stage 3: 2018-02-08  
-Stage 4: NA<br>Last Commit: 2019-12-30<br>Keywords: #string #trim #whitespace #consistency #aliasing #compatibility #standardization #implementation #specification #testing<br>GitHub Link: https://github.com/tc39/proposal-string-left-right-trim <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#stringprototypetrimstarttrimend-for-stage-4
+Stage 4: 2019-12-30<br>Last Commit: 2019-12-30<br>Keywords: #string #trim #whitespace #consistency #aliasing #compatibility #standardization #implementation #specification #testing<br>GitHub Link: https://github.com/tc39/proposal-string-left-right-trim <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#stringprototypetrimstarttrimend-for-stage-4
 # Proposal Description:
 # String.prototype.trimStart / String.prototype.trimEnd
 

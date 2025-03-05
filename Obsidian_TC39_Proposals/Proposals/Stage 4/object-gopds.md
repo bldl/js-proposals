@@ -1,7 +1,7 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Object.getOwnPropertyDescriptors<br>Authors: Jordan Harband, Andrea Giammarchi<br>Champions: Jordan Harband, Andrea Giammarchi<br>Last Presented: May 2016<br>Stage Upgrades:<br>Stage 1: 2016-01-20  
-Stage 2: NA  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Object.getOwnPropertyDescriptors<br>Authors: Jordan Harband, Andrea Giammarchi<br>Champions: Jordan Harband, Andrea Giammarchi<br>Last Presented: May 2016<br>Stage Upgrades:<br>Stage 1: NA  
+Stage 2: 2016-01-27  
 Stage 2.7: NA  
-Stage 3: NA  
+Stage 3: 2016-01-29  
 Stage 4: 2016-05-25<br>Last Commit: 2016-07-30<br>Keywords: #object #descriptors #copy #properties #composition #prototypes #getters #setters #mixins #boilerplate<br>GitHub Link: https://github.com/tc39/proposal-object-getownpropertydescriptors <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-05/may-25.md#objectgetownpropertydescriptors-jhd
 # Proposal Description:
 # `Object.getOwnPropertyDescriptors` Proposal ([Polyfill](https://www.npmjs.com/package/object.getownpropertydescriptors))

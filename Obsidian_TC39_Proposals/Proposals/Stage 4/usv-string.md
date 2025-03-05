@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Well-Formed Unicode Strings<br>Authors: Guy Bedford, Bradley Farias<br>Champions: Guy Bedford, Bradley Farias, Michael Ficarra<br>Last Presented: May 2023<br>Stage Upgrades:<br>Stage 1: 2021-08-20  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Well-Formed Unicode Strings<br>Authors: Guy Bedford, Bradley Farias<br>Champions: Guy Bedford, Bradley Farias, Michael Ficarra<br>Last Presented: May 2023<br>Stage Upgrades:<br>Stage 1: 2022-08-10  
 Stage 2: 2022-09-13  
 Stage 2.7: NA  
 Stage 3: 2022-11-30  

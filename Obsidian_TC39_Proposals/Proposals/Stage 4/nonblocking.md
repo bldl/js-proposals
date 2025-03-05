@@ -1,8 +1,8 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Atomics.waitAsync<br>Authors: Lars Hansen<br>Champions: Shu-yu Guo, Lars Hansen<br>Last Presented: May 2023<br>Stage Upgrades:<br>Stage 1: 2017-06-06  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Atomics.waitAsync<br>Authors: Lars Hansen<br>Champions: Shu-yu Guo, Lars Hansen<br>Last Presented: May 2023<br>Stage Upgrades:<br>Stage 1: 2017-06-06  
 Stage 2: 2017-09-26  
 Stage 2.7: NA  
-Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2021-03-31<br>Keywords: #asynchronous #wait #blocking #agents #polyfill #implementation #test_cases #examples #non_blocking #execution<br>GitHub Link: https://github.com/tc39/proposal-atomics-wait-async <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-15.md#atomicswaitasync-for-stage-4
+Stage 3: 2020-08-28  
+Stage 4: 2023-05-15<br>Last Commit: 2021-03-31<br>Keywords: #asynchronous #wait #blocking #agents #polyfill #implementation #test_cases #examples #non_blocking #execution<br>GitHub Link: https://github.com/tc39/proposal-atomics-wait-async <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-15.md#atomicswaitasync-for-stage-4
 # Proposal Description:
 # Asynchronous atomic wait for ECMAScript
 

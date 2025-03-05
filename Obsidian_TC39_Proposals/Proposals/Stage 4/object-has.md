@@ -1,8 +1,8 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Accessible Object.prototype.hasOwnProperty<br>Authors: Jamie Kyle<br>Champions: Tierney Cyren, Jamie Kyle<br>Last Presented: August 2021<br>Stage Upgrades:<br>Stage 1: 2021-04-05  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Accessible Object.prototype.hasOwnProperty<br>Authors: Jamie Kyle<br>Champions: Tierney Cyren, Jamie Kyle<br>Last Presented: August 2021<br>Stage Upgrades:<br>Stage 1: NA  
 Stage 2: 2021-04-20  
 Stage 2.7: NA  
 Stage 3: 2021-05-25  
-Stage 4: NA<br>Last Commit: 2021-08-31<br>Keywords: #object #method #property #prototype #accessibility #redefinition #inheritance #polyfill #dictionary #eslint<br>GitHub Link: https://github.com/tc39/proposal-accessible-object-hasownproperty <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#accessible-object-hasownproperty-for-stage-4
+Stage 4: 2021-08-31<br>Last Commit: 2021-08-31<br>Keywords: #object #method #property #prototype #accessibility #redefinition #inheritance #polyfill #dictionary #eslint<br>GitHub Link: https://github.com/tc39/proposal-accessible-object-hasownproperty <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#accessible-object-hasownproperty-for-stage-4
 # Proposal Description:
 # Accessible `Object.prototype.hasOwnProperty()`
 

@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Symbol.prototype.description<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: November 2018<br>Stage Upgrades:<br>Stage 1: 2017-07-26  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Symbol.prototype.description<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: November 2018<br>Stage Upgrades:<br>Stage 1: 2017-07-26  
 Stage 2: 2018-01-25  
 Stage 2.7: NA  
 Stage 3: 2018-05-22  

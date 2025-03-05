@@ -1,5 +1,5 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Object.values/Object.entries<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: March 2016<br>Stage Upgrades:<br>Stage 1: 2015-08-31  
-Stage 2: NA  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Object.values/Object.entries<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: March 2016<br>Stage Upgrades:<br>Stage 1: NA  
+Stage 2: 2015-09-24  
 Stage 2.7: NA  
 Stage 3: 2015-11-17  
 Stage 4: 2016-03-29<br>Last Commit: 2016-03-29<br>Keywords: #object #values #entries #iteration #serialization #map #key_value_pairs #consistency #hash_filter #arrays<br>GitHub Link: https://github.com/tc39/proposal-object-values-entries <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-03/march-29.md#objectvalues--objectentries

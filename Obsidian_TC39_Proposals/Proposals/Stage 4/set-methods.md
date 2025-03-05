@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: New Set methods<br>Authors: Michał Wadas, Sathya Gunasekaran, Kevin Gibbons<br>Champions: Kevin Gibbons<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2016-05-28  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: New Set methods<br>Authors: Michał Wadas, Sathya Gunasekaran, Kevin Gibbons<br>Champions: Kevin Gibbons<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: NA  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2022-11-30  

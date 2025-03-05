@@ -1,8 +1,8 @@
-[[Stage 4]]<br>Classification: [[API Change]] [[Syntactic Change]]<br>Human Validated: No<br>Title: Private instance methods and accessors<br>Authors: Daniel Ehrenberg<br>Champions: Daniel Ehrenberg, Kevin Gibbons<br>Last Presented: April 2021<br>Stage Upgrades:<br>Stage 1: 2017-06-29  
-Stage 2: 2017-12-15  
+[[Stage 4]]<br>Classification: [[API Change]] <br>Human Validated: KW<br>Title: Private instance methods and accessors<br>Authors: Daniel Ehrenberg<br>Champions: Daniel Ehrenberg, Kevin Gibbons<br>Last Presented: April 2021<br>Stage Upgrades:<br>Stage 1: NA  
+Stage 2: 2017-07-28  
 Stage 2.7: NA  
-Stage 3: 2017-10-26  
-Stage 4: 2021-06-10<br>Last Commit: 2021-02-15<br>Keywords: #fields #private #syntax #repository #archive #canonical #status #proposal #historical #faq<br>GitHub Link: https://github.com/tc39/proposal-private-methods <br>GitHub Note Link: None
+Stage 3: 2018-10-26  
+Stage 4: 2021-06-10<br>Last Commit: 2022-01-24<br>Keywords: #fields #private #syntax #repository #archive #canonical #status #proposal #historical #faq<br>GitHub Link: https://github.com/tc39/proposal-private-methods <br>GitHub Note Link: None
 # Proposal Description:
 ## This proposal has been merged into the [class fields](https://github.com/tc39/proposal-class-fields) proposal.
 

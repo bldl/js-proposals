@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[Semantic Change]]<br>Human Validated: No<br>Title: Well-formed JSON.stringify<br>Authors: Richard Gibson<br>Champions: Mathias Bynens<br>Last Presented: January 2019<br>Stage Upgrades:<br>Stage 1: 2018-03-24  
+[[Stage 4]]<br>Classification: [[Semantic Change]]<br>Human Validated: KW<br>Title: Well-formed JSON.stringify<br>Authors: Richard Gibson<br>Champions: Mathias Bynens<br>Last Presented: January 2019<br>Stage Upgrades:<br>Stage 1: NA 
 Stage 2: 2018-05-23  
 Stage 2.7: NA  
 Stage 3: 2018-09-26  

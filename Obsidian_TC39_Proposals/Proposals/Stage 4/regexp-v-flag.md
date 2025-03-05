@@ -1,5 +1,5 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: No<br>Title: RegExp v flag with set notation + properties of strings<br>Authors: Markus Scherer, Mathias Bynens<br>Champions: Mathias Bynens<br>Last Presented: May 2023<br>Stage Upgrades:<br>Stage 1: 2021-01-28  
-Stage 2: 2021-05-26  
+[[Stage 4]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: RegExp v flag with set notation + properties of strings<br>Authors: Markus Scherer, Mathias Bynens<br>Champions: Mathias Bynens<br>Last Presented: May 2023<br>Stage Upgrades:<br>Stage 1: 2021-01-28  
+Stage 2: 2021-05-27  
 Stage 2.7: NA  
 Stage 3: 2022-03-29  
 Stage 4: 2023-05-16<br>Last Commit: 2023-09-22<br>Keywords: #difference #intersection #nested #character_class #unicode #properties #regular_expression #set_operations #syntax #semantics<br>GitHub Link: https://github.com/tc39/proposal-regexp-v-flag <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#regexp-v-flag-for-stage-4

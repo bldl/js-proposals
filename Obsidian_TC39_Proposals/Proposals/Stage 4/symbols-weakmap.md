@@ -1,8 +1,8 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Symbols as WeakMap keys<br>Authors: Daniel Ehrenberg, Richard Button, Robin Ricard, Leo Balter, Rick Waldron, Caridy Patiño<br>Champions: Daniel Ehrenberg, Richard Button, Robin Ricard, Leo Balter, Rick Waldron, Caridy Patiño<br>Last Presented: January 2023<br>Stage Upgrades:<br>Stage 1: 2020-06-02  
-Stage 2: NA  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Symbols as WeakMap keys<br>Authors: Daniel Ehrenberg, Richard Button, Robin Ricard, Leo Balter, Rick Waldron, Caridy Patiño<br>Champions: Daniel Ehrenberg, Richard Button, Robin Ricard, Leo Balter, Rick Waldron, Caridy Patiño<br>Last Presented: January 2023<br>Stage Upgrades:<br>Stage 1: 2020-06-02  
+Stage 2: 2021-05-14  
 Stage 2.7: NA  
 Stage 3: 2022-06-07  
-Stage 4: NA<br>Last Commit: 2022-06-07<br>Keywords: #weakmap #symbol #garbage_collection #referencing #primitive #immutability #membrane #identity #records #tuples<br>GitHub Link: https://github.com/tc39/proposal-symbols-as-weakmap-keys <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#symbols-as-weakmap-keys
+Stage 4: 2023-01-30<br>Last Commit: 2022-06-07<br>Keywords: #weakmap #symbol #garbage_collection #referencing #primitive #immutability #membrane #identity #records #tuples<br>GitHub Link: https://github.com/tc39/proposal-symbols-as-weakmap-keys <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#symbols-as-weakmap-keys
 # Proposal Description:
 # Symbols as WeakMap keys
 

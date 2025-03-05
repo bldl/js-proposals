@@ -1,8 +1,8 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Promise.withResolvers<br>Authors: Peter Klecha<br>Champions: Peter Klecha<br>Last Presented: sub> - [2023-11<br>Stage Upgrades:<br>Stage 1: 2023-03-24  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Promise.withResolvers<br>Authors: Peter Klecha<br>Champions: Peter Klecha<br>Last Presented: November 2023<br>Stage Upgrades:<br>Stage 1: 2023-03-24  
 Stage 2: 2023-05-18  
 Stage 2.7: NA  
 Stage 3: 2023-07-12  
-Stage 4: 2023-12-12<br>Last Commit: 2023-12-12<br>Keywords: #promise #executor #resolver #rejector #asynchronous #callback #utility #error_handling #data #boilerplate<br>GitHub Link: https://github.com/tc39/proposal-promise-with-resolvers <br>GitHub Note Link: None
+Stage 4: 2023-12-12<br>Last Commit: 2023-12-12<br>Keywords: #promise #executor #resolver #rejector #asynchronous #callback #utility #error_handling #data #boilerplate<br>GitHub Link: https://github.com/tc39/proposal-promise-with-resolvers <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-27.md#promisewithresolvers-for-stage-4
 # Proposal Description:
 # `Promise.withResolvers`
 
