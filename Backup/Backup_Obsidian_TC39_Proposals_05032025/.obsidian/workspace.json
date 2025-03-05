@@ -1,0 +1,256 @@
+{
+  "main": {
+    "id": "7a44c272a4fc32a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "cba0765e36a40fdb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32bb5785244b77a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+<<<<<<< HEAD
+                "file": "Proposals/Stage 4/well-formed-stringify.md",
+=======
+                "file": "Proposals/Stage 4/object-values-entries.md",
+>>>>>>> 0600dec317785220ff65de2ca66320edfa39ff65
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+<<<<<<< HEAD
+              "title": "well-formed-stringify"
+=======
+              "title": "object-values-entries"
+>>>>>>> 0600dec317785220ff65de2ca66320edfa39ff65
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9a2e271327b67a00",
+    "type": "split",
+    "children": [
+      {
+        "id": "b729bb38a0e0868a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9785825380979c44",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "319c07dfdd0f3574",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#subexpression",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "887faf82dcbde95f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "554742c426108215",
+    "type": "split",
+    "children": [
+      {
+        "id": "2873149bb6a91e0b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca1ea9f4497504b6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "43ea6a977798041f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "f39bb1c6cea46a72",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f72bd8738f7160e6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "32bb5785244b77a0",
+  "lastOpenFiles": [
+<<<<<<< HEAD
+    "Proposals/Stage 4/weakrefs.md",
+    "Proposals/Stage 4/usv-string.md",
+    "Proposals/Stage 4/unicode-escapes.md",
+    "Proposals/Stage 4/try.md",
+    "Proposals/Stage 4/trims.md",
+    "Proposals/Stage 4/template-literal-lift.md",
+    "Proposals/Stage 4/symbols-weakmap.md",
+    "Proposals/Stage 4/symbol-description.md",
+    "Proposals/Stage 4/string-padding.md",
+    "Proposals/Stage 4/static-blocks.md",
+    "Proposals/Stage 4/set-methods.md",
+    "Proposals/Stage 4/replace-all.md",
+    "Proposals/Stage 4/resizable.md",
+    "Proposals/Stage 4/regexp-v-flag.md",
+    "Proposals/Stage 4/regexp-modifiers.md",
+    "Proposals/Stage 4/regex-match-indices.md",
+    "Proposals/Stage 4/promise-defer.md",
+    "Proposals/Stage 4/promise-any.md",
+    "Proposals/Stage 4/private-methods.md",
+    "Proposals/Stage 4/json-superset.md",
+    "Proposals/Stage 4/function-to-string.md",
+    "Proposals/Stage 4/private-fields-in-in.md",
+    "Proposals/Stage 4/optional-catch.md",
+    "Proposals/Stage 4/object-values-entries.md",
+    "Proposals/Stage 4/object-from-entries.md",
+    "Proposals/Stage 4/object-gopds.md",
+=======
+    "Proposals/Stage 4/object-rest-spread.md",
+    "Proposals/Stage 4/object-has.md",
+    "Proposals/Stage 4/object-gopds.md",
+    "Proposals/Stage 4/object-from-entries.md",
+    "Proposals/Stage 4/numeric_separators.md",
+    "Proposals/Stage 4/nullish-coalescing.md",
+    "Proposals/Stage 4/nonblocking.md",
+    "Proposals/Stage 4/named-groups.md",
+    "Proposals/Stage 4/lookbehind.md",
+    "Proposals/Stage 4/json-superset.md",
+    "Proposals/Stage 4/iterator-helpers.md",
+    "Proposals/Stage 4/import-meta.md",
+    "Proposals/Stage 4/import-attributes.md",
+    "Proposals/Stage 4/hashbang-grammar.md",
+    "Proposals/Stage 4/globalThis.md",
+    "Proposals/Stage 4/function-to-string.md",
+    "Proposals/Stage 4/function-commas.md",
+    "Proposals/Stage 4/for-in-mechanics.md",
+    "Proposals/Stage 4/flat.md",
+    "Proposals/Stage 4/find-last.md",
+    "Proposals/Stage 4/finally.md",
+    "Proposals/Stage 4/exponentiation.md",
+    "Proposals/Stage 4/escape.md",
+    "Proposals/Stage 4/replace-all.md",
+    "Proposals/Stage 4/json-modules.md",
+    "Proposals/Stage 4/error-cause.md",
+>>>>>>> 0600dec317785220ff65de2ca66320edfa39ff65
+    "Proposals/Inactive/Node",
+    "Analysis/Keywords",
+    "Analysis/Stages",
+    "Proposals/Stage 0/Node",
+    "Proposals/Stage 1/Node",
+    "Proposals/Stage 2/Node",
+    "Proposals/Stage 2.7/Node",
+    "Proposals/Stage 3/Node",
+    "Proposals/Stage 0",
+    "Proposals/Stage 1"
+  ]
+}
