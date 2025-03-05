@@ -1,8 +1,8 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Numeric separators<br>Authors: Sam Goto, Rick Waldron<br>Champions: Sam Goto, Rick Waldron , Leo Balter<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2017-05-26  
+[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Numeric separators<br>Authors: Sam Goto, Rick Waldron<br>Champions: Sam Goto, Rick Waldron , Leo Balter<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2017-05-27  
 Stage 2: 2017-08-08  
 Stage 2.7: NA  
-Stage 3: 2017-11-28  
-Stage 4: NA<br>Last Commit: 2021-07-16<br>Keywords: #numeric_literal #readability #separator #underscore #floating_point #integer #financial #parsing #syntax_error #bigint<br>GitHub Link: https://github.com/tc39/proposal-numeric-separator <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#numericliteralseparator-for-stage-4
+Stage 3: 2017-11-29  
+Stage 4: 2020-07-23<br>Last Commit: 2021-07-16<br>Keywords: #numeric_literal #readability #separator #underscore #floating_point #integer #financial #parsing #syntax_error #bigint<br>GitHub Link: https://github.com/tc39/proposal-numeric-separator <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#numericliteralseparator-for-stage-4
 # Proposal Description:
 # Numeric Separators
 

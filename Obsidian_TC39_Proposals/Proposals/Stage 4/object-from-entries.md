@@ -1,7 +1,7 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: No<br>Title: Object.fromEntries<br>Authors: Darien Maillet Valentine<br>Champions: Jordan Harband, Kevin Gibbons<br>Last Presented: January 2019<br>Stage Upgrades:<br>Stage 1: 2017-08-07  
-Stage 2: NA  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Object.fromEntries<br>Authors: Darien Maillet Valentine<br>Champions: Jordan Harband, Kevin Gibbons<br>Last Presented: January 2019<br>Stage Upgrades:<br>Stage 1: NA 
+Stage 2: 2018-07-29  
 Stage 2.7: NA  
-Stage 3: 2018-07-24  
+Stage 3: 2018-07-25  
 Stage 4: 2019-01-29<br>Last Commit: 2019-01-29<br>Keywords: #key_value_pairs #iterable #object_transformation #map #array_manipulation #json_serialization #data_structure #property_transformation #data_model #metaprogramming<br>GitHub Link: https://github.com/tc39/proposal-object-from-entries <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#objectfromentries-for-stage-4
 # Proposal Description:
 # Object.fromEntries
