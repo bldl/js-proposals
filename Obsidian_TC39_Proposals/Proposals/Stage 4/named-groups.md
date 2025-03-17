@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]] ------<br>Human Validated: KW<br>Title: RegExp named capture groups<br>Authors: Gorkem Yakin, Daniel Ehrenberg<br>Champions: Daniel Ehrenberg, Brian Terlson, Mathias Bynens<br>Last Presented: November 2017<br>Stage Upgrades:<br>Stage 1: NA  
+[[Stage 4]]<br>Classification: [[Syntactic Change]] - Syntactic && Semantic <br>Human Validated: KW<br>Title: RegExp named capture groups<br>Authors: Gorkem Yakin, Daniel Ehrenberg<br>Champions: Daniel Ehrenberg, Brian Terlson, Mathias Bynens<br>Last Presented: November 2017<br>Stage Upgrades:<br>Stage 1: NA  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2017-03-22  

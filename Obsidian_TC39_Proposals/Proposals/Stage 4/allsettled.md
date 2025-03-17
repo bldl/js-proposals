@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Promise.allSettled<br>Authors: Jason Williams, Robert Pamely, Mathias Bynens<br>Champions: Mathias Bynens<br>Last Presented: July 2019<br>Stage Upgrades:<br>Stage 1: 2018-09-27  
+[[Stage 4]]<br>Classification: [[API Change]] - Syntactic<br>Human Validated: KW<br>Title: Promise.allSettled<br>Authors: Jason Williams, Robert Pamely, Mathias Bynens<br>Champions: Mathias Bynens<br>Last Presented: July 2019<br>Stage Upgrades:<br>Stage 1: 2018-09-27  
 Stage 2: 2019-01-30  
 Stage 2.7: NA  
 Stage 3: 2019-03-27  

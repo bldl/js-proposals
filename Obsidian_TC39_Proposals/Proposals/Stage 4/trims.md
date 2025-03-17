@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: String.prototype.{trimStart,trimEnd}<br>Authors: Sebastian Markbåge<br>Champions: Sebastian Markbåge, Mathias Bynens<br>Last Presented: January 2019<br>Stage Upgrades:<br>Stage 1: 2016-04-29  
+[[Stage 4]]<br>Classification: [[API Change]] - Semantic && Syntactic<br>Human Validated: KW<br>Title: String.prototype.{trimStart,trimEnd}<br>Authors: Sebastian Markbåge<br>Champions: Sebastian Markbåge, Mathias Bynens<br>Last Presented: January 2019<br>Stage Upgrades:<br>Stage 1: 2016-04-29  
 Stage 2: 2017-06-12  
 Stage 2.7: NA  
 Stage 3: 2018-02-08  

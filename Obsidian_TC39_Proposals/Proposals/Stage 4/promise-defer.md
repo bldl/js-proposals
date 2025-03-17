@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Promise.withResolvers<br>Authors: Peter Klecha<br>Champions: Peter Klecha<br>Last Presented: November 2023<br>Stage Upgrades:<br>Stage 1: 2023-03-24  
+[[Stage 4]]<br>Classification: [[API Change]] - Syntactic<br>Human Validated: KW<br>Title: Promise.withResolvers<br>Authors: Peter Klecha<br>Champions: Peter Klecha<br>Last Presented: November 2023<br>Stage Upgrades:<br>Stage 1: 2023-03-24  
 Stage 2: 2023-05-18  
 Stage 2.7: NA  
 Stage 3: 2023-07-12  

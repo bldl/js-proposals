@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Class Static Block<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: August 2021<br>Stage Upgrades:<br>Stage 1: 2018-07-10  
+[[Stage 4]]<br>Classification: [[Syntactic Change]] - Syntactic && Semantic<br>Human Validated: KW<br>Title: Class Static Block<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: August 2021<br>Stage Upgrades:<br>Stage 1: 2018-07-10  
 Stage 2: 2020-11-06  
 Stage 2.7: NA  
 Stage 3: 2021-01-27  

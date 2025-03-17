@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[API Change]] <br>Human Validated: KW<br>Title: Private instance methods and accessors<br>Authors: Daniel Ehrenberg<br>Champions: Daniel Ehrenberg, Kevin Gibbons<br>Last Presented: April 2021<br>Stage Upgrades:<br>Stage 1: NA  
+[[Stage 4]]<br>Classification: [[API Change]] - ??<br>Human Validated: KW<br>Title: Private instance methods and accessors<br>Authors: Daniel Ehrenberg<br>Champions: Daniel Ehrenberg, Kevin Gibbons<br>Last Presented: April 2021<br>Stage Upgrades:<br>Stage 1: NA  
 Stage 2: 2017-07-28  
 Stage 2.7: NA  
 Stage 3: 2018-10-26  

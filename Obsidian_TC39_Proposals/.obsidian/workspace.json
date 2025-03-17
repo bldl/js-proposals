@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1873fa4f6c3101c0",
+        "id": "c96d9f0ee2f68da3",
         "type": "tabs",
         "children": [
           {
-            "id": "815c9ae0f2b5a94d",
+            "id": "ddf2bf0e04bbaa8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 4/named-groups.md",
+                "file": "Proposals/Stage 4/try.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "named-groups"
+              "title": "try"
             }
           }
         ]
@@ -181,34 +181,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "815c9ae0f2b5a94d",
+  "active": "ddf2bf0e04bbaa8b",
   "lastOpenFiles": [
-    "Proposals/Stage 4/named-capture-groups.md",
-    "Proposals/Stage 4/lookbehind.md",
-    "Proposals/Stage 4/matchall.md",
-    "Proposals/Stage 4/logical-assignment.md",
-    "Proposals/Stage 4/json-superset.md",
-    "Proposals/Stage 4/json-modules.md",
-    "Proposals/Stage 4/iterator-helpers.md",
-    "Proposals/Stage 4/import-meta.md",
-    "Proposals/Stage 4/import-attributes.md",
-    "Proposals/Stage 4/hashbang-grammar.md",
-    "Proposals/Stage 4/for-in-mechanics.md",
-    "Proposals/Stage 4/function-commas.md",
-    "Proposals/Stage 4/function-to-string.md",
-    "Proposals/Stage 4/globalThis.md",
-    "Proposals/Stage 4/await.md",
-    "Proposals/Stage 4/async-await.md",
-    "Proposals/Stage 4/finally.md",
-    "Proposals/Stage 4/async-iteration.md",
-    "Proposals/Stage 4/find-last.md",
-    "Proposals/Stage 4/bigint.md",
-    "spec.md",
+    "Proposals/Stage 4/trims.md",
+    "Proposals/Stage 4/try.md",
+    "Proposals/Stage 4/template-literal-lift.md",
+    "Proposals/Stage 4/unicode-escapes.md",
+    "Proposals/Stage 4/object-values-entries.md",
+    "Proposals/Stage 4/object-rest-spread.md",
+    "Proposals/Stage 4/object-has.md",
+    "Proposals/Stage 4/object-gopds.md",
+    "Proposals/Stage 4/object-from-entries.md",
+    "Proposals/Stage 4/array-grouping.md",
     "Proposals/Stage 4/array-includes.md",
-    "Proposals/Stage 4/flat.md",
-    "Proposals/Stage 4/exponentiation.md",
-    "Proposals/Stage 4/escape.md",
-    "Proposals/Stage 4/error-cause.md",
+    "Proposals/Stage 4/arraybuffer-transfer.md",
+    "Proposals/Stage 4/symbols-weakmap.md",
+    "Proposals/Stage 4/symbol-description.md",
+    "Proposals/Stage 4/string-padding.md",
+    "Proposals/Stage 4/static-blocks.md",
+    "Proposals/Stage 4/set-methods.md",
+    "Proposals/Stage 4/resizable.md",
+    "Proposals/Stage 4/regexp-v-flag.md",
+    "Proposals/Stage 4/replace-all.md",
+    "Proposals/Stage 4/regexp-modifiers.md",
+    "Proposals/Stage 4/regex-match-indices.md",
+    "Proposals/Stage 4/dot-all.md",
+    "Proposals/Stage 4/promise-defer.md",
+    "Proposals/Stage 4/async-await.md",
+    "Proposals/Stage 4/async-iteration.md",
     "Untitled.canvas"
   ]
 }
