@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[Semantic Change]]<br>Human Validated: KW<br>Title: Function.prototype.toString revision<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: November 2018<br>Stage Upgrades:<br>Stage 1: 2016-01-14  
+[[Stage 4]]<br>Classification: [[Semantic Change]] <br>Human Validated: KW<br>Title: Function.prototype.toString revision<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: November 2018<br>Stage Upgrades:<br>Stage 1: 2016-01-14  
 Stage 2: 2016-03-16  
 Stage 2.7: NA  
 Stage 3: 2016-03-31  

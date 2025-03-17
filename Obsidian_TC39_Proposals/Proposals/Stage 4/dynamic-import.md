@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: import()<br>Authors: Domenic Denicola<br>Champions: Domenic Denicola<br>Last Presented: June 2019<br>Stage Upgrades:<br>Stage 1: NA  
+[[Stage 4]]<br>Classification: [[Syntactic Change]] - Syntactic && Semantic??<br>Human Validated: KW<br>Title: import()<br>Authors: Domenic Denicola<br>Champions: Domenic Denicola<br>Last Presented: June 2019<br>Stage Upgrades:<br>Stage 1: NA  
 Stage 2: 2016-10-07  
 Stage 2.7: NA  
 Stage 3: 2016-12-01  

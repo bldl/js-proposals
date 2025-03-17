@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[Semantic Change]]<br>Human Validated: KW<br>Title: for-in mechanics<br>Authors: Kevin Gibbons<br>Champions: Kevin Gibbons<br>Last Presented: December 2019<br>Stage Upgrades:<br>Stage 1: 2019-05-25  
+[[Stage 4]]<br>Classification: [[Semantic Change]] - Semantic && Syntactic <br>Human Validated: KW<br>Title: for-in mechanics<br>Authors: Kevin Gibbons<br>Champions: Kevin Gibbons<br>Last Presented: December 2019<br>Stage Upgrades:<br>Stage 1: 2019-05-25  
 Stage 2: 2019-08-22  
 Stage 2.7: NA  
 Stage 3: 2019-11-08  

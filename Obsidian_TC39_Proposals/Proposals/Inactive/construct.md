@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[API Change]] [[Syntactic Change]]<br>Human Validated: KW<br>Title: %constructor%.construct<br>Authors: James M Snell<br>Withdrawn<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: NA
+[[Inactive]]<br>Classification: [[API Change]] <br>Human Validated: KW<br>Title: %constructor%.construct<br>Authors: James M Snell<br>Withdrawn<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: NA
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

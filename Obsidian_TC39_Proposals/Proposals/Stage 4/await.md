@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Top-level await<br>Authors: Myles Borins, Yulia Startsev, Daniel Ehrenberg, Guy Bedford, Ms2ger<br>Champions: Myles Borins, Yulia Startsev<br>Last Presented: May 2021<br>Stage Upgrades:<br>Stage 1: 2018-01-24  
+[[Stage 4]]<br>Classification: [[Syntactic Change]] - Semantic Change<br>Human Validated: KW<br>Title: Top-level await<br>Authors: Myles Borins, Yulia Startsev, Daniel Ehrenberg, Guy Bedford, Ms2ger<br>Champions: Myles Borins, Yulia Startsev<br>Last Presented: May 2021<br>Stage Upgrades:<br>Stage 1: 2018-01-24  
 Stage 2: 2018-05-22  
 Stage 2.7: NA  
 Stage 3: 2019-06-06  

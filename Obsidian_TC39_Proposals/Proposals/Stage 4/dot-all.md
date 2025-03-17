@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: s (dotAll) flag for regular expressions<br>Authors: Mathias Bynens<br>Champions: Brian Terlson, Mathias Bynens<br>Last Presented: November 2017<br>Stage Upgrades:<br>Stage 1: 2016-11-30  
+[[Stage 4]]<br>Classification: [[API Change]] - Semantic && Syntactic<br>Human Validated: KW<br>Title: s (dotAll) flag for regular expressions<br>Authors: Mathias Bynens<br>Champions: Brian Terlson, Mathias Bynens<br>Last Presented: November 2017<br>Stage Upgrades:<br>Stage 1: 2016-11-30  
 Stage 2: 2017-03-22  
 Stage 2.7: NA  
 Stage 3: 2017-03-22  
