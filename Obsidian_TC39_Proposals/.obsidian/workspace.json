@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 4/logical-assignment.md",
+                "file": "Proposals/Stage 4/named-groups.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "logical-assignment"
+              "title": "named-groups"
             }
           }
         ]
@@ -183,6 +183,10 @@
   },
   "active": "815c9ae0f2b5a94d",
   "lastOpenFiles": [
+    "Proposals/Stage 4/named-capture-groups.md",
+    "Proposals/Stage 4/lookbehind.md",
+    "Proposals/Stage 4/matchall.md",
+    "Proposals/Stage 4/logical-assignment.md",
     "Proposals/Stage 4/json-superset.md",
     "Proposals/Stage 4/json-modules.md",
     "Proposals/Stage 4/iterator-helpers.md",
@@ -205,10 +209,6 @@
     "Proposals/Stage 4/exponentiation.md",
     "Proposals/Stage 4/escape.md",
     "Proposals/Stage 4/error-cause.md",
-    "Proposals/Stage 4/dynamic-import.md",
-    "Proposals/Stage 4/dot-all.md",
-    "Proposals/Stage 4/change-array-by-copy.md",
-    "Proposals/Stage 4/chaining.md",
     "Untitled.canvas"
   ]
 }

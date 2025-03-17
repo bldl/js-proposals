@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: RegExp Lookbehind Assertions<br>Authors: Gorkem Yakin, Nozomu Katō, Daniel Ehrenberg<br>Champions: Daniel Ehrenberg, Mathias Bynens<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: NA  
+[[Stage 4]]<br>Classification: [[Syntactic Change]] - Semantic <br>Human Validated: KW<br>Title: RegExp Lookbehind Assertions<br>Authors: Gorkem Yakin, Nozomu Katō, Daniel Ehrenberg<br>Champions: Daniel Ehrenberg, Mathias Bynens<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: NA  
 Stage 2: 2016-12-06  
 Stage 2.7: NA  
 Stage 3: 2017-03-22  
