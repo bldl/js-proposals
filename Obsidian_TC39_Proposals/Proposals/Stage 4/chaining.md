@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]] - Syntactic && Semantic <br>Human Validated: KW<br>Title: Optional Chaining<br>Authors: Gabriel Isenberg, Claude Pache, Dustin Savery<br>Champions: Gabriel Isenberg, Dustin Savery, Justin Ridgewell, Daniel Rosenwasser<br>Last Presented: December 2019<br>Stage Upgrades:<br>Stage 1: 2017-03-09  
+[[Stage 4]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Optional Chaining<br>Authors: Gabriel Isenberg, Claude Pache, Dustin Savery<br>Champions: Gabriel Isenberg, Dustin Savery, Justin Ridgewell, Daniel Rosenwasser<br>Last Presented: December 2019<br>Stage Upgrades:<br>Stage 1: 2017-03-09  
 Stage 2: 2019-06-05  
 Stage 2.7: NA  
 Stage 3: 2019-07-25  

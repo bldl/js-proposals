@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[API Change]] - Semantic Change<br>Human Validated: KW<br>Title: Shared memory and atomics<br>Authors: Lars T Hansen<br>Champions: Lars T Hansen<br>Last Presented: January 2017<br>Stage Upgrades:<br>Stage 1: 2015-09-24  
+[[Stage 4]]<br>Classification: [[API Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Shared memory and atomics<br>Authors: Lars T Hansen<br>Champions: Lars T Hansen<br>Last Presented: January 2017<br>Stage Upgrades:<br>Stage 1: 2015-09-24  
 Stage 2: 2016-01-28  
 Stage 2.7: NA  
 Stage 3: 2016-12-02  

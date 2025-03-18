@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[API Change]] - Semantic && Syntactic<br>Human Validated: KW<br>Title: Array.prototype.includes<br>Authors: Domenic Denicola<br>Champions: Domenic Denicola, Rick Waldron<br>Last Presented: November 2015<br>Stage Upgrades:<br>Stage 1: 2014-07-23  
+[[Stage 4]]<br>Classification: [[API Change]] <br>Human Validated: KW<br>Title: Array.prototype.includes<br>Authors: Domenic Denicola<br>Champions: Domenic Denicola, Rick Waldron<br>Last Presented: November 2015<br>Stage Upgrades:<br>Stage 1: 2014-07-23  
 Stage 2: 2014-11-25  
 Stage 2.7: NA  
 Stage 3: 2015-08-11  
