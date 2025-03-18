@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: globalThis<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: October 2019<br>Stage Upgrades:<br>Stage 1: 2015-11-19  
+[[Stage 4]]<br>Classification: [[Semantic Change]] [[Syntactic Change]] <br>Human Validated: KW<br>Title: globalThis<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: October 2019<br>Stage Upgrades:<br>Stage 1: 2015-11-19  
 Stage 2: 2016-03-29  
 Stage 2.7: NA  
 Stage 3: 2016-09-29  

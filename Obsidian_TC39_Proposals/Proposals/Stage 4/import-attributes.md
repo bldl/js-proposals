@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Import Attributes<br>Authors: Myles Borins, Sven Sauleau, Dan Clark, Daniel Ehrenberg<br>Champions: Sven Sauleau, Dan Clark, Daniel Ehrenberg, Nicolò Ribaudo<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2019-12-06  
+[[Stage 4]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Import Attributes<br>Authors: Myles Borins, Sven Sauleau, Dan Clark, Daniel Ehrenberg<br>Champions: Sven Sauleau, Dan Clark, Daniel Ehrenberg, Nicolò Ribaudo<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2019-12-06  
 Stage 2: 2020-06-04  
 Stage 2.7: NA  
 Stage 3: 2020-09-22  

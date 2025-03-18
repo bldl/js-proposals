@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]] - Syntactic && Semantic<br>Human Validated: KW<br>Title: JSON superset<br>Authors: Richard Gibson<br>Champions: Mark Miller, Mathias Bynens<br>Last Presented: May 2018<br>Stage Upgrades:<br>Stage 1: 2017-09-27  
+[[Stage 4]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: JSON superset<br>Authors: Richard Gibson<br>Champions: Mark Miller, Mathias Bynens<br>Last Presented: May 2018<br>Stage Upgrades:<br>Stage 1: 2017-09-27  
 Stage 2: 2017-11-29  
 Stage 2.7: NA  
 Stage 3: 2018-01-25  

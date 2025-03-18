@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: WeakRefs<br>Authors: Dean Tribble, Sathya Gunasekaran<br>Champions: Dean Tribble, Mark Miller, Till Schneidereit, Sathya Gunasekaran, Daniel Ehrenberg<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2016-04-01  
+[[Stage 4]]<br>Classification: [[API Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: WeakRefs<br>Authors: Dean Tribble, Sathya Gunasekaran<br>Champions: Dean Tribble, Mark Miller, Till Schneidereit, Sathya Gunasekaran, Daniel Ehrenberg<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2016-04-01  
 Stage 2: 2018-03-23  
 Stage 2.7: NA  
 Stage 3: 2019-06-07  

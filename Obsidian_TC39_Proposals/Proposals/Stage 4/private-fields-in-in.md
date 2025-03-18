@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]] <br>Human Validated: KW<br>Title: Ergonomic brand checks for Private Fields<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: July 2021<br>Stage Upgrades:<br>Stage 1: 2020-04-01  
+[[Stage 4]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Ergonomic brand checks for Private Fields<br>Authors: Jordan Harband<br>Champions: Jordan Harband<br>Last Presented: July 2021<br>Stage Upgrades:<br>Stage 1: 2020-04-01  
 Stage 2: 2020-06-01  
 Stage 2.7: NA  
 Stage 3: 2021-01-27  

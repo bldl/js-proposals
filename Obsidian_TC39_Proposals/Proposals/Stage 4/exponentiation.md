@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]] - Syntactic && Semantic<br>Human Validated: KW<br>Title: Exponentiation operator<br>Authors: Rick Waldron<br>Champions: Rick Waldron<br>Last Presented: January 2016<br>Stage Upgrades:<br>Stage 1: NA  
+[[Stage 4]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Exponentiation operator<br>Authors: Rick Waldron<br>Champions: Rick Waldron<br>Last Presented: January 2016<br>Stage Upgrades:<br>Stage 1: NA  
 Stage 2: 2015-02-23  
 Stage 2.7: NA  
 Stage 3: 2015-07-29  

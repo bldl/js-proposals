@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]] - Semantic and Syntactic<br>Human Validated: KW<br>Title: Rest/Spread Properties<br>Authors: Sebastian Markbåge<br>Champions: Sebastian Markbåge<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2014-10-29  
+[[Stage 4]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Rest/Spread Properties<br>Authors: Sebastian Markbåge<br>Champions: Sebastian Markbåge<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2014-10-29  
 Stage 2: 2015-08-25  
 Stage 2.7: NA  
 Stage 3: 2016-09-29  

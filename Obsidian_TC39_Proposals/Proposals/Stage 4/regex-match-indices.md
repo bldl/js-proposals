@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: RegExp Match Indices<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: May 2021<br>Stage Upgrades:<br>Stage 1: 2018-07-11  
+[[Stage 4]]<br>Classification: [[Semantic Change]] [[Syntactic Change]]<br>Human Validated: KW<br>Title: RegExp Match Indices<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: May 2021<br>Stage Upgrades:<br>Stage 1: 2018-07-11  
 Stage 2: 2019-07-12  
 Stage 2.7: NA  
 Stage 3: 2019-07-25  

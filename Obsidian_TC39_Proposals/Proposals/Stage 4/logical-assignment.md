@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]] - Syntactic && Semantic<br>Human Validated: KW<br>Title: Logical Assignment Operators<br>Authors: Justin Ridgewell<br>Champions: Justin Ridgewell ,  Hemanth HM<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2018-03-25  
+[[Stage 4]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Logical Assignment Operators<br>Authors: Justin Ridgewell<br>Champions: Justin Ridgewell ,  Hemanth HM<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2018-03-25  
 Stage 2: 2020-02-16  
 Stage 2.7: NA  
 Stage 3: 2020-03-15  

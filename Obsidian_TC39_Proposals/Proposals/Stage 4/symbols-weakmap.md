@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[API Change]] - Semantic && Syntactic <br>Human Validated: KW<br>Title: Symbols as WeakMap keys<br>Authors: Daniel Ehrenberg, Richard Button, Robin Ricard, Leo Balter, Rick Waldron, Caridy Patiño<br>Champions: Daniel Ehrenberg, Richard Button, Robin Ricard, Leo Balter, Rick Waldron, Caridy Patiño<br>Last Presented: January 2023<br>Stage Upgrades:<br>Stage 1: 2020-06-02  
+[[Stage 4]]<br>Classification: [[API Change]] <br>Human Validated: KW<br>Title: Symbols as WeakMap keys<br>Authors: Daniel Ehrenberg, Richard Button, Robin Ricard, Leo Balter, Rick Waldron, Caridy Patiño<br>Champions: Daniel Ehrenberg, Richard Button, Robin Ricard, Leo Balter, Rick Waldron, Caridy Patiño<br>Last Presented: January 2023<br>Stage Upgrades:<br>Stage 1: 2020-06-02  
 Stage 2: 2021-05-14  
 Stage 2.7: NA  
 Stage 3: 2022-06-07  
