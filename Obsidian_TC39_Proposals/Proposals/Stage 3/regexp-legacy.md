@@ -1,4 +1,4 @@
-[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Legacy RegExp features in JavaScript<br>Authors: Claude Pache<br>Champions: Mark Miller, Claude Pache<br>Last Presented: May 2017<br>Stage Upgrades:<br>Stage 1: NA  
+[[Stage 3]]<br>Classification: [[API Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Legacy RegExp features in JavaScript<br>Authors: Claude Pache<br>Champions: Mark Miller, Claude Pache<br>Last Presented: May 2017<br>Stage Upgrades:<br>Stage 1: NA  
 Stage 2: 2016-09-29  
 Stage 2.7: NA  
 Stage 3: 2017-07-29  

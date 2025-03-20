@@ -1,4 +1,4 @@
-[[Stage 3]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Decorators<br>Authors: Daniel Ehrenberg, Kristen Hewell Garrett<br>Champions: Kristen Hewell Garrett<br>Last Presented: March 2023<br>Stage Upgrades:<br>Stage 1: NA  
+[[Stage 3]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Decorators<br>Authors: Daniel Ehrenberg, Kristen Hewell Garrett<br>Champions: Kristen Hewell Garrett<br>Last Presented: March 2023<br>Stage Upgrades:<br>Stage 1: NA  
 Stage 2: 2021-04-10  
 Stage 2.7: NA  
 Stage 3: 2022-03-29  

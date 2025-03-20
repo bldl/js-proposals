@@ -1,4 +1,4 @@
-[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: JSON.parse source text access<br>Authors: Richard Gibson<br>Champions: Richard Gibson<br>Last Presented: January 2023<br>Stage Upgrades:<br>Stage 1: 2018-09-28  
+[[Stage 3]]<br>Classification: [[Semantic Change]]<br>Human Validated: KW<br>Title: JSON.parse source text access<br>Authors: Richard Gibson<br>Champions: Richard Gibson<br>Last Presented: January 2023<br>Stage Upgrades:<br>Stage 1: 2018-09-28  
 Stage 2: 2020-07-23  
 Stage 2.7: NA  
 Stage 3: 2022-07-20  

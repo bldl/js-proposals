@@ -1,4 +1,4 @@
-[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Decorator Metadata<br>Authors: Kristen Hewell Garrett<br>Champions: Kristen Hewell Garrett<br>Last Presented: May 2023<br>Stage Upgrades:<br>Stage 1: NA
+[[Stage 3]]<br>Classification: [[Semantic Change]] [[Syntactic Change]]<br>Human Validated: KW<br>Title: Decorator Metadata<br>Authors: Kristen Hewell Garrett<br>Champions: Kristen Hewell Garrett<br>Last Presented: May 2023<br>Stage Upgrades:<br>Stage 1: NA
 Stage 2: 2022-04-10
 Stage 2.7: NA
 Stage 3: 2023-06-13

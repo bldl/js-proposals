@@ -1,4 +1,4 @@
-[[Stage 3]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Source Phase Imports<br>Authors: Luca Casonato<br>Champions: Guy Bedford, Luca Casonato<br>Last Presented: July 2023<br>Stage Upgrades:<br>Stage 1: 2021-12-18  
+[[Stage 3]]<br>Classification: [[Syntactic Change]] [[Semantic Change]] [[API Change]]<br>Human Validated: KW<br>Title: Source Phase Imports<br>Authors: Luca Casonato<br>Champions: Guy Bedford, Luca Casonato<br>Last Presented: July 2023<br>Stage Upgrades:<br>Stage 1: 2021-12-18  
 Stage 2: 2022-07-19  
 Stage 2.7: NA  
 Stage 3: 2023-07-24  

@@ -1,4 +1,4 @@
-[[Stage 3]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Explicit Resource Management<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: March 2023<br>Stage Upgrades:<br>Stage 1: 2018-07-24  
+[[Stage 3]]<br>Classification: [[Syntactic Change]] [[Semantic Change]] [[API Change]]<br>Human Validated: KW<br>Title: Explicit Resource Management<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: March 2023<br>Stage Upgrades:<br>Stage 1: 2018-07-24  
 Stage 2: 2019-07-25  
 Stage 2.7: NA  
 Stage 3: 2023-01-03  
