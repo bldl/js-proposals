@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 2.7/shadowrealm.md",
+                "file": "Proposals/Stage 2/chunking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "shadowrealm"
+              "title": "chunking"
             }
           }
         ]
@@ -183,6 +183,10 @@
   },
   "active": "53f68b5308cc5ebd",
   "lastOpenFiles": [
+    "Proposals/Stage 2/censorship.md",
+    "Proposals/Stage 2/async-iterator-helpers.md",
+    "Proposals/Stage 2/async-context.md",
+    "Proposals/Stage 2.7/shadowrealm.md",
     "Proposals/Stage 2.7/sequencing.md",
     "Proposals/Stage 2.7/math-sum.md",
     "Proposals/Stage 2.7/lazy-import.md",
@@ -205,10 +209,6 @@
     "Proposals/Stage 3/is-error.md",
     "Proposals/Stage 3/from-async.md",
     "Proposals/Stage 3/float16s.md",
-    "Proposals/Stage 3/dynamic-code-brand-checks.md",
-    "Proposals/Stage 3/decorator-metadata.md",
-    "Proposals/Stage 3/atomics-pause.md",
-    "Proposals/Stage 4/async-await.md",
     "Untitled.canvas"
   ]
 }
