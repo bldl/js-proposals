@@ -1,4 +1,4 @@
-[[Stage 2.7]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Joint Iteration<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: June 2024<br>Stage Upgrades:<br>Stage 1: 2023-09-27  
+[[Stage 2.7]]<br>Classification: [[API Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Joint Iteration<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: June 2024<br>Stage Upgrades:<br>Stage 1: 2023-09-27  
 Stage 2: 2024-02-08  
 Stage 2.7: 2024-06-22  
 Stage 3: NA  

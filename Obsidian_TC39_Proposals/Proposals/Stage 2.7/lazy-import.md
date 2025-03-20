@@ -1,4 +1,4 @@
-[[Stage 2.7]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Deferring Module Evaluation<br>Authors: Yulia Startsev, Guy Bedford<br>Champions: Yulia Startsev, Guy Bedford, Nicolò Ribaudo<br>Last Presented: June 2024<br>Stage Upgrades:<br>Stage 1: 2021-01-28  
+[[Stage 2.7]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: No<br>Title: Deferring Module Evaluation<br>Authors: Yulia Startsev, Guy Bedford<br>Champions: Yulia Startsev, Guy Bedford, Nicolò Ribaudo<br>Last Presented: June 2024<br>Stage Upgrades:<br>Stage 1: 2021-01-28  
 Stage 2: 2023-07-18  
 Stage 2.7: 2024-06-12  
 Stage 3: NA  

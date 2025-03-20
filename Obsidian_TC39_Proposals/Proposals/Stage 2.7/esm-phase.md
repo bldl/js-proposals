@@ -1,4 +1,4 @@
-[[Stage 2.7]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: ESM Phase Imports<br>Authors: Luca Casonato, Guy Bedford<br>Champions: Luca Casonato, Guy Bedford<br>Last Presented: December 2024<br>Stage Upgrades:<br>Stage 1: 2024-02-13  
+[[Stage 2.7]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: ESM Phase Imports<br>Authors: Luca Casonato, Guy Bedford<br>Champions: Luca Casonato, Guy Bedford<br>Last Presented: December 2024<br>Stage Upgrades:<br>Stage 1: 2024-02-13  
 Stage 2: 2024-06-18  
 Stage 2.7: 2024-12-05  
 Stage 3: NA  

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 3/uint8array-base64.md",
+                "file": "Proposals/Stage 2.7/shadowrealm.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "uint8array-base64"
+              "title": "shadowrealm"
             }
           }
         ]
@@ -183,6 +183,13 @@
   },
   "active": "53f68b5308cc5ebd",
   "lastOpenFiles": [
+    "Proposals/Stage 2.7/sequencing.md",
+    "Proposals/Stage 2.7/math-sum.md",
+    "Proposals/Stage 2.7/lazy-import.md",
+    "Proposals/Stage 2.7/joint.md",
+    "Proposals/Stage 2.7/immutable-abs.md",
+    "Proposals/Stage 2.7/esm-phase.md",
+    "Proposals/Stage 3/uint8array-base64.md",
     "Proposals/Stage 3/time-zone-canon.md",
     "Proposals/Stage 3/temporal.md",
     "Proposals/Stage 3/source-phase-imports.md",
@@ -202,13 +209,6 @@
     "Proposals/Stage 3/decorator-metadata.md",
     "Proposals/Stage 3/atomics-pause.md",
     "Proposals/Stage 4/async-await.md",
-    "Proposals/Stage 4/arraybuffer-transfer.md",
-    "Proposals/Stage 4/array-includes.md",
-    "Proposals/Stage 4/array-grouping.md",
-    "Proposals/Stage 4/weakrefs.md",
-    "Proposals/Stage 1/oom.md",
-    "Proposals/Stage 1/readonly-collections.md",
-    "Proposals/Stage 1/proposal-compartments.md",
     "Untitled.canvas"
   ]
 }
