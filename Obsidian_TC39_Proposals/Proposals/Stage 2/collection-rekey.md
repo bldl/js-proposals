@@ -1,4 +1,4 @@
-[[Stage 2]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: collection normalization<br>Authors: Bradley Farias<br>Champions: Bradley Farias<br>Last Presented: January 2019<br>Stage Upgrades:<br>Stage 1: NA  
+[[Stage 2]]<br>Classification: [[API Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: collection normalization<br>Authors: Bradley Farias<br>Champions: Bradley Farias<br>Last Presented: January 2019<br>Stage Upgrades:<br>Stage 1: NA  
 Stage 2: 2019-01-30  
 Stage 2.7: NA  
 Stage 3: NA  

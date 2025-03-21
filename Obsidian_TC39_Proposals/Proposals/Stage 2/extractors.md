@@ -1,4 +1,4 @@
-[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Extractors<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2022-09-15  
+[[Stage 2]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Extractors<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2022-09-15  
 Stage 2: 2022-10-09 
 Stage 2.7: NA  
 Stage 3: NA  

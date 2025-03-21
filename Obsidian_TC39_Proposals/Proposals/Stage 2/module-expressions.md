@@ -1,4 +1,4 @@
-[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Module Expressions<br>Authors: Surma, Daniel Ehrenberg, Nicolò Ribaudo<br>Champions: Surma, Nicolò Ribaudo<br>Last Presented: November 2022<br>Stage Upgrades:<br>Stage 1: 2020-12-11  
+[[Stage 2]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Module Expressions<br>Authors: Surma, Daniel Ehrenberg, Nicolò Ribaudo<br>Champions: Surma, Nicolò Ribaudo<br>Last Presented: November 2022<br>Stage Upgrades:<br>Stage 1: 2020-12-11  
 Stage 2: 2021-10-29  
 Stage 2.7: NA  
 Stage 3: NA  

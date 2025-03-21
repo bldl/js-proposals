@@ -1,4 +1,4 @@
-[[Stage 2]]<br>Classification: [[API Change]] <br>Human Validated: KW<br>Title: function.sent metaproperty<br>Authors: Allen Wirfs-Brock<br>Champions: HE Shi-Jun<br>Last Presented: July 2019<br>Stage Upgrades:<br>Stage 1: NA  
+[[Stage 2]]<br>Classification: [[Semantic Change]] [[Syntactic Change]] <br>Human Validated: KW<br>Title: function.sent metaproperty<br>Authors: Allen Wirfs-Brock<br>Champions: HE Shi-Jun<br>Last Presented: July 2019<br>Stage Upgrades:<br>Stage 1: NA  
 Stage 2: 2019-07-24 
 Stage 2.7: NA  
 Stage 3: NA  

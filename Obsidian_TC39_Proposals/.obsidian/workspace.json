@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 2/chunking.md",
+                "file": "Proposals/Stage 2/throw-expressions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "chunking"
+              "title": "throw-expressions"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "security",
+                "query": "tag:#json",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,32 +183,32 @@
   },
   "active": "53f68b5308cc5ebd",
   "lastOpenFiles": [
+    "Proposals/Stage 2/symbol-predicates.md",
+    "Proposals/Stage 2/structs.md",
+    "Proposals/Stage 2/string.dedent.md",
+    "Proposals/Stage 2/scriptormodule.md",
+    "Proposals/Stage 2/regexp-buffer-boundaries.md",
+    "Proposals/Stage 2/record-tuple.md",
+    "index.md",
+    "Proposals/Stage 2/pipeline.md",
+    "Proposals/Stage 2/module-expressions.md",
+    "Proposals/Stage 2/module-declarations.md",
+    "Proposals/Stage 2/json-parse-immutable.md",
+    "Proposals/Stage 2/map-emplace.md",
+    "Proposals/Stage 1/type-annotations.md",
+    "Proposals/Stage 4/object-rest-spread.md",
+    "Proposals/Stage 4/object-values-entries.md",
+    "Proposals/Stage 4/private-methods.md",
+    "Proposals/Stage 2/iterator-range.md",
+    "Proposals/Stage 2/isTemplateObject.md",
+    "Proposals/Stage 2/function-sent.md",
+    "Proposals/Stage 2/extractors.md",
+    "Proposals/Stage 2/discards.md",
+    "Proposals/Stage 2/destructure-private.md",
+    "Proposals/Stage 2/collection-rekey.md",
+    "Proposals/Stage 2/chunking.md",
     "Proposals/Stage 2/censorship.md",
     "Proposals/Stage 2/async-iterator-helpers.md",
-    "Proposals/Stage 2/async-context.md",
-    "Proposals/Stage 2.7/shadowrealm.md",
-    "Proposals/Stage 2.7/sequencing.md",
-    "Proposals/Stage 2.7/math-sum.md",
-    "Proposals/Stage 2.7/lazy-import.md",
-    "Proposals/Stage 2.7/joint.md",
-    "Proposals/Stage 2.7/immutable-abs.md",
-    "Proposals/Stage 2.7/esm-phase.md",
-    "Proposals/Stage 3/uint8array-base64.md",
-    "Proposals/Stage 3/time-zone-canon.md",
-    "Proposals/Stage 3/temporal.md",
-    "Proposals/Stage 3/source-phase-imports.md",
-    "Proposals/Stage 3/resource-management.md",
-    "Proposals/Stage 3/regexp-legacy.md",
-    "Proposals/Stage 3/decorators.md",
-    "Analysis/Classifications/Syntactic Change.md",
-    "Analysis/Classifications/Semantic Change.md",
-    "Analysis/Classifications/API Change.md",
-    "Proposals/Stage 3/redeclarable-global-eval-vars.md",
-    "Proposals/Stage 3/json-parse-source.md",
-    "Proposals/Stage 4/well-formed-stringify.md",
-    "Proposals/Stage 3/is-error.md",
-    "Proposals/Stage 3/from-async.md",
-    "Proposals/Stage 3/float16s.md",
     "Untitled.canvas"
   ]
 }

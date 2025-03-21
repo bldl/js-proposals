@@ -1,8 +1,8 @@
-[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Pipeline Operator<br>Authors: J. S. Choi, James DiGioia, Ron Buckton, Tab Atkins<br>Champions: J. S. Choi, Ron Buckton, Tab Atkins<br>Last Presented: August 2021<br>Stage Upgrades:<br>Stage 1: 2017-12-26  
+[[Stage 2]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Pipeline Operator<br>Authors: J. S. Choi, James DiGioia, Ron Buckton, Tab Atkins<br>Champions: J. S. Choi, Ron Buckton, Tab Atkins<br>Last Presented: August 2021<br>Stage Upgrades:<br>Stage 1: 2017-12-26  
 Stage 2: 2021-08-31  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2023-12-01<br>Keywords: #pipe_operator #topic_reference #consecutive_operations #readability #method_chaining #deep_nesting #placeholder_token #expression_nesting #fluent_interfaces #data_transformation<br>GitHub Link: https://github.com/tc39/proposal-pipeline-operator <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#pipeline-operator-for-stage-2
+	Stage 4: NA<br>Last Commit: 2023-12-01<br>Keywords: #pipe_operator #topic_reference #consecutive_operations #readability #method_chaining #deep_nesting #placeholder_token #expression_nesting #fluent_interfaces #data_transformation<br>GitHub Link: https://github.com/tc39/proposal-pipeline-operator <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#pipeline-operator-for-stage-2
 # Proposal Description:
 # Pipe Operator (`|>`) for JavaScript
 

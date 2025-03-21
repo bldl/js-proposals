@@ -1,4 +1,4 @@
-[[Stage 2]]<br>Classification: [[API Change]] [[Syntactic Change]]<br>Human Validated: KW<br>Title: Record & Tuple<br>Authors: Robin Ricard, Richard Button<br>Champions: Robin Ricard, Richard Button<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2019-10-01  
+[[Stage 2]]<br>Classification: [[API Change]] [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Record & Tuple<br>Authors: Robin Ricard, Richard Button<br>Champions: Robin Ricard, Richard Button<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2019-10-01  
 Stage 2: 2020-07-22  
 Stage 2.7: NA  
 Stage 3: NA  
