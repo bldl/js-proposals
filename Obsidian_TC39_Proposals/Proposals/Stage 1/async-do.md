@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: async do expressions<br>Authors: Kevin Gibbons<br>Champions: Kevin Gibbons<br>Last Presented: January 2021<br>Stage Upgrades:<br>Stage 1: 2021-01-27  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: async do expressions<br>Authors: Kevin Gibbons<br>Champions: Kevin Gibbons<br>Last Presented: January 2021<br>Stage Upgrades:<br>Stage 1: 2021-01-27  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

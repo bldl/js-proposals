@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 2/throw-expressions.md",
+                "file": "Proposals/Stage 1/binary-ast.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "throw-expressions"
+              "title": "binary-ast"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#json",
+                "query": "do",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,6 +183,18 @@
   },
   "active": "53f68b5308cc5ebd",
   "lastOpenFiles": [
+    "Proposals/Stage 1/bigint-math.md",
+    "Proposals/Stage 1/await.ops.md",
+    "Proposals/Stage 1/await-dictionary.md",
+    "Proposals/Stage 1/async-init.md",
+    "Proposals/Stage 1/async-do.md",
+    "Proposals/Stage 1/asset-references.md",
+    "Proposals/Stage 1/array.zip.md",
+    "Proposals/Stage 1/array-unique.md",
+    "Proposals/Stage 1/array-filtering.md",
+    "Proposals/Stage 1/array-equality.md",
+    "Proposals/Stage 1/accessors.md",
+    "Proposals/Stage 2/throw-expressions.md",
     "Proposals/Stage 2/symbol-predicates.md",
     "Proposals/Stage 2/structs.md",
     "Proposals/Stage 2/string.dedent.md",
@@ -197,18 +209,6 @@
     "Proposals/Stage 2/map-emplace.md",
     "Proposals/Stage 1/type-annotations.md",
     "Proposals/Stage 4/object-rest-spread.md",
-    "Proposals/Stage 4/object-values-entries.md",
-    "Proposals/Stage 4/private-methods.md",
-    "Proposals/Stage 2/iterator-range.md",
-    "Proposals/Stage 2/isTemplateObject.md",
-    "Proposals/Stage 2/function-sent.md",
-    "Proposals/Stage 2/extractors.md",
-    "Proposals/Stage 2/discards.md",
-    "Proposals/Stage 2/destructure-private.md",
-    "Proposals/Stage 2/collection-rekey.md",
-    "Proposals/Stage 2/chunking.md",
-    "Proposals/Stage 2/censorship.md",
-    "Proposals/Stage 2/async-iterator-helpers.md",
     "Untitled.canvas"
   ]
 }

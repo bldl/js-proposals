@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: BigInt Math<br>Authors: J.S. Choi<br>Champions: J.S. Choi<br>Last Presented: August 2021<br>Stage Upgrades:<br>Stage 1: 2021-09-03  
+[[Stage 1]]<br>Classification: [[API Change]] [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: BigInt Math<br>Authors: J.S. Choi<br>Champions: J.S. Choi<br>Last Presented: August 2021<br>Stage Upgrades:<br>Stage 1: 2021-09-03  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

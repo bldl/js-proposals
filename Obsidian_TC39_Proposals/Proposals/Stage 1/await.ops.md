@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: await operations<br>Authors: Jack Works<br>Champions: Jack Works, Jordan Harband<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2020-08-25  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: await operations<br>Authors: Jack Works<br>Champions: Jack Works, Jordan Harband<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2020-08-25  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
