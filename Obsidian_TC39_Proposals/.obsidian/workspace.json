@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 1/collection-methods.md",
+                "file": "Proposals/Stage 1/dynamic-modules.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "collection-methods"
+              "title": "dynamic-modules"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "do",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,6 +183,18 @@
   },
   "active": "385b62cfaa2c8712",
   "lastOpenFiles": [
+    "Proposals/Stage 1/double-ended-iterator.md",
+    "Proposals/Stage 1/dynamic-modules.md",
+    "Proposals/Stage 1/do.md",
+    "Proposals/Stage 1/deep-path-properties.md",
+    "Proposals/Stage 1/declarations-in-conditionals.md",
+    "Proposals/Stage 1/decimal.md",
+    "Proposals/Stage 1/debug.md",
+    "Proposals/Stage 1/dataview-uint8c.md",
+    "Proposals/Stage 1/csprng.md",
+    "Proposals/Stage 1/concurrency-control.md",
+    "Proposals/Stage 1/collection-of-from.md",
+    "Proposals/Stage 1/collection-methods.md",
     "Proposals/Stage 1/codepoints.md",
     "Proposals/Stage 1/class-param-decorators.md",
     "Proposals/Stage 1/class-brand-check.md",
@@ -197,18 +209,6 @@
     "Proposals/Stage 1/await.ops.md",
     "Proposals/Stage 1/await-dictionary.md",
     "Proposals/Stage 1/async-init.md",
-    "Proposals/Stage 1/async-do.md",
-    "Proposals/Stage 1/asset-references.md",
-    "Proposals/Stage 1/array.zip.md",
-    "Proposals/Stage 1/array-unique.md",
-    "Proposals/Stage 1/array-filtering.md",
-    "Proposals/Stage 1/array-equality.md",
-    "Proposals/Stage 1/accessors.md",
-    "Proposals/Stage 2/throw-expressions.md",
-    "Proposals/Stage 2/symbol-predicates.md",
-    "Proposals/Stage 2/structs.md",
-    "Proposals/Stage 2/string.dedent.md",
-    "Proposals/Stage 2/scriptormodule.md",
     "Untitled.canvas"
   ]
 }

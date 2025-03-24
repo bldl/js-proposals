@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]] [[API Change]]<br>Human Validated: KW<br>Title: Double-Ended Iterator and Destructuring<br>Authors: HE Shi-Jun<br>Champions: HE Shi-Jun<br>Last Presented: September 2020<br>Stage Upgrades:<br>Stage 1: 2022-01-23  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Double-Ended Iterator and Destructuring<br>Authors: HE Shi-Jun<br>Champions: HE Shi-Jun<br>Last Presented: September 2020<br>Stage Upgrades:<br>Stage 1: 2022-01-23  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

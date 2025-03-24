@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Declarations in Conditionals<br>Authors: Devin Rousso<br>Champions: Devin Rousso<br>Last Presented: October 2019<br>Stage Upgrades:<br>Stage 1: 2019-10-03  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Declarations in Conditionals<br>Authors: Devin Rousso<br>Champions: Devin Rousso<br>Last Presented: October 2019<br>Stage Upgrades:<br>Stage 1: 2019-10-03  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
