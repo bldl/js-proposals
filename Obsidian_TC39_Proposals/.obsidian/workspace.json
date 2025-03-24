@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 1/get-intrinsic.md",
+                "file": "Proposals/Stage 1/mixins.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "get-intrinsic"
+              "title": "mixins"
             }
           }
         ]
@@ -183,6 +183,16 @@
   },
   "active": "886fc497b8b222a7",
   "lastOpenFiles": [
+    "Proposals/Stage 1/memoization.md",
+    "Proposals/Stage 1/matching.md",
+    "Proposals/Stage 1/mass-proxy-revocation.md",
+    "Proposals/Stage 1/locale-extensions.md",
+    "Proposals/Stage 1/limited-array-buffer.md",
+    "Proposals/Stage 1/legacy-reflection.md",
+    "Proposals/Stage 1/iterator-unique.md",
+    "Proposals/Stage 1/import-sync.md",
+    "Proposals/Stage 1/idl.md",
+    "Proposals/Stage 1/get-intrinsic.md",
     "Proposals/Stage 1/func-obj-decs.md",
     "Proposals/Stage 1/from-string.md",
     "Proposals/Stage 1/freeze-seal-syntax.md",
@@ -200,16 +210,6 @@
     "Proposals/Stage 1/deep-path-properties.md",
     "Proposals/Stage 1/declarations-in-conditionals.md",
     "Proposals/Stage 1/decimal.md",
-    "Proposals/Stage 1/debug.md",
-    "Proposals/Stage 1/dataview-uint8c.md",
-    "Proposals/Stage 1/csprng.md",
-    "Proposals/Stage 1/concurrency-control.md",
-    "Proposals/Stage 1/collection-of-from.md",
-    "Proposals/Stage 1/collection-methods.md",
-    "Proposals/Stage 1/codepoints.md",
-    "Proposals/Stage 1/class-param-decorators.md",
-    "Proposals/Stage 1/class-brand-check.md",
-    "Proposals/Stage 1/class-access-expressions.md",
     "Untitled.canvas"
   ]
 }

@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Legacy reflection features for functions in JavaScript<br>Authors: Mark Miller, Claude Pache, Jack Works<br>Champions: Mark Miller, Claude Pache, Jack Works<br>Last Presented: February 2020<br>Stage Upgrades:<br>Stage 1: 2020-02-06  
+[[Stage 1]]<br>Classification: [[API Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Legacy reflection features for functions in JavaScript<br>Authors: Mark Miller, Claude Pache, Jack Works<br>Champions: Mark Miller, Claude Pache, Jack Works<br>Last Presented: February 2020<br>Stage Upgrades:<br>Stage 1: 2020-02-06  
 Stage 2: NA
 Stage 2.7: NA  
 Stage 3: NA  
