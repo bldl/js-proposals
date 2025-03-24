@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "59482595ad279b2f",
+        "id": "1f2af0de435d6518",
         "type": "tabs",
         "children": [
           {
-            "id": "385b62cfaa2c8712",
+            "id": "886fc497b8b222a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 1/dynamic-modules.md",
+                "file": "Proposals/Stage 1/get-intrinsic.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "dynamic-modules"
+              "title": "get-intrinsic"
             }
           }
         ]
@@ -181,10 +181,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "385b62cfaa2c8712",
+  "active": "886fc497b8b222a7",
   "lastOpenFiles": [
-    "Proposals/Stage 1/double-ended-iterator.md",
+    "Proposals/Stage 1/func-obj-decs.md",
+    "Proposals/Stage 1/from-string.md",
+    "Proposals/Stage 1/freeze-seal-syntax.md",
+    "Proposals/Stage 1/freeze-proto.md",
+    "Proposals/Stage 1/faster-promise-adoption.md",
+    "Proposals/Stage 1/extensions.md",
+    "Proposals/Stage 1/export-from.md",
     "Proposals/Stage 1/dynamic-modules.md",
+    "docs/design.md",
+    "docs",
+    "Proposals/Stage 1/eventual-send.md",
+    "Proposals/Stage 1/emitter.md",
+    "Proposals/Stage 1/double-ended-iterator.md",
     "Proposals/Stage 1/do.md",
     "Proposals/Stage 1/deep-path-properties.md",
     "Proposals/Stage 1/declarations-in-conditionals.md",
@@ -199,16 +210,6 @@
     "Proposals/Stage 1/class-param-decorators.md",
     "Proposals/Stage 1/class-brand-check.md",
     "Proposals/Stage 1/class-access-expressions.md",
-    "Proposals/Stage 1/cancel-api.md",
-    "Proposals/Stage 1/call-this.md",
-    "[].md",
-    "Proposals/Stage 1/built-in-modules.md",
-    "Proposals/Stage 1/block-params.md",
-    "Proposals/Stage 1/binary-ast.md",
-    "Proposals/Stage 1/bigint-math.md",
-    "Proposals/Stage 1/await.ops.md",
-    "Proposals/Stage 1/await-dictionary.md",
-    "Proposals/Stage 1/async-init.md",
     "Untitled.canvas"
   ]
 }

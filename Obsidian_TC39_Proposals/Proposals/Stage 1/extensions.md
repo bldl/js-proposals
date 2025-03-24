@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Extensions<br>Authors: HE Shi-Jun<br>Champions: HE Shi-Jun<br>Last Presented: November 2020<br>Stage Upgrades:<br>Stage 1: 2020-12-29  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Extensions<br>Authors: HE Shi-Jun<br>Champions: HE Shi-Jun<br>Last Presented: November 2020<br>Stage Upgrades:<br>Stage 1: 2020-12-29  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
