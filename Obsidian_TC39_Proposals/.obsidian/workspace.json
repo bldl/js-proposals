@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1aeec054075d4f00",
+        "id": "59482595ad279b2f",
         "type": "tabs",
         "children": [
           {
-            "id": "53f68b5308cc5ebd",
+            "id": "385b62cfaa2c8712",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 1/binary-ast.md",
+                "file": "Proposals/Stage 1/collection-methods.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "binary-ast"
+              "title": "collection-methods"
             }
           }
         ]
@@ -181,8 +181,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "53f68b5308cc5ebd",
+  "active": "385b62cfaa2c8712",
   "lastOpenFiles": [
+    "Proposals/Stage 1/codepoints.md",
+    "Proposals/Stage 1/class-param-decorators.md",
+    "Proposals/Stage 1/class-brand-check.md",
+    "Proposals/Stage 1/class-access-expressions.md",
+    "Proposals/Stage 1/cancel-api.md",
+    "Proposals/Stage 1/call-this.md",
+    "[].md",
+    "Proposals/Stage 1/built-in-modules.md",
+    "Proposals/Stage 1/block-params.md",
+    "Proposals/Stage 1/binary-ast.md",
     "Proposals/Stage 1/bigint-math.md",
     "Proposals/Stage 1/await.ops.md",
     "Proposals/Stage 1/await-dictionary.md",
@@ -199,16 +209,6 @@
     "Proposals/Stage 2/structs.md",
     "Proposals/Stage 2/string.dedent.md",
     "Proposals/Stage 2/scriptormodule.md",
-    "Proposals/Stage 2/regexp-buffer-boundaries.md",
-    "Proposals/Stage 2/record-tuple.md",
-    "index.md",
-    "Proposals/Stage 2/pipeline.md",
-    "Proposals/Stage 2/module-expressions.md",
-    "Proposals/Stage 2/module-declarations.md",
-    "Proposals/Stage 2/json-parse-immutable.md",
-    "Proposals/Stage 2/map-emplace.md",
-    "Proposals/Stage 1/type-annotations.md",
-    "Proposals/Stage 4/object-rest-spread.md",
     "Untitled.canvas"
   ]
 }

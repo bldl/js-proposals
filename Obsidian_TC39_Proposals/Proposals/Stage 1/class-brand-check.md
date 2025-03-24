@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Class Brand Checks<br>Authors: HE Shi-Jun<br>Champions: HE Shi-Jun<br>Last Presented: January 2021<br>Stage Upgrades:<br>Stage 1: 2022-01-24  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Class Brand Checks<br>Authors: HE Shi-Jun<br>Champions: HE Shi-Jun<br>Last Presented: January 2021<br>Stage Upgrades:<br>Stage 1: 2022-01-24  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

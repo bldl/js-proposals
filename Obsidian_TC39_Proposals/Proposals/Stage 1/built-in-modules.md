@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]] <br>Human Validated: KW<br>Title: Built In Modules aka JS Standard Library<br>Authors: Michael Saboff, Mattijs Hoitink<br>Champions: Michael Saboff, Mattijs Hoitink, Mark Miller<br>Last Presented: September 2020<br>Stage Upgrades:<br>Stage 1: 2018-09-21  
+[[Stage 1]]<br>Classification: [[API Change]] [[Semantic Change]] [[Syntactic Change]]<br>Human Validated: KW<br>Title: Built In Modules aka JS Standard Library<br>Authors: Michael Saboff, Mattijs Hoitink<br>Champions: Michael Saboff, Mattijs Hoitink, Mark Miller<br>Last Presented: September 2020<br>Stage Upgrades:<br>Stage 1: 2018-09-21  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

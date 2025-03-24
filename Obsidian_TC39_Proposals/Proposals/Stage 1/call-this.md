@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Call-this operator<br>Authors: J.S. Choi<br>Champions: J.S. Choi<br>Last Presented: October 2021<br>Stage Upgrades:<br>Stage 1: 2021-11-11  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Call-this operator<br>Authors: J.S. Choi<br>Champions: J.S. Choi<br>Last Presented: October 2021<br>Stage Upgrades:<br>Stage 1: 2021-11-11  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

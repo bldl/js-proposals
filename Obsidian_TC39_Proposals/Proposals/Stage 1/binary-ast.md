@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]] <br>Human Validated: KW<br>Title: Binary AST<br>Authors: Shu-yu Guo<br>Champions: Shu-yu Guo<br>Last Presented: May 2018<br>Stage Upgrades:<br>Stage 1: 2017-07-13  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]] <br>Human Validated: KW<br>Title: Binary AST<br>Authors: Shu-yu Guo<br>Champions: Shu-yu Guo<br>Last Presented: May 2018<br>Stage Upgrades:<br>Stage 1: 2017-07-13  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
