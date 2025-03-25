@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 1/regexp-r-escape.md",
+                "file": "Proposals/Stage 1/stabilize.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "regexp-r-escape"
+              "title": "stabilize"
             }
           }
         ]
@@ -183,6 +183,16 @@
   },
   "active": "886fc497b8b222a7",
   "lastOpenFiles": [
+    "Proposals/Stage 1/species-extinct.md",
+    "Proposals/Stage 1/slice-notation.md",
+    "Proposals/Stage 1/signals.md",
+    "Proposals/Stage 1/seeded-randoms.md",
+    "Proposals/Stage 1/secure-ecmascript.md",
+    "Proposals/Stage 1/richer-keys.md",
+    "Proposals/Stage 1/reversible-string-split.md",
+    "Proposals/Stage 1/reverse-iteration.md",
+    "Proposals/Stage 1/regexp-x-mode.md",
+    "Proposals/Stage 1/regexp-r-escape.md",
     "Proposals/Stage 1/regexp-atomic-operators.md",
     "Proposals/Stage 1/readonly-collections.md",
     "Proposals/Stage 1/protocols.md",
@@ -199,16 +209,6 @@
     "Proposals/Stage 4/bigint.md",
     "Proposals/Stage 4/atomics.md",
     "Proposals/Stage 4/async-await.md",
-    "Proposals/Stage 4/array-includes.md",
-    "Proposals/Stage 1/oom.md",
-    "Proposals/Stage 1/once.md",
-    "Proposals/Stage 1/observable.md",
-    "Proposals/Stage 1/new.initialize.md",
-    "Proposals/Stage 1/negated-in.md",
-    "Proposals/Stage 1/modulus.md",
-    "Proposals/Stage 1/module-sync-assert.md",
-    "Proposals/Stage 1/module-keys.md",
-    "Proposals/Stage 1/mixins.md",
     "docs",
     "Untitled.canvas"
   ]
