@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Private declarations<br>Authors: Justin Ridgewell<br>Champions: Justin Ridgewell<br>Last Presented: March 2019<br>Stage Upgrades:<br>Stage 1: 2019-04-08  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Private declarations<br>Authors: Justin Ridgewell<br>Champions: Justin Ridgewell<br>Last Presented: March 2019<br>Stage Upgrades:<br>Stage 1: 2019-04-08  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

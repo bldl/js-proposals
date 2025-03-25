@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: No<br>Title: Wavy Dot: Syntactic Support for Promise Pipelining<br>Authors: Mark Miller, Chip Morningstar, Michael Fig<br>Champions: Mark Miller, Chip Morningstar, Michael Fig<br>Last Presented: December 2019<br>Stage Upgrades:<br>Stage 1: 2019-07-12  
+[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Wavy Dot: Syntactic Support for Promise Pipelining<br>Authors: Mark Miller, Chip Morningstar, Michael Fig<br>Champions: Mark Miller, Chip Morningstar, Michael Fig<br>Last Presented: December 2019<br>Stage Upgrades:<br>Stage 1: 2019-07-12  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

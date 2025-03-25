@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: First-class protocols<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: July 2018<br>Stage Upgrades:<br>Stage 1: 2017-09-27  
+[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: KW<br>Title: First-class protocols<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: July 2018<br>Stage Upgrades:<br>Stage 1: 2017-09-27  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Partial application<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: July 2018<br>Stage Upgrades:<br>Stage 1: 2017-11-17  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Partial application<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: July 2018<br>Stage Upgrades:<br>Stage 1: 2017-11-17  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

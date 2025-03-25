@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Compartments<br>Authors: Bradley Farias<br>Champions: Bradley Farias, Mark S. Miller, Caridy Patiño, J.F. Paradis, Patrick Soquet, Kris Kowal<br>Last Presented: March 2020<br>Stage Upgrades:<br>Stage 1: 2020-04-07  
+[[Stage 1]]<br>Classification: [[API Change]] [[Semantic Change]] [[Syntactic Change]]<br>Human Validated: KW<br>Title: Compartments<br>Authors: Bradley Farias<br>Champions: Bradley Farias, Mark S. Miller, Caridy Patiño, J.F. Paradis, Patrick Soquet, Kris Kowal<br>Last Presented: March 2020<br>Stage Upgrades:<br>Stage 1: 2020-04-07  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
