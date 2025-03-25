@@ -1,4 +1,4 @@
-[[Stage 0]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Function bind syntax<br>Authors: Kevin Smith<br>Champions: Brian Terlson, Matthew Podwysocki<br>Last Presented: March 2015<br>Stage Upgrades:<br>Stage 1: NA  
+[[Stage 0]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Function bind syntax<br>Authors: Kevin Smith<br>Champions: Brian Terlson, Matthew Podwysocki<br>Last Presented: March 2015<br>Stage Upgrades:<br>Stage 1: NA  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
