@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Type Annotations<br>Authors: Gil Tayar, Daniel Rosenwasser, Romulo Cintra, Rob Palmer<br>Champions: Daniel Rosenwasser, Romulo Cintra, Rob Palmer<br>Last Presented: March 2022<br>Stage Upgrades:<br>Stage 1: 2022-03-31  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Type Annotations<br>Authors: Gil Tayar, Daniel Rosenwasser, Romulo Cintra, Rob Palmer<br>Champions: Daniel Rosenwasser, Romulo Cintra, Rob Palmer<br>Last Presented: March 2022<br>Stage Upgrades:<br>Stage 1: 2022-03-31  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

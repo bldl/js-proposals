@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: KW<br>Title: Strict Enforcement of 'using'<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2024-04-12  
+[[Stage 1]]<br>Classification: [[Semantic Change]] [[API Change]]<br>Human Validated: KW<br>Title: Strict Enforcement of 'using'<br>Authors: Ron Buckton<br>Champions: Ron Buckton<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2024-04-12  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 1/stabilize.md",
+                "file": "Proposals/Stage 1/virtualize.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "stabilize"
+              "title": "virtualize"
             }
           }
         ]
@@ -183,6 +183,15 @@
   },
   "active": "886fc497b8b222a7",
   "lastOpenFiles": [
+    "Proposals/Stage 1/unordered-async.md",
+    "Proposals/Stage 1/uniform-date-parse.md",
+    "Proposals/Stage 1/type-annotations.md",
+    "Proposals/Stage 1/template-literals.md",
+    "Proposals/Stage 1/string.cooked.md",
+    "Proposals/Stage 1/strict-using.md",
+    "Proposals/Stage 1/stacks.md",
+    "Proposals/Stage 1/stable-format.md",
+    "Proposals/Stage 1/stabilize.md",
     "Proposals/Stage 1/species-extinct.md",
     "Proposals/Stage 1/slice-notation.md",
     "Proposals/Stage 1/signals.md",
@@ -200,15 +209,6 @@
     "Proposals/Stage 1/proposal-compartments.md",
     "Proposals/Stage 1/promise-pipelining.md",
     "Proposals/Stage 1/private-declarations.md",
-    "Proposals/Stage 1/class-access-expressions.md",
-    "Proposals/Stage 2.7/lazy-import.md",
-    "Proposals/Stage 1/policy-maps.md",
-    "Proposals/Stage 1/pick-omit.md",
-    "Proposals/Stage 1/partial-application.md",
-    "Proposals/Stage 1/optional-assign.md",
-    "Proposals/Stage 4/bigint.md",
-    "Proposals/Stage 4/atomics.md",
-    "Proposals/Stage 4/async-await.md",
     "docs",
     "Untitled.canvas"
   ]
