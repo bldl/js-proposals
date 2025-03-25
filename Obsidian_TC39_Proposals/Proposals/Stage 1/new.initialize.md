@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: new.initialize<br>Authors: Daniel Ehrenberg<br>Champions: Daniel Ehrenberg<br>Last Presented: January 2019<br>Stage Upgrades:<br>Stage 1: 2019-01-31  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: new.initialize<br>Authors: Daniel Ehrenberg<br>Champions: Daniel Ehrenberg<br>Last Presented: January 2019<br>Stage Upgrades:<br>Stage 1: 2019-01-31  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

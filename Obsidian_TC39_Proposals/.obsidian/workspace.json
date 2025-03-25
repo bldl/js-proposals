@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 1/mixins.md",
+                "file": "Proposals/Stage 1/partial-application.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "mixins"
+              "title": "partial-application"
             }
           }
         ]
@@ -183,6 +183,17 @@
   },
   "active": "886fc497b8b222a7",
   "lastOpenFiles": [
+    "Proposals/Stage 1/optional-assign.md",
+    "Proposals/Stage 1/oom.md",
+    "Proposals/Stage 1/once.md",
+    "Proposals/Stage 1/observable.md",
+    "Proposals/Stage 1/new.initialize.md",
+    "Proposals/Stage 1/negated-in.md",
+    "Proposals/Stage 1/modulus.md",
+    "Proposals/Stage 4/bigint.md",
+    "Proposals/Stage 1/module-sync-assert.md",
+    "Proposals/Stage 1/module-keys.md",
+    "Proposals/Stage 1/mixins.md",
     "Proposals/Stage 1/memoization.md",
     "Proposals/Stage 1/matching.md",
     "Proposals/Stage 1/mass-proxy-revocation.md",
@@ -198,18 +209,7 @@
     "Proposals/Stage 1/freeze-seal-syntax.md",
     "Proposals/Stage 1/freeze-proto.md",
     "Proposals/Stage 1/faster-promise-adoption.md",
-    "Proposals/Stage 1/extensions.md",
-    "Proposals/Stage 1/export-from.md",
-    "Proposals/Stage 1/dynamic-modules.md",
-    "docs/design.md",
     "docs",
-    "Proposals/Stage 1/eventual-send.md",
-    "Proposals/Stage 1/emitter.md",
-    "Proposals/Stage 1/double-ended-iterator.md",
-    "Proposals/Stage 1/do.md",
-    "Proposals/Stage 1/deep-path-properties.md",
-    "Proposals/Stage 1/declarations-in-conditionals.md",
-    "Proposals/Stage 1/decimal.md",
     "Untitled.canvas"
   ]
 }

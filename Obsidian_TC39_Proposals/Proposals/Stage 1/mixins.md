@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Maximally minimal mixins<br>Authors: Justin Fagnani<br>Champions: Justin Fagnani<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2018-01-26  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Maximally minimal mixins<br>Authors: Justin Fagnani<br>Champions: Justin Fagnani<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2018-01-26  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
