@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Inactive/zones.md",
+                "file": "Analysis/Classifications/API Change.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "zones"
+              "title": "API Change"
             }
           }
         ]
@@ -183,6 +183,23 @@
   },
   "active": "dbaaf3730a3d3a49",
   "lastOpenFiles": [
+    "Proposals/Inactive/blocks.md",
+    "Analysis/Classifications/API Change.md",
+    "Proposals/Inactive/Node/Inactive.md",
+    "Analysis/Classifications/Semantic Change.md",
+    "Analysis/Classifications/Syntactic Change.md",
+    "Proposals/Stage 4/named-groups.md",
+    "Proposals/Stage 4/named-capture-groups.md",
+    "Proposals/Stage 4/matchall.md",
+    "Proposals/Stage 4/hashbang-grammar.md",
+    "Proposals/Stage 4/globalThis.md",
+    "Proposals/Stage 4/escape.md",
+    "Proposals/Stage 4/error-cause.md",
+    "Proposals/Stage 4/dynamic-import.md",
+    "Proposals/Stage 4/exponentiation.md",
+    "Proposals/Stage 4/finally.md",
+    "Proposals/Stage 4/allsettled.md",
+    "Proposals/Inactive/zones.md",
     "Proposals/Inactive/uuid.md",
     "Proposals/Inactive/unused-params.md",
     "Proposals/Inactive/unicode-sequence-properties.md",
@@ -192,23 +209,6 @@
     "Proposals/Inactive/string-at.md",
     "Proposals/Inactive/spaceship.md",
     "Proposals/Inactive/simd.md",
-    "Proposals/Inactive/signbit.md",
-    "Proposals/Inactive/shallow-equal.md",
-    "Proposals/Inactive/refcollection.md",
-    "Proposals/Inactive/re-atomic-groups.md",
-    "Proposals/Inactive/ptc.md",
-    "Proposals/Inactive/pipe-flow.md",
-    "Proposals/Inactive/overloading.md",
-    "Proposals/Inactive/object-iteration.md",
-    "Proposals/Inactive/object-enums.md",
-    "Proposals/Inactive/more-math.md",
-    "Proposals/Inactive/modules-pragma.md",
-    "Proposals/Inactive/module-unambig.md",
-    "Proposals/Inactive/json-tryparse.md",
-    "Proposals/Inactive/icu.md",
-    "Proposals/Inactive/generator-arrow-functions.md",
-    "Proposals/Inactive/function-helpers.md",
-    "Proposals/Inactive/fromimport.md",
     "docs",
     "Untitled.canvas"
   ]

@@ -4,8 +4,8 @@
 ```dataview
 
 TABLE 
-file.tags AS "Stages"
-WHERE contains(file.outlinks, link("API Change")) AND contains(file.tags, "#InactiveTag") 
+file.tags AS "Tags"
+WHERE contains(file.outlinks, link("API Change")) AND contains(file.outlinks, link("Inactive")) 
 
 ```
 
@@ -15,8 +15,8 @@ WHERE contains(file.outlinks, link("API Change")) AND contains(file.tags, "#Inac
 ```dataview
 
 TABLE 
-file.tags AS "Stages"
-WHERE contains(file.outlinks, link("API Change")) AND contains(file.tags, "#Stage0Tag") 
+file.tags AS "Tags"
+WHERE contains(file.outlinks, link("API Change")) AND contains(file.outlinks, link("Stage 0"))
 
 ```
 # Stage 1
@@ -24,8 +24,8 @@ WHERE contains(file.outlinks, link("API Change")) AND contains(file.tags, "#Stag
 ```dataview
 
 TABLE 
-file.tags AS "Stages"
-WHERE contains(file.outlinks, link("API Change")) AND contains(file.tags, "#Stage1Tag") 
+file.tags AS "Tags"
+WHERE contains(file.outlinks, link("API Change")) AND contains(file.outlinks, link("Stage 1"))
 
 ```
 
@@ -34,8 +34,8 @@ WHERE contains(file.outlinks, link("API Change")) AND contains(file.tags, "#Stag
 ```dataview
 
 TABLE 
-file.tags AS "Stages"
-WHERE contains(file.outlinks, link("API Change")) AND contains(file.tags, "#Stage2Tag") 
+file.tags AS "Tags"
+WHERE contains(file.outlinks, link("API Change")) AND contains(file.outlinks, link("Stage 2"))
 
 ```
 
@@ -44,8 +44,8 @@ WHERE contains(file.outlinks, link("API Change")) AND contains(file.tags, "#Stag
 ```dataview
 
 TABLE 
-file.tags AS "Stages"
-WHERE contains(file.outlinks, link("API Change")) AND contains(file.tags, "#Stage_2_7Tag") 
+file.tags AS "Tags"
+WHERE contains(file.outlinks, link("API Change")) AND contains(file.outlinks, link("Stage 2.7"))
 
 ```
 
@@ -54,8 +54,8 @@ WHERE contains(file.outlinks, link("API Change")) AND contains(file.tags, "#Stag
 ```dataview
 
 TABLE 
-file.tags AS "Stages"
-WHERE contains(file.outlinks, link("API Change")) AND contains(file.tags, "#Stage3Tag") 
+file.tags AS "Tags"
+WHERE contains(file.outlinks, link("API Change")) AND contains(file.outlinks, link("Stage 3"))
 
 ```
 
@@ -64,8 +64,8 @@ WHERE contains(file.outlinks, link("API Change")) AND contains(file.tags, "#Stag
 ```dataview
 
 TABLE 
-file.tags AS "Stages"
-WHERE contains(file.outlinks, link("API Change")) AND contains(file.tags, "#Stage4Tag") 
+file.tags AS "Tags"
+WHERE contains(file.outlinks, link("API Change")) AND contains(file.outlinks, link("Stage 4"))
 
 ```
 
