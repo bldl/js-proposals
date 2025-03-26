@@ -1,8 +1,8 @@
-[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Object enumerables<br>Authors: Leo Balter, John-David Dalton<br>Rejected<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: NA
+[[Inactive]]<br>Classification: [[API Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Object enumerables<br>Authors: Leo Balter, John-David Dalton<br>Rejected<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: NA
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2016-04-29<br>Keywords: #object_enumeration #prototype_properties #iteration_utilities #object_keys #object_values #object_entries #for_in_loop #data_serialization #object_prototypes #reflection_api<br>GitHub Link: https://gitvhub.com/leobalter/object-enumerables <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2016-04-29<br>Keywords: #object_enumeration #prototype_properties #iteration_utilities #object_keys #object_values #object_entries #for_in_loop #data_serialization #object_prototypes #reflection_api<br>GitHub Link: https://github.com/leobalter/object-enumerables <br>GitHub Note Link: None
 # Proposal Description:<br>
 # Object.enumerableKeys / Object.enumerableValues / Object.enumerableEntries
 

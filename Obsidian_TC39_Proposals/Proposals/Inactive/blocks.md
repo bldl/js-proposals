@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Blöcks<br>Authors: Domenic Denicola<br>Withdrawn; champion is no longer participating in TC39<br>Last Presented: None<br>Stage Upgrades:
+[[Inactive]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Blöcks<br>Authors: Domenic Denicola<br>Withdrawn; champion is no longer participating in TC39<br>Last Presented: None<br>Stage Upgrades:
 Stage 1: NA  
 Stage 2: NA  
 Stage 2.7: NA  

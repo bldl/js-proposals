@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Callable class constructors<br>Authors: Yehuda Katz, Allen Wirfs-Brock<br>Withdrawn: can be solved with decorators<br>Last Presented: None<br>Stage Upgrades:
+[[Inactive]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Callable class constructors<br>Authors: Yehuda Katz, Allen Wirfs-Brock<br>Withdrawn: can be solved with decorators<br>Last Presented: None<br>Stage Upgrades:
 Stage 1: 2017-10-12
 Stage 2: NA  
 Stage 2.7: NA  

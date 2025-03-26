@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Sequence properties in Unicode property escapes<br>Authors: Mathias Bynens<br>Withdrawn; subsumed by [RegExp v flag with set notation + properties of strings][regexp-v-flag] proposal<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2018-05-22  
+[[Inactive]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Sequence properties in Unicode property escapes<br>Authors: Mathias Bynens<br>Withdrawn; subsumed by [RegExp v flag with set notation + properties of strings][regexp-v-flag] proposal<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2018-05-22  
 Stage 2: 2018-09-27  
 Stage 2.7: NA  
 Stage 3: NA  

@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Cancelable Promises<br>Authors: Domenic Denicola<br>Withdrawn<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2016-06-06  
+[[Inactive]]<br>Classification: [[API Change]] [[Semantic Change]] [[Syntactic Change]]<br>Human Validated: KW<br>Title: Cancelable Promises<br>Authors: Domenic Denicola<br>Withdrawn<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2016-06-06  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

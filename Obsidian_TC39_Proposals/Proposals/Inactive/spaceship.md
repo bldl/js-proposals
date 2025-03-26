@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Generic Comparison<br>Authors: Hemanth HM, Jordan Harband<br>Withdrawn: replaced with [Array Equality][array-equality]<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: NA
+[[Inactive]]<br>Classification: [[API Change]] [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Generic Comparison<br>Authors: Hemanth HM, Jordan Harband<br>Withdrawn: replaced with [Array Equality][array-equality]<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: NA
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

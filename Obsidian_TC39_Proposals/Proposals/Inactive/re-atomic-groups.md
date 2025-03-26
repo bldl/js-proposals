@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[Semantic Change]]<br>Human Validated: KW<br>Title: RegExp Atomic Groups & Possessive Quantifiers<br>Authors: Justin Ridgewell<br>Never presented; engines are not interested in the feature, mainly because it doesn't solve backtracking for most users<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: NA
+[[Inactive]]<br>Classification: [[Semantic Change]] [[Syntactic Change]]<br>Human Validated: KW<br>Title: RegExp Atomic Groups & Possessive Quantifiers<br>Authors: Justin Ridgewell<br>Never presented; engines are not interested in the feature, mainly because it doesn't solve backtracking for most users<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: NA
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

@@ -1,4 +1,4 @@
-[[Inactive]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Extensible numeric literals<br>Authors: Daniel Ehrenberg<br>Withdrawn<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2018-01-29  
+[[Inactive]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Extensible numeric literals<br>Authors: Daniel Ehrenberg<br>Withdrawn<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: 2018-01-29  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
