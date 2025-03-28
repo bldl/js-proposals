@@ -183,6 +183,7 @@
   },
   "active": "dbaaf3730a3d3a49",
   "lastOpenFiles": [
+    "Proposals/Stage 3/math-sum.md",
     "Proposals/Stage 2.7/lazy-import.md",
     "Proposals/Stage 4/well-formed-stringify.md",
     "Proposals/Stage 4/usv-string.md",
@@ -208,7 +209,6 @@
     "Proposals/Inactive/uuid.md",
     "Proposals/Inactive/unused-params.md",
     "Proposals/Inactive/unicode-sequence-properties.md",
-    "Proposals/Inactive/typedarray-stride-parameter.md",
     "docs",
     "Untitled.canvas"
   ]
