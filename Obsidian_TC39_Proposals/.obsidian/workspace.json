@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Classifications/API Change.md",
+                "file": "Proposals/Stage 2.7/joint.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "API Change"
+              "title": "joint"
             }
           }
         ]
@@ -183,8 +183,13 @@
   },
   "active": "dbaaf3730a3d3a49",
   "lastOpenFiles": [
-    "Proposals/Inactive/blocks.md",
+    "Proposals/Stage 2.7/lazy-import.md",
+    "Proposals/Stage 4/well-formed-stringify.md",
+    "Proposals/Stage 4/usv-string.md",
+    "Proposals/Stage 4/weakrefs.md",
+    "Proposals/Stage 4/change-array-by-copy.md",
     "Analysis/Classifications/API Change.md",
+    "Proposals/Inactive/blocks.md",
     "Proposals/Inactive/Node/Inactive.md",
     "Analysis/Classifications/Semantic Change.md",
     "Analysis/Classifications/Syntactic Change.md",
@@ -204,11 +209,6 @@
     "Proposals/Inactive/unused-params.md",
     "Proposals/Inactive/unicode-sequence-properties.md",
     "Proposals/Inactive/typedarray-stride-parameter.md",
-    "Proposals/Inactive/typed-objects-new.md",
-    "Proposals/Inactive/symbol-thenable.md",
-    "Proposals/Inactive/string-at.md",
-    "Proposals/Inactive/spaceship.md",
-    "Proposals/Inactive/simd.md",
     "docs",
     "Untitled.canvas"
   ]
