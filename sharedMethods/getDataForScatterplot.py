@@ -1,7 +1,12 @@
 #########################################################################################################
 #
-# Run this script like this from project root: python sharedMethods/getDataForScatterplot.py "Stage 4"
-#
+# Run this script like this from project root: 
+# 
+# For extracting stages:
+# python sharedMethods/getDataForScatterplot.py stage 4
+# python sharedMethods/getDataForScatterplot.py stage 3
+# python sharedMethods/getDataForScatterplot.py stage Inactive
+# 
 #########################################################################################################
 
 import sys
@@ -9,9 +14,8 @@ import os
 import re
 import csv
 
-stagesAndLastCommit = []
 
-def getStageBumpsAndLastCommit(title, completePath):
+def extractBumpsAndCommit(title, completePath):
     data = []
 
     with open(completePath, "r") as file:
@@ -45,13 +49,16 @@ def getStageBumpsAndLastCommit(title, completePath):
 
     return data
 
+def getStageBumpsAndLastCommit(stage):
 
+    stagesAndLastCommit = []
 
-
-def mainExtractMethod(stage):
     print("Extracting:", stage)
 
-    path = f"Obsidian_TC39_Proposals/Proposals/{stage}/"
+    if stage == "Inactive":
+        path = f"Obsidian_TC39_Proposals/Proposals/{stage}/"
+    else: 
+        path = f"Obsidian_TC39_Proposals/Proposals/Stage {stage}/"
 
     print("Path:", path)
 
@@ -60,22 +67,89 @@ def mainExtractMethod(stage):
     for each in os.listdir(path):
         
         try:
+
             completePath = os.path.join(path, each)
         
             title = each.split(".")[0]
 
             print(title)
 
-            stagesAndLastCommit.append(getStageBumpsAndLastCommit(title, completePath))
+            stagesAndLastCommit.append(extractBumpsAndCommit(title, completePath))
 
         except:
             print("Error with:", completePath)
 
-if __name__ == "__main__":
-    stage = sys.argv[1]
-    mainExtractMethod(stage)
-
-    with open(f"Data Analysis/Scatterplot/{stage}.csv", "w", newline='') as file:
+    with open(f"Data Analysis/CSVFiles/Stage {stage}.csv", "w", newline='') as file:
         writer = csv.writer(file)
         writer.writerows(stagesAndLastCommit)
+
+
+
+
+#########################################################################################################
+#
+# Run this script like this from project root: 
+# 
+# For extracting classifications (in lowercase): 
+# python sharedMethods/getDataForScatterplot.py change api
+# python sharedMethods/getDataForScatterplot.py change semantic
+# python sharedMethods/getDataForScatterplot.py change syntactic
+#
+#########################################################################################################
+
+def extractProposalsWithClassification(keyword):
+
+    classifications = []
+
+    path = "Obsidian_TC39_Proposals/Proposals"
+
+    for stages in os.listdir(path):
+        stagePath = os.path.join(path, stages)
+
+        if os.path.isdir(stagePath):
+            print(f"########################### Extracting from {stages} ###########################")
+            for proposal in os.listdir(stagePath):
+                try:
+                    title = proposal.split(".")[0]
+                    
+                    fullPath = os.path.join(stagePath, proposal)
+
+                    with open(fullPath, "r") as proposal:
+                        content = proposal.read()
+                        if keyword in content:
+                            print(title)
+                
+                except:
+                    print(f"Error with {proposal}")
+    
+
+
+
+
+def getClassifiedChanges(change):
+    print("Extracting:", change)
+
+    if change == "api":
+        keyword = "[[API Change]]"
+        extractProposalsWithClassification(keyword)
+    elif change == "syntactic":
+        keyword = "[[Syntactic Change]]"
+        extractProposalsWithClassification(keyword)
+    elif change == "semantic":
+        keyword = "[[Semantic Change]]"
+        extractProposalsWithClassification(keyword)
+    else:
+        print("Error in getClassificationChanges method")
+        return
+
+if __name__ == "__main__":
+
+    if sys.argv[1] == "stage":
+        stage = sys.argv[2]
+        getStageBumpsAndLastCommit(stage)
+    elif sys.argv[1] == "change":
+        change = sys.argv[2]
+        getClassifiedChanges(change)
+
+    
     
