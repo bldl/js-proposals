@@ -4,3 +4,4 @@ venv
 .digitalgarden
 .Rproj.user
 .Rhistory
+.RData
