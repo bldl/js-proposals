@@ -132,11 +132,42 @@ def extractProposalsWithClassification(keyword):
         writer = csv.writer(file)
         writer.writerows(classifications)
 
+
+def extractStageWithClassification(keyword, stage):
+
+    classifications = []
+
+    cleanKeyword = keyword.strip("[[]]")
+
+    classifications.append(["Title", "Stage 1", "Stage 2", "Stage 2.7", "Stage 3", "Stage 4", "Last Commit", "Classification"])
+
+    if stage == "Inactive":
+        path = f"Obsidian_TC39_Proposals/Proposals/{stage}/"
+    else: 
+        path = f"Obsidian_TC39_Proposals/Proposals/Stage {stage}/"
+
+    print(f"########################### Extracting from {stage} ###########################")
+
+    for proposal in os.listdir(path):
+        try:
+            title = proposal.split(".")[0]
+            
+            fullPath = os.path.join(path, proposal)
+            with open(fullPath, "r") as proposal:
+                content = proposal.read()
+                if keyword in content:
+                    bump = extractBumpsAndCommit(title, fullPath)
+                    bump.append(cleanKeyword)
+                    classifications.append(bump)
+                                         
+        except:
+            print(f"Error with {proposal}")
+                    
+    with open(f"Data Analysis/CSVFiles/Changes/{cleanKeyword} Stage {stage}.csv", "w", newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(classifications)
+
        
-
-
-
-
 def getClassifiedChanges(change):
     print("Extracting:", change)
 
@@ -153,14 +184,35 @@ def getClassifiedChanges(change):
         print("Error in getClassificationChanges method")
         return
 
+
+def getStageSpecificClassifiedChanges(change, stage):
+    print("Extracting:", change)
+
+    if change == "api":
+        keyword = "[[API Change]]"
+        extractStageWithClassification(keyword, stage)
+    elif change == "syntactic":
+        keyword = "[[Syntactic Change]]"
+        extractStageWithClassification(keyword, stage)
+    elif change == "semantic":
+        keyword = "[[Semantic Change]]"
+        extractStageWithClassification(keyword, stage)
+    else:
+        print("Error in getClassificationChanges method")
+        return
+
 if __name__ == "__main__":
 
     if sys.argv[1] == "stage":
         stage = sys.argv[2]
         getStageBumpsAndLastCommit(stage)
+    elif sys.argv[1] == "change" and sys.argv[3] == "stage":
+        change = sys.argv[2]
+        stage = sys.argv[4]
+        getStageSpecificClassifiedChanges(change,stage)
     elif sys.argv[1] == "change":
         change = sys.argv[2]
         getClassifiedChanges(change)
-
+    
     
     

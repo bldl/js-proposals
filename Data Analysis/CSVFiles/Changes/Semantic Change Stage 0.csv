@@ -1,0 +1,9 @@
+Title,Stage 1,Stage 2,Stage 2.7,Stage 3,Stage 4,Last Commit,Classification
+ortho,NA,NA,NA,NA,NA,2017-03-23,Semantic Change
+catch-guard,NA,NA,NA,NA,NA,2022-07-13,Semantic Change
+nested-imports,NA,NA,NA,NA,NA,2016-07-24,Semantic Change
+func-expr-decorators,NA,NA,NA,NA,NA,2016-01-25,Semantic Change
+method-param-decorators,NA,NA,NA,NA,NA,2016-01-25,Semantic Change
+relationships,NA,NA,NA,NA,NA,2013-08-05,Semantic Change
+object-shorthand-improvements,NA,NA,NA,NA,NA,2017-07-25,Semantic Change
+bind-syntax,NA,NA,NA,NA,NA,2018-01-19,Semantic Change

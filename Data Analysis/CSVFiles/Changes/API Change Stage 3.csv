@@ -1,0 +1,13 @@
+Title,Stage 1,Stage 2,Stage 2.7,Stage 3,Stage 4,Last Commit,Classification
+dynamic-code-brand-checks,2019-06-06,NA,NA,2024-04-15,NA,2024-12-05,API Change
+resource-management,2018-07-24,2019-07-25,NA,2023-01-03,NA,2024-06-15,API Change
+uint8array-base64,2023-04-06,2023-05-16,NA,2024-02-21,NA,2024-07-13,API Change
+regexp-legacy,NA,2016-09-29,NA,2017-07-29,NA,2022-11-10,API Change
+temporal,2017-05-03,2018-09-27,NA,2021-03-14,NA,2025-03-01,API Change
+atomics-pause,2024-02-13,NA,2024-06-13,2024-10-18,NA,2024-10-18,API Change
+math-sum,2023-12-24,2024-02-21,2024-04-09,2024-10-27,NA,2024-10-27,API Change
+is-error,2024-04-10,2024-07-09,2024-10-15,2024-12-02,NA,2025-01-09,API Change
+from-async,2021-09-02,2021-12-14,NA,2023-11-01,NA,2023-12-27,API Change
+time-zone-canon,2023-04-01,2023-05-18,NA,2023-07-15,NA,2023-09-26,API Change
+source-phase-imports,2021-12-18,2022-07-19,NA,2023-07-24,NA,2025-02-08,API Change
+float16s,2023-02-18,2023-03-26,NA,2023-05-16,NA,2024-12-05,API Change

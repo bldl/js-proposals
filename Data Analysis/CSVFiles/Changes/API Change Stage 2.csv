@@ -1,0 +1,12 @@
+Title,Stage 1,Stage 2,Stage 2.7,Stage 3,Stage 4,Last Commit,Classification
+iterator-range,2020-04-01,2023-03-22,NA,NA,NA,2025-02-05,API Change
+collection-rekey,NA,2019-01-30,NA,NA,NA,2021-03-09,API Change
+chunking,2023-12-11,2024-10-09,NA,NA,NA,2024-09-23,API Change
+symbol-predicates,2022-07-21,2023-02-01,NA,NA,NA,2023-05-15,API Change
+map-emplace,2019-09-14,2019-11-08,NA,NA,NA,2025-02-05,API Change
+structs,2021-09-01,2024-10-18,NA,NA,NA,2024-12-17,API Change
+record-tuple,2019-10-01,2020-07-22,NA,NA,NA,2023-12-13,API Change
+isTemplateObject,NA,2019-06-05,NA,NA,NA,2024-10-21,API Change
+string,2022-02-01,2022-06-07,NA,NA,NA,2023-09-13,API Change
+async-iterator-helpers,NA,2023-02-04,NA,NA,NA,2024-06-11,API Change
+async-context,2023-02-01,2023-03-23,NA,NA,NA,2025-03-03,API Change

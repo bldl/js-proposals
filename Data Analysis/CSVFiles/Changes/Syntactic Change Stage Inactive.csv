@@ -1,0 +1,17 @@
+Title,Stage 1,Stage 2,Stage 2.7,Stage 3,Stage 4,Last Commit,Classification
+overloading,2020-03-15,NA,NA,NA,NA,2023-12-18,Syntactic Change
+unicode-sequence-properties,2018-05-22,2018-09-27,NA,NA,NA,2022-05-20,Syntactic Change
+module-unambig,NA,NA,NA,NA,NA,2017-04-06,Syntactic Change
+fromimport,NA,NA,NA,NA,NA,2020-04-03,Syntactic Change
+cancel-promise,2016-06-06,NA,NA,NA,NA,2016-12-15,Syntactic Change
+deprecated,NA,NA,NA,NA,NA,2018-08-20,Syntactic Change
+callable-constructors,2017-10-12,NA,NA,NA,NA,None,Syntactic Change
+collection-literals,NA,NA,NA,NA,NA,2018-05-25,Syntactic Change
+ptc,NA,NA,NA,NA,NA,2016-05-07,Syntactic Change
+unused-params,NA,NA,NA,NA,NA,2020-08-12,Syntactic Change
+spaceship,NA,NA,NA,NA,NA,2020-05-29,Syntactic Change
+re-atomic-groups,NA,NA,NA,NA,NA,2020-01-26,Syntactic Change
+generator-arrow-functions,2019-10-21,NA,NA,NA,NA,2020-07-25,Syntactic Change
+modules-pragma,2017-05-16,NA,NA,NA,NA,2022-01-24,Syntactic Change
+extensible-literals,2018-01-29,NA,NA,NA,NA,2020-07-07,Syntactic Change
+blocks,NA,NA,NA,NA,NA,2019-09-26,Syntactic Change

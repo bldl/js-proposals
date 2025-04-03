@@ -1,0 +1,17 @@
+Title,Stage 1,Stage 2,Stage 2.7,Stage 3,Stage 4,Last Commit,Classification
+overloading,2020-03-15,NA,NA,NA,NA,2023-12-18,Semantic Change
+unicode-sequence-properties,2018-05-22,2018-09-27,NA,NA,NA,2022-05-20,Semantic Change
+module-unambig,NA,NA,NA,NA,NA,2017-04-06,Semantic Change
+typedarray-stride-parameter,2020-02-07,NA,NA,NA,NA,2020-03-17,Semantic Change
+cancel-promise,2016-06-06,NA,NA,NA,NA,2016-12-15,Semantic Change
+deprecated,NA,NA,NA,NA,NA,2018-08-20,Semantic Change
+callable-constructors,2017-10-12,NA,NA,NA,NA,None,Semantic Change
+object-enums,NA,NA,NA,NA,NA,2016-04-29,Semantic Change
+ptc,NA,NA,NA,NA,NA,2016-05-07,Semantic Change
+spaceship,NA,NA,NA,NA,NA,2020-05-29,Semantic Change
+re-atomic-groups,NA,NA,NA,NA,NA,2020-01-26,Semantic Change
+date-parse,NA,NA,NA,NA,NA,2016-06-08,Semantic Change
+modules-pragma,2017-05-16,NA,NA,NA,NA,2022-01-24,Semantic Change
+extensible-literals,2018-01-29,NA,NA,NA,NA,2020-07-07,Semantic Change
+dynamic-module-reform,2016-12-14,NA,NA,NA,NA,2017-04-06,Semantic Change
+blocks,NA,NA,NA,NA,NA,2019-09-26,Semantic Change

@@ -1,0 +1,25 @@
+Title,Stage 1,Stage 2,Stage 2.7,Stage 3,Stage 4,Last Commit,Classification
+is-types,NA,NA,NA,NA,NA,2017-08-04,API Change
+buffer-transfer,NA,NA,NA,NA,NA,2018-05-17,API Change
+more-math,2016-07-27,NA,NA,NA,NA,2019-10-21,API Change
+json-tryparse,NA,NA,NA,NA,NA,2024-04-23,API Change
+shallow-equal,NA,NA,NA,NA,NA,2017-10-06,API Change
+cancel-promise,2016-06-06,NA,NA,NA,NA,2016-12-15,API Change
+pipe-flow,NA,NA,NA,NA,NA,2022-08-20,API Change
+uuid,2019-10-03,NA,NA,NA,NA,2021-04-02,API Change
+collection-json,NA,NA,NA,NA,NA,2016-04-01,API Change
+distinguishing-literal-strings,NA,NA,NA,NA,NA,2017-11-17,API Change
+function-helpers,NA,NA,NA,NA,NA,2021-11-11,API Change
+typed-objects-new,NA,NA,NA,NA,NA,2018-11-06,API Change
+symbol-thenable,NA,NA,NA,NA,NA,2018-05-12,API Change
+simd,NA,NA,NA,NA,NA,2018-09-07,API Change
+refcollection,NA,NA,NA,NA,NA,2020-04-01,API Change
+zones,NA,NA,NA,NA,NA,2019-09-26,API Change
+object-enums,NA,NA,NA,NA,NA,2016-04-29,API Change
+object-iteration,2019-10-01,NA,NA,NA,NA,2020-10-30,API Change
+spaceship,NA,NA,NA,NA,NA,2020-05-29,API Change
+construct,NA,NA,NA,NA,NA,2017-06-20,API Change
+cleanup-some,2020-07-06,2020-07-22,NA,NA,NA,2022-01-04,API Change
+string-at,NA,NA,NA,NA,NA,2020-11-19,API Change
+signbit,2017-01-26,NA,NA,NA,NA,2020-02-06,API Change
+arraylast,2018-01-13,NA,NA,NA,NA,2020-07-22,API Change
