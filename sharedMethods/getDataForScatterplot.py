@@ -101,6 +101,10 @@ def extractProposalsWithClassification(keyword):
 
     classifications = []
 
+    cleanKeyword = keyword.strip("[[]]")
+
+    classifications.append(["Title", "Stage 1", "Stage 2", "Stage 2.7", "Stage 3", "Stage 4", "Last Commit", "Classification"])
+
     path = "Obsidian_TC39_Proposals/Proposals"
 
     for stages in os.listdir(path):
@@ -117,11 +121,18 @@ def extractProposalsWithClassification(keyword):
                     with open(fullPath, "r") as proposal:
                         content = proposal.read()
                         if keyword in content:
-                            print(title)
-                
+                            bump = extractBumpsAndCommit(title, fullPath)
+                            bump.append(cleanKeyword)
+                            classifications.append(bump)
+                                                 
                 except:
                     print(f"Error with {proposal}")
-    
+                    
+    with open(f"Data Analysis/CSVFiles/Changes/{cleanKeyword}.csv", "w", newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(classifications)
+
+       
 
 
 
