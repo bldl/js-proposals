@@ -172,7 +172,7 @@ ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))
 # Syntactic changes
 
 #Look at single stage
-#data <- read.csv("../CSVFiles/Changes/Syntactic Change.csv")
+data <- read.csv("../CSVFiles/Changes/Syntactic Change.csv")
 
 # Convert the data into longer format - each stage bump date has its own row
 data_long <- data %>%
@@ -290,3 +290,4 @@ ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))
        y = "Proposal Title",
        color = "Stage") +
   theme_minimal()
+
