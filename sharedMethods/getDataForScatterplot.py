@@ -79,7 +79,7 @@ def getStageBumpsAndLastCommit(stage):
         except:
             print("Error with:", completePath)
 
-    with open(f"Data Analysis/CSVFiles/Stage {stage}.csv", "w", newline='') as file:
+    with open(f"Data Analysis/CSVFiles/CSVStages/Stage {stage}.csv", "w", newline='') as file:
         writer = csv.writer(file)
         writer.writerows(stagesAndLastCommit)
 
@@ -94,6 +94,17 @@ def getStageBumpsAndLastCommit(stage):
 # python sharedMethods/getDataForScatterplot.py change api
 # python sharedMethods/getDataForScatterplot.py change semantic
 # python sharedMethods/getDataForScatterplot.py change syntactic
+#
+# For extracting specific stages with classifications (in lowercase): 
+# python sharedMethods/getDataForScatterplot.py change api stage 4
+# python sharedMethods/getDataForScatterplot.py change semantic stage 4
+# python sharedMethods/getDataForScatterplot.py change syntactic stage 4
+#
+# In order to extract specific stages (separate for example semantic from semanic AND syntactic):
+#
+# python sharedMethods/getDataForScatterplot.py specific-change api
+# python sharedMethods/getDataForScatterplot.py specific-change semantic
+# python sharedMethods/getDataForScatterplot.py specific-change syntactic
 #
 #########################################################################################################
 
@@ -121,6 +132,7 @@ def extractProposalsWithClassification(keyword):
                     with open(fullPath, "r") as proposal:
                         content = proposal.read()
                         if keyword in content:
+                            print(title)
                             bump = extractBumpsAndCommit(title, fullPath)
                             bump.append(cleanKeyword)
                             classifications.append(bump)
@@ -156,6 +168,7 @@ def extractStageWithClassification(keyword, stage):
             with open(fullPath, "r") as proposal:
                 content = proposal.read()
                 if keyword in content:
+                    print(title)
                     bump = extractBumpsAndCommit(title, fullPath)
                     bump.append(cleanKeyword)
                     classifications.append(bump)
@@ -201,22 +214,32 @@ def getStageSpecificClassifiedChanges(change, stage):
         print("Error in getClassificationChanges method")
         return
 
+def getNonCrossoverClassifiedChanges(change, stage):
+    print("Extracting:", change)
+
+
 if __name__ == "__main__":
 
-    if sys.argv[1] == "stage":
-        stage = sys.argv[2]
-        getStageBumpsAndLastCommit(stage)
-    else: 
-        try:     
-            if sys.argv[1] == "change" and sys.argv[3] == "stage":
-                change = sys.argv[2]
-                stage = sys.argv[4]
-                getStageSpecificClassifiedChanges(change,stage)
-           
-        except: 
-            if sys.argv[1] == "change":
+    try:
+        if len(sys.argv) == 3:
+            if sys.argv[1] == "stage":
+                stage = sys.argv[2]
+                getStageBumpsAndLastCommit(stage)
+            elif sys.argv[1] == "change":
                 change = sys.argv[2]
                 getClassifiedChanges(change)
-            print("error in getStageSpecificationChanges")
+
+        elif len(sys.argv) == 5: 
+            if sys.argv[1] == "specific-change" and sys.argv[3] == "stage":
+                change = sys.argv[2]
+                stage = sys.argv[4]
+                getNonCrossoverClassifiedChanges(change, stage)
+            elif sys.argv[1] == "change" and sys.argv[3] == "stage":
+                change = sys.argv[2]
+                stage = sys.argv[4]
+                getStageSpecificClassifiedChanges(change,stage)  
+        
+    except:
+        print("error error error")
     
     
