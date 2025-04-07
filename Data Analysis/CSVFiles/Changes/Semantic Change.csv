@@ -53,13 +53,13 @@ locale-extensions,2023-09-28,NA,NA,NA,NA,2024-02-21,Semantic Change
 asset-references,2018-11-28,NA,NA,NA,NA,2020-09-28,Semantic Change
 mixins,2018-01-26,NA,NA,NA,NA,2019-12-06,Semantic Change
 type-annotations,2022-03-31,NA,NA,NA,NA,2025-02-15,Semantic Change
-await,2020-08-25,NA,NA,NA,NA,2022-11-21,Semantic Change
+await.ops,2020-08-25,NA,NA,NA,NA,2022-11-21,Semantic Change
 regexp-r-escape,2021-12-04,NA,NA,NA,NA,2021-12-04,Semantic Change
 declarations-in-conditionals,2019-10-03,NA,NA,NA,NA,2022-01-24,Semantic Change
 signals,2024-04-11,NA,NA,NA,NA,2025-01-01,Semantic Change
 richer-keys,NA,NA,NA,NA,NA,NA,Semantic Change
 strict-using,2024-04-12,NA,NA,NA,NA,2024-04-12,Semantic Change
-new,2019-01-31,NA,NA,NA,NA,2019-03-03,Semantic Change
+new.initialize,2019-01-31,NA,NA,NA,NA,2019-03-03,Semantic Change
 stabilize,2024-12-05,NA,NA,NA,NA,2025-02-20,Semantic Change
 module-sync-assert,2023-11-29,NA,NA,NA,NA,2024-03-28,Semantic Change
 optional-assign,2023-07-16,NA,NA,NA,NA,2024-01-23,Semantic Change

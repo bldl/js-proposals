@@ -9,7 +9,7 @@ eventual-send,2019-10-05,NA,NA,NA,NA,2022-04-09,API Change
 idl,2018-10-12,NA,NA,NA,NA,2018-10-12,API Change
 memoization,2022-07-22,NA,NA,NA,NA,2022-07-22,API Change
 bigint-math,2021-09-03,NA,NA,NA,NA,2022-07-11,API Change
-string,2021-12-31,NA,NA,NA,NA,2022-07-02,API Change
+string.cooked,2021-12-31,NA,NA,NA,NA,2022-07-02,API Change
 reversible-string-split,2022-01-25,NA,NA,NA,NA,2022-01-26,API Change
 built-in-modules,2018-09-21,NA,NA,NA,NA,2020-09-24,API Change
 proposal-compartments,2020-04-07,NA,NA,NA,NA,2022-12-19,API Change
@@ -36,7 +36,7 @@ await-dictionary,2023-03-23,NA,NA,NA,NA,2023-03-25,API Change
 mass-proxy-revocation,2022-12-01,NA,NA,NA,NA,2022-12-01,API Change
 iterator-unique,2024-02-08,NA,NA,NA,NA,2024-02-08,API Change
 cancel-api,2017-09-13,NA,NA,NA,NA,2017-11-15,API Change
-array,2024-10-09,NA,NA,NA,NA,2024-10-10,API Change
+array.zip,2024-10-09,NA,NA,NA,NA,2024-10-10,API Change
 policy-maps,2022-07-21,NA,NA,NA,NA,2022-08-21,API Change
 debug,2020-09-25,NA,NA,NA,NA,2020-11-17,API Change
 import-sync,2024-12-05,NA,NA,NA,NA,2024-12-05,API Change

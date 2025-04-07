@@ -70,7 +70,7 @@ def getStageBumpsAndLastCommit(stage):
 
             completePath = os.path.join(path, each)
         
-            title = each.split(".")[0]
+            title = each.split(".md")[0]
 
             print(title)
 
@@ -114,7 +114,7 @@ def extractProposalsWithClassification(keyword):
             print(f"########################### Extracting from {stages} ###########################")
             for proposal in os.listdir(stagePath):
                 try:
-                    title = proposal.split(".")[0]
+                    title = proposal.split(".md")[0]
                     
                     fullPath = os.path.join(stagePath, proposal)
 
@@ -150,7 +150,7 @@ def extractStageWithClassification(keyword, stage):
 
     for proposal in os.listdir(path):
         try:
-            title = proposal.split(".")[0]
+            title = proposal.split(".md")[0]
             
             fullPath = os.path.join(path, proposal)
             with open(fullPath, "r") as proposal:
@@ -206,13 +206,17 @@ if __name__ == "__main__":
     if sys.argv[1] == "stage":
         stage = sys.argv[2]
         getStageBumpsAndLastCommit(stage)
-    elif sys.argv[1] == "change" and sys.argv[3] == "stage":
-        change = sys.argv[2]
-        stage = sys.argv[4]
-        getStageSpecificClassifiedChanges(change,stage)
-    elif sys.argv[1] == "change":
-        change = sys.argv[2]
-        getClassifiedChanges(change)
-    
+    else: 
+        try:     
+            if sys.argv[1] == "change" and sys.argv[3] == "stage":
+                change = sys.argv[2]
+                stage = sys.argv[4]
+                getStageSpecificClassifiedChanges(change,stage)
+           
+        except: 
+            if sys.argv[1] == "change":
+                change = sys.argv[2]
+                getClassifiedChanges(change)
+            print("error in getStageSpecificationChanges")
     
     

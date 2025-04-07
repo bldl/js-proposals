@@ -49,12 +49,12 @@ asset-references,2018-11-28,NA,NA,NA,NA,2020-09-28,Syntactic Change
 mixins,2018-01-26,NA,NA,NA,NA,2019-12-06,Syntactic Change
 freeze-seal-syntax,2017-11-30,NA,NA,NA,NA,2018-04-17,Syntactic Change
 type-annotations,2022-03-31,NA,NA,NA,NA,2025-02-15,Syntactic Change
-await,2020-08-25,NA,NA,NA,NA,2022-11-21,Syntactic Change
+await.ops,2020-08-25,NA,NA,NA,NA,2022-11-21,Syntactic Change
 regexp-r-escape,2021-12-04,NA,NA,NA,NA,2021-12-04,Syntactic Change
 declarations-in-conditionals,2019-10-03,NA,NA,NA,NA,2022-01-24,Syntactic Change
 async-init,NA,NA,NA,NA,NA,None,Syntactic Change
 block-params,2017-12-05,NA,NA,NA,NA,2021-02-10,Syntactic Change
-new,2019-01-31,NA,NA,NA,NA,2019-03-03,Syntactic Change
+new.initialize,2019-01-31,NA,NA,NA,NA,2019-03-03,Syntactic Change
 negated-in,2023-10-02,NA,NA,NA,NA,2023-11-10,Syntactic Change
 module-sync-assert,2023-11-29,NA,NA,NA,NA,2024-03-28,Syntactic Change
 optional-assign,2023-07-16,NA,NA,NA,NA,2024-01-23,Syntactic Change

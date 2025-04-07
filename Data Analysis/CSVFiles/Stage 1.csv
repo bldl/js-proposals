@@ -16,7 +16,7 @@ idl,2018-10-12,NA,NA,NA,NA,2018-10-12
 slice-notation,2018-03-24,NA,NA,NA,NA,2022-07-07
 memoization,2022-07-22,NA,NA,NA,NA,2022-07-22
 bigint-math,2021-09-03,NA,NA,NA,NA,2022-07-11
-string,2021-12-31,NA,NA,NA,NA,2022-07-02
+string.cooked,2021-12-31,NA,NA,NA,NA,2022-07-02
 protocols,2017-09-27,NA,NA,NA,NA,2022-11-28
 reversible-string-split,2022-01-25,NA,NA,NA,NA,2022-01-26
 regexp-atomic-operators,2022-06-08,NA,NA,NA,NA,2022-06-08
@@ -31,7 +31,7 @@ asset-references,2018-11-28,NA,NA,NA,NA,2020-09-28
 mixins,2018-01-26,NA,NA,NA,NA,2019-12-06
 freeze-seal-syntax,2017-11-30,NA,NA,NA,NA,2018-04-17
 type-annotations,2022-03-31,NA,NA,NA,NA,2025-02-15
-await,2020-08-25,NA,NA,NA,NA,2022-11-21
+await.ops,2020-08-25,NA,NA,NA,NA,2022-11-21
 dynamic-modules,2018-07-25,NA,NA,NA,NA,2018-12-20
 freeze-proto,2019-01-31,NA,NA,NA,NA,2019-01-31
 stable-format,2023-09-28,NA,NA,NA,NA,2025-02-19
@@ -46,7 +46,7 @@ reverse-iteration,2019-07-24,NA,NA,NA,NA,2019-07-24
 unordered-async,2024-08-08,NA,NA,NA,NA,2024-08-08
 async-init,NA,NA,NA,NA,NA,None
 block-params,2017-12-05,NA,NA,NA,NA,2021-02-10
-new,2019-01-31,NA,NA,NA,NA,2019-03-03
+new.initialize,2019-01-31,NA,NA,NA,NA,2019-03-03
 stabilize,2024-12-05,NA,NA,NA,NA,2025-02-20
 negated-in,2023-10-02,NA,NA,NA,NA,2023-11-10
 module-sync-assert,2023-11-29,NA,NA,NA,NA,2024-03-28
@@ -65,7 +65,7 @@ private-declarations,2019-04-08,NA,NA,NA,NA,2020-01-21
 mass-proxy-revocation,2022-12-01,NA,NA,NA,NA,2022-12-01
 iterator-unique,2024-02-08,NA,NA,NA,NA,2024-02-08
 cancel-api,2017-09-13,NA,NA,NA,NA,2017-11-15
-array,2024-10-09,NA,NA,NA,NA,2024-10-10
+array.zip,2024-10-09,NA,NA,NA,NA,2024-10-10
 oom,2019-10-05,NA,NA,NA,NA,2022-10-13
 policy-maps,2022-07-21,NA,NA,NA,NA,2022-08-21
 accessors,2021-08-11,NA,NA,NA,NA,2022-05-25
