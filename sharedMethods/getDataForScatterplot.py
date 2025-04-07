@@ -76,8 +76,8 @@ def getStageBumpsAndLastCommit(stage):
 
             stagesAndLastCommit.append(extractBumpsAndCommit(title, completePath))
 
-        except:
-            print("Error with:", completePath)
+        except Exception as e:
+            print("Error with: {completePath} - {e}")
 
     with open(f"Data Analysis/CSVFiles/CSVStages/Stage {stage}.csv", "w", newline='') as file:
         writer = csv.writer(file)
@@ -137,8 +137,8 @@ def extractProposalsWithClassification(keyword):
                             bump.append(cleanKeyword)
                             classifications.append(bump)
                                                  
-                except:
-                    print(f"Error with {proposal}")
+                except Exception as e:
+                    print("Error with: {completePath} - {e}")
                     
     with open(f"Data Analysis/CSVFiles/CSVChanges/{cleanKeyword}.csv", "w", newline='') as file:
         writer = csv.writer(file)
@@ -180,10 +180,10 @@ def extractStageWithClassification(keyword, stage):
         writer = csv.writer(file)
         writer.writerows(classifications)
 
-def extractStageWithNonCrossoverClassification(keyword, stage):
+def getNonCrossoverClassifiedChanges(stage):
     classifications = []
 
-    cleanKeyword = keyword.strip("[[]]")
+    classificationKeywords = set()
 
     classifications.append(["Title", "Stage 1", "Stage 2", "Stage 2.7", "Stage 3", "Stage 4", "Last Commit", "Classification"])
 
@@ -192,27 +192,38 @@ def extractStageWithNonCrossoverClassification(keyword, stage):
     else: 
         path = f"Obsidian_TC39_Proposals/Proposals/Stage {stage}/"
 
+    for stages in os.listdir(path):
+        stagePath = os.path.join(path, stages)    
+
     print(f"########################### Extracting from {stage} ###########################")
 
-    for proposal in os.listdir(path):
-        try:
-            title = proposal.split(".md")[0]
-            
-            fullPath = os.path.join(path, proposal)
-            with open(fullPath, "r") as proposal:
-                content = proposal.read()
-                if keyword in content:
-                    print(title)
-                    #bump = extractBumpsAndCommit(title, fullPath)
-                    #bump.append(cleanKeyword)
-                    #classifications.append(bump)
-                                         
-        except:
-            print(f"Error with {proposal}")
-                    
-    #with open(f"Data Analysis/CSVFiles/SpecificChanges/{cleanKeyword} Stage {stage}.csv", "w", newline='') as file:
-    #    writer = csv.writer(file)
-    #    writer.writerows(classifications)
+    for stages in os.listdir(path):
+        stagePath = os.path.join(path, stages)
+
+        if os.path.isdir(stagePath):
+            print(f"########################### Extracting from {stages} ###########################")
+            for proposal in os.listdir(stagePath):
+          
+                title = proposal.split(".md")[0]
+                print(title)
+                fullPath = os.path.join(stagePath, proposal)
+                with open(fullPath, "r") as proposal:
+                    content = proposal.read()
+                if "[[API Change]]" in content:
+                    classificationKeywords.add("API Change")
+                if "[[Syntactic Change]]" in content:
+                    classificationKeywords.add("Syntactic Change")
+                if "[[Semantic Change]]" in content:
+                    classificationKeywords.add("Semantiac Change")
+                bump = extractBumpsAndCommit(title, fullPath)
+                classifications.append(bump)
+
+
+        print(classifications)
+
+        #with open(f"Data Analysis/CSVFiles/SpecificChanges/{cleanKeyword} Stage {stage}.csv", "w", newline='') as file:
+        #    writer = csv.writer(file)
+        #    writer.writerows(classifications)
 
        
 def getClassifiedChanges(change):
@@ -248,22 +259,7 @@ def getStageSpecificClassifiedChanges(change, stage):
         print("Error in getClassificationChanges method")
         return
 
-def getNonCrossoverClassifiedChanges(change, stage):
-    print("Extracting:", change)
 
-    if change == "api":
-        keyword = "[[API Change]]"
-        extractStageWithNonCrossoverClassification(keyword, stage)
-    elif change == "syntactic":
-        keyword = "[[Syntactic Change]]"
-        extractStageWithNonCrossoverClassification(keyword, stage)
-    elif change == "semantic":
-        keyword = "[[Semantic Change]]"
-        extractStageWithNonCrossoverClassification(keyword, stage)
-        
-    else:
-        print("Error in getClassificationChanges method")
-        return
 
     
 
@@ -277,12 +273,12 @@ if __name__ == "__main__":
         elif sys.argv[1] == "change":
             change = sys.argv[2]
             getClassifiedChanges(change)
+    elif len(sys.argv) == 4: 
+        if sys.argv[1] == "noncrossover" and sys.argv[2] == "stage":
+            stage = sys.argv[3]
+            getNonCrossoverClassifiedChanges(stage)
     elif len(sys.argv) == 5: 
-        if sys.argv[1] == "specific-change" and sys.argv[3] == "stage":
-            change = sys.argv[2]
-            stage = sys.argv[4]
-            getNonCrossoverClassifiedChanges(change, stage)
-        elif sys.argv[1] == "change" and sys.argv[3] == "stage":
+        if sys.argv[1] == "change" and sys.argv[3] == "stage":
             change = sys.argv[2]
             stage = sys.argv[4]
             getStageSpecificClassifiedChanges(change,stage)  
