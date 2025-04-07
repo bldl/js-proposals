@@ -337,12 +337,18 @@ title_durations <- data_long %>%
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
-average_duration <- data_long %>%
+average_duration_api_stage4 <- data_long %>%
   group_by(Title) %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(AverageDuration = mean(Duration, na.rm=TRUE))
 
-print(average_duration)
+sd_api_stage4 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api = sd(Duration, na.rm=TRUE))
+
+print(average_duration_api_stage4)
+print(sd_api_stage4)
 
 
 # Plot
@@ -399,12 +405,18 @@ title_durations <- data_long %>%
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
-average_duration <- data_long %>%
+average_duration_semantic_stage4 <- data_long %>%
   group_by(Title) %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(AverageDuration = mean(Duration, na.rm=TRUE))
 
-print(average_duration)
+sd_semantic_stage4 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_Semantic = sd(Duration, na.rm=TRUE))
+
+print(average_duration_semantic_stage4)
+print(sd_semantic_stage4)
 
 
 # Plot
@@ -460,12 +472,18 @@ title_durations <- data_long %>%
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
-average_duration <- data_long %>%
+average_duration_syntactic_stage4 <- data_long %>%
   group_by(Title) %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(AverageDuration = mean(Duration, na.rm=TRUE))
 
-print(average_duration)
+sd_syntactic_stage4 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_Syntactic = sd(Duration, na.rm=TRUE))
+
+print(average_duration_syntactic_stage4)
+print(sd_syntactic_stage4)
 
 
 # Plot
@@ -542,6 +560,25 @@ ggplot(data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
   scale_fill_brewer(palette=4) +
   coord_polar(theta="y") +
   xlim(c(1, 4)) +
-  theme_void() +
+  theme_void() +s
   theme(legend.position = "none")
 
+# change duration plot
+
+# Create data
+data <- data.frame(
+  name=c("API Change", "Syntactic Change", "Semantic Change") ,  
+  value=as.numeric(c(average_duration_api_stage4, average_duration_syntactic_stage4, average_duration_semantic_stage4)),
+  sd=as.numeric(c(sd_api_stage4, sd_syntactic_stage4, sd_semantic_stage4)
+))
+
+# Barplot
+ggplot(data, aes(x=name, y=value, fill = name)) + 
+  geom_bar(stat = "identity", width=0.2) + 
+  geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
+  geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
+  scale_fill_brewer(palette = "Set1") + 
+  labs(x = "Change Type Duration", y = "Time in Months", title = "Stage duration with SD") +
+  theme(legend.position="none")
+
+  
