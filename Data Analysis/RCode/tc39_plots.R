@@ -4,6 +4,7 @@ library(reshape2)
 library(tidyverse)
 library(lubridate)
 library(readr)
+library(ggrepel)
 
 #Look at single stage
 #data <- read.csv("../CSVFiles/Stage Inactive.csv")
@@ -582,3 +583,110 @@ ggplot(data, aes(x=name, y=value, fill = name)) +
   theme(legend.position="none")
 
   
+#Donut plot for specific classifications stage 4
+
+# Create Data
+data <- data.frame(
+  category=c("API", "API+Sem", "API+Syn", "API+Syn+Sem", "Sem", "Syn", "Syn+Sem"),
+  count=c(nrow(api_Specific_Stage_4), nrow(api_sem_Specific_Stage_4), nrow(api_syn_Specific_Stage_4), nrow(api_syn_sem_Specific_Stage_4), nrow(sem_Specific_Stage_4), nrow(syn_Specific_Stage_4), nrow(syn_sem_Specific_Stage_4))
+)
+
+# Compute percentages
+data$fraction <- data$count / sum(data$count)
+
+# Compute the cumulative percentages (top of each rectangle)
+data$ymax <- cumsum(data$fraction)
+
+# Place the count per category in the legend
+data$category <- paste0(data$category, " (", data$count, ")")
+
+# Compute the bottom of each rectangle
+data$ymin <- c(0, head(data$ymax, n=-1))
+
+# Compute label position
+data$labelPosition <- (data$ymax + data$ymin) / 2
+
+# Compute a good label
+data$label <- paste0(data$category, "\n value: ", data$count)
+
+# Make the plot
+ggplot(data = data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
+  geom_rect() +
+  scale_fill_brewer(palette="Pastel1") +
+  coord_polar(theta="y") +
+  xlim(c(1, 4)) +
+  theme_void() +
+  theme(legend.position = "right") + 
+  labs(title = ("Specific Classification Distribution at Stage 4"))
+
+#Donut plot for specific classifications stage 3
+
+# Create Data
+data <- data.frame(
+  category=c("API", "API+Sem", "API+Syn", "API+Syn+Sem", "Sem", "Syn", "Syn+Sem"),
+  count=c(nrow(api_Specific_Stage_3), nrow(api_sem_Specific_Stage_3), nrow(api_syn_Specific_Stage_3), nrow(api_syn_sem_Specific_Stage_3), nrow(sem_Specific_Stage_3), nrow(syn_Specific_Stage_3), nrow(syn_sem_Specific_Stage_3))
+)
+
+# Compute percentages
+data$fraction <- data$count / sum(data$count)
+
+# Compute the cumulative percentages (top of each rectangle)
+data$ymax <- cumsum(data$fraction)
+
+# Place the count per category in the legend
+data$category <- paste0(data$category, " (", data$count, ")")
+
+# Compute the bottom of each rectangle
+data$ymin <- c(0, head(data$ymax, n=-1))
+
+# Compute label position
+data$labelPosition <- (data$ymax + data$ymin) / 2
+
+# Compute a good label
+data$label <- paste0(data$category, "\n value: ", data$count)
+
+# Make the plot
+ggplot(data = data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
+  geom_rect() +
+  scale_fill_brewer(palette="Pastel1") +
+  coord_polar(theta="y") +
+  xlim(c(1, 4)) +
+  theme_void() +
+  theme(legend.position = "right") + 
+  labs(title = ("Specific Classification Distribution at Stage 3"))
+
+#Donut plot for specific classifications stage 2.7
+
+# Create Data
+data <- data.frame(
+  category=c("API", "API+Sem", "API+Syn", "API+Syn+Sem", "Sem", "Syn", "Syn+Sem"),
+  count=c(nrow(api_Specific_Stage_3), nrow(api_sem_Specific_Stage_3), nrow(api_syn_Specific_Stage_3), nrow(api_syn_sem_Specific_Stage_3), nrow(sem_Specific_Stage_3), nrow(syn_Specific_Stage_3), nrow(syn_sem_Specific_Stage_3))
+)
+
+# Compute percentages
+data$fraction <- data$count / sum(data$count)
+
+# Compute the cumulative percentages (top of each rectangle)
+data$ymax <- cumsum(data$fraction)
+
+# Place the count per category in the legend
+data$category <- paste0(data$category, " (", data$count, ")")
+
+# Compute the bottom of each rectangle
+data$ymin <- c(0, head(data$ymax, n=-1))
+
+# Compute label position
+data$labelPosition <- (data$ymax + data$ymin) / 2
+
+# Compute a good label
+data$label <- paste0(data$category, "\n value: ", data$count)
+
+# Make the plot
+ggplot(data = data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
+  geom_rect() +
+  scale_fill_brewer(palette="Pastel1") +
+  coord_polar(theta="y") +
+  xlim(c(1, 4)) +
+  theme_void() +
+  theme(legend.position = "right") + 
+  labs(title = ("Specific Classification Distribution at Stage 2.7"))
