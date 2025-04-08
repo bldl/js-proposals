@@ -1,0 +1,26 @@
+Title,Stage 1,Stage 2,Stage 2.7,Stage 3,Stage 4,Last Commit,Classification
+regexp-x-mode,2021-10-28,NA,NA,NA,NA,2021-10-28
+call-this,2021-11-11,NA,NA,NA,NA,2023-05-05
+export-from,2016-03-29,NA,NA,NA,NA,2021-10-15
+matching,2018-05-25,NA,NA,NA,NA,2024-09-27
+do,2017-09-13,NA,NA,NA,NA,2021-03-03
+regexp-atomic-operators,2022-06-08,NA,NA,NA,NA,2022-06-08
+class-param-decorators,2023-04-27,NA,NA,NA,NA,2025-01-28
+asset-references,2018-11-28,NA,NA,NA,NA,2020-09-28
+mixins,2018-01-26,NA,NA,NA,NA,2019-12-06
+type-annotations,2022-03-31,NA,NA,NA,NA,2025-02-15
+await.ops,2020-08-25,NA,NA,NA,NA,2022-11-21
+regexp-r-escape,2021-12-04,NA,NA,NA,NA,2021-12-04
+declarations-in-conditionals,2019-10-03,NA,NA,NA,NA,2022-01-24
+new.initialize,2019-01-31,NA,NA,NA,NA,2019-03-03
+module-sync-assert,2023-11-29,NA,NA,NA,NA,2024-03-28
+optional-assign,2023-07-16,NA,NA,NA,NA,2024-01-23
+class-brand-check,2022-01-24,NA,NA,NA,NA,2022-01-25
+private-declarations,2019-04-08,NA,NA,NA,NA,2020-01-21
+accessors,2021-08-11,NA,NA,NA,NA,2022-05-25
+class-access-expressions,2018-07-11,NA,NA,NA,NA,2020-09-09
+extensions,2020-12-29,NA,NA,NA,NA,2023-01-18
+async-do,2021-01-27,NA,NA,NA,NA,2021-02-03
+binary-ast,2017-07-13,NA,NA,NA,NA,2019-01-16
+partial-application,2017-11-17,NA,NA,NA,NA,2021-10-19
+func-obj-decs,2024-02-08,NA,NA,NA,NA,2024-01-25

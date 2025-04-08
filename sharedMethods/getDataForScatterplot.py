@@ -77,7 +77,7 @@ def getStageBumpsAndLastCommit(stage):
             stagesAndLastCommit.append(extractBumpsAndCommit(title, completePath))
 
         except Exception as e:
-            print("Error with: {completePath} - {e}")
+            print(f"Error with: {fullPath} - {e}")
 
     with open(f"Data Analysis/CSVFiles/CSVStages/Stage {stage}.csv", "w", newline='') as file:
         writer = csv.writer(file)
@@ -138,7 +138,7 @@ def extractProposalsWithClassification(keyword):
                             classifications.append(bump)
                                                  
                 except Exception as e:
-                    print("Error with: {completePath} - {e}")
+                    print(f"Error with: {fullPath} - {e}")
                     
     with open(f"Data Analysis/CSVFiles/CSVChanges/{cleanKeyword}.csv", "w", newline='') as file:
         writer = csv.writer(file)
@@ -174,57 +174,111 @@ def extractStageWithClassification(keyword, stage):
                     classifications.append(bump)
                                          
         except:
-            print(f"Error with {proposal}")
+            print(f"Error with: {fullPath} - {e}")
                     
     with open(f"Data Analysis/CSVFiles/CSVChanges/{cleanKeyword} Stage {stage}.csv", "w", newline='') as file:
         writer = csv.writer(file)
         writer.writerows(classifications)
 
 def getNonCrossoverClassifiedChanges(stage):
-    classifications = []
+    api_syn_sem = []
+    api_syn = []
+    api_sem = []
+    syn_sem = []
+    syn = []
+    sem = []
+    api = []
 
     classificationKeywords = set()
 
-    classifications.append(["Title", "Stage 1", "Stage 2", "Stage 2.7", "Stage 3", "Stage 4", "Last Commit", "Classification"])
+    api_syn_sem.append(["Title", "Stage 1", "Stage 2", "Stage 2.7", "Stage 3", "Stage 4", "Last Commit", "Classification"])
+    api_syn.append(["Title", "Stage 1", "Stage 2", "Stage 2.7", "Stage 3", "Stage 4", "Last Commit", "Classification"])
+    api_sem.append(["Title", "Stage 1", "Stage 2", "Stage 2.7", "Stage 3", "Stage 4", "Last Commit", "Classification"])
+    syn_sem.append(["Title", "Stage 1", "Stage 2", "Stage 2.7", "Stage 3", "Stage 4", "Last Commit", "Classification"])
+    syn.append(["Title", "Stage 1", "Stage 2", "Stage 2.7", "Stage 3", "Stage 4", "Last Commit", "Classification"])
+    sem.append(["Title", "Stage 1", "Stage 2", "Stage 2.7", "Stage 3", "Stage 4", "Last Commit", "Classification"])
+    api.append(["Title", "Stage 1", "Stage 2", "Stage 2.7", "Stage 3", "Stage 4", "Last Commit", "Classification"])
 
     if stage == "Inactive":
         path = f"Obsidian_TC39_Proposals/Proposals/{stage}/"
     else: 
         path = f"Obsidian_TC39_Proposals/Proposals/Stage {stage}/"
 
-    for stages in os.listdir(path):
-        stagePath = os.path.join(path, stages)    
-
-    print(f"########################### Extracting from {stage} ###########################")
-
-    for stages in os.listdir(path):
-        stagePath = os.path.join(path, stages)
-
-        if os.path.isdir(stagePath):
-            print(f"########################### Extracting from {stages} ###########################")
-            for proposal in os.listdir(stagePath):
-          
+    if os.path.isdir(path):
+        print(f"########################### Extracting from {stage} ###########################")
+        for proposal in os.listdir(path):
+            try:
                 title = proposal.split(".md")[0]
-                print(title)
-                fullPath = os.path.join(stagePath, proposal)
+                
+                fullPath = os.path.join(path, proposal)
                 with open(fullPath, "r") as proposal:
                     content = proposal.read()
-                if "[[API Change]]" in content:
-                    classificationKeywords.add("API Change")
-                if "[[Syntactic Change]]" in content:
-                    classificationKeywords.add("Syntactic Change")
-                if "[[Semantic Change]]" in content:
-                    classificationKeywords.add("Semantiac Change")
-                bump = extractBumpsAndCommit(title, fullPath)
-                classifications.append(bump)
+                    if "[[API Change]]" in content and "[[Syntactic Change]]" in content and "[[Semantic Change]]" in content:
+                        print(title)
+                        bump = extractBumpsAndCommit(title, fullPath)
+                        api_syn_sem.append(bump)
+
+                    if "[[API Change]]" in content and "[[Syntactic Change]]" in content and "[[Semantic Change]]" not in content:
+                        print(title)
+                        bump = extractBumpsAndCommit(title, fullPath)
+                        api_syn.append(bump)
+
+                    if "[[API Change]]" in content and "[[Semantic Change]]" in content and "[[Syntactic Change]]" not in content:
+                        print(title)
+                        bump = extractBumpsAndCommit(title, fullPath)
+                        api_sem.append(bump)
+
+                    if "[[Syntactic Change]]" in content and "[[Semantic Change]]" in content and "[[API Change]]" not in content:
+                        print(title)
+                        bump = extractBumpsAndCommit(title, fullPath)
+                        syn_sem.append(bump)
+
+                    if "[[Syntactic Change]]" in content and "[[Semantic Change]]" not in content and "[[API Change]]" not in content:
+                        print(title)
+                        bump = extractBumpsAndCommit(title, fullPath)
+                        syn.append(bump)
+
+                    if "[[Semantic Change]]" in content and "[[Syntactic Change]]" not in content and "[[API Change]]" not in content:
+                        print(title)
+                        bump = extractBumpsAndCommit(title, fullPath)
+                        sem.append(bump)
+
+                    if "[[API Change]]" in content and "[[Semantic Change]]" not in content and "[[Syntactic Change]]" not in content:
+                        print(title)
+                        bump = extractBumpsAndCommit(title, fullPath)
+                        api.append(bump)
+
+            except Exception as e:
+                print(f"Error with: {fullPath} - {e}")
 
 
-        print(classifications)
+    with open(f"Data Analysis/CSVFiles/SpecificChanges/Stage {stage}/api_syn_sem Specific Stage {stage}.csv", "w", newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(api_syn_sem)
+    
+    with open(f"Data Analysis/CSVFiles/SpecificChanges/Stage {stage}/api_syn Specific Stage {stage}.csv", "w", newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(api_syn)
 
-        #with open(f"Data Analysis/CSVFiles/SpecificChanges/{cleanKeyword} Stage {stage}.csv", "w", newline='') as file:
-        #    writer = csv.writer(file)
-        #    writer.writerows(classifications)
+    with open(f"Data Analysis/CSVFiles/SpecificChanges/Stage {stage}/api_sem Specific Stage {stage}.csv", "w", newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(api_sem)
 
+    with open(f"Data Analysis/CSVFiles/SpecificChanges/Stage {stage}/syn_sem Specific Stage {stage}.csv", "w", newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(syn_sem)
+
+    with open(f"Data Analysis/CSVFiles/SpecificChanges/Stage {stage}/syn Specific Stage {stage}.csv", "w", newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(syn)
+
+    with open(f"Data Analysis/CSVFiles/SpecificChanges/Stage {stage}/sem Specific Stage {stage}.csv", "w", newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(sem)
+
+    with open(f"Data Analysis/CSVFiles/SpecificChanges/Stage {stage}/api Specific Stage {stage}.csv", "w", newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(api)
        
 def getClassifiedChanges(change):
     print("Extracting:", change)
