@@ -660,7 +660,43 @@ ggplot(data = data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
 # Create Data
 data <- data.frame(
   category=c("API", "API+Sem", "API+Syn", "API+Syn+Sem", "Sem", "Syn", "Syn+Sem"),
-  count=c(nrow(api_Specific_Stage_3), nrow(api_sem_Specific_Stage_3), nrow(api_syn_Specific_Stage_3), nrow(api_syn_sem_Specific_Stage_3), nrow(sem_Specific_Stage_3), nrow(syn_Specific_Stage_3), nrow(syn_sem_Specific_Stage_3))
+  count=c(nrow(api_Specific_Stage_2_7), nrow(api_sem_Specific_Stage_2_7), nrow(api_syn_Specific_Stage_2_7), nrow(api_syn_sem_Specific_Stage_2_7), nrow(sem_Specific_Stage_2_7), nrow(syn_Specific_Stage_2_7), nrow(syn_sem_Specific_Stage_2_7))
+)
+
+#Compute percentages
+data$fraction <- data$count / sum(data$count)
+
+# Compute the cumulative percentages (top of each rectangle)
+data$ymax <- cumsum(data$fraction)
+
+# Place the count per category in the legend
+data$category <- paste0(data$category, " (", data$count, ")")
+
+# Compute the bottom of each rectangle
+data$ymin <- c(0, head(data$ymax, n=-1))
+
+# Compute label position
+data$labelPosition <- (data$ymax + data$ymin) / 2
+
+# Compute a good label
+data$label <- paste0(data$category, "\n value: ", data$count)
+
+# Make the plot
+ggplot(data = data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
+  geom_rect() +
+  scale_fill_brewer(palette="Pastel1") +
+  coord_polar(theta="y") +
+  xlim(c(1, 4)) +
+  theme_void() +
+  theme(legend.position = "right") + 
+  labs(title = ("Specific Classification Distribution at Stage 2.7"))
+
+#Donut plot for specific classifications stage 2
+
+# Create Data
+data <- data.frame(
+  category=c("API", "API+Sem", "API+Syn", "API+Syn+Sem", "Sem", "Syn", "Syn+Sem"),
+  count=c(nrow(api_Specific_Stage_2), nrow(api_sem_Specific_Stage_2), nrow(api_syn_Specific_Stage_2), nrow(api_syn_sem_Specific_Stage_2), nrow(sem_Specific_Stage_2), nrow(syn_Specific_Stage_2), nrow(syn_sem_Specific_Stage_2))
 )
 
 # Compute percentages
@@ -689,4 +725,114 @@ ggplot(data = data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
   xlim(c(1, 4)) +
   theme_void() +
   theme(legend.position = "right") + 
-  labs(title = ("Specific Classification Distribution at Stage 2.7"))
+  labs(title = ("Specific Classification Distribution at Stage 2"))
+
+#Donut plot for specific classifications stage 1
+
+# Create Data
+data <- data.frame(
+  category=c("API", "API+Sem", "API+Syn", "API+Syn+Sem", "Sem", "Syn", "Syn+Sem"),
+  count=c(nrow(api_Specific_Stage_1), nrow(api_sem_Specific_Stage_1), nrow(api_syn_Specific_Stage_1), nrow(api_syn_sem_Specific_Stage_1), nrow(sem_Specific_Stage_1), nrow(syn_Specific_Stage_1), nrow(syn_sem_Specific_Stage_1))
+)
+
+# Compute percentages
+data$fraction <- data$count / sum(data$count)
+
+# Compute the cumulative percentages (top of each rectangle)
+data$ymax <- cumsum(data$fraction)
+
+# Place the count per category in the legend
+data$category <- paste0(data$category, " (", data$count, ")")
+
+# Compute the bottom of each rectangle
+data$ymin <- c(0, head(data$ymax, n=-1))
+
+# Compute label position
+data$labelPosition <- (data$ymax + data$ymin) / 2
+
+# Compute a good label
+data$label <- paste0(data$category, "\n value: ", data$count)
+
+# Make the plot
+ggplot(data = data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
+  geom_rect() +
+  scale_fill_brewer(palette="Pastel1") +
+  coord_polar(theta="y") +
+  xlim(c(1, 4)) +
+  theme_void() +
+  theme(legend.position = "right") + 
+  labs(title = ("Specific Classification Distribution at Stage 1"))
+
+#Donut plot for specific classifications stage 3
+
+# Create Data
+data <- data.frame(
+  category=c("API", "API+Sem", "API+Syn", "API+Syn+Sem", "Sem", "Syn", "Syn+Sem"),
+  count=c(nrow(api_Specific_Stage_0), nrow(api_sem_Specific_Stage_0), nrow(api_syn_Specific_Stage_0), nrow(api_syn_sem_Specific_Stage_0), nrow(sem_Specific_Stage_0), nrow(syn_Specific_Stage_0), nrow(syn_sem_Specific_Stage_0))
+)
+
+# Compute percentages
+data$fraction <- data$count / sum(data$count)
+
+# Compute the cumulative percentages (top of each rectangle)
+data$ymax <- cumsum(data$fraction)
+
+# Place the count per category in the legend
+data$category <- paste0(data$category, " (", data$count, ")")
+
+# Compute the bottom of each rectangle
+data$ymin <- c(0, head(data$ymax, n=-1))
+
+# Compute label position
+data$labelPosition <- (data$ymax + data$ymin) / 2
+
+# Compute a good label
+data$label <- paste0(data$category, "\n value: ", data$count)
+
+# Make the plot
+ggplot(data = data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
+  geom_rect() +
+  scale_fill_brewer(palette="Pastel1") +
+  coord_polar(theta="y") +
+  xlim(c(1, 4)) +
+  theme_void() +
+  theme(legend.position = "right") + 
+  labs(title = ("Specific Classification Distribution at Stage 0"))
+
+#Donut plot for specific classifications stage Inactive
+
+# Create Data
+data <- data.frame(
+  category=c("API", "API+Sem", "API+Syn", "API+Syn+Sem", "Sem", "Syn", "Syn+Sem"),
+  count=c(nrow(api_Specific_Stage_Inactive), nrow(api_sem_Specific_Stage_Inactive), nrow(api_syn_Specific_Stage_Inactive), nrow(api_syn_sem_Specific_Stage_Inactive), nrow(sem_Specific_Stage_Inactive), nrow(syn_Specific_Stage_Inactive), nrow(syn_sem_Specific_Stage_Inactive))
+)
+
+# Compute percentages
+data$fraction <- data$count / sum(data$count)
+
+# Compute the cumulative percentages (top of each rectangle)
+data$ymax <- cumsum(data$fraction)
+
+# Place the count per category in the legend
+data$category <- paste0(data$category, " (", data$count, ")")
+
+# Compute the bottom of each rectangle
+data$ymin <- c(0, head(data$ymax, n=-1))
+
+# Compute label position
+data$labelPosition <- (data$ymax + data$ymin) / 2
+
+# Compute a good label
+data$label <- paste0(data$category, "\n value: ", data$count)
+
+# Make the plot
+ggplot(data = data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
+  geom_rect() +
+  scale_fill_brewer(palette="Pastel1") +
+  coord_polar(theta="y") +
+  xlim(c(1, 4)) +
+  theme_void() +
+  theme(legend.position = "right") + 
+  labs(title = ("Specific Classification Distribution at Inactive"))
+
+
