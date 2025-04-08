@@ -561,7 +561,7 @@ ggplot(data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
   scale_fill_brewer(palette=4) +
   coord_polar(theta="y") +
   xlim(c(1, 4)) +
-  theme_void() +s
+  theme_void() +
   theme(legend.position = "none")
 
 # change duration plot
@@ -834,5 +834,2737 @@ ggplot(data = data, aes(ymax=ymax, ymin=ymin, xmax=4, xmin=3, fill=category)) +
   theme_void() +
   theme(legend.position = "right") + 
   labs(title = ("Specific Classification Distribution at Inactive"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# specific changes api stage 4
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 4/api Specific Stage 4.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 4 Timeline by Title for API Specific Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_stage4 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_stage4 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_stage4)
+print(sd_specific_api_stage4)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 4 Specific API Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+# specific changes api+sem stage 4
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 4/api_sem Specific Stage 4.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 4 Timeline by Title for API+Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_sem_stage4 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_sem_stage4 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_sem_stage4)
+print(sd_specific_api_sem_stage4)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 4 Specific API+Sem Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes api+syn stage 4
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 4/api_syn Specific Stage 4.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 4 Timeline by Title for API+Syn Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_syn_stage4 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_syn_stage4 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api_syn = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_syn_stage4)
+print(sd_specific_api_syn_stage4)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 4 Specific Api+Syn Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes api+sem stage 4
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 4/syn_sem Specific Stage 4.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 4 Timeline by Title for Syn+Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_syn_sem_stage4 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_syn_sem_stage4 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_syn_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_syn_sem_stage4)
+print(sd_specific_syn_sem_stage4)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 4 Specific Syn+Sem Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+
+# specific changes semantic stage 4
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 4/sem Specific Stage 4.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 4 Timeline by Title for Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_sem_stage4 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_sem_stage4 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_sem_stage4)
+print(sd_specific_sem_stage4)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 4 Specific Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes Syntactic stage 4
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 4/syn Specific Stage 4.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 4 Timeline by Title for Syn Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_syn_stage4 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_syn_stage4 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_syn = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_syn_stage4)
+print(sd_specific_syn_stage4)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 4 Specific Syn Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes Syntactic stage 4
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 4/api_syn_sem Specific Stage 4.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage Timeline by Title for API Syn Sem Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_syn_sem_stage4 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_syn_sem_stage4 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api_syn_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_syn_sem_stage4)
+print(sd_specific_api_syn_sem_stage4)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 4 Specific API Sem Syn Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Create bar plot for changes duration
+data <- data.frame(
+  name=c("API", "Syn", "Sem", "API and Sem", "API and Syn", "Sem and Syn", "API, Sem and Syn") ,  
+  value=as.numeric(c(average_duration_specific_api_stage4, average_duration_specific_syn_stage4, average_duration_specific_sem_stage4, average_duration_specific_api_sem_stage4, average_duration_specific_api_syn_stage4, average_duration_specific_syn_sem_stage4, average_duration_specific_api_syn_sem_stage4)),
+  sd=as.numeric(c(sd_specific_api_stage4, sd_specific_syn_stage4, sd_specific_sem_stage4, sd_specific_api_sem_stage4, sd_specific_api_syn_stage4, sd_specific_syn_sem_stage4, sd_specific_api_syn_sem_stage4)
+  ))
+
+# Barplot
+ggplot(data, aes(x=name, y=value, fill = name)) + 
+  geom_bar(stat = "identity", width=0.2) + 
+  geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
+  geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
+  scale_fill_brewer(palette = "Set1") + 
+  labs(x = "Change Type", y = "Time in Months", title = "Stage 4 duration with SD") +
+  theme(legend.position="none")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# specific changes api stage 3
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 3/api Specific Stage 3.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 3 Timeline by Title for API Specific Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_stage3 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_stage3 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_stage3)
+print(sd_specific_api_stage3)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 3 Specific API Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+# specific changes api+sem stage 3
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 3/api_sem Specific Stage 3.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 3 Timeline by Title for API+Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_sem_stage3 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_sem_stage3 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_sem_stage3)
+print(sd_specific_api_sem_stage3)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 3 Specific API+Sem Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes api+syn stage 3
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 3/api_syn Specific Stage 3.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 3 Timeline by Title for API+Syn Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_syn_stage3 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_syn_stage3 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api_syn = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_syn_stage3)
+print(sd_specific_api_syn_stage3)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 3 Specific Api+Syn Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes api+sem stage 3
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 3/syn_sem Specific Stage 3.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 3 Timeline by Title for Syn+Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_syn_sem_stage3 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_syn_sem_stage3 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_syn_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_syn_sem_stage3)
+print(sd_specific_syn_sem_stage3)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 3 Specific Syn+Sem Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+
+# specific changes semantic stage 3
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 3/sem Specific Stage 3.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 3 Timeline by Title for Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_sem_stage3 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_sem_stage3 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_sem_stage3)
+print(sd_specific_sem_stage3)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 3 Specific Sem Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes Syntactic stage 3
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 3/syn Specific Stage 3.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage Timeline by Title for Syn Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_syn_stage3 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_syn_stage3 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_syn = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_syn_stage3)
+print(sd_specific_syn_stage3)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 3 Specific syn Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes Syntactic stage 3
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 3/api_syn_sem Specific Stage 3.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 3 Timeline by Title for API Syn Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_syn_sem_stage3 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_syn_sem_stage3 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api_syn_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_syn_sem_stage3)
+print(sd_specific_api_syn_sem_stage3)
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 3 Specific API Sem Syn Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Create bar plot for changes duration
+data <- data.frame(
+  name=c("API", "Syn", "Sem", "API and Sem", "API and Syn", "Sem and Syn", "API, Sem and Syn") ,  
+  value=as.numeric(c(average_duration_specific_api_stage3, average_duration_specific_syn_stage3, average_duration_specific_sem_stage3, average_duration_specific_api_sem_stage3, average_duration_specific_api_syn_stage3, average_duration_specific_syn_sem_stage3, average_duration_specific_api_syn_sem_stage3)),
+  sd=as.numeric(c(sd_specific_api_stage3, sd_specific_syn_stage3, sd_specific_sem_stage3, sd_specific_api_sem_stage3, sd_specific_api_syn_stage3, sd_specific_syn_sem_stage3, sd_specific_api_syn_sem_stage3)
+  ))
+
+# Barplot
+ggplot(data, aes(x=name, y=value, fill = name)) + 
+  geom_bar(stat = "identity", width=0.2) + 
+  geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
+  geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
+  scale_fill_brewer(palette = "Set1") + 
+  labs(x = "Change Type", y = "Time in Months", title = "Stage 3 duration with SD") +
+  theme(legend.position="none")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# specific changes api stage 2.7
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 2.7/api Specific Stage 2.7.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 2.7 Timeline by Title for API Specific Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_stage2_7 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_stage2_7 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_stage2_7)
+print(sd_specific_api_stage2_7)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 2.7 Specific API Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+# specific changes api+sem stage 2.7
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 2.7/api_sem Specific Stage 2.7.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 2.7 Timeline by Title for API+Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_sem_stage2_7 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_sem_stage2_7 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_sem_stage2_7)
+print(sd_specific_api_sem_stage2_7)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 2.7 Specific API+Sem Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes api+syn stage 
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 2.7/api_syn Specific Stage 2.7.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage Timeline by Title for API+Syn Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_syn_stage2_7 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_syn_stage2_7 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api_syn = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_syn_stage2_7)
+print(sd_specific_api_syn_stage2_7)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 2.7 Specific Api+Syn Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes api+sem stage 2.7
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 2.7/syn_sem Specific Stage 2.7.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal 2.7 Stage Timeline by Title for Syn+Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_syn_sem_stage2_7 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_syn_sem_stage2_7 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_syn_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_syn_sem_stage2_7)
+print(sd_specific_syn_sem_stage2_7)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 2.7 Specific Syn+Sem Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+
+# specific changes semantic stage 2.7
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 2.7/sem Specific Stage 2.7.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage Timeline by Title for Sem Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_sem_stage2_7 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_sem_stage2_7 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_sem_stage2_7)
+print(sd_specific_sem_stage2_7)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 2.7 Specific Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes Syntactic stage 2.7
+
+#Look at single stage
+
+data <- read.csv("CSVFiles/SpecificChanges/Stage 2.7/syn Specific Stage 2.7.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage Timeline by Title for Syn Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_syn_stage2_7 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_syn_stage2_7 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_syn = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_syn_stage2_7)
+print(sd_specific_syn_stage2_7)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 2.7 Specific syn Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes Syntactic stage 3
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 2.7/api_syn_sem Specific Stage 2.7.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage Timeline by Title for API Syn Sem Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_syn_sem_stage2_7 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_syn_sem_stage2_7 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api_syn_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_syn_sem_stage2_7)
+print(sd_specific_api_syn_sem_stage2_7)
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 2.7 Specific API Sem Syn Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Create bar plot for changes duration
+data <- data.frame(
+  name=c("API", "Syn", "Sem", "API and Sem", "API and Syn", "Sem and Syn", "API, Sem and Syn") ,  
+  value=as.numeric(c(average_duration_specific_api_stage2_7, average_duration_specific_syn_stage2_7, average_duration_specific_sem_stage2_7, average_duration_specific_api_sem_stage2_7, average_duration_specific_api_syn_stage2_7, average_duration_specific_syn_sem_stage2_7, average_duration_specific_api_syn_sem_stage2_7)),
+  sd=as.numeric(c(sd_specific_api_stage2_7, sd_specific_syn_stage2_7, sd_specific_sem_stage2_7, sd_specific_api_sem_stage2_7, sd_specific_api_syn_stage2_7, sd_specific_syn_sem_stage2_7, sd_specific_api_syn_sem_stage2_7)
+  ))
+
+# Barplot
+ggplot(data, aes(x=name, y=value, fill = name)) + 
+  geom_bar(stat = "identity", width=0.2) + 
+  geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
+  geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
+  scale_fill_brewer(palette = "Set1") + 
+  labs(x = "Change Type", y = "Time in Months", title = "Stage 2.7 duration with SD") +
+  theme(legend.position="none")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# specific changes api stage 2
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 2/api Specific Stage 2.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 2 Timeline by Title for API Specific Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_stage2 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_stage2 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_stage2)
+print(sd_specific_api_stage2)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 2 Specific API Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+# specific changes api+sem stage 2
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 2/api_sem Specific Stage 2.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 2 Timeline by Title for API+Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_sem_stage2 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_sem_stage2 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_sem_stage2)
+print(sd_specific_api_sem_stage2)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 2 Specific API+Sem Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes api+syn stage 
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 2/api_syn Specific Stage 2.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 2 Timeline by Title for API+Syn Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_syn_stage2 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_syn_stage2 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api_syn = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_syn_stage2)
+print(sd_specific_api_syn_stage2)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 2 Specific Api+Syn Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes api+sem stage 2
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 2/syn_sem Specific Stage 2.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 2 Timeline by Title for Syn+Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_syn_sem_stage2 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_syn_sem_stage2 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_syn_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_syn_sem_stage2)
+print(sd_specific_syn_sem_stage2)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 2 Specific Syn+Sem Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+
+# specific changes semantic stage 2
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 2/sem Specific Stage 2.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 2 Timeline by Title for Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_sem_stage2 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_sem_stage2 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_sem_stage2)
+print(sd_specific_sem_stage2)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 2 Specific Sem Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes Syntactic stage 2
+
+#Look at single stage
+
+data <- read.csv("CSVFiles/SpecificChanges/Stage 2/syn Specific Stage 2.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 2 Timeline by Title for Syn Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_syn_stage2 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_syn_stage2 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_syn = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_syn_stage2)
+print(sd_specific_syn_stage2)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 2 Specific Syn Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes Syntactic stage 2
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 2/api_syn_sem Specific Stage 2.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 2 Timeline by Title for API Syn Sem Changes",
+       x = "Months",
+       y = "Date Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_syn_sem_stage2 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_syn_sem_stage2 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api_syn_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_syn_sem_stage2)
+print(sd_specific_api_syn_sem_stage2)
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 2 Specific API Syn Sem Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Create bar plot for changes duration
+data <- data.frame(
+  name=c("API", "Syn", "Sem", "API and Sem", "API and Syn", "Sem and Syn", "API, Sem and Syn") ,  
+  value=as.numeric(c(average_duration_specific_api_stage2, average_duration_specific_syn_stage2, average_duration_specific_sem_stage2, average_duration_specific_api_sem_stage2, average_duration_specific_api_syn_stage2, average_duration_specific_syn_sem_stage2, average_duration_specific_api_syn_sem_stage2)),
+  sd=as.numeric(c(sd_specific_api_stage2, sd_specific_syn_stage2, sd_specific_sem_stage2, sd_specific_api_sem_stage2, sd_specific_api_syn_stage2, sd_specific_syn_sem_stage2, sd_specific_api_syn_sem_stage2)
+  ))
+
+# Barplot
+ggplot(data, aes(x=name, y=value, fill = name)) + 
+  geom_bar(stat = "identity", width=0.2) + 
+  geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
+  geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
+  scale_fill_brewer(palette = "Set1") + 
+  labs(x = "Change Type", y = "Time in Months", title = "Stage 2 duration with SD") +
+  theme(legend.position="none")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# specific changes api stage 1
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 1/api Specific Stage 1.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 1 Timeline by Title for API Specific Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_stage1 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_stage1 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_stage1)
+print(sd_specific_api_stage1)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 1 Specific API Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+# specific changes api+sem stage 2
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 1/api_sem Specific Stage 1.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 1 Timeline by Title for API+Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_sem_stage1 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_sem_stage1 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_sem_stage1)
+print(sd_specific_api_sem_stage1)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 1 Specific API+Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes api+syn stage 
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 1/api_syn Specific Stage 1.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 1 Timeline by Title for API+Syn Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_syn_stage1 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_syn_stage1 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api_syn = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_syn_stage1)
+print(sd_specific_api_syn_stage1)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 1 Specific Api+Syn Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes api+sem stage 2.7
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 1/syn_sem Specific Stage 1.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 1 Timeline by Title for Syn+Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_syn_sem_stage1 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_syn_sem_stage1 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_syn_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_syn_sem_stage1)
+print(sd_specific_syn_sem_stage1)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 1 Specific Syn+Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+
+# specific changes semantic stage 2.7
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 1/sem Specific Stage 1.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 1 Timeline by Title for Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_sem_stage1 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_sem_stage1 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_sem_stage1)
+print(sd_specific_sem_stage1)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 1 Specific Sem Changes",
+       x = "Month",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes Syntactic stage 1
+
+#Look at single stage
+
+data <- read.csv("CSVFiles/SpecificChanges/Stage 1/syn Specific Stage 1.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 1 Timeline by Title for Syn Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_syn_stage1 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_syn_stage1 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_syn = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_syn_stage1)
+print(sd_specific_syn_stage1)
+
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 1 Specific Syn Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+
+# specific changes Syntactic stage 1
+
+#Look at single stage
+data <- read.csv("CSVFiles/SpecificChanges/Stage 1/api_syn_sem Specific Stage 1.csv")
+
+#setwd in CSVFiles
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+#Plot1
+# Convert the data into longer format - each stage bump date has its own row
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
+  geom_point(size = 1) +
+  labs(title = "Proposal Stage 1 Timeline by Title for API Syn Sem Changes",
+       x = "Date",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Plot4
+# ordered boxplots with months in x axis
+
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
+
+average_duration_specific_api_syn_sem_stage1 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(AverageDuration = mean(Duration, na.rm=TRUE))
+
+sd_specific_api_syn_sem_stage1 <- data_long %>%
+  group_by(Title) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(SD_api_syn_sem = sd(Duration, na.rm=TRUE))
+
+print(average_duration_specific_api_syn_sem_stage1)
+print(sd_specific_api_syn_sem_stage1)
+
+# Plot
+ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
+  geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
+  geom_point(aes(color = Stage), size = 1) +
+  labs(title = "Stage 1 Specific API, Syn, Sem Changes",
+       x = "Months",
+       y = "Proposal Title",
+       color = "Stage") +
+  theme_minimal()
+
+#Create bar plot for changes duration
+data <- data.frame(
+  name=c("API", "Syn", "Sem", "API and Sem", "API and Syn", "Sem and Syn", "API, Sem and Syn") ,  
+  value=as.numeric(c(average_duration_specific_api_stage1, average_duration_specific_syn_stage1, average_duration_specific_sem_stage1, average_duration_specific_api_sem_stage1, average_duration_specific_api_syn_stage1, average_duration_specific_syn_sem_stage1, average_duration_specific_api_syn_sem_stage1)),
+  sd=as.numeric(c(sd_specific_api_stage1, sd_specific_syn_stage1, sd_specific_sem_stage1, sd_specific_api_sem_stage1, sd_specific_api_syn_stage1, sd_specific_syn_sem_stage1, sd_specific_api_syn_sem_stage1)
+  ))
+
+# Barplot
+ggplot(data, aes(x=name, y=value, fill = name)) + 
+  geom_bar(stat = "identity", width=0.2) + 
+  geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
+  geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
+  scale_fill_brewer(palette = "Set1") + 
+  labs(x = "Change Type", y = "Time in Months", title = "Stage 1 duration with SD") +
+  theme(legend.position="none")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
