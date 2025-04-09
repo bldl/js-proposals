@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "07ba0eeca714cbfd",
+        "id": "c7279d996f1108d2",
         "type": "tabs",
         "children": [
           {
-            "id": "dbaaf3730a3d3a49",
+            "id": "a5cb770293501711",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 2.7/joint.md",
+                "file": "Analysis/Stages/Stage 4.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "joint"
+              "title": "Stage 4"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "line: \"try\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,35 +181,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dbaaf3730a3d3a49",
+  "active": "a5cb770293501711",
   "lastOpenFiles": [
-    "Proposals/Stage 3/math-sum.md",
-    "Proposals/Stage 2.7/lazy-import.md",
-    "Proposals/Stage 4/well-formed-stringify.md",
-    "Proposals/Stage 4/usv-string.md",
-    "Proposals/Stage 4/weakrefs.md",
-    "Proposals/Stage 4/change-array-by-copy.md",
-    "Analysis/Classifications/API Change.md",
-    "Proposals/Inactive/blocks.md",
-    "Proposals/Inactive/Node/Inactive.md",
+    "Stage4Plot1.pdf",
+    "Analysis/Stages/Stage 3.md",
+    "Stage3Plot1.pdf",
+    "Analysis/Stages/Stage 2.7.md",
+    "Analysis/Stages/Stage 2.md",
+    "Analysis/Stages/Stage 1.md",
+    "Stage2Plot1.pdf",
+    "Stage2.7Plot1.pdf",
+    "Analysis/Stages/Stage 0.md",
+    "Analysis/Stages/Inactive.md",
+    "InactivePlot4.pdf",
+    "InactivePlot1.pdf",
+    "Stage0Plot1.pdf",
+    "Stage1Plot1.pdf",
+    "Stage1Plot4.pdf",
+    "Stage2Plot4.pdf",
+    "Stage2.7Plot4.pdf",
+    "Analysis/Stages/Stage 4.md",
+    "index.md",
+    "Proposals/Stage 2.7/esm-phase.md",
+    "Proposals/Stage 0/bind-syntax.md",
+    "Proposals/Inactive/cancel-promise.md",
+    "Proposals/Inactive/arraylast.md",
     "Analysis/Classifications/Semantic Change.md",
-    "Analysis/Classifications/Syntactic Change.md",
-    "Proposals/Stage 4/named-groups.md",
-    "Proposals/Stage 4/named-capture-groups.md",
-    "Proposals/Stage 4/matchall.md",
-    "Proposals/Stage 4/hashbang-grammar.md",
-    "Proposals/Stage 4/globalThis.md",
-    "Proposals/Stage 4/escape.md",
-    "Proposals/Stage 4/error-cause.md",
-    "Proposals/Stage 4/dynamic-import.md",
-    "Proposals/Stage 4/exponentiation.md",
-    "Proposals/Stage 4/finally.md",
+    "Analysis/Classifications/API Change.md",
+    "Proposals/Stage 2/pipeline.md",
+    "Proposals/Stage 3/decorators.md",
+    "Proposals/Stage 2/censorship.md",
+    "Proposals/Stage 0/catch-guard.md",
+    "Proposals/Stage 4/arraybuffer-transfer.md",
     "Proposals/Stage 4/allsettled.md",
-    "Proposals/Inactive/zones.md",
-    "Proposals/Inactive/uuid.md",
-    "Proposals/Inactive/unused-params.md",
-    "Proposals/Inactive/unicode-sequence-properties.md",
-    "docs",
+    "Proposals/Stage 1/strict-using.md",
+    "Proposals/Stage 1/negated-in.md",
+    "Proposals/Stage 1/func-obj-decs.md",
+    "Proposals/Stage 2/extractors.md",
+    "Proposals/Stage 2/discards.md",
     "Untitled.canvas"
   ]
 }
