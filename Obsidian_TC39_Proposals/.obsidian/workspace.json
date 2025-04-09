@@ -11,12 +11,24 @@
             "id": "a5cb770293501711",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Analysis/Stages/Plots/Stage0Plot1.pdf"
+                "file": "Analysis/Stages/Stage 2.7.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Stage0Plot1"
+              "icon": "lucide-file",
+              "title": "Stage 2.7"
             }
           }
         ]
@@ -171,8 +183,9 @@
   },
   "active": "3907ea67d135be80",
   "lastOpenFiles": [
-    "Analysis/Stages/Plots/InactivePlot1.pdf",
+    "Proposals/Stage 2.7/math-sum.md",
     "Analysis/Stages/Plots/Stage0Plot1.pdf",
+    "Analysis/Stages/Plots/InactivePlot1.pdf",
     "Analysis/Stages/Plots",
     "Analysis/Stages/Stage 4.md",
     "Analysis/Stages/Plots/Stage4Plot1.pdf",
@@ -188,7 +201,6 @@
     "Analysis/Stages/Plots/InactivePlot4.pdf",
     "Analysis/Stages/Plots/Stage1Plot1.pdf",
     "Analysis/Stages/Plots/Stage1Plot4.pdf",
-    "Analysis/Stages/Plots/Stage2Plot4.pdf",
     "index.md",
     "Proposals/Stage 2.7/esm-phase.md",
     "Proposals/Stage 0/bind-syntax.md",
