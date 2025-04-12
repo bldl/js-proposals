@@ -7,7 +7,7 @@ library(readr)
 library(ggrepel)
 
 #Look at single stage
-#data <- read.csv("../CSVFiles/Stage Inactive.csv")
+data <- read.csv("CSVFiles/CSVStages/Stage Inactive.csv")
 
 #setwd in CSVFiles
 #file_list <- list.files()
@@ -894,22 +894,34 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
 average_duration_specific_api_stage4 <- data_long %>%
   group_by(Title) %>%
-  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(Duration) %>%
   summarize(AverageDuration = mean(Duration, na.rm=TRUE))
 
 sd_specific_api_stage4 <- data_long %>%
   group_by(Title) %>%
-  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
+  summarize(Duration) %>%
   summarize(SD_api = sd(Duration, na.rm=TRUE))
+
+  stage_duration_specific_api_stage4 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_stage4 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
 
 print(average_duration_specific_api_stage4)
 print(sd_specific_api_stage4)
-
+print(stage_duration_specific_api_stage4)
+print(sd_specific_stage_duration_api_stage4)
 
 # Plot
 ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
@@ -2107,7 +2119,7 @@ data_long <- data %>%
 # Create the grouped scatter plot
 ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
   geom_point(size = 1) +
-  labs(title = "Proposal Stage Timeline by Title for API+Syn Changes",
+  labs(title = "Proposal Stage 2,7 Timeline by Title for API+Syn Changes",
        x = "Months",
        y = "Proposal Title",
        color = "Stage") +
