@@ -900,22 +900,20 @@ title_durations <- data_long %>%
 
 average_duration_specific_api_stage4 <- data_long %>%
   group_by(Title) %>%
-  summarize(Duration) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(AverageDuration = mean(Duration, na.rm=TRUE))
 
 sd_specific_api_stage4 <- data_long %>%
   group_by(Title) %>%
-  summarize(Duration) %>%
+  summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api = sd(Duration, na.rm=TRUE))
 
-  stage_duration_specific_api_stage4 <- title_durations %>%
+stage_duration_specific_api_stage4 <- title_durations %>%
   group_by(Stage) %>%
-  summarize(StageDuration) %>%
   summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
 
 sd_specific_stage_duration_api_stage4 <- title_durations %>%
   group_by(Stage) %>%
-  summarize(StageDuration) %>%
   summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
 
 print(average_duration_specific_api_stage4)
@@ -932,6 +930,33 @@ ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))
        y = "Proposal Title",
        color = "Stage") +
   theme_minimal()
+
+#Create bar plot for changes duration
+data <- data.frame(
+  name=c("Stage 1", "Stage 2", "Stage 2.7", "Stage 3", "Stage 4"),  
+  value=as.numeric(unlist(stage_duration_specific_api_stage4)),
+  sd=as.numeric(unlist(sd_specific_stage_duration_api_stage4))
+)
+
+
+data_no_stage4 <- data %>%
+  filter(name != "Stage 4")
+
+# Barplot
+ggplot(data_no_stage4, aes(x=name, y=value, fill = name)) + 
+  geom_bar(stat = "identity", width=0.2) + 
+  geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
+  geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
+  scale_fill_brewer(palette = "Set1") + 
+  labs(x = "Change Type", y = "Time in Months", title = "API Change Stage durations with SD") +
+  theme(legend.position="none")
+
+
+
+
+
+
+
 
 # specific changes api+sem stage 4
 
@@ -978,6 +1003,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -991,8 +1017,18 @@ sd_specific_api_sem_stage4 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_api_sem_stage4 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_sem_stage4 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_api_sem_stage4)
 print(sd_specific_api_sem_stage4)
+print(stage_duration_specific_api_sem_stage4)
+print(sd_specific_stage_duration_api_sem_stage4)
 
 
 # Plot
@@ -1004,6 +1040,32 @@ ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))
        y = "Proposal Title",
        color = "Stage") +
   theme_minimal()
+
+#Create bar plot for changes duration
+data <- data.frame(
+  name=c("Stage 1", "Stage 2", "Stage 3", "Stage 4"),  
+  value=as.numeric(unlist(stage_duration_specific_api_sem_stage4)),
+  sd=as.numeric(unlist(sd_specific_stage_duration_api_sem_stage4))
+)
+
+data_no_stage4 <- data %>%
+  filter(name != "Stage 4")
+
+# Barplot
+ggplot(data_no_stage4, aes(x=name, y=value, fill = name)) + 
+  geom_bar(stat = "identity", width=0.2) + 
+  geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
+  geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
+  scale_fill_brewer(palette = "Set1") + 
+  labs(x = "Change Type", y = "Time in Months", title = "API+Sem Change Stage durations with SD") +
+  theme(legend.position="none")
+
+
+
+
+
+
+
 
 
 # specific changes api+syn stage 4
@@ -1051,6 +1113,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -1064,9 +1127,18 @@ sd_specific_api_syn_stage4 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api_syn = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_api_syn_stage4 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_syn_stage4 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_api_syn_stage4)
 print(sd_specific_api_syn_stage4)
-
+print(stage_duration_specific_api_syn_stage4)
+print(sd_specific_stage_duration_api_syn_stage4)
 
 # Plot
 ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
@@ -1077,6 +1149,33 @@ ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))
        y = "Proposal Title",
        color = "Stage") +
   theme_minimal()
+
+#Create bar plot for changes duration
+data <- data.frame(
+  name=c("Stage 1", "Stage 2", "Stage 3", "Stage 4"),  
+  value=as.numeric(unlist(stage_duration_specific_api_syn_stage4)),
+  sd=as.numeric(unlist(sd_specific_stage_duration_api_syn_stage4))
+)
+
+
+data_no_stage4 <- data %>%
+  filter(name != "Stage 4")
+
+# Barplot
+ggplot(data_no_stage4, aes(x=name, y=value, fill = name)) + 
+  geom_bar(stat = "identity", width=0.2) + 
+  geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
+  geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
+  scale_fill_brewer(palette = "Set1") + 
+  labs(x = "Change Type", y = "Time in Months", title = "API+Syn Change Stage durations with SD") +
+  theme(legend.position="none")
+
+
+
+
+
+
+
 
 
 # specific changes api+sem stage 4
@@ -1124,6 +1223,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -1137,8 +1237,21 @@ sd_specific_syn_sem_stage4 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_syn_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_syn_sem_stage4 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_syn_sem_stage4 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
+
 print(average_duration_specific_syn_sem_stage4)
 print(sd_specific_syn_sem_stage4)
+print(stage_duration_specific_syn_sem_stage4)
+print(sd_specific_stage_duration_syn_sem_stage4)
 
 
 # Plot
@@ -1198,6 +1311,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -1211,9 +1325,20 @@ sd_specific_sem_stage4 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_sem_stage4 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_sem_stage4 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_sem_stage4)
 print(sd_specific_sem_stage4)
-
+print(stage_duration_specific_sem_stage4)
+print(sd_specific_stage_duration_sem_stage4)
 
 # Plot
 ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
@@ -1271,6 +1396,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -1284,8 +1410,20 @@ sd_specific_syn_stage4 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_syn = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_syn_stage4 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_syn_stage4 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_syn_stage4)
 print(sd_specific_syn_stage4)
+print(stage_duration_specific_syn_stage4)
+print(sd_specific_stage_duration_syn_stage4)
 
 
 # Plot
@@ -1344,6 +1482,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -1357,9 +1496,20 @@ sd_specific_api_syn_sem_stage4 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api_syn_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_api_syn_sem_stage4 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_syn_sem_stage4 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_api_syn_sem_stage4)
 print(sd_specific_api_syn_sem_stage4)
-
+print(stage_duration_specific_api_syn_sem_stage4)
+print(sd_specific_stage_duration_api_syn_sem_stage4)
 
 # Plot
 ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
@@ -1370,6 +1520,7 @@ ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))
        y = "Proposal Title",
        color = "Stage") +
   theme_minimal()
+
 
 #Create bar plot for changes duration
 data <- data.frame(
@@ -1384,11 +1535,8 @@ ggplot(data, aes(x=name, y=value, fill = name)) +
   geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
   geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
   scale_fill_brewer(palette = "Set1") + 
-  labs(x = "Change Type", y = "Time in Months", title = "Stage 4 duration with SD") +
+  labs(x = "Change Type", y = "Time in Months", title = "Stage durations with SD") +
   theme(legend.position="none")
-
-
-
 
 
 
@@ -1445,6 +1593,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -1458,8 +1607,20 @@ sd_specific_api_stage3 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_api_stage3 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_stage3 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_api_stage3)
 print(sd_specific_api_stage3)
+print(stage_duration_specific_api_stage3)
+print(sd_specific_stage_duration_api_stage3)
 
 
 # Plot
@@ -1517,6 +1678,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -1530,8 +1692,20 @@ sd_specific_api_sem_stage3 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_api_sem_stage3 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_sem_stage3 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_api_sem_stage3)
 print(sd_specific_api_sem_stage3)
+print(stage_duration_specific_api_sem_stage3)
+print(sd_specific_stage_duration_api_sem_stage3)
 
 
 # Plot
@@ -1590,6 +1764,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -1603,8 +1778,20 @@ sd_specific_api_syn_stage3 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api_syn = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_api_syn_stage3 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_syn_stage3 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_api_syn_stage3)
 print(sd_specific_api_syn_stage3)
+print(stage_duration_specific_api_syn_stage3)
+print(sd_specific_stage_duration_api_syn_stage3)
 
 
 # Plot
@@ -1663,6 +1850,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -1676,8 +1864,20 @@ sd_specific_syn_sem_stage3 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_syn_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_syn_sem_stage3 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_syn_sem_stage3 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_syn_sem_stage3)
 print(sd_specific_syn_sem_stage3)
+print(stage_duration_specific_syn_sem_stage3)
+print(sd_specific_stage_duration_syn_sem_stage3)
 
 
 # Plot
@@ -1737,6 +1937,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -1750,9 +1951,20 @@ sd_specific_sem_stage3 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_sem_stage3 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_sem_stage3 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_sem_stage3)
 print(sd_specific_sem_stage3)
-
+print(stage_duration_specific_sem_stage3)
+print(sd_specific_stage_duration_sem_stage3)
 
 # Plot
 ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
@@ -1810,6 +2022,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -1823,8 +2036,20 @@ sd_specific_syn_stage3 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_syn = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_syn_stage3 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_syn_stage3 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_syn_stage3)
 print(sd_specific_syn_stage3)
+print(stage_duration_specific_syn_stage3)
+print(sd_specific_stage_duration_syn_stage3)
 
 
 # Plot
@@ -1883,6 +2108,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -1896,8 +2122,20 @@ sd_specific_api_syn_sem_stage3 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api_syn_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_api_syn_sem_stage3 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_syn_sem_stage3 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_api_syn_sem_stage3)
 print(sd_specific_api_syn_sem_stage3)
+print(stage_duration_specific_api_syn_sem_stage3)
+print(sd_specific_stage_duration_api_syn_sem_stage3)
 
 # Plot
 ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
@@ -1987,6 +2225,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -2000,8 +2239,20 @@ sd_specific_api_stage2_7 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_api_stage2_7 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_stage2_7 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_api_stage2_7)
 print(sd_specific_api_stage2_7)
+print(stage_duration_specific_api_stage2_7)
+print(sd_specific_stage_duration_api_stage2_7)
 
 
 # Plot
@@ -2059,6 +2310,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -2072,8 +2324,20 @@ sd_specific_api_sem_stage2_7 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_api_sem_stage2_7 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_sem_stage2_7 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_api_sem_stage2_7)
 print(sd_specific_api_sem_stage2_7)
+print(stage_duration_specific_api_sem_stage2_7)
+print(sd_specific_stage_duration_api_sem_stage2_7)
 
 
 # Plot
@@ -2132,6 +2396,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -2145,8 +2410,20 @@ sd_specific_api_syn_stage2_7 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api_syn = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_api_syn_stage2_7 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_syn_stage2_7 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_api_syn_stage2_7)
 print(sd_specific_api_syn_stage2_7)
+print(stage_duration_specific_api_syn_stage2_7)
+print(sd_specific_stage_duration_api_syn_stage2_7)
 
 
 # Plot
@@ -2205,6 +2482,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -2218,9 +2496,20 @@ sd_specific_syn_sem_stage2_7 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_syn_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_syn_sem_stage2_7 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_syn_sem_stage2_7 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_syn_sem_stage2_7)
 print(sd_specific_syn_sem_stage2_7)
-
+print(stage_duration_specific_syn_sem_stage2_7)
+print(sd_specific_stage_duration_syn_sem_stage2_7)
 
 # Plot
 ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
@@ -2279,6 +2568,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -2292,8 +2582,20 @@ sd_specific_sem_stage2_7 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_sem_stage2_7 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_sem_stage2_7 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_sem_stage2_7)
 print(sd_specific_sem_stage2_7)
+print(stage_duration_specific_sem_stage2_7)
+print(sd_specific_stage_duration_sem_stage2_7)
 
 
 # Plot
@@ -2353,6 +2655,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -2366,8 +2669,20 @@ sd_specific_syn_stage2_7 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_syn = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_syn_stage2_7 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_syn_stage2_7 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_syn_stage2_7)
 print(sd_specific_syn_stage2_7)
+print(stage_duration_specific_syn_stage2_7)
+print(sd_specific_stage_duration_syn_stage2_7)
 
 
 # Plot
@@ -2426,6 +2741,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -2439,8 +2755,20 @@ sd_specific_api_syn_sem_stage2_7 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api_syn_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_api_syn_sem_stage2_7 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_syn_sem_stage2_7 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_api_syn_sem_stage2_7)
 print(sd_specific_api_syn_sem_stage2_7)
+print(stage_duration_specific_api_syn_sem_stage2_7)
+print(sd_specific_stage_duration_api_syn_sem_stage2_7)
 
 # Plot
 ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
@@ -2535,6 +2863,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -2548,8 +2877,20 @@ sd_specific_api_stage2 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_api_stage2 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_stage2 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_api_stage2)
 print(sd_specific_api_stage2)
+print(stage_duration_specific_api_stage2)
+print(sd_specific_stage_duration_api_stage2)
 
 
 # Plot
@@ -2607,6 +2948,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -2620,8 +2962,20 @@ sd_specific_api_sem_stage2 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_api_sem_stage2 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_sem_stage2 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_api_sem_stage2)
 print(sd_specific_api_sem_stage2)
+print(stage_duration_specific_api_sem_stage2)
+print(sd_specific_stage_duration_api_sem_stage2)
 
 
 # Plot
@@ -2680,6 +3034,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -2693,8 +3048,20 @@ sd_specific_api_syn_stage2 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api_syn = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_api_syn_stage2 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_syn_stage2 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_api_syn_stage2)
 print(sd_specific_api_syn_stage2)
+print(stage_duration_specific_api_syn_stage2)
+print(sd_specific_stage_duration_api_syn_stage2)
 
 
 # Plot
@@ -2753,6 +3120,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -2766,8 +3134,21 @@ sd_specific_syn_sem_stage2 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_syn_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_syn_sem_stage2 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_syn_sem_stage2 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
+
 print(average_duration_specific_syn_sem_stage2)
 print(sd_specific_syn_sem_stage2)
+print(stage_duration_specific_syn_sem_stage2)
+print(sd_specific_stage_duration_syn_sem_stage2)
 
 
 # Plot
@@ -2827,6 +3208,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -2840,8 +3222,20 @@ sd_specific_sem_stage2 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_sem_stage2 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_sem_stage2 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_sem_stage2)
 print(sd_specific_sem_stage2)
+print(stage_duration_specific_sem_stage2)
+print(sd_specific_stage_duration_sem_stage2)
 
 
 # Plot
@@ -2901,6 +3295,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -2914,8 +3309,20 @@ sd_specific_syn_stage2 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_syn = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_syn_stage2 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_syn_stage2 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_syn_stage2)
 print(sd_specific_syn_stage2)
+print(stage_duration_specific_syn_stage2)
+print(sd_specific_stage_duration_syn_stage2)
 
 
 # Plot
@@ -2974,6 +3381,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -2987,8 +3395,20 @@ sd_specific_api_syn_sem_stage2 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api_syn_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_api_syn_sem_stage2 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_syn_sem_stage2 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_api_syn_sem_stage2)
 print(sd_specific_api_syn_sem_stage2)
+print(stage_duration_specific_api_syn_sem_stage2)
+print(sd_specific_stage_duration_api_syn_sem_stage2)
 
 # Plot
 ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
@@ -3084,6 +3504,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -3097,8 +3518,20 @@ sd_specific_api_stage1 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_api_stage1 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_stage1 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_api_stage1)
 print(sd_specific_api_stage1)
+print(stage_duration_specific_api_stage1)
+print(sd_specific_stage_duration_api_stage1)
 
 
 # Plot
@@ -3156,6 +3589,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -3169,8 +3603,21 @@ sd_specific_api_sem_stage1 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_api_sem_stage1 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_sem_stage1 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
+
 print(average_duration_specific_api_sem_stage1)
 print(sd_specific_api_sem_stage1)
+print(stage_duration_specific_api_sem_stage1)
+print(sd_specific_stage_duration_api_sem_stage1)
 
 
 # Plot
@@ -3229,6 +3676,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -3242,8 +3690,20 @@ sd_specific_api_syn_stage1 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api_syn = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_api_syn_stage1 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_syn_stage1 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_api_syn_stage1)
 print(sd_specific_api_syn_stage1)
+print(stage_duration_specific_api_syn_stage1)
+print(sd_specific_stage_duration_api_syn_stage1)
 
 
 # Plot
@@ -3302,6 +3762,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -3315,8 +3776,20 @@ sd_specific_syn_sem_stage1 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_syn_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_syn_sem_stage1 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_syn_sem_stage1 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_syn_sem_stage1)
 print(sd_specific_syn_sem_stage1)
+print(stage_duration_specific_syn_sem_stage1)
+print(sd_specific_stage_duration_syn_sem_stage1)
 
 
 # Plot
@@ -3376,6 +3849,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -3389,8 +3863,20 @@ sd_specific_sem_stage1 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_sem_stage1 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_sem_stage1 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_sem_stage1)
 print(sd_specific_sem_stage1)
+print(stage_duration_specific_sem_stage1)
+print(sd_specific_stage_duration_sem_stage1)
 
 
 # Plot
@@ -3450,6 +3936,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -3463,9 +3950,20 @@ sd_specific_syn_stage1 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_syn = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_syn_stage1 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_syn_stage1 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_syn_stage1)
 print(sd_specific_syn_stage1)
-
+print(stage_duration_specific_syn_stage1)
+print(sd_specific_stage_duration_syn_stage1)
 
 # Plot
 ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
@@ -3523,6 +4021,7 @@ ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
 title_durations <- data_long %>%
   group_by(Title) %>%
   mutate(
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
     MonthsSinceStart = interval(min(Date), Date) %/% months(1),
     Duration = interval(min(Date), max(Date))%/% months(1)) 
 
@@ -3536,8 +4035,20 @@ sd_specific_api_syn_sem_stage1 <- data_long %>%
   summarize(Duration = interval(min(Date), max(Date))%/% months(1)) %>%
   summarize(SD_api_syn_sem = sd(Duration, na.rm=TRUE))
 
+stage_duration_specific_api_syn_sem_stage1 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
+
+sd_specific_stage_duration_api_syn_sem_stage1 <- title_durations %>%
+  group_by(Stage) %>%
+  summarize(StageDuration) %>%
+  summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
+
 print(average_duration_specific_api_syn_sem_stage1)
 print(sd_specific_api_syn_sem_stage1)
+print(stage_duration_specific_api_syn_sem_stage1)
+print(sd_specific_stage_duration_api_syn_sem_stage1)
 
 # Plot
 ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
