@@ -948,7 +948,7 @@ ggplot(data_no_stage4, aes(x=name, y=value, fill = name)) +
   geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
   geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
   scale_fill_brewer(palette = "Set1") + 
-  labs(x = "Change Type", y = "Time in Months", title = "API Change Stage durations with SD") +
+  labs(x = "Change Type", y = "Time in Months", title = "API Change Stage 4 durations with SD") +
   theme(legend.position="none")
 
 
@@ -1057,7 +1057,7 @@ ggplot(data_no_stage4, aes(x=name, y=value, fill = name)) +
   geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
   geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
   scale_fill_brewer(palette = "Set1") + 
-  labs(x = "Change Type", y = "Time in Months", title = "API+Sem Change Stage durations with SD") +
+  labs(x = "Change Type", y = "Time in Months", title = "API+Sem Change Stage 4 durations with SD") +
   theme(legend.position="none")
 
 
@@ -1167,7 +1167,7 @@ ggplot(data_no_stage4, aes(x=name, y=value, fill = name)) +
   geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
   geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
   scale_fill_brewer(palette = "Set1") + 
-  labs(x = "Change Type", y = "Time in Months", title = "API+Syn Change Stage durations with SD") +
+  labs(x = "Change Type", y = "Time in Months", title = "API+Syn Change Stage 4 durations with SD") +
   theme(legend.position="none")
 
 
@@ -1264,6 +1264,25 @@ ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))
        color = "Stage") +
   theme_minimal()
 
+#Create bar plot for changes duration
+data <- data.frame(
+  name=c("Stage 1", "Stage 2", "Stage 3", "Stage 4"),  
+  value=as.numeric(unlist(stage_duration_specific_syn_sem_stage4)),
+  sd=as.numeric(unlist(sd_specific_stage_duration_syn_sem_stage4))
+)
+
+
+data_no_stage4 <- data %>%
+  filter(name != "Stage 4")
+
+# Barplot
+ggplot(data_no_stage4, aes(x=name, y=value, fill = name)) + 
+  geom_bar(stat = "identity", width=0.2) + 
+  geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
+  geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
+  scale_fill_brewer(palette = "Set1") + 
+  labs(x = "Change Type", y = "Time in Months", title = "Syn+Sem Change Stage 4 durations with SD") +
+  theme(legend.position="none")
 
 
 # specific changes semantic stage 4
@@ -1327,12 +1346,10 @@ sd_specific_sem_stage4 <- data_long %>%
 
 stage_duration_specific_sem_stage4 <- title_durations %>%
   group_by(Stage) %>%
-  summarize(StageDuration) %>%
   summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
 
 sd_specific_stage_duration_sem_stage4 <- title_durations %>%
   group_by(Stage) %>%
-  summarize(StageDuration) %>%
   summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
 
 print(average_duration_specific_sem_stage4)
@@ -1349,6 +1366,26 @@ ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))
        y = "Proposal Title",
        color = "Stage") +
   theme_minimal()
+
+#Create bar plot for changes duration
+data <- data.frame(
+  name=c("Stage 1", "Stage 2", "Stage 3", "Stage 4"),  
+  value=as.numeric(unlist(stage_duration_specific_sem_stage4)),
+  sd=as.numeric(unlist(sd_specific_stage_duration_sem_stage4))
+)
+
+
+data_no_stage4 <- data %>%
+  filter(name != "Stage 4")
+
+# Barplot
+ggplot(data_no_stage4, aes(x=name, y=value, fill = name)) + 
+  geom_bar(stat = "identity", width=0.2) + 
+  geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
+  geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
+  scale_fill_brewer(palette = "Set1") + 
+  labs(x = "Change Type", y = "Time in Months", title = "Sem Change Stage 4 durations with SD") +
+  theme(legend.position="none")
 
 
 # specific changes Syntactic stage 4
@@ -1436,6 +1473,26 @@ ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))
        color = "Stage") +
   theme_minimal()
 
+#Create bar plot for changes duration
+data <- data.frame(
+  name=c("Stage 1", "Stage 2", "Stage 3", "Stage 4"),  
+  value=as.numeric(unlist(stage_duration_specific_syn_stage4)),
+  sd=as.numeric(unlist(sd_specific_stage_duration_syn_stage4))
+)
+
+
+data_no_stage4 <- data %>%
+  filter(name != "Stage 4")
+
+# Barplot
+ggplot(data_no_stage4, aes(x=name, y=value, fill = name)) + 
+  geom_bar(stat = "identity", width=0.2) + 
+  geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
+  geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
+  scale_fill_brewer(palette = "Set1") + 
+  labs(x = "Change Type", y = "Time in Months", title = "Syn Change Stage 4 durations with SD") +
+  theme(legend.position="none")
+
 
 # specific changes Syntactic stage 4
 
@@ -1498,12 +1555,10 @@ sd_specific_api_syn_sem_stage4 <- data_long %>%
 
 stage_duration_specific_api_syn_sem_stage4 <- title_durations %>%
   group_by(Stage) %>%
-  summarize(StageDuration) %>%
   summarize(AverageStageDuration = mean(StageDuration, na.rm=TRUE))
 
 sd_specific_stage_duration_api_syn_sem_stage4 <- title_durations %>%
   group_by(Stage) %>%
-  summarize(StageDuration) %>%
   summarize(SD_AverageStageDuration = sd(StageDuration, na.rm=TRUE))
 
 print(average_duration_specific_api_syn_sem_stage4)
