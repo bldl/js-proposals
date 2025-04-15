@@ -7,12 +7,13 @@ library(readr)
 library(ggrepel)
 
 #Look at single stage
-data <- read.csv("CSVFiles/CSVStages/Stage Inactive.csv")
+#setwd in Data Analysis
+#data <- read.csv("CSVFiles/CSVStages/Stage 4.csv")
 
-#setwd in CSVFiles
-#file_list <- list.files()
-#load_files <- lapply(file_list, read.csv)
-#data <- do.call("rbind", load_files)
+#setwd in CSVFiles/CSVChanges
+file_list <- list.files()
+load_files <- lapply(file_list, read.csv)
+data <- do.call("rbind", load_files)
 
 #Plot1
 # Convert the data into longer format - each stage bump date has its own row
@@ -32,7 +33,7 @@ data_long <- data %>%
 # Create the grouped scatter plot
 ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
   geom_point(size = 1) +
-  labs(title = "All Proposals Timeline by Title",
+  labs(title = "Stage 1 Proposals Timeline by Title",
        x = "Date",
        y = "Proposal Title",
        color = "Stage") +
@@ -56,7 +57,7 @@ data_long <- data %>%
 ggplot(data_long, aes(x = Date, y = Title)) +
   geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
   geom_point(aes(color = Stage), size = 1) +
-  labs(title = "All Proposals Date Distribution per Proposal",
+  labs(title = "Inactive Proposals Date Distribution per Proposal",
        x = "Date",
        y = "Proposal Title",
        color = "Stage") +
@@ -79,7 +80,7 @@ ggplot(data_long, aes(x = Date, y = reorder(Title, -Duration))) +
   geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
   geom_point(aes(color = Stage), size = 1) +
   labs(
-      title = "All Proposals Date Spread per Proposal",
+      title = "Inactive Proposals Date Spread per Proposal",
       x = "Date",
       y = "Proposal Title",
       color = "Stage") +
@@ -101,7 +102,7 @@ ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))
   geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
   geom_point(aes(color = Stage), size = 1) +
   labs(title = "All Proposals Date Spread per Proposal",
-       x = "Date",
+       x = "Months",
        y = "Proposal Title",
        color = "Stage") +
   theme_minimal()
@@ -136,7 +137,7 @@ data_long <- data %>%
 # Create the grouped scatter plot
 ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
   geom_point(size = 1) +
-  labs(title = "Proposal Stage Timeline by Title for API Changes",
+  labs(title = "Stage 4 Timeline by Title for API Changes",
        x = "Date",
        y = "Proposal Title",
        color = "Stage") +
@@ -163,8 +164,8 @@ average_duration <- data_long %>%
 ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
   geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
   geom_point(aes(color = Stage), size = 1) +
-  labs(title = "Stage Date Spread per Proposal for API Changes",
-       x = "Date",
+  labs(title = "Spread per Proposal for API Changes",
+       x = "Months",
        y = "Proposal Title",
        color = "Stage") +
   theme_minimal()
@@ -198,7 +199,7 @@ data_long <- data %>%
 # Create the grouped scatter plot
 ggplot(data_long, aes(x = Date, y = Title, color = Stage)) +
   geom_point(size = 1) +
-  labs(title = "Proposal Stage Timeline by Title for Syntactic Changes",
+  labs(title = "Stage 4 Timeline by Title for Syntactic Changes",
        x = "Date",
        y = "Proposal Title",
        color = "Stage") +
@@ -225,8 +226,8 @@ print(average_duration)
 ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
   geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
   geom_point(aes(color = Stage), size = 1) +
-  labs(title = "Stage Date Spread per Proposal for Syntactic Changes",
-       x = "Date",
+  labs(title = "Stage 4 Date Spread per Proposal for Syntactic Changes",
+       x = "Months",
        y = "Proposal Title",
        color = "Stage") +
   theme_minimal()
@@ -357,7 +358,7 @@ ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))
   geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
   geom_point(aes(color = Stage), size = 1) +
   labs(title = "Stage 4 API Changes",
-       x = "Date",
+       x = "Months",
        y = "Proposal Title",
        color = "Stage") +
   theme_minimal()
@@ -424,8 +425,8 @@ print(sd_semantic_stage4)
 ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
   geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
   geom_point(aes(color = Stage), size = 1) +
-  labs(title = "Stage Date Spread per Proposal for Semantic Changes",
-       x = "Date",
+  labs(title = "Stage 4 Semantic Changes",
+       x = "Months",
        y = "Proposal Title",
        color = "Stage") +
   theme_minimal()
@@ -491,8 +492,8 @@ print(sd_syntactic_stage4)
 ggplot(title_durations, aes(x = MonthsSinceStart, y = reorder(Title, -Duration))) +
   geom_boxplot(outlier.shape = 8, outlier.size = 2.5, fill = "white") +
   geom_point(aes(color = Stage), size = 1) +
-  labs(title = "Stage Date Spread per Proposal for Syntactic Changes",
-       x = "Date",
+  labs(title = "Stage 4 Syntactic Changes",
+       x = "Months",
        y = "Proposal Title",
        color = "Stage") +
   theme_minimal()
@@ -579,7 +580,7 @@ ggplot(data, aes(x=name, y=value, fill = name)) +
   geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
   geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
   scale_fill_brewer(palette = "Set1") + 
-  labs(x = "Change Type Duration", y = "Time in Months", title = "Stage duration with SD") +
+  labs(x = "Change Type Duration", y = "Time in Months", title = "Proposal Duration per Change Type") +
   theme(legend.position="none")
 
   
@@ -940,7 +941,8 @@ data <- data.frame(
 
 
 data_no_stage4 <- data %>%
-  filter(name != "Stage 4")
+  filter(name != "Stage 4") %>%
+  filter(value > 0)
 
 # Barplot
 ggplot(data_no_stage4, aes(x=name, y=value, fill = name)) + 
@@ -1590,8 +1592,9 @@ ggplot(data, aes(x=name, y=value, fill = name)) +
   geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
   geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
   scale_fill_brewer(palette = "Set1") + 
-  labs(x = "Change Type", y = "Time in Months", title = "Stage durations with SD") +
+  labs(x = "Change Type", y = "Time in Months", title = "Stage 4: Time from Stage 1 to Stage 4") +
   theme(legend.position="none")
+
 
 
 
@@ -2215,7 +2218,7 @@ ggplot(data, aes(x=name, y=value, fill = name)) +
   geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
   geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
   scale_fill_brewer(palette = "Set1") + 
-  labs(x = "Change Type", y = "Time in Months", title = "Stage 3 duration with SD") +
+  labs(x = "Change Type", y = "Time in Months", title = "Stage 3: Time from Stage 1 to Stage 3") +
   theme(legend.position="none")
 
 
@@ -2848,7 +2851,7 @@ ggplot(data, aes(x=name, y=value, fill = name)) +
   geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
   geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
   scale_fill_brewer(palette = "Set1") + 
-  labs(x = "Change Type", y = "Time in Months", title = "Stage 2.7 duration with SD") +
+  labs(x = "Change Type", y = "Time in Months", title = "Stage 2.7: Time from Stage 1 to Stage 2.7") +
   theme(legend.position="none")
 
 
@@ -3488,7 +3491,7 @@ ggplot(data, aes(x=name, y=value, fill = name)) +
   geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
   geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
   scale_fill_brewer(palette = "Set1") + 
-  labs(x = "Change Type", y = "Time in Months", title = "Stage 2 duration with SD") +
+  labs(x = "Change Type", y = "Time in Months", title = "Stage 2: Time from Stage 1 to Stage 2") +
   theme(legend.position="none")
 
 
@@ -4141,8 +4144,33 @@ ggplot(data, aes(x=name, y=value, fill = name)) +
 
 
 
+data <- read.csv("CSVFiles/SpecificChanges/Stage 2/sem Specific Stage 2.csv")
 
+data_long <- data %>%
+  pivot_longer(
+    #with last commit 
+    #cols = matches("^Stage\\.|^Last\\."),
+    
+    #without last commit 
+    cols = matches("^Stage\\."),
+    names_to = "Stage",
+    values_to = "Date"
+  ) %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date)) %>%
+  
+  # Filter out NA dates 
+  filter(!is.na(Date))
 
+# Recompute duration in months
+title_durations <- data_long %>%
+  group_by(Title) %>%
+  mutate(
+    Classification = "Sem",
+    StageDuration = interval(Date, lead(Date)) %/% months(1),
+    MonthsSinceStart = interval(min(Date), Date) %/% months(1),
+    Duration = interval(min(Date), max(Date))%/% months(1)) 
 
-
+write.csv(title_durations, file = "CSVFiles/SpecificChanges/All Data/sem stage 2 duration.csv", append=TRUE)
 
