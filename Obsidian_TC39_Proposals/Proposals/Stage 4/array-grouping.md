@@ -2,7 +2,7 @@
 Stage 2: 2021-10-27  
 Stage 2.7: NA  
 Stage 3: 2023-08-01  
-Stage 4: 2023-11-27<br>Last Commit: 2023-11-27<br>Keywords: #grouping #array #object #map #iterables #method #prototype #key #data #tuples<br>GitHub Link: https://github.com/tc39/proposal-array-grouping <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-27.md#array-grouping-for-stage-4
+Stage 4: 2023-11-27<br>Last Commit: 2023-11-27<br>Keywords: #array #map #iterables <br>GitHub Link: https://github.com/tc39/proposal-array-grouping <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-27.md#array-grouping-for-stage-4
 # Proposal Description:
 # proposal-array-grouping
 

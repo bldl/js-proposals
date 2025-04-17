@@ -2,7 +2,7 @@
 Stage 2: 2015-08-02  
 Stage 2.7: NA  
 Stage 3: 2015-09-29  
-Stage 4: 2015-10-08<br>Last Commit: 2020-11-19<br>Keywords: #promises #generators #asynchronous #compilation #es5 #execution #vanilla #browser #runtimes #example<br>GitHub Link: https://github.com/tc39/proposal-async-await <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-28.md#10iv-async-functions
+Stage 4: 2015-10-08<br>Last Commit: 2020-11-19<br>Keywords: #promises #generators #asynchronous <br>GitHub Link: https://github.com/tc39/proposal-async-await <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-28.md#10iv-async-functions
 # Proposal Description:
 # Async Functions for  ECMAScript
 

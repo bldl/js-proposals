@@ -2,7 +2,7 @@
 Stage 2: 2020-09-08  
 Stage 2.7: NA  
 Stage 3: 2020-09-23  
-Stage 4: 2022-01-24<br>Last Commit: 2022-01-24<br>Keywords: #negative_indexing #indexable #method #array #string #typedarray #property_access #polyfill #webidl #dom<br>GitHub Link: https://github.com/tc39/proposal-relative-indexing-method <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#relative-indexing-at-method-for-stage-4
+Stage 4: 2022-01-24<br>Last Commit: 2022-01-24<br>Keywords: #index #array #typedarray <br>GitHub Link: https://github.com/tc39/proposal-relative-indexing-method <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#relative-indexing-at-method-for-stage-4
 # Proposal Description:
 # Proposal for an `.at()` method on all the built-in indexables
 

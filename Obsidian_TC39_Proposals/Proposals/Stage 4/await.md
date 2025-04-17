@@ -2,7 +2,7 @@
 Stage 2: 2018-05-22  
 Stage 2.7: NA  
 Stage 3: 2019-06-06  
-Stage 4: 2021-05-25<br>Last Commit: 2021-05-28<br>Keywords: #await #modules #asynchronous #promises #import #execution #dynamism #initialization #dependencies #resource<br>GitHub Link: https://github.com/tc39/proposal-top-level-await <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#top-level-await
+Stage 4: 2021-05-25<br>Last Commit: 2021-05-28<br>Keywords: #modules #asynchronous #promises <br>GitHub Link: https://github.com/tc39/proposal-top-level-await <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#top-level-await
 # Proposal Description:
 # ECMAScript proposal: Top-level `await`
 
