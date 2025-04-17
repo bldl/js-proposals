@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 4/change-array-by-copy.md",
+                "file": "Proposals/Stage 4/exponentiation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "change-array-by-copy"
+              "title": "exponentiation"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#string",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,17 +183,24 @@
   },
   "active": "a5cb770293501711",
   "lastOpenFiles": [
+    "Proposals/Stage 4/escape.md",
+    "Proposals/Stage 4/error-cause.md",
+    "Proposals/Stage 4/dynamic-import.md",
+    "Proposals/Stage 4/dot-all.md",
+    "Proposals/Stage 4/change-array-by-copy.md",
     "Proposals/Stage 4/chaining.md",
-    "Proposals/Stage 4/bigint.md",
     "Proposals/Stage 4/await.md",
+    "Proposals/Stage 4/bigint.md",
+    "Proposals/Stage 4/atomics.md",
     "Proposals/Stage 4/at.md",
     "Proposals/Stage 4/async-iteration.md",
     "Proposals/Stage 4/async-await.md",
     "Proposals/Stage 4/arraybuffer-transfer.md",
-    "Proposals/Stage 4/atomics.md",
-    "Proposals/Stage 4/allsettled.md",
-    "Proposals/Stage 4/array-grouping.md",
     "Proposals/Stage 4/array-includes.md",
+    "Proposals/Stage 4/array-grouping.md",
+    "Proposals/Stage 4/allsettled.md",
+    "Proposals/Stage 4/matchall.md",
+    "Proposals/Stage 1/block-params.md",
     "Analysis/Stages/Stage 4.md",
     "Analysis/Stages/Inactive.md",
     "Analysis/Classifications/Syntactic Change.md",
@@ -202,23 +209,16 @@
     "Analysis/Classifications/API Change.md",
     "Analysis/Stages/Stage 0.md",
     "Proposals/Stage 3/redeclarable-global-eval-vars.md",
-    "Proposals/Stage 3/math-sum.md",
-    "Analysis/Stages/Stage 2.7.md",
-    "Proposals/Stage 2.7/math-sum.md",
     "Analysis/Stages/Plots/Stage0Plot1.pdf",
     "Analysis/Stages/Plots/InactivePlot1.pdf",
     "Analysis/Stages/Plots",
     "Analysis/Stages/Plots/Stage4Plot1.pdf",
-    "Analysis/Stages/Stage 3.md",
     "Analysis/Stages/Plots/Stage3Plot1.pdf",
-    "Analysis/Stages/Stage 2.md",
-    "Analysis/Stages/Stage 1.md",
     "Analysis/Stages/Plots/Stage2Plot1.pdf",
     "Analysis/Stages/Plots/Stage2.7Plot1.pdf",
     "Analysis/Stages/Plots/InactivePlot4.pdf",
     "Analysis/Stages/Plots/Stage1Plot1.pdf",
     "Analysis/Stages/Plots/Stage1Plot4.pdf",
-    "index.md",
     "Untitled.canvas"
   ]
 }

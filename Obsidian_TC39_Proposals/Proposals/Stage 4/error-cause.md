@@ -2,7 +2,7 @@
 Stage 2: 2020-11-19  
 Stage 2.7: NA  
 Stage 3: 2021-03-10  
-Stage 4: 2021-10-26<br>Last Commit: 2021-10-26<br>Keywords: #error_handling #contextual_information #exception_design #chained_errors #error_instances #diagnosis #augmented_errors #cause_property #standardization #debug_tooling<br>GitHub Link: https://github.com/tc39/proposal-error-cause <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-26.md#error-cause-for-stage-4
+Stage 4: 2021-10-26<br>Last Commit: 2021-10-26<br>Keywords: #error #error_handling #debugging <br>GitHub Link: https://github.com/tc39/proposal-error-cause <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-26.md#error-cause-for-stage-4
 # Proposal Description:
 # Error Cause
 
