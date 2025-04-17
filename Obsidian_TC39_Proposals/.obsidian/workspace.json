@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 4/async-iteration.md",
+                "file": "Proposals/Stage 4/class-fields.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "async-iteration"
+              "title": "class-fields"
             }
           }
         ]
@@ -178,37 +178,38 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "publish:Publish changes...": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "a5cb770293501711",
+  "active": "3907ea67d135be80",
   "lastOpenFiles": [
+    "Proposals/Stage 4/dot-all.md",
+    "Proposals/Stage 4/class-fields.md",
+    "Proposals/Stage 4/private-fields-in-in.md",
+    "Proposals/Stage 4/nonblocking.md",
+    "Proposals/Stage 4/error-cause.md",
+    "Proposals/Stage 3/atomics-pause.md",
+    "Proposals/Stage 4/chaining.md",
+    "Proposals/Stage 4/bigint.md",
+    "Proposals/Stage 4/await.md",
+    "Proposals/Stage 4/atomics.md",
+    "Proposals/Stage 4/async-iteration.md",
+    "Proposals/Stage 2/async-iterator-helpers.md",
     "Proposals/Stage 4/async-await.md",
     "Proposals/Stage 4/arraybuffer-transfer.md",
+    "Proposals/Stage 4/allsettled.md",
+    "Proposals/Stage 1/once.md",
     "Proposals/Inactive/buffer-transfer.md",
     "Proposals/Stage 4/array-includes.md",
     "Proposals/Stage 4/array-grouping.md",
-    "Proposals/Stage 4/allsettled.md",
     "Proposals/Stage 4/finally.md",
-    "Proposals/Stage 4/await.md",
     "Proposals/Stage 4/exponentiation.md",
-    "Proposals/Stage 4/bigint.md",
     "Proposals/Stage 4/escape.md",
     "Proposals/Stage 2/record-tuple.md",
     "Proposals/Stage 2/pipeline.md",
     "Proposals/Stage 2/module-expressions.md",
     "Proposals/Stage 2/module-declarations.md",
-    "Proposals/Stage 2/map-emplace.md",
-    "Proposals/Stage 2/json-parse-immutable.md",
-    "Proposals/Stage 2/iterator-range.md",
-    "Proposals/Stage 2/isTemplateObject.md",
-    "Proposals/Stage 2/function-sent.md",
-    "Proposals/Stage 2/extractors.md",
-    "Proposals/Stage 2/discards.md",
-    "Proposals/Stage 2/destructure-private.md",
-    "Proposals/Stage 2/collection-rekey.md",
-    "Proposals/Stage 2/chunking.md",
-    "Proposals/Stage 2/censorship.md",
     "Analysis/Stages/Plots/Stage0Plot1.pdf",
     "Analysis/Stages/Plots/InactivePlot1.pdf",
     "Analysis/Stages/Plots",

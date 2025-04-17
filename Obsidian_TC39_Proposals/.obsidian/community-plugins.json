@@ -1,9 +1,5 @@
 [
-  "obsidian-git",
   "execute-code",
   "obsidian-vault-statistics-plugin",
-  "quick-explorer",
-  "obsidian-query-language",
-  "dataview",
-  "obisidian-note-linker"
+  "quick-explorer"
 ]
