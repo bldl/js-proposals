@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 4/bigint.md",
+                "file": "Proposals/Stage 4/change-array-by-copy.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "bigint"
+              "title": "change-array-by-copy"
             }
           }
         ]
@@ -183,12 +183,13 @@
   },
   "active": "a5cb770293501711",
   "lastOpenFiles": [
+    "Proposals/Stage 4/chaining.md",
+    "Proposals/Stage 4/bigint.md",
     "Proposals/Stage 4/await.md",
     "Proposals/Stage 4/at.md",
     "Proposals/Stage 4/async-iteration.md",
     "Proposals/Stage 4/async-await.md",
     "Proposals/Stage 4/arraybuffer-transfer.md",
-    "Proposals/Stage 4/bigint.md",
     "Proposals/Stage 4/atomics.md",
     "Proposals/Stage 4/allsettled.md",
     "Proposals/Stage 4/array-grouping.md",
@@ -218,7 +219,6 @@
     "Analysis/Stages/Plots/Stage1Plot1.pdf",
     "Analysis/Stages/Plots/Stage1Plot4.pdf",
     "index.md",
-    "Proposals/Stage 2.7/esm-phase.md",
     "Untitled.canvas"
   ]
 }

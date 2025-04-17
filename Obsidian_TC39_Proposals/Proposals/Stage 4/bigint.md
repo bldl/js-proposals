@@ -2,7 +2,7 @@
 Stage 2: 2017-03-23  
 Stage 2.7: NA  
 Stage 3: 2017-07-27  
-Stage 4: 2019-09-30<br>Last Commit: 2019-09-30<br>Keywords: #bigint #integers #interoperation #typedarray <br>GitHub Link: https://github.com/tc39/proposal-bigint <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-06/june-4.md#bigint-to-stage-4
+Stage 4: 2019-09-30<br>Last Commit: 2019-09-30<br>Keywords: #bigint #integers <br>GitHub Link: https://github.com/tc39/proposal-bigint <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-06/june-4.md#bigint-to-stage-4
 # Proposal Description:
 # BigInt: Arbitrary precision integers in JavaScript
 
