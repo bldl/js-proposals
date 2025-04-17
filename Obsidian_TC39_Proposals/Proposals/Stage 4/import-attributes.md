@@ -2,7 +2,7 @@
 Stage 2: 2020-06-04  
 Stage 2.7: NA  
 Stage 3: 2020-09-22  
-Stage 4: 2024-12-12<br>Last Commit: 2024-12-12<br>Keywords: #import_attributes #module_imports #json_modules #key_value #type_attribute #data_security #module_specifier #interoperability #semantic_integration #developer_experience<br>GitHub Link: https://github.com/tc39/proposal-import-attributes <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#import-attributes-and-json-modules-for-stage-4
+Stage 4: 2024-12-12<br>Last Commit: 2024-12-12<br>Keywords: #module #security #module_specifier <br>GitHub Link: https://github.com/tc39/proposal-import-attributes <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#import-attributes-and-json-modules-for-stage-4
 # Proposal Description:
 # Import Attributes
 
@@ -18,7 +18,7 @@ Please leave any feedback you have in the [issues](http://github.com/tc39/propos
 
 ## Synopsis
 
-The Import Attributes proposal, formerly known as Import Assertions, adds an inline syntax for module import statements to pass on more information alongside the module specifier. The initial application for such attributes will be to support additional types of modules in a common way across JavaScript environments, starting with [JSON modules](http://github.com/tc39/proposal-json-modules).
+The Import Attributes proposal, formerly known as Import Assertions, adds an inline syntax for module import statements to pass on more information alongside the module specifier. The initial application for such attributes will be to support additional types of modules in a common way across JavaScript environments, starting with [[json-modules]].
 
 The syntax will be as follows (shown here is the proposed method for importing a JSON module):
 ```js

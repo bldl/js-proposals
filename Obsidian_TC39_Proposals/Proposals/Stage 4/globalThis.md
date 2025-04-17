@@ -2,7 +2,7 @@
 Stage 2: 2016-03-29  
 Stage 2.7: NA  
 Stage 3: 2016-09-29  
-Stage 4: 2019-10-01<br>Last Commit: 2019-10-01<br>Keywords: #global_object #window #windowproxy #shadow_global #context #writable #configurable #navigation #csp #ses<br>GitHub Link: https://github.com/tc39/proposal-global <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-1.md#globalthis-to-stage-4
+Stage 4: 2019-10-01<br>Last Commit: 2019-10-01<br>Keywords: #global #window #windowproxy <br>GitHub Link: https://github.com/tc39/proposal-global <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-1.md#globalthis-to-stage-4
 # Proposal Description:
 # [globalThis](https://www.npmjs.com/package/globalthis)
 ECMAScript Proposal, specs, and reference implementation for `globalThis`

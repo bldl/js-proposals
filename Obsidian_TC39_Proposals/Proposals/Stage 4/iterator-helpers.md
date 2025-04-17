@@ -2,7 +2,7 @@
 Stage 2: 2019-07-24  
 Stage 2.7: NA  
 Stage 3: 2022-12-01  
-Stage 4: 2024-10-08<br>Last Commit: 2024-10-08<br>Keywords: #iterator #map #filter #take #drop #flatMap #reduce #toArray #some #every<br>GitHub Link: https://github.com/tc39/proposal-iterator-helpers <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-helpers-for-stage-4
+Stage 4: 2024-10-08<br>Last Commit: 2024-10-08<br>Keywords: #iterator #array <br>GitHub Link: https://github.com/tc39/proposal-iterator-helpers <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-helpers-for-stage-4
 # Proposal Description:
 # Iterator Helpers
 
@@ -20,7 +20,7 @@ Champions: Michael Ficarra, Yulia Startsev
 
 This proposal is at Stage 4 of [The TC39 Process](https://tc39.es/process-document/).
 
-This proposal formerly contained async as well as sync helpers. The async helpers have been split out to [a separate proposal](https://github.com/tc39/proposal-async-iterator-helpers).
+This proposal formerly contained async as well as sync helpers. The async helpers have been split out to a separate proposal - [[async-iterator-helpers]].
 
 ## Motivation
 

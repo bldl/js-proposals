@@ -2,7 +2,7 @@
 Stage 2: 2020-06-04  
 Stage 2.7: NA  
 Stage 3: 2021-02-01  
-Stage 4: 2024-10-08<br>Last Commit: 2023-12-12<br>Keywords: #json #module #import #attributes #parsing #interoperability #security #mime #export #ecosystem<br>GitHub Link: https://github.com/tc39/proposal-json-modules <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#import-attributes-and-json-modules-for-stage-4
+Stage 4: 2024-10-08<br>Last Commit: 2023-12-12<br>Keywords: #json #module #security <br>GitHub Link: https://github.com/tc39/proposal-json-modules <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#import-attributes-and-json-modules-for-stage-4
 # Proposal Description:
 # JSON modules
 

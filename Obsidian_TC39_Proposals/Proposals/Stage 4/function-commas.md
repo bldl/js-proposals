@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2015-11-16  
-Stage 4: 2016-07-28<br>Last Commit: 2016-07-28<br>Keywords: #trailing_comma #function_parameter #code_style #version_control #blame #syntax #grammar #parameter_list #code_attribution #transpilation<br>GitHub Link: https://github.com/tc39/proposal-trailing-function-commas <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-26.md#9ie-trailing-commas-in-functions
+Stage 4: 2016-07-28<br>Last Commit: 2016-07-28<br>Keywords:  #code_style #grammar #transpilation<br>GitHub Link: https://github.com/tc39/proposal-trailing-function-commas <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-26.md#9ie-trailing-commas-in-functions
 # Proposal Description:
 # Proposal to allow trailing commas in function parameter lists
 

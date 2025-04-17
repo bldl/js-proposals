@@ -2,7 +2,7 @@
 Stage 2: 2019-08-22  
 Stage 2.7: NA  
 Stage 3: 2019-11-08  
-Stage 4: 2020-02-11<br>Last Commit: 2020-02-11<br>Keywords: #for-in #enumeration #interop #properties #enumerable #inheritance #object #prototype #applied #ordering<br>GitHub Link: https://github.com/tc39/proposal-for-in-order <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#for-in-order-for-stage-4
+Stage 4: 2020-02-11<br>Last Commit: 2020-02-11<br>Keywords: #enumeration #ordering #iterator<br>GitHub Link: https://github.com/tc39/proposal-for-in-order <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#for-in-order-for-stage-4
 # Proposal Description:
 **This proposal has been accepted and [merged into the main specification](https://github.com/tc39/ecma262/pull/1791). This repository exists only for historical interest.**
 

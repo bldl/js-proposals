@@ -2,7 +2,7 @@
 Stage 2: 2017-11-29  
 Stage 2.7: NA  
 Stage 3: 2018-01-25  
-Stage 4: 2018-05-22<br>Last Commit: 2019-02-13<br>Keywords: #json #syntax #characters #serialization #complexity #conformance #parsing #validity #unicode #line_terminators<br>GitHub Link: https://github.com/tc39/proposal-json-superset <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-22.md#conclusionresolution-8
+Stage 4: 2018-05-22<br>Last Commit: 2019-02-13<br>Keywords: #json #grammar #parsing <br>GitHub Link: https://github.com/tc39/proposal-json-superset <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-22.md#conclusionresolution-8
 # Proposal Description:
 # Subsume JSON (a.k.a. JSON ⊂ ECMAScript)
 

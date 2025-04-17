@@ -2,7 +2,7 @@
 Stage 2: 2022-12-02  
 Stage 2.7: NA  
 Stage 3: 2023-02-01  
-Stage 4: 2024-07-12<br>Last Commit: 2024-07-12<br>Keywords: #arraybuffer #memory_management <br>GitHub Link: https://github.com/tc39/proposal-arraybuffer-transfer <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#arraybuffer-transfer-for-stage-4
+Stage 4: 2024-07-12<br>Last Commit: 2024-07-12<br>Keywords: #arraybuffer #memory_management #performance <br>GitHub Link: https://github.com/tc39/proposal-arraybuffer-transfer <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#arraybuffer-transfer-for-stage-4
 # Proposal Description:
 # `ArrayBuffer.prototype.transfer` and friends
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 4/class-fields.md",
+                "file": "Proposals/Stage 4/nullish-coalescing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "class-fields"
+              "title": "nullish-coalescing"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#perf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,46 +170,43 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "publish:Publish changes...": false,
-      "obsidian-git:Open Git source control": false,
-      "obisidian-note-linker:Note Linker": false
+      "publish:Publish changes...": false
     }
   },
-  "active": "3907ea67d135be80",
+  "active": "a5cb770293501711",
   "lastOpenFiles": [
-    "Proposals/Stage 4/dot-all.md",
-    "Proposals/Stage 4/class-fields.md",
-    "Proposals/Stage 4/private-fields-in-in.md",
     "Proposals/Stage 4/nonblocking.md",
-    "Proposals/Stage 4/error-cause.md",
-    "Proposals/Stage 3/atomics-pause.md",
-    "Proposals/Stage 4/chaining.md",
-    "Proposals/Stage 4/bigint.md",
-    "Proposals/Stage 4/await.md",
     "Proposals/Stage 4/atomics.md",
-    "Proposals/Stage 4/async-iteration.md",
-    "Proposals/Stage 2/async-iterator-helpers.md",
-    "Proposals/Stage 4/async-await.md",
+    "Proposals/Stage 4/named-groups.md",
+    "Proposals/Stage 4/named-capture-groups.md",
+    "Proposals/Stage 4/matchall.md",
+    "Proposals/Stage 4/globalThis.md",
+    "Proposals/Stage 4/lookbehind.md",
+    "Proposals/Stage 4/logical-assignment.md",
+    "Proposals/Stage 4/json-superset.md",
+    "Proposals/Stage 4/find-last.md",
+    "Proposals/Stage 4/error-cause.md",
+    "Proposals/Stage 4/dynamic-import.md",
     "Proposals/Stage 4/arraybuffer-transfer.md",
-    "Proposals/Stage 4/allsettled.md",
-    "Proposals/Stage 1/once.md",
-    "Proposals/Inactive/buffer-transfer.md",
-    "Proposals/Stage 4/array-includes.md",
-    "Proposals/Stage 4/array-grouping.md",
-    "Proposals/Stage 4/finally.md",
-    "Proposals/Stage 4/exponentiation.md",
+    "Proposals/Stage 4/json-modules.md",
+    "Proposals/Stage 4/iterator-helpers.md",
+    "Proposals/Stage 4/import-meta.md",
+    "Proposals/Stage 4/import-attributes.md",
+    "Proposals/Stage 4/hashbang-grammar.md",
+    "Proposals/Stage 4/bigint.md",
+    "Proposals/Stage 4/chaining.md",
+    "Proposals/Stage 4/change-array-by-copy.md",
+    "Proposals/Stage 4/class-fields.md",
+    "Proposals/Stage 4/dot-all.md",
     "Proposals/Stage 4/escape.md",
-    "Proposals/Stage 2/record-tuple.md",
-    "Proposals/Stage 2/pipeline.md",
-    "Proposals/Stage 2/module-expressions.md",
-    "Proposals/Stage 2/module-declarations.md",
+    "Proposals/Stage 4/exponentiation.md",
+    "Proposals/Stage 4/finally.md",
     "Analysis/Stages/Plots/Stage0Plot1.pdf",
     "Analysis/Stages/Plots/InactivePlot1.pdf",
     "Analysis/Stages/Plots",

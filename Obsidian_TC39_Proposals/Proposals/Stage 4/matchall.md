@@ -2,7 +2,7 @@
 Stage 2: 2017-09-28  
 Stage 2.7: NA  
 Stage 3: 2018-01-24  
-Stage 4: 2019-03-26<br>Last Commit: 2018-12-11<br>Keywords: #string #regex #matches #capturing #iterator #global #sticky #performance #mutate #groups<br>GitHub Link: https://github.com/tc39/proposal-string-matchall <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-26.md#stringprototypematchall-for-stage-4
+Stage 4: 2019-03-26<br>Last Commit: 2018-12-11<br>Keywords:  #regex #iterator #global #performance <br>GitHub Link: https://github.com/tc39/proposal-string-matchall <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-26.md#stringprototypematchall-for-stage-4
 # Proposal Description:
 # String.prototype.matchAll
 Proposal and specs for String.prototype.matchAll.

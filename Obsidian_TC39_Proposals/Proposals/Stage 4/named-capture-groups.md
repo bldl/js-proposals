@@ -2,7 +2,7 @@
 Stage 2: 2022-06-07  
 Stage 2.7: NA  
 Stage 3: 2022-08-01  
-Stage 4: NA<br>Last Commit: 2023-03-11<br>Keywords: #named_capturing_group #regular_expression #backreference #alternative #group_name #match_result #property_enumeration #syntax #semantics #input_consumption<br>GitHub Link: https://github.com/tc39/proposal-duplicate-named-capturing-groups <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#duplicate-named-capture-groups-for-stage-4
+Stage 4: NA<br>Last Commit: 2023-03-11<br>Keywords: #named_groups #regex #backreference <br>GitHub Link: https://github.com/tc39/proposal-duplicate-named-capturing-groups <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#duplicate-named-capture-groups-for-stage-4
 # Proposal Description:
 # Duplicate named capturing groups
 

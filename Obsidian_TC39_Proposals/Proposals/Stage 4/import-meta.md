@@ -2,7 +2,7 @@
 Stage 2: 2017-05-25  
 Stage 2.7: NA  
 Stage 3: 2017-09-28  
-Stage 4: 2020-05-01<br>Last Commit: 2020-05-01<br>Keywords: #module #metadata #module_system #script_element #host_environment #resource_resolution #url #package_json #dynamic_loading #extensibility<br>GitHub Link: https://github.com/tc39/proposal-import-meta <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-03/april-1.md#importmeta-for-stage-4-continued-from-previous-day
+Stage 4: 2020-05-01<br>Last Commit: 2020-05-01<br>Keywords: #module  #host_environment <br>GitHub Link: https://github.com/tc39/proposal-import-meta <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-03/april-1.md#importmeta-for-stage-4-continued-from-previous-day
 # Proposal Description:
 # import.meta
 

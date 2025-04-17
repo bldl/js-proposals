@@ -2,7 +2,7 @@
 Stage 2: 2016-12-06  
 Stage 2.7: NA  
 Stage 3: 2017-03-22  
-Stage 4: 2018-01-24<br>Last Commit: 2018-01-26<br>Keywords: #lookbehind #zero_width #assertions #capture_groups #negative_assertion #greedy_quantifiers #backtracking #pattern_matching #dollar_amount #regular_expression<br>GitHub Link: https://github.com/tc39/proposal-regexp-lookbehind <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#conclusionresolution-16
+Stage 4: 2018-01-24<br>Last Commit: 2018-01-26<br>Keywords: #assertions #pattern_matching #regex<br>GitHub Link: https://github.com/tc39/proposal-regexp-lookbehind <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#conclusionresolution-16
 # Proposal Description:
 # RegExp Lookbehind Assertions
 
