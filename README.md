@@ -1,6 +1,6 @@
 # tc39_proposals_project
 
-Available: https://ecmascript-proposals.vercel.app/
+Available: https://ecmascript-proposals.no
 
 20 credit z-inf project
 
