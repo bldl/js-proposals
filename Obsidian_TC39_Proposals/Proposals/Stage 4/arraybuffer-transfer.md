@@ -16,7 +16,7 @@ Champion: Shu-yu Guo (@syg), Jordan Harband (@ljharb), Yagiz Nizipli (@anonrig)
 
 `ArrayBuffer`s may be transferred and detached by HTML's serialization algorithms, but there lacks a programmatic JS API for the same expressivity. A programmatic API is useful for programming patterns such as transferring ownership of `ArrayBuffer`s, optimized reallocations (i.e. `realloc` semantics), and fixing resizable `ArrayBuffer`s into fixed-length ones. This proposal fills out this expressivity by adding new methods to `ArrayBuffer.prototype`.
 
-This proposal is spun out of the [resizable buffers proposal](https://github.com/tc39/proposal-resizablearraybuffer/issues/113). At the time of spinning out, resizable buffers was Stage 3, and this proposal was demoted to Stage 2.
+This proposal is spun out of the [[resizable]] [proposal](https://github.com/tc39/proposal-resizablearraybuffer/issues/113). At the time of spinning out, resizable buffers was Stage 3, and this proposal was demoted to Stage 2.
 
 
 ## API
