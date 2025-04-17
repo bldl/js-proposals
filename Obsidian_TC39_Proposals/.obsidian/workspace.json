@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Stages/Stage 2.7.md",
+                "file": "Proposals/Stage 3/redeclarable-global-eval-vars.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Stage 2.7"
+              "title": "redeclarable-global-eval-vars"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "line: \"try\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,6 +183,8 @@
   },
   "active": "3907ea67d135be80",
   "lastOpenFiles": [
+    "Proposals/Stage 3/math-sum.md",
+    "Analysis/Stages/Stage 2.7.md",
     "Proposals/Stage 2.7/math-sum.md",
     "Analysis/Stages/Plots/Stage0Plot1.pdf",
     "Analysis/Stages/Plots/InactivePlot1.pdf",
@@ -191,7 +193,6 @@
     "Analysis/Stages/Plots/Stage4Plot1.pdf",
     "Analysis/Stages/Stage 3.md",
     "Analysis/Stages/Plots/Stage3Plot1.pdf",
-    "Analysis/Stages/Stage 2.7.md",
     "Analysis/Stages/Stage 2.md",
     "Analysis/Stages/Stage 1.md",
     "Analysis/Stages/Plots/Stage2Plot1.pdf",
@@ -218,7 +219,6 @@
     "Proposals/Stage 1/negated-in.md",
     "Proposals/Stage 1/func-obj-decs.md",
     "Proposals/Stage 2/extractors.md",
-    "Proposals/Stage 2/discards.md",
     "Untitled.canvas"
   ]
 }

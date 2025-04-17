@@ -1,4 +1,4 @@
-[[Stage 2.7]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Math.sumPrecise<br>Authors: Kevin Gibbons<br>Champions: Kevin Gibbons<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2023-12-24  
+[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Math.sumPrecise<br>Authors: Kevin Gibbons<br>Champions: Kevin Gibbons<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2023-12-24  
 Stage 2: 2024-02-21  
 Stage 2.7: 2024-04-09  
 Stage 3: 2024-10-27  

@@ -1603,9 +1603,6 @@ ggplot(data, aes(x=name, y=value, fill = name)) +
 
 
 
-
-
-
 # specific changes api stage 3
 
 #Look at single stage
@@ -4143,6 +4140,54 @@ ggplot(data, aes(x=name, y=value, fill = name)) +
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Create bar plot for from data from spreadsheet
+data <- data.frame(
+  name=c("Stage 1", "Stage 2", "Stage 3") ,  
+  value=as.numeric(c(10.0740740740741, 7.86075949367089, 15.031746031746)),
+  sd=as.numeric(c(14.1684312626502, 11.9322168692902, 14.2850793509694)
+  ))
+
+# Barplot
+ggplot(data, aes(x=name, y=value, fill = name)) + 
+  geom_bar(stat = "identity", width=0.2) + 
+  geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
+  geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
+  scale_fill_brewer(palette = "Set1") + 
+  labs(x = "Stage", y = "Time in Months", title = "Duration per stage for all active Proposals") +
+  theme(legend.position="none")
+
+
+
+
+
+
+
+#Create CSV files of specific stage for speadsheet analysis
 
 data <- read.csv("CSVFiles/SpecificChanges/Stage 2/sem Specific Stage 2.csv")
 
