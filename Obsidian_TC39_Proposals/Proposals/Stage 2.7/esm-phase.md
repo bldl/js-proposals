@@ -2,7 +2,7 @@
 Stage 2: 2024-06-18  
 Stage 2.7: 2024-12-05  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2025-02-05<br>Keywords: #module #worker #import #source #resolution #analysis #ergonomics #tooling #dynamics #csp<br>GitHub Link: https://github.com/tc39/proposal-esm-phase-imports <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#esm-phase-imports
+Stage 4: NA<br>Last Commit: 2025-02-05<br>Keywords: #module #worker #performance <br>GitHub Link: https://github.com/tc39/proposal-esm-phase-imports <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#esm-phase-imports
 # Proposal Description:
 # ECMAScript Module Phase Imports
 

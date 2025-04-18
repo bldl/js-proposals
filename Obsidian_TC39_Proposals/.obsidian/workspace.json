@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8d5688a8bfc34aeb",
+        "id": "428de78ae2596f5d",
         "type": "tabs",
         "children": [
           {
-            "id": "780f58cda63eed2f",
+            "id": "b4860d9c664acf27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 3/uint8array-base64.md",
+                "file": "Proposals/Stage 2.7/shadowrealm.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "uint8array-base64"
+              "title": "shadowrealm"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stringify",
+                "query": "tag:#modularity",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,8 +179,16 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "780f58cda63eed2f",
+  "active": "3907ea67d135be80",
   "lastOpenFiles": [
+    "explainer.md",
+    "Proposals/Stage 2.7/shadowrealm.md",
+    "Proposals/Stage 2.7/sequencing.md",
+    "Proposals/Stage 2.7/lazy-import.md",
+    "Proposals/Stage 2.7/joint.md",
+    "Proposals/Stage 2.7/immutable-abs.md",
+    "Proposals/Stage 2.7/esm-phase.md",
+    "Proposals/Stage 3/uint8array-base64.md",
     "Proposals/Stage 3/time-zone-canon.md",
     "Proposals/Stage 3/temporal.md",
     "Proposals/Stage 3/source-phase-imports.md",
@@ -199,14 +207,6 @@
     "Proposals/Stage 3/is-error.md",
     "Proposals/Stage 3/from-async.md",
     "Proposals/Stage 3/float16s.md",
-    "Proposals/Stage 4/numeric_separators.md",
-    "Proposals/Stage 4/bigint.md",
-    "Proposals/Stage 4/resizable.md",
-    "Proposals/Inactive/refcollection.md",
-    "Proposals/Stage 1/memoization.md",
-    "Proposals/Stage 1/oom.md",
-    "Proposals/Stage 1/mass-proxy-revocation.md",
-    "Proposals/Stage 2.7/immutable-abs.md",
     "github.com/tc39",
     "github.com",
     "Analysis/Stages/Plots/Stage0Plot1.pdf",

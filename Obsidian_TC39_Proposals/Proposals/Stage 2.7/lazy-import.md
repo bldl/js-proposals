@@ -2,7 +2,7 @@
 Stage 2: 2023-07-18  
 Stage 2.7: 2024-06-12  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2025-02-26<br>Keywords: #performance #lazy_loading #module_caching #evaluation #synchronous #dynamic_import #execution_graph #deferred_loading #namespace_object #asynchronous<br>GitHub Link: https://github.com/tc39/proposal-defer-import-eval <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#deferred-import-evaluation-for-stage-27
+Stage 4: NA<br>Last Commit: 2025-02-26<br>Keywords: #initialization #module #performance #namespace_object<br>GitHub Link: https://github.com/tc39/proposal-defer-import-eval <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-11.md#deferred-import-evaluation-for-stage-27
 # Proposal Description:
 # Deferring Module Evaluation
 

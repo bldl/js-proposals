@@ -2,7 +2,7 @@
 Stage 2: 2024-06-21  
 Stage 2.7: 2024-10-08  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-12-03<br>Keywords: #iterator #sequence #concatenate #generator #ergonomic #flatMap #values #immediate #data_structure #laziness<br>GitHub Link: https://github.com/tc39/proposal-iterator-sequencing <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-sequencing-for-stage-27
+Stage 4: NA<br>Last Commit: 2024-12-03<br>Keywords: #iterator #concatenate #generator <br>GitHub Link: https://github.com/tc39/proposal-iterator-sequencing <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-sequencing-for-stage-27
 # Proposal Description:
 Iterator Sequencing
 ===================
