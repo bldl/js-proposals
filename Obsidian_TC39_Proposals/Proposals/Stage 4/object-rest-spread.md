@@ -2,7 +2,7 @@
 Stage 2: 2015-08-25  
 Stage 2.7: NA  
 Stage 3: 2016-09-29  
-Stage 4: 2018-02-13<br>Last Commit: 2022-01-24<br>Keywords: #rest_properties #spread_properties #object_destructuring #object_literals #enumerable #property_keys #transpilers #object_initializers #property_values #copy<br>GitHub Link: https://github.com/tc39/proposal-object-rest-spread <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#restspread-properties-for-stage-4
+Stage 4: 2018-02-13<br>Last Commit: 2022-01-24<br>Keywords: #property #copy #iterable #rest_properties #spread_properties #destructuring<br>GitHub Link: https://github.com/tc39/proposal-object-rest-spread <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#restspread-properties-for-stage-4
 # Proposal Description:
 Object Rest/Spread Properties for ECMAScript
 --------------------------------------------

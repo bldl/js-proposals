@@ -2,7 +2,7 @@
 Stage 2: 2020-11-06  
 Stage 2.7: NA  
 Stage 3: 2021-01-27  
-Stage 4: 2021-08-31<br>Last Commit: 2021-08-31<br>Keywords: #static_initialization #class_definition #lexical_scope #privileged_access #private_state #static_analysis #multi_step_initialization #decorators #field_initialization #instance_private<br>GitHub Link: https://github.com/tc39/proposal-class-static-block <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#class-static-initialization-blocks-for-stage-4
+Stage 4: 2021-08-31<br>Last Commit: 2021-08-31<br>Keywords: #private_field #decorator #field_initialization #instance_private #class<br>GitHub Link: https://github.com/tc39/proposal-class-static-block <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#class-static-initialization-blocks-for-stage-4
 # Proposal Description:
 <!--#region:intro-->
 # ECMAScript class static initialization blocks

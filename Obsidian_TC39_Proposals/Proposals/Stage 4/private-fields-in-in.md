@@ -2,7 +2,7 @@
 Stage 2: 2020-06-01  
 Stage 2.7: NA  
 Stage 3: 2021-01-27  
-Stage 4: 2021-07-15<br>Last Commit: 2021-07-15<br>Keywords: #private_field #brand_check #boolean #getters #class_syntax #exception_handling #in_operator #fallback_behavior #private_access #data_encapsulation<br>GitHub Link: https://github.com/tc39/proposal-private-fields-in-in <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#ergonomic-brand-checks-for-stage-4
+Stage 4: 2021-07-15<br>Last Commit: 2021-07-15<br>Keywords: #private_field #brand_check #encapsulation #class<br>GitHub Link: https://github.com/tc39/proposal-private-fields-in-in <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#ergonomic-brand-checks-for-stage-4
 # Proposal Description:
 # Ergonomic brand checks for Private Fields
 

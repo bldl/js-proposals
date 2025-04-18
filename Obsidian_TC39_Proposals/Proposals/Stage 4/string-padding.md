@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2015-11-17  
-Stage 4: 2016-05-25<br>Last Commit: 2016-05-25<br>Keywords: #string_padding #string_manipulation #padding #fill_string #formatting #monospaced #efficiency #developer_productivity #string_functions #specification<br>GitHub Link: https://github.com/tc39/proposal-string-pad-start-end <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-05/may-25.md#stringprototypepadstartend-jhd
+Stage 4: 2016-05-25<br>Last Commit: 2016-05-25<br>Keywords: #string_manipulation #formatting #string<br>GitHub Link: https://github.com/tc39/proposal-string-pad-start-end <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-05/may-25.md#stringprototypepadstartend-jhd
 # Proposal Description:
 # [String.prototype.padStart](https://github.com/es-shims/String.prototype.padStart) / [String.prototype.padEnd](https://github.com/es-shims/String.prototype.padEnd)
 ECMAScript proposal, specs, tests, and reference implementation for String.prototype.padStart/padEnd.

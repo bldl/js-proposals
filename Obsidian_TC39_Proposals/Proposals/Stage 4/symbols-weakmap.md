@@ -2,7 +2,7 @@
 Stage 2: 2021-05-14  
 Stage 2.7: NA  
 Stage 3: 2022-06-07  
-Stage 4: 2023-01-30<br>Last Commit: 2022-06-07<br>Keywords: #weakmap #symbol #garbage_collection #referencing #primitive #immutability #membrane #identity #records #tuples<br>GitHub Link: https://github.com/tc39/proposal-symbols-as-weakmap-keys <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#symbols-as-weakmap-keys
+Stage 4: 2023-01-30<br>Last Commit: 2022-06-07<br>Keywords: #key_value_pairs  #symbol #referencing #records #tuples<br>GitHub Link: https://github.com/tc39/proposal-symbols-as-weakmap-keys <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#symbols-as-weakmap-keys
 # Proposal Description:
 # Symbols as WeakMap keys
 
@@ -58,7 +58,7 @@ weak.set(key, someObject);
 
 ### ShadowRealms, Membranes, and Virtualization
 
-The [ShadowRealms proposal](https://github.com/tc39/proposal-shadowrealm) disallows access to object values. For most virtualization cases, a membrane system is built on top of Realms-related API to connect references using WeakMaps. A Symbol value, being a primitive value, is still accessible, allowing membranes being structured with proper weakmaps using connected identities.
+The [[shadowrealm]] proposal disallows access to object values. For most virtualization cases, a membrane system is built on top of Realms-related API to connect references using WeakMaps. A Symbol value, being a primitive value, is still accessible, allowing membranes being structured with proper weakmaps using connected identities.
 
 ```javascript
 const objectLookup = new WeakMap();

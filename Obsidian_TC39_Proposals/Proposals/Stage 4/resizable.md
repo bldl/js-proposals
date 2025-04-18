@@ -2,7 +2,7 @@
 Stage 2: 2020-09-29  
 Stage 2.7: NA  
 Stage 3: 2021-05-26  
-Stage 4: 2023-10-24<br>Last Commit: 2023-10-24<br>Keywords: #arraybuffer #sharedarraybuffer #resizability #memory_management #typedarray #performance #security #in_place #growth #shrinking<br>GitHub Link: https://github.com/tc39/proposal-resizablearraybuffer <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-26.md#resizable-buffers-for-stage-4
+Stage 4: 2023-10-24<br>Last Commit: 2023-10-24<br>Keywords: #arraybuffer #sharedarraybuffer #memory_management #typed_array  #performance #security #iterator <br>GitHub Link: https://github.com/tc39/proposal-resizablearraybuffer <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-26.md#resizable-buffers-for-stage-4
 # Proposal Description:
 # In-Place Resizable and Growable `ArrayBuffer`s
 

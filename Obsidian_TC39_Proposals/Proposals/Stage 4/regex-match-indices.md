@@ -2,7 +2,7 @@
 Stage 2: 2019-07-12  
 Stage 2.7: NA  
 Stage 3: 2019-07-25  
-Stage 4: 2021-06-10<br>Last Commit: 2022-06-06<br>Keywords: #array #indices #captured #substrings #named #properties #regexp #exec #flag #performance<br>GitHub Link: https://github.com/tc39/proposal-regexp-match-indices <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#regexp-match-indices
+Stage 4: 2021-06-10<br>Last Commit: 2022-06-06<br>Keywords: #array #index #iterator  #property #regex #performance<br>GitHub Link: https://github.com/tc39/proposal-regexp-match-indices <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#regexp-match-indices
 # Proposal Description:
 <!--#region:intro-->
 # RegExp Match Indices for ECMAScript

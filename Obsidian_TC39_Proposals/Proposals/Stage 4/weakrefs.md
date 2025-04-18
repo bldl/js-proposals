@@ -2,7 +2,7 @@
 Stage 2: 2018-03-23  
 Stage 2.7: NA  
 Stage 3: 2019-06-07  
-Stage 4: 2020-12-16<br>Last Commit: 2022-01-24<br>Keywords: #weak_reference #finalization_registry #garbage_collection #memory_management #caching #resource_leaks #webassembly #memory_usage #iterable_weakmap #finalizers<br>GitHub Link: https://github.com/tc39/proposal-weakrefs <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
+Stage 4: 2020-12-16<br>Last Commit: 2022-01-24<br>Keywords: #weak_reference #finalizer #garbage_collection #memory_management #webassembly  #iterator  <br>GitHub Link: https://github.com/tc39/proposal-weakrefs <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
 # Proposal Description:
 # WeakRefs TC39 proposal
 

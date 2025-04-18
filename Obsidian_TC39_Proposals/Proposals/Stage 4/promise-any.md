@@ -2,7 +2,7 @@
 Stage 2: 2019-07-24  
 Stage 2.7: NA  
 Stage 3: 2019-10-04  
-Stage 4: 2020-07-21<br>Last Commit: 2020-08-10<br>Keywords: #promise #any #aggregate_error #iterable #error_handling #short_circuit #promise_combination #fulfilled #rejected #asynchronous<br>GitHub Link: https://github.com/tc39/proposal-promise-any <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#promiseany--aggregateerror-for-stage-4
+Stage 4: 2020-07-21<br>Last Commit: 2020-08-10<br>Keywords: #promise #iterable #error_handling #short_circuiting #asynchronous<br>GitHub Link: https://github.com/tc39/proposal-promise-any <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#promiseany--aggregateerror-for-stage-4
 # Proposal Description:
 # ECMAScript proposal: `Promise.any` + `AggregateError`
 

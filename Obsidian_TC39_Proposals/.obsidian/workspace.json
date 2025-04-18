@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "88d5de8ad927f1df",
+        "id": "8d5688a8bfc34aeb",
         "type": "tabs",
         "children": [
           {
-            "id": "9f63d1fab5155770",
+            "id": "780f58cda63eed2f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 4/object-rest-spread.md",
+                "file": "Proposals/Stage 4/symbols-weakmap.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "object-rest-spread"
+              "title": "symbols-weakmap"
             }
           }
         ]
@@ -179,36 +179,36 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "9f63d1fab5155770",
+  "active": "780f58cda63eed2f",
   "lastOpenFiles": [
+    "Proposals/Stage 4/well-formed-stringify.md",
+    "Proposals/Stage 4/weakrefs.md",
+    "Proposals/Stage 4/usv-string.md",
+    "Proposals/Stage 4/unicode-escapes.md",
+    "Proposals/Stage 4/try.md",
+    "Proposals/Stage 4/trims.md",
+    "Proposals/Stage 4/string-padding.md",
+    "Proposals/Stage 4/template-literal-lift.md",
+    "Proposals/Stage 4/symbols-weakmap.md",
+    "Proposals/Stage 4/symbol-description.md",
+    "Proposals/Stage 4/static-blocks.md",
+    "Proposals/Stage 4/class-fields.md",
+    "Proposals/Stage 4/private-fields-in-in.md",
+    "Proposals/Stage 4/set-methods.md",
+    "Proposals/Stage 4/resizable.md",
+    "Proposals/Stage 4/replace-all.md",
+    "Proposals/Stage 4/regexp-v-flag.md",
+    "Proposals/Stage 4/regexp-modifiers.md",
+    "Proposals/Stage 4/regex-match-indices.md",
+    "Proposals/Stage 4/promise-defer.md",
+    "Proposals/Stage 4/promise-any.md",
+    "Proposals/Stage 4/optional-catch.md",
+    "Proposals/Stage 4/object-values-entries.md",
+    "Proposals/Stage 4/object-rest-spread.md",
     "Proposals/Stage 4/object-has.md",
     "Proposals/Stage 4/object-gopds.md",
-    "Proposals/Stage 4/object-from-entries.md",
-    "Proposals/Stage 4/numeric_separators.md",
-    "Proposals/Stage 4/nullish-coalescing.md",
-    "Proposals/Stage 4/chaining.md",
-    "github.com/tc39/proposal-nullish-coalescing.md",
     "github.com/tc39",
     "github.com",
-    "Proposals/Stage 4/nonblocking.md",
-    "Proposals/Stage 4/named-capture-groups.md",
-    "Proposals/Stage 4/logical-assignment.md",
-    "Proposals/Stage 4/atomics.md",
-    "Proposals/Stage 4/named-groups.md",
-    "Proposals/Stage 4/matchall.md",
-    "Proposals/Stage 4/globalThis.md",
-    "Proposals/Stage 4/lookbehind.md",
-    "Proposals/Stage 4/json-superset.md",
-    "Proposals/Stage 4/find-last.md",
-    "Proposals/Stage 4/error-cause.md",
-    "Proposals/Stage 4/dynamic-import.md",
-    "Proposals/Stage 4/arraybuffer-transfer.md",
-    "Proposals/Stage 4/json-modules.md",
-    "Proposals/Stage 4/iterator-helpers.md",
-    "Proposals/Stage 4/import-meta.md",
-    "Proposals/Stage 4/import-attributes.md",
-    "Proposals/Stage 4/hashbang-grammar.md",
-    "Proposals/Stage 4/bigint.md",
     "Analysis/Stages/Plots/Stage0Plot1.pdf",
     "Analysis/Stages/Plots/InactivePlot1.pdf",
     "Analysis/Stages/Plots",

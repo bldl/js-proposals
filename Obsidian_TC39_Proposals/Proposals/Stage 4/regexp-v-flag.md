@@ -2,7 +2,7 @@
 Stage 2: 2021-05-27  
 Stage 2.7: NA  
 Stage 3: 2022-03-29  
-Stage 4: 2023-05-16<br>Last Commit: 2023-09-22<br>Keywords: #difference #intersection #nested #character_class #unicode #properties #regular_expression #set_operations #syntax #semantics<br>GitHub Link: https://github.com/tc39/proposal-regexp-v-flag <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#regexp-v-flag-for-stage-4
+Stage 4: 2023-05-16<br>Last Commit: 2023-09-22<br>Keywords:  #regex #flag #string #set<br>GitHub Link: https://github.com/tc39/proposal-regexp-v-flag <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-16.md#regexp-v-flag-for-stage-4
 # Proposal Description:
 # ECMAScript proposal: RegExp `v` flag with set notation + properties of strings
 

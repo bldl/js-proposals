@@ -2,7 +2,7 @@
 Stage 2: 2019-03-27  
 Stage 2.7: NA  
 Stage 3: 2019-10-03  
-Stage 4: 2020-06-27<br>Last Commit: 2021-02-19<br>Keywords: #string #substring #global #regexp #method #api #replace #optimization #occurrences #split<br>GitHub Link: https://github.com/tc39/proposal-string-replaceall <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-2.md#stringprototypereplaceall-for-stage-4
+Stage 4: 2020-06-27<br>Last Commit: 2021-02-19<br>Keywords: #string #global #regex #performance <br>GitHub Link: https://github.com/tc39/proposal-string-replaceall <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-2.md#stringprototypereplaceall-for-stage-4
 # Proposal Description:
 # `String.prototype.replaceAll` proposal
 

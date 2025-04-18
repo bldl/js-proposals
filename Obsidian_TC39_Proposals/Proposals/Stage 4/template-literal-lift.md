@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: 2017-10-12<br>Last Commit: 2022-01-24<br>Keywords: #syntax #tagged #transformations #expressions #interpolation #functionality #literals #performance #extensibility #unicode<br>GitHub Link: https://github.com/tc39/proposal-template-literal-revision <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-03/mar-21.md#10ia-template-literal-updates
+Stage 4: 2017-10-12<br>Last Commit: 2022-01-24<br>Keywords:  #expressions #interpolation #functionality #literals #performance #extensibility <br>GitHub Link: https://github.com/tc39/proposal-template-literal-revision <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-03/mar-21.md#10ia-template-literal-updates
 # Proposal Description:
 # Template Literals Revision
 
