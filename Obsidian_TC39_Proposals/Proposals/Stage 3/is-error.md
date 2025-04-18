@@ -2,7 +2,7 @@
 Stage 2: 2024-07-09  
 Stage 2.7: 2024-10-15  
 Stage 3: 2024-12-02  
-Stage 4: NA<br>Last Commit: 2025-01-09<br>Keywords: #error_handling #error_reporting #serialization #debugging #type_validation #cross_realm #brand_checking #native_errors #prototype_methods #structured_clone<br>GitHub Link: https://github.com/tc39/proposal-is-error <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#erroriserror-for-stage-27
+Stage 4: NA<br>Last Commit: 2025-01-09<br>Keywords: #error_handling #error #debug #serialization <br>GitHub Link: https://github.com/tc39/proposal-is-error <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#erroriserror-for-stage-27
 # Proposal Description:
 # [Error.isError]
 ECMAScript Proposal, specs, and reference implementation for `Error.isError`

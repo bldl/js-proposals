@@ -2,7 +2,7 @@
 Stage 2: 2019-07-25  
 Stage 2.7: NA  
 Stage 3: 2023-01-03  
-Stage 4: NA<br>Last Commit: 2024-06-15<br>Keywords: #keyword1 #resource_management #disposable_container #using_declaration #cleanup_logic #memory_management #iterator_prototype #synchronous_disposal #asynchronous_disposal #suppressed_error<br>GitHub Link: https://github.com/tc39/proposal-explicit-resource-management <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#explicit-resource-management-for-stage-3
+Stage 4: NA<br>Last Commit: 2024-06-15<br>Keywords:  #resource_management #memory_management <br>GitHub Link: https://github.com/tc39/proposal-explicit-resource-management <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#explicit-resource-management-for-stage-3
 # Proposal Description:
 # ECMAScript Explicit Resource Management
 

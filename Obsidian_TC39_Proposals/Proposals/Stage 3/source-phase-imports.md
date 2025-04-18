@@ -2,7 +2,7 @@
 Stage 2: 2022-07-19  
 Stage 2.7: NA  
 Stage 3: 2023-07-24  
-Stage 4: NA<br>Last Commit: 2025-02-08<br>Keywords: #module_source #webassembly #dynamic_import #static_analysis #module_loading #caching #security_policies #es_modules #host_execution #prototype_chain<br>GitHub Link: https://github.com/tc39/proposal-source-phase-imports <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-12.md#source-phase-imports-for-stage-3
+Stage 4: NA<br>Last Commit: 2025-02-08<br>Keywords: #module #webassembly #security #caching <br>GitHub Link: https://github.com/tc39/proposal-source-phase-imports <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-12.md#source-phase-imports-for-stage-3
 # Proposal Description:
 # Source Phase Imports
 

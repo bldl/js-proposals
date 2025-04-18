@@ -2,7 +2,7 @@
 Stage 2: 2023-05-18  
 Stage 2.7: NA  
 Stage 3: 2023-07-15  
-Stage 4: NA<br>Last Commit: 2023-09-26<br>Keywords: #time_zone #canonicalization #identifier #implementation #user_experience #specification #timezone_database #cross_implementation #time_zone_link #abstract_operations<br>GitHub Link: https://github.com/tc39/proposal-canonical-tz#readme <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2023-07/july-12.md#time-zone-canonicalization-for-stage-3
+Stage 4: NA<br>Last Commit: 2023-09-26<br>Keywords: #time #date #identifier <br>GitHub Link: https://github.com/tc39/proposal-canonical-tz#readme <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2023-07/july-12.md#time-zone-canonicalization-for-stage-3
 # Proposal Description:
 # Handling Time Zone Canonicalization Changes
 
@@ -16,7 +16,7 @@ This proposal is currently [Stage 3](https://github.com/tc39/proposals/tree/main
 This proposal reached Stage 3 at the July 2023 TC39 meeting.
 Stage 3 reviewers were: Philip Chimento ([@ptomato](https://github.com/ptomato)), Daniel Minor ([@dminor](https://github.com/dminor)), and Jordan Harband ([@ljharb](https://github.com/ljharb)).
 
-It was agreed at that meeting that this proposal should be merged into the [Temporal proposal](https://github.com/tc39/proposal-temporal), which is also at Stage 3.
+It was agreed at that meeting that this proposal should be merged into the [[temporal]] proposal which is also at Stage 3.
 This merger will happen via a normative PR into the Temporal repo, which this proposal's champions will file soon.
 After that PR lands, unresolved issues in this repo will be migrated to the [ECMA-402 repo](https://github.com/tc39/ecma402) and may be addressed via later normative PRs to ECMA-402.
 

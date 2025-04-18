@@ -2,7 +2,7 @@
 Stage 2: 2024-02-13  
 Stage 2.7: 2024-04-08  
 Stage 3: 2024-04-12  
-Stage 4: NA<br>Last Commit: 2024-04-19<br>Keywords: #eval #global_environment #var_names #redeclaration #configurable #global_scope #lexical_binding #implementation #complexity #shadowing<br>GitHub Link: https://github.com/tc39-transfer/proposal-redeclarable-global-eval-vars <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#make-eval-introduced-global-vars-redeclarable-for-stage-27
+Stage 4: NA<br>Last Commit: 2024-04-19<br>Keywords: #global #redeclaration #configurable <br>GitHub Link: https://github.com/tc39-transfer/proposal-redeclarable-global-eval-vars <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#make-eval-introduced-global-vars-redeclarable-for-stage-27
 # Proposal Description:
 # Make `eval`-introduced global `var`s redeclarable
 
@@ -21,7 +21,7 @@ Currently, at the global toplevel, it is an error to:
 
 While all global var and function bindings are also global properties, (1) is distinct from (2) because `var` and `function` bindings introduced by sloppy direct `eval` at the global toplevel are configurable (unlike `var` bindings introduced via script, which are non-configurable).
 
-This distinction is specified by tracking all `var` binding names in the [[[VarNames]] field on the Global Environment Record](https://tc39.es/ecma262/#table-additional-fields-of-global-environment-records).
+This distinction is specified by tracking all `var` binding names in the VarNames field on the Global Environment Record](https://tc39.es/ecma262/#table-additional-fields-of-global-environment-records).
 
 This proposal's claim is that this distinction has dubious utility and complicates both the mental model and implementation of the language.
 
@@ -55,7 +55,7 @@ function f() {
 }
 ```
 
-Second, the [[VarNames]] list has to be tracked specially, and is basically an extra bit on the property descriptor for all properties on the global object. This is extra implementation complexity.
+Second, the VarNames list has to be tracked specially, and is basically an extra bit on the property descriptor for all properties on the global object. This is extra implementation complexity.
 
 ## Proposal
 

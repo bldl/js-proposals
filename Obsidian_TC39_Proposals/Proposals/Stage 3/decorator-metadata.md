@@ -2,7 +2,7 @@
 Stage 2: 2022-04-10
 Stage 2.7: NA
 Stage 3: 2023-06-13
-Stage 4: NA<br>Last Commit: 2024-01-17<br>Keywords: #metadata #decorators #introspection #validation #serialization #dependency_injection #class_prototype #inheritance #weakmap #declarative_routing<br>GitHub Link: https://github.com/tc39/proposal-decorator-metadata <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-18.md#decorator-metadata-final-spec-text-review-for-stage-3
+Stage 4: NA<br>Last Commit: 2024-01-17<br>Keywords: #metadata #decorator #class  <br>GitHub Link: https://github.com/tc39/proposal-decorator-metadata <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-18.md#decorator-metadata-final-spec-text-review-for-stage-3
 # Proposal Description:
 <!-- @format -->
 
@@ -12,7 +12,7 @@ Stage 4: NA<br>Last Commit: 2024-01-17<br>Keywords: #metadata #decorators #intro
 
 **Spec Text**: https://github.com/pzuraq/ecma262/pull/10
 
-This proposal seeks to extend the [Decorators](https://github.com/tc39/proposal-decorators)
+This proposal seeks to extend the [[decorators]] proposal.
 proposal by adding the ability for decorators to associate _metadata_ with the
 value being decorated.
 

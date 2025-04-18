@@ -2,7 +2,7 @@
 Stage 2: 2020-07-23  
 Stage 2.7: NA  
 Stage 3: 2022-07-20  
-Stage 4: NA<br>Last Commit: 2023-09-26<br>Keywords: #reviver #serialization #bigint #raw_JSON #source_text #context #non_primitive #performance #transformation #input<br>GitHub Link: https://github.com/tc39/proposal-json-parse-with-source <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-19.md#conclusiondecision-2
+Stage 4: NA<br>Last Commit: 2023-09-26<br>Keywords: #parse #json #serialization #reviver #performance<br>GitHub Link: https://github.com/tc39/proposal-json-parse-with-source <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-19.md#conclusiondecision-2
 # Proposal Description:
 # JSON.parse source text access
 
@@ -23,7 +23,7 @@ This proposal is at stage 3 of [the TC39 Process](https://tc39.github.io/process
 Transformation between ECMAScript values and JSON text is lossy.
 This is most obvious in the case of deserializing numbers (e.g., `"999999999999999999"`, `"999999999999999999.0"`, and `"1000000000000000000"` all parse to `1000000000000000000`), but also comes up when attempting to round-tripping non-primitive values such as Date objects (e.g., `JSON.parse(JSON.stringify(new Date("2018-09-25T14:00:00Z")))` yields a string `"2018-09-25T14:00:00.000Z"`).
 
-Neither of these examples is hypothetical—serializing a [BigInt](https://github.com/tc39/proposal-bigint) as JSON is specified to throw an exception because there is no output that would round-trip through `JSON.parse`, and a similar concept has been raised regarding the [Temporal proposal](https://github.com/tc39/proposal-temporal).
+Neither of these examples is hypothetical—serializing a [[bigint]] as JSON is specified to throw an exception because there is no output that would round-trip through `JSON.parse`, and a similar concept has been raised regarding the [[temporal]] proposal.
 
 `JSON.parse` accepts a reviver function capable of processing inbound values, but it is invoked bottom-up and receives so little context (a _key_, an already-lossy _value_, and a receiver upon which _key_ is an own property with value _value_) that it is practically useless.
 We intend to remedy that.

@@ -2,7 +2,7 @@
 Stage 2:  2021-12-14
 Stage 2.7: NA  
 Stage 3: 2023-11-01  
-Stage 4: NA<br>Last Commit: 2023-12-27<br>Keywords: #async_iterator #promise #lazy_iteration #mapping_callback #data_structure #non_iterable #unit_tests #command_line #error_handling #factory_method<br>GitHub Link: https://github.com/tc39/proposal-array-from-async <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-14.md#arrayfromasync-for-stage-3
+Stage 4: NA<br>Last Commit: 2023-12-27<br>Keywords: #asynchronous #iterator #promise #error_handling #array <br>GitHub Link: https://github.com/tc39/proposal-array-from-async <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-09/sep-14.md#arrayfromasync-for-stage-3
 # Proposal Description:
 # Array.fromAsync for JavaScript
 ECMAScript Stage-3 (conditional on editor review) Proposal. J. S. Choi, 2021.
