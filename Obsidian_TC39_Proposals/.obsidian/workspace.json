@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c7279d996f1108d2",
+        "id": "88d5de8ad927f1df",
         "type": "tabs",
         "children": [
           {
-            "id": "a5cb770293501711",
+            "id": "9f63d1fab5155770",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 4/nullish-coalescing.md",
+                "file": "Proposals/Stage 4/object-rest-spread.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "nullish-coalescing"
+              "title": "object-rest-spread"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#perf",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,16 +179,25 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "a5cb770293501711",
+  "active": "9f63d1fab5155770",
   "lastOpenFiles": [
+    "Proposals/Stage 4/object-has.md",
+    "Proposals/Stage 4/object-gopds.md",
+    "Proposals/Stage 4/object-from-entries.md",
+    "Proposals/Stage 4/numeric_separators.md",
+    "Proposals/Stage 4/nullish-coalescing.md",
+    "Proposals/Stage 4/chaining.md",
+    "github.com/tc39/proposal-nullish-coalescing.md",
+    "github.com/tc39",
+    "github.com",
     "Proposals/Stage 4/nonblocking.md",
+    "Proposals/Stage 4/named-capture-groups.md",
+    "Proposals/Stage 4/logical-assignment.md",
     "Proposals/Stage 4/atomics.md",
     "Proposals/Stage 4/named-groups.md",
-    "Proposals/Stage 4/named-capture-groups.md",
     "Proposals/Stage 4/matchall.md",
     "Proposals/Stage 4/globalThis.md",
     "Proposals/Stage 4/lookbehind.md",
-    "Proposals/Stage 4/logical-assignment.md",
     "Proposals/Stage 4/json-superset.md",
     "Proposals/Stage 4/find-last.md",
     "Proposals/Stage 4/error-cause.md",
@@ -200,13 +209,6 @@
     "Proposals/Stage 4/import-attributes.md",
     "Proposals/Stage 4/hashbang-grammar.md",
     "Proposals/Stage 4/bigint.md",
-    "Proposals/Stage 4/chaining.md",
-    "Proposals/Stage 4/change-array-by-copy.md",
-    "Proposals/Stage 4/class-fields.md",
-    "Proposals/Stage 4/dot-all.md",
-    "Proposals/Stage 4/escape.md",
-    "Proposals/Stage 4/exponentiation.md",
-    "Proposals/Stage 4/finally.md",
     "Analysis/Stages/Plots/Stage0Plot1.pdf",
     "Analysis/Stages/Plots/InactivePlot1.pdf",
     "Analysis/Stages/Plots",
@@ -215,8 +217,6 @@
     "Analysis/Stages/Plots/Stage2Plot1.pdf",
     "Analysis/Stages/Plots/Stage2.7Plot1.pdf",
     "Analysis/Stages/Plots/InactivePlot4.pdf",
-    "Analysis/Stages/Plots/Stage1Plot1.pdf",
-    "Analysis/Stages/Plots/Stage1Plot4.pdf",
     "Untitled.canvas"
   ]
 }

@@ -2,7 +2,7 @@
 Stage 2: 2016-01-27  
 Stage 2.7: NA  
 Stage 3: 2016-01-29  
-Stage 4: 2016-05-25<br>Last Commit: 2016-07-30<br>Keywords: #object #descriptors #copy #properties #composition #prototypes #getters #setters #mixins #boilerplate<br>GitHub Link: https://github.com/tc39/proposal-object-getownpropertydescriptors <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-05/may-25.md#objectgetownpropertydescriptors-jhd
+Stage 4: 2016-05-25<br>Last Commit: 2016-07-30<br>Keywords:  #descriptors #copy #property #composition <br>GitHub Link: https://github.com/tc39/proposal-object-getownpropertydescriptors <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-05/may-25.md#objectgetownpropertydescriptors-jhd
 # Proposal Description:
 # `Object.getOwnPropertyDescriptors` Proposal ([Polyfill](https://www.npmjs.com/package/object.getownpropertydescriptors))
 

@@ -2,7 +2,7 @@
 Stage 2: 2017-08-08  
 Stage 2.7: NA  
 Stage 3: 2017-11-29  
-Stage 4: 2020-07-23<br>Last Commit: 2021-07-16<br>Keywords: #numeric_literal #readability #separator #underscore #floating_point #integer #financial #parsing #syntax_error #bigint<br>GitHub Link: https://github.com/tc39/proposal-numeric-separator <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#numericliteralseparator-for-stage-4
+Stage 4: 2020-07-23<br>Last Commit: 2021-07-16<br>Keywords: #numeric_literal #readability #floating_point #integer #bigint<br>GitHub Link: https://github.com/tc39/proposal-numeric-separator <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#numericliteralseparator-for-stage-4
 # Proposal Description:
 # Numeric Separators
 

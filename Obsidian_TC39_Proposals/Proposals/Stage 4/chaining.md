@@ -2,7 +2,7 @@
 Stage 2: 2019-06-05  
 Stage 2.7: NA  
 Stage 3: 2019-07-25  
-Stage 4: 2019-12-06<br>Last Commit: 2022-01-24<br>Keywords:   #nullish #short-circuiting #access <br>GitHub Link: https://github.com/tc39/proposal-optional-chaining <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#optional-chaining-for-stage-4
+Stage 4: 2019-12-06<br>Last Commit: 2022-01-24<br>Keywords:   #property #short-circuiting #access <br>GitHub Link: https://github.com/tc39/proposal-optional-chaining <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#optional-chaining-for-stage-4
 # Proposal Description:
 # Optional Chaining for JavaScript
 
@@ -37,7 +37,7 @@ var street = user.address?.street
 var fooValue = myForm.querySelector('input[name=foo]')?.value
 ```
 
-When some other value than `undefined` is desired for the missing case, this can usually be handled with the [Nullish coalescing operator](//github.com/tc39/proposal-nullish-coalescing):
+When some other value than `undefined` is desired for the missing case, this can usually be handled with the [[nullish-coalescing]]:
 
 ```javascript
 // falls back to a default value when response.settings is missing or nullish

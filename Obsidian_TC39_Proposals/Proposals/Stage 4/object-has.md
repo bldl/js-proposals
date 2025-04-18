@@ -2,7 +2,7 @@
 Stage 2: 2021-04-20  
 Stage 2.7: NA  
 Stage 3: 2021-05-25  
-Stage 4: 2021-08-31<br>Last Commit: 2021-08-31<br>Keywords: #object #method #property #prototype #accessibility #redefinition #inheritance #polyfill #dictionary #eslint<br>GitHub Link: https://github.com/tc39/proposal-accessible-object-hasownproperty <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#accessible-object-hasownproperty-for-stage-4
+Stage 4: 2021-08-31<br>Last Commit: 2021-08-31<br>Keywords:  #property #accessibility #redefinition #inheritance<br>GitHub Link: https://github.com/tc39/proposal-accessible-object-hasownproperty <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#accessible-object-hasownproperty-for-stage-4
 # Proposal Description:
 # Accessible `Object.prototype.hasOwnProperty()`
 

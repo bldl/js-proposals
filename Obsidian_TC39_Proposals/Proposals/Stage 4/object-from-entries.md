@@ -2,7 +2,7 @@
 Stage 2: 2018-07-29  
 Stage 2.7: NA  
 Stage 3: 2018-07-25  
-Stage 4: 2019-01-29<br>Last Commit: 2019-01-29<br>Keywords: #key_value_pairs #iterable #object_transformation #map #array_manipulation #json_serialization #data_structure #property_transformation #data_model #metaprogramming<br>GitHub Link: https://github.com/tc39/proposal-object-from-entries <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#objectfromentries-for-stage-4
+Stage 4: 2019-01-29<br>Last Commit: 2019-01-29<br>Keywords: #key_value_pairs #iterable #object_transformation <br>GitHub Link: https://github.com/tc39/proposal-object-from-entries <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#objectfromentries-for-stage-4
 # Proposal Description:
 # Object.fromEntries
 

@@ -2,7 +2,7 @@
 Stage 2: 2019-06-05  
 Stage 2.7: NA  
 Stage 3: 2019-07-23  
-Stage 4: 2020-01-21<br>Last Commit: 2022-11-24<br>Keywords: #null #undefined #property_access #default_value #falsy_value #equality_check #optional_chaining #complementary_operator #nullary_coalescing #operator<br>GitHub Link: https://github.com/tc39/proposal-nullish-coalescing <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#nullish-coalescing-for-stage-4
+Stage 4: 2020-01-21<br>Last Commit: 2022-11-24<br>Keywords: #null #undefined #property #default_value<br>GitHub Link: https://github.com/tc39/proposal-nullish-coalescing <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#nullish-coalescing-for-stage-4
 # Proposal Description:
 # Nullish Coalescing for JavaScript
 
@@ -66,7 +66,7 @@ const showSplashScreen = response.settings.showSplashScreen ?? true; // result: 
 ```
 
 ## Notes
-While this proposal specifically calls out `null` and `undefined` values, the intent is to provide a complementary operator to the [optional chaining operator](https://github.com/TC39/proposal-optional-chaining). This proposal will update to match the semantics of that operator.
+While this proposal specifically calls out `null` and `undefined` values, the intent is to provide a complementary operator to the [[chaining]]. This proposal will update to match the semantics of that operator.
 
 ## Prior Art
 * [Null coalescing operator](https://en.wikipedia.org/wiki/Null_coalescing_operator)
