@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Numeric separators<br>Authors: Sam Goto, Rick Waldron<br>Champions: Sam Goto, Rick Waldron , Leo Balter<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2017-05-27  
+[[Stage 4]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Numeric separators<br>Authors: Sam Goto, Rick Waldron<br>Champions: Sam Goto, Rick Waldron , Leo Balter<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2017-05-27  
 Stage 2: 2017-08-08  
 Stage 2.7: NA  
 Stage 3: 2017-11-29  

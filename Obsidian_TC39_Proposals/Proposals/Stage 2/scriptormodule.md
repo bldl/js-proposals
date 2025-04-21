@@ -2,7 +2,7 @@
 Stage 2: 2024-07-31  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-07-31<br>Keywords: #promise #handler #jobs #active_script #module #html #timeouts #javascript_promises #callbacks #finalization_registry<br>GitHub Link: https://github.com/tc39/proposal-jobcallback-module <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-31.md#continuation-propagate-active-scriptormodule-with-jobcallback-record
+Stage 4: NA<br>Last Commit: 2024-07-31<br>Keywords: #promise <br>GitHub Link: https://github.com/tc39/proposal-jobcallback-module <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-31.md#continuation-propagate-active-scriptormodule-with-jobcallback-record
 # Proposal Description:
 # ecma262#3195
 
@@ -14,7 +14,7 @@ Champions: Chengzhong Wu ([@legendecas](https://github.com/legendecas))
 
 ## Motivation
 
-The goal is avoid revealing internal slot [[PromiseState]] with
+The goal is avoid revealing internal slot PromiseState with
 `promise.then(onFulfill, onRejection)` to the promise handlers by
 host hook requirement.
 

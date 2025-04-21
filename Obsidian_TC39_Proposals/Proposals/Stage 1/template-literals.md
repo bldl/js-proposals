@@ -441,10 +441,10 @@ let promptForLLM = @`````
 
 ## Relations to other proposals
 
-### `String.dedent` proposal
+### [[string.dedent]] proposal
 TODO
 
-### `String.cooked` proposal
+### [[string.cooked]] proposal
 - https://github.com/tc39/proposal-string-cooked/issues/7
 
 Raw string literals should always give raw string，the current proposed `String.cooked` won't access `raw` property and cook the string, so the result may not as dev expect.

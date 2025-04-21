@@ -2,11 +2,11 @@
 Stage 2: 2021-10-29  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-12-19<br>Keywords: #module #worker #import #realm #closure #CORS #scheduling #parallelism #structured_clone #content_security_policy<br>GitHub Link: https://github.com/tc39/proposal-module-expressions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-expressions
+Stage 4: NA<br>Last Commit: 2022-12-19<br>Keywords: #module #security #realm <br>GitHub Link: https://github.com/tc39/proposal-module-expressions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-expressions
 # Proposal Description:
 # Module Expressions
 
-Module expressions (previously known as “module blocks”) are an effort by [Surma][surma], [Daniel Ehrenberg], and [Nicolò Ribaudo]. It is the result of a lot of collaboration and prior art, most notably [Daniel Ehrenberg], [Justin Fagnani]’s [Inline Modules] proposal and [Domenic][domenic denicola]’s and [Surma][surma]'s [Blöcks] proposal.
+Module expressions (previously known as “module blocks”) are an effort by [Surma][surma], [Daniel Ehrenberg], and [Nicolò Ribaudo]. It is the result of a lot of collaboration and prior art, most notably [Daniel Ehrenberg], [Justin Fagnani]’s [Inline Modules] proposal and [Domenic][domenic denicola]’s and [Surma][surma]'s [[blocks]] proposal.
 
 ## Problem space
 
@@ -130,7 +130,7 @@ assert(ns === ns2);
 
 However, they cannot close over any lexically scoped variable outside of the module: this makes it possible to easily clone them, re-attaching them to a different realm.
 
-For example, in conjunction with the [ShadowRealm proposal](https://github.com/tc39/proposal-shadowrealm), module expressions could permit syntactically local code to be executed in the context of the other realm:
+For example, in conjunction with the [[shadowrealm]] proposal, module expressions could permit syntactically local code to be executed in the context of the other realm:
 
 ```js
 globalThis.flag = true;

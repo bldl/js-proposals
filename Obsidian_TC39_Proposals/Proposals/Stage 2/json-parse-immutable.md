@@ -2,7 +2,7 @@
 Stage 2: 2022-07-28  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-07-28<br>Keywords: #immutable #data_structure #tuple #record #creation #ergonomic #efficient #json #deeply #structure<br>GitHub Link: https://github.com/tc39/proposal-json-parseimmutable <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-19.md#conclusiondecision-2
+Stage 4: NA<br>Last Commit: 2022-07-28<br>Keywords: #json #parse #performance #tuple #record<br>GitHub Link: https://github.com/tc39/proposal-json-parseimmutable <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-19.md#conclusiondecision-2
 # Proposal Description:
 # JSON.parseImmutable Proposal
 
@@ -19,7 +19,7 @@ Stage 2
 
 ## Overview
 
-This proposal complements the [Records and Tuples Proposal][rec-tup-proposal].
+This proposal complements the [[record-tuple]] proposal.
 It was originally part of that proposal but split off into a separate proposal to reduce the scope of the core Records and Tuples proposal. [#330](https://github.com/tc39/proposal-record-tuple/issues/330)
 
 The problem being explored is ergonomic and efficient creation of a deeply immutable data structure from a [JSON][json-mdn] string.

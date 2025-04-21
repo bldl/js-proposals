@@ -1,8 +1,8 @@
-[[Stage 2]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Module Declarations<br>Authors: Daniel Ehrenberg, Nicolò Ribaudo<br>Champions: Daniel Ehrenberg, Mark Miller, Nicolò Ribaudo<br>Last Presented: November 2022<br>Stage Upgrades:<br>Stage 1: 2021-07-01  
+[[Stage 2]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Module Declarations<br>Authors: Daniel Ehrenberg, Nicolò Ribaudo<br>Champions: Daniel Ehrenberg, Mark Miller, Nicolò Ribaudo<br>Last Presented: November 2022<br>Stage Upgrades:<br>Stage 1: 2021-07-01  
 Stage 2: 2023-04-21  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2023-04-21<br>Keywords: #module #declaration #bundling #performance #export #import #syntax #scoping #optimization #module_body<br>GitHub Link: https://github.com/tc39/proposal-module-declarations <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-declarations
+Stage 4: NA<br>Last Commit: 2023-04-21<br>Keywords: #module #performance #bundler <br>GitHub Link: https://github.com/tc39/proposal-module-declarations <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-declarations
 # Proposal Description:
 # JavaScript Module Declarations
 
@@ -21,7 +21,7 @@ Champions:
 
 JavaScript developers often write code in many small modules, and uptake of ECMAScript Modules (ESM, introduced in ES6/ES2015) is high as a source format. However, many small files--whether on the Web, servers, or other environments--has a high cost in terms of loading performance. For this reason, developers use tools called "bundlers" to emulate several ES modules in one (or a few) scripts or modules. Some examples are [webpack](https://webpack.js.org/), [rollup](https://rollupjs.org/guide/en/), [Parcel](https://parceljs.org/) and [esbuild](https://esbuild.github.io/).
 
-The need for bundlers to entirely virtualize ES module semantics adds a lot of complexity to their implementation, and this cost increases over time, with new module features such as [top-level await](https://github.com/tc39/proposal-top-level-await/). It also has a cost in terms of runtime performance, as engines need to work through the virtualized code, and they cannot see the previous module structure. For example, modules would be a convenient point to divide up code for parallel bytecode generation, but this structure is not easily visible to JS engines today, if bundlers make everything one big script or module.
+The need for bundlers to entirely virtualize ES module semantics adds a lot of complexity to their implementation, and this cost increases over time, with new module features such as [[await]]. It also has a cost in terms of runtime performance, as engines need to work through the virtualized code, and they cannot see the previous module structure. For example, modules would be a convenient point to divide up code for parallel bytecode generation, but this structure is not easily visible to JS engines today, if bundlers make everything one big script or module.
 
 Some more general-purpose bundling format such as [resource bundles](https://github.com/littledan/resource-bundles) has a significant benefit over a JS-only bundling system because developers need to combine more things than just JavaScript in practice. An implementation of fetch-level resources is expected to have some degree of overhead, which may be suitable for images, WebAssembly and CSS. However, JavaScript tends to have much higher "blowup" in the number of modules than other resources, so a special-purpose JS-only format could tie in more cheaply at the module level, rather than the network level.
 
@@ -73,7 +73,7 @@ The `countModule` module, on the other hand, is not exported, and can not be use
 
 ## Syntax
 
-`ModuleDeclaration` is a new nonterminal which can exist at the top level of a module, like `import` and `export` statements, or of a script. Note that, as in the case of [module expressions](https://github.com/tc39/proposal-module-expressions), there is no shared lexical scope between module declarations and the module that contains each other; they are simply side by side, like modules fetched from different URLs.
+`ModuleDeclaration` is a new nonterminal which can exist at the top level of a module, like `import` and `export` statements, or of a script. Note that, as in the case of [[module-expressions]], there is no shared lexical scope between module declarations and the module that contains each other; they are simply side by side, like modules fetched from different URLs.
 
 ```
 ModuleItem[Yield, Await, Return] :

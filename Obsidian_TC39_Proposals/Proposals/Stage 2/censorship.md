@@ -1,4 +1,4 @@
-[[Stage 2]]<br>Classification: [[Syntactic Change]] <br>Human Validated: KW<br>Title: Function implementation hiding<br>Authors: Domenic Denicola, Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: June 2020<br>Stage Upgrades:<br>Stage 1: 2018-05-03  
+[[Stage 2]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Function implementation hiding<br>Authors: Domenic Denicola, Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: June 2020<br>Stage Upgrades:<br>Stage 1: 2018-05-03  
 Stage 2: 2019-03-15  
 Stage 2.7: NA  
 Stage 3: NA  
