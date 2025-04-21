@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-01-23<br>Keywords: #optional #chaining #assignment #object #property #eval #default #undifined #syntax #conditional<br>GitHub Link: https://github.com/tc39/proposal-optional-chaining-assignment <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#optional-chaining-in-assignment-lhs-for-stage-1-or-2
+Stage 4: NA<br>Last Commit: 2024-01-23<br>Keywords: #optional #chaining #assignment #object #property <br>GitHub Link: https://github.com/tc39/proposal-optional-chaining-assignment <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#optional-chaining-in-assignment-lhs-for-stage-1-or-2
 # Proposal Description:
 # Optional Chaining Assignment
 

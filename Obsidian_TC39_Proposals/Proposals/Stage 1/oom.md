@@ -1,8 +1,8 @@
-[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: KW<br>Title: OOM Fails Fast<br>Authors: Mark Miller<br>Champions: Mark Miller<br>Last Presented: December 2019<br>Stage Upgrades:<br>Stage 1: 2019-10-05  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: OOM Fails Fast<br>Authors: Mark Miller<br>Champions: Mark Miller<br>Last Presented: December 2019<br>Stage Upgrades:<br>Stage 1: 2019-10-05  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-10-13<br>Keywords: #memory #termination #state #agent #consistency #recovery #doubly_linked_list #preemptive #allocation #error<br>GitHub Link: https://github.com/tc39/proposal-oom-fails-fast <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#update-on-oom-must-fail-fast
+Stage 4: NA<br>Last Commit: 2022-10-13<br>Keywords: #memory #termination #state #agent <br>GitHub Link: https://github.com/tc39/proposal-oom-fails-fast <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#update-on-oom-must-fail-fast
 # Proposal Description:
 # OOM (out of memory) Must Panic
 

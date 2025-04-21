@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 1/oom.md",
+                "file": "Proposals/Stage 1/policy-maps.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "oom"
+              "title": "policy-maps"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#readability",
+                "query": "tag:#getter",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,6 +181,10 @@
   },
   "active": "7967d5f96533560e",
   "lastOpenFiles": [
+    "Proposals/Stage 1/pick-omit.md",
+    "Proposals/Stage 1/partial-application.md",
+    "Proposals/Stage 1/optional-assign.md",
+    "Proposals/Stage 1/oom.md",
     "Proposals/Stage 1/once.md",
     "Proposals/Stage 1/observable.md",
     "Proposals/Stage 1/new.initialize.md",
@@ -203,10 +207,6 @@
     "Proposals/Stage 2.7/lazy-import.md",
     "Proposals/Stage 1/idl.md",
     "Proposals/Stage 1/get-intrinsic.md",
-    "Proposals/Stage 1/class-param-decorators.md",
-    "Proposals/Stage 1/from-string.md",
-    "Proposals/Stage 1/freeze-seal-syntax.md",
-    "Proposals/Stage 1/freeze-proto.md",
     "github.com/tc39",
     "github.com",
     "Analysis/Stages/Plots/Stage0Plot1.pdf",
