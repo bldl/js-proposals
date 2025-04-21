@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-07-10<br>Keywords: #callback #function #execution #result #arguments #standardization #promise #returns #wrapper #once<br>GitHub Link: https://github.com/tc39/proposal-function-once <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#functionprototypeonce-for-stage-1
+Stage 4: NA<br>Last Commit: 2022-07-10<br>Keywords: #callback #standardization #promise<br>GitHub Link: https://github.com/tc39/proposal-function-once <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-29.md#functionprototypeonce-for-stage-1
 # Proposal Description:
 # Function.prototype.once for JavaScript
 ECMAScript Stage-1 Proposal. 2022.

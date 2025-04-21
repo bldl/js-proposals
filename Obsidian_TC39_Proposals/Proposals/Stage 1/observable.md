@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2019-11-01<br>Keywords: #observable #subscription #observer #asynchronous #event #stream #compositional #lazy #cleanup #push_based<br>GitHub Link: https://github.com/tc39/proposal-observable <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-25.md#17iiia-observable-proposal-to-stage-2
+Stage 4: NA<br>Last Commit: 2019-11-01<br>Keywords: #observable #observer #asynchronous #event <br>GitHub Link: https://github.com/tc39/proposal-observable <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-25.md#17iiia-observable-proposal-to-stage-2
 # Proposal Description:
 ## ECMAScript Observable ##
 

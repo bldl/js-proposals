@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 1/observable.md",
+                "file": "Proposals/Stage 1/oom.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "observable"
+              "title": "oom"
             }
           }
         ]
@@ -181,6 +181,8 @@
   },
   "active": "7967d5f96533560e",
   "lastOpenFiles": [
+    "Proposals/Stage 1/once.md",
+    "Proposals/Stage 1/observable.md",
     "Proposals/Stage 1/new.initialize.md",
     "Proposals/Stage 1/negated-in.md",
     "Proposals/Stage 1/modulus.md",
@@ -205,8 +207,6 @@
     "Proposals/Stage 1/from-string.md",
     "Proposals/Stage 1/freeze-seal-syntax.md",
     "Proposals/Stage 1/freeze-proto.md",
-    "Proposals/Stage 1/faster-promise-adoption.md",
-    "Proposals/Stage 1/extensions.md",
     "github.com/tc39",
     "github.com",
     "Analysis/Stages/Plots/Stage0Plot1.pdf",
