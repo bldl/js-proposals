@@ -102,9 +102,9 @@ def getStageBumpsAndLastCommit(stage):
 #
 # In order to extract specific stages (separate for example semantic from semanic AND syntactic):
 #
-# python sharedMethods/getDataForScatterplot.py specific-change api
-# python sharedMethods/getDataForScatterplot.py specific-change semantic
-# python sharedMethods/getDataForScatterplot.py specific-change syntactic
+# python sharedMethods/getDataForScatterplot.py noncrossover stage 4
+# python sharedMethods/getDataForScatterplot.py noncrossover stage 3
+# python sharedMethods/getDataForScatterplot.py noncrossover stage 2
 #
 #########################################################################################################
 
