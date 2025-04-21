@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2021-07-20<br>Keywords: #array #filter #filtering #removal #clarity #confusion #polyfill #partition #function #array_method<br>GitHub Link: https://github.com/tc39/proposal-array-filtering <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#status-update-on-array-filtering
+Stage 4: NA<br>Last Commit: 2021-07-20<br>Keywords: #array #filter <br>GitHub Link: https://github.com/tc39/proposal-array-filtering <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#status-update-on-array-filtering
 # Proposal Description:
 # proposal-array-filtering
 

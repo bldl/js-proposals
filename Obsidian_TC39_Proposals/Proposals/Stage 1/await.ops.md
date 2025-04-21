@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-11-21<br>Keywords: #await_all #await_race #await_allSettled #await_any #concurrency #promise_utilities #asynchronous #simplification #abstraction_leak #syntax<br>GitHub Link: https://github.com/tc39/proposal-await.ops <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#await-operations-for-stage-1
+Stage 4: NA<br>Last Commit: 2022-11-21<br>Keywords: #promise #concurrency #asynchronous #wait<br>GitHub Link: https://github.com/tc39/proposal-await.ops <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#await-operations-for-stage-1
 # Proposal Description:
 # await operations proposal
 

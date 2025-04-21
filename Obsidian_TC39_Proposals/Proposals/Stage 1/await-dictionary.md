@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2023-03-25<br>Keywords: #promise #properties #parallel #waterfall #pollution #entries #object #native #polyfill #asynchronous<br>GitHub Link: https://github.com/tc39/proposal-await-dictionary <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#await-dictionary-for-stage-1
+Stage 4: NA<br>Last Commit: 2023-03-25<br>Keywords: #promise #property #wait #asynchronous<br>GitHub Link: https://github.com/tc39/proposal-await-dictionary <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#await-dictionary-for-stage-1
 # Proposal Description:
 # Await dictionary of Promises
 

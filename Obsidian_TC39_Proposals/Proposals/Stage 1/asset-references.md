@@ -2,13 +2,13 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-09-28<br>Keywords: #asset #module #dynamic_import #reference #loader #packager #specifier #resource_manager #interoperability #type_system<br>GitHub Link: https://github.com/tc39/proposal-asset-references <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-28.md#asset-references-for-stage-1
+Stage 4: NA<br>Last Commit: 2020-09-28<br>Keywords: #module #resource_management #wait <br>GitHub Link: https://github.com/tc39/proposal-asset-references <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-28.md#asset-references-for-stage-1
 # Proposal Description:
 # Asset References
 
 This repository contains a proposal to add syntax to get first class references to a module identity without actually loading or initializing that module. This can also be expanded to include other asset types. It's a way to access an asset relative to the current module. It reached [Stage 1 in November 2018](https://github.com/tc39/notes/blob/master/meetings/2018-11/nov-28.md).
 
-This proposal builds on top of the [dynamic import proposal](https://tc39.github.io/proposal-dynamic-import/).
+This proposal builds on top of the [[dynamic-import]] proposal.
 
 ## Syntax
 

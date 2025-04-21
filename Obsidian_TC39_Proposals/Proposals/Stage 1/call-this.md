@@ -12,8 +12,7 @@ ECMAScript Stage-1 Proposal. J. S. Choi, 2021.
 
 [formal specification]: https://tc39.es/proposal-call-this/
 
-This proposal is a **resurrection** of the old [Stage-0 bind-operator
-proposal][old bind]. It is also an alternative, **competing** proposal to the
+This proposal is a **resurrection** of the old [[bind-syntax]] proposal. It is also an alternative, competing proposal to the
 [Stage-1 extensions proposal][extensions]. For more information, see [§ Related
 proposals](#related-proposals).
 

@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-06-17<br>Keywords: #array #equality #comparison #deep #nested #method #prototype #functional #validation #type<br>GitHub Link: https://github.com/tc39/proposal-array-equality <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-4.md#generic-comparison
+Stage 4: NA<br>Last Commit: 2020-06-17<br>Keywords: #array #equality <br>GitHub Link: https://github.com/tc39/proposal-array-equality <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-4.md#generic-comparison
 # Proposal Description:
 # proposal-array-equality
 > Determining whether two arrays are equal.

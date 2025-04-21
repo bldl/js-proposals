@@ -2,13 +2,13 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2021-02-03<br>Keywords: #asynchronous #context #expression #synchronous #operation #syntax #promise #fetch #await #read_file<br>GitHub Link: https://github.com/tc39/proposal-async-do-expressions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#async-do-expressions
+Stage 4: NA<br>Last Commit: 2021-02-03<br>Keywords: #asynchronous #expression #promise<br>GitHub Link: https://github.com/tc39/proposal-async-do-expressions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#async-do-expressions
 # Proposal Description:
 # ECMAScript proposal: `async do` expressions
 
 `async do` expressions allow you to introduce an asynchronous context within synchronous code without needing an immediately-invoked async function expression.
 
-This proposal builds off of the [`do` expressions proposal](https://github.com/tc39/proposal-do-expressions).
+This proposal builds off of the [[do]] expressions proposal.
 
 This proposal has [preliminary spec text](https://tc39.github.io/proposal-async-do-expressions/).
 
