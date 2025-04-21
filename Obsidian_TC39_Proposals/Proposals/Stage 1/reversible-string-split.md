@@ -2,14 +2,9 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-01-26<br>Keywords: #split_n #remainder #string_split #prefix_split #delimiter #join #parse #key_value #ini #character_delimited<br>GitHub Link: https://github.com/tc39/proposal-reversible-string-split <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-01/jan-25.md#reversible-string-split
+Stage 4: NA<br>Last Commit: 2022-01-26<br>Keywords: #string #string_manipulation <br>GitHub Link: https://github.com/tc39/proposal-reversible-string-split <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-01/jan-25.md#reversible-string-split
 # Proposal Description:
 # Reversible string split
-
-![](./cover.png)
-
-<small>Image from
-<a href="https://twitter.com/DasSurma/status/1480555236473384964">@DasSurma</a></small>
 
 ## Status
 

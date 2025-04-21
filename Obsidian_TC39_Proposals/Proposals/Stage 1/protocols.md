@@ -1,8 +1,8 @@
-[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: KW<br>Title: First-class protocols<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: July 2018<br>Stage Upgrades:<br>Stage 1: 2017-09-27  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: First-class protocols<br>Authors: Michael Ficarra<br>Champions: Michael Ficarra<br>Last Presented: July 2018<br>Stage Upgrades:<br>Stage 1: 2017-09-27  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-11-28<br>Keywords: #protocol #symbols #type_classes #traits #mixin #property #composition #namespace #methods #implementation<br>GitHub Link: https://github.com/tc39/proposal-first-class-protocols <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#updates-on-first-class-protocols
+Stage 4: NA<br>Last Commit: 2022-11-28<br>Keywords: #protocol #symbols #mixin #property <br>GitHub Link: https://github.com/tc39/proposal-first-class-protocols <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#updates-on-first-class-protocols
 # Proposal Description:
 ECMAScript First-Class Protocols Proposal
 =========================================

@@ -2,19 +2,19 @@
 Stage 2: NA
 Stage 2.7: NA
 Stage 3: NA
-Stage 4: NA<br>Last Commit: 2021-02-18<br>Keywords: #compartment #immutable #lightweight #global_object #eval #locking #intrinsics #security #isolation #shared<br>GitHub Link: https://github.com/tc39/proposal-ses <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-6.md#ses-compartments
+Stage 4: NA<br>Last Commit: 2021-02-18<br>Keywords: #compartment #security #realm #immutable <br>GitHub Link: https://github.com/tc39/proposal-ses <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-6.md#ses-compartments
 # Proposal Description:
 # Draft Proposal for SES (Secure EcmaScript)
 
 * Most of the action on the SES-shim is happening at https://github.com/Agoric/SES-shim/tree/master/packages/ses .
 * Moddable is also directly building a SES machine as the primary configuration of the XS implementation of JS for embedded, as standardized in Ecma TC53.
-* The most relevant proposal these days is https://github.com/tc39/proposal-compartments which is much more up to date than this proposal repository is.
+* The most relevant proposal these days is [[proposal-compartments]] which is much more up to date than this proposal repository is.
 * We should update this proposal repository with text from https://github.com/Agoric/SES-shim/tree/master/packages/ses which is much more current.
 * MetaMask and Agoric both have plugin architectures running on SES.
 * MetaMask and MetaMask's LavaMoat run on the SES-shim.
 * The Agoric framework runs on both on the SES-shim on Node, and increasingly on a version of XS called XSnap that also supports orthogonal persistence.
 
-Note that this proposal was previously called "proposal-frozen-realms". However, with progress on [proposal-realms](https://github.com/tc39/proposal-realms), the [realms-shim](https://github.com/Agoric/realms-shim), and the [ses-shim](https://github.com/Agoric/SES), we found we no longer needed to distinguish frozen-realms from SES. Most historical references to "Frozen Realms" are best interpreted as being about an older version of SES.
+Note that this proposal was previously called "proposal-frozen-realms". However, with progress on [[shadowrealm]], the [realms-shim](https://github.com/Agoric/realms-shim), and the [ses-shim](https://github.com/Agoric/SES), we found we no longer needed to distinguish frozen-realms from SES. Most historical references to "Frozen Realms" are best interpreted as being about an older version of SES.
 
 Champions
   - Mark S. Miller, Agoric

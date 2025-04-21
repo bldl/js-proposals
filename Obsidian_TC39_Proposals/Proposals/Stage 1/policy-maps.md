@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-08-21<br>Keywords: #cache #mapping #memory #eviction #policy #function #LIFO #FIFO #LRU #LFU<br>GitHub Link: https://github.com/tc39/proposal-policy-map-set <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#policy-maps-and-sets-for-stage-1
+Stage 4: NA<br>Last Commit: 2022-08-21<br>Keywords: #map #set #cache #memory_management <br>GitHub Link: https://github.com/tc39/proposal-policy-map-set <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#policy-maps-and-sets-for-stage-1
 # Proposal Description:
 # Policy Maps and Sets for JavaScript
 ECMAScript Stage-1 Proposal. 2022.
@@ -16,8 +16,7 @@ Champions: Hemanth HM; J. S. Choi; Shu-yu Guo.
 [two hard things]: https://www.martinfowler.com/bliki/TwoHardThings.html
 
 Developers often use mapping data structures as caches, and they often wish to
-limit the memory consumption of said caches. [Cache-replacement
-policies][] are common, useful, repetitive, and annoying to
+limit the memory consumption of said caches. [Cache-replacement policies][cache-replacement policies] are common, useful, repetitive, and annoying to
 reimplement.
 
 For example, the proposed [memo function][proposal-function-memo]
@@ -55,7 +54,7 @@ directions for the design of these data structures, and we will decide on which
 policies would be most appropriate to add. We would also assemble as many
 real-world use cases as possible and shape our design to fulfill them.
 
-In addition, if both [proposal-function-memo][] and this proposal are approved for
+In addition, if both [[memoization]] and this proposal are approved for
 Stage 1, then we would explore how memoized functions could use these data
 structures to control their caches’ memory usage.
 

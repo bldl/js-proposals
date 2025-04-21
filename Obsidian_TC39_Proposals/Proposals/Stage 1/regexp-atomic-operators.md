@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-06-08<br>Keywords: #backtracking #atomic #quantifiers #performance #regex #greedy #non-backtracking #disjunction #syntax #pattern<br>GitHub Link: https://github.com/tc39/proposal-regexp-atomic-operators <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-08.md#regex-atomic-operators
+Stage 4: NA<br>Last Commit: 2022-06-08<br>Keywords:  #regex #backtracking #atomic #performance <br>GitHub Link: https://github.com/tc39/proposal-regexp-atomic-operators <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-08.md#regex-atomic-operators
 # Proposal Description:
 <!--#region:intro-->
 # Regular Expression Atomic Operators for ECMAScript

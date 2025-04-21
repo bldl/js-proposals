@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2023-08-29<br>Keywords: #prototype #pollution #vulnerability #encapsulation #reflection #prototypes #security #object #data #mitigation<br>GitHub Link: https://github.com/tc39/proposal-symbol-proto <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#prototype-pollution-mitigation--symbolproto
+Stage 4: NA<br>Last Commit: 2023-08-29<br>Keywords:  #security #vulnerability #reflection<br>GitHub Link: https://github.com/tc39/proposal-symbol-proto <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/jan-30.md#prototype-pollution-mitigation--symbolproto
 # Proposal Description:
 
 # Prototype Pollution Mitigation / Symbol.proto

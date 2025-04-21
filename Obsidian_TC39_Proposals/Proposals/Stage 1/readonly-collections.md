@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2019-10-15<br>Keywords: #collection #mutable #immutable #query #method #type #behavioral #subtype #fixed_map #readonly_map<br>GitHub Link: https://github.com/tc39/proposal-readonly-collections <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#readonly-collections-for-stage-1
+Stage 4: NA<br>Last Commit: 2019-10-15<br>Keywords: #collection #map #immutable #query #readonly <br>GitHub Link: https://github.com/tc39/proposal-readonly-collections <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#readonly-collections-for-stage-1
 # Proposal Description:
 # proposal-readonly-collections
 

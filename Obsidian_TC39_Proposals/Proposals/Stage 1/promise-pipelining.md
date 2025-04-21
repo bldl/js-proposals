@@ -1,8 +1,8 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Wavy Dot: Syntactic Support for Promise Pipelining<br>Authors: Mark Miller, Chip Morningstar, Michael Fig<br>Champions: Mark Miller, Chip Morningstar, Michael Fig<br>Last Presented: December 2019<br>Stage Upgrades:<br>Stage 1: 2019-07-12  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Wavy Dot: Syntactic Support for Promise Pipelining<br>Authors: Mark Miller, Chip Morningstar, Michael Fig<br>Champions: Mark Miller, Chip Morningstar, Michael Fig<br>Last Presented: December 2019<br>Stage Upgrades:<br>Stage 1: 2019-07-12  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-04-26<br>Keywords: #promise #pipelining #operator #syntax #sugar #chaining #method #function #evaluation #desugaring<br>GitHub Link: https://github.com/tc39/proposal-wavy-dot <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#update-on-promise-pipelining
+Stage 4: NA<br>Last Commit: 2020-04-26<br>Keywords: #promise #pipelining #operator #syntax #chaining <br>GitHub Link: https://github.com/tc39/proposal-wavy-dot <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#update-on-promise-pipelining
 # Proposal Description:
 # proposal-wavy-dot
 
@@ -22,7 +22,7 @@ Presented to TC39 (Javascript standards committee), achieving stage 1.
 
 ## Summary
 
-This is a follow on proposal to [proposal-eventual-send](https://github.com/Agoric/proposal-eventual-send), providing syntactic sugar for the APIs of that proposal.
+This is a follow on proposal to [[eventual-send]], providing syntactic sugar for the APIs of that proposal.
 
 The 2011 [ECMAScript strawman concurrency
 proposal](https://web.archive.org/web/20161026162206/http://wiki.ecmascript.org/doku.php?id=strawman:concurrency)
@@ -33,7 +33,7 @@ instead introduces the wavy dot (*~.*) syntax.
 
 ### Wavy Dot
 
-Like the (*?.*) of the [optional chaining proposal](https://tc39.es/proposal-optional-chaining/), wavy dot (*~.*) is a proposed infix operator with the same precedence as dot (*.*). Both can be understood as *adjective dot*, i.e., an operation that is dot-like, but differs according to the adjective. Once the optional chaining proposal is accepted, we will add to this proposal an operator combining the two adjectives, such as (*?~.*) or (*~?.*).
+Like the (*?.*) of the [[optional-assign]], wavy dot (*~.*) is a proposed infix operator with the same precedence as dot (*.*). Both can be understood as *adjective dot*, i.e., an operation that is dot-like, but differs according to the adjective. Once the optional chaining proposal is accepted, we will add to this proposal an operator combining the two adjectives, such as (*?~.*) or (*~?.*).
 
 When the wavy dot expression occurs in a syntactic context in which the value of the expression might be used, the syntax has the following equivalences
 
