@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 1/idl.md",
+                "file": "Proposals/Stage 1/mass-proxy-revocation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "idl"
+              "title": "mass-proxy-revocation"
             }
           }
         ]
@@ -181,6 +181,13 @@
   },
   "active": "7967d5f96533560e",
   "lastOpenFiles": [
+    "Proposals/Stage 1/locale-extensions.md",
+    "Proposals/Stage 1/limited-array-buffer.md",
+    "Proposals/Stage 1/legacy-reflection.md",
+    "Proposals/Stage 1/iterator-unique.md",
+    "Proposals/Stage 1/import-sync.md",
+    "Proposals/Stage 2.7/lazy-import.md",
+    "Proposals/Stage 1/idl.md",
     "Proposals/Stage 1/get-intrinsic.md",
     "Proposals/Stage 1/func-obj-decs.md",
     "Proposals/Stage 1/class-param-decorators.md",
@@ -191,9 +198,6 @@
     "Proposals/Stage 1/extensions.md",
     "Proposals/Stage 0/bind-syntax.md",
     "Proposals/Stage 1/export-from.md",
-    "Proposals/Stage 1/idl.md",
-    "Proposals/Stage 1/import-sync.md",
-    "Proposals/Stage 1/iterator-unique.md",
     "Proposals/Stage 1/call-this.md",
     "Proposals/Stage 4/globalThis.md",
     "Proposals/Inactive/function-helpers.md",
@@ -203,10 +207,6 @@
     "Proposals/Stage 4/numeric_separators.md",
     "Proposals/Stage 1/dynamic-modules.md",
     "Proposals/Stage 0/defensible-classes.md",
-    "Proposals/Stage 0/clone.md",
-    "Proposals/Stage 0/catch-guard.md",
-    "Proposals/Stage 0/nested-imports.md",
-    "Proposals/Stage 4/dynamic-import.md",
     "github.com/tc39",
     "github.com",
     "Analysis/Stages/Plots/Stage0Plot1.pdf",

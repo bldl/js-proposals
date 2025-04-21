@@ -1,8 +1,8 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Sync Imports<br>Authors: Guy Bedford<br>Champions: Guy Bedford<br>Last Presented: December 2024<br>Stage Upgrades:<br>Stage 1: 2024-12-05  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Sync Imports<br>Authors: Guy Bedford<br>Champions: Guy Bedford<br>Last Presented: December 2024<br>Stage Upgrades:<br>Stage 1: 2024-12-05  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-12-05<br>Keywords: #synchronous #import #module #registry #dynamic #require #error #loading #builtin #conditional<br>GitHub Link: https://github.com/guybedford/proposal-import-sync <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-04.md#import-sync-discussion-request-for-stage-1
+Stage 4: NA<br>Last Commit: 2024-12-05<br>Keywords: #synchronous #import #module #registry <br>GitHub Link: https://github.com/guybedford/proposal-import-sync <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-04.md#import-sync-discussion-request-for-stage-1
 # Proposal Description:
 # Import Sync
 
@@ -26,7 +26,7 @@ remain on the migration path from CommonJS to ES modules.
 In particular CommonJS users in Node.js are used to being able to synchronously dynamically require
 modules, without that causing them to have to convert their codepaths to async.
 
-[Defer Import Eval](https://github.com/tc39/proposal-defer-import-eval) solves one of these issues in
+[[Lazy-import]] solves one of these issues in
 allowing synchronous lazy loading of modules. It does this by effectively separating the async aspects
 of the module loading pipeline from the sync aspects to allow a [synchronous evaluation function](https://github.com/tc39/proposal-defer-import-eval?tab=readme-ov-file#semantics)
 on the deferred namespace.
@@ -134,7 +134,7 @@ No, unlike `defer` and `source`, `import.sync` is not a phase, it is a new meta 
 
 No syntax is supported for `import sync mod from 'mod'`.
 
-To guarantee that a graph is sync upfront, instead see the [Module Sync Assert](https://github.com/tc39/proposal-module-sync-assert) proposal, which may provide an import attribute or otherwise.
+To guarantee that a graph is sync upfront, instead see the [[module-sync-assert]] proposal, which may provide an import attribute or otherwise.
 
 _Post an [issue](https://github.com/guybedford/proposal-import-sync/issues)._
 

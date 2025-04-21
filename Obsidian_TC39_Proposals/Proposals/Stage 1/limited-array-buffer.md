@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-02-07<br>Keywords: #arraybuffer #frozen #readonly #typedarray #dataview #permission #view #range #integration #complexity<br>GitHub Link: https://github.com/tc39/proposal-limited-arraybuffer <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#read-only-arraybuffer-and-fixed-view-of-arraybuffer-for-stage-1
+Stage 4: NA<br>Last Commit: 2022-02-07<br>Keywords: #arraybuffer #limited #frozen #readonly<br>GitHub Link: https://github.com/tc39/proposal-limited-arraybuffer <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-04/apr-21.md#read-only-arraybuffer-and-fixed-view-of-arraybuffer-for-stage-1
 # Proposal Description:
 # Limited ArrayBuffer
 
@@ -38,6 +38,7 @@ All of the following are helpful to archive the minimal permission/information p
 3. [Optional] Range-limited `TypedArray`/`DataView` to a read-write `ArrayBuffer` ([CrimsonCodes0](https://github.com/CrimsonCodes0)'s [use case on WebAssembly](https://github.com/tc39/proposal-limited-arraybuffer/issues/11)).
     1. Must not be able to construct a bigger view range from a smaller view range.
 4. Not adding too much complexity to the implementor.
+5. Have similar API design with [[readonly-collections]].
 
 ## Pros
 

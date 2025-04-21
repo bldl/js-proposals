@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-02-08<br>Keywords: #iterator #unique #values #duplicates #collection #mapper #filter #composite_keys #transform #chaining<br>GitHub Link: https://github.com/tc39/proposal-iterator-unique <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#iterator-unique-for-stage-1
+Stage 4: NA<br>Last Commit: 2024-02-08<br>Keywords: #iterator #unique #values #duplicates <br>GitHub Link: https://github.com/tc39/proposal-iterator-unique <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-6.md#iterator-unique-for-stage-1
 # Proposal Description:
 Iterator Unique
 ===============

@@ -2,7 +2,7 @@
 Stage 2: NA
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-02-28<br>Keywords: #function_caller #function_arguments #reflection_api #encapsulation #web_compatibility #deprecated_features #annex_b #strict_mode #cross_realm_restrictions #execution_context<br>GitHub Link: https://github.com/claudepache/es-legacy-function-reflection <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#legacy-reflection-features-for-functions-in-javascript-for-stage-1
+Stage 4: NA<br>Last Commit: 2020-02-28<br>Keywords: #legacy #encapsulation #web_compatibility<br>GitHub Link: https://github.com/claudepache/es-legacy-function-reflection <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#legacy-reflection-features-for-functions-in-javascript-for-stage-1
 # Proposal Description:<br>
 # Legacy reflection features for functions in JavaScript
 
