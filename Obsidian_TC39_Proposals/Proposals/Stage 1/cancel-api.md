@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2017-11-15<br>Keywords: #cancellation #asynchronous #operations #cancellation_token #coordinator #user_controlled #background_tasks #resource_management #architectural_observations #transient<br>GitHub Link: https://github.com/tc39/proposal-cancellation <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#cancellation-update
+Stage 4: NA<br>Last Commit: 2017-11-15<br>Keywords: #cancellation #asynchronous #resource_management <br>GitHub Link: https://github.com/tc39/proposal-cancellation <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#cancellation-update
 # Proposal Description:
 # ECMAScript Cancellation
 
