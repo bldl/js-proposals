@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2018-03-21<br>Keywords: #bigint #number #fromstring #parsing #radix #syntaxerror #rangeerror #typeerror #exception #literal<br>GitHub Link: https://github.com/tc39/proposal-number-fromstring <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iic-bigintnumberfromstring-for-stage-1
+Stage 4: NA<br>Last Commit: 2018-03-21<br>Keywords: #bigint #numeric #string <br>GitHub Link: https://github.com/tc39/proposal-number-fromstring <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iic-bigintnumberfromstring-for-stage-1
 # Proposal Description:
 # ECMAScript proposal: `{BigInt,Number}.fromString`
 

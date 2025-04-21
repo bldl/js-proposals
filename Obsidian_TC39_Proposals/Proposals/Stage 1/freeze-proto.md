@@ -2,7 +2,7 @@
 Stage 2: NA
 Stage 2.7: NA
 Stage 3: NA
-Stage 4: NA<br>Last Commit: 2019-01-31<br>Keywords: #prototype #freeze #extensible #derived_class #method #immutability #reflect #superconstructor #objects #api<br>GitHub Link: https://github.com/tc39/proposal-freeze-prototype <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-31.md#freezing-prototypes-for-stage-1
+Stage 4: NA<br>Last Commit: 2019-01-31<br>Keywords:  #freeze #extensible #derived_class<br>GitHub Link: https://github.com/tc39/proposal-freeze-prototype <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-31.md#freezing-prototypes-for-stage-1
 # Proposal Description:
 # Freezing prototypes
 

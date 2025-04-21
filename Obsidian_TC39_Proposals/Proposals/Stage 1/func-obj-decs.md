@@ -2,11 +2,11 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-01-25<br>Keywords: #decorator #metaprogramming #function #context #metadata #logging #authorization #http #generator #accessor<br>GitHub Link: https://github.com/tc39/proposal-function-and-object-literal-element-decorators <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#function-and-object-literal-element-decorators-for-stage-1
+Stage 4: NA<br>Last Commit: 2024-01-25<br>Keywords: #decorator #class #metaprogramming #metadata<br>GitHub Link: https://github.com/tc39/proposal-function-and-object-literal-element-decorators <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#function-and-object-literal-element-decorators-for-stage-1
 # Proposal Description:
 # ECMAScript Decorators for Functions
 
-This proposal seeks to add support for [Decorators](https://github.com/tc39/proposal-decorators) on function
+This proposal seeks to add support for [[decorators]] on function
 expressions, function declarations, and object literal elements.
 
 ## Status
@@ -23,7 +23,7 @@ _For more information see the [TC39 proposal process](https://tc39.es/process-do
 
 # Overview and Motivations
 
-The ECMAScript [Decorators][] proposal introduced the ability to "decorate" classes and class methods and fields by
+The ECMAScript [[decorators]] proposal introduced the ability to "decorate" classes and class methods and fields by
 marking those declarations with an `@`-prefixed expression. These _decorators_ could then evaluate user-defined code
 during the evaluation of the class definition to perform various metaprogramming tasks, such as constructor
 registration, input validation, logging and tracing, reflection, metadata, and more. However, decorators are currently
@@ -459,7 +459,7 @@ addition of a `context.functionMetadata` (or similar) property for methods requi
 
 # API
 
-The API for the decorators introduced in this proposal is consistent with the [Decorators][] proposal. A given decorator
+The API for the decorators introduced in this proposal is consistent with the [[decorators]] proposal. A given decorator
 will be called by the runtime with two arguments, `target` and `context`, whose values are dependent on the element
 being decorated. The return values of these decorators potentially replaces all or part of the decorated element.
 
@@ -796,9 +796,9 @@ function handler(event) {
 
 # Related Proposals
 
-- [Decorators][] (Stage 3)
-- [Decorator Metadata][Metadata] (Stage 3)
-- [Class Constructor and Method Parameter Decorators][ParameterDecorators] (Stage 1)
+- [[decorators]] (Stage 3)
+- [[decorator-metadata]] (Stage 3)
+- [[class-param-decorators]] (Stage 1)
 
 # TODO
 
