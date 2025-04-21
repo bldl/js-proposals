@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2021-03-03<br>Keywords: #expression_oriented #local_scope #conditional_statements #template_literals #early_errors #completion_value #var_declarations #empty_statements #await_yield #break_continue<br>GitHub Link: https://github.com/tc39/proposal-do-expressions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-1.md#do-expressions-for-stage-2
+Stage 4: NA<br>Last Commit: 2021-03-03<br>Keywords: #expression #functional <br>GitHub Link: https://github.com/tc39/proposal-do-expressions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-1.md#do-expressions-for-stage-2
 # Proposal Description:
 # ECMAScript proposal: `do` expressions
 

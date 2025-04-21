@@ -1,8 +1,8 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Declarations in Conditionals<br>Authors: Devin Rousso<br>Champions: Devin Rousso<br>Last Presented: October 2019<br>Stage Upgrades:<br>Stage 1: 2019-10-03  
+[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: KW<br>Title: Declarations in Conditionals<br>Authors: Devin Rousso<br>Champions: Devin Rousso<br>Last Presented: October 2019<br>Stage Upgrades:<br>Stage 1: 2019-10-03  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-01-24<br>Keywords: #conditional #visibility #let #const #variable #declaration #transpilation #evaluation #performance #scope<br>GitHub Link: https://github.com/tc39/proposal-Declarations-in-Conditionals <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#declarations-in-conditionals
+Stage 4: NA<br>Last Commit: 2022-01-24<br>Keywords:  #conditional #transpilation #evaluation #performance #scope<br>GitHub Link: https://github.com/tc39/proposal-Declarations-in-Conditionals <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#declarations-in-conditionals
 # Proposal Description:
 # Declarations in Conditionals
 

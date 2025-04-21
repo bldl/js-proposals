@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-07-21<br>Keywords: #iterator #destructuring #double_ended #generator #array #memory #sequence #context #implementation #helpers<br>GitHub Link: https://github.com/tc39/proposal-deiter <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#double-ended-iterator-and-destructuring-for-stage-1
+Stage 4: NA<br>Last Commit: 2022-07-21<br>Keywords: #iterator #generator #array #destructuring <br>GitHub Link: https://github.com/tc39/proposal-deiter <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#double-ended-iterator-and-destructuring-for-stage-1
 # Proposal Description:
 # Double-Ended Iterator and Destructuring
 
@@ -97,7 +97,7 @@ const values = doubleEnded(function *values(arrayLike, context) {
   }
 })
 ```
-It could also be used as decorator (stage 3 proposal):
+It could also be used as [[decorators]] (stage 3 proposal):
 ```js
 class IntRange {
   constructor(start, end) {
@@ -117,7 +117,7 @@ class IntRange {
 
 ## Iterator helpers and reverse iterator
 
-[Iterator helpers](https://github.com/tc39/proposal-iterator-helpers) add some useful methods to iterators and async iterators. Most methods are easy to upgrade to support double-ended. For example, `map()` could be implemented like:
+[[Iterator-helpers]] add some useful methods to iterators and async iterators. Most methods are easy to upgrade to support double-ended. For example, `map()` could be implemented like:
 
 ```js
 // only for demonstration, the real implementation should use internal slots
@@ -158,7 +158,7 @@ first // 4
 last // 1
 ```
 
-With double-ended iterators and `toReversed()` helpers, we may not need [reverse iterator](https://github.com/tc39/proposal-reverseIterator). Even we still want reverse iterator as a separate protocol, we could also easily have a default implementation for it.
+With double-ended iterators and `toReversed()` helpers, we may not need [[reverse-iteration]]. Even we still want reverse iterator as a separate protocol, we could also easily have a default implementation for it.
 
 ```js
 Iterator.prototype[Symbol.reverseIterator] = function () {

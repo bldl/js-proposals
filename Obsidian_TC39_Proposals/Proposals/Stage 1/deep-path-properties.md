@@ -2,11 +2,11 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-06-03<br>Keywords: #deep_path #properties #record #literal #syntax #nested #structure #immutability #typeerror #spread<br>GitHub Link: https://github.com/tc39/proposal-deep-path-properties-for-record <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-3.md#deep-path-properties
+Stage 4: NA<br>Last Commit: 2020-06-03<br>Keywords: #deep_path #property #record <br>GitHub Link: https://github.com/tc39/proposal-deep-path-properties-for-record <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-3.md#deep-path-properties
 # Proposal Description:
 # Deep Path Properties in Record Literals
 
-ECMAScript proposal for deep paths properties for [Record literals](https://github.com/tc39/proposal-record-tuple).
+ECMAScript proposal for deep paths properties for [[record-tuple]].
 
 **Author:**
 
@@ -25,7 +25,7 @@ ECMAScript proposal for deep paths properties for [Record literals](https://gith
 
 # Overview
 
-[Record literals](https://github.com/tc39/proposal-record-tuple) sometimes include deeply nested structures, but the syntax for describing them (either as a fresh value, or based on a previous value via spread syntax) can be cumbersome and/or verbose. Deep path properties for `Record` literals provides a solution to this problem, by introducing a new syntax for describing deeply nested structures in a more succinct and readable way.
+[[Record-tuple]] sometimes include deeply nested structures, but the syntax for describing them (either as a fresh value, or based on a previous value via spread syntax) can be cumbersome and/or verbose. Deep path properties for `Record` literals provides a solution to this problem, by introducing a new syntax for describing deeply nested structures in a more succinct and readable way.
 
 ## Examples
 
