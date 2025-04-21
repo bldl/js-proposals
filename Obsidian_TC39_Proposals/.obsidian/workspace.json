@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 1/dynamic-modules.md",
+                "file": "Proposals/Stage 0/defensible-classes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "dynamic-modules"
+              "title": "defensible-classes"
             }
           }
         ]
@@ -181,6 +181,12 @@
   },
   "active": "7967d5f96533560e",
   "lastOpenFiles": [
+    "Proposals/Stage 0/clone.md",
+    "Proposals/Stage 0/catch-guard.md",
+    "Proposals/Stage 0/bind-syntax.md",
+    "Proposals/Stage 0/nested-imports.md",
+    "Proposals/Stage 4/dynamic-import.md",
+    "Proposals/Stage 1/dynamic-modules.md",
     "Proposals/Stage 1/double-ended-iterator.md",
     "Proposals/Stage 1/idl.md",
     "Proposals/Stage 4/iterator-helpers.md",
@@ -201,12 +207,6 @@
     "Proposals/Stage 1/faster-promise-adoption.md",
     "Proposals/Stage 1/freeze-proto.md",
     "Proposals/Stage 1/func-obj-decs.md",
-    "Proposals/Stage 1/get-intrinsic.md",
-    "Proposals/Stage 1/slice-notation.md",
-    "Proposals/Stage 1/collection-of-from.md",
-    "Proposals/Stage 1/collection-methods.md",
-    "Proposals/Stage 1/codepoints.md",
-    "Proposals/Stage 1/class-param-decorators.md",
     "github.com/tc39",
     "github.com",
     "Analysis/Stages/Plots/Stage0Plot1.pdf",
