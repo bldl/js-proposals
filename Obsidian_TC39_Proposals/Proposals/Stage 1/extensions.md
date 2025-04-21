@@ -1,8 +1,8 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Extensions<br>Authors: HE Shi-Jun<br>Champions: HE Shi-Jun<br>Last Presented: November 2020<br>Stage Upgrades:<br>Stage 1: 2020-12-29  
+[[Stage 1]]<br>Classification:  [[Syntactic Change]] [[Semantic Change]] [[API Change]]<br>Human Validated: KW<br>Title: Extensions<br>Authors: HE Shi-Jun<br>Champions: HE Shi-Jun<br>Last Presented: November 2020<br>Stage Upgrades:<br>Stage 1: 2020-12-29  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2023-01-18<br>Keywords: #extension_method #extension_accessor #namespace_object #prototype_method #iterable #set #accessor #binding #operator_precedence #util_function<br>GitHub Link: https://github.com/tc39/proposal-extensions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-19.md#extensions-for-stage-1
+Stage 4: NA<br>Last Commit: 2023-01-18<br>Keywords: #extension #accessor #namespace <br>GitHub Link: https://github.com/tc39/proposal-extensions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-19.md#extensions-for-stage-1
 # Proposal Description:
 # Extensions and `::` operator
 
@@ -10,7 +10,7 @@ Stage 4: NA<br>Last Commit: 2023-01-18<br>Keywords: #extension_method #extension
 
 This is an ECMAScript (JavaScript) proposal in stage 1.
 
-Note: The proposal could be seen as the reshape of the "virtual method" part of old [bind operator proposal](https://github.com/tc39/proposal-bind-operator), see https://github.com/tc39/proposal-bind-operator/issues/56.
+Note: The proposal could be seen as the reshape of the "virtual method" part of the old [[bind-syntax]] proposal, see https://github.com/tc39/proposal-bind-operator/issues/56.
 
 ## Simple examples
 
