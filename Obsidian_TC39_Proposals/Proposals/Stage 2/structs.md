@@ -1,8 +1,8 @@
-[[Stage 2]]<br>Classification: [[API Change]] <br>Human Validated: KW<br>Title: Structs: Fixed Layout Objects and Some Synchronization Primitives<br>Authors: Shu-yu Guo<br>Champions: Shu-yu Guo<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2021-09-01  
+[[Stage 2]]<br>Classification: [[API Change]] [[Semantic Change]] [[Syntactic Change]]<br>Human Validated: KW<br>Title: Structs: Fixed Layout Objects and Some Synchronization Primitives<br>Authors: Shu-yu Guo<br>Champions: Shu-yu Guo<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2021-09-01  
 Stage 2: 2024-10-18  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-12-17<br>Keywords: #structs #shared_memory #mutex #condition_variable #fixed_layout #parallelism #synchronization #atomicity #memory_model #high_performance<br>GitHub Link: https://github.com/tc39/proposal-structs <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#structs-and-shared-structs-for-stage-2
+Stage 4: NA<br>Last Commit: 2024-12-17<br>Keywords: #synchronization #class #multithreading #memory_management <br>GitHub Link: https://github.com/tc39/proposal-structs <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#structs-and-shared-structs-for-stage-2
 # Proposal Description:
 # JavaScript Structs: Fixed Layout Objects and Some Synchronization Primitives
 

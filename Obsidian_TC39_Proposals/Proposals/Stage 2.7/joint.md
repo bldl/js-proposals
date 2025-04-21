@@ -2,7 +2,7 @@
 Stage 2: 2024-02-08  
 Stage 2.7: 2024-06-22  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-10-28<br>Keywords: #iterator #zip #synchronisation <br>GitHub Link: https://github.com/tc39/proposal-joint-iteration <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-12.md#joint-iteration-for-stage-27
+Stage 4: NA<br>Last Commit: 2024-10-28<br>Keywords: #iterator #zip #synchronization <br>GitHub Link: https://github.com/tc39/proposal-joint-iteration <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-12.md#joint-iteration-for-stage-27
 # Proposal Description:
 Joint Iteration
 ===============

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 2/scriptormodule.md",
+                "file": "Proposals/Stage 2/throw-expressions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "scriptormodule"
+              "title": "throw-expressions"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dedent",
+                "query": "tag:#synchronisation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,11 +181,17 @@
   },
   "active": "d331c6bca9c646c7",
   "lastOpenFiles": [
+    "Proposals/Stage 2/symbol-predicates.md",
+    "Proposals/Stage 2/structs.md",
+    "Proposals/Stage 2.7/joint.md",
+    "Proposals/Stage 4/array-includes.md",
+    "Proposals/Stage 4/allsettled.md",
+    "Proposals/Stage 2/string.dedent.md",
+    "Proposals/Stage 2/scriptormodule.md",
     "Proposals/Stage 2/regexp-buffer-boundaries.md",
     "Proposals/Stage 2/record-tuple.md",
     "Proposals/Stage 2/pipeline.md",
     "Proposals/Stage 1/slice-notation.md",
-    "Proposals/Stage 2/string.dedent.md",
     "Proposals/Stage 1/template-literals.md",
     "Proposals/Stage 1/string.cooked.md",
     "Proposals/Stage 2/censorship.md",
@@ -201,12 +207,6 @@
     "Proposals/Inactive/module-unambig.md",
     "Proposals/Inactive/blocks.md",
     "Proposals/Stage 2/async-context.md",
-    "Proposals/Inactive/cleanup-some.md",
-    "Proposals/Stage 2/json-parse-immutable.md",
-    "Proposals/Stage 1/reversible-string-split.md",
-    "Proposals/Stage 3/json-parse-source.md",
-    "Proposals/Stage 4/json-superset.md",
-    "Proposals/Stage 2/iterator-range.md",
     "github.com/tc39",
     "github.com",
     "Analysis/Stages/Plots/Stage0Plot1.pdf",
