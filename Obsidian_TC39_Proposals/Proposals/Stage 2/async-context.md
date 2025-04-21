@@ -2,7 +2,7 @@
 Stage 2: 2023-03-23  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2025-03-03<br>Keywords: #variable #context #snapshot #asynchronous #implicit #execution #propagation #closure #value_store #monitoring<br>GitHub Link: https://github.com/tc39/proposal-async-context <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#asynccontext-stage-2-updates
+Stage 4: NA<br>Last Commit: 2025-03-03<br>Keywords: #promise #asynchronous #propagation #callback <br>GitHub Link: https://github.com/tc39/proposal-async-context <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#asynccontext-stage-2-updates
 # Proposal Description:
 # Async Context for JavaScript
 

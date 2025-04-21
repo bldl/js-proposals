@@ -2,7 +2,7 @@
 Stage 2: 2019-01-30  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2021-03-09<br>Keywords: #coerce_key #coerce_value #normalization #data_structure #insertion #validation #type_checking #maps #sets #boilerplate<br>GitHub Link: https://github.com/tc39/proposal-collection-normalization <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-30.md#richer-keys-for-stage-2
+Stage 4: NA<br>Last Commit: 2021-03-09<br>Keywords: #coercion #normalization #key_value_pairs  <br>GitHub Link: https://github.com/tc39/proposal-collection-normalization <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-30.md#richer-keys-for-stage-2
 # Proposal Description:
 # Collection {coerceKey, coerceValue}
 

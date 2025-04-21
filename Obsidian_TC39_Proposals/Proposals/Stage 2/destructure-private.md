@@ -2,7 +2,7 @@
 Stage 2: 2021-10-30  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-07-15<br>Keywords: #private #destructuring #fields #class #instance #syntax #references #properties #local #comparison<br>GitHub Link: https://github.com/tc39/proposal-destructuring-private <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#destructuring-private-fields
+Stage 4: NA<br>Last Commit: 2024-07-15<br>Keywords: #private #destructuring #fields #class <br>GitHub Link: https://github.com/tc39/proposal-destructuring-private <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#destructuring-private-fields
 # Proposal Description:
 # proposal-destructuring-private
 
@@ -45,8 +45,7 @@ This proposal avoids questions of reification of Private Fields by
 limiting this to syntax only. It also doesn't need to worry about
 "shorthand" syntax (`#x` in an expression being shorthand for
 `this.#x`), because the Committee has decided we will not persue
-shorthand syntax after the [Ergonomic Brand Checks][ergo-brand-check]
-Proposal.
+shorthand syntax after the [[private-fields-in-in]] proposal.
 
 ## Related
 

@@ -2,7 +2,7 @@
 Stage 2: 2019-07-24 
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2019-08-18<br>Keywords: #generator #function #yield #execution #context #increment #communication #meta_property #parameter #syntax<br>GitHub Link: https://github.com/tc39/proposal-function.sent <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#making-functionsent-inactive
+Stage 4: NA<br>Last Commit: 2019-08-18<br>Keywords: #generator #property  #function #yield #execution #context #increment #communication #meta_property #parameter #syntax<br>GitHub Link: https://github.com/tc39/proposal-function.sent <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#making-functionsent-inactive
 # Proposal Description:
 # Generator function.sent Meta Property
 

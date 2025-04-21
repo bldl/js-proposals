@@ -2,14 +2,14 @@
 Stage 2: 2023-02-04  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-06-11<br>Keywords: #async #iterator #concurrency #prototype #helpers #map #filter #reduce #flatMap #promise<br>GitHub Link: https://github.com/tc39/proposal-async-iterator-helpers <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2023-01/jan-31.md#parallel-async-iterators-via-a-tweak-to-iterator-helpers
+Stage 4: NA<br>Last Commit: 2024-06-11<br>Keywords: #asynchronous #iterator #concurrency #helper <br>GitHub Link: https://github.com/tc39/proposal-async-iterator-helpers <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2023-01/jan-31.md#parallel-async-iterators-via-a-tweak-to-iterator-helpers
 # Proposal Description:
 # Async Iterator Helpers
 
 A proposal for several interfaces that will help with general usage and
 consumption of async iterators in ECMAScript.
 
-This proposal was split out from [proposal-iterator-helpers](https://github.com/tc39/proposal-iterator-helpers) to resolve design questions related to concurrency (see below), which are not relevant to sync helpers. Many design questions (including choice of methods) were discussed and decided in that respository, and its readme should be read first.
+This proposal was split out from [[iterator-helpers]] to resolve design questions related to concurrency (see below), which are not relevant to sync helpers. Many design questions (including choice of methods) were discussed and decided in that respository, and its readme should be read first.
 
 ## Status
 
