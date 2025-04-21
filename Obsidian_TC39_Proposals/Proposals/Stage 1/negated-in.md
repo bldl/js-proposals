@@ -1,8 +1,8 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]]<br>Human Validated: KW<br>Title: Negated in and instanceof operators<br>Authors: Pablo Gorostiaga Belio<br>Champions: Pablo Gorostiaga Belio<br>Last Presented: September 2023<br>Stage Upgrades:<br>Stage 1: 2023-10-02  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Negated in and instanceof operators<br>Authors: Pablo Gorostiaga Belio<br>Champions: Pablo Gorostiaga Belio<br>Last Presented: September 2023<br>Stage Upgrades:<br>Stage 1: 2023-10-02  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2023-11-10<br>Keywords: #negation #operator #readability #developer_experience #guard #expression #type_check #error_proneness #syntax #conditional<br>GitHub Link: https://github.com/tc39/proposal-negated-in-instanceof <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-28.md#negated-in-and-instanceof-operators-for-stage-1
+Stage 4: NA<br>Last Commit: 2023-11-10<br>Keywords: #negation #operator #readability #expression<br>GitHub Link: https://github.com/tc39/proposal-negated-in-instanceof <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-28.md#negated-in-and-instanceof-operators-for-stage-1
 # Proposal Description:
 # Negated `in` and `instanceof` operators
 

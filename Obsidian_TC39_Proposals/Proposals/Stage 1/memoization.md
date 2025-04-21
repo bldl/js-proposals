@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-07-22<br>Keywords: #memoization #caching #function_decorator #result_caches #tuples #composite_keys #memory_usage #recursive_functions #cache_management #prototype_method<br>GitHub Link: https://github.com/tc39/proposal-function-memo <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#function-memoization-for-stage-1
+Stage 4: NA<br>Last Commit: 2022-07-22<br>Keywords: #memoization #cache #decorator <br>GitHub Link: https://github.com/tc39/proposal-function-memo <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#function-memoization-for-stage-1
 # Proposal Description:
 # Function.prototype.memo for JavaScript
 ECMAScript Stage-1 Proposal.
@@ -38,7 +38,7 @@ If this proposal is approved for Stage 1, then we would explore various
 directions for the API’s design. We would also assemble as many real-world use
 cases as possible and shape our design to fulfill them.
 
-In addition, if both [proposal-policy-map-set][] and this proposal are approved for
+In addition, if both [[policy-maps]] and this proposal are approved for
 Stage 1, then we would explore how memoized functions could use these data
 structures to control their caches’ memory usage.
 

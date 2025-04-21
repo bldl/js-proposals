@@ -2,14 +2,14 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-03-28<br>Keywords: #synchronous #module #evaluation #directive #error #debugging #polyfill #fetch #service_worker #api_stability<br>GitHub Link: https://github.com/tc39/proposal-module-sync-assert <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-29.md#module-sync-assert-for-stage-1
+Stage 4: NA<br>Last Commit: 2024-03-28<br>Keywords: #synchronous #module #error_handling #directive <br>GitHub Link: https://github.com/tc39/proposal-module-sync-assert <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-29.md#module-sync-assert-for-stage-1
 # Proposal Description:
 # Module sync assert
 
 ## Problem to solve
 
 Some code must be synchronous.
-If the module accidentally becomes async (by having a [top-level await](https://github.com/tc39/proposal-top-level-await) or the [old semantics of WebAssembly ESM integration](https://github.com/WebAssembly/esm-integration/tree/26e6faa9762b604e8eea399be1e8a1c3bda256ab/proposals/esm-integration#why-does-this-proposal-depend-on-top-level-await) in the subgraph) the code might break in a way that hard to debug.
+If the module accidentally becomes async (by having an [[await]] or the [old semantics of WebAssembly ESM integration](https://github.com/WebAssembly/esm-integration/tree/26e6faa9762b604e8eea399be1e8a1c3bda256ab/proposals/esm-integration#why-does-this-proposal-depend-on-top-level-await) in the subgraph) the code might break in a way that hard to debug.
 
 ### Example: Service Worker
 

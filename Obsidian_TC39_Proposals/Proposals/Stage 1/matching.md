@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-09-27<br>Keywords: #pattern_matching #matcher_patterns #value_patterns #structure_patterns #combinator_patterns #object_patterns #array_patterns #exhaustiveness #ergonomics #expressivity<br>GitHub Link: https://github.com/tc39/proposal-pattern-matching <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#pattern-matching-for-stage-2
+Stage 4: NA<br>Last Commit: 2024-09-27<br>Keywords: #pattern_matching #performance #ordering #pattern<br>GitHub Link: https://github.com/tc39/proposal-pattern-matching <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#pattern-matching-for-stage-2
 # Proposal Description:
 # ECMAScript Pattern Matching
 
@@ -388,7 +388,6 @@ Binding patterns always match,
 and additionally introduce a binding,
 binding the subject to the given name
 with the given binding semantics.
-
 
 #### Binding Behavior Details
 
@@ -967,7 +966,7 @@ This is an arbitrary JS expression,
 *not* a pattern.
 
 
-
+	
 # `match` expression
 
 `match` expressions are a new type of expression

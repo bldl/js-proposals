@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2019-03-03<br>Keywords: #new_initialize #class_fields #private_methods #reflect_construct #javascript_classes #object_initialization #javascript_proposal #proxy_objects #inheritance #meta_property<br>GitHub Link: https://github.com/littledan/proposal-new-initialize <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-31.md#newinitialize-for-stage-1
+Stage 4: NA<br>Last Commit: 2019-03-03<br>Keywords:  #class #private_methods #class_fields #private_methods <br>GitHub Link: https://github.com/littledan/proposal-new-initialize <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-31.md#newinitialize-for-stage-1
 # Proposal Description:<br>
 # `new.initialize()`
 

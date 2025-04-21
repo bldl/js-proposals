@@ -1,8 +1,8 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Maximally minimal mixins<br>Authors: Justin Fagnani<br>Champions: Justin Fagnani<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2018-01-26  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]] [[API Change]] <br>Human Validated: KW<br>Title: Maximally minimal mixins<br>Authors: Justin Fagnani<br>Champions: Justin Fagnani<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2018-01-26  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2019-12-06<br>Keywords: #mixin #inheritance #declarative #syntax #static_analysis #composition #protocols #trait #ergonomics #factory<br>GitHub Link: https://github.com/justinfagnani/proposal-mixins <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiie-maximally-minimal-mixins-proposal
+Stage 4: NA<br>Last Commit: 2019-12-06<br>Keywords: #mixin #factory #class #ergonomic <br>GitHub Link: https://github.com/justinfagnani/proposal-mixins <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiie-maximally-minimal-mixins-proposal
 # Proposal Description:
 # Maximally Minimal Mixins
 @justinfagnani
@@ -15,7 +15,7 @@ Status: Stage 1
 
 ## Overlap with First-Class Protocols Proposal
 
-This proposal and the [First-Class Protocols Proposal](https://github.com/michaelficarra/proposal-first-class-protocols) overlap in some of the 
+This proposal and the [[protocols]] proposal overlap in some of the 
 problem and solution space that they cover. At the January 2018 meeting of TC39 it was agreed
 to let both be at Stage 1 with the intention to work together to identify the common problems
 they target and possibly a unified proposal.

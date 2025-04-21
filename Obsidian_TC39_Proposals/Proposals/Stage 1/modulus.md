@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2023-07-09<br>Keywords: #integer #modulus #remainder #math #optimization #random #signed #division #float #operation<br>GitHub Link: https://github.com/tc39/proposal-integer-and-modulus-math <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#modulus-and-additional-integer-math-for-stage-1
+Stage 4: NA<br>Last Commit: 2023-07-09<br>Keywords: #integer #arithmetic #modulus #math <br>GitHub Link: https://github.com/tc39/proposal-integer-and-modulus-math <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#modulus-and-additional-integer-math-for-stage-1
 # Proposal Description:
 # Modulus and Additional Integer Math
 Updated July 9, 2023
