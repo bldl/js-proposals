@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-01-25<br>Keywords: #brand_check #instanceof #private_fields #prototype #object_creation #class_based #meta_method #programmers_intention #syntax_conflict #customization<br>GitHub Link: https://github.com/tc39/proposal-class-brand-check <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#class-brand-checks
+Stage 4: NA<br>Last Commit: 2022-01-25<br>Keywords: #brand_check #instance #class #private_fields <br>GitHub Link: https://github.com/tc39/proposal-class-brand-check <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-27.md#class-brand-checks
 # Proposal Description:
 # `class.hasInstance()`
 

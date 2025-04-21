@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 1/class-access-expressions.md",
+                "file": "Proposals/Stage 1/debug.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "class-access-expressions"
+              "title": "debug"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#namespace",
+                "query": "tag:#debugging",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,34 +180,34 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "043bce43722f6be1",
+  "active": "a0132a00cd60af08",
   "lastOpenFiles": [
+    "Proposals/Stage 1/dataview-uint8c.md",
+    "Proposals/Stage 1/csprng.md",
+    "Proposals/Stage 1/concurrency-control.md",
+    "Proposals/Stage 1/double-ended-iterator.md",
+    "Proposals/Stage 1/emitter.md",
+    "Proposals/Stage 1/eventual-send.md",
+    "Proposals/Stage 1/faster-promise-adoption.md",
+    "Proposals/Stage 1/freeze-proto.md",
+    "Proposals/Stage 1/func-obj-decs.md",
+    "Proposals/Stage 1/get-intrinsic.md",
+    "Proposals/Stage 1/slice-notation.md",
+    "Proposals/Stage 1/collection-of-from.md",
+    "Proposals/Stage 1/collection-methods.md",
+    "Proposals/Stage 1/codepoints.md",
+    "Proposals/Stage 1/class-param-decorators.md",
+    "Proposals/Stage 4/iterator-helpers.md",
+    "Proposals/Stage 4/allsettled.md",
+    "Proposals/Stage 3/decorators.md",
+    "Proposals/Stage 1/class-brand-check.md",
+    "Proposals/Stage 1/class-access-expressions.md",
     "Proposals/Stage 1/cancel-api.md",
     "Proposals/Stage 1/call-this.md",
+    "Proposals/Stage 3/is-error.md",
     "Proposals/Stage 2/pipeline.md",
     "Proposals/Stage 0/bind-syntax.md",
     "Proposals/Stage 1/built-in-modules.md",
-    "Proposals/Stage 1/block-params.md",
-    "Proposals/Stage 1/binary-ast.md",
-    "Proposals/Stage 1/bigint-math.md",
-    "Proposals/Stage 1/await.ops.md",
-    "Proposals/Stage 1/await-dictionary.md",
-    "Proposals/Stage 1/do.md",
-    "Proposals/Stage 1/async-init.md",
-    "Proposals/Stage 1/async-do.md",
-    "Proposals/Stage 1/asset-references.md",
-    "Proposals/Stage 1/array.zip.md",
-    "Proposals/Stage 1/array-unique.md",
-    "Proposals/Stage 1/array-filtering.md",
-    "Proposals/Stage 1/array-equality.md",
-    "Proposals/Stage 1/accessors.md",
-    "Proposals/Stage 2/module-expressions.md",
-    "Proposals/Stage 2/record-tuple.md",
-    "Proposals/Stage 2/regexp-buffer-boundaries.md",
-    "Proposals/Stage 2/scriptormodule.md",
-    "Proposals/Stage 2/string.dedent.md",
-    "Proposals/Stage 2/structs.md",
-    "Proposals/Stage 2/symbol-predicates.md",
     "github.com/tc39",
     "github.com",
     "Analysis/Stages/Plots/Stage0Plot1.pdf",

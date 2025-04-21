@@ -1,8 +1,8 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Standardized Debug<br>Authors: Gus Caplan<br>Champions: Gus Caplan<br>Last Presented: November 2020<br>Stage Upgrades:<br>Stage 1: 2020-09-25  
+[[Stage 1]]<br>Classification: [[Semantic Change]] [[Syntactic Change]]<br>Human Validated: KW<br>Title: Standardized Debug<br>Authors: Gus Caplan<br>Champions: Gus Caplan<br>Last Presented: November 2020<br>Stage Upgrades:<br>Stage 1: 2020-09-25  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-11-17<br>Keywords: #debugging #api #standardization #identity_function #meta_property #interoperability #execution #environment #development #breakpoint<br>GitHub Link: https://github.com/tc39/proposal-standardized-debug <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#standardized-debug-for-stage-2
+Stage 4: NA<br>Last Commit: 2020-11-17<br>Keywords: #debug #property #interoperability #execution #environment #development #breakpoint<br>GitHub Link: https://github.com/tc39/proposal-standardized-debug <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#standardized-debug-for-stage-2
 # Proposal Description:
 # Standardized Debug
 

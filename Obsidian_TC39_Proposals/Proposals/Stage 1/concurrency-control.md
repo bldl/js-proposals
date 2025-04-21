@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-10-25<br>Keywords: #concurrency #governor #token #semaphore #resource #async_iterator #limiting #integration #capacity #control<br>GitHub Link: https://github.com/tc39/proposal-concurrency-control <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#concurrency-control-presenter-mf-and-lca
+Stage 4: NA<br>Last Commit: 2024-10-25<br>Keywords: #concurrency #asynchronous #iterator #consumption <br>GitHub Link: https://github.com/tc39/proposal-concurrency-control <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#concurrency-control-presenter-mf-and-lca
 # Proposal Description:
 JavaScript Concurrency Control Proposal
 =======================================
@@ -15,7 +15,7 @@ JavaScript Concurrency Control Proposal
 
 This proposal aims to provide a mechanism for describing a desired amount of concurrency and a coordination mechanism to achieve it. This could be for limiting concurrent access to a shared resource or for setting a target concurrency for an otherwise unbounded workload.
 
-A major motivator for this proposal is the concurrency support in the [async iterator helpers proposal](https://github.com/tc39/proposal-async-iterator-helpers). While that proposal has gone to great lengths to allow for concurrent iteration of its produced async iterators (such as through `map` and `filter`), it does not provide any way to consume async iterators concurrently (such as through `some` or `forEach`). Additionally, there is no mechanism provided by that proposal for generically limiting concurrent iteration of async iterators. This propsal attempts to address those deferred needs.
+A major motivator for this proposal is the concurrency support in the [[async-iterator-helpers]]. While that proposal has gone to great lengths to allow for concurrent iteration of its produced async iterators (such as through `map` and `filter`), it does not provide any way to consume async iterators concurrently (such as through `some` or `forEach`). Additionally, there is no mechanism provided by that proposal for generically limiting concurrent iteration of async iterators. This propsal attempts to address those deferred needs.
 
 The concurrency control mechanism proposed here is also motivated by many other use cases outside of async iteration. For example, an application may want to limit the concurrency of a certain function being invoked, or limit concurrent file reads, writes, or network requests. This proposal aims to provide a generic mechanism for controlling concurrency in JavaScript that can be used in a wide variety of use cases.
 
@@ -32,7 +32,7 @@ This proposal consists of 3 major components: a Governor interface, the Counting
 
 The Governor interface is used for gaining access to a limited resource and later signalling that you are finished with that resource. It is intentionally designed in a way that permits dynamically changing limits.
 
-There is only a single method required by the Governor interface: `acquire`, returning a Promise that eventually resolves with a `GovernorToken`. A `GovernorToken` has a `release` method to indicate that the resource is no longer needed. The `GovernorToken` can also be automatically disposed using `using` syntax from the [Explicit Resource Management proposal](https://github.com/tc39/proposal-explicit-resource-management).
+There is only a single method required by the Governor interface: `acquire`, returning a Promise that eventually resolves with a `GovernorToken`. A `GovernorToken` has a `release` method to indicate that the resource is no longer needed. The `GovernorToken` can also be automatically disposed using `using` syntax from the [[resource-management]] proposal.
 
 A Governor is meant to control access to resources among mutually trustworthy parties. For adversarial scenarios, a [Capability](https://gist.github.com/michaelficarra/415941f94ed2249b5322d077aeaa6f96) should be used instead.
 

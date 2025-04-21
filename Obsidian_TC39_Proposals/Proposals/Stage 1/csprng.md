@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-02-06<br>Keywords: #cryptographically #secure #pseudo #random #number #generation #arraybuffer #typedarray #entropy #typeerror<br>GitHub Link: https://github.com/tc39/proposal-csprng <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#arraybufferfillrandom-for-stage-1
+Stage 4: NA<br>Last Commit: 2020-02-06<br>Keywords: #security #cryptography #arraybuffer #typedarray <br>GitHub Link: https://github.com/tc39/proposal-csprng <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-5.md#arraybufferfillrandom-for-stage-1
 # Proposal Description:
 <!--#region:intro-->
 # Cryptographically Secure Pseudo-Random Number Generation (CSPRNG) for ECMAScript

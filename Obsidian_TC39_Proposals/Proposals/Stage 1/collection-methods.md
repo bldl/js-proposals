@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-08-01<br>Keywords: #collection #set #map #filter #reduce #merge #mapping #prototype #functionality #polyfill<br>GitHub Link: https://github.com/tc39/proposal-collection-methods <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiik-new-set-builtin-methods-for-stage-2
+Stage 4: NA<br>Last Commit: 2024-08-01<br>Keywords: #collection #set #map #iterator <br>GitHub Link: https://github.com/tc39/proposal-collection-methods <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiik-new-set-builtin-methods-for-stage-2
 # Proposal Description:
 # New collections (Set and Map) methods
 
@@ -129,7 +129,7 @@ mySet.join(' '); // Just like an array
 
 # Why not `%IteratorPrototype%` methods
 
-See [stage 3 Iterator Helpers](https://github.com/tc39/proposal-iterator-helpers) proposal.
+See [[iterator-helpers]] proposal.
 
 # Rationales
 

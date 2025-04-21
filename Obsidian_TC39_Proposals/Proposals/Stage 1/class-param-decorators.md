@@ -2,11 +2,11 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2025-01-28<br>Keywords: #decorators #metaprogramming #dependency_injection #object_relational_mapping #parameter_validation #http_routing #foreign_function_interface #metadata #argument_validation #parameter_marshaling<br>GitHub Link: https://github.com/tc39/proposal-class-method-parameter-decorators <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#class-constructor-and-method-parameter-decorators
+Stage 4: NA<br>Last Commit: 2025-01-28<br>Keywords: #decorator #class #metadata #parameter <br>GitHub Link: https://github.com/tc39/proposal-class-method-parameter-decorators <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#class-constructor-and-method-parameter-decorators
 # Proposal Description:
 # ECMAScript Decorators for Class Method and Constructor Parameters
 
-This proposal adds support for [decorators](https://github.com/tc39/proposal-decorators) on the parameters of class
+This proposal adds support for [[decorators]] on the parameters of class
 constructors and class methods.
 
 ## Status
