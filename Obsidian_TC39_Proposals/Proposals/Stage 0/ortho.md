@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2017-03-23<br>Keywords: #class_members #visibility_control #method_definition #private_fields #static_methods #prototype_methods #own_keyword #placement_control #data_properties #accessor_methods<br>GitHub Link: https://github.com/erights/Orthogonal-Classes <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-03/mar-22.md#10iiia-orthogonal-classes
+Stage 4: NA<br>Last Commit: 2017-03-23<br>Keywords: #class #orthogonal #property<br>GitHub Link: https://github.com/erights/Orthogonal-Classes <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-03/mar-22.md#10iiia-orthogonal-classes
 # Proposal Description:<br>
 # Orthogonal Class Member Syntax
 By Mark S. Miller (@erights) and Allen Wirfs-Brock (@allenwb)

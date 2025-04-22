@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2015-05-13<br>Keywords: #meta_properties #function_callee #function_count #function_arguments #runtime_metadata #anonymous_functions #arrow_functions #strict_mode #ecmascript #javascript #function_metadata<br>GitHub Link: https://github.com/allenwb/ESideas/blob/HEAD/ES7MetaProps.md <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2015-05-13<br>Keywords: #metadata #property #runtime<br>GitHub Link: https://github.com/allenwb/ESideas/blob/HEAD/ES7MetaProps.md <br>GitHub Note Link: None
 # Proposal Description:<br>
 ## Additional Meta Properties for ES7 ##
 Allen Wirfs-Brock  

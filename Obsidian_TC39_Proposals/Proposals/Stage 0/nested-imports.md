@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2016-07-24<br>Keywords: #nested_imports #import_declarations #ecmascript_modules #lazy_imports #tree_shaking #code_splitting #performance #dynamic_import #hoisting #module_system<br>GitHub Link: https://github.com/benjamn/reify/blob/HEAD/PROPOSAL.md <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-27.md#10iiic-nested-import-declaration
+Stage 4: NA<br>Last Commit: 2016-07-24<br>Keywords: #module #declaration #lazy #performance <br>GitHub Link: https://github.com/benjamn/reify/blob/HEAD/PROPOSAL.md <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-27.md#10iiic-nested-import-declaration
 # Proposal Description:<br>
 # ECMAScript Proposal: Nested `import` declarations
 

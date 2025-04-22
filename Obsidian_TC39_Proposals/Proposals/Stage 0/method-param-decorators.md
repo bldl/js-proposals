@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2016-01-25<br>Keywords: #method_parameter_decorators #decorators #dependency_injection #metadata #ecmascript #javascript #function_parameters #reflection #method_decorators #parameter_metadata<br>GitHub Link: https://goo.gl/r1XT9b <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2016-01-25<br>Keywords: #decorators #metadata #reflection <br>GitHub Link: https://goo.gl/r1XT9b <br>GitHub Note Link: None
 # Proposal Description:<br>
 Method Parameter Decorators
 

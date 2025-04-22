@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2013-08-05<br>Keywords: #relationships #private_symbols #unique_symbols #weakmap #prototype_chain #property_access #proxy_traps #fields #object_mutability #symbol_lookup<br>Link: https://web.archive.org/web/20160804042554/http://wiki.ecmascript.org/doku.php?id=strawman:relationships <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2013-08-05<br>Keywords: #symbols #relationships #map <br>Link: https://web.archive.org/web/20160804042554/http://wiki.ecmascript.org/doku.php?id=strawman:relationships <br>GitHub Note Link: None
 # Proposal Description:<br>
 # Relationships
 

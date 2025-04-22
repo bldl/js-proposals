@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2016-01-25<br>Keywords: #function_expression_decorators #memoization #logging #error_handling #dependency_injection #testing_frameworks #async_functions #metadata_annotations #callback_wrapping #decorator_patterns #ecmascript<br>Link: https://goo.gl/8MmCMG <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2016-01-25<br>Keywords: #memoization #logging #error_handling<br>Link: https://goo.gl/8MmCMG <br>GitHub Note Link: None
 # Proposal Description:<br>
 # Function Expression Decorators
 

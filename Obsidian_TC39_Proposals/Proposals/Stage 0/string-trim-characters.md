@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2021-07-13<br>Keywords: #string_manipulation #trim_function #whitespace_removal #character_removal #performance_optimization #regex_alternative #string_api #text_processing #leading_trailing_characters #builtin_methods<br>GitHub Link: https://github.com/Kingwl/proposal-string-trim-characters <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2021-07-13<br>Keywords: #regex #string_manipulation <br>GitHub Link: https://github.com/Kingwl/proposal-string-trim-characters <br>GitHub Note Link: None
 # Proposal Description:<br>
 # [proposal-string-trim-characters](https://github.com/Kingwl/proposal-string-trim-characters)
 

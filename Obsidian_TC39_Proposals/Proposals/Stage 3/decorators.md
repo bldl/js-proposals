@@ -2,7 +2,7 @@
 Stage 2: 2021-04-10  
 Stage 2.7: NA  
 Stage 3: 2022-03-29  
-Stage 4: NA<br>Last Commit: 2024-09-05<br>Keywords: #decorator #class  #accessors  #initialization <br>GitHub Link: https://github.com/tc39/proposal-decorators <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#decorators-for-stage-3
+Stage 4: NA<br>Last Commit: 2024-09-05<br>Keywords: #decorator #class  #accessor  #initialization <br>GitHub Link: https://github.com/tc39/proposal-decorators <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-28.md#decorators-for-stage-3
 # Proposal Description:
 # Decorators
 

@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2018-05-10<br>Keywords: #as_patterns #destructuring_assignment #pattern_matching #identifier_binding #ecmascript_syntax #javascript_patterns #data_extraction #structured_binding #language_extensions #tc39_proposals<br>GitHub Link: https://github.com/zkat/proposal-as-patterns <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2018-05-10<br>Keywords: #pattern_matching   #destructuring  <br>GitHub Link: https://github.com/zkat/proposal-as-patterns <br>GitHub Note Link: None
 # Proposal Description:<br>
 # ECMAScript As-Patterns for Matching and Destructuring
 
@@ -19,8 +19,7 @@ Stage 4: NA<br>Last Commit: 2018-05-10<br>Keywords: #as_patterns #destructuring_
 When matching non-Identifier values, it's often the case that users might want
 to also bind that value to an Identifier while doing the matching. For this
 reason, it's proposed that destructuring be extended with the ability to do
-this sort of binding. Furthermore, the separate [pattern matching
-proposal](https://github.com/tc39/proposal-pattern-matching) will benefit from
+this sort of binding. Furthermore, the separate [[matching]]  will benefit from
 this change by allowing matching operations against values that are also put
 into identifiers, since identifiers are irrefutable patterns.
 
