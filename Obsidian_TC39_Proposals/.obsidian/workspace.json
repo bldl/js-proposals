@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "41bac131d92d91ad",
+        "id": "524a94906191e2eb",
         "type": "tabs",
         "children": [
           {
-            "id": "c33e78faee67dbf2",
+            "id": "9c80a1910dac17ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 0/string-trim-characters.md",
+                "file": "Proposals/Inactive/modules-pragma.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "string-trim-characters"
+              "title": "modules-pragma"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#orthogonal",
+                "query": "tag:#ergonomics",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,34 +179,34 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "c33e78faee67dbf2",
+  "active": "9c80a1910dac17ba",
   "lastOpenFiles": [
+    "Proposals/Inactive/module-unambig.md",
+    "Proposals/Inactive/json-tryparse.md",
+    "Proposals/Inactive/is-types.md",
+    "Proposals/Inactive/icu.md",
+    "Proposals/Inactive/generator-arrow-functions.md",
+    "Proposals/Inactive/function-helpers.md",
+    "Proposals/Inactive/fromimport.md",
+    "Proposals/Inactive/extensible-literals.md",
+    "Proposals/Inactive/dynamic-module-reform.md",
+    "Proposals/Inactive/distinguishing-literal-strings.md",
+    "Proposals/Inactive/deprecated.md",
+    "Proposals/Inactive/date-parse.md",
+    "Proposals/Inactive/construct.md",
+    "Proposals/Inactive/collection-literals.md",
+    "Proposals/Stage 1/matching.md",
+    "Proposals/Inactive/collection-json.md",
+    "Proposals/Inactive/cleanup-some.md",
+    "Proposals/Inactive/cancel-promise.md",
+    "Proposals/Inactive/callable-constructors.md",
+    "Proposals/Inactive/buffer-transfer.md",
+    "Proposals/Inactive/blocks.md",
+    "Proposals/Inactive/arraylast.md",
+    "Proposals/Stage 0/string-trim-characters.md",
     "Proposals/Stage 0/relationships.md",
     "Proposals/Stage 0/ortho.md",
     "Proposals/Stage 0/object-shorthand-improvements.md",
-    "Proposals/Stage 0/nested-imports.md",
-    "Proposals/Stage 3/decorators.md",
-    "Proposals/Stage 0/method-param-decorators.md",
-    "Proposals/Stage 0/metaprops.md",
-    "Proposals/Stage 0/is-callable-is-constructor.md",
-    "Proposals/Stage 0/func-expr-decorators.md",
-    "Proposals/Stage 0/defensible-classes.md",
-    "Proposals/Stage 0/clone.md",
-    "Proposals/Stage 0/bind-syntax.md",
-    "Proposals/Stage 0/catch-guard.md",
-    "RegExpMatcher.md",
-    "Proposals/Stage 0/as-patterns.md",
-    "Proposals/Stage 1/matching.md",
-    "Proposals/Stage 1/declarations-in-conditionals.md",
-    "Proposals/Stage 1/debug.md",
-    "Proposals/Stage 1/decimal.md",
-    "Proposals/Stage 1/csprng.md",
-    "Proposals/Stage 1/class-brand-check.md",
-    "Proposals/Stage 1/virtualize.md",
-    "Proposals/Stage 1/unordered-async.md",
-    "Proposals/Stage 1/uniform-date-parse.md",
-    "Proposals/Stage 1/type-annotations.md",
-    "Proposals/Stage 1/template-literals.md",
     "github.com/tc39",
     "github.com",
     "Analysis/Stages/Plots/Stage0Plot1.pdf",

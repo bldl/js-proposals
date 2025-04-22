@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2021-11-11<br>Keywords: #function #helper #callback #standardization #function_composition #promise #ergonomics #utility #declaration #method<br>GitHub Link: https://github.com/tc39/proposal-function-helpers <br>GitHub Note Link: https://github.com/tc39/proposal-function-helpers/issues/17#issuecomment-953814353
+Stage 4: NA<br>Last Commit: 2021-11-11<br>Keywords: #helper #callback <br>GitHub Link: https://github.com/tc39/proposal-function-helpers <br>GitHub Note Link: https://github.com/tc39/proposal-function-helpers/issues/17#issuecomment-953814353
 # Proposal Description:
 # Function helpers for JavaScript
 Withdrawn ECMAScript Stage-0 Proposal. J. S. Choi, 2021.
@@ -11,7 +11,7 @@ Withdrawn ECMAScript Stage-0 Proposal. J. S. Choi, 2021.
 plenary][2021-10] for Stage 1. The Committee rejected the proposal due to its
 being overly broad and requests that it be split up into multiple proposals.
 This proposal is therefore **withdrawn** and split into
-[proposal-function-pipe-flow][] and [proposal-function-un-this][].
+[[pipe-flow]] and [proposal-function-un-this][].
 
 [2021-10]: https://github.com/tc39-transfer/proposal-function-helpers/issues/17#issuecomment-953814353
 [proposal-function-pipe-flow]: https://github.com/js-choi/proposal-function-pipe-flow

@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2018-05-25<br>Keywords: #pattern_matching #destructuring #syntax_sugar #object_literals #array_literals #data_structures #iterator_protocol #symbol_methods #map_from #set_from<br>GitHub Link: https://github.com/zkat/proposal-collection-literals <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2018-05-25<br>Keywords: #pattern_matching #destructuring <br>GitHub Link: https://github.com/zkat/proposal-collection-literals <br>GitHub Note Link: None
 # Proposal Description:<br>
 # ECMAScript Tagged Collection Literals
 
@@ -33,8 +33,7 @@ syntax.
 
 ## Introduction
 
-This proposal extends both destructuring binding/assignment and the [`match`
-statement](https://github.com/tc39/proposal-pattern-matching) with the ability
+This proposal extends both destructuring binding/assignment and the [[matching]] with the ability
 to apply custom destructuring and matching operations to matched data. It also
 adds a new constructor syntax for building these custom data structures with
 concise object and array style syntax while preserving their individual benefits
@@ -45,8 +44,7 @@ used for this purpose, and is meant to be reminiscent of tagged template
 literals in JavaScript -- except using other literal syntaxes available in the
 language.
 
-This proposal is derived from a previously-discussed [extensible collection
-literals](https://github.com/alex-weej/es-extensible-collection-literal), but
+This proposal is derived from a previously-discussed [[extensible-literals]], but
 adds significant work as far as how this syntax interacts with destructuring and
 matching.
 
@@ -95,12 +93,12 @@ match (input) {
 
 ### Related Active Proposals
 
-* [Pattern matching](https://github.com/tc39/proposal-pattern-matching)
-* [Frozen/sealed object syntax](https://github.com/keithamus/object-freeze-seal-syntax)
-* [Richer Keys](https://docs.google.com/presentation/d/1q3CGeXqskL1gHTATH_VE9Dhj0VGTIAOzJ1cR0dYqDBk/edit#slide=id.p)
-* [`Object.fromEntries`](https://github.com/bakkot/object-from-entries)
+* [[matching]]
+* [[freeze-seal-syntax]]
+* [[richer-keys]]
+* [[object-from-entries]]
 * [Smart Pipelines](https://github.com/js-choi/proposal-smart-pipelines/blob/master/readme.md)
-* [`of` and `from` constructors](https://github.com/tc39/proposal-setmap-offrom)
+* [[collection-of-from]]
 
 ## Construction Literals
 

@@ -3,7 +3,7 @@ Stage 1: NA
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2019-09-26<br>Keywords: #serialization #parsing #multithreading #workers #code_blocks #syntax #asynchronous_execution #message_passing #code_isolation #concurrency<br>GitHub Link: https://github.com/domenic/proposal-blocks <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2019-09-26<br>Keywords: #asynchronous  #parse #concurrency<br>GitHub Link: https://github.com/domenic/proposal-blocks <br>GitHub Note Link: None
 # Proposal Description:<br>
 # JavaScript "blöcks" proposal
 

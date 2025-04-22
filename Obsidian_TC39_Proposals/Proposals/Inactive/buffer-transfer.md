@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA
-Stage 4: NA<br>Last Commit: 2018-05-17<br>Keywords: #binary_data #memory_management #concurrency #asynchronous_execution #data_safety #arraybuffer #detaching #reallocation #performance_optimization #race_conditions<br>GitHub Link: https://github.com/domenic/proposal-arraybuffer-transfer <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2018-05-17<br>Keywords: #asynchronous #memory_management #concurrency  #arraybuffer <br>GitHub Link: https://github.com/domenic/proposal-arraybuffer-transfer <br>GitHub Note Link: None
 # Proposal Description:
 # # `ArrayBuffer.prototype.transfer()` proposal
 

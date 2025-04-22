@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2017-08-04<br>Keywords: #cross_realm_type_checking #builtin_objects #instance_identification #typeof_improvement #proxy_detection #symbol_builtin #runtime_type_safety #ecmascript_proposals #constructor_verification #object_identity<br>GitHub Link: https://github.com/jasnell/proposal-istypes <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2017-08-04<br>Keywords: #realm #type <br>GitHub Link: https://github.com/jasnell/proposal-istypes <br>GitHub Note Link: None
 # Proposal Description:<br>
 # Builtin.is and Builtin.typeOf
 

@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2017-04-06<br>Keywords: #grammar #ambiguity #modules #performance #exports #imports #scope #initialization #parsing #tooling<br>GitHub Link: https://github.com/tc39/proposal-UnambiguousJavaScriptGrammar <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2017-04-06<br>Keywords: #grammar #ambiguity #module <br>GitHub Link: https://github.com/tc39/proposal-UnambiguousJavaScriptGrammar <br>GitHub Note Link: None
 # Proposal Description:
 # Unambiguous JavaScript Grammar
 

@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2017-11-17<br>Keywords: #trusted_types #string_literals #xss_protection #web_security #typed_strings #template_literals #static_analysis #runtime_safety #ecmascript_proposals #safe_html<br>GitHub Link: https://github.com/mikewest/tc39-proposal-literals <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2017-11-17<br>Keywords: #string #literals #security <br>GitHub Link: https://github.com/mikewest/tc39-proposal-literals <br>GitHub Note Link: None
 # Proposal Description:<br>
 # Literals in script
 

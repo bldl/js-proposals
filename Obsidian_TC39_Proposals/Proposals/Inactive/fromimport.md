@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-04-03<br>Keywords: #from_import_syntax #module_specifiers #code_completion #developer_experience #import_syntax #ecmascript_modules #static_analysis #language_ergonomics #syntax_sugar #module_resolution<br>GitHub Link: https://github.com/bmeck/proposal-from-import <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2020-04-03<br>Keywords: #module #ergonomics <br>GitHub Link: https://github.com/bmeck/proposal-from-import <br>GitHub Note Link: None
 # Proposal Description:<br>
 # from ... import ...;
 

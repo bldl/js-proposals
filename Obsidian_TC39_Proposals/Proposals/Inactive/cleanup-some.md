@@ -2,7 +2,7 @@
 Stage 2: 2020-07-22  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-01-04<br>Keywords: #finalizationregistry #cleanup #garbage_collection #weakref #synchronization #callback #interoperability #worker #long_job #webassembly<br>GitHub Link: https://github.com/tc39/proposal-cleanup-some <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
+Stage 4: NA<br>Last Commit: 2022-01-04<br>Keywords: #synchronous #weakref<br>GitHub Link: https://github.com/tc39/proposal-cleanup-some <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
 # Proposal Description:
 # The `FinalizationRegistry.prototype.cleanupSome` Method
 
@@ -12,7 +12,7 @@ Stage 2
 
 # Introduction
 
-The `FinalizationRegistry.prototype.cleanupSome` method was originally part of the TC39 Proposal for [`WeakRefs`](https://github.com/tc39/proposal-weakrefs). This method provided a way for library authors to synchronously allow them to clean up without yielding to the event loop. We propose to move it into a separate proposal, to allow the core of WeakRefs to be used in the wild a bit before adding this additional functionality.
+The `FinalizationRegistry.prototype.cleanupSome` method was originally part of the TC39 Proposal for [[weakrefs]]. This method provided a way for library authors to synchronously allow them to clean up without yielding to the event loop. We propose to move it into a separate proposal, to allow the core of WeakRefs to be used in the wild a bit before adding this additional functionality.
 
 ## Motivation of cleanupSome
 

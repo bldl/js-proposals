@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2017-06-20<br>Keywords: #class_constructors #prototype_inheritance #reflect_construct #callable_constructors #legacy_code #new_target #this_propagation #construct_method #function_invocation #ecmascript_classes<br>GitHub Link: https://github.com/jasnell/proposal-construct <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2017-06-20<br>Keywords: #class #inheritance <br>GitHub Link: https://github.com/jasnell/proposal-construct <br>GitHub Note Link: None
 # Proposal Description:<br>
 # `%constructor%`.construct() method
 

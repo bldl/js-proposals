@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2018-08-20<br>Keywords: #deprecation_handling #runtime_warnings #pragma_directive #tooling_support #vm_optimization #intrinsic_functions #syntax_sugar #legacy_code #ecmascript_proposals #decorators<br>GitHub Link: https://github.com/jasnell/proposal-deprecated <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2018-08-20<br>Keywords: #deprecation #symbol #decorators<br>GitHub Link: https://github.com/jasnell/proposal-deprecated <br>GitHub Note Link: None
 # Proposal Description:<br>
 # Deprecated Stuff
 
@@ -165,7 +165,7 @@ around resolving this particular ambiguity.
 
 ## Alternative: Using Decorators
 
-The [Decorators](https://github.com/tc39/proposal-decorators) proposal offers a potential
+The [[decorators]] proposal offers a potential
 alternative approach to this...
   
 ```js

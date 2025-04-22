@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-07-25<br>Keywords: #generator #arrow_function #generator_function #syntax #use_case #keyword #feature #hazard #react #expression<br>GitHub Link: https://github.com/tc39/proposal-generator-arrow-functions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-09/sept-27.md#11ic-generator-arrow-functions
+Stage 4: NA<br>Last Commit: 2020-07-25<br>Keywords: #generator #lambda <br>GitHub Link: https://github.com/tc39/proposal-generator-arrow-functions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-09/sept-27.md#11ic-generator-arrow-functions
 # Proposal Description:
 # ECMAScript proposal: Generator Arrow Functions
 
