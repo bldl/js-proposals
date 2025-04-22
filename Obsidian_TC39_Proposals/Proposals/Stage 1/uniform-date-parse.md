@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2023-09-13<br>Keywords: #date_time #parsing #interchange_format #validation #RFC_3339 #ISO_8601 #out_of_bounds #implementation_defined #timestamp #year_month<br>GitHub Link: https://github.com/tc39/proposal-uniform-interchange-date-parsing <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-09/sept-26.md#uniform-parsing-of-quasi-standard-dateparse-input
+Stage 4: NA<br>Last Commit: 2023-09-13<br>Keywords: #date_time #parse <br>GitHub Link: https://github.com/tc39/proposal-uniform-interchange-date-parsing <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-09/sept-26.md#uniform-parsing-of-quasi-standard-dateparse-input
 # Proposal Description:
 # Uniform parsing of quasi-standard Date.parse input
 
@@ -121,9 +121,9 @@ Something like `Date.isPortableString` could be useful for validating input _bef
 It would also be nice to expose not just a Boolean classifier but the actual date-time fields (an enhancement similar to that offered by `RegExp.prototype.exec` over `RegExp.prototype.test`), but getting such an interface right at this point seems overly difficult, especially when considering time zone offsets (which dampen the possibility of just returning a [year, month, …] array for use with e.g. `new Date`).
 
 ### Related efforts
-[proposal-date-time-string-format](https://github.com/tc39/proposal-date-time-string-format) by Morgan Phillips has a similar goal of standardizing `Date.parse` behavior over a broader range of input, but is focused on making more of it acceptable—including in particular strings that are not valid ISO 8601 representations, some of which use locale-specific characteristics such as the relative order of year, month, and day fields.
-This proposal, in contrast, is focused on _rejecting_ input when it diverges from the interchange format through slight errors such as out-of-bounds values, improper designators or separators, and improper combinations of fields. Also unlike [proposal-date-time-string-format](https://github.com/tc39/proposal-date-time-string-format) and of particular importance is that every change proposed here is related to ISO 8601 calendar date-times, since that is the basis of the ECMAScript interchange format.
+[[date-parse]] by Morgan Phillips has a similar goal of standardizing `Date.parse` behavior over a broader range of input, but is focused on making more of it acceptable—including in particular strings that are not valid ISO 8601 representations, some of which use locale-specific characteristics such as the relative order of year, month, and day fields.
+This proposal, in contrast, is focused on _rejecting_ input when it diverges from the interchange format through slight errors such as out-of-bounds values, improper designators or separators, and improper combinations of fields. Also unlike the inactive [[date-parse]] and of particular importance is that every change proposed here is related to ISO 8601 calendar date-times, since that is the basis of the ECMAScript interchange format.
 Essentially, this proposal aims to make parsing a limited subset of ISO 8601 calendar date-times the primary function of `Date.parse`, restricting implementation-specific behavior to other date-time formats.
 
-[temporal](https://github.com/tc39/proposal-temporal) by @maggiepint, @mj1856, and @bterlson seeks to introduce _new_ types for working with dates and times, making it substantially larger than this proposal. Regardless of its progress, however, `Date` will remain part of ECMAScript and should be improved where possible. The inference of local vs. zero UTC offset from the presence vs. absence of time fields in a parsed ISO 8601 string can't be changed, but the parsing itself can be made more predictable as presented here.
+[[temporal]] by @maggiepint, @mj1856, and @bterlson seeks to introduce _new_ types for working with dates and times, making it substantially larger than this proposal. Regardless of its progress, however, `Date` will remain part of ECMAScript and should be improved where possible. The inference of local vs. zero UTC offset from the presence vs. absence of time fields in a parsed ISO 8601 string can't be changed, but the parsing itself can be made more predictable as presented here.
 <br>

@@ -2,11 +2,11 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-04-12<br>Keywords: #resource_management #disposable #disposable_stack #async_disposable_stack #symbol_enter #strict_enforcement #cleanup #resource_acquisition #automatic_finalization #host_apis<br>GitHub Link: https://github.com/tc39/proposal-using-enforcement <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#strict-enforcement-of-using
+Stage 4: NA<br>Last Commit: 2024-04-12<br>Keywords: #resource_management #opt-in #strict_enforcement <br>GitHub Link: https://github.com/tc39/proposal-using-enforcement <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#strict-enforcement-of-using
 # Proposal Description:
 # Strict Enforcement of `using`
 
-A proposal to extend Explicit Resource Management to add an opt-in strict `using` usage requirement for resources via
+A proposal to extend [[resource-management]] to add an opt-in strict `using` usage requirement for resources via
 `Symbol.enter`.
 
 This is a follow-on proposal originally documented in [tc39/proposal-explicit-resource-management#195](https://github.com/tc39/proposal-explicit-resource-management/issues/195). It's purpose is to add an opt-in mechanism to enforce a stricter
@@ -26,7 +26,7 @@ _For more information see the [TC39 proposal process](https://tc39.es/process-do
 
 # Motivations
 
-The current model for resource management in the [Explicit Resource Management][] proposal allows for the creation and
+The current model for resource management in the [[resource-management]] proposal allows for the creation and
 use of _Disposables_ &mdash; objects with a `[Symbol.dispose]()` method whose lifetime is bound to the containing block
 scope in tandem with a `using` declaration.
 

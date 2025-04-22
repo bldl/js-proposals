@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-08-08<br>Keywords: #async #iterator #concurrency #unordered #promise #prototype #helpers #async_iterator #transformation #iteration<br>GitHub Link: https://github.com/tc39/proposal-unordered-async-iterator-helpers <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-30.md#unordered-async-iterator-helpers-for-stage-1
+Stage 4: NA<br>Last Commit: 2024-08-08<br>Keywords: #asynchronous #iterator #concurrency #promise <br>GitHub Link: https://github.com/tc39/proposal-unordered-async-iterator-helpers <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-30.md#unordered-async-iterator-helpers-for-stage-1
 # Proposal Description:
 JavaScript Unordered Async Iterator Helpers Proposal
 ====================================================
@@ -35,7 +35,7 @@ We can see a visualisation of the throughput difference between ordered and unor
 
 ![unordered buffer](https://github.com/alexpusch/rust-magic-patterns/raw/master/rust-stream-visualized/resources/buffer_unordered_5.gif)
 
-Because unordered helpers provide no advantage in the absence of concurrent calls to `.next()`, the iterator-consuming methods in this proposal (`.some()`, `.forEach()`, etc) will depend on the [concurrency control proposal](https://github.com/michaelficarra/proposal-concurrency-control).
+Because unordered helpers provide no advantage in the absence of concurrent calls to `.next()`, the iterator-consuming methods in this proposal (`.some()`, `.forEach()`, etc) will depend on the [[concurrency-control]].
 
 ## Open Questions
 

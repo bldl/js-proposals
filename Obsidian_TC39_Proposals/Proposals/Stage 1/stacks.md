@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-02-08<br>Keywords: #stack_trace #error_handling #standardization #security_guarantees #error_objects #property_descriptor #implementation_compatibility #getter_setter #v8_engine #javascript_errors<br>GitHub Link: https://github.com/tc39/proposal-error-stacks <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-01/jan-25.md#15iiia-error-stacks-seeking-stage-1
+Stage 4: NA<br>Last Commit: 2024-02-08<br>Keywords: #stack_trace #error_handling <br>GitHub Link: https://github.com/tc39/proposal-error-stacks <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-01/jan-25.md#15iiia-error-stacks-seeking-stage-1
 # Proposal Description:
 # Error Stacks
 ECMAScript Proposal, specs, and reference implementation for `Error.prototype.stack`/`System.getStack`/`System.getStackString`

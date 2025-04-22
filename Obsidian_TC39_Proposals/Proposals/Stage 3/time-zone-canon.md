@@ -2,7 +2,7 @@
 Stage 2: 2023-05-18  
 Stage 2.7: NA  
 Stage 3: 2023-07-15  
-Stage 4: NA<br>Last Commit: 2023-09-26<br>Keywords: #time #date #identifier <br>GitHub Link: https://github.com/tc39/proposal-canonical-tz#readme <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2023-07/july-12.md#time-zone-canonicalization-for-stage-3
+Stage 4: NA<br>Last Commit: 2023-09-26<br>Keywords: #date_time #identifier <br>GitHub Link: https://github.com/tc39/proposal-canonical-tz#readme <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2023-07/july-12.md#time-zone-canonicalization-for-stage-3
 # Proposal Description:
 # Handling Time Zone Canonicalization Changes
 

@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-08-19<br>Keywords: #raw_string_literal #template_literals #string_interpolation #multiline_strings #string_delimiter #sql_queries #markdown_embedding #escaping_rules #syntax_highlighting #code_generation<br>GitHub Link: https://github.com/hax/proposal-raw-string-literals <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#raw-string-literals-for-stage-1
+Stage 4: NA<br>Last Commit: 2024-08-19<br>Keywords: #string #escape #raw_string_literal<br>GitHub Link: https://github.com/hax/proposal-raw-string-literals <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#raw-string-literals-for-stage-1
 # Proposal Description:<br>
 # Improve template literals
 

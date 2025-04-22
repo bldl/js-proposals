@@ -1,8 +1,8 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Stable Formatting<br>Authors: Eemeli Aro<br>Champions: Eemeli Aro<br>Last Presented: September 2023<br>Stage Upgrades:<br>Stage 1: 2023-09-28  
+[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: KW<br>Title: Stable Formatting<br>Authors: Eemeli Aro<br>Champions: Eemeli Aro<br>Last Presented: September 2023<br>Stage Upgrades:<br>Stage 1: 2023-09-28  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2025-02-19<br>Keywords: #formatting #locale #internationalization #date_time #standardization #numerical #string_manipulation #collation #ISO_8601 #display_names<br>GitHub Link: https://github.com/tc39/proposal-stable-formatting <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-27.md#stable-formatting-for-stage-1
+Stage 4: NA<br>Last Commit: 2025-02-19<br>Keywords: #formatting #locale #internationalization #date_time #standardization <br>GitHub Link: https://github.com/tc39/proposal-stable-formatting <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-27.md#stable-formatting-for-stage-1
 # Proposal Description:
 # Stable Formatting
 

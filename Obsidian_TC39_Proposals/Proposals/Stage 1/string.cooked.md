@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-07-02<br>Keywords: #string_method #template_literal #cooked_string #string_concatenation #escape_sequences #type_error #custom_template #url_encoding #preprocessing #mapping<br>GitHub Link: https://github.com/tc39/proposal-string-cooked <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#stringcooked
+Stage 4: NA<br>Last Commit: 2022-07-02<br>Keywords: #string #string_manipulation<br>GitHub Link: https://github.com/tc39/proposal-string-cooked <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-27.md#stringcooked
 # Proposal Description:
 # String.cooked proposal
 

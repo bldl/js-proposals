@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-10-10<br>Keywords: #typed_array #dataview #uint8 <br>GitHub Link: https://github.com/tc39/proposal-dataview-get-set-uint8clamped <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#dataview-getset-uint8clamped-methods-for-stage-1-or-2-or-3
+Stage 4: NA<br>Last Commit: 2024-10-10<br>Keywords: #typedarray #dataview #uint8 <br>GitHub Link: https://github.com/tc39/proposal-dataview-get-set-uint8clamped <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-13.md#dataview-getset-uint8clamped-methods-for-stage-1-or-2-or-3
 # Proposal Description:
 # DataView get/set Uint8Clamped methods
 

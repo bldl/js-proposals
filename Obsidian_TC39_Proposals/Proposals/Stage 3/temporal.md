@@ -2,7 +2,7 @@
 Stage 2: 2018-09-27  
 Stage 2.7: NA  
 Stage 3: 2021-03-14  
-Stage 4: NA<br>Last Commit: 2025-03-01<br>Keywords: #date #time #calendar <br>GitHub Link: https://github.com/tc39/proposal-temporal <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-30.md#temporal-update--bug-fixes
+Stage 4: NA<br>Last Commit: 2025-03-01<br>Keywords: #date_time #calendar <br>GitHub Link: https://github.com/tc39/proposal-temporal <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-30.md#temporal-update--bug-fixes
 # Proposal Description:
 # Temporal
 

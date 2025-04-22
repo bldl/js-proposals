@@ -1,8 +1,8 @@
-[[Stage 1]]<br>Classification: [[API Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Signals<br>Authors: Rob Eisenberg, Daniel Ehrenberg<br>Champions: Daniel Ehrenberg, Yehuda Katz, Jatin Ramanathan, Shay Lewis, Kristen Hewell Garrett, Dominic Gannaway, Preston Sego, Milo M, Rob Eisenberg<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2024-04-11  
+[[Stage 1]]<br>Classification: [[API Change]] <br>Human Validated: KW<br>Title: Signals<br>Authors: Rob Eisenberg, Daniel Ehrenberg<br>Champions: Daniel Ehrenberg, Yehuda Katz, Jatin Ramanathan, Shay Lewis, Kristen Hewell Garrett, Dominic Gannaway, Preston Sego, Milo M, Rob Eisenberg<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2024-04-11  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2025-01-01<br>Keywords: #signal #reactivity #dependency_tracking #memoization #automatic_updates #computed_signals #state_management #efficiency #interoperability #frameworks<br>GitHub Link: https://github.com/tc39/proposal-signals <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#signals-for-stage-1
+Stage 4: NA<br>Last Commit: 2025-01-01<br>Keywords: #signal #memory_management #library #memoization #tracking <br>GitHub Link: https://github.com/tc39/proposal-signals <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#signals-for-stage-1
 # Proposal Description:
 # 🚦 JavaScript Signals standard proposal🚦
 <img align=right src="Signals.svg" alt="Signals logo" width=100>

@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Asynchronous Iteration<br>Authors: Domenic Denicola<br>Champions: Domenic Denicola<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2016-02-02  
+[[Stage 4]]<br>Classification: [[API Change]] [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Asynchronous Iteration<br>Authors: Domenic Denicola<br>Champions: Domenic Denicola<br>Last Presented: January 2018<br>Stage Upgrades:<br>Stage 1: 2016-02-02  
 Stage 2: 2016-03-31  
 Stage 2.7: NA  
 Stage 3: 2016-09-30  
