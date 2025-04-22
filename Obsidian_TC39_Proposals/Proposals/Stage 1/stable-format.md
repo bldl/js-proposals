@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: KW<br>Title: Stable Formatting<br>Authors: Eemeli Aro<br>Champions: Eemeli Aro<br>Last Presented: September 2023<br>Stage Upgrades:<br>Stage 1: 2023-09-28  
+[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Stable Formatting<br>Authors: Eemeli Aro<br>Champions: Eemeli Aro<br>Last Presented: September 2023<br>Stage Upgrades:<br>Stage 1: 2023-09-28  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

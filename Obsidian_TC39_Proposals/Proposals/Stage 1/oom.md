@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: OOM Fails Fast<br>Authors: Mark Miller<br>Champions: Mark Miller<br>Last Presented: December 2019<br>Stage Upgrades:<br>Stage 1: 2019-10-05  
+[[Stage 1]]<br>Classification: [[Semantic Change]]<br>Human Validated: KW<br>Title: OOM Fails Fast<br>Authors: Mark Miller<br>Champions: Mark Miller<br>Last Presented: December 2019<br>Stage Upgrades:<br>Stage 1: 2019-10-05  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

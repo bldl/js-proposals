@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[API Change]] <br>Human Validated: KW<br>Title: Signals<br>Authors: Rob Eisenberg, Daniel Ehrenberg<br>Champions: Daniel Ehrenberg, Yehuda Katz, Jatin Ramanathan, Shay Lewis, Kristen Hewell Garrett, Dominic Gannaway, Preston Sego, Milo M, Rob Eisenberg<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2024-04-11  
+[[Stage 1]]<br>Classification: [[API Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Signals<br>Authors: Rob Eisenberg, Daniel Ehrenberg<br>Champions: Daniel Ehrenberg, Yehuda Katz, Jatin Ramanathan, Shay Lewis, Kristen Hewell Garrett, Dominic Gannaway, Preston Sego, Milo M, Rob Eisenberg<br>Last Presented: April 2024<br>Stage Upgrades:<br>Stage 1: 2024-04-11  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

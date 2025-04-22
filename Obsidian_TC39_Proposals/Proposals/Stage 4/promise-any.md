@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[API Change]] <br>Human Validated: KW<br>Title: Promise.any<br>Authors: Mathias Bynens, Kevin Gibbons, Sergey Rubanov<br>Champions: Mathias Bynens<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2019-03-27  
+[[Stage 4]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Promise.any<br>Authors: Mathias Bynens, Kevin Gibbons, Sergey Rubanov<br>Champions: Mathias Bynens<br>Last Presented: July 2020<br>Stage Upgrades:<br>Stage 1: 2019-03-27  
 Stage 2: 2019-07-24  
 Stage 2.7: NA  
 Stage 3: 2019-10-04  

@@ -1,4 +1,4 @@
-w[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Atomics.pause<br>Authors: Shu-yu Guo<br>Champions: Shu-yu Guo<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2024-02-13  
+[[Stage 3]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: Atomics.pause<br>Authors: Shu-yu Guo<br>Champions: Shu-yu Guo<br>Last Presented: October 2024<br>Stage Upgrades:<br>Stage 1: 2024-02-13  
 Stage 2: NA  
 Stage 2.7: 2024-06-13  
 Stage 3: 2024-10-18  

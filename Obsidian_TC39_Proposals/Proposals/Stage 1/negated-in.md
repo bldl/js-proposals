@@ -1,4 +1,4 @@
-[[Stage 1]]<br>Classification: [[Syntactic Change]] [[Semantic Change]]<br>Human Validated: KW<br>Title: Negated in and instanceof operators<br>Authors: Pablo Gorostiaga Belio<br>Champions: Pablo Gorostiaga Belio<br>Last Presented: September 2023<br>Stage Upgrades:<br>Stage 1: 2023-10-02  
+[[Stage 1]]<br>Classification: [[Syntactic Change]] <br>Human Validated: KW<br>Title: Negated in and instanceof operators<br>Authors: Pablo Gorostiaga Belio<br>Champions: Pablo Gorostiaga Belio<br>Last Presented: September 2023<br>Stage Upgrades:<br>Stage 1: 2023-10-02  
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  

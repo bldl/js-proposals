@@ -1,34 +1,24 @@
 {
   "main": {
-    "id": "c69c809b3fe4ea8c",
+    "id": "db02ad88749655c6",
     "type": "split",
     "children": [
       {
-        "id": "1614df4cc14ecf2d",
+        "id": "1f4b5584866582cd",
         "type": "tabs",
         "children": [
           {
-            "id": "f62bfcab1bdefc12",
+            "id": "d4cda5d69bd34532",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proposals/Stage 0/as-patterns.md",
+                "file": "Proposals/Stage 1/virtualize.md",
                 "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "as-patterns"
+              "title": "virtualize"
             }
           }
         ]
@@ -37,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "0622cfc8b23274af",
+    "id": "c76c6e90faab6cb9",
     "type": "split",
     "children": [
       {
-        "id": "95807ef4fad02c57",
+        "id": "521a95276018a3bb",
         "type": "tabs",
         "children": [
           {
-            "id": "3907ea67d135be80",
+            "id": "4a17720aa0003c92",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,12 +48,12 @@
             }
           },
           {
-            "id": "a0132a00cd60af08",
+            "id": "142a21e2d06910af",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "pipeline-",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +65,7 @@
             }
           },
           {
-            "id": "8bd076c01aae117a",
+            "id": "b639ccaf4e227417",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -88,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 300
   },
   "right": {
-    "id": "70243209cecd80e6",
+    "id": "4107e12eca2eefe4",
     "type": "split",
     "children": [
       {
-        "id": "82fe4deadc1e38e5",
+        "id": "d77e3219274f6c40",
         "type": "tabs",
         "children": [
           {
-            "id": "6953b020acfceda3",
+            "id": "cf80575a12235a6c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Proposals/Stage 4/allsettled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for allsettled"
             }
           },
           {
-            "id": "f268ad672650f460",
+            "id": "fd12c2acf1cc6b29",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Proposals/Stage 4/allsettled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links from allsettled"
             }
           },
           {
-            "id": "85da7f5925cece71",
+            "id": "94b1dd3b92849f36",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -147,18 +137,18 @@
             }
           },
           {
-            "id": "632421f56fc1258d",
+            "id": "fe8b27ca0986291d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "Proposals/Stage 4/allsettled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of allsettled"
             }
           }
         ]
@@ -175,13 +165,11 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "publish:Publish changes...": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "f62bfcab1bdefc12",
+  "active": "d4cda5d69bd34532",
   "lastOpenFiles": [
-    "Proposals/Stage 1/virtualize.md",
     "Proposals/Stage 1/unordered-async.md",
     "Proposals/Stage 1/uniform-date-parse.md",
     "Proposals/Stage 1/type-annotations.md",
@@ -207,16 +195,6 @@
     "Proposals/Stage 1/proto-pollution.md",
     "Proposals/Stage 1/proposal-compartments.md",
     "Proposals/Stage 1/promise-pipelining.md",
-    "github.com/tc39",
-    "github.com",
-    "Analysis/Stages/Plots/Stage0Plot1.pdf",
-    "Analysis/Stages/Plots/InactivePlot1.pdf",
-    "Analysis/Stages/Plots",
-    "Analysis/Stages/Plots/Stage4Plot1.pdf",
-    "Analysis/Stages/Plots/Stage3Plot1.pdf",
-    "Analysis/Stages/Plots/Stage2Plot1.pdf",
-    "Analysis/Stages/Plots/Stage2.7Plot1.pdf",
-    "Analysis/Stages/Plots/InactivePlot4.pdf",
-    "Untitled.canvas"
+    "Proposals/Stage 1/private-declarations.md"
   ]
 }

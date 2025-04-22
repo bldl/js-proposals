@@ -1,4 +1,4 @@
-[[Stage 4]]<br>Classification: [[Semantic Change]] [[Syntactic Change]] <br>Human Validated: KW<br>Title: Async functions<br>Authors: Brian Terlson<br>Champions: Brian Terlson<br>Last Presented: July 2016<br>Stage Upgrades:<br>Stage 1: 2014-04-09  
+[[Stage 4]]<br>Classification: [[API Change]] [[Syntactic Change]] <br>Human Validated: KW<br>Title: Async functions<br>Authors: Brian Terlson<br>Champions: Brian Terlson<br>Last Presented: July 2016<br>Stage Upgrades:<br>Stage 1: 2014-04-09  
 Stage 2: 2015-08-02  
 Stage 2.7: NA  
 Stage 3: 2015-09-29  
