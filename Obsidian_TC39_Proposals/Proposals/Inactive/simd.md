@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2018-09-07<br>Keywords: #simd_extensions #vector_processing #platform_optimizations #relaxed_semantics #checked_operations #hardware_acceleration #performance_tuning #low_level_computation #jit_optimization #numeric_computing<br>GitHub Link: https://github.com/tc39/ecmascript_simd/ <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-03/mar-21.md#conclusionresolution-10
+Stage 4: NA<br>Last Commit: 2018-09-07<br>Keywords: #performance #optimization <br>GitHub Link: https://github.com/tc39/ecmascript_simd/ <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-03/mar-21.md#conclusionresolution-10
 # Proposal Description:<br>
 # SIMD.js
 ===============

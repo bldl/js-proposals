@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2019-10-21<br>Keywords: #math_functions #angle_conversion #value_clamping #floating_point_operations #numeric_utilities #degree_radian #standard_library #trigonometry #precision_handling #scale_mapping<br>GitHub Link: https://github.com/rwaldron/proposal-math-extensions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-26.md#9iie-math-extensions
+Stage 4: NA<br>Last Commit: 2019-10-21<br>Keywords: #math #arithmetic #numeric <br>GitHub Link: https://github.com/rwaldron/proposal-math-extensions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-07/jul-26.md#9iie-math-extensions
 # Proposal Description:<br>
 # `Math` Extensions Proposal
 

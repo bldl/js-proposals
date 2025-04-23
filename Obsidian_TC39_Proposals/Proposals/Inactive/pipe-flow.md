@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-08-20<br>Keywords: #function #pipeline #composition #callbacks #metafunctions #application #asynchronous #unary #reduce #functionality<br>GitHub Link: https://github.com/tc39/proposal-function-pipe-flow <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-21.md#functionpipe--flow-for-stage-1
+Stage 4: NA<br>Last Commit: 2022-08-20<br>Keywords: #pipeline #callbacks <br>GitHub Link: https://github.com/tc39/proposal-function-pipe-flow <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-21.md#functionpipe--flow-for-stage-1
 # Proposal Description:
 # Function.pipe and flow for JavaScript
 ECMAScript Stage-0 Proposal (**withdrawn**). J. S. Choi, 2021.
@@ -13,7 +13,7 @@ function pipe (input, ...fnArray) {
   return fnArray.reduce((value, fn) => fn(value), input);
 }
 ```
-…or also solved by the [pipe operator][]. Its champion subsequently withdrew it from consideration. (Eventually, after the pipe operator gains users, pain points with the pipe operator may be enough motivation to revive this proposal, but that would not occur for a long time.)
+…or also solved by the [[pipeline]]. Its champion subsequently withdrew it from consideration. (Eventually, after the pipe operator gains users, pain points with the pipe operator may be enough motivation to revive this proposal, but that would not occur for a long time.)
 
 [2022-07 plenary]: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-21.md#functionpipe--flow-for-stage-1
 [pipe operator]: https://github.com/tc39/proposal-pipeline-operator

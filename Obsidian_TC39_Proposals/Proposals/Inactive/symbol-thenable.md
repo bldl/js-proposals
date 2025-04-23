@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2018-05-12<br>Keywords: #symbol_thenable #promise #thenable #module_namespace #interop #legacy #modifier #resolution #blacklist #protocols<br>GitHub Link: https://github.com/devsnek/proposal-symbol-thenable <br>GitHub Note Link: https://github.com/tc39/notes/blob/def2ee0c04bc91612576237314a4f3b1fe2edaef/meetings/2018-05/may-24.md#symbolthenable-for-stage-1-or-2
+Stage 4: NA<br>Last Commit: 2018-05-12<br>Keywords: #symbol #promise #modifier <br>GitHub Link: https://github.com/devsnek/proposal-symbol-thenable <br>GitHub Note Link: https://github.com/tc39/notes/blob/def2ee0c04bc91612576237314a4f3b1fe2edaef/meetings/2018-05/may-24.md#symbolthenable-for-stage-1-or-2
 # Proposal Description:
 # Symbol.thenable
 

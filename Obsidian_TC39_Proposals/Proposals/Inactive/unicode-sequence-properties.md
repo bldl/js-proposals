@@ -2,7 +2,7 @@
 Stage 2: 2018-09-27  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-05-20<br>Keywords: #unicode #property #regex #expression #character #code_point #emoji #sequence #alternation #transpilation<br>GitHub Link: https://github.com/tc39/proposal-regexp-unicode-sequence-properties <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#update-on-sequence-property-escapes-in-unicode-regular-expressions
+Stage 4: NA<br>Last Commit: 2022-05-20<br>Keywords: #unicode #property #regex <br>GitHub Link: https://github.com/tc39/proposal-regexp-unicode-sequence-properties <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#update-on-sequence-property-escapes-in-unicode-regular-expressions
 # Proposal Description:
 # ECMAScript proposal: support properties of strings (a.k.a. “sequence properties”) in Unicode property escapes
 

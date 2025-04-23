@@ -2,7 +2,7 @@
 Stage 2: NA
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-10-30<br>Keywords: #iterator #object #iteration #keys #values #entries #mapping #performance #dictionary #transform<br>GitHub Link: https://github.com/tc39/proposal-object-iteration <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2020-10-30<br>Keywords: #iterator #key_value_pairs <br>GitHub Link: https://github.com/tc39/proposal-object-iteration <br>GitHub Note Link: None
 # Proposal Description:
 # WITHDRAWN: This proposal has been withdrawn from consideration
 
@@ -77,11 +77,11 @@ for (const value of valuesIterator) {
 }
 ```
 
-#### Relationship to the existing [Iterator Helpers] proposal
+#### Relationship to the existing [[iterator-helpers]] proposal
 
-- The [Iterator Helpers] proposal is not a requirement to make this proposal useful, but it substantially improves
+- The [[iterator-helpers]] proposal is not a requirement to make this proposal useful, but it substantially improves
   developer experience
-- Without this proposal, the helpers provided in [Iterator Helpers] are not as valuable for data stored in Objects,
+- Without this proposal, the helpers provided in [[iterator-helpers]] are not as valuable for data stored in Objects,
   as there are currently no mechanisms to in-place iterate through an Object.
 
 ## Polyfill
@@ -109,11 +109,11 @@ Stage 1.
 
 #### After meeting discussion
 
-After the October meeting, the champions & authors of this proposal and the [Iterator Helpers] proposal met and
+After the October meeting, the champions & authors of this proposal and the [[iterator-helpers]] proposal met and
 discussed how the two proposals are related. It was determined that augmenting `Iterator.from` for this purpose
 would not work, since it would be ambiguous for Objects that extend `Iterator.prototype`.
 
-Since [Iterator Helpers] provides the needed `map` mechanism, this proposal could be adjusted to focus on getting
+Since [[iterator-helpers]] provides the needed `map` mechanism, this proposal could be adjusted to focus on getting
 an `Iterator` from an Object.
 
 ### February 2020

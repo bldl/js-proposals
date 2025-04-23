@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2023-12-18<br>Keywords: #operator #overloading #numeric #types #vector #matrix #tensor #expressivity #compatibility #syntax<br>GitHub Link: https://github.com/tc39/proposal-operator-overloading <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#operator-overloading-for-stage-1
+Stage 4: NA<br>Last Commit: 2023-12-18<br>Keywords: #operator #overloading #numeric<br>GitHub Link: https://github.com/tc39/proposal-operator-overloading <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#operator-overloading-for-stage-1
 # Proposal Description:
 # Operator overloading in JavaScript
 
@@ -18,7 +18,7 @@ Operator overloading is all about enabling richer libraries. This section gives 
 
 ### Numeric types
 
-JavaScript has a very restricted set of numeric types. Traditionally, it had just Number: an IEEE-754 double-precision binary float. The Stage 4 [BigInt proposal](http://github.com/tc39/proposal-bigint/) added a single new numeric type for arbitrary-size integers. But there are more numeric types that developers need in practice, such as decimals, rationals, complex numbers, etc. Operator overloading can provide these, with intuitive syntax for their use.
+JavaScript has a very restricted set of numeric types. Traditionally, it had just Number: an IEEE-754 double-precision binary float. The Stage 4 [[bigint]] added a single new numeric type for arbitrary-size integers. But there are more numeric types that developers need in practice, such as decimals, rationals, complex numbers, etc. Operator overloading can provide these, with intuitive syntax for their use.
 
 ```mjs
 // Usage example
@@ -153,7 +153,7 @@ At this point, maybe you don't even need that comment!
 
 ### Ergonomic CSS units calculations
 
-Tab Atkins [proposed](https://www.xanthir.com/b4UD0) that CSS support syntax in JavaScript for CSS unit literals and operators. The [CSS Typed OM](https://drafts.css-houdini.org/css-typed-om-1/) turned out a bit different, with ergonomic affordances but without using new types of literals or operator overloading. With this proposal, in conjunction with [extended numeric literals](https://github.com/tc39/proposal-extended-numeric-literals), we could have some more intuitive units calculations than the current function- and method-based solution.
+Tab Atkins [proposed](https://www.xanthir.com/b4UD0) that CSS support syntax in JavaScript for CSS unit literals and operators. The [CSS Typed OM](https://drafts.css-houdini.org/css-typed-om-1/) turned out a bit different, with ergonomic affordances but without using new types of literals or operator overloading. With this proposal, in conjunction with [[extensible-literals]], we could have some more intuitive units calculations than the current function- and method-based solution.
 
 In this case, the CSSNumericValue platform objects would come with operator overloading already enabled. Their definition in the CSS Typed OM specification would, indirectly, make use of the same JavaScript mechanism that
 
@@ -258,7 +258,7 @@ The `Operators` function is called with one required argument, which is a dictio
 
 The subsequent parameters of `Operators` are similar dictionaries of operator definitions, used for defining the behavior of operators when one of the parameters is of a type declared previously: they must have either a `left:` or `right:` property, indicating the type of the other operand.
 
-Note: The `Operators` function and the above decorators could be exposed from a [built-in module](https://github.com/tc39/proposal-javascript-standard-library/) rather than being a property of the global object, depending on how that proposal goes.
+Note: The `Operators` function and the above decorators could be exposed from a [[built-in-modules]] rather than being a property of the global object, depending on how that proposal goes.
 
 ## Q/A
 
@@ -312,7 +312,7 @@ This proposal only allows overloading built-in operators, because:
 
 - There's significant concern about "punctuation overload" in JavaScript programs, already growing more fragile with private fields/methods (`#`) and decorators (`@`). Too many kinds of punctuation could make programs hard to read.
 - User-defined precedence for such tokens is unworkable to parse.
-- Hopefully the [pipeline operator](https://github.com/tc39/proposal-pipeline-operator) and [optional chaining](https://github.com/tc39/proposal-optional-chaining) will solve many of the cases that would motivate these operators.
+- Hopefully the [[pipeline]] and [[chaining]] will solve many of the cases that would motivate these operators.
 - We deliberately want to limit the syntactic divergence of JavaScript programs.
 
 User-defined operator tokens may be a worthwhile proposal, but I (littledan) would be somewhat uncomfortable championing them for the above reasons.
@@ -338,21 +338,21 @@ If you have operators defined in two different modules, then to define overloads
 
 #### Decorators
 
-[Decorators](https://github.com/tc39/proposal-decorators/) (Stage 2) could be used for a more ergonomic way to define operator overloading, as described in a previous version of this README. However, the decorators proposal is not yet stable, with changes still being discussed, so it's a bit early to propose a concrete decorator syntax for operator overloading.
+[[Decorators]] (Stage 2) could be used for a more ergonomic way to define operator overloading, as described in a previous version of this README. However, the decorators proposal is not yet stable, with changes still being discussed, so it's a bit early to propose a concrete decorator syntax for operator overloading.
 
 #### BigInt and BigDecimal
 
-[BigInt](https://github.com/tc39/proposal-bigint/) (Stage 4) provides definitions for how operators work on just one new type, representing arbitrary-precision integers. [BigDecimal](https://github.com/littledan/proposal-bigdecimal) (Stage 0) represents another, for arbitrary-precision decimals. This proposal generalizes that to types defined in JavaScript.
+[[Bigint]] (Stage 4) provides definitions for how operators work on just one new type, representing arbitrary-precision integers. [[Decimal]] (Stage 0) represents another, for arbitrary-precision decimals. This proposal generalizes that to types defined in JavaScript.
 
 #### Records and Tuples
 
-[Records and Tuples](https://github.com/tc39/proposal-record-tuple) (Stage 1) provides a deeply immutable compound primitive notion, superficially analogous to Objects and Arrays, with value semantics.
+[[Record-tuple]] (Stage 1) provides a deeply immutable compound primitive notion, superficially analogous to Objects and Arrays, with value semantics.
 
 If either operator overloading and records and tuples advances past Stage 1, then a next step for the other proposal would be to define semantics for the two features to be used together. One possibility is that for the return value of `Operators` to have a method that would take a Record or Tuple and return a new one with operators overloaded (details TBD).
 
 #### Typed Objects and Value Types
 
-[Typed Objects](https://github.com/tschneidereit/proposal-typed-objects/blob/master/explainer.md) is a proposal for efficient, fixed-shape objects.
+[[Typed-objects-new]] is a proposal for efficient, fixed-shape objects.
 
 Value Types is an idea in TC39 about user-definable primitive types. At some points in the past, it was proposed that operator overloading be tied to value types.
 
@@ -362,7 +362,7 @@ When these proposals mature more, it will be good to look into how operator over
 
 #### Extended numeric literals
 
-The [extended numeric literals](https://github.com/tc39/proposal-extended-numeric-literals) proposal (Stage 1) allows numeric-like types such as `3@px` or `5.2@m` to be defined and used ergonomically.  Extended numeric literals and operator overloading could fit well together, but they don't depend on each other and can each be used separately. This README omits use of extended numeric literals, for simplicity and to focus on the operator overloading aspects.
+The [[extensible-literals]] proposal (Stage 1) allows numeric-like types such as `3@px` or `5.2@m` to be defined and used ergonomically.  Extended numeric literals and operator overloading could fit well together, but they don't depend on each other and can each be used separately. This README omits use of extended numeric literals, for simplicity and to focus on the operator overloading aspects.
 
 ### How does operator overloading interact with Proxy and membrane systems?
 

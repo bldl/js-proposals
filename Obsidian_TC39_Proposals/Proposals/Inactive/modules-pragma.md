@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-01-24<br>Keywords: #module #pragma #portability #compatibility #host_environment #source_file #configuration #script #syntax #parsing<br>GitHub Link: https://github.com/tc39/proposal-modules-pragma <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-26.md#9ivb-modulescript-pragma-for-stage-2
+Stage 4: NA<br>Last Commit: 2022-01-24<br>Keywords: #module #script #declaration <br>GitHub Link: https://github.com/tc39/proposal-modules-pragma <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-07/jul-26.md#9ivb-modulescript-pragma-for-stage-2
 # Proposal Description:
 # ECMAScript proposal: `"use module";`
 

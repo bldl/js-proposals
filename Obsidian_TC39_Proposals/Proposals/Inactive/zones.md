@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2019-09-26<br>Keywords: #zones #asynchronous_context #context_propagation #thread_local_storage #event_loop #promise_tracking #error_handling #profiling_tools #performance_monitoring #javascript_frameworks<br>GitHub Link: https://github.com/domenic/zones <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2019-09-26<br>Keywords: #asynchronous #promise #error_handling <br>GitHub Link: https://github.com/domenic/zones <br>GitHub Note Link: None
 # Proposal Description:<br>
 # Zones for JavaScript
 

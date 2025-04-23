@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "524a94906191e2eb",
+        "id": "df1c8fd5f502cfc5",
         "type": "tabs",
         "children": [
           {
-            "id": "9c80a1910dac17ba",
+            "id": "0bd472477d508b7e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Proposals/Inactive/modules-pragma.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "modules-pragma"
+              "title": "New tab"
             }
           }
         ]
@@ -63,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ergonomics",
+                "query": "tag:#asynchronous",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,34 +165,34 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "9c80a1910dac17ba",
+  "active": "3907ea67d135be80",
   "lastOpenFiles": [
+    "Proposals/Inactive/zones.md",
+    "Proposals/Inactive/uuid.md",
+    "Proposals/Inactive/unused-params.md",
+    "Proposals/Inactive/unicode-sequence-properties.md",
+    "Proposals/Inactive/typedarray-stride-parameter.md",
+    "Proposals/Inactive/typed-objects-new.md",
+    "Proposals/Inactive/symbol-thenable.md",
+    "Proposals/Inactive/string-at.md",
+    "Proposals/Inactive/spaceship.md",
+    "Proposals/Inactive/simd.md",
+    "Proposals/Inactive/signbit.md",
+    "Proposals/Inactive/shallow-equal.md",
+    "Proposals/Inactive/refcollection.md",
+    "Proposals/Inactive/re-atomic-groups.md",
+    "Proposals/Inactive/ptc.md",
+    "Proposals/Inactive/pipe-flow.md",
+    "Proposals/Inactive/overloading.md",
+    "Proposals/Inactive/extensible-literals.md",
+    "Proposals/Stage 1/decimal.md",
+    "Proposals/Stage 4/chaining.md",
+    "Proposals/Inactive/object-iteration.md",
+    "Proposals/Inactive/object-enums.md",
+    "Proposals/Inactive/more-math.md",
+    "Proposals/Inactive/modules-pragma.md",
     "Proposals/Inactive/module-unambig.md",
     "Proposals/Inactive/json-tryparse.md",
-    "Proposals/Inactive/is-types.md",
-    "Proposals/Inactive/icu.md",
-    "Proposals/Inactive/generator-arrow-functions.md",
-    "Proposals/Inactive/function-helpers.md",
-    "Proposals/Inactive/fromimport.md",
-    "Proposals/Inactive/extensible-literals.md",
-    "Proposals/Inactive/dynamic-module-reform.md",
-    "Proposals/Inactive/distinguishing-literal-strings.md",
-    "Proposals/Inactive/deprecated.md",
-    "Proposals/Inactive/date-parse.md",
-    "Proposals/Inactive/construct.md",
-    "Proposals/Inactive/collection-literals.md",
-    "Proposals/Stage 1/matching.md",
-    "Proposals/Inactive/collection-json.md",
-    "Proposals/Inactive/cleanup-some.md",
-    "Proposals/Inactive/cancel-promise.md",
-    "Proposals/Inactive/callable-constructors.md",
-    "Proposals/Inactive/buffer-transfer.md",
-    "Proposals/Inactive/blocks.md",
-    "Proposals/Inactive/arraylast.md",
-    "Proposals/Stage 0/string-trim-characters.md",
-    "Proposals/Stage 0/relationships.md",
-    "Proposals/Stage 0/ortho.md",
-    "Proposals/Stage 0/object-shorthand-improvements.md",
     "github.com/tc39",
     "github.com",
     "Analysis/Stages/Plots/Stage0Plot1.pdf",

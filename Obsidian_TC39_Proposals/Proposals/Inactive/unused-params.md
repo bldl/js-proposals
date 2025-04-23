@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-08-12<br>Keywords: #unused_parameters #function_syntax #placeholder_syntax #elisions #parameter_binding #javascript_functions #lambda_expressions #syntax_proposal #code_clarity #destructuring<br>GitHub Link: https://github.com/devsnek/proposal-unused-function-parameters <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#unused-function-parameters-for-stage-1
+Stage 4: NA<br>Last Commit: 2020-08-12<br>Keywords: #lambda #placeholder #destructuring<br>GitHub Link: https://github.com/devsnek/proposal-unused-function-parameters <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#unused-function-parameters-for-stage-1
 # Proposal Description:<br>
 # Unused Function Parameters
 

@@ -1,8 +1,8 @@
-[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: RefCollection<br>Authors: Robin Ricard<br>Withdrawn; replaced with [Symbols as WeakMap keys][symbols-weakmap]; also there were OCAP/membrane concerns around providing a globally available pre-instantiated RefCollection<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: NA
+[[Inactive]]<br>Classification: [[API Change]]<br>Human Validated: KW<br>Title: RefCollection<br>Authors: Robin Ricard<br>Withdrawn; replaced with [[symbols-weakmap]]; also there were OCAP/membrane concerns around providing a globally available pre-instantiated RefCollection<br>Last Presented: None<br>Stage Upgrades:<br>Stage 1: NA
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-04-01<br>Keywords: #reference_management #symbol_tracking #memory_management #immutable_data #records_and_tuples #object_tracking #garbage_collection #weak_references #data_persistence #functional_programming<br>GitHub Link: https://github.com/rricard/proposal-refcollection/ <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2020-04-01<br>Keywords: #symbol #memory_management<br>GitHub Link: https://github.com/rricard/proposal-refcollection/ <br>GitHub Note Link: None
 # Proposal Description:<br>
 # RefCollection
 
@@ -27,7 +27,7 @@ ECMAScript proposal for the RefCollection.
 
 The RefCollection introduces a way to keep value references to objects through symbols.
 
-One of its main goals is to be able to keep track of objects in [Records and Tuples][rt] without introducing anything mutable in them.
+One of its main goals is to be able to keep track of objects in [[record-tuple]] without introducing anything mutable in them.
 
 The RefCollection is able to automatically track symbols in such a way that when they become unreachable (and since symbols can't be forged) the referenced object can become unreachable as well.
 

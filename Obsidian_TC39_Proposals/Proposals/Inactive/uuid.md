@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2021-04-02<br>Keywords: #uuid #identifier #generation #cryptography #randomness #secure #entropy #uniqueness #database #api<br>GitHub Link: https://github.com/tc39/proposal-uuid <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#uuid-for-stage-1
+Stage 4: NA<br>Last Commit: 2021-04-02<br>Keywords: #security #math #cryptography <br>GitHub Link: https://github.com/tc39/proposal-uuid <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#uuid-for-stage-1
 # Proposal Description:
 # ECMAScript proposal: JavaScript standard library UUID
 

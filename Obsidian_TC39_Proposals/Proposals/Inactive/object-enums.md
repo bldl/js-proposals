@@ -2,15 +2,14 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2016-04-29<br>Keywords: #object_enumeration #prototype_properties #iteration_utilities #object_keys #object_values #object_entries #for_in_loop #data_serialization #object_prototypes #reflection_api<br>GitHub Link: https://github.com/leobalter/object-enumerables <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2016-04-29<br>Keywords: #key_value_pairs #iterator #serialization<br>GitHub Link: https://github.com/leobalter/object-enumerables <br>GitHub Note Link: None
 # Proposal Description:<br>
 # Object.enumerableKeys / Object.enumerableValues / Object.enumerableEntries
 
 ## Rationale
 
 Following the [rationale](https://github.com/tc39/proposal-object-values-entries#rationale)
-in [Object.values and Object.entries](https://github.com/tc39/proposal-object-values-entries)
-proposal, all these methods are useful to obtain an array of keys, values, and
+in [[object-values-entries]] proposal, all these methods are useful to obtain an array of keys, values, and
 key/value pairs (what the spec calls “entries”) from an object, for the purposes
 of iteration or serialization.
 

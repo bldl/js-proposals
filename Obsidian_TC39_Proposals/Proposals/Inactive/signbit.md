@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-02-06<br>Keywords: #signbit #mathematics #number #floating_point #bitwise #negative #positive #value #evaluation #polyfill<br>GitHub Link: https://github.com/tc39/proposal-Math.signbit <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-23.md#16ib-mathsignbit-proposal
+Stage 4: NA<br>Last Commit: 2020-02-06<br>Keywords: #math #numeric #arithmetic  <br>GitHub Link: https://github.com/tc39/proposal-Math.signbit <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-23.md#16ib-mathsignbit-proposal
 # Proposal Description:
 # `Math.signbit` proposal
 
