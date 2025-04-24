@@ -4265,7 +4265,7 @@ data_long <- data %>%
 
 
 # Create the grouped scatter plot
-ggplot(data_long, aes(x = MonthsSinceStart, y = tag)) +
+ggplot(data_long, aes(x = MonthsSinceStart, y = Tag)) +
   geom_point(size = 1) +
   labs(title = "Stage 4: Tags vs Months Since Stage 1",
        x = "Date",
@@ -4292,7 +4292,7 @@ data_long <- data %>%
 
 
 # Create the grouped scatter plot
-ggplot(data_long, aes(x = Stage.4, y = tag)) +
+ggplot(data_long, aes(x = Stage.4, y = Tag)) +
   geom_point(size = 1) +
   labs(title = "Stage 4: Tags vs Adoption Date",
        x = "Date",
