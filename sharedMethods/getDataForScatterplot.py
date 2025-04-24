@@ -317,12 +317,12 @@ def getStageSpecificClassifiedChanges(change, stage):
 
 ###################################################################################
 #
-#Extract tags by:
-#python sharedMethods/getDataForScatterplot.py tags
+# Extract tags by:
+# python sharedMethods/getDataForScatterplot.py tags
 #
 ###################################################################################
 
-def extractTagStage1Stage4(fullPath):
+def extractTagStage1Stage4(title, fullPath):
     extract = []
     tags = []
     stage1 = datetime.datetime.now
@@ -338,7 +338,7 @@ def extractTagStage1Stage4(fullPath):
                 stage4 = re.search(r"Stage 4:\s+([^\s<]+)", line)
 
     for each in tags:
-        extract = [each, stage1.group(1).strip(), stage4.group(1).strip()]
+        extract.append([title, each, stage1.group(1).strip(), stage4.group(1).strip()])
 
     return extract
 
@@ -347,35 +347,31 @@ def readProposals(Stage):
     path = f"Obsidian_TC39_Proposals/Proposals/{Stage}/"
     if os.path.isdir(path):
         for proposal in os.listdir(path):
-            try:
-                title = proposal.split(".md")[0]
-                fullPath = os.path.join(path, proposal)
-                print(proposal)
-                with open(fullPath, "r") as proposal:
-                    content = proposal.read()
-                    if "[[API Change]]" in content and "[[Syntactic Change]]" in content and "[[Semantic Change]]" in content:
-                        tags.append(extractTagStage1Stage4(fullPath))
-                        
-                    if "[[API Change]]" in content and "[[Syntactic Change]]" in content and "[[Semantic Change]]" not in content:
-                        tags.append(extractTagStage1Stage4(fullPath))
-                       
-                    if "[[API Change]]" in content and "[[Semantic Change]]" in content and "[[Syntactic Change]]" not in content:
-                        tags.append(extractTagStage1Stage4(fullPath))
-                        
-                    if "[[Syntactic Change]]" in content and "[[Semantic Change]]" in content and "[[API Change]]" not in content:
-                        tags.append(extractTagStage1Stage4(fullPath))
-                        
-                    if "[[Syntactic Change]]" in content and "[[Semantic Change]]" not in content and "[[API Change]]" not in content:
-                        tags.append(extractTagStage1Stage4(fullPath))
-                        
-                    if "[[Semantic Change]]" in content and "[[Syntactic Change]]" not in content and "[[API Change]]" not in content:
-                        tags.append(extractTagStage1Stage4(fullPath))
-                       
-                    if "[[API Change]]" in content and "[[Semantic Change]]" not in content and "[[Syntactic Change]]" not in content:
-                        tags.append(extractTagStage1Stage4(fullPath))
-                                              
-            except Exception as e:
-                print(f"Error with: {fullPath} - {e}")
+            title = proposal.split(".md")[0]
+            fullPath = os.path.join(path, proposal)
+            print(proposal)
+            with open(fullPath, "r") as proposal:
+                content = proposal.read()
+                if "[[API Change]]" in content and "[[Syntactic Change]]" in content and "[[Semantic Change]]" in content:
+                    tags.append(extractTagStage1Stage4(title, fullPath))
+                    
+                if "[[API Change]]" in content and "[[Syntactic Change]]" in content and "[[Semantic Change]]" not in content:
+                    tags.append(extractTagStage1Stage4(title, fullPath))
+                   
+                if "[[API Change]]" in content and "[[Semantic Change]]" in content and "[[Syntactic Change]]" not in content:
+                    tags.append(extractTagStage1Stage4(title, fullPath))
+                    
+                if "[[Syntactic Change]]" in content and "[[Semantic Change]]" in content and "[[API Change]]" not in content:
+                    tags.append(extractTagStage1Stage4(title, fullPath))
+                    
+                if "[[Syntactic Change]]" in content and "[[Semantic Change]]" not in content and "[[API Change]]" not in content:
+                    tags.append(extractTagStage1Stage4(title, fullPath))
+                    
+                if "[[Semantic Change]]" in content and "[[Syntactic Change]]" not in content and "[[API Change]]" not in content:
+                    tags.append(extractTagStage1Stage4(title, fullPath))
+                   
+                if "[[API Change]]" in content and "[[Semantic Change]]" not in content and "[[Syntactic Change]]" not in content:
+                    tags.append(extractTagStage1Stage4(title, fullPath))
 
     return tags
             
@@ -410,7 +406,8 @@ def getTags():
     #This solution is hacky but on a time crunch!
     for each in tagList:
         for each in each:
-            returnList.append(each)
+            for each in each:
+                returnList.append(each)
 
     with open(f"Data Analysis/Tags/TagDates.csv", "w", newline='') as file:
         writer = csv.writer(file)
