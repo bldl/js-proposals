@@ -8,12 +8,12 @@ library(ggrepel)
 
 #Look at single stage
 #setwd in Data Analysis
-#data <- read.csv("CSVFiles/CSVStages/Stage 4.csv")
+data <- read.csv("CSVFiles/CSVStages/Stage 4.csv")
 
 #setwd in CSVFiles/CSVChanges
-file_list <- list.files()
-load_files <- lapply(file_list, read.csv)
-data <- do.call("rbind", load_files)
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
 
 #Plot1
 # Convert the data into longer format - each stage bump date has its own row
@@ -4131,40 +4131,6 @@ ggplot(data, aes(x=name, y=value, fill = name)) +
   labs(x = "Change Type", y = "Time in Months", title = "Stage 1 duration with SD") +
   theme(legend.position="none")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #Create bar plot for from data from spreadsheet
 data <- data.frame(
   name=c("Stage 1", "Stage 2", "Stage 3") ,  
@@ -4180,12 +4146,6 @@ ggplot(data, aes(x=name, y=value, fill = name)) +
   scale_fill_brewer(palette = "Set1") + 
   labs(x = "Stage", y = "Time in Months", title = "Duration per stage for all active Proposals") +
   theme(legend.position="none")
-
-
-
-
-
-
 
 #Create CSV files of specific stage for speadsheet analysis
 
@@ -4219,3 +4179,49 @@ title_durations <- data_long %>%
 
 write.csv(title_durations, file = "CSVFiles/SpecificChanges/All Data/sem stage 2 duration.csv", append=TRUE)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#plots for stage specific stage 4 bumps with classifications on vertical axis
+#Look at single stage
+#setwd in Data Analysis
+data <- read.csv("CSVFiles/SpecificChanges/Stage4SpecificDates&SinceStart.csv")
+
+#setwd in CSVFiles/CSVChanges
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+data_long <- data %>%
+  
+  # Mutates the date into ymd format for R to understand and process
+  mutate(Date = ymd(Date))
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Date, y = Classification)) +
+  geom_point(size = 1) +
+  labs(title = "Stage 4 Bump Timeline Per Classification",
+       x = "Date",
+       y = "Classification",
+       color = "Stage") +
+  theme_minimal() 
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = MonthsSinceStart, y = Classification)) +
+  geom_point(size = 1) +
+  labs(title = "Stage 4 Proposals Months Since Start Per Classification",
+       x = "Date",
+       y = "Classification",
+       color = "Stage") +
+  theme_minimal() 

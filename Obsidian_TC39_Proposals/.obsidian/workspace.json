@@ -11,10 +11,24 @@
             "id": "0bd472477d508b7e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Classifications/Unknown.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Unknown"
             }
           }
         ]
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#asynchronous",
+                "query": "bigint-m",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -165,8 +179,15 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "3907ea67d135be80",
+  "active": "0bd472477d508b7e",
   "lastOpenFiles": [
+    "Analysis/Classifications/Syntactic Change.md",
+    "Analysis/Classifications/API Change.md",
+    "Analysis/Classifications/Semantic Change.md",
+    "Analysis/Stages/Stage 4.md",
+    "Analysis/Stages/Stage 0.md",
+    "index.md",
+    "Proposals/Stage 1/bigint-math.md",
     "Proposals/Inactive/zones.md",
     "Proposals/Inactive/uuid.md",
     "Proposals/Inactive/unused-params.md",
@@ -186,13 +207,6 @@
     "Proposals/Inactive/overloading.md",
     "Proposals/Inactive/extensible-literals.md",
     "Proposals/Stage 1/decimal.md",
-    "Proposals/Stage 4/chaining.md",
-    "Proposals/Inactive/object-iteration.md",
-    "Proposals/Inactive/object-enums.md",
-    "Proposals/Inactive/more-math.md",
-    "Proposals/Inactive/modules-pragma.md",
-    "Proposals/Inactive/module-unambig.md",
-    "Proposals/Inactive/json-tryparse.md",
     "github.com/tc39",
     "github.com",
     "Analysis/Stages/Plots/Stage0Plot1.pdf",

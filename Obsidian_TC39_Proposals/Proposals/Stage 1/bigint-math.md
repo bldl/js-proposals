@@ -4,7 +4,7 @@ Stage 2.7: NA
 Stage 3: NA  
 Stage 4: NA<br>Last Commit: 2022-07-11<br>Keywords: #bigint #math #arithmetic #numeric <br>GitHub Link: https://github.com/tc39/proposal-bigint-math <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-26.md#bigint-math-update
 # Proposal Description:
-# BigInt `Math` for JavaScript
+# [[Bigint]] `Math` for JavaScript
 ECMAScript Stage-1 Proposal. J. S. Choi, 2021.
 
 * **[Specification][]**

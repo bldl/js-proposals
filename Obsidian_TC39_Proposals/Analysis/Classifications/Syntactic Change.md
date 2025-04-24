@@ -1,4 +1,3 @@
-#Syntactic_Change
 
 # Inactive
 
