@@ -4274,7 +4274,6 @@ ggplot(data_long, aes(x = MonthsSinceStart, y = Tag)) +
   theme_minimal() 
 
 
-
 #tag plots
 #Look at single stage
 #setwd in Data Analysis
@@ -4299,3 +4298,8 @@ ggplot(data_long, aes(x = Stage.4, y = Tag)) +
        y = "Classification",
        color = "Stage") +
   theme_minimal() 
+
+data <- read.csv("Tags/TagDates.csv")
+
+tagCount <- data %>% count(Tag, sort=TRUE)
+write.csv(tagCount, file = "Tags/TagCount.csv")
