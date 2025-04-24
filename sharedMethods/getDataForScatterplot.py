@@ -406,6 +406,8 @@ def getTags():
     print("\n----------------------------Extracting Tags for Inactive-------------------------")
     tagList.append(readProposals("Inactive"))
 
+
+    #This solution is hacky but on a time crunch!
     for each in tagList:
         for each in each:
             returnList.append(each)

@@ -4225,3 +4225,77 @@ ggplot(data_long, aes(x = MonthsSinceStart, y = Classification)) +
        y = "Classification",
        color = "Stage") +
   theme_minimal() 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#tag plots
+#Look at single stage
+#setwd in Data Analysis
+data <- read.csv("Tags/TagsStage1Stage4.csv")
+
+#setwd in CSVFiles/CSVChanges
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+data_long <- data %>%
+  # Mutates the date into ymd format for R to understand and process
+  mutate(
+    Stage.1 = ymd(Stage.1),
+    Stage.4 = ymd(Stage.4),
+    MonthsSinceStart = interval(Stage.1, Stage.4) %/% months(1))
+
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = MonthsSinceStart, y = tag)) +
+  geom_point(size = 1) +
+  labs(title = "Stage 4: Tags vs Months Since Stage 1",
+       x = "Date",
+       y = "Classification",
+       color = "Stage") +
+  theme_minimal() 
+
+
+
+#tag plots
+#Look at single stage
+#setwd in Data Analysis
+data <- read.csv("Tags/TagsStage4.csv")
+
+#setwd in CSVFiles/CSVChanges
+#file_list <- list.files()
+#load_files <- lapply(file_list, read.csv)
+#data <- do.call("rbind", load_files)
+
+data_long <- data %>%
+  # Mutates the date into ymd format for R to understand and process
+  mutate(
+    Stage.4 = ymd(Stage.4))
+
+
+# Create the grouped scatter plot
+ggplot(data_long, aes(x = Stage.4, y = tag)) +
+  geom_point(size = 1) +
+  labs(title = "Stage 4: Tags vs Adoption Date",
+       x = "Date",
+       y = "Classification",
+       color = "Stage") +
+  theme_minimal() 
