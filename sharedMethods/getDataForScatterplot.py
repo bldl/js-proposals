@@ -413,6 +413,9 @@ def getTags():
         writer = csv.writer(file)
         writer.writerows(returnList)
 
+
+
+
     
 
 
