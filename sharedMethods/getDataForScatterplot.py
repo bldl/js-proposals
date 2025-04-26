@@ -419,7 +419,8 @@ def getTags():
 # Extract tags by:
 # python sharedMethods/getDataForScatterplot.py updateTags
 # NOTE: for this to work properly, there must be a field called "Topics:" or else 
-# the field will not be updated
+# the field will not be updated. Perhaps a separate function to add an empty"Topics:"
+# before keywords may be necessary for new proposals.
 #
 ###################################################################################
 
@@ -446,13 +447,9 @@ def lookupPairs(tags, tagPairs):
 
     return newTags
 
-
-
-
-
 def updateTags():
 
-    stages = ["Stage 2.7"]
+    stages = ["Stage 4", "Stage 3", "Stage 2.7", "Stage 2", "Stage 1", "Stage 0", "Inactive"]
 
     print("\n-------------------------------Updating Tags-----------------------------------")
     tagPairs = getTagPairsFromCSV()
@@ -490,22 +487,6 @@ def updateTags():
                     proposal.writelines(newLines)
 
                 
-                
-
-
-               
-
-
-
-
-
-
-
-
-
-    
-
-
 if __name__ == "__main__":
 
     if sys.argv[1] == "tags":
