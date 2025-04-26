@@ -433,11 +433,55 @@ def getTagPairsFromCSV():
             tags.update({first: second})
     return tags
 
+def lookupPairs(tags, tagPairs):
+
+    newTags = []
+
+    for each in tags:
+        newTag = tagPairs[each]
+        if newTag not in newTags:
+            newTags.append(newTag)
+
+    return newTags
+
+
+
+
 
 def updateTags():
-    print("-------------------------------Updating Tags-----------------------------------")
+
+    #stages = ["Stage 4", "Stage 3", "Stage 2.7", "Stage 2", "Stage 1", "Stage 0", "Inactive"]
+    stages = ["Stage 2.7"]
+
+    print("\n-------------------------------Updating Tags-----------------------------------")
     tagPairs = getTagPairsFromCSV()
-    print(tagPairs)
+
+    for stage in stages:
+        print(f"\n---------------------Updating Tags for {stage}---------------------\n")
+        path = f"Obsidian_TC39_Proposals/Proposals/{stage}/"
+        if os.path.isdir(path):
+            for proposal in os.listdir(path):
+                newTags = []
+                title = proposal.split(".md")[0]
+                fullPath = os.path.join(path, proposal)
+                print(f"Updating Tags for {title}")
+
+                with open(f"{fullPath}", "r") as proposal:
+                    proposalContent = proposal.read()
+                    for line in proposalContent.split("<br>"):
+                        if "Keywords:" in line:
+                            tags = re.findall(r'#[\w-]+', line)
+                            newTags = lookupPairs(tags, tagPairs)
+
+                print(newTags)
+
+               
+
+
+
+
+
+
 
 
 
