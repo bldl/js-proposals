@@ -413,6 +413,31 @@ def getTags():
         writer = csv.writer(file)
         writer.writerows(returnList)
 
+###################################################################################
+#
+# Navigate to project root then:
+# Extract tags by:
+# python sharedMethods/getDataForScatterplot.py updateTags
+#
+###################################################################################
+
+def getTagPairsFromCSV():
+    tags = dict()
+    with open(f"Data Analysis/Tags/TagCount.csv", "r") as tagPairs:
+        content = tagPairs.read()
+        array = content.split("\n")
+        for each in array:
+            pair = each.split(",")
+            first = pair[0]
+            second = pair[2]      
+            tags.update({first: second})
+    return tags
+
+
+def updateTags():
+    print("-------------------------------Updating Tags-----------------------------------")
+    tagPairs = getTagPairsFromCSV()
+    print(tagPairs)
 
 
 
@@ -423,6 +448,8 @@ if __name__ == "__main__":
 
     if sys.argv[1] == "tags":
         getTags()
+    elif sys.argv[1] == "updateTags":
+        updateTags()
     elif len(sys.argv) == 3:
         if sys.argv[1] == "stage":
             stage = sys.argv[2]
