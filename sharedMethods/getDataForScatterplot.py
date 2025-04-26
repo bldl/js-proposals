@@ -418,6 +418,8 @@ def getTags():
 # Navigate to project root then:
 # Extract tags by:
 # python sharedMethods/getDataForScatterplot.py updateTags
+# NOTE: for this to work properly, there must be a field called "Topics:" or else 
+# the field will not be updated
 #
 ###################################################################################
 
@@ -450,7 +452,7 @@ def lookupPairs(tags, tagPairs):
 
 def updateTags():
 
-    stages = ["Stage 4", "Stage 3", "Stage 2.7", "Stage 2", "Stage 1", "Stage 0", "Inactive"]
+    stages = ["Stage 2.7"]
 
     print("\n-------------------------------Updating Tags-----------------------------------")
     tagPairs = getTagPairsFromCSV()
@@ -475,10 +477,13 @@ def updateTags():
                             newTags = lookupPairs(tags, tagPairs)
 
                     newLines = []
-                    for tok in tokens:
-                        if tok.startswith("Keywords:"):
+                    iterator = iter(tokens)
+                    for tok in iterator:
+                        if tok.startswith("Topics:"):
                             newLines.append("Topics: " + " ".join(newTags))
                             newLines.append("<br>")
+                            next(iterator, None)
+                            continue
                         newLines.append(tok)
 
                 with open(fullPath, "w") as proposal:
