@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2018-11-06<br>Keywords: #type #memory_management <br>GitHub Link: https://github.com/tschneidereit/proposal-typed-objects <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2018-11-06<br>Topics: #types #memory<br>Keywords: #type #memory_management <br>GitHub Link: https://github.com/tschneidereit/proposal-typed-objects <br>GitHub Note Link: None
 # Proposal Description:<br>
 # Explainer for Typed Objects
 

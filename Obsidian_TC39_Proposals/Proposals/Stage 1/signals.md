@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2025-01-01<br>Keywords: #signal #memory_management #library #memoization #tracking <br>GitHub Link: https://github.com/tc39/proposal-signals <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#signals-for-stage-1
+Stage 4: NA<br>Last Commit: 2025-01-01<br>Topics: #others #memory<br>Keywords: #signal #memory_management #library #memoization #tracking <br>GitHub Link: https://github.com/tc39/proposal-signals <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#signals-for-stage-1
 # Proposal Description:
 # 🚦 JavaScript Signals standard proposal🚦
 <img align=right src="Signals.svg" alt="Signals logo" width=100>

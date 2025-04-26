@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-08-08<br>Keywords: #asynchronous #iterator #concurrency #promise <br>GitHub Link: https://github.com/tc39/proposal-unordered-async-iterator-helpers <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-30.md#unordered-async-iterator-helpers-for-stage-1
+Stage 4: NA<br>Last Commit: 2024-08-08<br>Topics: #async #iterators #concurrency<br>Keywords: #asynchronous #iterator #concurrency #promise <br>GitHub Link: https://github.com/tc39/proposal-unordered-async-iterator-helpers <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-30.md#unordered-async-iterator-helpers-for-stage-1
 # Proposal Description:
 JavaScript Unordered Async Iterator Helpers Proposal
 ====================================================

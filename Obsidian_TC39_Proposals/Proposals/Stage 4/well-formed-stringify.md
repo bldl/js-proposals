@@ -2,7 +2,7 @@
 Stage 2: 2018-05-23  
 Stage 2.7: NA  
 Stage 3: 2018-09-26  
-Stage 4: 2019-01-29<br>Last Commit: 2019-01-29<br>Keywords: #unicode #string #json <br>GitHub Link: https://github.com/tc39/proposal-well-formed-stringify <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#well-formed-jsonstringify-for-stage-4
+Stage 4: 2019-01-29<br>Last Commit: 2019-01-29<br>Topics: #intl #others #objects<br>Keywords: #unicode #string #json <br>GitHub Link: https://github.com/tc39/proposal-well-formed-stringify <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#well-formed-jsonstringify-for-stage-4
 # Proposal Description:
 # Well-formed JSON.stringify
 

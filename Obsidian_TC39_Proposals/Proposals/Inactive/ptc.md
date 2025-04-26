@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2016-05-07<br>Keywords: #opt-in #tail_calls #performance <br>GitHub Link: https://github.com/tc39/proposal-ptc-syntax <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2016-05-07<br>Topics: #others #functions #performance<br>Keywords: #opt-in #tail_calls #performance <br>GitHub Link: https://github.com/tc39/proposal-ptc-syntax <br>GitHub Note Link: None
 # Proposal Description:
 # Syntactic Tail Calls (STC)
 Discussion and specification for an explicit syntactic opt-in for Tail Calls, dubbed Syntactic Tail Calls or STC.

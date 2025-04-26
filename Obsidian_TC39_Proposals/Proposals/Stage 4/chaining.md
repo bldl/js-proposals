@@ -2,7 +2,7 @@
 Stage 2: 2019-06-05  
 Stage 2.7: NA  
 Stage 3: 2019-07-25  
-Stage 4: 2019-12-06<br>Last Commit: 2022-01-24<br>Keywords:   #property #short-circuiting #access <br>GitHub Link: https://github.com/tc39/proposal-optional-chaining <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#optional-chaining-for-stage-4
+Stage 4: 2019-12-06<br>Last Commit: 2022-01-24<br>Topics: #objects #others<br>Keywords:   #property #short-circuiting #access <br>GitHub Link: https://github.com/tc39/proposal-optional-chaining <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#optional-chaining-for-stage-4
 # Proposal Description:
 # Optional Chaining for JavaScript
 

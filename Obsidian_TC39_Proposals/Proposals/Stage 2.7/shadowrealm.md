@@ -2,7 +2,7 @@
 Stage 2: 2018-05-25  
 Stage 2.7: 2025-02-10  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2025-02-10<br>Keywords: #virtualization #global #isolation #security #modularity <br>GitHub Link: https://github.com/tc39/proposal-shadowrealm <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#shadowrealms-update
+Stage 4: NA<br>Last Commit: 2025-02-10<br>Topics: #security #others #realms<br>Keywords: #virtualization #global #isolation #security #modularity <br>GitHub Link: https://github.com/tc39/proposal-shadowrealm <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-7.md#shadowrealms-update
 # Proposal Description:
 # ECMAScript spec proposal for ShadowRealm API
 

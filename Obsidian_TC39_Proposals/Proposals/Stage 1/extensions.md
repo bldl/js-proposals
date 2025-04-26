@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2023-01-18<br>Keywords: #extension #accessor #namespace <br>GitHub Link: https://github.com/tc39/proposal-extensions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-19.md#extensions-for-stage-1
+Stage 4: NA<br>Last Commit: 2023-01-18<br>Topics: #others #objects<br>Keywords: #extension #accessor #namespace <br>GitHub Link: https://github.com/tc39/proposal-extensions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-19.md#extensions-for-stage-1
 # Proposal Description:
 # Extensions and `::` operator
 

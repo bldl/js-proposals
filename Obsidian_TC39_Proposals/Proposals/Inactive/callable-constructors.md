@@ -3,7 +3,7 @@ Stage 1: 2017-10-12
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA
-Stage 4: NA<br>Last Commit: None<br>Keywords: #constructor #class<br>GitHub Link: https://github.com/tc39/ecma262/blob/93183b81cb03116b75019615d148b5f788e70edf/workingdocs/callconstructor.md <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: None<br>Topics: #objects<br>Keywords: #constructor #class<br>GitHub Link: https://github.com/tc39/ecma262/blob/93183b81cb03116b75019615d148b5f788e70edf/workingdocs/callconstructor.md <br>GitHub Note Link: None
 # Proposal Description:<br>
 # Call constructor proposal
 

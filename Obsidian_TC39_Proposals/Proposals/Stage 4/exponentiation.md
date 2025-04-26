@@ -2,7 +2,7 @@
 Stage 2: 2015-02-23  
 Stage 2.7: NA  
 Stage 3: 2015-07-29  
-Stage 4: 2022-01-24<br>Last Commit: 2022-01-24<br>Keywords: #arithmetic <br>GitHub Link: https://github.com/tc39/proposal-exponentiation-operator <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-01/jan-28.md#5xviii-exponentiation-operator-rw
+Stage 4: 2022-01-24<br>Last Commit: 2022-01-24<br>Topics: #numbers<br>Keywords: #arithmetic <br>GitHub Link: https://github.com/tc39/proposal-exponentiation-operator <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-01/jan-28.md#5xviii-exponentiation-operator-rw
 # Proposal Description:<br>
 # Exponentiation Operator
 

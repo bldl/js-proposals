@@ -2,7 +2,7 @@
 Stage 2: NA
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-10-30<br>Keywords: #iterator #key_value_pairs <br>GitHub Link: https://github.com/tc39/proposal-object-iteration <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2020-10-30<br>Topics: #iterators #collections<br>Keywords: #iterator #key_value_pairs <br>GitHub Link: https://github.com/tc39/proposal-object-iteration <br>GitHub Note Link: None
 # Proposal Description:
 # WITHDRAWN: This proposal has been withdrawn from consideration
 

@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-07-22<br>Keywords: #array #last <br>GitHub Link: https://github.com/tc39/proposal-array-last <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2020-07-22<br>Topics: #arrays #others<br>Keywords: #array #last <br>GitHub Link: https://github.com/tc39/proposal-array-last <br>GitHub Note Link: None
 # Proposal Description:
 # Getting last item from Array
 

@@ -2,4 +2,4 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2019-07-24<br>Keywords: NA<br>GitHub Link: https://github.com/tc39/proposal-reverseIterator <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#symbolreverse
+Stage 4: NA<br>Last Commit: 2019-07-24<br>Topics: <br>Keywords: NA<br>GitHub Link: https://github.com/tc39/proposal-reverseIterator <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-23.md#symbolreverse

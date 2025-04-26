@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-10-10<br>Keywords: #array #iterable #synchronization #performance <br>GitHub Link: https://github.com/tc39/proposal-array-zip <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#arrayzip-for-stage-1-or-2-or-27
+Stage 4: NA<br>Last Commit: 2024-10-10<br>Topics: #arrays #iterators #concurrency #performance<br>Keywords: #array #iterable #synchronization #performance <br>GitHub Link: https://github.com/tc39/proposal-array-zip <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#arrayzip-for-stage-1-or-2-or-27
 # Proposal Description:
 # proposal-array-zip
 

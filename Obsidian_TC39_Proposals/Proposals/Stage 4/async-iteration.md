@@ -2,7 +2,7 @@
 Stage 2: 2016-03-31  
 Stage 2.7: NA  
 Stage 3: 2016-09-30  
-Stage 4: 2018-01-25<br>Last Commit: 2018-02-12<br>Keywords: #asynchronous #iterator #promise <br>GitHub Link: https://github.com/tc39/proposal-async-iteration <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-25.md#conclusionresolution
+Stage 4: 2018-01-25<br>Last Commit: 2018-02-12<br>Topics: #async #iterators<br>Keywords: #asynchronous #iterator #promise <br>GitHub Link: https://github.com/tc39/proposal-async-iteration <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-25.md#conclusionresolution
 # Proposal Description:
 # Asynchronous Iterators for JavaScript
 

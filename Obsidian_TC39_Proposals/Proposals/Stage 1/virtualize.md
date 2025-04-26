@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-02-02<br>Keywords: #virtualization  #security #host_objects #deletable_properties<br>GitHub Link: https://github.com/Agoric/proposal-preserve-virtualizability <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-4.md#preserve-host-virtualizability
+Stage 4: NA<br>Last Commit: 2020-02-02<br>Topics: #security #objects<br>Keywords: #virtualization  #security #host_objects #deletable_properties<br>GitHub Link: https://github.com/Agoric/proposal-preserve-virtualizability <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-4.md#preserve-host-virtualizability
 # Proposal Description:
 # Preserve Host Virtualizability
 

@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2025-02-19<br>Keywords: #formatting #locale #internationalization #date_time #standardization <br>GitHub Link: https://github.com/tc39/proposal-stable-formatting <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-27.md#stable-formatting-for-stage-1
+Stage 4: NA<br>Last Commit: 2025-02-19<br>Topics: #intl #others<br>Keywords: #formatting #locale #internationalization #date_time #standardization <br>GitHub Link: https://github.com/tc39/proposal-stable-formatting <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-27.md#stable-formatting-for-stage-1
 # Proposal Description:
 # Stable Formatting
 

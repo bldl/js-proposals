@@ -2,7 +2,7 @@
 Stage 2: 2022-07-28  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-07-28<br>Keywords: #json #parse #performance #tuple #record<br>GitHub Link: https://github.com/tc39/proposal-json-parseimmutable <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-19.md#conclusiondecision-2
+Stage 4: NA<br>Last Commit: 2022-07-28<br>Topics: #objects #json #performance<br>Keywords: #json #parse #performance #tuple #record<br>GitHub Link: https://github.com/tc39/proposal-json-parseimmutable <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-19.md#conclusiondecision-2
 # Proposal Description:
 # JSON.parseImmutable Proposal
 

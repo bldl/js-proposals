@@ -2,7 +2,7 @@
 Stage 2: 2020-02-16  
 Stage 2.7: NA  
 Stage 3: 2020-03-15  
-Stage 4: 2020-07-21<br>Last Commit: 2020-07-21<br>Keywords: #logical_operator #short_circuiting #performance<br>GitHub Link: https://github.com/tc39/proposal-logical-assignment <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#logical-assignment-for-stage-4
+Stage 4: 2020-07-21<br>Last Commit: 2020-07-21<br>Topics: #others #performance<br>Keywords: #logical_operator #short_circuiting #performance<br>GitHub Link: https://github.com/tc39/proposal-logical-assignment <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#logical-assignment-for-stage-4
 # Proposal Description:
 # proposal-logical-assignment
 

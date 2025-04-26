@@ -2,7 +2,7 @@
 Stage 2: 2020-07-22  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-01-04<br>Keywords: #synchronous #weakref<br>GitHub Link: https://github.com/tc39/proposal-cleanup-some <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
+Stage 4: NA<br>Last Commit: 2022-01-04<br>Topics: #concurrency #objects<br>Keywords: #synchronous #weakref<br>GitHub Link: https://github.com/tc39/proposal-cleanup-some <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#weakrefs-for-stage-4--cleanupsome-for-stage-23
 # Proposal Description:
 # The `FinalizationRegistry.prototype.cleanupSome` Method
 

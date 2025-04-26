@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2019-06-11<br>Keywords: #container #transformation #reactive #iterable #performance #memory <br>GitHub Link: https://github.com/tc39/proposal-emitter <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-06/june-5.md#emitter-for-stage-1
+Stage 4: NA<br>Last Commit: 2019-06-11<br>Topics: #others #iterators #performance #memory<br>Keywords: #container #transformation #reactive #iterable #performance #memory <br>GitHub Link: https://github.com/tc39/proposal-emitter <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-06/june-5.md#emitter-for-stage-1
 # Proposal Description:
 # ECMAScript proposal: `Emitter`
 

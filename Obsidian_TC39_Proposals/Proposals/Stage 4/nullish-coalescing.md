@@ -2,7 +2,7 @@
 Stage 2: 2019-06-05  
 Stage 2.7: NA  
 Stage 3: 2019-07-23  
-Stage 4: 2020-01-21<br>Last Commit: 2022-11-24<br>Keywords: #null #undefined #property #default_value<br>GitHub Link: https://github.com/tc39/proposal-nullish-coalescing <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#nullish-coalescing-for-stage-4
+Stage 4: 2020-01-21<br>Last Commit: 2022-11-24<br>Topics: #others #objects<br>Keywords: #null #undefined #property #default_value<br>GitHub Link: https://github.com/tc39/proposal-nullish-coalescing <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-4.md#nullish-coalescing-for-stage-4
 # Proposal Description:
 # Nullish Coalescing for JavaScript
 

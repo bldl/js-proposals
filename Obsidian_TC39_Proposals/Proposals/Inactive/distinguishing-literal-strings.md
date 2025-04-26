@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2017-11-17<br>Keywords: #string #literals #security <br>GitHub Link: https://github.com/mikewest/tc39-proposal-literals <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2017-11-17<br>Topics: #others #security<br>Keywords: #string #literals #security <br>GitHub Link: https://github.com/mikewest/tc39-proposal-literals <br>GitHub Note Link: None
 # Proposal Description:<br>
 # Literals in script
 

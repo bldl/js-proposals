@@ -2,7 +2,7 @@
 Stage 2: 2021-03-11  
 Stage 2.7: NA  
 Stage 3: 2021-07-14  
-Stage 4: 2022-06-06<br>Last Commit: 2022-06-06<br>Keywords: #array #typedarray #iterator #performance <br>GitHub Link: https://github.com/tc39/proposal-array-find-from-last <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#findlastfindlastindex-for-stage-4
+Stage 4: 2022-06-06<br>Last Commit: 2022-06-06<br>Topics: #arrays #iterators #performance<br>Keywords: #array #typedarray #iterator #performance <br>GitHub Link: https://github.com/tc39/proposal-array-find-from-last <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#findlastfindlastindex-for-stage-4
 # Proposal Description:
 # [proposal-array-find-from-last](https://tc39.es/proposal-array-find-from-last/index.html)
 

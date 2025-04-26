@@ -2,7 +2,7 @@
 Stage 2: 2019-07-24  
 Stage 2.7: NA  
 Stage 3: 2022-12-01  
-Stage 4: 2024-10-08<br>Last Commit: 2024-10-08<br>Keywords: #iterator #array #helper <br>GitHub Link: https://github.com/tc39/proposal-iterator-helpers <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-helpers-for-stage-4
+Stage 4: 2024-10-08<br>Last Commit: 2024-10-08<br>Topics: #iterators #arrays<br>Keywords: #iterator #array #helper <br>GitHub Link: https://github.com/tc39/proposal-iterator-helpers <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-helpers-for-stage-4
 # Proposal Description:
 # Iterator Helpers
 

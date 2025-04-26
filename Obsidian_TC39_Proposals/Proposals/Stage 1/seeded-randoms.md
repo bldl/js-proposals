@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2025-02-27<br>Keywords: #seeded #random #generator #numeric #number<br>GitHub Link: https://github.com/tc39/proposal-seeded-random <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iif-mathseededrandoms-for-stage-1
+Stage 4: NA<br>Last Commit: 2025-02-27<br>Topics: #others #iterators #numbers<br>Keywords: #seeded #random #generator #numeric #number<br>GitHub Link: https://github.com/tc39/proposal-seeded-random <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iif-mathseededrandoms-for-stage-1
 # Proposal Description:
 # Seeded Pseudo-Random Numbers
 

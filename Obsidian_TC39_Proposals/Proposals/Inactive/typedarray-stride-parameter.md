@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-03-17<br>Keywords: #arraybuffer #typedarray #memory_management <br>GitHub Link: https://github.com/tc39/proposal-typedarray-stride <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-21.md#withdrawing-typedarray-stride
+Stage 4: NA<br>Last Commit: 2020-03-17<br>Topics: #arrays #memory<br>Keywords: #arraybuffer #typedarray #memory_management <br>GitHub Link: https://github.com/tc39/proposal-typedarray-stride <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-21.md#withdrawing-typedarray-stride
 # Proposal Description:
 # ArrayBufferView stride parameter
 

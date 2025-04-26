@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2021-11-11<br>Keywords: #helper #callback <br>GitHub Link: https://github.com/tc39/proposal-function-helpers <br>GitHub Note Link: https://github.com/tc39/proposal-function-helpers/issues/17#issuecomment-953814353
+Stage 4: NA<br>Last Commit: 2021-11-11<br>Topics: #iterators #functions<br>Keywords: #helper #callback <br>GitHub Link: https://github.com/tc39/proposal-function-helpers <br>GitHub Note Link: https://github.com/tc39/proposal-function-helpers/issues/17#issuecomment-953814353
 # Proposal Description:
 # Function helpers for JavaScript
 Withdrawn ECMAScript Stage-0 Proposal. J. S. Choi, 2021.

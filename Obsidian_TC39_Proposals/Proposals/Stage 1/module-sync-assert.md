@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-03-28<br>Keywords: #synchronous #module #error_handling #directive <br>GitHub Link: https://github.com/tc39/proposal-module-sync-assert <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-29.md#module-sync-assert-for-stage-1
+Stage 4: NA<br>Last Commit: 2024-03-28<br>Topics: #concurrency #modules #others<br>Keywords: #synchronous #module #error_handling #directive <br>GitHub Link: https://github.com/tc39/proposal-module-sync-assert <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-11/november-29.md#module-sync-assert-for-stage-1
 # Proposal Description:
 # Module sync assert
 

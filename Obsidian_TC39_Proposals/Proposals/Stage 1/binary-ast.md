@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2019-01-16<br>Keywords: #binary #parse #serialization #performance #error_handling #annotations <br>GitHub Link: https://github.covm/tc39/proposal-binary-ast <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-24.md#binary-ast
+Stage 4: NA<br>Last Commit: 2019-01-16<br>Topics: #others #json #performance<br>Keywords: #binary #parse #serialization #performance #error_handling #annotations <br>GitHub Link: https://github.covm/tc39/proposal-binary-ast <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-24.md#binary-ast
 # Proposal Description:
 # Binary AST Proposal Overview
 

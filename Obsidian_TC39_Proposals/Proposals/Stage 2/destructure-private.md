@@ -2,7 +2,7 @@
 Stage 2: 2021-10-30  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-07-15<br>Keywords: #private #destructuring #fields #class <br>GitHub Link: https://github.com/tc39/proposal-destructuring-private <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#destructuring-private-fields
+Stage 4: NA<br>Last Commit: 2024-07-15<br>Topics: #objects<br>Keywords: #private #destructuring #fields #class <br>GitHub Link: https://github.com/tc39/proposal-destructuring-private <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#destructuring-private-fields
 # Proposal Description:
 # proposal-destructuring-private
 

@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-06-03<br>Keywords: #deep_path #property #record <br>GitHub Link: https://github.com/tc39/proposal-deep-path-properties-for-record <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-3.md#deep-path-properties
+Stage 4: NA<br>Last Commit: 2020-06-03<br>Topics: #objects<br>Keywords: #deep_path #property #record <br>GitHub Link: https://github.com/tc39/proposal-deep-path-properties-for-record <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-3.md#deep-path-properties
 # Proposal Description:
 # Deep Path Properties in Record Literals
 

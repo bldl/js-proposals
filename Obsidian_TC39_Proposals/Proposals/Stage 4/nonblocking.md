@@ -2,7 +2,7 @@
 Stage 2: 2017-09-26  
 Stage 2.7: NA  
 Stage 3: 2020-08-28  
-Stage 4: 2023-05-15<br>Last Commit: 2021-03-31<br>Keywords: #asynchronous #wait #concurrency <br>GitHub Link: https://github.com/tc39/proposal-atomics-wait-async <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-15.md#atomicswaitasync-for-stage-4
+Stage 4: 2023-05-15<br>Last Commit: 2021-03-31<br>Topics: #async #concurrency<br>Keywords: #asynchronous #wait #concurrency <br>GitHub Link: https://github.com/tc39/proposal-atomics-wait-async <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-15.md#atomicswaitasync-for-stage-4
 # Proposal Description:
 # Atomics.waitAsync
 

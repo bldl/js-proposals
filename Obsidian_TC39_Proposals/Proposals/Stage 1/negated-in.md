@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2023-11-10<br>Keywords: #negation #operator #readability #expression<br>GitHub Link: https://github.com/tc39/proposal-negated-in-instanceof <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-28.md#negated-in-and-instanceof-operators-for-stage-1
+Stage 4: NA<br>Last Commit: 2023-11-10<br>Topics: #others<br>Keywords: #negation #operator #readability #expression<br>GitHub Link: https://github.com/tc39/proposal-negated-in-instanceof <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-28.md#negated-in-and-instanceof-operators-for-stage-1
 # Proposal Description:
 # Negated `in` and `instanceof` operators
 

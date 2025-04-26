@@ -2,7 +2,7 @@
 Stage 2: 2017-05-14  
 Stage 2.7: NA  
 Stage 3: 2017-07-28  
-Stage 4: 2021-06-10<br>Last Commit: 2022-01-24<br>Keywords: #encapsulation #initializer_evaluation #inheritance #decorators #visibility #class<br>GitHub Link: https://github.com/tc39/proposal-class-fields <br>GitHub Note Link: None
+Stage 4: 2021-06-10<br>Last Commit: 2022-01-24<br>Topics: #objects #others<br>Keywords: #encapsulation #initializer_evaluation #inheritance #decorators #visibility #class<br>GitHub Link: https://github.com/tc39/proposal-class-fields <br>GitHub Note Link: None
 # Proposal Description:
 ## # Class field declarations for JavaScript
 

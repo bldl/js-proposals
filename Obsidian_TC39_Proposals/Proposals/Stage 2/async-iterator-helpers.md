@@ -2,7 +2,7 @@
 Stage 2: 2023-02-04  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-06-11<br>Keywords: #asynchronous #iterator #concurrency #helper <br>GitHub Link: https://github.com/tc39/proposal-async-iterator-helpers <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2023-01/jan-31.md#parallel-async-iterators-via-a-tweak-to-iterator-helpers
+Stage 4: NA<br>Last Commit: 2024-06-11<br>Topics: #async #iterators #concurrency<br>Keywords: #asynchronous #iterator #concurrency #helper <br>GitHub Link: https://github.com/tc39/proposal-async-iterator-helpers <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2023-01/jan-31.md#parallel-async-iterators-via-a-tweak-to-iterator-helpers
 # Proposal Description:
 # Async Iterator Helpers
 

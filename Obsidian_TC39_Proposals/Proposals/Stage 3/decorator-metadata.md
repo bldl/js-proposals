@@ -2,7 +2,7 @@
 Stage 2: 2022-04-10
 Stage 2.7: NA
 Stage 3: 2023-06-13
-Stage 4: NA<br>Last Commit: 2024-01-17<br>Keywords: #metadata #decorator #class  <br>GitHub Link: https://github.com/tc39/proposal-decorator-metadata <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-18.md#decorator-metadata-final-spec-text-review-for-stage-3
+Stage 4: NA<br>Last Commit: 2024-01-17<br>Topics: #others #objects<br>Keywords: #metadata #decorator #class  <br>GitHub Link: https://github.com/tc39/proposal-decorator-metadata <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-18.md#decorator-metadata-final-spec-text-review-for-stage-3
 # Proposal Description:
 <!-- @format -->
 

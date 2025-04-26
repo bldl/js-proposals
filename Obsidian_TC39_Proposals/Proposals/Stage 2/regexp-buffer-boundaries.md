@@ -2,7 +2,7 @@
 Stage 2: 2021-12-16  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-05-28<br>Keywords: #regex #escape #unicode <br>GitHub Link: https://github.com/tc39/proposal-regexp-buffer-boundaries <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-buffer-boundaries-for-stage-2
+Stage 4: NA<br>Last Commit: 2022-05-28<br>Topics: #regex #others #intl<br>Keywords: #regex #escape #unicode <br>GitHub Link: https://github.com/tc39/proposal-regexp-buffer-boundaries <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#regexp-buffer-boundaries-for-stage-2
 # Proposal Description:
 <!--#region:intro-->
 # Regular Expression Buffer Boundaries for ECMAScript

@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-05-29<br>Keywords: #array #comparison #generic<br>GitHub Link: https://github.com/hemanth/proposal-generic-comparison <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2020-05-29<br>Topics: #arrays #others<br>Keywords: #array #comparison #generic<br>GitHub Link: https://github.com/hemanth/proposal-generic-comparison <br>GitHub Note Link: None
 # Proposal Description:<br>
 # Generic Comparison 
 

@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2017-10-06<br>Keywords: #equality #memoization <br>GitHub Link: https://github.com/sebmarkbage/ecmascript-shallow-equal <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2017-10-06<br>Topics: #others #memory<br>Keywords: #equality #memoization <br>GitHub Link: https://github.com/sebmarkbage/ecmascript-shallow-equal <br>GitHub Note Link: None
 # Proposal Description:<br>
 Shallow Object Equality Test for ECMAScript
 -------------------------------------------

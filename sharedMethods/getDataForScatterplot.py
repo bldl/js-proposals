@@ -450,8 +450,7 @@ def lookupPairs(tags, tagPairs):
 
 def updateTags():
 
-    #stages = ["Stage 4", "Stage 3", "Stage 2.7", "Stage 2", "Stage 1", "Stage 0", "Inactive"]
-    stages = ["Stage 2.7"]
+    stages = ["Stage 4", "Stage 3", "Stage 2.7", "Stage 2", "Stage 1", "Stage 0", "Inactive"]
 
     print("\n-------------------------------Updating Tags-----------------------------------")
     tagPairs = getTagPairsFromCSV()
@@ -468,23 +467,24 @@ def updateTags():
 
                 with open(f"{fullPath}", "r") as proposal:
                     proposalContent = proposal.read()
-                    for line in proposalContent.split("<br>"):
-                        if "Keywords:" in line:
-                            tags = re.findall(r'#[\w-]+', line)
+                    
+                    tokens = re.split(r'(<br\s*/?>)', proposalContent)
+                    for tok in tokens:
+                        if "Keywords:" in tok:
+                            tags = re.findall(r'#[\w-]+', tok)
                             newTags = lookupPairs(tags, tagPairs)
 
                     newLines = []
-                    for line in proposalContent.split("<br>"):
-                        if "Keywords:" in line:
-                            keywords = re.findall(r'#[\w-]+', line)
-                            keywords.append("<br> ")
-                            newLines.append("Topics: ")
-                            for each in newTags:
-                                newLines.append(each)
-                        newLines.append(line)
+                    for tok in tokens:
+                        if tok.startswith("Keywords:"):
+                            newLines.append("Topics: " + " ".join(newTags))
+                            newLines.append("<br>")
+                        newLines.append(tok)
 
                 with open(fullPath, "w") as proposal:
                     proposal.writelines(newLines)
+
+                
                 
 
 

@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2022-11-30  
-Stage 4: 2024-06-25<br>Last Commit: 2024-07-06<br>Keywords: #property #set<br>GitHub Link: https://github.com/tc39/proposal-set-methods <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#set-methods-for-stage-4
+Stage 4: 2024-06-25<br>Last Commit: 2024-07-06<br>Topics: #objects #collections<br>Keywords: #property #set<br>GitHub Link: https://github.com/tc39/proposal-set-methods <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#set-methods-for-stage-4
 # Proposal Description:
 # Set Methods for JavaScript
 

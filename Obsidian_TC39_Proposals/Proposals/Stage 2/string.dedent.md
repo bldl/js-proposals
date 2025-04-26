@@ -2,7 +2,7 @@
 Stage 2: 2022-06-07  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2023-09-13<br>Keywords: #formatting #readability #whitespace #string <br>GitHub Link: https://github.com/tc39/proposal-string-dedent <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#stringdedent
+Stage 4: NA<br>Last Commit: 2023-09-13<br>Topics: #intl #others<br>Keywords: #formatting #readability #whitespace #string <br>GitHub Link: https://github.com/tc39/proposal-string-dedent <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-07.md#stringdedent
 # Proposal Description:
 # String dedent
 

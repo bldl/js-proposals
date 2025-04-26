@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-09-28<br>Keywords: #module #resource_management #wait <br>GitHub Link: https://github.com/tc39/proposal-asset-references <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-28.md#asset-references-for-stage-1
+Stage 4: NA<br>Last Commit: 2020-09-28<br>Topics: #modules #others #concurrency<br>Keywords: #module #resource_management #wait <br>GitHub Link: https://github.com/tc39/proposal-asset-references <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-11/nov-28.md#asset-references-for-stage-1
 # Proposal Description:
 # Asset References
 

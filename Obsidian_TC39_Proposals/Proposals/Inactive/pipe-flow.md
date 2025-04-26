@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-08-20<br>Keywords: #pipeline #callbacks <br>GitHub Link: https://github.com/tc39/proposal-function-pipe-flow <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-21.md#functionpipe--flow-for-stage-1
+Stage 4: NA<br>Last Commit: 2022-08-20<br>Topics: #others #functions<br>Keywords: #pipeline #callbacks <br>GitHub Link: https://github.com/tc39/proposal-function-pipe-flow <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-21.md#functionpipe--flow-for-stage-1
 # Proposal Description:
 # Function.pipe and flow for JavaScript
 ECMAScript Stage-0 Proposal (**withdrawn**). J. S. Choi, 2021.

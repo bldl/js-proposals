@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2025-02-20<br>Keywords: #integrity #traits #security <br>GitHub Link: https://github.com/Agoric/proposal-stabilize <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-03.md#stabilize-to-stage-1
+Stage 4: NA<br>Last Commit: 2025-02-20<br>Topics: #others #security<br>Keywords: #integrity #traits #security <br>GitHub Link: https://github.com/Agoric/proposal-stabilize <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-03.md#stabilize-to-stage-1
 # Proposal Description:
 # proposal: Stabilize, and other integrity traits
 

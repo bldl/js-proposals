@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-02-21<br>Keywords: #locale_extensions #internationalization<br>GitHub Link: https://github.com/ben-allen/locale-extensions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-28.md#locale-extensions-for-stage-1
+Stage 4: NA<br>Last Commit: 2024-02-21<br>Topics: #intl<br>Keywords: #locale_extensions #internationalization<br>GitHub Link: https://github.com/ben-allen/locale-extensions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-09/september-28.md#locale-extensions-for-stage-1
 # Proposal Description:<br>
 ## Table of Contents
 

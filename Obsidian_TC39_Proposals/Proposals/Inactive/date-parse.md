@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2016-06-08<br>Keywords: #date_time <br>GitHub Link: https://github.com/tc39/proposal-date-time-string-format <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2016-06-08<br>Topics: #intl<br>Keywords: #date_time <br>GitHub Link: https://github.com/tc39/proposal-date-time-string-format <br>GitHub Note Link: None
 # Proposal Description:
 This proposal has been withdrawn in favor of [uniform parsing of quasi-standard Date.parse input](https://github.com/gibson042/ecma262-proposal-uniform-interchange-date-parsing).
 

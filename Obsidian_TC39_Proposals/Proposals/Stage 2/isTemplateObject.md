@@ -2,7 +2,7 @@
 Stage 2: 2019-06-05  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-10-21<br>Keywords: #security #string<br>GitHub Link: https://github.com/tc39/proposal-array-is-template-object <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-10.md#arrayistemplateobject-next-steps
+Stage 4: NA<br>Last Commit: 2024-10-21<br>Topics: #security #others<br>Keywords: #security #string<br>GitHub Link: https://github.com/tc39/proposal-array-is-template-object <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-10.md#arrayistemplateobject-next-steps
 # Proposal Description:
 # Reflect.isTemplateObject (stage [2](https://tc39.es/process-document/))
 

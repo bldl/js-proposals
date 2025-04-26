@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: 2024-04-15  
-Stage 4: NA<br>Last Commit: 2024-12-05<br>Keywords: #code-like #security <br>GitHub Link: https://github.com/tc39/proposal-dynamic-code-brand-checks <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
+Stage 4: NA<br>Last Commit: 2024-12-05<br>Topics: #others #security<br>Keywords: #code-like #security <br>GitHub Link: https://github.com/tc39/proposal-dynamic-code-brand-checks <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
 # Proposal Description:
 # TC39 Proposal: Dynamic Code Brand Checks
 

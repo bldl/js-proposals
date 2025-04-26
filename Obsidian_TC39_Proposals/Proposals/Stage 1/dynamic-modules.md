@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2018-12-20<br>Keywords: #module #dynamic_modules #module_records #binding <br>GitHub Link: https://github.com/nodejs/dynamic-modules <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#dynamic-modules
+Stage 4: NA<br>Last Commit: 2018-12-20<br>Topics: #modules #others<br>Keywords: #module #dynamic_modules #module_records #binding <br>GitHub Link: https://github.com/nodejs/dynamic-modules <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#dynamic-modules
 # Proposal Description:<br>
 # ECMAScript Proposal: Dynamic Modules
 

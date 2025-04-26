@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-04-01<br>Keywords: #symbol #memory_management<br>GitHub Link: https://github.com/rricard/proposal-refcollection/ <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2020-04-01<br>Topics: #others #memory<br>Keywords: #symbol #memory_management<br>GitHub Link: https://github.com/rricard/proposal-refcollection/ <br>GitHub Note Link: None
 # Proposal Description:<br>
 # RefCollection
 

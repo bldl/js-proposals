@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-07-22<br>Keywords: #memoization #cache #decorator <br>GitHub Link: https://github.com/tc39/proposal-function-memo <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#function-memoization-for-stage-1
+Stage 4: NA<br>Last Commit: 2022-07-22<br>Topics: #memory #others #objects<br>Keywords: #memoization #cache #decorator <br>GitHub Link: https://github.com/tc39/proposal-function-memo <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#function-memoization-for-stage-1
 # Proposal Description:
 # Function.prototype.memo for JavaScript
 ECMAScript Stage-1 Proposal.

@@ -2,7 +2,7 @@
 Stage 2: 2016-01-28  
 Stage 2.7: NA  
 Stage 3: 2016-12-02  
-Stage 4: 2017-02-09<br>Last Commit: 2017-02-09<br>Keywords: #synchronization #concurrency #performance #memory_management  <br>GitHub Link: https://github.com/tc39/proposal-ecmascript-sharedmem <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-01/jan-24.md#13if-seeking-stage-4-for-sharedarraybuffer
+Stage 4: 2017-02-09<br>Last Commit: 2017-02-09<br>Topics: #concurrency #performance #memory<br>Keywords: #synchronization #concurrency #performance #memory_management  <br>GitHub Link: https://github.com/tc39/proposal-ecmascript-sharedmem <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-01/jan-24.md#13if-seeking-stage-4-for-sharedarraybuffer
 # Proposal Description:
 # ecmascript_sharedmem
 

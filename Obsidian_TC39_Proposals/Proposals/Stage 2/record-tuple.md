@@ -2,7 +2,7 @@
 Stage 2: 2020-07-22  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2023-12-13<br>Keywords: #record #tuple #primitives <br>GitHub Link: https://github.com/tc39/proposal-record-tuple <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#asynccontext-stage-2-updates
+Stage 4: NA<br>Last Commit: 2023-12-13<br>Topics: #objects #others<br>Keywords: #record #tuple #primitives <br>GitHub Link: https://github.com/tc39/proposal-record-tuple <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#asynccontext-stage-2-updates
 # Proposal Description:
 # JavaScript Records & Tuples Proposal
 

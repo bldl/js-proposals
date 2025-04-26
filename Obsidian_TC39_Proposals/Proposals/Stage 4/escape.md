@@ -2,7 +2,7 @@
 Stage 2: 2023-09-26  
 Stage 2.7: NA  
 Stage 3: 2024-07-29  
-Stage 4: 2025-02-18<br>Last Commit: 2025-02-18<br>Keywords: #regex #string <br>GitHub Link: https://github.com/tc39/proposal-regex-escaping <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#regexpescape-for-stage-3
+Stage 4: 2025-02-18<br>Last Commit: 2025-02-18<br>Topics: #regex #others<br>Keywords: #regex #string <br>GitHub Link: https://github.com/tc39/proposal-regex-escaping <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#regexpescape-for-stage-3
 # Proposal Description:
 # RegExp Escaping Proposal
 

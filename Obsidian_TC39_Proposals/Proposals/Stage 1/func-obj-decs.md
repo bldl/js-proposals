@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-01-25<br>Keywords: #decorator #class #metaprogramming #metadata<br>GitHub Link: https://github.com/tc39/proposal-function-and-object-literal-element-decorators <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#function-and-object-literal-element-decorators-for-stage-1
+Stage 4: NA<br>Last Commit: 2024-01-25<br>Topics: #objects #others<br>Keywords: #decorator #class #metaprogramming #metadata<br>GitHub Link: https://github.com/tc39/proposal-function-and-object-literal-element-decorators <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-02/feb-8.md#function-and-object-literal-element-decorators-for-stage-1
 # Proposal Description:
 # ECMAScript Decorators for Functions
 

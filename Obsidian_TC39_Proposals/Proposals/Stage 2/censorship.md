@@ -2,7 +2,7 @@
 Stage 2: 2019-03-15  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2019-12-02<br>Keywords: #directive #encapsulation #security <br>GitHub Link: https://github.com/tc39/proposal-function-implementation-hiding <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-2.md#function-implementation-hiding-for-stage-3
+Stage 4: NA<br>Last Commit: 2019-12-02<br>Topics: #others #objects #security<br>Keywords: #directive #encapsulation #security <br>GitHub Link: https://github.com/tc39/proposal-function-implementation-hiding <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-2.md#function-implementation-hiding-for-stage-3
 # Proposal Description:
 # Function implementation hiding proposal
 

@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-05-25<br>Keywords: #accessor #class #decorator #readability  <br>GitHub Link: https://github.com/tc39/proposal-grouped-and-auto-accessors <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-19.md#continuation-grouped-accessors-and-auto-accessors
+Stage 4: NA<br>Last Commit: 2022-05-25<br>Topics: #objects #others<br>Keywords: #accessor #class #decorator #readability  <br>GitHub Link: https://github.com/tc39/proposal-grouped-and-auto-accessors <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-19.md#continuation-grouped-accessors-and-auto-accessors
 # Proposal Description:
 # Grouped Accessors and Auto-Accessors for ECMAScript
 

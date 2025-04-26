@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-04-09<br>Keywords: #promise #pipelining  #eventual-send #asynchronous #network<br>GitHub Link: https://github.com/tc39/proposal-eventual-send <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#eventual-send-support-for-distributed-promise-pipelining
+Stage 4: NA<br>Last Commit: 2022-04-09<br>Topics: #async #others<br>Keywords: #promise #pipelining  #eventual-send #asynchronous #network<br>GitHub Link: https://github.com/tc39/proposal-eventual-send <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-3.md#eventual-send-support-for-distributed-promise-pipelining
 # Proposal Description:
 ## `Promise.delegated`
 

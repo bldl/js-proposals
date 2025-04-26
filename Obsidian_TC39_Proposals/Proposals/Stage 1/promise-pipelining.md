@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-04-26<br>Keywords: #promise #pipelining #operator #syntax #chaining <br>GitHub Link: https://github.com/tc39/proposal-wavy-dot <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#update-on-promise-pipelining
+Stage 4: NA<br>Last Commit: 2020-04-26<br>Topics: #async #others<br>Keywords: #promise #pipelining #operator #syntax #chaining <br>GitHub Link: https://github.com/tc39/proposal-wavy-dot <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#update-on-promise-pipelining
 # Proposal Description:
 # proposal-wavy-dot
 

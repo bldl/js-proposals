@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2018-10-12<br>Keywords:  #interface_description_language #IDL<br>GitHub Link: https://github.com/tc39/proposal-idl <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-09/sept-27.md#idl-for-javascript
+Stage 4: NA<br>Last Commit: 2018-10-12<br>Topics: #others<br>Keywords:  #interface_description_language #IDL<br>GitHub Link: https://github.com/tc39/proposal-idl <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-09/sept-27.md#idl-for-javascript
 # Proposal Description:
 # IDL for ECMAScript
 

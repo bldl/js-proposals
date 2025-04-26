@@ -2,7 +2,7 @@
 Stage 2: 2016-07-29  
 Stage 2.7: NA  
 Stage 3: 2017-07-26  
-Stage 4: 2018-01-24<br>Last Commit: 2018-01-29<br>Keywords: #promise #asynchronous <br>GitHub Link: https://github.com/tc39/proposal-promise-finally <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-24.md#conclusionresolution-2
+Stage 4: 2018-01-24<br>Last Commit: 2018-01-29<br>Topics: #async<br>Keywords: #promise #asynchronous <br>GitHub Link: https://github.com/tc39/proposal-promise-finally <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-24.md#conclusionresolution-2
 # Proposal Description:
 # [Promise.prototype.finally](https://www.npmjs.com/package/promise.prototype.finally)
 ECMAScript Proposal, specs, and reference implementation for `Promise.prototype.finally`

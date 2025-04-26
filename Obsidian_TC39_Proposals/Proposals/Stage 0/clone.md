@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2014-01-21<br>Keywords: #realm #operator #cloning <br>GitHub Link: https://github.com/dslomov/ecmascript-structured-clone <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2014-01/jan-30.md#structured-clone
+Stage 4: NA<br>Last Commit: 2014-01-21<br>Topics: #realms #others #objects<br>Keywords: #realm #operator #cloning <br>GitHub Link: https://github.com/dslomov/ecmascript-structured-clone <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2014-01/jan-30.md#structured-clone
 # Proposal Description:<br>
 # Structured cloning and transfer
 ## Overview

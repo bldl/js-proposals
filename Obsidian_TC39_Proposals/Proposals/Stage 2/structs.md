@@ -2,7 +2,7 @@
 Stage 2: 2024-10-18  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-12-17<br>Keywords: #synchronization #class #multithreading #memory_management <br>GitHub Link: https://github.com/tc39/proposal-structs <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#structs-and-shared-structs-for-stage-2
+Stage 4: NA<br>Last Commit: 2024-12-17<br>Topics: #concurrency #objects #memory<br>Keywords: #synchronization #class #multithreading #memory_management <br>GitHub Link: https://github.com/tc39/proposal-structs <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#structs-and-shared-structs-for-stage-2
 # Proposal Description:
 # JavaScript Structs: Fixed Layout Objects and Some Synchronization Primitives
 

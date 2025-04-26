@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-11-19<br>Keywords: #string #unicode #generic<br>GitHub Link: https://github.com/mathiasbynens/String.prototype.at <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2020-11-19<br>Topics: #others #intl<br>Keywords: #string #unicode #generic<br>GitHub Link: https://github.com/mathiasbynens/String.prototype.at <br>GitHub Note Link: None
 # Proposal Description:<br>
 **Note:** This proposal was not upstreamed into the ECMAScript specification! This repository is kept for historical purposes. Years later, in November 2020, [a distinct proposal](https://github.com/tc39/proposal-item-method) adds `String.prototype.at` with different semantics.
 

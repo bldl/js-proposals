@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-07-21<br>Keywords: #iterator #generator #array #destructuring <br>GitHub Link: https://github.com/tc39/proposal-deiter <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#double-ended-iterator-and-destructuring-for-stage-1
+Stage 4: NA<br>Last Commit: 2022-07-21<br>Topics: #iterators #arrays #objects<br>Keywords: #iterator #generator #array #destructuring <br>GitHub Link: https://github.com/tc39/proposal-deiter <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#double-ended-iterator-and-destructuring-for-stage-1
 # Proposal Description:
 # Double-Ended Iterator and Destructuring
 

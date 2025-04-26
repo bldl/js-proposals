@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-04-12<br>Keywords: #resource_management #opt-in #strict_enforcement <br>GitHub Link: https://github.com/tc39/proposal-using-enforcement <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#strict-enforcement-of-using
+Stage 4: NA<br>Last Commit: 2024-04-12<br>Topics: #others #types<br>Keywords: #resource_management #opt-in #strict_enforcement <br>GitHub Link: https://github.com/tc39/proposal-using-enforcement <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-11.md#strict-enforcement-of-using
 # Proposal Description:
 # Strict Enforcement of `using`
 

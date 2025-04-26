@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-10-25<br>Keywords: #concurrency #asynchronous #iterator #consumption <br>GitHub Link: https://github.com/tc39/proposal-concurrency-control <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#concurrency-control-presenter-mf-and-lca
+Stage 4: NA<br>Last Commit: 2024-10-25<br>Topics: #concurrency #async #iterators<br>Keywords: #concurrency #asynchronous #iterator #consumption <br>GitHub Link: https://github.com/tc39/proposal-concurrency-control <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-07/july-29.md#concurrency-control-presenter-mf-and-lca
 # Proposal Description:
 JavaScript Concurrency Control Proposal
 =======================================

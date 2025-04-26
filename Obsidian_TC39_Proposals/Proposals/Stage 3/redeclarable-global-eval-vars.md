@@ -2,7 +2,7 @@
 Stage 2: 2024-02-13  
 Stage 2.7: 2024-04-08  
 Stage 3: 2024-04-12  
-Stage 4: NA<br>Last Commit: 2024-04-19<br>Keywords: #global #redeclaration #configurable <br>GitHub Link: https://github.com/tc39-transfer/proposal-redeclarable-global-eval-vars <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#make-eval-introduced-global-vars-redeclarable-for-stage-27
+Stage 4: NA<br>Last Commit: 2024-04-19<br>Topics: #others<br>Keywords: #global #redeclaration #configurable <br>GitHub Link: https://github.com/tc39-transfer/proposal-redeclarable-global-eval-vars <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#make-eval-introduced-global-vars-redeclarable-for-stage-27
 # Proposal Description:
 # Make `eval`-introduced global `var`s redeclarable
 

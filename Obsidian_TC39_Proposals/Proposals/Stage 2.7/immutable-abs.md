@@ -2,7 +2,7 @@
 Stage 2: 2024-12-05  
 Stage 2.7: 2025-02-22  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2025-02-22<br>Keywords: #immutable #arraybuffer #typedarray #memory_management #performance <br>GitHub Link: https://github.com/Agoric/tc39-proposal-immutable-arraybuffer <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-10.md#immutable-arraybuffers-for-stage-1
+Stage 4: NA<br>Last Commit: 2025-02-22<br>Topics: #others #arrays #memory #performance<br>Keywords: #immutable #arraybuffer #typedarray #memory_management #performance <br>GitHub Link: https://github.com/Agoric/tc39-proposal-immutable-arraybuffer <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-10.md#immutable-arraybuffers-for-stage-1
 # Proposal Description:
 # Immutable ArrayBuffers
 

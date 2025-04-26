@@ -2,7 +2,7 @@
 Stage 2: 2020-06-04  
 Stage 2.7: NA  
 Stage 3: 2020-09-22  
-Stage 4: 2024-12-12<br>Last Commit: 2024-12-12<br>Keywords: #module #security #module_specifier <br>GitHub Link: https://github.com/tc39/proposal-import-attributes <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#import-attributes-and-json-modules-for-stage-4
+Stage 4: 2024-12-12<br>Last Commit: 2024-12-12<br>Topics: #modules #security<br>Keywords: #module #security #module_specifier <br>GitHub Link: https://github.com/tc39/proposal-import-attributes <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#import-attributes-and-json-modules-for-stage-4
 # Proposal Description:
 # Import Attributes
 

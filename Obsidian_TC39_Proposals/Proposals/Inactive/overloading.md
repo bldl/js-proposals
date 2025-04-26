@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2023-12-18<br>Keywords: #operator #overloading #numeric<br>GitHub Link: https://github.com/tc39/proposal-operator-overloading <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#operator-overloading-for-stage-1
+Stage 4: NA<br>Last Commit: 2023-12-18<br>Topics: #others #numbers<br>Keywords: #operator #overloading #numeric<br>GitHub Link: https://github.com/tc39/proposal-operator-overloading <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#operator-overloading-for-stage-1
 # Proposal Description:
 # Operator overloading in JavaScript
 

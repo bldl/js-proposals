@@ -3,7 +3,7 @@ Stage 1: NA
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2016-04-01<br>Keywords: #json #map #set<br>GitHub Link: https://github.com/DavidBruant/Map-Set.prototype.toJSON <br>GitHub Note Link: https://github.com/DavidBruant/Map-Set.prototype.toJSON/issues/16
+Stage 4: NA<br>Last Commit: 2016-04-01<br>Topics: #objects #collections<br>Keywords: #json #map #set<br>GitHub Link: https://github.com/DavidBruant/Map-Set.prototype.toJSON <br>GitHub Note Link: https://github.com/DavidBruant/Map-Set.prototype.toJSON/issues/16
 # Proposal Description:<br>
 # Map-Set.prototype.toJSON
 

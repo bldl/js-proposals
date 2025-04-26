@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2017-07-25<br>Keywords: #initialization #accessor <br>GitHub Link: https://github.com/rbuckton/proposal-shorthand-improvements <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-09/sept-28.md#13i-object-shorthand-improvements
+Stage 4: NA<br>Last Commit: 2017-07-25<br>Topics: #objects<br>Keywords: #initialization #accessor <br>GitHub Link: https://github.com/rbuckton/proposal-shorthand-improvements <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-09/sept-28.md#13i-object-shorthand-improvements
 # Proposal Description:<br>
 # ECMAScript Shorthand Property Assignment Improvements
 

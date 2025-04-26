@@ -2,7 +2,7 @@
 Stage 2: 2024-06-13  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-06-12<br>Keywords: #discard #using #binding <br>GitHub Link: https://github.com/tc39/proposal-discard-binding <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#discard-bindings-update-or-stage-2
+Stage 4: NA<br>Last Commit: 2024-06-12<br>Topics: #others<br>Keywords: #discard #using #binding <br>GitHub Link: https://github.com/tc39/proposal-discard-binding <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-13.md#discard-bindings-update-or-stage-2
 # Proposal Description:
 # `void` Discard Bindings for ECMAScript
 

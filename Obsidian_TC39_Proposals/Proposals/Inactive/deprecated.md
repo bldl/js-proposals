@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2018-08-20<br>Keywords: #deprecation #symbol #decorators<br>GitHub Link: https://github.com/jasnell/proposal-deprecated <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2018-08-20<br>Topics: #others #objects<br>Keywords: #deprecation #symbol #decorators<br>GitHub Link: https://github.com/jasnell/proposal-deprecated <br>GitHub Note Link: None
 # Proposal Description:<br>
 # Deprecated Stuff
 

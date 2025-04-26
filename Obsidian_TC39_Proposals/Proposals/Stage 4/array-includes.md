@@ -2,7 +2,7 @@
 Stage 2: 2014-11-25  
 Stage 2.7: NA  
 Stage 3: 2015-08-11  
-Stage 4: 2015-11-17<br>Last Commit: 2015-11-17<br>Keywords: #array  #typedarray<br>GitHub Link: https://github.com/tc39/proposal-Array.prototype.includes <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2015-11/nov-17.md#arrayprototypeincludes
+Stage 4: 2015-11-17<br>Last Commit: 2015-11-17<br>Topics: #arrays<br>Keywords: #array  #typedarray<br>GitHub Link: https://github.com/tc39/proposal-Array.prototype.includes <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2015-11/nov-17.md#arrayprototypeincludes
 # Proposal Description:
 # `Array.prototype.includes` Proposal
 

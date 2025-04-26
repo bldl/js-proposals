@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-09-24<br>Keywords: #module #performance #memory_management #resource_management <br>GitHub Link: https://github.com/tc39/proposal-built-in-modules <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#builtin-modules-for-stage-2
+Stage 4: NA<br>Last Commit: 2020-09-24<br>Topics: #modules #performance #memory #others<br>Keywords: #module #performance #memory_management #resource_management <br>GitHub Link: https://github.com/tc39/proposal-built-in-modules <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-24.md#builtin-modules-for-stage-2
 # Proposal Description:
 # Built In Modules Proposal (aka JavaScript Standard Library)
 

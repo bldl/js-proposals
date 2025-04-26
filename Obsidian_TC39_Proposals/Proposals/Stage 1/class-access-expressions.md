@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-09-09<br>Keywords: #class #property #static #access<br>GitHub Link: https://github.com/tc39/proposal-class-access-expressions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-22.md#class-access-expressions-for-stage-2
+Stage 4: NA<br>Last Commit: 2020-09-09<br>Topics: #objects<br>Keywords: #class #property #static #access<br>GitHub Link: https://github.com/tc39/proposal-class-access-expressions <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-22.md#class-access-expressions-for-stage-2
 # Proposal Description:
 <!--#region:intro-->
 # ECMAScript class property access expressions

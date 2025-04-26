@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2021-12-04<br>Keywords: #regex #unicode #line_terminator #escape <br>GitHub Link: https://github.com/tc39/proposal-regexp-r-escape <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#regexp-r-escape-for-stage-2
+Stage 4: NA<br>Last Commit: 2021-12-04<br>Topics: #regex #intl #others<br>Keywords: #regex #unicode #line_terminator #escape <br>GitHub Link: https://github.com/tc39/proposal-regexp-r-escape <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-14.md#regexp-r-escape-for-stage-2
 # Proposal Description:
 <!--#region:intro-->
 # Regular Expression `\R` Escape for ECMAScript

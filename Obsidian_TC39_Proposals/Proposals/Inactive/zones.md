@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2019-09-26<br>Keywords: #asynchronous #promise #error_handling <br>GitHub Link: https://github.com/domenic/zones <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2019-09-26<br>Topics: #async #others<br>Keywords: #asynchronous #promise #error_handling <br>GitHub Link: https://github.com/domenic/zones <br>GitHub Note Link: None
 # Proposal Description:<br>
 # Zones for JavaScript
 

@@ -2,7 +2,7 @@
 Stage 2: 2019-11-08  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2025-02-05<br>Keywords: #callback #default_value #map <br>GitHub Link: https://github.com/tc39/proposal-upsert <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#upsert-now-renamed-emplace-updates--for-stage-3
+Stage 4: NA<br>Last Commit: 2025-02-05<br>Topics: #functions #others #collections<br>Keywords: #callback #default_value #map <br>GitHub Link: https://github.com/tc39/proposal-upsert <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#upsert-now-renamed-emplace-updates--for-stage-3
 # Proposal Description:
 # Proposal Upsert
 

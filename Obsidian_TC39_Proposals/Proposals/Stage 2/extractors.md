@@ -2,7 +2,7 @@
 Stage 2: 2022-10-09 
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-09-27<br>Keywords: #extractor #destructuring #encapsulation #pattern_matching <br>GitHub Link: https://github.com/tc39/proposal-extractors <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#extractors-for-stage-2
+Stage 4: NA<br>Last Commit: 2024-09-27<br>Topics: #objects #others<br>Keywords: #extractor #destructuring #encapsulation #pattern_matching <br>GitHub Link: https://github.com/tc39/proposal-extractors <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#extractors-for-stage-2
 # Proposal Description:
 # Extractors for ECMAScript
 

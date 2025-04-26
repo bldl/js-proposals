@@ -2,7 +2,7 @@
 Stage 2: 2020-07-23  
 Stage 2.7: NA  
 Stage 3: 2022-07-20  
-Stage 4: NA<br>Last Commit: 2023-09-26<br>Keywords: #parse #json #serialization #reviver #performance<br>GitHub Link: https://github.com/tc39/proposal-json-parse-with-source <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-19.md#conclusiondecision-2
+Stage 4: NA<br>Last Commit: 2023-09-26<br>Topics: #json #objects #others #performance<br>Keywords: #parse #json #serialization #reviver #performance<br>GitHub Link: https://github.com/tc39/proposal-json-parse-with-source <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2022-07/jul-19.md#conclusiondecision-2
 # Proposal Description:
 # JSON.parse source text access
 

@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-07-13<br>Keywords: #catch #guards #error_handling #exception<br>GitHub Link: https://github.com/wmsbill/proposal-catch-guards <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2022-07-13<br>Topics: #others<br>Keywords: #catch #guards #error_handling #exception<br>GitHub Link: https://github.com/wmsbill/proposal-catch-guards <br>GitHub Note Link: None
 # Proposal Description:<br>
 # ECMAScript Catch Guards
 

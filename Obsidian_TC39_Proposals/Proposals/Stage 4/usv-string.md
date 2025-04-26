@@ -2,7 +2,7 @@
 Stage 2: 2022-09-13  
 Stage 2.7: NA  
 Stage 3: 2022-11-30  
-Stage 4: 2023-05-15<br>Last Commit: 2023-05-15<br>Keywords: #unicode  #string  #performance<br>GitHub Link: https://github.com/tc39/proposal-is-usv-string <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-15.md#well-formed-unicode-strings-for-stage-4
+Stage 4: 2023-05-15<br>Last Commit: 2023-05-15<br>Topics: #intl #others #performance<br>Keywords: #unicode  #string  #performance<br>GitHub Link: https://github.com/tc39/proposal-is-usv-string <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-05/may-15.md#well-formed-unicode-strings-for-stage-4
 # Proposal Description:
 # Well-Formed Unicode Strings
 

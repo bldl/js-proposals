@@ -2,7 +2,7 @@
 Stage 2: 2023-04-21  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2023-04-21<br>Keywords: #module #performance #bundler <br>GitHub Link: https://github.com/tc39/proposal-module-declarations <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-declarations
+Stage 4: NA<br>Last Commit: 2023-04-21<br>Topics: #modules #performance #others<br>Keywords: #module #performance #bundler <br>GitHub Link: https://github.com/tc39/proposal-module-declarations <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-declarations
 # Proposal Description:
 # JavaScript Module Declarations
 

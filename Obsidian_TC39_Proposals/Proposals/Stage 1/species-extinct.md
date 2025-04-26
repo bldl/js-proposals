@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-05-01<br>Keywords: #security #regex #array #typedarray #string #promise<br>GitHub Link: https://github.com/tc39/proposal-rm-builtin-subclassing <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-3.md#restrict-subclassing-support-for-built-in-methods-stage-1
+Stage 4: NA<br>Last Commit: 2024-05-01<br>Topics: #security #regex #arrays #others #async<br>Keywords: #security #regex #array #typedarray #string #promise<br>GitHub Link: https://github.com/tc39/proposal-rm-builtin-subclassing <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-06/june-3.md#restrict-subclassing-support-for-built-in-methods-stage-1
 # Proposal Description:
 # Restricting subclassing support in built-in methods
 

@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-12-11<br>Keywords: #decimal #numeric #arithmetic #math <br>GitHub Link: https://github.com/tc39/proposal-decimal <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#decimals
+Stage 4: NA<br>Last Commit: 2024-12-11<br>Topics: #numbers #others<br>Keywords: #decimal #numeric #arithmetic #math <br>GitHub Link: https://github.com/tc39/proposal-decimal <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-12/dec-15.md#decimals
 # Proposal Description:
 # Ecma TC39 JavaScript Decimal proposal
 

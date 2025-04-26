@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2016-12-15<br>Keywords: #cancellation #promise <br>GitHub Link: https://github.com/tc39/proposal-cancelable-promises <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2016-12-15<br>Topics: #async<br>Keywords: #cancellation #promise <br>GitHub Link: https://github.com/tc39/proposal-cancelable-promises <br>GitHub Note Link: None
 # Proposal Description:
 # Cancelable Promises
 

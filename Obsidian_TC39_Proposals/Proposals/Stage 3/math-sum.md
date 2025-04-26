@@ -2,7 +2,7 @@
 Stage 2: 2024-02-21  
 Stage 2.7: 2024-04-09  
 Stage 3: 2024-10-27  
-Stage 4: NA<br>Last Commit: 2024-10-27<br>Keywords: #floating_point  #iterable #performance #arithmetic <br>GitHub Link: https://github.com/tc39/proposal-math-sum <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#mathsumexact-for-stage-27
+Stage 4: NA<br>Last Commit: 2024-10-27<br>Topics: #numbers #iterators #performance<br>Keywords: #floating_point  #iterable #performance #arithmetic <br>GitHub Link: https://github.com/tc39/proposal-math-sum <br>GitHub Note Link: https://github.com/tc39/notes/blob/main/meetings/2024-04/april-09.md#mathsumexact-for-stage-27
 # Proposal Description:
 # Math.sumPrecise
 

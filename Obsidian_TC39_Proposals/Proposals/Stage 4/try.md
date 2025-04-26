@@ -2,7 +2,7 @@
 Stage 2: 2024-03-26  
 Stage 2.7: 2024-04-08  
 Stage 3: 2024-07-03  
-Stage 4: 2024-10-09<br>Last Commit: 2024-10-09<br>Keywords: #promise #synchronous #error_handling <br>GitHub Link: https://github.com/tc39/proposal-promise-try <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#promisetry-for-stage-4
+Stage 4: 2024-10-09<br>Last Commit: 2024-10-09<br>Topics: #async #concurrency #others<br>Keywords: #promise #synchronous #error_handling <br>GitHub Link: https://github.com/tc39/proposal-promise-try <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#promisetry-for-stage-4
 # Proposal Description:
 # Promise.try
 ECMAScript Proposal, specs, and reference implementation for `Promise.try`

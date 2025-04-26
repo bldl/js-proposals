@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2019-07-01<br>Keywords:  #module #security #communication<br>GitHub Link: https://github.com/tc39/proposal-module-keys <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-23.md#module-keys-strawman-for-stage-1
+Stage 4: NA<br>Last Commit: 2019-07-01<br>Topics: #modules #security #others<br>Keywords:  #module #security #communication<br>GitHub Link: https://github.com/tc39/proposal-module-keys <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-05/may-23.md#module-keys-strawman-for-stage-1
 # Proposal Description:
 # TC39 Module Keys (Stage 1 Proposal)
 

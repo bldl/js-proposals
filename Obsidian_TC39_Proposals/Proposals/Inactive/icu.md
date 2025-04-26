@@ -2,5 +2,5 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: None<br>Keywords:<br>GitHub Link: None <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-23.md#normative-icu-reference
+Stage 4: NA<br>Last Commit: None<br>Topics: <br>Keywords:<br>GitHub Link: None <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-05/may-23.md#normative-icu-reference
 # Proposal Description:<br>

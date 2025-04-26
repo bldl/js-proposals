@@ -2,7 +2,7 @@
 Stage 2: 2024-10-09  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2024-09-23<br>Keywords: #iterator #chunking #subsequences <br>GitHub Link: https://github.com/tc39/proposal-iterator-chunking <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#iterator-chunking-for-stage-2
+Stage 4: NA<br>Last Commit: 2024-09-23<br>Topics: #iterators #others<br>Keywords: #iterator #chunking #subsequences <br>GitHub Link: https://github.com/tc39/proposal-iterator-chunking <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#iterator-chunking-for-stage-2
 # Proposal Description:
 Iterator Chunking
 =================

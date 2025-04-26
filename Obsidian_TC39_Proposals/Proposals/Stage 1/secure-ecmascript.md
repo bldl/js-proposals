@@ -2,7 +2,7 @@
 Stage 2: NA
 Stage 2.7: NA
 Stage 3: NA
-Stage 4: NA<br>Last Commit: 2021-02-18<br>Keywords: #compartment #security #realm #immutable <br>GitHub Link: https://github.com/tc39/proposal-ses <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-6.md#ses-compartments
+Stage 4: NA<br>Last Commit: 2021-02-18<br>Topics: #security #realms #others<br>Keywords: #compartment #security #realm #immutable <br>GitHub Link: https://github.com/tc39/proposal-ses <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-02/february-6.md#ses-compartments
 # Proposal Description:
 # Draft Proposal for SES (Secure EcmaScript)
 

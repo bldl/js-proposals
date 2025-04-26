@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-06-08<br>Keywords: #promise #performance <br>GitHub Link: https://github.com/tc39/proposal-faster-promise-adoption <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#remove-job-from-promise-resolve-functions
+Stage 4: NA<br>Last Commit: 2022-06-08<br>Topics: #async #performance<br>Keywords: #promise #performance <br>GitHub Link: https://github.com/tc39/proposal-faster-promise-adoption <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-06/jun-06.md#remove-job-from-promise-resolve-functions
 # Proposal Description:
 # proposal-faster-promise-adoption
 

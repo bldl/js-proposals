@@ -2,7 +2,7 @@
 Stage 2: 2019-01-30  
 Stage 2.7: NA  
 Stage 3: 2019-03-27  
-Stage 4: 2019-07-24<br>Last Commit: 2019-12-09<br>Keywords: #promise #asynchronous <br>GitHub Link: https://github.com/tc39/proposal-promise-allSettled <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-24.md#promiseallsettled
+Stage 4: 2019-07-24<br>Last Commit: 2019-12-09<br>Topics: #async<br>Keywords: #promise #asynchronous <br>GitHub Link: https://github.com/tc39/proposal-promise-allSettled <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-07/july-24.md#promiseallsettled
 # Proposal Description:
 # `Promise.allSettled`
 

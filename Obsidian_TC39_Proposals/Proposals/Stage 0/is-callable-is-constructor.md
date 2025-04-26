@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-11-06<br>Keywords: #legacy #framework <br>GitHub Link: https://github.com/caitp/TC39-Proposals/blob/HEAD/tc39-reflect-isconstructor-iscallable.md <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2020-11-06<br>Topics: #others #functions<br>Keywords: #legacy #framework <br>GitHub Link: https://github.com/caitp/TC39-Proposals/blob/HEAD/tc39-reflect-isconstructor-iscallable.md <br>GitHub Note Link: None
 # Proposal Description:<br>
 Function.isCallable() / Function.isConstructor()
 ==============================================

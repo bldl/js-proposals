@@ -2,7 +2,7 @@
 Stage 2: 2017-03-22  
 Stage 2.7: NA  
 Stage 3: 2017-03-22  
-Stage 4: 2017-12-19<br>Last Commit: 2018-01-19<br>Keywords: #regex #multiline #any_character <br>GitHub Link: https://github.com/tc39/proposal-regexp-dotall-flag <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-28.md#9ie-regexp-dotall-status-update
+Stage 4: 2017-12-19<br>Last Commit: 2018-01-19<br>Topics: #regex #others<br>Keywords: #regex #multiline #any_character <br>GitHub Link: https://github.com/tc39/proposal-regexp-dotall-flag <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-28.md#9ie-regexp-dotall-status-update
 # Proposal Description:
 # ECMAScript proposal: `s` (`dotAll`) flag for regular expressions
 

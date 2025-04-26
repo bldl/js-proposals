@@ -3,7 +3,7 @@
 Stage 2: 2021-12-16  
 Stage 2.7: NA  
 Stage 3: 2022-10-18  
-Stage 4: 2024-10-08<br>Last Commit: 2024-10-08<br>Keywords: #modifiers #flags #regex <br>GitHub Link: https://github.com/tc39/proposal-regexp-modifiers <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#regexp-modifiers-for-stage-4
+Stage 4: 2024-10-08<br>Last Commit: 2024-10-08<br>Topics: #regex #others<br>Keywords: #modifiers #flags #regex <br>GitHub Link: https://github.com/tc39/proposal-regexp-modifiers <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#regexp-modifiers-for-stage-4
 # Proposal Description:
 <!--#region:intro-->
 # Regular Expression Pattern Modifiers for ECMAScript

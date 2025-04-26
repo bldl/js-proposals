@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-03-14<br>Keywords: #array #deduplication #unique <br>GitHub Link: https://github.com/tc39/proposal-array-unique <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#arrayprototypeunique-proposal-for-stage-1
+Stage 4: NA<br>Last Commit: 2022-03-14<br>Topics: #arrays #others<br>Keywords: #array #deduplication #unique <br>GitHub Link: https://github.com/tc39/proposal-array-unique <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-22.md#arrayprototypeunique-proposal-for-stage-1
 # Proposal Description:<br>
 # Array deduplication proposal
 

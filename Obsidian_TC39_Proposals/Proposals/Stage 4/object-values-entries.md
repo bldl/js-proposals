@@ -2,7 +2,7 @@
 Stage 2: 2015-09-24  
 Stage 2.7: NA  
 Stage 3: 2015-11-17  
-Stage 4: 2016-03-29<br>Last Commit: 2016-03-29<br>Keywords:  #iterator #key_value_pairs #array <br>GitHub Link: https://github.com/tc39/proposal-object-values-entries <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-03/march-29.md#objectvalues--objectentries
+Stage 4: 2016-03-29<br>Last Commit: 2016-03-29<br>Topics: #iterators #collections #arrays<br>Keywords:  #iterator #key_value_pairs #array <br>GitHub Link: https://github.com/tc39/proposal-object-values-entries <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2016-03/march-29.md#objectvalues--objectentries
 # Proposal Description:
 # [Object.values](https://github.com/es-shims/Object.values) / [Object.entries](https://github.com/es-shims/Object.entries)
 ECMAScript Proposal, specs, and reference implementation for `Object.values`/`Object.entries`

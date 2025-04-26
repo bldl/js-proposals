@@ -2,7 +2,7 @@
 Stage 2: 2017-06-12  
 Stage 2.7: NA  
 Stage 3: 2018-02-08  
-Stage 4: 2019-12-30<br>Last Commit: 2019-12-30<br>Keywords: #string #string_manipulation #formatting <br>GitHub Link: https://github.com/tc39/proposal-string-left-right-trim <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#stringprototypetrimstarttrimend-for-stage-4
+Stage 4: 2019-12-30<br>Last Commit: 2019-12-30<br>Topics: #others #intl<br>Keywords: #string #string_manipulation #formatting <br>GitHub Link: https://github.com/tc39/proposal-string-left-right-trim <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-01/jan-29.md#stringprototypetrimstarttrimend-for-stage-4
 # Proposal Description:
 # String.prototype.trimStart / String.prototype.trimEnd
 

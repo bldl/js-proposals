@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2016-04-29<br>Keywords: #key_value_pairs #iterator #serialization<br>GitHub Link: https://github.com/leobalter/object-enumerables <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2016-04-29<br>Topics: #collections #iterators #others<br>Keywords: #key_value_pairs #iterator #serialization<br>GitHub Link: https://github.com/leobalter/object-enumerables <br>GitHub Note Link: None
 # Proposal Description:<br>
 # Object.enumerableKeys / Object.enumerableValues / Object.enumerableEntries
 

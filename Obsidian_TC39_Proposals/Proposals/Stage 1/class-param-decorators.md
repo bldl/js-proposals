@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2025-01-28<br>Keywords: #decorator #class #metadata #parameter <br>GitHub Link: https://github.com/tc39/proposal-class-method-parameter-decorators <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#class-constructor-and-method-parameter-decorators
+Stage 4: NA<br>Last Commit: 2025-01-28<br>Topics: #objects #others<br>Keywords: #decorator #class #metadata #parameter <br>GitHub Link: https://github.com/tc39/proposal-class-method-parameter-decorators <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-23.md#class-constructor-and-method-parameter-decorators
 # Proposal Description:
 # ECMAScript Decorators for Class Method and Constructor Parameters
 

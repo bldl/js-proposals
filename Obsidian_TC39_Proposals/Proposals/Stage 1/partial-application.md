@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2021-10-19<br>Keywords: #partial_application #placeholder #calling_convention<br>GitHub Link: https://github.com/tc39/proposal-partial-application <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#partial-application
+Stage 4: NA<br>Last Commit: 2021-10-19<br>Topics: #others #functions<br>Keywords: #partial_application #placeholder #calling_convention<br>GitHub Link: https://github.com/tc39/proposal-partial-application <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#partial-application
 # Proposal Description:
 # Partial Application Syntax for ECMAScript
 

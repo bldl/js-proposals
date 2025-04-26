@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2018-05-10<br>Keywords: #pattern_matching   #destructuring  <br>GitHub Link: https://github.com/zkat/proposal-as-patterns <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2018-05-10<br>Topics: #others #objects<br>Keywords: #pattern_matching   #destructuring  <br>GitHub Link: https://github.com/zkat/proposal-as-patterns <br>GitHub Note Link: None
 # Proposal Description:<br>
 # ECMAScript As-Patterns for Matching and Destructuring
 

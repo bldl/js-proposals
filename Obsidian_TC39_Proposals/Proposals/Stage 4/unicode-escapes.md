@@ -2,7 +2,7 @@
 Stage 2: 2016-09-28  
 Stage 2.7: NA
 Stage 3: 2017-03-22  
-Stage 4: 2018-01-24<br>Last Commit: 2023-03-21<br>Keywords: #unicode #property #regex  #performance <br>GitHub Link: https://github.com/tc39/proposal-regexp-unicode-property-escapes <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-24.md#conclusionresolution-1
+Stage 4: 2018-01-24<br>Last Commit: 2023-03-21<br>Topics: #intl #objects #regex #performance<br>Keywords: #unicode #property #regex  #performance <br>GitHub Link: https://github.com/tc39/proposal-regexp-unicode-property-escapes <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-24.md#conclusionresolution-1
 # Proposal Description:
 # ECMAScript proposal: Unicode property escapes in regular expressions
 

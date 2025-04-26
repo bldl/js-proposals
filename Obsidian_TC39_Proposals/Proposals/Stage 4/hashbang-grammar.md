@@ -2,7 +2,7 @@
 Stage 2: 2018-09-11  
 Stage 2.7: NA  
 Stage 3: 2018-11-29  
-Stage 4: 2022-07-20<br>Last Commit: 2022-07-20<br>Keywords: #hashbang #cli #comments #grammar<br>GitHub Link: https://github.com/tc39/proposal-hashbang <br>GitHub Note Link: None
+Stage 4: 2022-07-20<br>Last Commit: 2022-07-20<br>Topics: #others<br>Keywords: #hashbang #cli #comments #grammar<br>GitHub Link: https://github.com/tc39/proposal-hashbang <br>GitHub Note Link: None
 # Proposal Description:
 # Hashbang Grammar
 

@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-08-21<br>Keywords: #map #set #cache #memory_management <br>GitHub Link: https://github.com/tc39/proposal-policy-map-set <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#policy-maps-and-sets-for-stage-1
+Stage 4: NA<br>Last Commit: 2022-08-21<br>Topics: #collections #others #memory<br>Keywords: #map #set #cache #memory_management <br>GitHub Link: https://github.com/tc39/proposal-policy-map-set <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-07/jul-21.md#policy-maps-and-sets-for-stage-1
 # Proposal Description:
 # Policy Maps and Sets for JavaScript
 ECMAScript Stage-1 Proposal. 2022.

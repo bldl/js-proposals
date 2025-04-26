@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-11-28<br>Keywords: #protocol #symbols #mixin #property <br>GitHub Link: https://github.com/tc39/proposal-first-class-protocols <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#updates-on-first-class-protocols
+Stage 4: NA<br>Last Commit: 2022-11-28<br>Topics: #others #objects<br>Keywords: #protocol #symbols #mixin #property <br>GitHub Link: https://github.com/tc39/proposal-first-class-protocols <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-07/july-25.md#updates-on-first-class-protocols
 # Proposal Description:
 ECMAScript First-Class Protocols Proposal
 =========================================

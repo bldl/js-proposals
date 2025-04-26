@@ -2,7 +2,7 @@
 Stage 2: NA
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2017-04-06<br>Keywords: #module #dynamic #evaluation <br>GitHub Link: https://github.com/tc39/proposal-dynamic-modules <br>GitHub Note Link: https://github.com/rwaldron/tc39-notes/blob/master/es8/2017-03/mar-23.md#10iia-dynamic-module-reform-for-stage-2
+Stage 4: NA<br>Last Commit: 2017-04-06<br>Topics: #modules #others<br>Keywords: #module #dynamic #evaluation <br>GitHub Link: https://github.com/tc39/proposal-dynamic-modules <br>GitHub Note Link: https://github.com/rwaldron/tc39-notes/blob/master/es8/2017-03/mar-23.md#10iia-dynamic-module-reform-for-stage-2
 # Proposal Description:
 # Dynamic Module Reform (REJECTED)
 

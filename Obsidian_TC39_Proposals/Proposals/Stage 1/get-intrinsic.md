@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2023-09-21<br>Keywords: #intrinsic #first_run #runtime #robustness #evaluation #cache<br>GitHub Link: https://github.com/tc39/proposal-get-intrinsic <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#get-intrinsic-for-stage-1
+Stage 4: NA<br>Last Commit: 2023-09-21<br>Topics: #others<br>Keywords: #intrinsic #first_run #runtime #robustness #evaluation #cache<br>GitHub Link: https://github.com/tc39/proposal-get-intrinsic <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/sept-01.md#get-intrinsic-for-stage-1
 # Proposal Description:
 # "Get Intrinsic" Proposal
 

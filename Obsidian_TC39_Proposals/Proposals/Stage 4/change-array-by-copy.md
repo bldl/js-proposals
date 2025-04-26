@@ -2,7 +2,7 @@
 Stage 2: 2021-09-03  
 Stage 2.7: NA  
 Stage 3: 2022-03-31  
-Stage 4: 2023-03-05<br>Last Commit: 2023-08-01<br>Keywords: #array #immutable #typedarray <br>GitHub Link: https://github.com/tc39/proposal-change-array-by-copy <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-30.md#change-array-by-copy
+Stage 4: 2023-03-05<br>Last Commit: 2023-08-01<br>Topics: #arrays #others<br>Keywords: #array #immutable #typedarray <br>GitHub Link: https://github.com/tc39/proposal-change-array-by-copy <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2022-03/mar-30.md#change-array-by-copy
 # Proposal Description:
 > **Note**
 > This proposal is ['finished'](https://github.com/tc39/proposals/blob/main/finished-proposals.md) and has been merged into the ECMAScript spec. [PR](https://github.com/tc39/ecma262/pull/2997)

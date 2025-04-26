@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-11-17<br>Keywords: #debug #property #environment <br>GitHub Link: https://github.com/tc39/proposal-standardized-debug <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#standardized-debug-for-stage-2
+Stage 4: NA<br>Last Commit: 2020-11-17<br>Topics: #others #objects<br>Keywords: #debug #property #environment <br>GitHub Link: https://github.com/tc39/proposal-standardized-debug <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-11/nov-17.md#standardized-debug-for-stage-2
 # Proposal Description:
 # Standardized Debug
 

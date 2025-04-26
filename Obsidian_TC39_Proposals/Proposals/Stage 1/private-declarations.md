@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-01-21<br>Keywords: #protected #private #class #visibility<br>GitHub Link: https://github.com/tc39/proposal-private-declarations <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-28.md#private-declarations-for-stage-1
+Stage 4: NA<br>Last Commit: 2020-01-21<br>Topics: #objects #others<br>Keywords: #protected #private #class #visibility<br>GitHub Link: https://github.com/tc39/proposal-private-declarations <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-28.md#private-declarations-for-stage-1
 # Proposal Description:
 # Private Declarations
 

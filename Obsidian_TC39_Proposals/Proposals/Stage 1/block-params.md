@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2021-02-10<br>Keywords: #block #parameter #lambda #domain_specific_language <br>GitHub Link: https://github.com/samuelgoto/proposal-block-params <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-30.md#9iiia-block-params-to-stage-1
+Stage 4: NA<br>Last Commit: 2021-02-10<br>Topics: #others #functions<br>Keywords: #block #parameter #lambda #domain_specific_language <br>GitHub Link: https://github.com/samuelgoto/proposal-block-params <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-30.md#9iiia-block-params-to-stage-1
 # Proposal Description:<br>
 Early feedback from @adamk, @domenic, @slightlyoff, @erights, @waldemarhowart, @bterlson and @rwaldron (click [here](https://github.com/samuelgoto/proposal-block-params/issues/new) to send feedback).
 
