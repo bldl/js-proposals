@@ -4301,5 +4301,10 @@ ggplot(data_long, aes(x = Stage.4, y = Tag)) +
 
 data <- read.csv("Tags/TagDates.csv")
 
-tagCount <- data %>% count(Tag, sort=TRUE)
-write.csv(tagCount, file = "Tags/TagCount.csv")
+#tagCount <- data %>% count(Tag, sort=TRUE)
+#write.csv(tagCount, file = "Tags/TagCount.csv")
+
+# make a sum of all topics
+topicCount <- read.csv("Tags/TagCount.csv", header = FALSE)
+count <- aggregate(V2 ~ V3, data = topicCount, sum)
+write.csv(count, file = "Tags/TopicCount.csv")
