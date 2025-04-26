@@ -473,12 +473,18 @@ def updateTags():
                             tags = re.findall(r'#[\w-]+', line)
                             newTags = lookupPairs(tags, tagPairs)
 
+                    newLines = []
                     for line in proposalContent.split("<br>"):
-
                         if "Keywords:" in line:
                             keywords = re.findall(r'#[\w-]+', line)
-                            print(keywords)
-                            print(newTags)
+                            keywords.append("<br> ")
+                            newLines.append("Topics: ")
+                            for each in newTags:
+                                newLines.append(each)
+                        newLines.append(line)
+
+                with open(fullPath, "w") as proposal:
+                    proposal.writelines(newLines)
                 
 
 
