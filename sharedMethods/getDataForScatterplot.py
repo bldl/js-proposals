@@ -431,6 +431,7 @@ def getTagPairsFromCSV():
         array = content.split("\n")
         for each in array:
             pair = each.split(",")
+            print(pair)
             first = pair[0]
             second = pair[2]      
             tags.update({first: second})

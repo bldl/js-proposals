@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-07-07<br>Topics: #arrays #others #ergonomic<br>Keywords: #array #typedarray #slice #ergonomic #ergonomic<br>GitHub Link: https://github.com/tc39/proposal-slice-notation <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#slice-notation-for-stage-2
+Stage 4: NA<br>Last Commit: 2022-07-07<br>Topics: #arrays #others #ergonomics<br>Keywords: #array #typedarray #slice #ergonomic #ergonomic<br>GitHub Link: https://github.com/tc39/proposal-slice-notation <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#slice-notation-for-stage-2
 # Proposal Description:
 # Slice notation
 

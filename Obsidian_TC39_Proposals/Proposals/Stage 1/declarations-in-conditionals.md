@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2022-01-24<br>Topics: #ergonomic #others #performance<br>Keywords:  #conditional #transpilation #evaluation #performance #scope<br>GitHub Link: https://github.com/tc39/proposal-Declarations-in-Conditionals <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#declarations-in-conditionals
+Stage 4: NA<br>Last Commit: 2022-01-24<br>Topics: #ergonomics #others #performance<br>Keywords:  #conditional #transpilation #evaluation #performance #scope<br>GitHub Link: https://github.com/tc39/proposal-Declarations-in-Conditionals <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2019-10/october-2.md#declarations-in-conditionals
 # Proposal Description:
 # Declarations in Conditionals
 

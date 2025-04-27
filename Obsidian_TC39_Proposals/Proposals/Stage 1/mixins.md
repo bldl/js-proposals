@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2019-12-06<br>Topics: #others #objects #ergonomic<br>Keywords: #mixin #factory #class #ergonomic <br>GitHub Link: https://github.com/justinfagnani/proposal-mixins <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiie-maximally-minimal-mixins-proposal
+Stage 4: NA<br>Last Commit: 2019-12-06<br>Topics: #others #objects #ergonomics<br>Keywords: #mixin #factory #class #ergonomic <br>GitHub Link: https://github.com/justinfagnani/proposal-mixins <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iiie-maximally-minimal-mixins-proposal
 # Proposal Description:
 # Maximally Minimal Mixins
 @justinfagnani

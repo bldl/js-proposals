@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2018-04-17<br>Topics: #objects #others #ergonomic<br>Keywords: #freeze #seal #ergonomic #destructuring <br>GitHub Link: https://github.com/keithamus/proposal-object-freeze-seal-syntax <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-30.md#10ivd-objectfreeze--objectseal-syntax-proposal-for-stage-0
+Stage 4: NA<br>Last Commit: 2018-04-17<br>Topics: #objects #others #ergonomics<br>Keywords: #freeze #seal #ergonomic #destructuring <br>GitHub Link: https://github.com/keithamus/proposal-object-freeze-seal-syntax <br>GitHub Note Link: https://github.com/tc39/notes/blob/HEAD/meetings/2017-11/nov-30.md#10ivd-objectfreeze--objectseal-syntax-proposal-for-stage-0
 # Proposal Description:
 # Object.freeze and Object.seal syntax
 

@@ -2,7 +2,7 @@
 Stage 2: NA  
 Stage 2.7: NA  
 Stage 3: NA  
-Stage 4: NA<br>Last Commit: 2020-04-03<br>Topics: #modules #ergonomic<br>Keywords: #module #ergonomics <br>GitHub Link: https://github.com/bmeck/proposal-from-import <br>GitHub Note Link: None
+Stage 4: NA<br>Last Commit: 2020-04-03<br>Topics: #modules #ergonomics<br>Keywords: #module #ergonomics <br>GitHub Link: https://github.com/bmeck/proposal-from-import <br>GitHub Note Link: None
 # Proposal Description:<br>
 # from ... import ...;
 
