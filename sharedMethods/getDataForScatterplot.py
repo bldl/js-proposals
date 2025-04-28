@@ -330,7 +330,8 @@ def extractTagStage1Stage4(title, fullPath):
     with open(f"{fullPath}", "r") as proposal:
         proposalContent = proposal.read()
         for line in proposalContent.split("<br>"):
-            if "Keywords:" in line:
+            if "Topics:" in line:
+            #if "Keywords:" in line:
                 tags = re.findall(r'#[\w-]+', line)
             if "Stage 1:" in line:
                 stage1 = re.search(r"Stage 1:\s+([^\s<]+)", line)
@@ -409,7 +410,7 @@ def getTags():
             for each in each:
                 returnList.append(each)
 
-    with open(f"Data Analysis/Tags/TagDates.csv", "w", newline='') as file:
+    with open(f"Data Analysis/Tags/TopicDates.csv", "w", newline='') as file:
         writer = csv.writer(file)
         writer.writerows(returnList)
 
