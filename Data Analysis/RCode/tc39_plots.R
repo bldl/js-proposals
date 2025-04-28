@@ -950,7 +950,7 @@ ggplot(data_no_stage4, aes(x=name, y=value, fill = name)) +
   geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
   geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
   scale_fill_brewer(palette = "Set1") + 
-  labs(x = "Change Type", y = "Time in Months", title = "API Change Stage 4 durations with SD") +
+  labs(x = "Stage", y = "Time in Months", title = "API Change Stage 4 durations with SD") +
   theme(legend.position="none")
 
 
@@ -1059,7 +1059,7 @@ ggplot(data_no_stage4, aes(x=name, y=value, fill = name)) +
   geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
   geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
   scale_fill_brewer(palette = "Set1") + 
-  labs(x = "Change Type", y = "Time in Months", title = "API+Sem Change Stage 4 durations with SD") +
+  labs(x = "Stage", y = "Time in Months", title = "API+Sem Change Stage 4 durations with SD") +
   theme(legend.position="none")
 
 
@@ -1169,7 +1169,7 @@ ggplot(data_no_stage4, aes(x=name, y=value, fill = name)) +
   geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
   geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
   scale_fill_brewer(palette = "Set1") + 
-  labs(x = "Change Type", y = "Time in Months", title = "API+Syn Change Stage 4 durations with SD") +
+  labs(x = "Stage", y = "Time in Months", title = "API+Syn Change Stage 4 durations with SD") +
   theme(legend.position="none")
 
 
@@ -1283,7 +1283,7 @@ ggplot(data_no_stage4, aes(x=name, y=value, fill = name)) +
   geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
   geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
   scale_fill_brewer(palette = "Set1") + 
-  labs(x = "Change Type", y = "Time in Months", title = "Syn+Sem Change Stage 4 durations with SD") +
+  labs(x = "Stage", y = "Time in Months", title = "Syn+Sem Change Stage 4 durations with SD") +
   theme(legend.position="none")
 
 
@@ -1386,7 +1386,7 @@ ggplot(data_no_stage4, aes(x=name, y=value, fill = name)) +
   geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
   geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
   scale_fill_brewer(palette = "Set1") + 
-  labs(x = "Change Type", y = "Time in Months", title = "Sem Change Stage 4 durations with SD") +
+  labs(x = "Stage", y = "Time in Months", title = "Sem Change Stage 4 durations with SD") +
   theme(legend.position="none")
 
 
@@ -1492,7 +1492,7 @@ ggplot(data_no_stage4, aes(x=name, y=value, fill = name)) +
   geom_errorbar(aes(x=name, ymin=value-sd, ymax= value+sd), width=0.4, colour="orange", alpha=0.9) +
   geom_text(aes(label = round(value, 1)), vjust = -0.5, size = 3.5) +
   scale_fill_brewer(palette = "Set1") + 
-  labs(x = "Change Type", y = "Time in Months", title = "Syn Change Stage 4 durations with SD") +
+  labs(x = "Stage", y = "Time in Months", title = "Syn Change Stage 4 durations with SD") +
   theme(legend.position="none")
 
 
@@ -4221,7 +4221,7 @@ ggplot(data_long, aes(x = Date, y = Classification)) +
 ggplot(data_long, aes(x = MonthsSinceStart, y = Classification)) +
   geom_point(size = 1) +
   labs(title = "Stage 4 Proposals Months Since Start Per Classification",
-       x = "Date",
+       x = "Months",
        y = "Classification",
        color = "Stage") +
   theme_minimal() 
