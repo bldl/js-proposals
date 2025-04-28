@@ -11,12 +11,24 @@
             "id": "0bd472477d508b7e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Analysis/Stages/Plots/InactivePlot1.pdf"
+                "file": "index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "InactivePlot1"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ]
@@ -169,6 +181,7 @@
   },
   "active": "0bd472477d508b7e",
   "lastOpenFiles": [
+    "Analysis/Stages/Plots/InactivePlot1.pdf",
     "Analysis/Classifications/Unknown.md",
     "Analysis/Classifications/Semantic Change.md",
     "Analysis/Classifications/Syntactic Change.md",
