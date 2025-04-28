@@ -1,70 +1,7 @@
+Changes the meaning of the JavaScript code even if the syntax remains the same. These changes can alter the behavior of existing JavaScript programs in subtle or breaking ways. Usually involves modifying execution rules rather than introducing new syntax.
 
-# Inactive
+![[Semantic Changes.pdf]]
 
-```dataview
+![[Semantic Changes - box plot by months without last commit.pdf]]
 
-TABLE 
-file.tags AS "Tags"
-WHERE contains(file.outlinks, link("Semantic Change")) AND contains(file.outlinks, link("Inactive"))
-
-```
-
-# Stage 0
-
-```dataview
-
-TABLE 
-file.tags AS "Tags"
-WHERE contains(file.outlinks, link("Semantic Change")) AND contains(file.outlinks, link("Stage 0")) 
-
-```
-
-# Stage 1
-
-```dataview
-
-TABLE 
-file.tags AS "Tags"
-WHERE contains(file.outlinks, link("Semantic Change")) AND contains(file.outlinks, link("Stage 1")) 
-
-```
-
-# Stage 2
-
-```dataview
-
-TABLE 
-file.tags AS "Tags"
-WHERE contains(file.outlinks, link("Semantic Change")) AND contains(file.outlinks, link("Stage 2")) 
-
-```
-
-# Stage 2.7
-
-```dataview
-
-TABLE 
-file.tags AS "Tags"
-WHERE contains(file.outlinks, link("Semantic Change")) AND contains(file.outlinks, link("Stage 2.7")) 
-
-```
-
-# Stage 3
-
-```dataview
-
-TABLE 
-file.tags AS "Tags"
-WHERE contains(file.outlinks, link("Semantic Change")) AND contains(file.outlinks, link("Stage 3"))  
-
-```
-
-# Stage 4
-
-```dataview
-
-TABLE 
-file.tags AS "Tags"
-WHERE contains(file.outlinks, link("Semantic Change")) AND contains(file.outlinks, link("Stage 4")) 
-
-```
+![[Semantic Changes Stage 4.pdf]]

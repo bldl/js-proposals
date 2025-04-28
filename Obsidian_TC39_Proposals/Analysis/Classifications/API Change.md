@@ -1,80 +1,10 @@
+Modifies or introduces new functions, objects, or methods in the standard library. These changes do not affect the syntax of the language but add new functionality to existing features.
 
-# Inactive
-```dataview
+![[API Changes.pdf]]
 
-TABLE 
-file.tags AS "Tags"
-WHERE contains(file.outlinks, link("API Change")) AND contains(file.outlinks, link("Inactive")) 
+![[API Changes - box plot by months without last commit.pdf]]
 
-```
-
-
-# Stage 0
-
-```dataview
-
-TABLE 
-file.tags AS "Tags"
-WHERE contains(file.outlinks, link("API Change")) AND contains(file.outlinks, link("Stage 0"))
-
-```
-# Stage 1
-
-```dataview
-
-TABLE 
-file.tags AS "Tags"
-WHERE contains(file.outlinks, link("API Change")) AND contains(file.outlinks, link("Stage 1"))
-
-```
-
-# Stage 2
-
-```dataview
-
-TABLE 
-file.tags AS "Tags"
-WHERE contains(file.outlinks, link("API Change")) AND contains(file.outlinks, link("Stage 2"))
-
-```
-
-# Stage 2.7
-
-```dataview
-
-TABLE 
-file.tags AS "Tags"
-WHERE contains(file.outlinks, link("API Change")) AND contains(file.outlinks, link("Stage 2.7"))
-
-```
-
-# Stage 3
-
-```dataview
-
-TABLE 
-file.tags AS "Tags"
-WHERE contains(file.outlinks, link("API Change")) AND contains(file.outlinks, link("Stage 3"))
-
-```
-
-# Stage 4
-
-```dataview
-
-TABLE 
-file.tags AS "Tags"
-WHERE contains(file.outlinks, link("API Change")) AND contains(file.outlinks, link("Stage 4"))
-
-```
-
-
-
-
-
-
-
-
+![[API Changes Stage 4.pdf]]
 
 
 

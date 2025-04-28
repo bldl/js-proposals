@@ -11,24 +11,12 @@
             "id": "0bd472477d508b7e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Proposals/Stage 4/at.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Analysis/Stages/Plots/InactivePlot1.pdf"
               },
-              "icon": "lucide-file",
-              "title": "at"
+              "icon": "lucide-file-text",
+              "title": "InactivePlot1"
             }
           }
         ]
@@ -181,9 +169,32 @@
   },
   "active": "0bd472477d508b7e",
   "lastOpenFiles": [
+    "Analysis/Classifications/Unknown.md",
+    "Analysis/Classifications/Semantic Change.md",
+    "Analysis/Classifications/Syntactic Change.md",
+    "index.md",
+    "Proposals/Plot/Topics Stage 1 vs Start Date.pdf",
+    "Proposals/Plot/Stage 4 Topics vs Adoption Date.pdf",
+    "Proposals/Plot/Stage 4.pdf",
+    "Proposals/Plot/Duration per stage for all active proposals.pdf",
+    "Proposals/Plot/Donut Plot Stages.pdf",
+    "Proposals/Plot",
+    "Analysis/Classifications/Plots/Syntactic Changes Stage 4.pdf",
+    "Analysis/Classifications/Plots/Syntactic Changes - box plot by months without last commit.pdf",
+    "Analysis/Classifications/Plots/Syntactic Changes.pdf",
+    "Analysis/Classifications/Plots/Syn_Sem.pdf",
+    "Analysis/Classifications/API Change.md",
+    "Analysis/Stages/Stage 4.md",
+    "Analysis/Stages/Stage 3.md",
+    "Analysis/Stages/Stage 2.7.md",
+    "Analysis/Stages/Stage 2.md",
+    "Analysis/Stages/Stage 1.md",
+    "Analysis/Stages/Stage 0.md",
+    "Analysis/Stages/Inactive.md",
+    "Proposals/Stage 0/as-patterns.md",
+    "Proposals/Stage 4/at.md",
     "Proposals/Stage 4/await.md",
     "Proposals/Stage 4/allsettled.md",
-    "index.md",
     "Proposals/Stage 2/map-emplace.md",
     "Proposals/Stage 2/function-sent.md",
     "Proposals/Stage 2/discards.md",
@@ -193,30 +204,6 @@
     "Proposals/Stage 2.7/sequencing.md",
     "Proposals/Stage 2.7/joint.md",
     "Proposals/Stage 2.7/immutable-abs.md",
-    "Proposals/Stage 2.7/lazy-import.md",
-    "Proposals/Stage 2.7/shadowrealm.md",
-    "Proposals/Stage 2.7/esm-phase.md",
-    "Analysis/Classifications/Unknown.md",
-    "Analysis/Classifications/Syntactic Change.md",
-    "Analysis/Classifications/API Change.md",
-    "Analysis/Classifications/Semantic Change.md",
-    "Analysis/Stages/Stage 4.md",
-    "Analysis/Stages/Stage 0.md",
-    "Proposals/Stage 1/bigint-math.md",
-    "Proposals/Inactive/zones.md",
-    "Proposals/Inactive/uuid.md",
-    "Proposals/Inactive/unused-params.md",
-    "Proposals/Inactive/unicode-sequence-properties.md",
-    "github.com/tc39",
-    "github.com",
-    "Analysis/Stages/Plots/Stage0Plot1.pdf",
-    "Analysis/Stages/Plots/InactivePlot1.pdf",
-    "Analysis/Stages/Plots",
-    "Analysis/Stages/Plots/Stage4Plot1.pdf",
-    "Analysis/Stages/Plots/Stage3Plot1.pdf",
-    "Analysis/Stages/Plots/Stage2Plot1.pdf",
-    "Analysis/Stages/Plots/Stage2.7Plot1.pdf",
-    "Analysis/Stages/Plots/InactivePlot4.pdf",
     "Untitled.canvas"
   ]
 }

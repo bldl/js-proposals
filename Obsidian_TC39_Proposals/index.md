@@ -31,3 +31,36 @@ The changes we are classifying are the following:
 
 - [[Syntactic Change]]: Introduces new syntax or modifies existing syntax rules. Usually involves new keywords, operators, or expressions. These changes often require updates to parsers and affect how JavaScript code is written.
 
+![[Donut Plot Stages.pdf]]
+
+![[Stage 4.pdf]]
+
+![[Stage 3.pdf]]
+
+![[Stage 2.7.pdf]]
+
+![[Stage 2.pdf]]
+
+![[Stage 1.pdf]]
+
+![[Stage 0.pdf]]
+
+![[Inactive.pdf]]
+
+![[Duration per stage for all active proposals.pdf]]
+
+![[Api.pdf]]
+
+![[API_Sem.pdf]]
+
+![[API_Syn.pdf]]
+
+![[Syn_Sem.pdf]]
+
+![[Sem.pdf]]
+
+![[Syn.pdf]]
+
+![[Topics Stage 1 vs Start Date.pdf]]
+
+![[Stage 4 Topics vs Adoption Date.pdf]]
