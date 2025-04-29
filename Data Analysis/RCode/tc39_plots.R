@@ -4267,9 +4267,9 @@ data_long <- data %>%
 # Create the grouped scatter plot
 ggplot(data_long, aes(x = MonthsSinceStart, y = Tag)) +
   geom_point(size = 1) +
-  labs(title = "Stage 4: Tags vs Months Since Stage 1",
-       x = "Date",
-       y = "Classification",
+  labs(title = "Stage 4: Keywords vs Months Since Stage 1",
+       x = "Months",
+       y = "Keywords",
        color = "Stage") +
   theme_minimal() 
 
@@ -4293,9 +4293,9 @@ data_long <- data %>%
 # Create the grouped scatter plot
 ggplot(data_long, aes(x = Stage.4, y = Tag)) +
   geom_point(size = 1) +
-  labs(title = "Stage 4: Tags vs Adoption Date",
+  labs(title = "Stage 4: Keywords vs Adoption Date",
        x = "Date",
-       y = "Classification",
+       y = "Keywords",
        color = "Stage") +
   theme_minimal() 
 
@@ -4306,8 +4306,8 @@ data <- read.csv("Tags/TagDates.csv")
 
 # make a sum of all topics
 topicCount <- read.csv("Tags/TagCount.csv", header = FALSE)
-count <- aggregate(V2 ~ V3, data = topicCount, sum)
-write.csv(count, file = "Tags/TopicCount.csv")
+#count <- aggregate(V2 ~ V3, data = topicCount, sum)
+#write.csv(count, file = "Tags/TopicCount.csv")
 
 
 #tag plots
@@ -4330,7 +4330,7 @@ ggplot(data_long, aes(x = Stage.4, y = Topics)) +
   geom_point(size = 1, na.rm = TRUE) +
   labs(title = "Stage 4: Topics vs Adoption Date",
        x = "Date",
-       y = "Classification",
+       y = "Topics",
        color = "Stage") +
   theme_minimal() 
 
@@ -4354,35 +4354,9 @@ ggplot(data_long, aes(x = Stage.1, y = Topics)) +
   geom_point(size = 1, na.rm = TRUE) +
   labs(title = "Stage 1: Topics vs Start Date",
        x = "Date",
-       y = "Classification",
+       y = "Topics",
        color = "Stage") +
   theme_minimal() 
 
 
 
-#tag plots
-#Look at single stage
-#setwd in Data Analysis
-data <- read.csv("Tags/TopicDates.csv")
-
-#setwd in CSVFiles/CSVChanges
-#file_list <- list.files()
-#load_files <- lapply(file_list, read.csv)
-#data <- do.call("rbind", load_files)
-
-data_long <- data %>%
-  # Mutates the date into ymd format for R to understand and process
-  mutate(
-    Stage.1 = ymd(Stage.1),
-    Stage.4 = ymd(Stage.4),
-    MonthsSinceStart = interval(Stage.1, Stage.4) %/% months(1))
-
-
-# Create the grouped scatter plot
-ggplot(data_long, aes(x = reorder(MonthsSinceStart), y = Topics)) +
-  geom_point(size = 1) +
-  labs(title = "Stage 4: Tags vs Months Since Stage 1",
-       x = "Date",
-       y = "Classification",
-       color = "Stage") +
-  theme_minimal() 
